@@ -54,7 +54,7 @@ Suggested order: M0.1 → S3 → S1 → S4 → S2 → S7 → M0.2. S3 goes first
 - [x] T0.S3.4 Resource router: pick addons by `types`/`idPrefixes`; fan out in parallel; per-addon timeout.
 - [x] T0.S3.5 `cacheMaxAge`/`staleRevalidate`/`staleError` honoured (in-memory is fine for the spike).
 - [x] T0.S3.6 Dev CLI: `stremio-cli catalog|meta|streams <addon-url> …` printing results as they arrive.
-- [~] T0.S3.7 Record fixtures from the 10 addons; write the S3 report. 7/10 recorded + report done; AIOStreams, Comet and MediaFusion need the owner's config (D61): `stremio-cli record`, see [fixtures/README](../../fixtures/README.md#recording-an-addon).
+- [~] T0.S3.7 Record fixtures from the 10 addons; write the S3 report. 8 recorded (incl. Hyper as an extra) + report done; AIOStreams, Comet and MediaFusion need the owner's config (D61): `stremio-cli record`, see [fixtures/README](../../fixtures/README.md#recording-an-addon).
 
 ## S1 libmpv under a transparent webview
 

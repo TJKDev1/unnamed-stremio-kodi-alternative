@@ -122,6 +122,7 @@ Anonymizing is idempotent; `app-fixtures check` (CI) fails on any fixture that i
 | M3U/EPG TV Addon (iptv-org config) | `tv` type, base64 config in path | S3 |
 | Torrentio (unconfigured) | `infoHash` streams | S3 |
 | WatchHub | `externalUrl` streams | S3 |
+| Hyper (unconfigured) | `name: null`, paywall/upsell `externalUrl` streams, `tmdb:` ids, 404 for unknown ids | S3 |
 
 ## Open items
 - Grow to ~20 addons in M1.2.
