@@ -29,16 +29,17 @@ impl Manifest {
                 return Err(Error::Manifest(format!("`{field}` is empty")));
             }
         }
-        if manifest.resources.is_empty() {
-            return Err(Error::Manifest("no usable `resources`".into()));
-        }
-
         let mut warnings: Vec<Warning> = parsed
             .dropped
             .into_iter()
             .map(|d| Warning(format!("dropped {}: {}", d.item, d.error)))
             .collect();
         let mut warn = |msg: String| warnings.push(Warning(msg));
+        // Stremio accepts an empty list (an unconfigured AIOStreams serves one); the addon
+        // just never matches a request.
+        if manifest.resources.is_empty() {
+            warn("no usable `resources`: the addon serves nothing".into());
+        }
         let known_type = |t: &String| manifest.types.contains(t);
         for resource in &manifest.resources {
             for t in resource.types().unwrap_or_default() {
@@ -146,9 +147,17 @@ mod tests {
         let mut m = base();
         m["id"] = json!(" ");
         assert!(validate(m).is_err());
-        let mut m = base();
-        m["resources"] = json!([7]);
-        assert!(validate(m).is_err());
+    }
+
+    #[test]
+    fn empty_resources_load_with_a_warning() {
+        for resources in [json!([]), json!([7])] {
+            let mut m = base();
+            m["resources"] = resources;
+            let v = validate(m).unwrap();
+            assert!(v.manifest.resources.is_empty());
+            assert!(!v.warnings.is_empty());
+        }
     }
 
     #[test]

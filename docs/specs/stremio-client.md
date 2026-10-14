@@ -38,7 +38,8 @@ The default implementation (`ReqwestTransport`, feature `reqwest`, on by default
 - Legacy aliases are **not** serde aliases: Cinemeta and TMDB send `episode` *and* `number`, `title` *and* `name` on the same video, which an alias rejects as a duplicate field. `Video::episode_number()` / `Video::display_title()` fall back to the legacy field instead.
 
 ### Manifest validation
-`Manifest::from_json` fails when `id`, `name` or `version` is missing or empty, or when no `resources` entry is usable. It returns warnings (not errors) when:
+`Manifest::from_json` fails when `id`, `name` or `version` is missing or empty, or `resources` is missing. It returns warnings (not errors) when:
+- `resources` has no usable entry (Stremio accepts `[]`; an unconfigured AIOStreams serves it);
 - a list item was dropped (bad resource, catalog, extra);
 - a resource object or catalog uses a type not listed in `types`;
 - a catalog uses the legacy `extraSupported`/`extraRequired` (names only in `extraRequired` are treated as supported);
