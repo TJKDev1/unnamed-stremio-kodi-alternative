@@ -87,9 +87,9 @@ Recordings are written by `stremio-cli record`, which, **before anything touches
 2. scrubs secrets (T0.1.7 scrubber, plus `FIXTURE_SECRETS`);
 3. anonymizes stream and subtitle content (`app_fixtures::anonymize`), at any depth inside an item: technical tokens (resolution, codec, HDR, size, languages), numbers, emoji and punctuation are kept; every other word becomes `Title`; `infoHash`/`videoHash` become zero-padded counters; URLs (including subtitle URLs and `tracker:<url>` / `dht:<hash>` sources) become `<scheme>://stream.invalid/<n>[.ext]` or fake hashes. Only `ytId`, `countryWhitelist` and subtitle `lang`/encoding codes stay verbatim;
 4. names each file from the request path, unless the path itself contains something secret (then `<resource>/redacted/<n>.json`);
-5. writes into a staging folder (`.<name>.recording`), re-checks every file's contents **and name**, and only then replaces the previous recording. Any failure (fetch, write, check) leaves the old recording untouched.
+5. writes into a staging folder (`.<name>.recording`), re-checks every file's contents **and name**, and only then swaps it in (the old folder is moved aside and restored if the swap fails). A failed manifest fetch, write or check leaves the old recording untouched; a failed *resource* request is part of the recording (an index entry with `error` or a non-2xx `status`).
 
-The addon URL's query parameter values count as secrets, like its path. Everything the CLI prints goes through the same scrubber (errors can quote URLs).
+The addon URL's query parameter values count as secrets, like its path. URLs embedded in prose are scrubbed too. Everything the CLI prints, including argument errors, goes through the same scrubber (errors can quote URLs). CI's `app-fixtures check` also checks file names (after up to three rounds of percent-decoding).
 
 Anonymizing is idempotent; `app-fixtures check` (CI) fails on any fixture that isn't already scrubbed and anonymized. Without explicit paths the recorder picks up to 8 catalogs plus one `skip`, `genre` and `search` variant, both addon catalogs, up to 3 metas (ids from catalogs first, then Inception / Game of Thrones / Cowboy Bebop) and up to 5 stream and subtitle requests the manifest claims to serve.
 

@@ -128,6 +128,23 @@ impl Scrubber {
         self.scrub(&mut value.clone())
     }
 
+    /// Why a file path looks secret, if it does: checked as written and after up to three
+    /// rounds of percent-decoding (fixture file names are percent-encoded, sometimes twice).
+    pub fn check_path(&self, path: &str) -> Option<&'static str> {
+        let mut candidate = path.replace('\\', "/");
+        for _ in 0..4 {
+            if let (_, Some(reason)) = self.scrub_str(&candidate) {
+                return Some(reason);
+            }
+            let next = percent_decode(&candidate);
+            if next == candidate {
+                break;
+            }
+            candidate = next;
+        }
+        None
+    }
+
     /// Scrubs a single string that is not inside a secret key.
     pub fn scrub_str(&self, text: &str) -> (String, Option<&'static str>) {
         let (out, reason) = self.scrub_text(text, 0);
@@ -209,13 +226,45 @@ impl Scrubber {
 
     fn scrub_text(&self, text: &str, depth: usize) -> (String, Option<&'static str>) {
         let (mut out, mut reason) = self.replace_known(text);
-        if let Some(scrubbed) = self.scrub_url(&out, depth)
+        let scrubbed = self
+            .scrub_url(&out, depth)
+            .or_else(|| self.scrub_embedded_urls(&out, depth));
+        if let Some(scrubbed) = scrubbed
             && scrubbed != out
         {
             out = scrubbed;
             reason = reason.or(Some("secret in URL"));
         }
         (out, reason)
+    }
+
+    /// Scrubs URLs inside prose (`see https://cdn/a?token=x for details`, parse errors quoting a
+    /// value). A span runs from the scheme to the next whitespace or quote-like character.
+    /// `None` if the text holds no URL.
+    fn scrub_embedded_urls(&self, text: &str, depth: usize) -> Option<String> {
+        let mut out = String::with_capacity(text.len());
+        let mut rest = text;
+        let mut found = false;
+        while let Some(start) = ["https://", "http://", "stremio://"]
+            .iter()
+            .filter_map(|scheme| rest.find(scheme))
+            .min()
+        {
+            found = true;
+            out.push_str(&rest[..start]);
+            let span_len = rest[start..]
+                .find(|c: char| c.is_whitespace() || "\"'<>`\\".contains(c))
+                .unwrap_or(rest.len() - start);
+            let span = &rest[start..start + span_len];
+            out.push_str(
+                &self
+                    .scrub_url(span, depth)
+                    .unwrap_or_else(|| span.to_owned()),
+            );
+            rest = &rest[start + span_len..];
+        }
+        out.push_str(rest);
+        found.then_some(out)
     }
 
     /// Replaces known addon bases and secrets, literally and in their percent-encoded forms.
@@ -562,6 +611,35 @@ mod tests {
         let findings = s.scrub(&mut v);
         assert_eq!(v["streams"][0]["title"], "cached via REDACTED");
         assert_eq!(findings[0].pointer, "/streams/0/title");
+    }
+
+    #[test]
+    fn secret_file_names_are_caught() {
+        let s = Scrubber::new().secret("kitsu:1:1");
+        assert!(
+            s.check_path("stremio/torrentio/stream/anime/kitsu%3A1%3A1.json")
+                .is_some()
+        );
+        assert!(s.check_path("a/kitsu%253A1%253A1.json").is_some());
+        assert!(
+            s.check_path("stremio/torrentio/stream/movie/tt1.json")
+                .is_none()
+        );
+    }
+
+    #[test]
+    fn urls_inside_prose_are_scrubbed() {
+        let s = Scrubber::new();
+        let (out, reason) = s.scrub_str(
+            "invalid type: string \"https://cdn.example/a?token=serverpass\", expected a map",
+        );
+        assert!(!out.contains("serverpass"), "{out}");
+        assert!(reason.is_some());
+        let mut v = json!({ "description": "mirror at https://cdn.example/a?token=serverpass ok" });
+        assert!(!s.check(&v).is_empty());
+        s.scrub(&mut v);
+        assert!(!v.to_string().contains("serverpass"));
+        assert_eq!(s.scrub_str("plain text, no links").1, None);
     }
 
     #[test]

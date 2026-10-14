@@ -93,21 +93,14 @@ impl<'a, T: Transport> Recorder<'a, T> {
     /// and an existing recording stays as it was.
     pub async fn run(mut self, explicit: Vec<ResourcePath>) -> Result<(), String> {
         let result = self.record_all(explicit).await.and_then(|()| self.verify());
-        let result = result.and_then(|()| {
-            if self.final_dir.exists() {
-                std::fs::remove_dir_all(&self.final_dir)
-                    .map_err(|e| format!("{}: {e}", self.final_dir.display()))?;
-            }
-            std::fs::rename(&self.dir, &self.final_dir)
-                .map_err(|e| format!("{}: {e}", self.final_dir.display()))
-        });
+        let result = result.and_then(|()| self.install());
         match result {
             Ok(()) => {
-                println!(
+                self.say(&format!(
                     "recorded {} request(s) into {}",
                     self.index.len(),
                     self.final_dir.display()
-                );
+                ));
                 Ok(())
             }
             Err(e) => {
@@ -115,6 +108,30 @@ impl<'a, T: Transport> Recorder<'a, T> {
                 Err(self.safe(&e))
             }
         }
+    }
+
+    /// Swaps the verified staging folder in. The old recording is moved aside first and put
+    /// back if the swap fails, so there is always one complete recording on disk.
+    fn install(&self) -> Result<(), String> {
+        let err = |e: std::io::Error| format!("{}: {e}", self.final_dir.display());
+        let backup = self.dir.with_extension("previous");
+        if backup.exists() {
+            std::fs::remove_dir_all(&backup).map_err(err)?;
+        }
+        let had_old = self.final_dir.exists();
+        if had_old {
+            std::fs::rename(&self.final_dir, &backup).map_err(err)?;
+        }
+        if let Err(e) = std::fs::rename(&self.dir, &self.final_dir) {
+            if had_old {
+                let _ = std::fs::rename(&backup, &self.final_dir);
+            }
+            return Err(err(e));
+        }
+        if had_old {
+            let _ = std::fs::remove_dir_all(&backup);
+        }
+        Ok(())
     }
 
     /// Records the manifest, then `explicit` paths or, if none, an automatic plan.
@@ -355,14 +372,9 @@ impl<'a, T: Transport> Recorder<'a, T> {
                 .unwrap_or(file)
                 .to_string_lossy()
                 .replace('\\', "/");
-            let mut name = rel.clone();
-            for _ in 0..3 {
-                if self.safe(&name) != name {
-                    eprintln!("a file name looks secret; not writing the recording");
-                    dirty += 1;
-                    break;
-                }
-                name = percent_decode(&name);
+            if self.scrubber.check_path(&rel).is_some() {
+                eprintln!("a file name looks secret; not writing the recording");
+                dirty += 1;
             }
             for f in self
                 .scrubber
@@ -446,27 +458,6 @@ pub fn parse_path(text: &str) -> Result<ResourcePath, String> {
     Ok(path)
 }
 
-/// Decodes `%XX` escapes once; anything malformed is kept as is.
-fn percent_decode(s: &str) -> String {
-    let bytes = s.as_bytes();
-    let mut out = Vec::with_capacity(bytes.len());
-    let mut i = 0;
-    while i < bytes.len() {
-        let hex = |b: u8| (b as char).to_digit(16);
-        if bytes[i] == b'%'
-            && i + 2 < bytes.len()
-            && let (Some(h), Some(l)) = (hex(bytes[i + 1]), hex(bytes[i + 2]))
-        {
-            out.push((h * 16 + l) as u8);
-            i += 3;
-        } else {
-            out.push(bytes[i]);
-            i += 1;
-        }
-    }
-    String::from_utf8_lossy(&out).into_owned()
-}
-
 fn write_json(file: &Path, value: &Value) -> Result<(), String> {
     if let Some(dir) = file.parent() {
         std::fs::create_dir_all(dir).map_err(|e| format!("{}: {e}", dir.display()))?;
@@ -519,11 +510,6 @@ mod tests {
         let p = parse_path("/catalog/movie/top/genre=Sci-Fi&skip=20.json").unwrap();
         assert_eq!(p.extra.len(), 2);
         assert!(parse_path("stream/movie").is_err());
-    }
-
-    #[test]
-    fn percent_decoding() {
-        assert_eq!(percent_decode("a%3Ab%252F%zz%4"), "a:b%2F%zz%4");
     }
 
     #[test]

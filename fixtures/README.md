@@ -11,7 +11,7 @@ Layout inside an addon folder (`manifest.json`, `<resource>/<type>/<id>[/<extra>
 
 ## Recording an addon
 
-Use `stremio-cli record`: it trims, scrubs and anonymizes **before** writing anything, re-checks what it wrote (contents and file names), and only then replaces the addon's folder; a failed run leaves the old recording alone (D61, D62).
+Use `stremio-cli record`: it trims, scrubs and anonymizes **before** writing anything, re-checks what it wrote (contents and file names), and only then swaps it in for the addon's folder; a failed manifest fetch, write or check leaves the old recording alone (D61, D62).
 
 ```sh
 # Public addon
@@ -50,6 +50,6 @@ It replaces, with `REDACTED`:
 
 It also anonymizes stream and subtitle content: technical tokens stay, other words become `Title`, hashes become counters and stream URLs point at `stream.invalid` (rules in [`anonymize.rs`](../crates/fixtures/src/anonymize.rs)).
 
-CI runs `app-fixtures check fixtures`, which fails if scrubbing or anonymizing would change anything. Run it locally with `FIXTURE_SECRETS` set to your real keys before pushing, which also catches keys the heuristics can't recognise.
+CI runs `app-fixtures check fixtures`, which fails if scrubbing or anonymizing would change anything, or if a file *name* looks secret. Run it locally with `FIXTURE_SECRETS` set to your real keys before pushing, which also catches keys the heuristics can't recognise.
 
 The heuristics also redact some harmless values (e.g. info hashes inside URLs). That's intended: fixtures need the response shape, not those values.

@@ -448,15 +448,20 @@ fn fake_url(s: &str, state: &mut State) -> Url {
 }
 
 fn fake_hash(len: usize, n: u64) -> String {
+    // At least half the string is leading zeros, so `is_fake_hash` recognizes it.
+    let len = len.max(2 * format!("{n:x}").len());
     let hex = format!("{n:x}");
     format!("{}{hex}", "0".repeat(len.saturating_sub(hex.len())))
 }
 
-/// A hash we generated: hex, at least 16 long, all zeros except the last 8 at most.
+/// A hash we generated (or the scrubber's marker): hex with at least half leading zeros,
+/// which [`fake_hash`] guarantees for any length and real hashes practically never have.
 fn is_fake_hash(s: &str) -> bool {
-    s.len() >= 16
-        && s.chars().all(|c| c.is_ascii_hexdigit())
-        && s.chars().take(s.len() - 8).all(|c| c == '0')
+    if s == crate::REDACTED {
+        return true;
+    }
+    let zeros = s.chars().take_while(|c| *c == '0').count();
+    !s.is_empty() && s.chars().all(|c| c.is_ascii_hexdigit()) && zeros * 2 >= s.len()
 }
 
 /// Replaces every word that isn't a technical token with `Title`.
@@ -553,6 +558,23 @@ mod tests {
             "Title S01E02 1x02 DDP5.1 10bit 4K DV HDR10Plus"
         );
         assert_eq!(anonymize_text("進撃の巨人 1080p"), "Title 1080p");
+    }
+
+    #[test]
+    fn hashes_stay_stable_across_runs() {
+        let mut v = json!({ "streams": [
+            { "infoHash": "2849211f150e966ef7924f43aec22727a644e10d",
+              "behaviorHints": { "videoHash": "REDACTED" } },
+            { "behaviorHints": { "videoHash": "9f8e7d6c" } }
+        ]});
+        anonymize(&mut v);
+        assert_eq!(v["streams"][0]["behaviorHints"]["videoHash"], "REDACTED");
+        let short = v["streams"][1]["behaviorHints"]["videoHash"]
+            .as_str()
+            .unwrap();
+        assert!(is_fake_hash(short) && short.len() == 8, "{short}");
+        assert!(check(&v).is_empty(), "{:?}", check(&v));
+        assert!(!is_fake_hash("9f8e7d6c"));
     }
 
     #[test]

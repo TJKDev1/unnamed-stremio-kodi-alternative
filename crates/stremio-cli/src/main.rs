@@ -61,8 +61,8 @@ struct Args {
     out: PathBuf,
 }
 
-fn parse_args() -> Result<Args, String> {
-    let mut raw = std::env::args().skip(1);
+fn parse_args(raw: Vec<String>) -> Result<Args, String> {
+    let mut raw = raw.into_iter();
     let command = raw.next().ok_or("missing command")?;
     let mut args = Args {
         command,
@@ -113,25 +113,34 @@ fn parse_args() -> Result<Args, String> {
 }
 
 fn urls_from_lines(text: &str) -> impl Iterator<Item = String> + '_ {
+    urls_from_lines_str(text).map(str::to_owned)
+}
+
+fn urls_from_lines_str(text: &str) -> impl Iterator<Item = &str> {
     text.lines()
         .map(str::trim)
         .filter(|l| !l.is_empty() && !l.starts_with('#'))
-        .map(str::to_owned)
 }
 
 #[tokio::main(flavor = "current_thread")]
 async fn main() -> ExitCode {
-    let args = match parse_args() {
+    let raw: Vec<String> = std::env::args().skip(1).collect();
+    // Built before anything can fail, from every URL-looking argument, so even argument
+    // errors are printed scrubbed.
+    let out = Printer::new(raw.iter().filter(|a| a.contains("://")));
+    let args = match parse_args(raw) {
         Ok(args) => args,
         Err(e) => {
-            eprintln!("{e}\n\n{USAGE}");
+            out.err(&format!("{e}\n\n{USAGE}"));
             return ExitCode::FAILURE;
         }
     };
-    match run(args).await {
+    // URLs from `--addons FILE` are only known now.
+    let out = Printer::new(args.addons.iter());
+    match run(args, &out).await {
         Ok(()) => ExitCode::SUCCESS,
         Err(e) => {
-            eprintln!("{e}");
+            out.err(&e);
             ExitCode::FAILURE
         }
     }
@@ -143,12 +152,11 @@ enum Event {
     Response(Planned, Result<Fetched, Error>),
 }
 
-async fn run(args: Args) -> Result<(), String> {
+async fn run(args: Args, out: &Printer) -> Result<(), String> {
     let transport = ReqwestTransport::new(args.timeout).map_err(|e| e.to_string())?;
     if args.command == "record" {
         return record(&transport, args).await;
     }
-    let out = Printer::new(&args.addons);
 
     let resource = match args.command.as_str() {
         "manifest" => None,
@@ -250,7 +258,7 @@ async fn run(args: Args) -> Result<(), String> {
             }
             Event::Response(planned, result) => {
                 let name = names[planned.addon].as_deref().unwrap_or("?");
-                print_result(&out, name, &planned, result, start, args.limit);
+                print_result(out, name, &planned, result, start, args.limit);
             }
         }
     }
@@ -283,9 +291,14 @@ async fn record(transport: &ReqwestTransport, args: Args) -> Result<(), String> 
 struct Printer(Scrubber);
 
 impl Printer {
-    fn new(addons: &[String]) -> Self {
+    /// Knows `addons` (and their query values), `STREMIO_ADDONS` and `FIXTURE_SECRETS`.
+    fn new<'a>(addons: impl Iterator<Item = &'a String>) -> Self {
         let mut scrubber = Scrubber::new();
+        let env_addons = std::env::var("STREMIO_ADDONS").unwrap_or_default();
         for url in addons {
+            scrubber = scrubber.addon_url(url);
+        }
+        for url in urls_from_lines_str(&env_addons) {
             scrubber = scrubber.addon_url(url);
         }
         if let Ok(env) = std::env::var("FIXTURE_SECRETS") {
@@ -298,6 +311,10 @@ impl Printer {
 
     fn line(&self, text: &str) {
         println!("{}", self.0.scrub_str(text).0);
+    }
+
+    fn err(&self, text: &str) {
+        eprintln!("{}", self.0.scrub_str(text).0);
     }
 }
 

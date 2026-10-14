@@ -97,6 +97,12 @@ fn check(scrubber: &Scrubber, roots: &[PathBuf]) -> Result<(), String> {
     }
     let mut dirty = 0;
     for file in &files {
+        // Diagnostics name files, so they go through the scrubber too.
+        let shown = scrubber.scrub_str(&file.display().to_string()).0;
+        if let Some(reason) = scrubber.check_path(&file.to_string_lossy()) {
+            eprintln!("{shown}: {reason} in the file name");
+            dirty += 1;
+        }
         let value = read_json(file)?;
         let findings: Vec<Finding> = scrubber
             .check(&value)
@@ -104,12 +110,7 @@ fn check(scrubber: &Scrubber, roots: &[PathBuf]) -> Result<(), String> {
             .chain(anonymize::check(&value))
             .collect();
         for finding in findings {
-            eprintln!(
-                "{}: {} at {}",
-                file.display(),
-                finding.reason,
-                finding.pointer
-            );
+            eprintln!("{shown}: {} at {}", finding.reason, finding.pointer);
             dirty += 1;
         }
     }
