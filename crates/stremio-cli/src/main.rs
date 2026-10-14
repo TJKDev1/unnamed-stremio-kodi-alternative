@@ -14,8 +14,9 @@
 //!
 //! `ADDON` is a manifest URL. Addon URLs often hold secrets, so they can also come from
 //! `--addons FILE` (one URL per line) or the `STREMIO_ADDONS` environment variable
-//! (newline-separated), and the CLI never prints them: addons are shown by name.
-//! Results print per addon **as each one answers**.
+//! (newline-separated), and the CLI never prints them: addons are shown by name, and every
+//! printed line goes through the fixture scrubber. Each addon's requests start as soon as its
+//! own manifest loads, and results print **as each one answers**.
 
 mod record;
 
@@ -25,10 +26,11 @@ use std::time::{Duration, Instant};
 
 use app_addons_stremio::{
     Descriptor, Error, Fetched, Planned, ReqwestTransport, ResourcePath, ResourceResponse, Stream,
-    StreamSource, Validated, fetch_all, fetch_manifest, plan, plan_catalogs,
+    StreamSource, Validated, fetch, fetch_manifest, manifest, plan, plan_catalogs,
 };
-use futures::StreamExt;
-use futures::stream::FuturesOrdered;
+use app_fixtures::Scrubber;
+use futures::future::{FutureExt, LocalBoxFuture};
+use futures::stream::{FuturesUnordered, StreamExt};
 
 const USAGE: &str = "usage:
   stremio-cli manifest  ADDON...
@@ -135,30 +137,31 @@ async fn main() -> ExitCode {
     }
 }
 
+/// What the query loop is waiting on: a manifest, or a resource answer.
+enum Event {
+    Manifest(usize, Result<(String, Validated), Error>),
+    Response(Planned, Result<Fetched, Error>),
+}
+
 async fn run(args: Args) -> Result<(), String> {
     let transport = ReqwestTransport::new(args.timeout).map_err(|e| e.to_string())?;
     if args.command == "record" {
         return record(&transport, args).await;
     }
-    let start = Instant::now();
-    let addons = load_addons(&transport, &args.addons, start).await;
-    if args.command == "manifest" {
-        return Ok(());
-    }
-    if addons.is_empty() {
-        return Err("no addon loaded".into());
-    }
+    let out = Printer::new(&args.addons);
 
     let resource = match args.command.as_str() {
-        "catalog" => "catalog",
-        "meta" => "meta",
-        "streams" => "stream",
-        "subtitles" => "subtitles",
+        "manifest" => None,
+        "catalog" => Some("catalog"),
+        "meta" => Some("meta"),
+        "streams" => Some("stream"),
+        "subtitles" => Some("subtitles"),
         other => return Err(format!("unknown command `{other}`\n\n{USAGE}")),
     };
-    let planned = match (resource, args.target.as_slice()) {
-        ("catalog", []) => plan_catalogs(&addons, None, &[]),
-        (_, [r#type, id, extra @ ..]) => {
+    // `None` with a resource: every catalog (the home board).
+    let request = match (resource, args.target.as_slice()) {
+        (None, _) | (Some("catalog"), []) => None,
+        (Some(resource), [r#type, id, extra @ ..]) => {
             let mut path = ResourcePath::new(resource, r#type, id);
             for pair in extra {
                 let (name, value) = pair
@@ -166,19 +169,93 @@ async fn run(args: Args) -> Result<(), String> {
                     .ok_or(format!("extra `{pair}` is not NAME=VALUE"))?;
                 path = path.with_extra(name, value);
             }
-            plan(&addons, &path)
+            Some(path)
         }
         _ => return Err(format!("`{}` needs `-- TYPE ID`", args.command)),
     };
-    if planned.is_empty() {
-        return Err("no loaded addon serves that request".into());
-    }
-    println!("asking {} addon request(s)…", planned.len());
 
-    let started = Instant::now();
-    let mut results = fetch_all(&transport, &addons, planned);
-    while let Some((planned, result)) = results.next().await {
-        print_result(&addons, &planned, result, started, args.limit);
+    // One loop for everything: each addon's requests start as soon as *its* manifest
+    // arrives, so a slow manifest never holds back another addon's results.
+    let start = Instant::now();
+    let transport = &transport;
+    let mut pending: FuturesUnordered<LocalBoxFuture<'_, Event>> = FuturesUnordered::new();
+    for (i, url) in args.addons.iter().enumerate() {
+        pending.push(
+            async move {
+                let result = match manifest::transport_url(url) {
+                    Ok(url) => fetch_manifest(transport, &url).await.map(|v| (url, v)),
+                    Err(e) => Err(e),
+                };
+                Event::Manifest(i, result)
+            }
+            .boxed_local(),
+        );
+    }
+    let mut names: Vec<Option<String>> = vec![None; args.addons.len()];
+    let mut asked = 0;
+    while let Some(event) = pending.next().await {
+        match event {
+            Event::Manifest(i, Err(e)) => {
+                out.line(&format!("{} addon #{}: {e}", elapsed(start), i + 1));
+            }
+            Event::Manifest(i, Ok((url, Validated { manifest, warnings }))) => {
+                out.line(&format!(
+                    "{} {} {} ({}): {} catalog(s), resources [{}]",
+                    elapsed(start),
+                    manifest.name,
+                    manifest.version,
+                    manifest.id,
+                    manifest.catalogs.len(),
+                    manifest
+                        .resources
+                        .iter()
+                        .map(|r| r.name())
+                        .collect::<Vec<_>>()
+                        .join(", ")
+                ));
+                for w in warnings {
+                    out.line(&format!("    warning: {}", w.0));
+                }
+                names[i] = Some(manifest.name.clone());
+                let Some(resource) = resource else {
+                    continue;
+                };
+                let addon = [Descriptor {
+                    transport_url: url.clone(),
+                    manifest,
+                    other: Default::default(),
+                }];
+                let planned = match &request {
+                    Some(path) => plan(&addon, path),
+                    None if resource == "catalog" => plan_catalogs(&addon, None, &[]),
+                    None => Vec::new(),
+                };
+                for planned in planned {
+                    asked += 1;
+                    let url = url.clone();
+                    pending.push(
+                        async move {
+                            let result = fetch(transport, &url, &planned.path).await;
+                            Event::Response(
+                                Planned {
+                                    addon: i,
+                                    ..planned
+                                },
+                                result,
+                            )
+                        }
+                        .boxed_local(),
+                    );
+                }
+            }
+            Event::Response(planned, result) => {
+                let name = names[planned.addon].as_deref().unwrap_or("?");
+                print_result(&out, name, &planned, result, start, args.limit);
+            }
+        }
+    }
+    if resource.is_some() && asked == 0 {
+        return Err("no loaded addon serves that request".into());
     }
     Ok(())
 }
@@ -196,71 +273,47 @@ async fn record(transport: &ReqwestTransport, args: Args) -> Result<(), String> 
         .iter()
         .map(|p| record::parse_path(p))
         .collect::<Result<Vec<_>, _>>()?;
-    let dir = args.out.join(&name);
-    if dir.exists() {
-        std::fs::remove_dir_all(&dir).map_err(|e| format!("{}: {e}", dir.display()))?;
-    }
-    record::Recorder::new(transport, url, dir)?.run(paths).await
+    record::Recorder::new(transport, url, &args.out, &name)?
+        .run(paths)
+        .await
 }
 
-/// Fetches every manifest at once; prints each as it loads. Keeps the given order.
-async fn load_addons(
-    transport: &ReqwestTransport,
-    urls: &[String],
-    start: Instant,
-) -> Vec<Descriptor> {
-    let mut loading: FuturesOrdered<_> = urls
-        .iter()
-        .map(|url| async move { (url, fetch_manifest(transport, url).await) })
-        .collect();
-    let mut addons = Vec::new();
-    let mut n = 0;
-    while let Some((url, result)) = loading.next().await {
-        n += 1;
-        match result {
-            Ok(Validated { manifest, warnings }) => {
-                println!(
-                    "{} {} {} ({}): {} catalog(s), resources [{}]",
-                    elapsed(start),
-                    manifest.name,
-                    manifest.version,
-                    manifest.id,
-                    manifest.catalogs.len(),
-                    manifest
-                        .resources
-                        .iter()
-                        .map(|r| r.name())
-                        .collect::<Vec<_>>()
-                        .join(", ")
-                );
-                for w in warnings {
-                    println!("    warning: {}", w.0);
-                }
-                addons.push(Descriptor {
-                    transport_url: url.clone(),
-                    manifest,
-                    other: Default::default(),
-                });
-            }
-            Err(e) => println!("{} addon #{n}: {e}", elapsed(start)),
+/// Prints lines with anything secret-looking removed: errors can quote URLs, and addons
+/// control every string they send.
+struct Printer(Scrubber);
+
+impl Printer {
+    fn new(addons: &[String]) -> Self {
+        let mut scrubber = Scrubber::new();
+        for url in addons {
+            scrubber = scrubber.addon_url(url);
         }
+        if let Ok(env) = std::env::var("FIXTURE_SECRETS") {
+            for secret in env.split([',', '\n']).map(str::trim) {
+                scrubber = scrubber.secret(secret);
+            }
+        }
+        Self(scrubber)
     }
-    addons
+
+    fn line(&self, text: &str) {
+        println!("{}", self.0.scrub_str(text).0);
+    }
 }
 
 fn print_result(
-    addons: &[Descriptor],
+    out: &Printer,
+    name: &str,
     planned: &Planned,
     result: Result<Fetched, Error>,
     started: Instant,
     limit: usize,
 ) {
-    let name = &addons[planned.addon].manifest.name;
     let what = format!("{}/{}", planned.path.r#type, planned.path.id);
     let fetched = match result {
         Ok(f) => f,
         Err(e) => {
-            println!("{} {name} {what}: {e}", elapsed(started));
+            out.line(&format!("{} {name} {what}: {e}", elapsed(started)));
             return;
         }
     };
@@ -306,7 +359,7 @@ fn print_result(
         "catalog" => format!("{} ({})", planned.path.id, planned.path.r#type),
         _ => what,
     };
-    println!(
+    out.line(&format!(
         "{} {name} {label}: {} item(s){}",
         elapsed(started),
         lines.len(),
@@ -315,12 +368,12 @@ fn print_result(
         } else {
             format!(", {} dropped", fetched.dropped.len())
         }
-    );
+    ));
     for line in lines.iter().take(limit) {
-        println!("    {line}");
+        out.line(&format!("    {line}"));
     }
     for d in &fetched.dropped {
-        println!("    dropped {}: {}", d.item, d.error);
+        out.line(&format!("    dropped {}: {}", d.item, d.error));
     }
 }
 

@@ -43,7 +43,8 @@ pub struct Manifest {
         deserialize_with = "de::vec",
         skip_serializing_if = "Vec::is_empty"
     )]
-    pub addon_catalogs: Vec<AddonCatalogDef>,
+    /// Same shape as `catalogs` (stremio-core uses one type for both).
+    pub addon_catalogs: Vec<ManifestCatalog>,
     #[serde(
         default,
         deserialize_with = "de::opt_string",
@@ -244,22 +245,6 @@ pub struct ExtraProp {
         skip_serializing_if = "Option::is_none"
     )]
     pub options_limit: Option<u64>,
-    #[serde(flatten)]
-    pub other: Other,
-}
-
-#[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
-#[serde(rename_all = "camelCase")]
-pub struct AddonCatalogDef {
-    #[serde(rename = "type")]
-    pub r#type: String,
-    pub id: String,
-    #[serde(
-        default,
-        deserialize_with = "de::opt_string",
-        skip_serializing_if = "Option::is_none"
-    )]
-    pub name: Option<String>,
     #[serde(flatten)]
     pub other: Other,
 }

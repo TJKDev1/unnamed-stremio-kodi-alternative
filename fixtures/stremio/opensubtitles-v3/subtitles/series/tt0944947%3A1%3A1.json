@@ -16,7 +16,7 @@
       "releaseGroup": "Title",
       "season": 1,
       "subtitleFileName": "Title.Title.Title.S01E01.720p.HDTV.DD5.1.x264-Title.Title.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1952846466"
+      "url": "https://stream.invalid/1"
     },
     {
       "SubEncoding": "UTF-8",
@@ -31,7 +31,7 @@
       "releaseGroup": "Title",
       "season": 1,
       "subtitleFileName": "Title.Title.Title.S01E01.720p.HDTV.DD5.1.x264-Title.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1952846467"
+      "url": "https://stream.invalid/2"
     },
     {
       "SubEncoding": "UTF-8",
@@ -46,7 +46,7 @@
       "releaseGroup": "Title",
       "season": 1,
       "subtitleFileName": "Title.Title.Title.S01E01.Title.Title.Title.HDTV.XviD-Title.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1952844723"
+      "url": "https://stream.invalid/3"
     },
     {
       "SubEncoding": "UTF-8",
@@ -61,7 +61,7 @@
       "releaseGroup": "Title",
       "season": 1,
       "subtitleFileName": "Title.Title.Title.S01E01.720p.BluRay.X264-Title.eng.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1953040579"
+      "url": "https://stream.invalid/4"
     },
     {
       "SubEncoding": "UTF-8",
@@ -76,7 +76,7 @@
       "releaseGroup": "Title",
       "season": 1,
       "subtitleFileName": "Title.Title.Title.S01E01.Title.Title.Title.HDTV.XviD-Title.Title.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1952844730"
+      "url": "https://stream.invalid/5"
     },
     {
       "SubEncoding": "ASCII",
@@ -91,7 +91,7 @@
       "releaseGroup": "Title",
       "season": 1,
       "subtitleFileName": "Title.Title.Title.S01.E01.2011.1080p.BluRay.x264.DTS-Title.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1953062721"
+      "url": "https://stream.invalid/6"
     },
     {
       "SubEncoding": "ASCII",
@@ -104,7 +104,7 @@
       "movieReleaseName": "S01E01",
       "season": 1,
       "subtitleFileName": "S01E01.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1953055480"
+      "url": "https://stream.invalid/7"
     },
     {
       "SubEncoding": "CP1252",
@@ -119,7 +119,7 @@
       "releaseGroup": "Title",
       "season": 1,
       "subtitleFileName": "Title.Title.Title.S01E01.HDTV.XviD-Title.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1952846273"
+      "url": "https://stream.invalid/8"
     },
     {
       "SubEncoding": "CP1252",
@@ -134,7 +134,7 @@
       "releaseGroup": "Title",
       "season": 1,
       "subtitleFileName": "Title.Title.Title.S01E01.720p.HDTV.x264-Title.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1952846274"
+      "url": "https://stream.invalid/9"
     },
     {
       "SubEncoding": "CP1252",
@@ -147,7 +147,7 @@
       "movieReleaseName": "Title Title Title 01 01",
       "season": 1,
       "subtitleFileName": "Title Title Title 01 01.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1953134348"
+      "url": "https://stream.invalid/10"
     }
   ]
 }

@@ -2,7 +2,10 @@
 
 use futures::stream::{FuturesUnordered, Stream};
 
-use crate::model::{Descriptor, Manifest, Meta, Parsed, ResourceResponse, parse_resource};
+use crate::model::{
+    Descriptor, Manifest, ManifestCatalog, ManifestResource, Meta, Parsed, ResourceResponse,
+    parse_resource,
+};
 use crate::route::ResourcePath;
 use crate::transport::Transport;
 use crate::{Dropped, Error};
@@ -15,30 +18,36 @@ pub struct Planned {
 }
 
 impl Manifest {
-    /// Whether this addon can answer `path`. Catalogs are matched against `catalogs` (type, id
-    /// and extras), addon catalogs against `addonCatalogs`; everything else by resource name,
-    /// type and id prefix, where a resource object's own `types`/`idPrefixes` win over the
-    /// manifest's and no `idPrefixes` at all means any id.
+    /// Whether this addon can answer `path`, by stremio-core's rules
+    /// (`Manifest::is_resource_supported`):
+    /// - catalogs and addon catalogs: same type and id, and the extras fit;
+    /// - anything else: the **first** resource with that name decides. A string resource uses
+    ///   the manifest's `types`/`idPrefixes`; a resource object uses only its own, so an object
+    ///   without `types` matches nothing. Missing or empty `idPrefixes` match any id.
     pub fn supports(&self, path: &ResourcePath) -> bool {
+        let catalog_fits = |c: &ManifestCatalog| {
+            c.r#type == path.r#type && c.id == path.id && c.is_extra_supported(&path.extra_names())
+        };
         match path.resource.as_str() {
-            "catalog" => self.catalogs.iter().any(|c| {
-                c.r#type == path.r#type
-                    && c.id == path.id
-                    && c.is_extra_supported(&path.extra_names())
-            }),
-            "addon_catalog" => self
-                .addon_catalogs
-                .iter()
-                .any(|c| c.r#type == path.r#type && c.id == path.id),
-            resource => self.resources.iter().any(|r| {
-                if r.name() != resource {
+            "catalog" => self.catalogs.iter().any(catalog_fits),
+            "addon_catalog" => self.addon_catalogs.iter().any(catalog_fits),
+            resource => {
+                let Some(r) = self.resources.iter().find(|r| r.name() == resource) else {
                     return false;
-                }
-                let types = r.types().unwrap_or(&self.types);
-                let prefixes = r.id_prefixes().or(self.id_prefixes.as_deref());
-                types.contains(&path.r#type)
-                    && prefixes.is_none_or(|p| p.iter().any(|p| path.id.starts_with(p.as_str())))
-            }),
+                };
+                let (types, prefixes) = match r {
+                    ManifestResource::Short(_) => {
+                        (Some(self.types.as_slice()), self.id_prefixes.as_deref())
+                    }
+                    ManifestResource::Full(full) => {
+                        (full.types.as_deref(), full.id_prefixes.as_deref())
+                    }
+                };
+                types.is_some_and(|t| t.contains(&path.r#type))
+                    && prefixes.is_none_or(|p| {
+                        p.is_empty() || p.iter().any(|p| path.id.starts_with(p.as_str()))
+                    })
+            }
         }
     }
 }
@@ -233,6 +242,46 @@ mod tests {
                 &ResourcePath::new("addon_catalog", "all", "official")
             )),
             [0]
+        );
+    }
+
+    #[test]
+    fn stremio_core_resource_rules() {
+        let m = |v: serde_json::Value| serde_json::from_value::<Manifest>(v).unwrap();
+        let base = |resources: serde_json::Value, prefixes: serde_json::Value| {
+            m(
+                json!({ "id": "a", "name": "A", "version": "1", "types": ["movie"],
+                      "idPrefixes": prefixes, "resources": resources }),
+            )
+        };
+        let tt = ResourcePath::new("stream", "movie", "tt1");
+        let kitsu = ResourcePath::new("stream", "movie", "kitsu:1");
+        // A resource object without idPrefixes does not inherit the manifest's.
+        let a = base(
+            json!([{ "name": "stream", "types": ["movie"] }]),
+            json!(["tt"]),
+        );
+        assert!(a.supports(&kitsu));
+        // A resource object without types matches nothing (no fallback to manifest types).
+        let a = base(json!([{ "name": "stream" }]), json!(null));
+        assert!(!a.supports(&tt));
+        // Empty idPrefixes match every id.
+        let a = base(json!(["stream"]), json!([]));
+        assert!(a.supports(&kitsu));
+        // The first resource with a name decides.
+        let a = base(
+            json!([{ "name": "stream", "types": ["series"] }, "stream"]),
+            json!(null),
+        );
+        assert!(!a.supports(&tt));
+        // Addon catalogs check extras like catalogs.
+        let a = m(
+            json!({ "id": "a", "name": "A", "version": "1", "resources": [],
+            "addonCatalogs": [{ "type": "all", "id": "x", "extra": [{ "name": "search", "isRequired": true }] }] }),
+        );
+        assert!(!a.supports(&ResourcePath::new("addon_catalog", "all", "x")));
+        assert!(
+            a.supports(&ResourcePath::new("addon_catalog", "all", "x").with_extra("search", "q"))
         );
     }
 

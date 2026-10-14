@@ -26,7 +26,7 @@ pub struct HttpResponse { pub status: u16, pub cache_control: Option<String>, pu
 The default implementation (`ReqwestTransport`, feature `reqwest`, on by default) uses reqwest + rustls on tokio. Fan-out uses only `futures` combinators, so the crate never names a runtime; per-request timeouts live in the transport. Tests use a fixture-backed fake transport.
 
 ### Models
-`Manifest`, `ManifestResource`, `ManifestCatalog`, `ExtraProp`, `AddonCatalogDef`, `MetaPreview`, `Meta`, `Video`, `Stream` (+ `StreamSource`), `Subtitle`, `Descriptor { transport_url, manifest }`, and one response type per resource.
+`Manifest`, `ManifestResource`, `ManifestCatalog` (used for both `catalogs` and `addonCatalogs`, as in stremio-core), `ExtraProp`, `MetaPreview`, `Meta`, `Video`, `Stream` (+ `StreamSource`), `Subtitle`, `Descriptor { transport_url, manifest }`, and one response type per resource.
 
 - Field names follow the protocol (`camelCase` on the wire, `snake_case` in Rust).
 - **Unknown fields are preserved** in an `other: Map<String, Value>` on every object, and re-serialized unchanged.
@@ -43,7 +43,7 @@ The default implementation (`ReqwestTransport`, feature `reqwest`, on by default
 - a list item was dropped (bad resource, catalog, extra);
 - a resource object or catalog uses a type not listed in `types`;
 - a catalog uses the legacy `extraSupported`/`extraRequired` (names only in `extraRequired` are treated as supported);
-- `idPrefixes` (manifest or resource) is an empty array (treated as "no ids match");
+- a resource object has no `types` (it matches nothing);
 - there are `catalogs` but no `catalog` resource.
 
 `transport_url` accepts `https://`, `http://` and `stremio://` (→ `https://`) URLs ending in `/manifest.json` (a query string is allowed); legacy `/stremio/v1` and `ipfs://` are `Unsupported`.
@@ -55,10 +55,11 @@ The default implementation (`ReqwestTransport`, feature `reqwest`, on by default
 - `extra` is `name=value` pairs, each side `encodeURIComponent`-encoded, joined with `&`, in the given order. Repeated names are allowed (multi-select genres).
 
 ### Router
-`plan(addons, request) -> Vec<(addon index, ResourcePath)>`, in install order:
-- `catalog`: one entry per manifest catalog matching the type, whose required extras are all present and whose extras are all supported (`catalog.is_extra_supported`).
-- `meta`/`stream`/`subtitles`: addons whose resource list has the resource, whose types (resource-level if given, else manifest-level) include the type, and whose idPrefixes (same rule) match the id prefix. No `idPrefixes` ⇒ any id matches.
-- `addon_catalog`: addons whose `addonCatalogs` contain the `(type, id)`.
+`plan(addons, request) -> Vec<Planned>`, in install order. `Manifest::supports(path)` follows stremio-core's `Manifest::is_resource_supported` exactly:
+- `catalog` / `addon_catalog`: an entry in `catalogs` / `addonCatalogs` with the same type and id whose required extras are all present and whose extras are all supported (`is_extra_supported`).
+- anything else: the **first** resource with that name decides. A string resource uses the manifest's `types` and `idPrefixes`; a resource object uses **only its own** (no fallback), so an object without `types` matches nothing. Missing **or empty** `idPrefixes` match any id; otherwise the id must start with one of them.
+
+`plan_catalogs(addons, type, extra)` lists every catalog that accepts exactly those extras (home board rows).
 
 `fetch_all(transport, plan)` returns a `Stream` of `(addon index, Result<Response>)` items **in completion order**: one slow addon never delays another.
 
@@ -71,7 +72,7 @@ Values are seconds, read from the response body; if the body has none, `Cache-Co
 | `a < cacheMaxAge + staleRevalidate` | `Stale`: serve cached now, revalidate in the background |
 | otherwise | `Expired`: fetch; if the fetch fails and `a < cacheMaxAge + staleError`, serve cached |
 
-No hints, all-zero hints, or `no-store`/`no-cache` ⇒ not cached. The cache key is the full resource URL. The clock is injected (`Clock` trait) so tests use a fake.
+`Cache-Control: no-store`/`no-cache` always wins over body hints. No hints, all-zero hints, or those directives ⇒ not cached, and a successful non-cacheable answer **evicts** any older entry for that URL. Hint arithmetic saturates (addons control the numbers). The cache key is the full resource URL. The clock is injected (`Clock` trait) so tests use a fake.
 
 `Cache::fetch` returns the response plus where it came from (`Network`, `Fresh`, `Stale`, `StaleOnError`). The crate never spawns tasks: on `Stale` the caller runs `Cache::revalidate` in the background on its own runtime. Entries that can no longer be served are evicted on the next store.
 
@@ -84,8 +85,11 @@ No hints, all-zero hints, or `no-store`/`no-cache` ⇒ not cached. The cache key
 Recordings are written by `stremio-cli record`, which, **before anything touches disk**:
 1. cuts every `metas`/`metasDetailed`/`videos`/`streams`/`subtitles`/`addons` list to its first 10 items (order and shape survive; `trimmed: true` in the index);
 2. scrubs secrets (T0.1.7 scrubber, plus `FIXTURE_SECRETS`);
-3. anonymizes stream and subtitle content (`app_fixtures::anonymize`): technical tokens (resolution, codec, HDR, size, languages), numbers, emoji and punctuation are kept; every other word becomes `Title`; info/video hashes become zero-padded counters; URLs become `<scheme>://stream.invalid/<n>[.ext]`. Subtitle `id`/`url`/`lang`, `ytId` and public tracker URLs stay;
-4. re-checks every written file and fails if anything still looks secret.
+3. anonymizes stream and subtitle content (`app_fixtures::anonymize`), at any depth inside an item: technical tokens (resolution, codec, HDR, size, languages), numbers, emoji and punctuation are kept; every other word becomes `Title`; `infoHash`/`videoHash` become zero-padded counters; URLs (including subtitle URLs and `tracker:<url>` / `dht:<hash>` sources) become `<scheme>://stream.invalid/<n>[.ext]` or fake hashes. Only `ytId`, `countryWhitelist` and subtitle `lang`/encoding codes stay verbatim;
+4. names each file from the request path, unless the path itself contains something secret (then `<resource>/redacted/<n>.json`);
+5. writes into a staging folder (`.<name>.recording`), re-checks every file's contents **and name**, and only then replaces the previous recording. Any failure (fetch, write, check) leaves the old recording untouched.
+
+The addon URL's query parameter values count as secrets, like its path. Everything the CLI prints goes through the same scrubber (errors can quote URLs).
 
 Anonymizing is idempotent; `app-fixtures check` (CI) fails on any fixture that isn't already scrubbed and anonymized. Without explicit paths the recorder picks up to 8 catalogs plus one `skip`, `genre` and `search` variant, both addon catalogs, up to 3 metas (ids from catalogs first, then Inception / Game of Thrones / Cowboy Bebop) and up to 5 stream and subtitle requests the manifest claims to serve.
 

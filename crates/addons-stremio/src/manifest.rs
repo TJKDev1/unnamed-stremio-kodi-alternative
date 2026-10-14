@@ -1,6 +1,6 @@
 //! Manifest fetch and validation (spec: Manifest validation).
 
-use crate::model::{Manifest, parse};
+use crate::model::{Manifest, ManifestResource, parse};
 use crate::transport::Transport;
 use crate::{Error, MANIFEST_PATH};
 
@@ -50,15 +50,14 @@ impl Manifest {
                     ));
                 }
             }
-            if resource.id_prefixes().is_some_and(<[String]>::is_empty) {
+            if let ManifestResource::Full(full) = resource
+                && full.types.is_none()
+            {
                 warn(format!(
-                    "resource `{}` has empty `idPrefixes`: no ids match",
-                    resource.name()
+                    "resource object `{}` has no `types`: it matches nothing",
+                    full.name
                 ));
             }
-        }
-        if manifest.id_prefixes.as_ref().is_some_and(Vec::is_empty) {
-            warn("empty `idPrefixes`: no ids match".into());
         }
         for catalog in &manifest.catalogs {
             if !known_type(&catalog.r#type) {
@@ -227,11 +226,11 @@ mod tests {
     #[test]
     fn warnings() {
         let mut m = base();
-        m["resources"] = json!([{ "name": "meta", "types": ["tv"], "idPrefixes": [] }]);
+        m["resources"] = json!([{ "name": "meta", "types": ["tv"] }, { "name": "stream" }]);
         m["catalogs"] = json!([{ "type": "anime", "id": "x" }]);
         let w = validate(m).unwrap().warnings;
-        // type `tv` unknown, empty idPrefixes, catalog type `anime` unknown, catalogs without
-        // a catalog resource.
+        // type `tv` unknown, resource object without types, catalog type `anime` unknown,
+        // catalogs without a catalog resource.
         assert_eq!(w.len(), 4, "{w:?}");
     }
 

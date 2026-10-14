@@ -16,7 +16,7 @@
       "releaseGroup": "Title",
       "season": 0,
       "subtitleFileName": "Title.2010.CAM.Xvid-Title.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1952382875"
+      "url": "https://stream.invalid/1"
     },
     {
       "SubEncoding": "ASCII",
@@ -31,7 +31,7 @@
       "releaseGroup": "Title-Title",
       "season": 0,
       "subtitleFileName": "Title.2010.TS.Title.XVID.Title-Title.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1952395958"
+      "url": "https://stream.invalid/2"
     },
     {
       "SubEncoding": "ASCII",
@@ -45,7 +45,7 @@
       "releaseFormat": "Telesync",
       "season": 0,
       "subtitleFileName": "Title.TS.XviD-Title-Title.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1952436985"
+      "url": "https://stream.invalid/3"
     },
     {
       "SubEncoding": "ASCII",
@@ -59,7 +59,7 @@
       "releaseFormat": "Telesync",
       "season": 0,
       "subtitleFileName": "Title.2010.480p.TS.XviD-ViSiON.Title Title Title Title Title Title.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1952410814"
+      "url": "https://stream.invalid/4"
     },
     {
       "SubEncoding": "ASCII",
@@ -73,7 +73,7 @@
       "releaseGroup": "Title Title Title",
       "season": 0,
       "subtitleFileName": "Title.2010.XviD-Title Title Title.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1952537628"
+      "url": "https://stream.invalid/5"
     },
     {
       "SubEncoding": "CP1252",
@@ -87,7 +87,7 @@
       "releaseFormat": "BluRay",
       "season": 0,
       "subtitleFileName": "Title.2010.BRRip.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1952697920"
+      "url": "https://stream.invalid/6"
     },
     {
       "SubEncoding": "CP1252",
@@ -102,7 +102,7 @@
       "releaseGroup": "Title",
       "season": 0,
       "subtitleFileName": "Title.2010.TS.Title.Title.AUDIO.XviD-Title.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1952422324"
+      "url": "https://stream.invalid/7"
     },
     {
       "SubEncoding": "CP1252",
@@ -117,7 +117,7 @@
       "releaseGroup": "Title",
       "season": 0,
       "subtitleFileName": "Title.2010.TS.XVID-Title.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1952422320"
+      "url": "https://stream.invalid/8"
     },
     {
       "SubEncoding": "CP1252",
@@ -132,7 +132,7 @@
       "releaseGroup": "Title",
       "season": 0,
       "subtitleFileName": "Title.TS.XViD-Title.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1952422317"
+      "url": "https://stream.invalid/9"
     },
     {
       "SubEncoding": "CP1252",
@@ -145,7 +145,7 @@
       "movieReleaseName": "Title 2010",
       "season": 0,
       "subtitleFileName": "Title 2010.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1952516734"
+      "url": "https://stream.invalid/10"
     }
   ]
 }

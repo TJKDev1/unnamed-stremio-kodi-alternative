@@ -11,7 +11,7 @@ Layout inside an addon folder (`manifest.json`, `<resource>/<type>/<id>[/<extra>
 
 ## Recording an addon
 
-Use `stremio-cli record`: it trims, scrubs and anonymizes **before** writing anything, then re-checks what it wrote (D61, D62).
+Use `stremio-cli record`: it trims, scrubs and anonymizes **before** writing anything, re-checks what it wrote (contents and file names), and only then replaces the addon's folder; a failed run leaves the old recording alone (D61, D62).
 
 ```sh
 # Public addon
@@ -31,7 +31,7 @@ cargo run -p app-stremio-cli -- record --name aiostreams --addons $HOMEiostream
 Remove-Item Env:FIXTURE_SECRETS
 ```
 
-Without explicit paths it picks catalogs, metas, streams and subtitles from the manifest. To record specific requests, add them after `--`: `-- stream/movie/tt1375666 catalog/movie/top/skip=100`. Re-running replaces the addon's folder.
+Without explicit paths it picks catalogs, metas, streams and subtitles from the manifest. To record specific requests, add them after `--`: `-- stream/movie/tt1375666 catalog/movie/top/skip=100`. Re-running replaces the addon's folder once the new recording has passed its checks.
 
 ## No secrets, ever (D57), no release names (D62)
 

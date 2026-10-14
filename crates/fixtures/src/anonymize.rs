@@ -10,8 +10,9 @@
 //! - info hashes and video hashes become zero-padded counters of the same length;
 //! - URLs become `<scheme>://stream.invalid/<n>[.ext]`, magnet links a magnet for a fake hash.
 //!
-//! Subtitle `url`/`id`/`lang` stay (they point at a subtitle service, not a release); `ytId`
-//! stays. The rules are idempotent: anonymizing anonymized output changes nothing, which is
+//! Subtitle `lang`/encoding codes, `ytId` and `countryWhitelist` stay. Everything else in an
+//! item goes through the rules, at any depth (a `videoHash` nested in `behaviorHints` is a
+//! hash; a `tracker:<url>` source is a URL). The rules are idempotent: anonymizing anonymized output changes nothing, which is
 //! what [`check`] tests in CI.
 
 use serde_json::{Map, Value};
@@ -226,8 +227,13 @@ const KEEP_SUFFIXES: &[&str] = &[
     "th", "st", "nd", "rd", "plus",
 ];
 
-/// String keys inside a subtitle item that are kept verbatim.
-const SUBTITLE_RAW_KEYS: &[&str] = &["id", "url", "lang", "SubEncoding", "m", "g"];
+/// Keys whose string values are kept verbatim in any item: YouTube ids are public trailers,
+/// country codes drive geo-filtering logic.
+const KEEP_KEYS: &[&str] = &["ytId", "countryWhitelist"];
+/// Extra verbatim keys inside a subtitle item (language and encoding codes).
+const SUBTITLE_KEEP_KEYS: &[&str] = &["lang", "SubEncoding", "m", "g"];
+/// Keys holding content hashes, at any depth.
+const HASH_KEYS: &[&str] = &["infoHash", "videoHash"];
 
 /// Anonymizes `value` in place and returns what changed.
 pub fn anonymize(value: &mut Value) -> Vec<Finding> {
@@ -316,59 +322,68 @@ fn item_fields(map: &mut Map<String, Value>, kind: Item, pointer: &mut String, s
     for (key, child) in map.iter_mut() {
         let len = pointer.len();
         push(pointer, key);
-        match (kind, key.as_str()) {
-            (Item::Stream, "subtitles") if child.is_array() => {
-                if let Value::Array(items) = child {
-                    items_of(items, Item::Subtitle, pointer, state);
-                }
+        match (kind, key.as_str(), child) {
+            (Item::Stream, "subtitles", Value::Array(items)) => {
+                items_of(items, Item::Subtitle, pointer, state)
             }
-            (Item::Stream, "ytId") => {}
-            (Item::Subtitle, k) if SUBTITLE_RAW_KEYS.contains(&k) => {}
-            (_, "infoHash" | "videoHash") => {
-                if let Some(s) = child.as_str()
-                    && !is_fake_hash(s)
-                {
-                    let fake = fake_hash(s.len(), state.next());
-                    state.set(child, fake, pointer, "hash");
-                }
-            }
-            (_, "sources") if child.is_array() => {
-                if let Value::Array(items) = child {
-                    for (i, source) in items.iter_mut().enumerate() {
-                        let len = pointer.len();
-                        push(pointer, &i.to_string());
-                        if let Some(hash) = source.as_str().and_then(|s| s.strip_prefix("dht:"))
-                            && !is_fake_hash(hash)
-                        {
-                            let fake = format!("dht:{}", fake_hash(hash.len(), state.next()));
-                            state.set(source, fake, pointer, "hash");
-                        }
-                        pointer.truncate(len);
-                    }
-                }
-            }
-            _ => any_value(child, pointer, state),
+            (_, key, child) => field(key, child, kind, pointer, state),
         }
         pointer.truncate(len);
     }
 }
 
-/// Generic rule for everything inside an item: URLs and text, recursively.
-fn any_value(value: &mut Value, pointer: &mut String, state: &mut State) {
+/// The rule for one value inside an item, by the key it sits under (array elements inherit
+/// their list's key), at any depth: a hash nested in `behaviorHints` is still a hash.
+fn field(key: &str, value: &mut Value, kind: Item, pointer: &mut String, state: &mut State) {
     match value {
-        Value::String(s) => match fake_url(s, state) {
-            Url::Already => {}
-            Url::Replace(fake) => state.set(value, fake, pointer, "url"),
-            Url::Plain => {
-                let text = anonymize_text(s);
-                state.set(value, text, pointer, "text");
+        Value::String(s) => {
+            if KEEP_KEYS.contains(&key)
+                || (kind == Item::Subtitle && SUBTITLE_KEEP_KEYS.contains(&key))
+            {
+                return;
             }
-        },
+            if HASH_KEYS.contains(&key) {
+                if !is_fake_hash(s) {
+                    let fake = fake_hash(s.len(), state.next());
+                    state.set(value, fake, pointer, "hash");
+                }
+                return;
+            }
+            if key == "sources" {
+                // `dht:<infohash>`, `tracker:<url>`: keep the prefix, anonymize the rest.
+                if let Some(hash) = s.strip_prefix("dht:") {
+                    if !is_fake_hash(hash) {
+                        let fake = format!("dht:{}", fake_hash(hash.len(), state.next()));
+                        state.set(value, fake, pointer, "hash");
+                    }
+                    return;
+                }
+                if let Some((prefix, rest)) = s.split_once(':')
+                    && !prefix.is_empty()
+                    && prefix.chars().all(|c| c.is_ascii_alphanumeric())
+                    && rest.contains("://")
+                {
+                    if let Url::Replace(fake) = fake_url(rest, state) {
+                        let fake = format!("{prefix}:{fake}");
+                        state.set(value, fake, pointer, "url");
+                    }
+                    return;
+                }
+            }
+            match fake_url(s, state) {
+                Url::Already => {}
+                Url::Replace(fake) => state.set(value, fake, pointer, "url"),
+                Url::Plain => {
+                    let text = anonymize_text(s);
+                    state.set(value, text, pointer, "text");
+                }
+            }
+        }
         Value::Object(map) => {
-            for (key, child) in map.iter_mut() {
+            for (child_key, child) in map.iter_mut() {
                 let len = pointer.len();
-                push(pointer, key);
-                any_value(child, pointer, state);
+                push(pointer, child_key);
+                field(child_key, child, kind, pointer, state);
                 pointer.truncate(len);
             }
         }
@@ -376,7 +391,7 @@ fn any_value(value: &mut Value, pointer: &mut String, state: &mut State) {
             for (i, child) in items.iter_mut().enumerate() {
                 let len = pointer.len();
                 push(pointer, &i.to_string());
-                any_value(child, pointer, state);
+                field(key, child, kind, pointer, state);
                 pointer.truncate(len);
             }
         }
@@ -549,13 +564,14 @@ mod tests {
                 "infoHash": "2849211f150e966ef7924f43aec22727a644e10d",
                 "fileIdx": 0,
                 "sources": ["tracker:udp://open.tracker/announce", "dht:2849211f150e966ef7924f43aec22727a644e10d"],
-                "behaviorHints": { "bingeGroup": "torrentio|4k|HDR", "filename": "Inception.2010.mkv", "videoSize": 123 }
+                "behaviorHints": { "bingeGroup": "torrentio|4k|HDR", "filename": "Inception.2010.mkv", "videoSize": 123,
+                                   "videoHash": "1234567890123456" }
             }, {
                 "url": "https://api.torbox.app/REDACTED/Inception.2010.mkv?x=1",
                 "externalUrl": "magnet:?xt=urn:btih:abc",
                 "ytId": "dQw4w9WgXcQ"
             }],
-            "subtitles": [{ "id": "3728010", "url": "https://subs/1", "lang": "eng",
+            "subtitles": [{ "id": "Inception.2010-3728010", "url": "https://subs/Inception.2010.srt", "lang": "eng",
                             "movieReleaseName": "Inception.2010.CAM.Xvid-LKRG" }],
             "meta": { "name": "Inception", "videos": [{ "id": "v", "streams": [{ "title": "Inception" }] }] }
         });
@@ -564,16 +580,24 @@ mod tests {
         let s = &v["streams"][0];
         assert_eq!(s["name"], "Torrentio\n4k HDR");
         assert_eq!(s["title"], "Title 2010 2160p");
-        assert_eq!(s["infoHash"], "0000000000000000000000000000000000000001");
-        // Public tracker URLs stay; the DHT entry names the torrent.
-        assert_eq!(s["sources"][0], "tracker:udp://open.tracker/announce");
-        assert_eq!(
-            s["sources"][1],
-            "dht:0000000000000000000000000000000000000002"
+        let fake = |v: &Value| is_fake_hash(v.as_str().unwrap().trim_start_matches("dht:"));
+        assert!(fake(&s["infoHash"]));
+        // Tracker URLs can carry passkeys; the DHT entry names the torrent.
+        let tracker = s["sources"][0].as_str().unwrap();
+        assert!(
+            tracker.starts_with("tracker:udp://stream.invalid/"),
+            "{tracker}"
         );
+        assert!(fake(&s["sources"][1]));
         assert_eq!(s["behaviorHints"]["filename"], "Title.2010.mkv");
         assert_eq!(s["behaviorHints"]["videoSize"], 123);
-        assert_eq!(v["streams"][1]["url"], "https://stream.invalid/4.mkv");
+        assert!(fake(&s["behaviorHints"]["videoHash"]));
+        assert_eq!(s["behaviorHints"]["videoHash"].as_str().unwrap().len(), 16);
+        let url = v["streams"][1]["url"].as_str().unwrap();
+        assert!(
+            url.starts_with("https://stream.invalid/") && url.ends_with(".mkv"),
+            "{url}"
+        );
         assert!(
             v["streams"][1]["externalUrl"]
                 .as_str()
@@ -581,7 +605,14 @@ mod tests {
                 .starts_with("magnet:?xt=urn:btih:0000")
         );
         assert_eq!(v["streams"][1]["ytId"], "dQw4w9WgXcQ");
-        assert_eq!(v["subtitles"][0]["url"], "https://subs/1");
+        assert_eq!(v["subtitles"][0]["id"], "Title.2010-3728010");
+        assert!(
+            v["subtitles"][0]["url"]
+                .as_str()
+                .unwrap()
+                .starts_with("https://stream.invalid/")
+        );
+        assert_eq!(v["subtitles"][0]["lang"], "eng");
         assert_eq!(
             v["subtitles"][0]["movieReleaseName"],
             "Title.2010.CAM.Xvid-Title"

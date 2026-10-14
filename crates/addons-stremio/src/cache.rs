@@ -36,8 +36,12 @@ pub struct CachePolicy {
 }
 
 impl CachePolicy {
-    /// Body hints win; without any, `Cache-Control` is used. `None` means "don't cache".
+    /// `Cache-Control: no-store`/`no-cache` always wins; then body hints; without any,
+    /// `Cache-Control` max-age and friends. `None` means "don't cache".
     pub fn from_response(hints: CacheHints, cache_control: Option<&str>) -> Option<Self> {
+        if cache_control.is_some_and(forbids_caching) {
+            return None;
+        }
         let from_body = hints.cache_max_age.is_some()
             || hints.stale_revalidate.is_some()
             || hints.stale_error.is_some();
@@ -85,9 +89,20 @@ impl CachePolicy {
         }
     }
 
-    fn lifetime(&self) -> u64 {
-        self.max_age + self.stale_revalidate.max(self.stale_error)
+    /// How long the entry can be served at all. Addons control these numbers, so saturate.
+    fn lifetime(&self) -> Duration {
+        Duration::from_secs(
+            self.max_age
+                .saturating_add(self.stale_revalidate.max(self.stale_error)),
+        )
     }
+}
+
+fn forbids_caching(header: &str) -> bool {
+    header.split(',').any(|d| {
+        let name = d.split('=').next().unwrap_or_default().trim();
+        name.eq_ignore_ascii_case("no-store") || name.eq_ignore_ascii_case("no-cache")
+    })
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
@@ -149,17 +164,17 @@ impl<C: Clock> Cache<C> {
     }
 
     fn store(&self, url: String, fetched: &Fetched) {
-        let Some(policy) =
-            CachePolicy::from_response(fetched.response.cache(), fetched.cache_control.as_deref())
-        else {
-            return;
-        };
+        let policy =
+            CachePolicy::from_response(fetched.response.cache(), fetched.cache_control.as_deref());
         let now = self.clock.now();
         let mut entries = self.entries.lock().unwrap_or_else(|e| e.into_inner());
+        let Some(policy) = policy else {
+            // The newest answer says "don't cache": an older copy must not be served either.
+            entries.remove(&url);
+            return;
+        };
         // Drop entries that can no longer be served at all.
-        entries.retain(|_, e| {
-            now.saturating_sub(e.stored_at) < Duration::from_secs(e.policy.lifetime())
-        });
+        entries.retain(|_, e| now.saturating_sub(e.stored_at) < e.policy.lifetime());
         entries.insert(
             url,
             Entry {
@@ -355,6 +370,56 @@ mod tests {
         assert_eq!(get(), Ok(Served::StaleOnError));
         clock.set(16 + 31);
         assert!(matches!(get(), Err(Error::Transport(_))));
+    }
+
+    #[test]
+    fn no_store_wins_over_body_hints() {
+        let body = CacheHints {
+            cache_max_age: Some(60),
+            ..Default::default()
+        };
+        assert_eq!(CachePolicy::from_response(body, Some("no-store")), None);
+        assert_eq!(
+            CachePolicy::from_response(body, Some("public, No-Cache")),
+            None
+        );
+    }
+
+    #[test]
+    fn huge_hints_do_not_overflow() {
+        let p = CachePolicy {
+            max_age: u64::MAX,
+            stale_revalidate: 0,
+            stale_error: 1,
+        };
+        assert_eq!(p.lifetime(), Duration::from_secs(u64::MAX));
+        let clock = FakeClock::default();
+        let cache = Cache::new(&clock);
+        let t = Counting::new(
+            r#"{"streams":[],"cacheMaxAge":18446744073709551615,"staleError":1}"#,
+            None,
+        );
+        block_on(cache.fetch(&t, URL, &path())).unwrap();
+        // A second store runs eviction over the first entry.
+        block_on(cache.revalidate(&t, URL, &path())).unwrap();
+    }
+
+    #[test]
+    fn non_cacheable_revalidation_evicts_the_old_entry() {
+        let clock = FakeClock::default();
+        let cache = Cache::new(&clock);
+        let t = Counting::new(
+            r#"{"streams":[],"cacheMaxAge":10,"staleRevalidate":10}"#,
+            None,
+        );
+        block_on(cache.fetch(&t, URL, &path())).unwrap();
+        *t.body.lock().unwrap() = r#"{"streams":[]}"#;
+        clock.set(15);
+        block_on(cache.revalidate(&t, URL, &path())).unwrap();
+        assert_eq!(
+            block_on(cache.fetch(&t, URL, &path())).unwrap().1,
+            Served::Network
+        );
     }
 
     #[test]

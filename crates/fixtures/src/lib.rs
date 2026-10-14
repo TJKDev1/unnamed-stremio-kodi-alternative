@@ -93,8 +93,14 @@ impl Scrubber {
 
     /// Adds an addon URL (manifest URL or base URL). Its base, which holds the addon's config,
     /// is replaced everywhere with `<scheme>://<host>/REDACTED`, in its `https://`, `http://`
-    /// and `stremio://` (install link) forms.
+    /// and `stremio://` (install link) forms. Query parameter values on the URL are secrets
+    /// too (some addons authenticate with `manifest.json?key=…`).
     pub fn addon_url(mut self, url: &str) -> Self {
+        if let Ok(parsed) = Url::parse(&url.replacen("stremio://", "https://", 1)) {
+            for (_, value) in parsed.query_pairs() {
+                self = self.secret(value.into_owned());
+            }
+        }
         let base = addon_base(url);
         let Some((_, rest)) = base.split_once("://") else {
             return self;
@@ -556,6 +562,14 @@ mod tests {
         let findings = s.scrub(&mut v);
         assert_eq!(v["streams"][0]["title"], "cached via REDACTED");
         assert_eq!(findings[0].pointer, "/streams/0/title");
+    }
+
+    #[test]
+    fn addon_url_query_values_are_secrets() {
+        let s = Scrubber::new().addon_url("https://host.example/manifest.json?c=shortkey");
+        let mut v = json!({ "addon": "https://host.example/manifest.json?c=shortkey", "x": "see shortkey" });
+        s.scrub(&mut v);
+        assert!(!v.to_string().contains("shortkey"), "{v}");
     }
 
     #[test]

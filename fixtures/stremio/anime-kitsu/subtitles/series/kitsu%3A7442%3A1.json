@@ -15,7 +15,7 @@
       "releaseFormat": "HDTV",
       "season": 1,
       "subtitleFileName": "Title Title Title S01E01 HDTV.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1954473046"
+      "url": "https://stream.invalid/1"
     },
     {
       "SubEncoding": "CP1252",
@@ -29,7 +29,7 @@
       "releaseGroup": "Title-Title",
       "season": 1,
       "subtitleFileName": "[Title-Title].Title.Title.Title.",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1954357995"
+      "url": "https://stream.invalid/2"
     },
     {
       "SubEncoding": "CP1252",
@@ -42,7 +42,7 @@
       "movieReleaseName": "Title-Title-Title-01",
       "season": 1,
       "subtitleFileName": "Title-Title-Title-01.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1953691983"
+      "url": "https://stream.invalid/3"
     },
     {
       "SubEncoding": "CP1252",
@@ -55,7 +55,7 @@
       "movieReleaseName": "Title Title Title s01e01",
       "season": 1,
       "subtitleFileName": "Title Title Title s01e01.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1956891486"
+      "url": "https://stream.invalid/4"
     },
     {
       "SubEncoding": "UTF-8",
@@ -68,7 +68,7 @@
       "movieReleaseName": "Title.Title.Title.S01E01.1080p.BluRay.x265.Dual.Audio-Title",
       "season": 1,
       "subtitleFileName": "Title.Title.Title.S01E01.1080p.BluRay.x265.Dual.Audio-Title.Title.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1960936678"
+      "url": "https://stream.invalid/5"
     },
     {
       "SubEncoding": "UTF-8",
@@ -81,7 +81,7 @@
       "movieReleaseName": "Title.Title.Title.S1E01.bluray",
       "season": 1,
       "subtitleFileName": "Title.Title.Title.S1E01.bluray.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1957994706"
+      "url": "https://stream.invalid/6"
     },
     {
       "SubEncoding": "UTF-8",
@@ -94,7 +94,7 @@
       "movieReleaseName": "Title Title Title 01 [10bit BD 720p]",
       "season": 1,
       "subtitleFileName": "Title Title Title 01 [10bit BD 720p].Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1960021016"
+      "url": "https://stream.invalid/7"
     },
     {
       "SubEncoding": "UTF-8",
@@ -107,7 +107,7 @@
       "movieReleaseName": "Title Title Title S01E013.5",
       "season": 1,
       "subtitleFileName": "Title Title Title S01E013.5.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1958092987"
+      "url": "https://stream.invalid/8"
     },
     {
       "SubEncoding": "CP1254",
@@ -120,7 +120,7 @@
       "movieReleaseName": "[Title]_Title_Title_Title_-_01_[Title]",
       "season": 1,
       "subtitleFileName": "[Title]_Title_Title_Title_-_01_[Title].Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1953555724"
+      "url": "https://stream.invalid/9"
     },
     {
       "SubEncoding": "UTF-8",
@@ -133,7 +133,7 @@
       "movieReleaseName": "[Anime Title] Title Title Title - 01",
       "season": 1,
       "subtitleFileName": "[Anime Title] Title Title Title - 01.Title",
-      "url": "https://subs5.strem.io/en/download/REDACTED/src-api/file/1958436734"
+      "url": "https://stream.invalid/10"
     }
   ]
 }

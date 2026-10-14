@@ -43,16 +43,25 @@ const ITEM_LISTS: &[&str] = &[
 ];
 
 pub struct Recorder<'a, T: Transport> {
-    pub transport: &'a T,
-    pub url: String,
-    pub dir: PathBuf,
+    transport: &'a T,
+    url: String,
+    /// Staging folder; moved to `final_dir` only after everything verified clean.
+    dir: PathBuf,
+    final_dir: PathBuf,
     scrubber: Scrubber,
     index: Vec<Value>,
+    redacted_files: usize,
 }
 
 impl<'a, T: Transport> Recorder<'a, T> {
-    pub fn new(transport: &'a T, url: &str, dir: PathBuf) -> Result<Self, String> {
+    /// Records into `out/name`. Work happens in `out/.name.recording`, so a failed run never
+    /// touches an existing recording.
+    pub fn new(transport: &'a T, url: &str, out: &Path, name: &str) -> Result<Self, String> {
         let url = manifest::transport_url(url).map_err(|e| e.to_string())?;
+        let dir = out.join(format!(".{name}.recording"));
+        if dir.exists() {
+            std::fs::remove_dir_all(&dir).map_err(|e| format!("{}: {e}", dir.display()))?;
+        }
         let mut scrubber = Scrubber::new().addon_url(&url);
         if let Ok(env) = std::env::var("FIXTURE_SECRETS") {
             for secret in env.split([',', '\n']).map(str::trim) {
@@ -63,13 +72,53 @@ impl<'a, T: Transport> Recorder<'a, T> {
             transport,
             url,
             dir,
+            final_dir: out.join(name),
             scrubber,
             index: Vec::new(),
+            redacted_files: 0,
         })
     }
 
-    /// Records the manifest, then `explicit` paths or, if none, an automatic plan.
+    /// `text` with anything secret-looking removed. Everything printed goes through this:
+    /// parse errors and addon-supplied strings can quote URLs and keys.
+    fn safe(&self, text: &str) -> String {
+        self.scrubber.scrub_str(text).0
+    }
+
+    fn say(&self, text: &str) {
+        println!("{}", self.safe(text));
+    }
+
+    /// Records, verifies, then replaces `out/name`. On any error the staging folder is removed
+    /// and an existing recording stays as it was.
     pub async fn run(mut self, explicit: Vec<ResourcePath>) -> Result<(), String> {
+        let result = self.record_all(explicit).await.and_then(|()| self.verify());
+        let result = result.and_then(|()| {
+            if self.final_dir.exists() {
+                std::fs::remove_dir_all(&self.final_dir)
+                    .map_err(|e| format!("{}: {e}", self.final_dir.display()))?;
+            }
+            std::fs::rename(&self.dir, &self.final_dir)
+                .map_err(|e| format!("{}: {e}", self.final_dir.display()))
+        });
+        match result {
+            Ok(()) => {
+                println!(
+                    "recorded {} request(s) into {}",
+                    self.index.len(),
+                    self.final_dir.display()
+                );
+                Ok(())
+            }
+            Err(e) => {
+                let _ = std::fs::remove_dir_all(&self.dir);
+                Err(self.safe(&e))
+            }
+        }
+    }
+
+    /// Records the manifest, then `explicit` paths or, if none, an automatic plan.
+    async fn record_all(&mut self, explicit: Vec<ResourcePath>) -> Result<(), String> {
         let body = self
             .transport
             .get(&self.url)
@@ -81,13 +130,13 @@ impl<'a, T: Transport> Recorder<'a, T> {
         let Validated { manifest, warnings } =
             Manifest::from_json(&body.body).map_err(|e| e.to_string())?;
         for w in &warnings {
-            println!("    warning: {}", w.0);
+            self.say(&format!("    warning: {}", w.0));
         }
         self.write("manifest.json", &body.body, &mut false)?;
-        println!(
+        self.say(&format!(
             "recorded manifest of {} {}",
             manifest.name, manifest.version
-        );
+        ));
         let addon = Descriptor {
             transport_url: self.url.clone(),
             manifest,
@@ -95,23 +144,22 @@ impl<'a, T: Transport> Recorder<'a, T> {
         };
 
         if explicit.is_empty() {
-            self.auto(&addon).await;
+            self.auto(&addon).await?;
         } else {
             for path in explicit {
                 if !addon.manifest.supports(&path) {
-                    println!(
+                    self.say(&format!(
                         "    note: the manifest doesn't claim {}",
                         path.to_url_path()
-                    );
+                    ));
                 }
-                self.record(&path).await;
+                self.record(&path).await?;
             }
         }
-        self.write_index()?;
-        self.verify()
+        self.write_index()
     }
 
-    async fn auto(&mut self, addon: &Descriptor) {
+    async fn auto(&mut self, addon: &Descriptor) -> Result<(), String> {
         let m = &addon.manifest;
         let mut seen_ids: Vec<(String, String)> = Vec::new();
 
@@ -150,7 +198,7 @@ impl<'a, T: Transport> Recorder<'a, T> {
         }
         let catalogs = unique;
         for path in &catalogs {
-            if let Some(ResourceResponse::Catalog(r)) = self.record(path).await
+            if let Some(ResourceResponse::Catalog(r)) = self.record(path).await?
                 && let Some(first) = r.metas.first()
             {
                 seen_ids.push((first.r#type.clone(), first.id.clone()));
@@ -158,7 +206,7 @@ impl<'a, T: Transport> Recorder<'a, T> {
         }
         for c in m.addon_catalogs.iter().take(2) {
             self.record(&ResourcePath::new("addon_catalog", &c.r#type, &c.id))
-                .await;
+                .await?;
         }
 
         // Metas: an id from a catalog first, then well-known ones.
@@ -169,7 +217,7 @@ impl<'a, T: Transport> Recorder<'a, T> {
             .chain(KNOWN_METAS.iter().map(|(t, i)| ((*t).into(), (*i).into())));
         let metas = supported(m, "meta", meta_candidates, MAX_METAS);
         for path in metas {
-            if let Some(ResourceResponse::Meta(r)) = self.record(&path).await
+            if let Some(ResourceResponse::Meta(r)) = self.record(&path).await?
                 && let Some(meta) = &r.meta
             {
                 let video = meta
@@ -192,21 +240,23 @@ impl<'a, T: Transport> Recorder<'a, T> {
             .collect();
         for resource in ["stream", "subtitles"] {
             for path in supported(m, resource, candidates.iter().cloned(), MAX_STREAMS) {
-                self.record(&path).await;
+                self.record(&path).await?;
             }
         }
+        Ok(())
     }
 
     /// Fetches one path, writes it if it's a usable response, and logs it in the index.
-    async fn record(&mut self, path: &ResourcePath) -> Option<ResourceResponse> {
+    /// Addon failures are logged and skipped; failing to write is an error for the whole run.
+    async fn record(&mut self, path: &ResourcePath) -> Result<Option<ResourceResponse>, String> {
         let shown = path.to_url_path();
         let response = match self.transport.get(&path.url(&self.url)).await {
             Ok(r) => r,
             Err(e) => {
-                println!("    {shown}: {e}");
+                self.say(&format!("    {shown}: {e}"));
                 self.index
                     .push(json!({ "path": shown, "error": e.to_string() }));
-                return None;
+                return Ok(None);
             }
         };
         let parsed = (200..300)
@@ -215,25 +265,25 @@ impl<'a, T: Transport> Recorder<'a, T> {
         let mut trimmed = false;
         let (file, result) = match parsed {
             Some(Ok(p)) => {
-                let file = path.fixture_path();
-                if let Err(e) = self.write(&file, &response.body, &mut trimmed) {
-                    println!("    {shown}: {e}");
-                    return None;
-                }
+                let file = self.file_for(path);
+                self.write(&file, &response.body, &mut trimmed)?;
                 let note = if p.dropped.is_empty() {
                     String::new()
                 } else {
                     format!(", {} item(s) dropped", p.dropped.len())
                 };
-                println!("    {shown}: HTTP {}{note}", response.status);
+                self.say(&format!("    {shown}: HTTP {}{note}", response.status));
                 (Some(file), Some(p.value))
             }
             Some(Err(e)) => {
-                println!("    {shown}: HTTP {}, unusable: {e}", response.status);
+                self.say(&format!(
+                    "    {shown}: HTTP {}, unusable: {e}",
+                    response.status
+                ));
                 (None, None)
             }
             None => {
-                println!("    {shown}: HTTP {}", response.status);
+                self.say(&format!("    {shown}: HTTP {}", response.status));
                 (None, None)
             }
         };
@@ -244,7 +294,32 @@ impl<'a, T: Transport> Recorder<'a, T> {
             "file": file,
             "trimmed": trimmed,
         }));
-        result
+        Ok(result)
+    }
+
+    /// The fixture file for `path`, unless an id or extra would put something secret into a
+    /// file name; then `<resource>/redacted/<n>.json`.
+    fn file_for(&mut self, path: &ResourcePath) -> String {
+        let raw = format!(
+            "{}/{}/{}/{}",
+            path.resource,
+            path.r#type,
+            path.id,
+            path.extra
+                .iter()
+                .map(|(n, v)| format!("{n}={v}"))
+                .collect::<Vec<_>>()
+                .join("&")
+        );
+        let file = path.fixture_path();
+        if [raw.as_str(), &path.to_url_path(), &file]
+            .iter()
+            .any(|text| self.safe(text) != *text)
+        {
+            self.redacted_files += 1;
+            return format!("{}/redacted/{}.json", path.resource, self.redacted_files);
+        }
+        file
     }
 
     /// Trims, scrubs, anonymizes and writes one JSON body under the addon folder.
@@ -271,17 +346,31 @@ impl<'a, T: Transport> Recorder<'a, T> {
         write_json(&self.dir.join("index.json"), &index)
     }
 
-    /// Belt and braces: nothing written may still look secret.
+    /// Belt and braces: nothing written, contents or file names, may still look secret.
     fn verify(&self) -> Result<(), String> {
         let mut dirty = 0;
         visit_json(&self.dir, &mut |file, value| {
+            let rel = file
+                .strip_prefix(&self.dir)
+                .unwrap_or(file)
+                .to_string_lossy()
+                .replace('\\', "/");
+            let mut name = rel.clone();
+            for _ in 0..3 {
+                if self.safe(&name) != name {
+                    eprintln!("a file name looks secret; not writing the recording");
+                    dirty += 1;
+                    break;
+                }
+                name = percent_decode(&name);
+            }
             for f in self
                 .scrubber
                 .check(value)
                 .into_iter()
                 .chain(anonymize::check(value))
             {
-                eprintln!("{}: {} at {}", file.display(), f.reason, f.pointer);
+                eprintln!("{}: {} at {}", self.safe(&rel), f.reason, f.pointer);
                 dirty += 1;
             }
         })?;
@@ -290,11 +379,6 @@ impl<'a, T: Transport> Recorder<'a, T> {
                 "{dirty} value(s) still look secret; not safe to commit"
             ));
         }
-        println!(
-            "recorded {} request(s) into {}",
-            self.index.len(),
-            self.dir.display()
-        );
         Ok(())
     }
 }
@@ -362,6 +446,27 @@ pub fn parse_path(text: &str) -> Result<ResourcePath, String> {
     Ok(path)
 }
 
+/// Decodes `%XX` escapes once; anything malformed is kept as is.
+fn percent_decode(s: &str) -> String {
+    let bytes = s.as_bytes();
+    let mut out = Vec::with_capacity(bytes.len());
+    let mut i = 0;
+    while i < bytes.len() {
+        let hex = |b: u8| (b as char).to_digit(16);
+        if bytes[i] == b'%'
+            && i + 2 < bytes.len()
+            && let (Some(h), Some(l)) = (hex(bytes[i + 1]), hex(bytes[i + 2]))
+        {
+            out.push((h * 16 + l) as u8);
+            i += 3;
+        } else {
+            out.push(bytes[i]);
+            i += 1;
+        }
+    }
+    String::from_utf8_lossy(&out).into_owned()
+}
+
 fn write_json(file: &Path, value: &Value) -> Result<(), String> {
     if let Some(dir) = file.parent() {
         std::fs::create_dir_all(dir).map_err(|e| format!("{}: {e}", dir.display()))?;
@@ -414,6 +519,42 @@ mod tests {
         let p = parse_path("/catalog/movie/top/genre=Sci-Fi&skip=20.json").unwrap();
         assert_eq!(p.extra.len(), 2);
         assert!(parse_path("stream/movie").is_err());
+    }
+
+    #[test]
+    fn percent_decoding() {
+        assert_eq!(percent_decode("a%3Ab%252F%zz%4"), "a:b%2F%zz%4");
+    }
+
+    #[test]
+    fn secret_ids_never_become_file_names() {
+        struct NoNet;
+        impl Transport for NoNet {
+            async fn get(
+                &self,
+                _: &str,
+            ) -> Result<app_addons_stremio::HttpResponse, app_addons_stremio::TransportError>
+            {
+                unreachable!()
+            }
+        }
+        // SAFETY of the test: FIXTURE_SECRETS is not read here; the key comes from the URL query.
+        let out = std::env::temp_dir();
+        let mut r = Recorder::new(
+            &NoNet,
+            "https://a.example/manifest.json?key=supersecretkey",
+            &out,
+            "secret-ids-test",
+        )
+        .unwrap();
+        let path = ResourcePath::new("stream", "movie", "tt1:supersecretkey");
+        assert_eq!(r.file_for(&path), "stream/redacted/1.json");
+        let ok = ResourcePath::new("stream", "movie", "tt1");
+        assert_eq!(r.file_for(&ok), "stream/movie/tt1.json");
+        assert!(
+            !r.safe("error at https://a.example/manifest.json?key=supersecretkey")
+                .contains("supersecretkey")
+        );
     }
 
     #[test]
