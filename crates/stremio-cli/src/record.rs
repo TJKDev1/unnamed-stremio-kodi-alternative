@@ -116,19 +116,30 @@ impl<'a, T: Transport> Recorder<'a, T> {
         let err = |e: std::io::Error| format!("{}: {e}", self.final_dir.display());
         let backup = self.dir.with_extension("previous");
         if backup.exists() {
-            std::fs::remove_dir_all(&backup).map_err(err)?;
+            if self.final_dir.exists() {
+                std::fs::remove_dir_all(&backup).map_err(err)?;
+            } else {
+                // A previous run failed half-way: the backup is the only copy. Put it back.
+                std::fs::rename(&backup, &self.final_dir).map_err(err)?;
+            }
         }
         let had_old = self.final_dir.exists();
         if had_old {
             std::fs::rename(&self.final_dir, &backup).map_err(err)?;
         }
         if let Err(e) = std::fs::rename(&self.dir, &self.final_dir) {
-            if had_old {
-                let _ = std::fs::rename(&backup, &self.final_dir);
+            if had_old && let Err(restore) = std::fs::rename(&backup, &self.final_dir) {
+                return Err(format!(
+                    "{}; restoring the old recording also failed ({restore}): it is in {} \
+                     and the next run puts it back",
+                    err(e),
+                    backup.display()
+                ));
             }
             return Err(err(e));
         }
         if had_old {
+            // The new recording is in place; a leftover backup is removed on the next run.
             let _ = std::fs::remove_dir_all(&backup);
         }
         Ok(())

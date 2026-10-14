@@ -64,7 +64,8 @@ fn main() -> ExitCode {
     match result {
         Ok(()) => ExitCode::SUCCESS,
         Err(err) => {
-            eprintln!("{err}");
+            // Errors name files, and file names can hold the very secrets we were given.
+            eprintln!("{}", scrubber.scrub_str(&err).0);
             ExitCode::FAILURE
         }
     }
@@ -75,17 +76,14 @@ fn scrub(scrubber: &Scrubber, files: &[PathBuf]) -> Result<(), String> {
         let mut value = read_json(file)?;
         let mut findings = scrubber.scrub(&mut value);
         findings.extend(anonymize::anonymize(&mut value));
+        let shown = scrubber.scrub_str(&file.display().to_string()).0;
         if findings.is_empty() {
-            println!("{}: clean", file.display());
+            println!("{shown}: clean");
             continue;
         }
         let text = serde_json::to_string_pretty(&value).map_err(|e| e.to_string())? + "\n";
         std::fs::write(file, text).map_err(|e| format!("writing {}: {e}", file.display()))?;
-        println!(
-            "{}: scrubbed/anonymized {} value(s)",
-            file.display(),
-            findings.len()
-        );
+        println!("{shown}: scrubbed/anonymized {} value(s)", findings.len());
     }
     Ok(())
 }

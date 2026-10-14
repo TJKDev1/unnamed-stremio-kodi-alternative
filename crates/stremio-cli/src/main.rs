@@ -92,7 +92,10 @@ fn parse_args(raw: Vec<String>) -> Result<Args, String> {
             }
             "--timeout" => {
                 let secs: f64 = value("--timeout")?.parse().map_err(|_| "bad --timeout")?;
-                args.timeout = Duration::from_secs_f64(secs);
+                args.timeout = Duration::try_from_secs_f64(secs)
+                    .ok()
+                    .filter(|d| !d.is_zero())
+                    .ok_or("--timeout must be a positive number of seconds")?;
             }
             "--limit" => {
                 args.limit = value("--limit")?.parse().map_err(|_| "bad --limit")?;
@@ -127,7 +130,8 @@ async fn main() -> ExitCode {
     let raw: Vec<String> = std::env::args().skip(1).collect();
     // Built before anything can fail, from every URL-looking argument, so even argument
     // errors are printed scrubbed.
-    let out = Printer::new(raw.iter().filter(|a| a.contains("://")));
+    let urlish: Vec<String> = raw.iter().filter(|a| a.contains("://")).cloned().collect();
+    let out = Printer::new(urlish.iter());
     let args = match parse_args(raw) {
         Ok(args) => args,
         Err(e) => {
@@ -135,8 +139,8 @@ async fn main() -> ExitCode {
             return ExitCode::FAILURE;
         }
     };
-    // URLs from `--addons FILE` are only known now.
-    let out = Printer::new(args.addons.iter());
+    // URLs from `--addons FILE` are only known now; keep everything from before as well.
+    let out = Printer::new(urlish.iter().chain(&args.addons));
     match run(args, &out).await {
         Ok(()) => ExitCode::SUCCESS,
         Err(e) => {

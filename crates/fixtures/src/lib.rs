@@ -226,45 +226,65 @@ impl Scrubber {
 
     fn scrub_text(&self, text: &str, depth: usize) -> (String, Option<&'static str>) {
         let (mut out, mut reason) = self.replace_known(text);
-        let scrubbed = self
-            .scrub_url(&out, depth)
-            .or_else(|| self.scrub_embedded_urls(&out, depth));
-        if let Some(scrubbed) = scrubbed
+        // The whole string as one URL (catches percent-encoded nested URLs), then every URL
+        // span inside it (prose, fragments, unencoded proxy URLs), then `key=value` pairs.
+        if let Some(scrubbed) = self.scrub_url(&out, depth)
             && scrubbed != out
         {
             out = scrubbed;
             reason = reason.or(Some("secret in URL"));
         }
+        if let Some(scrubbed) = self.scrub_embedded_urls(&out, depth)
+            && scrubbed != out
+        {
+            out = scrubbed;
+            reason = reason.or(Some("secret in URL"));
+        }
+        if let Some(scrubbed) = scrub_assignments(&out) {
+            out = scrubbed;
+            reason = reason.or(Some("secret-looking assignment"));
+        }
         (out, reason)
     }
 
-    /// Scrubs URLs inside prose (`see https://cdn/a?token=x for details`, parse errors quoting a
-    /// value). A span runs from the scheme to the next whitespace or quote-like character.
-    /// `None` if the text holds no URL.
+    /// Scrubs every URL span in `text`. A span starts at a scheme (any case) and runs to the
+    /// next whitespace, quote-like character or the next scheme. `None` if there is no URL.
     fn scrub_embedded_urls(&self, text: &str, depth: usize) -> Option<String> {
+        const SCHEMES: [&str; 3] = ["https://", "http://", "stremio://"];
+        // ASCII lower-casing keeps byte offsets, so positions found in `lower` index `text`.
+        let lower = text.to_ascii_lowercase();
+        let next_scheme = |from: usize| {
+            SCHEMES
+                .iter()
+                .filter_map(|scheme| lower[from..].find(scheme).map(|i| from + i))
+                .min()
+        };
+        let mut start = next_scheme(0)?;
         let mut out = String::with_capacity(text.len());
-        let mut rest = text;
-        let mut found = false;
-        while let Some(start) = ["https://", "http://", "stremio://"]
-            .iter()
-            .filter_map(|scheme| rest.find(scheme))
-            .min()
-        {
-            found = true;
-            out.push_str(&rest[..start]);
-            let span_len = rest[start..]
+        out.push_str(&text[..start]);
+        loop {
+            let after = start + text[start..].find("://").map_or(1, |i| i + 3);
+            let stop = text[after..]
                 .find(|c: char| c.is_whitespace() || "\"'<>`\\".contains(c))
-                .unwrap_or(rest.len() - start);
-            let span = &rest[start..start + span_len];
+                .map_or(text.len(), |i| after + i);
+            let end = next_scheme(after).map_or(stop, |next| next.min(stop));
+            let span = &text[start..end];
             out.push_str(
                 &self
                     .scrub_url(span, depth)
                     .unwrap_or_else(|| span.to_owned()),
             );
-            rest = &rest[start + span_len..];
+            match next_scheme(end) {
+                Some(next) => {
+                    out.push_str(&text[end..next]);
+                    start = next;
+                }
+                None => {
+                    out.push_str(&text[end..]);
+                    return Some(out);
+                }
+            }
         }
-        out.push_str(rest);
-        found.then_some(out)
     }
 
     /// Replaces known addon bases and secrets, literally and in their percent-encoded forms.
@@ -419,6 +439,25 @@ impl Scrubber {
                 }
             }
             Value::Object(map) => {
+                // Keys are data too: an addon can put anything in them.
+                let renames: Vec<(String, String)> = map
+                    .keys()
+                    .filter_map(|key| match self.scrub_str(key) {
+                        (scrubbed, Some(_)) => Some((key.clone(), scrubbed)),
+                        _ => None,
+                    })
+                    .collect();
+                for (old, mut new) in renames {
+                    let item = map.remove(&old).unwrap_or(Value::Null);
+                    while map.contains_key(&new) {
+                        new.push('_');
+                    }
+                    findings.push(Finding {
+                        pointer: format!("{pointer}/{}", new.replace('~', "~0").replace('/', "~1")),
+                        reason: "secret in key",
+                    });
+                    map.insert(new, item);
+                }
                 for (key, item) in map.iter_mut() {
                     let len = pointer.len();
                     pointer.push('/');
@@ -431,6 +470,39 @@ impl Scrubber {
             Value::Null | Value::Bool(_) | Value::Number(_) => {}
         }
     }
+}
+
+/// Replaces the value of every `name=value` pair whose name looks secret (`token=…`,
+/// `apiKey=…`), wherever it appears: relative paths, file names, prose. `None` if nothing
+/// changed.
+fn scrub_assignments(text: &str) -> Option<String> {
+    let is_name = |c: char| c.is_ascii_alphanumeric() || c == '_' || c == '-';
+    let ends_value = |c: char| c.is_whitespace() || "&/;,#?\"'<>".contains(c);
+    let mut out = String::with_capacity(text.len());
+    let mut changed = false;
+    let mut rest = text;
+    while let Some(eq) = rest.find('=') {
+        let name_start = rest[..eq]
+            .char_indices()
+            .rev()
+            .take_while(|(_, c)| is_name(*c))
+            .last()
+            .map_or(eq, |(i, _)| i);
+        let value_end = rest[eq + 1..]
+            .find(ends_value)
+            .map_or(rest.len(), |i| eq + 1 + i);
+        let (name, value) = (&rest[name_start..eq], &rest[eq + 1..value_end]);
+        out.push_str(&rest[..=eq]);
+        if !name.is_empty() && is_secret_key(name) && !value.is_empty() && value != REDACTED {
+            out.push_str(REDACTED);
+            changed = true;
+        } else {
+            out.push_str(value);
+        }
+        rest = &rest[value_end..];
+    }
+    out.push_str(rest);
+    changed.then_some(out)
 }
 
 /// Scrubs an absolute `http(s)://` or `stremio://` URL with the built-in heuristics only;
@@ -611,6 +683,39 @@ mod tests {
         let findings = s.scrub(&mut v);
         assert_eq!(v["streams"][0]["title"], "cached via REDACTED");
         assert_eq!(findings[0].pointer, "/streams/0/title");
+    }
+
+    #[test]
+    fn round_three_cases() {
+        let s = Scrubber::new().secret("probevalue");
+        // A URL inside another URL's fragment.
+        let (out, _) = Scrubber::new()
+            .scrub_str("https://public.invalid/a# see https://cdn.invalid/a?token=probe2value");
+        assert!(!out.contains("probe2value"), "{out}");
+        // Upper-case schemes.
+        let (out, _) = Scrubber::new().scrub_str("see HTTPS://cdn.invalid/a?token=probe3value");
+        assert!(!out.contains("probe3value"), "{out}");
+        // Secrets as JSON keys.
+        let mut v = json!({ "probevalue": "ok", "nested": { "x probevalue": 1 } });
+        assert!(!s.check(&v).is_empty());
+        s.scrub(&mut v);
+        assert!(!v.to_string().contains("probevalue"), "{v}");
+        assert!(s.check(&v).is_empty());
+        // Credential assignments in relative paths and file names.
+        let plain = Scrubber::new();
+        assert!(
+            plain
+                .check_path("stream/movie/token%3Dprobe4value.json")
+                .is_some()
+        );
+        let mut v = json!({ "path": "/stream/movie/token=probe4value.json" });
+        plain.scrub(&mut v);
+        assert!(!v.to_string().contains("probe4value"), "{v}");
+        assert!(
+            plain
+                .check_path("catalog/movie/top/genre%3DAction.json")
+                .is_none()
+        );
     }
 
     #[test]
