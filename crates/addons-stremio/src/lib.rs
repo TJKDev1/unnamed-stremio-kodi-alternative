@@ -1,14 +1,10 @@
-//! Stremio addon protocol client.
+//! Stremio addon protocol client (spec: `docs/specs/stremio-client.md`).
 //!
-//! Placeholder crate from the repository layout (T0.1.1); real code lands in later tasks.
+//! The crate is sans-IO (D60): models, validation, routes, routing and cache policy are plain
+//! code over data, and all network access goes through a `Transport`.
 
-/// Crate name, so the placeholder has something to test.
-pub const CRATE: &str = env!("CARGO_PKG_NAME");
+mod de;
+pub mod model;
 
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn crate_name() {
-        assert_eq!(super::CRATE, "app-addons-stremio");
-    }
-}
+pub use de::Dropped;
+pub use model::*;
