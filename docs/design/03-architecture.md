@@ -200,10 +200,13 @@ TV column = LG C3 / webOS 23 (the reference device). Older TVs (webOS 5–6, abo
 | Full skins + mods | ✅ | n/a | ✅ | ✅ (perf-gated) | ✅ |
 | mpv-grade player | ✅ | n/a | ✅ (MPVKit) | native pipeline | ✅ |
 
-## Repository layout (proposal)
+## Repository layout
+
+Bootstrapped in M0.1; crates not yet created are added when their phase starts. Cargo packages are named `app-<dir>` until the app has a name.
 
 ```
 /crates
+  fixtures/        fixture secret scrubber + checker (dev tooling)
   kernel/          lifecycle, slot registry, event bus, permissions, storage, UI host
   sdk-schema/      interface definitions → Rust traits, TS types, WASM bindings
   core/            state machine, models, intents
@@ -223,5 +226,8 @@ TV column = LG C3 / webOS 23 (the reference device). Older TVs (webOS 5–6, abo
   desktop/  ios/  webos/  android/
 /sdk
   addon-sdk-rust/  addon-sdk-ts/   (write once → HTTP server or WASM)
+/fixtures          recorded addon responses for conformance tests (secrets scrubbed)
+/scripts           dev/CI scripts (e.g. Chromium 94 smoke test)
+/xtask             repo maintenance: cargo xtask <task> (license policy)
 /docs
 ```
