@@ -4,7 +4,7 @@ Phase 0 spikes are **throwaway-quality code with keep-quality findings** ([plan]
 
 | Spike | Report | Verdict |
 |---|---|---|
-| S1 libmpv under a transparent webview | not started | |
+| S1 libmpv under a transparent webview | [S1](S1.md) | Works on Windows with Tauri v2: mpv `wid` child under a transparent WebView2, HDR10 passthrough; macOS/Linux use the separate-window fallback until tested (D64, D67, D68) |
 | S2 Web UI performance on the LG C3 | not started | |
 | S3 Rust Stremio protocol client | [S3](S3.md) | Works: sans-IO client, 9 real addons parse cleanly; Comet + MediaFusion recordings pending (D60–D63) |
 | S4 Core ↔ UI IPC | not started | |

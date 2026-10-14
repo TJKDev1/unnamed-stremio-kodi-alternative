@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>S1 shell</title>
+    <link rel="stylesheet" href="osd.css" />
+  </head>
+  <body>
+    <section id="stats" class="panel">
+      <h1>S1 · mpv under webview</h1>
+      <div id="mode"></div>
+      <pre id="props">waiting for mpv…</pre>
+      <div id="meter"></div>
+    </section>
+
+    <section id="swatches" class="panel" title="SDR UI white level over video">
+      <div class="swatch white">100% white</div>
+      <div class="swatch grey">50% grey</div>
+      <div class="swatch alpha">50% alpha black</div>
+    </section>
+
+    <div id="probe" title="moved every animation frame"></div>
+
+    <section id="bar" class="panel">
+      <div id="progress"><div id="progress-fill"></div></div>
+      <div class="row">
+        <select id="media"></select>
+        <button data-cmd="load">Load</button>
+        <button data-cmd="pause">Play/Pause</button>
+        <button data-cmd="back">−10 s</button>
+        <button data-cmd="fwd">+10 s</button>
+        <button data-cmd="fullscreen">Fullscreen</button>
+        <span class="sep"></span>
+        <button data-cmd="bench">Bench</button>
+        <button data-cmd="resize">Stress resize</button>
+        <button data-cmd="fs-loop">Stress fullscreen</button>
+        <button data-cmd="minimize">Stress minimise</button>
+        <button data-cmd="all">Run all + save</button>
+      </div>
+      <div id="status"></div>
+    </section>
+
+    <script src="osd.js"></script>
+  </body>
+</html>
