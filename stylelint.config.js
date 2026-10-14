@@ -4,7 +4,7 @@
 export default {
   extends: ["stylelint-config-standard"],
   plugins: ["stylelint-no-unsupported-browser-features"],
-  ignoreFiles: ["**/dist/**", "**/node_modules/**", "target/**", ".cache/**"],
+  ignoreFiles: ["**/dist/**", "**/node_modules/**", "**/target/**", ".cache/**"],
   rules: {
     "plugin/no-unsupported-browser-features": [
       true,

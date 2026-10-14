@@ -1,0 +1,3 @@
+# Its own pnpm root, outside the app's workspace (D65).
+packages:
+  - "."

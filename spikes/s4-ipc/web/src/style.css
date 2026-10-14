@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font: 13px system-ui, sans-serif;
+  background: #111;
+  color: #ddd;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 8px 12px;
+  background: #222;
+}
+
+.summary {
+  margin: 0;
+  padding: 8px 12px;
+  overflow-x: auto;
+  font-size: 11px;
+  background: #1a1a1a;
+}
+
+.row h2 {
+  margin: 8px 12px 4px;
+  font-size: 14px;
+}
+
+.count {
+  margin-left: 8px;
+  color: #888;
+}
+
+.cards {
+  display: flex;
+  gap: 6px;
+  padding: 0 12px;
+  overflow: hidden;
+  contain: layout paint;
+}
+
+.card {
+  position: relative;
+  flex: 0 0 96px;
+  contain: layout paint;
+}
+
+.poster {
+  height: 54px;
+  background: #334;
+}
+
+.title,
+.meta {
+  overflow: hidden;
+  font-size: 11px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.meta {
+  color: #888;
+}
+
+.progress {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: 4px;
+  background: #e50;
+}

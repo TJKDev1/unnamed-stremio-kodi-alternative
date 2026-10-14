@@ -15,11 +15,15 @@ export default tseslint.config(
     languageOptions: { globals: globals.browser },
   },
   {
+    files: ["spikes/*/web/src/**/*.{ts,tsx}"],
+    languageOptions: { globals: globals.browser },
+  },
+  {
     files: ["spikes/*/web/**/*.js"],
     languageOptions: { sourceType: "script", globals: globals.browser },
   },
   {
-    files: ["*.js", "scripts/**/*.mjs", "spikes/*/tools/**/*.mjs", "ui/*/vite.config.ts"],
+    files: ["*.js", "scripts/**/*.mjs", "spikes/*/tools/**/*.mjs", "ui/*/vite.config.ts", "spikes/*/web/vite.config.ts"],
     languageOptions: { globals: globals.node },
   },
 );
