@@ -49,6 +49,7 @@ pnpm typecheck
 pnpm lint
 pnpm -r run test
 pnpm build
+pnpm chromium94:install && pnpm smoke:chromium94   # Linux only (or WSL/Docker)
 
 # Fixtures
 cargo run -p app-fixtures -- check fixtures
@@ -58,8 +59,8 @@ CI runs all of the above on Windows, macOS and Linux.
 
 ## Rules that CI enforces
 
-- **Formatting and lints:** rustfmt; clippy with warnings as errors; ESLint (typescript-eslint strict).
-- **Chromium 94 baseline (D14):** UI code is ES2021, and `eslint-plugin-compat` rejects web APIs that Chrome 94 lacks (the LG C3's browser engine). Don't raise the baseline without a decision.
+- **Formatting and lints:** rustfmt; clippy with warnings as errors; ESLint (typescript-eslint strict); stylelint (standard config).
+- **Chromium 94 baseline (D14):** the LG C3's browser engine. Three layers check it: UI code is ES2021 (TypeScript lib + Vite target), `eslint-plugin-compat` and stylelint's `no-unsupported-browser-features` reject JS/CSS features Chrome 94 lacks, and on Linux CI the built app must boot in a real Chromium 94 (`pnpm chromium94:install && pnpm smoke:chromium94`; Linux only). Lint data has gaps; the smoke test is what actually proves it. Don't raise the baseline without a decision.
 - **Licenses (D37, D59):** the app is GPL-3.0-or-later, server/sync crates AGPL-3.0-or-later, SDKs MIT. `cargo xtask check-licenses` checks every crate and `package.json`; the policy lives in `xtask/src/licenses.rs`.
 - **No secrets in fixtures:** recorded addon responses go through the scrubber, and CI rejects fixtures that still look like they contain keys. See [`fixtures/README.md`](fixtures/README.md).
 - **No telemetry (D38).** Crash reports are opt-in only.

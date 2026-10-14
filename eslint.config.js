@@ -5,7 +5,7 @@ import globals from "globals";
 import tseslint from "typescript-eslint";
 
 export default tseslint.config(
-  { ignores: ["**/dist/**", "**/node_modules/**", "target/**"] },
+  { ignores: ["**/dist/**", "**/node_modules/**", "target/**", ".cache/**"] },
   js.configs.recommended,
   ...tseslint.configs.strict,
   // Flags web APIs missing from the browserslist target (Chromium 94, D14).
@@ -15,7 +15,7 @@ export default tseslint.config(
     languageOptions: { globals: globals.browser },
   },
   {
-    files: ["*.js", "ui/*/vite.config.ts"],
+    files: ["*.js", "scripts/**/*.mjs", "ui/*/vite.config.ts"],
     languageOptions: { globals: globals.node },
   },
 );
