@@ -7,3 +7,6 @@ dist/
 .env.*
 *.tsbuildinfo
 .cache/
+
+# Addon URLs with secrets: keep them out of the repo (D61)
+*-url.txt

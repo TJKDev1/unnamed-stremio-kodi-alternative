@@ -91,7 +91,7 @@ Recordings are written by `stremio-cli record`, which, **before anything touches
 
 The addon URL's query parameter values count as secrets, like its path. URLs embedded in prose (any case, including inside another URL) are scrubbed, as are secret-looking `name=value` pairs anywhere and secrets used as JSON object keys. Everything the CLI prints, including argument errors, goes through the same scrubber (errors can quote URLs). CI's `app-fixtures check` also checks file names (after up to three rounds of percent-decoding).
 
-Anonymizing is idempotent; `app-fixtures check` (CI) fails on any fixture that isn't already scrubbed and anonymized. Without explicit paths the recorder picks up to 8 catalogs plus one `skip`, `genre` and `search` variant, both addon catalogs, up to 3 metas (ids from catalogs first, then Inception / Game of Thrones / Cowboy Bebop) and up to 5 stream and subtitle requests the manifest claims to serve.
+Anonymizing is idempotent; `app-fixtures check` (CI) fails on any fixture that isn't already scrubbed and anonymized. Without explicit paths the recorder skips personal library catalogs (type or id containing `library`, e.g. a debrid account's downloads) and picks up to 8 catalogs plus one `skip`, `genre` and `search` variant, both addon catalogs, up to 3 metas (ids from catalogs first, then Inception / Game of Thrones / Cowboy Bebop) and up to 5 stream and subtitle requests the manifest claims to serve.
 
 ## Behaviour (known constraints)
 - Movie without `videos` ⇒ video id = meta id.
