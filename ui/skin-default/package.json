@@ -1,0 +1,22 @@
+{
+  "name": "@app/skin-default",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Default skin, built only on the public skin API",
+  "license": "GPL-3.0-or-later",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc -b",
+    "test": "vitest run --dir src"
+  },
+  "dependencies": {
+    "@app/sdk": "workspace:*"
+  }
+}

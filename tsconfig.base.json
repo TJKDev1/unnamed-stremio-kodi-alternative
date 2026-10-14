@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    // Chromium 94 baseline (D14): ES2021 syntax and built-ins only.
+    // Web APIs newer than Chrome 94 are caught by eslint-plugin-compat (browserslist in package.json).
+    "target": "ES2021",
+    "lib": ["ES2021", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "sourceMap": true
+  }
+}
