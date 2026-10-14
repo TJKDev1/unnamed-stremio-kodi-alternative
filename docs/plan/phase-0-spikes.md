@@ -66,6 +66,8 @@ Suggested order: M0.1 → S3 → S1 → S4 → S2 → S7 → M0.2. S3 goes first
 - macOS and Linux: same, or a documented fallback (separate borderless player window) that works.
 - Verdict logged as a D#: **Tauri v2 vs custom shell** (stremio-shell-ng style).
 
+Scope (D64): Windows is tested end to end on the owner's PC. macOS and Linux prototypes are built in CI; until real hardware is available, their plan is the documented fallback. Spike code lives in `spikes/s1-shell/` (D65) and uses a pinned prebuilt libmpv (D66).
+
 **Tasks**
 - [ ] T0.S1.1 Read how Rillio and `stremio-shell-ng` composite mpv + webview; write down the approach per OS.
 - [ ] T0.S1.2 Windows prototype with Tauri v2 + WebView2 + libmpv (render API or child window).

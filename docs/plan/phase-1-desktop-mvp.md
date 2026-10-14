@@ -314,6 +314,7 @@ After M1.3 the order of M1.4–M1.12 is flexible; pick whatever hurts most in da
 - [ ] T1.13.4 Log viewer + addon inspector.
 - [ ] T1.13.5 Discord Rich Presence (opt-in, privacy options) (D49).
 - [ ] T1.13.6 Packaging, code signing, auto-update channels (D38).
+- [ ] T1.13.10 libmpv built from source in CI per OS with a recorded recipe; each release names its exact libmpv source (GPL) (D66).
 - [ ] T1.13.7 Opt-in crash reporting.
 - [ ] T1.13.8 Accessibility pass: screen-reader labels, reduced motion, scalable type; string tables for i18n.
 - [ ] T1.13.9 Week-long daily-use test; fix list; phase sign-off.
