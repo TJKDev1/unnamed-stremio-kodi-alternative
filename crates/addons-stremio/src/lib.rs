@@ -7,12 +7,16 @@ mod de;
 pub mod manifest;
 pub mod model;
 pub mod route;
+pub mod router;
 pub mod transport;
 
 pub use de::Dropped;
 pub use manifest::{Validated, Warning, fetch_manifest};
 pub use model::*;
 pub use route::ResourcePath;
+pub use router::{Fetched, Planned, fetch, fetch_all, plan, plan_catalogs};
+#[cfg(feature = "reqwest")]
+pub use transport::ReqwestTransport;
 pub use transport::{HttpResponse, Transport, TransportError};
 
 /// Every addon transport URL ends with this.
