@@ -3,6 +3,7 @@
 //! The crate is sans-IO (D60): models, validation, routes, routing and cache policy are plain
 //! code over data, and all network access goes through [`Transport`].
 
+pub mod cache;
 mod de;
 pub mod manifest;
 pub mod model;
@@ -10,6 +11,7 @@ pub mod route;
 pub mod router;
 pub mod transport;
 
+pub use cache::{Cache, CachePolicy, Clock, Freshness, Served, SystemClock};
 pub use de::Dropped;
 pub use manifest::{Validated, Warning, fetch_manifest};
 pub use model::*;

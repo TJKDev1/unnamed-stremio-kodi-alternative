@@ -69,7 +69,9 @@ Values are seconds, read from the response body; if the body has none, `Cache-Co
 | `a < cacheMaxAge + staleRevalidate` | `Stale`: serve cached now, revalidate in the background |
 | otherwise | `Expired`: fetch; if the fetch fails and `a < cacheMaxAge + staleError`, serve cached |
 
-No hints ⇒ not cached. The cache key is the full resource URL. The clock is injected (`Clock` trait) so tests use a fake.
+No hints, all-zero hints, or `no-store`/`no-cache` ⇒ not cached. The cache key is the full resource URL. The clock is injected (`Clock` trait) so tests use a fake.
+
+`Cache::fetch` returns the response plus where it came from (`Network`, `Fresh`, `Stale`, `StaleOnError`). The crate never spawns tasks: on `Stale` the caller runs `Cache::revalidate` in the background on its own runtime. Entries that can no longer be served are evicted on the next store.
 
 ### Fixtures (D61, D62)
 `fixtures/stremio/<addon>/` holds:
