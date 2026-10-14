@@ -92,7 +92,7 @@ After M1.3 the order of M1.4–M1.12 is flexible; pick whatever hurts most in da
 - **The owner uses it for real from here on.**
 
 **Tasks**
-- [ ] T1.3.1 `PlayerBackend` trait + mpv backend (from S1).
+- [ ] T1.3.1 `PlayerBackend` trait + mpv backend (from S1: compositing per D67; re-assert mpv z-order on every VO re-init).
 - [ ] T1.3.2 Stream list screen: progressive results, per-addon groups, "requires plugin X" for torrent/NZB streams (D8, D20).
 - [ ] T1.3.3 Ranking stub: per-addon "trust this addon's order" (default for AIOStreams); simple merge across addons.
 - [ ] T1.3.4 Player view-model + OSD: scrubber, tracks, chapters, buffering, stats overlay.
@@ -186,7 +186,7 @@ After M1.3 the order of M1.4–M1.12 is flexible; pick whatever hurts most in da
 - External players (VLC, mpv, MPC-HC) with resume and progress where supported.
 
 **Tasks**
-- [ ] T1.7.1 Windows HDR: `gpu-next` on d3d11, HDR mode switching, SDR brightness setting.
+- [ ] T1.7.1 Windows HDR: `gpu-next` on d3d11, HDR mode switching, SDR brightness setting; OSD dimming over HDR video (D68).
 - [ ] T1.7.2 Audio rules + audio settings page.
 - [ ] T1.7.3 Headphone features + output-device detection and presets.
 - [ ] T1.7.4 Subtitle rules + styling + per-show memory.
@@ -196,6 +196,7 @@ After M1.3 the order of M1.4–M1.12 is flexible; pick whatever hurts most in da
 - [ ] T1.7.8 External player support with progress callbacks where possible.
 - [ ] T1.7.9 OS media controls (Windows SMTC; macOS Now Playing; MPRIS) (D49).
 - [ ] T1.7.10 PiP / mini-player.
+- [ ] T1.7.11 Motion smoothness on high-refresh displays: evaluate `video-sync=display-resample` + interpolation for 24/60 fps content on 120–240 Hz (S1 saw judder, same in plain mpv).
 
 ## M1.8 Library, catalog organizer & search
 

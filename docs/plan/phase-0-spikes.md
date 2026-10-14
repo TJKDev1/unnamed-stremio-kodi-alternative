@@ -70,12 +70,12 @@ Scope (D64): Windows is tested end to end on the owner's PC. macOS and Linux pro
 
 **Tasks**
 - [x] T0.S1.1 Read how Rillio and `stremio-shell-ng` composite mpv + webview; write down the approach per OS. See [S1 prior art](../spikes/S1.md#prior-art-t0s11).
-- [ ] T0.S1.2 Windows prototype with Tauri v2 + WebView2 + libmpv (render API or child window).
-- [ ] T0.S1.3 Windows HDR: HDR10 file on the owner's HDR monitor; check metadata passthrough and SDR UI brightness over HDR video.
-- [ ] T0.S1.4 Resize/fullscreen/minimise stress test; measure OSD frame times.
-- [ ] T0.S1.5 Same prototype on a custom shell if Tauri hits a wall (only if needed).
-- [ ] T0.S1.6 macOS (WKWebView) and Linux (WebKitGTK) prototypes; note WebKitGTK performance.
-- [ ] T0.S1.7 Report + D#: shell choice and per-OS compositing method.
+- [x] T0.S1.2 Windows prototype with Tauri v2 + WebView2 + libmpv (render API or child window).
+- [x] T0.S1.3 Windows HDR: HDR10 file on the owner's HDR monitor; check metadata passthrough and SDR UI brightness over HDR video.
+- [x] T0.S1.4 Resize/fullscreen/minimise stress test; measure OSD frame times.
+- [-] ~~T0.S1.5 Same prototype on a custom shell if Tauri hits a wall (only if needed).~~ Not needed: Tauri passed (D67).
+- [x] T0.S1.6 macOS (WKWebView) and Linux (WebKitGTK) prototypes; note WebKitGTK performance. Built in CI only, defaulting to the separate-window fallback (D64); not run on hardware.
+- [x] T0.S1.7 Report + D#: shell choice and per-OS compositing method. [S1](../spikes/S1.md), D67, D68.
 
 ## S4 Core ↔ UI IPC
 
