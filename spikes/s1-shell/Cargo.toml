@@ -1,0 +1,28 @@
+[package]
+name = "s1-shell"
+description = "Spike S1: libmpv under a transparent webview (Tauri v2). Throwaway code (D65)."
+version = "0.0.0"
+edition = "2024"
+license = "GPL-3.0-or-later"
+publish = false
+
+# Its own workspace: spikes stay out of the main workspace, its lints and its CI matrix (D65).
+[workspace]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+# macos-private-api: a transparent window on macOS needs it (no-op elsewhere; tauri-build
+# requires it to match macOSPrivateApi in tauri.conf.json).
+tauri = { version = "2", features = ["macos-private-api"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+libloading = "0.9"
+raw-window-handle = "0.6"
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.61", features = [
+  "Win32_Foundation",
+  "Win32_UI_WindowsAndMessaging",
+] }

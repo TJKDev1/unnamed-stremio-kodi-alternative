@@ -1,0 +1,136 @@
+/* Everything outside the panels must stay transparent so mpv shows through. */
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: transparent;
+  color: #fff;
+  font: 13px/1.4 system-ui, sans-serif;
+}
+
+.panel {
+  position: absolute;
+  background: rgb(10 10 14 / 72%);
+  border-radius: 10px;
+  padding: 10px 12px;
+  box-shadow: 0 4px 24px rgb(0 0 0 / 40%);
+}
+
+#stats {
+  top: 12px;
+  left: 12px;
+  width: 460px;
+  max-height: calc(100% - 150px);
+  overflow: auto;
+}
+
+h1 {
+  margin: 0 0 6px;
+  font-size: 14px;
+}
+
+#props {
+  margin: 6px 0;
+  font: 11px/1.35 ui-monospace, monospace;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+#meter {
+  font: 12px ui-monospace, monospace;
+  color: #8ef;
+}
+
+#swatches {
+  top: 12px;
+  right: 12px;
+  display: flex;
+  gap: 8px;
+}
+
+.swatch {
+  width: 90px;
+  height: 60px;
+  display: flex;
+  align-items: end;
+  padding: 4px;
+  font-size: 11px;
+  border-radius: 6px;
+  color: #000;
+}
+
+.swatch.white {
+  background: #fff;
+}
+
+.swatch.grey {
+  background: #808080;
+}
+
+.swatch.alpha {
+  background: rgb(0 0 0 / 50%);
+  color: #fff;
+}
+
+#probe {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #f0f;
+  will-change: transform;
+}
+
+#bar {
+  left: 12px;
+  right: 12px;
+  bottom: 12px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+
+.sep {
+  flex: 1;
+}
+
+#progress {
+  height: 6px;
+  background: rgb(255 255 255 / 20%);
+  border-radius: 3px;
+  margin-bottom: 8px;
+}
+
+#progress-fill {
+  height: 100%;
+  width: 0;
+  background: #0891b2;
+  border-radius: 3px;
+}
+
+button,
+select {
+  font: inherit;
+  color: #fff;
+  background: rgb(255 255 255 / 12%);
+  border: 1px solid rgb(255 255 255 / 25%);
+  border-radius: 6px;
+  padding: 4px 10px;
+}
+
+button:hover {
+  background: rgb(255 255 255 / 24%);
+}
+
+#status {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #ccc;
+}
