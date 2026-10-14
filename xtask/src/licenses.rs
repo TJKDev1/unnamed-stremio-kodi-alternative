@@ -26,13 +26,37 @@ pub fn required_license(rel: &str) -> &'static str {
     }
 }
 
-/// Text that must appear in a `LICENSE` file for `license`.
-fn license_marker(license: &str) -> &'static str {
+/// FNV-1a 64 of the whitespace-normalised GNU texts (as published at gnu.org/licenses).
+const GPL_TEXT_HASH: u64 = 0x2ee7eb2f1d9cbd2e;
+const AGPL_TEXT_HASH: u64 = 0x7dae94fddee25626;
+
+/// The MIT license after its copyright line(s), whitespace-normalised.
+const MIT_BODY: &str = "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.";
+
+/// True if `text` is the complete, unmodified text of `license` (whitespace aside).
+/// MIT may have any copyright line(s) between the title and the body.
+fn is_license_text(text: &str, license: &str) -> bool {
+    let norm = normalize_whitespace(text);
     match license {
-        AGPL => "GNU AFFERO GENERAL PUBLIC LICENSE",
-        MIT => "MIT License",
-        _ => "GNU GENERAL PUBLIC LICENSE",
+        GPL => fnv1a64(&norm) == GPL_TEXT_HASH,
+        AGPL => fnv1a64(&norm) == AGPL_TEXT_HASH,
+        MIT => {
+            norm.starts_with("MIT License Copyright")
+                && norm.ends_with(MIT_BODY)
+                && !norm[..norm.len() - MIT_BODY.len()].contains("Permission")
+        }
+        _ => false,
     }
+}
+
+fn normalize_whitespace(text: &str) -> String {
+    text.split_whitespace().collect::<Vec<_>>().join(" ")
+}
+
+fn fnv1a64(text: &str) -> u64 {
+    text.bytes().fold(0xcbf29ce484222325, |hash, b| {
+        (hash ^ u64::from(b)).wrapping_mul(0x100000001b3)
+    })
 }
 
 struct Package {
@@ -70,7 +94,19 @@ fn check() -> Result<usize, Vec<String>> {
     if let Err(err) = check_license_file(&root, &root, GPL) {
         errors.push(format!("repo root: {err}"));
     }
-    for pkg in &packages {
+    for pkg in &mut packages {
+        // Canonical paths, so prefix checks hold on Windows (`\\?\`, drive-letter case).
+        match std::fs::canonicalize(&pkg.dir) {
+            Ok(dir) if dir.starts_with(&root) => pkg.dir = dir,
+            _ => errors.push(format!(
+                "{} {}: {} is outside the repo",
+                pkg.kind,
+                pkg.name,
+                pkg.dir.display()
+            )),
+        }
+    }
+    for pkg in packages.iter().filter(|p| p.dir.starts_with(&root)) {
         let rel = relative(&root, &pkg.dir);
         let want = required_license(&rel);
         let label = format!(
@@ -86,9 +122,7 @@ fn check() -> Result<usize, Vec<String>> {
             )),
             None => errors.push(format!("{label}: no license declared, must be \"{want}\"")),
         }
-        if want != GPL
-            && let Err(err) = check_license_file(&root, &pkg.dir, want)
-        {
+        if let Err(err) = check_license_file(&root, &pkg.dir, want) {
             errors.push(format!("{label}: {err}"));
         }
     }
@@ -100,10 +134,10 @@ fn check() -> Result<usize, Vec<String>> {
 }
 
 fn repo_root() -> Result<PathBuf, String> {
-    Path::new(env!("CARGO_MANIFEST_DIR"))
+    let root = Path::new(env!("CARGO_MANIFEST_DIR"))
         .parent()
-        .map(Path::to_path_buf)
-        .ok_or_else(|| "cannot locate the repo root".to_owned())
+        .ok_or("cannot locate the repo root")?;
+    std::fs::canonicalize(root).map_err(|e| format!("resolving {}: {e}", root.display()))
 }
 
 fn relative(root: &Path, path: &Path) -> String {
@@ -119,25 +153,19 @@ fn relative(root: &Path, path: &Path) -> String {
 /// below the root (the root `LICENSE` is the GPL); the root itself must have the GPL.
 fn check_license_file(root: &Path, dir: &Path, license: &str) -> Result<(), String> {
     let mut current = Some(dir);
-    while let Some(d) = current {
-        if d == root && license != GPL {
-            break;
-        }
+    while let Some(d) = current.filter(|d| d.starts_with(root)) {
         let file = d.join("LICENSE");
         if file.is_file() {
             let text = std::fs::read_to_string(&file)
                 .map_err(|e| format!("reading {}: {e}", file.display()))?;
-            return if text.contains(license_marker(license)) {
+            return if is_license_text(&text, license) {
                 Ok(())
             } else {
                 Err(format!(
-                    "{} is not the {license} text",
+                    "nearest license file {} is not the complete {license} text",
                     relative(root, &file)
                 ))
             };
-        }
-        if d == root {
-            break;
         }
         current = d.parent();
     }
@@ -240,6 +268,36 @@ mod tests {
         assert_eq!(required_license("crates/server"), AGPL);
         assert_eq!(required_license("crates/sync"), AGPL);
         assert_eq!(required_license("crates/sync-relay"), AGPL);
+    }
+
+    fn repo_file(rel: &str) -> String {
+        std::fs::read_to_string(Path::new(env!("CARGO_MANIFEST_DIR")).join("..").join(rel)).unwrap()
+    }
+
+    #[test]
+    fn committed_license_texts_are_recognised() {
+        assert!(is_license_text(&repo_file("LICENSE"), GPL));
+        assert!(is_license_text(&repo_file("crates/server/LICENSE"), AGPL));
+        assert!(is_license_text(
+            &repo_file("crates/sdk-schema/LICENSE"),
+            MIT
+        ));
+        assert!(!is_license_text(&repo_file("LICENSE"), AGPL));
+        assert!(!is_license_text(&repo_file("crates/server/LICENSE"), GPL));
+    }
+
+    #[test]
+    fn altered_or_wrong_version_texts_are_rejected() {
+        let gpl = repo_file("LICENSE");
+        let v2 = gpl.replace("Version 3, 29 June 2007", "Version 2, June 1991");
+        assert!(!is_license_text(&v2, GPL));
+        assert!(!is_license_text(
+            "GNU GENERAL PUBLIC LICENSE\nVersion 3",
+            GPL
+        ));
+        let mit = repo_file("ui/sdk/LICENSE");
+        assert!(!is_license_text(&mit.replace("NONINFRINGEMENT", ""), MIT));
+        assert!(!is_license_text(&format!("{mit}\nExtra terms."), MIT));
     }
 
     #[test]
