@@ -1,0 +1,12 @@
+[package]
+name = "app-server"
+description = "Local API and home server"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license = "AGPL-3.0-or-later"
+repository.workspace = true
+publish.workspace = true
+
+[lints]
+workspace = true

@@ -1,0 +1,12 @@
+[package]
+name = "app-sdk-schema"
+description = "Interface definitions that generate Rust traits, TS types and WASM bindings"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license = "MIT"
+repository.workspace = true
+publish.workspace = true
+
+[lints]
+workspace = true
