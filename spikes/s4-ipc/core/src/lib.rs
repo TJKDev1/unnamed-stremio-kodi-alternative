@@ -2,5 +2,11 @@
 //! docs/spikes/S4.md.
 
 pub mod generic;
+pub mod generic;
+pub mod keyed;
 pub mod scenario;
+pub mod typed;
 pub mod vm;
+
+#[cfg(test)]
+mod testgen;
