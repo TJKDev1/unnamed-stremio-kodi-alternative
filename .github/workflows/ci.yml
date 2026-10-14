@@ -22,14 +22,15 @@ jobs:
       - run: rustup show active-toolchain || rustup toolchain install
       - run: cargo fmt --all --check
 
-  licenses:
-    name: License policy (D37, D59)
+  policy:
+    name: Repo policy (licenses, fixture secrets)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
       - run: rustup show active-toolchain || rustup toolchain install
       - uses: Swatinem/rust-cache@v2
       - run: cargo xtask check-licenses
+      - run: cargo run --quiet --package app-fixtures -- check fixtures
 
   rust:
     name: Rust (${{ matrix.os }})
