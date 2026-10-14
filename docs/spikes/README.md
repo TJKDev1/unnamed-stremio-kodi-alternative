@@ -7,7 +7,7 @@ Phase 0 spikes are **throwaway-quality code with keep-quality findings** ([plan]
 | S1 libmpv under a transparent webview | [S1](S1.md) | Works on Windows with Tauri v2: mpv `wid` child under a transparent WebView2, HDR10 passthrough; macOS/Linux use the separate-window fallback until tested (D64, D67, D68) |
 | S2 Web UI performance on the LG C3 | not started | |
 | S3 Rust Stremio protocol client | [S3](S3.md) | Works: sans-IO client, 9 real addons parse cleanly; Comet + MediaFusion recordings pending (D60–D63) |
-| S4 Core ↔ UI IPC | not started | |
+| S4 Core ↔ UI IPC | [S4](S4.md) | Fits easily: 1.4 ms p95 per frame over Tauri IPC, 0.6 ms over WebSocket at typical load; typed generated ops, JSON, Tauri IPC on desktop (D70–D72) |
 | S5 WASM addon host | not started | |
 | S6 Kodi shim proof | not started | |
 | S7 Skin compiler proof | not started | |

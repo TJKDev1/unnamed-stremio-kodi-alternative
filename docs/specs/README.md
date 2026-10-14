@@ -29,7 +29,7 @@ Every spec has these sections, in this order:
 | [kernel-and-modules](kernel-and-modules.md) | stub | M1.1 |
 | [slots](slots.md) | stub | M1.1 |
 | [storage](storage.md) | stub | M1.1 |
-| [view-model-ipc](view-model-ipc.md) | stub | S4, M1.1 |
+| [view-model-ipc](view-model-ipc.md) | draft | S4, M1.1 |
 | [stremio-client](stremio-client.md) | draft | S3, M1.2 |
 | [player-backend](player-backend.md) | stub | S1, M1.3 |
 | [stream-ranking](stream-ranking.md) | stub | M1.3, M1.6 |

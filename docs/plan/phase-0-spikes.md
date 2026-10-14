@@ -90,12 +90,12 @@ Scope (D64): Windows is tested end to end on the owner's PC. macOS and Linux pro
 Scope (D69): measured in WebView2 on the owner's PC and in headless Chromium 94 in CI (the C3 number comes from S2). Generic and typed diffs, each with JSON, MessagePack and postcard. Spike code lives in `spikes/s4-ipc/` (D65).
 
 **Tasks**
-- [ ] T0.S4.1 Define a toy view-model (home: rows of cards) and intent set in Rust.
-- [ ] T0.S4.2 Structural diff → patch list, batched per frame.
-- [ ] T0.S4.3 Encodings: MessagePack and postcard (+ a JS decoder for postcard); benchmark both.
-- [ ] T0.S4.4 Transport over Tauri IPC (from S1's shell) and over WebSocket.
-- [ ] T0.S4.5 SolidJS store that applies patches with fine-grained updates.
-- [ ] T0.S4.6 Report + D#.
+- [x] T0.S4.1 Define a toy view-model (home: rows of cards) and intent set in Rust.
+- [x] T0.S4.2 Structural diff → patch list, batched per frame. Generic and typed diffs, property-tested.
+- [x] T0.S4.3 Encodings: MessagePack and postcard (+ a JS decoder for postcard); benchmark both. Plus JSON as the baseline (D69).
+- [x] T0.S4.4 Transport over Tauri IPC (a new Tauri v2 shell, without mpv) and over WebSocket.
+- [x] T0.S4.5 SolidJS store that applies patches with fine-grained updates.
+- [x] T0.S4.6 Report + D#. [S4](../spikes/S4.md), D70, D71, D72.
 
 ## S2 Web UI performance on the LG C3
 
@@ -113,6 +113,7 @@ Scope (D69): measured in WebView2 on the owner's PC and in headless Chromium 94 
 - [ ] T0.S2.4 Package as an IPK; sideload via Developer Mode / Homebrew Channel; measure with remote DevTools.
 - [ ] T0.S2.5 Same test in Svelte 5 (only the row + focus, not everything).
 - [ ] T0.S2.6 Run in desktop WebView2 too, as the "easy" baseline.
+- [ ] T0.S2.8 On the C3, replay S4's frames (decode + apply, `spikes/s4-ipc`) with JSON and postcard; switch to postcard only if JSON is the bottleneck (D71).
 - [ ] T0.S2.7 Report + D#.
 
 ## S7 Skin compiler proof
@@ -182,7 +183,7 @@ Scope (D69): measured in WebView2 on the owner's PC and in headless Chromium 94 
 - Phase 1 milestones re-checked against what the spikes found.
 
 **Tasks**
-- [ ] T0.2.1 Log D#s: shell (S1), UI framework (S2), IPC format (S4), skin compiler approach (S7).
+- [ ] T0.2.1 Log D#s: shell (S1, D67), UI framework (S2), IPC format (S4, D70–D72), skin compiler approach (S7).
 - [ ] T0.2.2 Update [architecture](../design/03-architecture.md) and [open questions](../design/08-open-questions.md) to match.
 - [ ] T0.2.3 Update specs: player-backend, view-model-ipc, stremio-client, focus-and-input, skin-format.
 - [ ] T0.2.4 Re-order or re-scope Phase 1 milestones if needed; update the [status table](README.md#status).
