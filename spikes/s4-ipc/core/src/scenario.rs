@@ -116,12 +116,14 @@ impl Scenario {
         self.ticks.is_empty()
     }
 
-    /// Applies tick `t`'s events to the core.
-    pub fn run_tick(&mut self, t: usize, core: &mut Core) {
+    /// Applies tick `t`'s events to the core; `false` if the tick had none.
+    pub fn run_tick(&mut self, t: usize, core: &mut Core) -> bool {
         let events = self.ticks.get(t).cloned().unwrap_or_default();
+        let any = !events.is_empty();
         for e in events {
             self.apply(e, core);
         }
+        any
     }
 
     fn apply(&mut self, e: Event, core: &mut Core) {

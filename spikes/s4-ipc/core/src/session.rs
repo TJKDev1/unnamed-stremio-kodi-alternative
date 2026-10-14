@@ -12,9 +12,12 @@ use crate::vm::{Core, Home, Intent};
 use crate::wire::{DiffKind, Encoding, encode_generic, encode_typed};
 use crate::{generic, typed};
 
-/// Frame = 16-byte header (little-endian u32s: seq, diff ns, encode ns, op count) + payload.
-/// "diff ns" includes taking the snapshot that the next frame diffs against.
-pub const HEADER: usize = 16;
+/// A frame is a 20-byte header, then the payload. The header is five little-endian u32s:
+/// seq, diff ns, encode ns, op count, request ns. "diff ns" includes taking the snapshot that
+/// the next frame diffs against. "request ns" is all the work this request did in the core,
+/// including running the scenario's ticks, so the UI can subtract it from the round trip to
+/// get the transport. (The app's pushed frames don't need it: see the view-model-ipc spec.)
+pub const HEADER: usize = 20;
 
 #[derive(Debug)]
 pub struct Session {
@@ -26,6 +29,9 @@ pub struct Session {
     prev_home: Home,
     prev_value: Value,
     seq: u32,
+    /// Something changed since the last diff. A tick without events doesn't diff at all,
+    /// as the app's core wouldn't (it knows when its state changed).
+    dirty: bool,
 }
 
 impl Session {
@@ -40,23 +46,33 @@ impl Session {
             diff,
             enc,
             seq: 0,
+            dirty: false,
         })
     }
 
     pub fn dispatch(&mut self, intent: &Intent) {
         self.core.dispatch(intent);
+        self.dirty = true;
     }
 
     /// Runs ticks until one changes the view-model and returns that frame's patch.
     /// Several changes within one tick become one patch (batched per frame).
     /// `None` once the scenario is over and nothing is pending.
     pub fn next_frame(&mut self) -> Option<Vec<u8>> {
+        let request = Instant::now();
         loop {
             let ended = self.tick >= self.scenario.len();
             if !ended {
-                self.scenario.run_tick(self.tick, &mut self.core);
+                self.dirty |= self.scenario.run_tick(self.tick, &mut self.core);
                 self.tick += 1;
             }
+            if !self.dirty {
+                if ended {
+                    return None;
+                }
+                continue;
+            }
+            self.dirty = false;
             let mut out = vec![0; HEADER];
             let t0 = Instant::now();
             let (n, t1) = match self.diff {
@@ -87,9 +103,15 @@ impl Session {
             }
             self.seq += 1;
             let ns = |d: std::time::Duration| d.as_nanos().min(u32::MAX as u128) as u32;
-            for (i, v) in [self.seq, ns(t1 - t0), ns(t2 - t1), n as u32]
-                .into_iter()
-                .enumerate()
+            for (i, v) in [
+                self.seq,
+                ns(t1 - t0),
+                ns(t2 - t1),
+                n as u32,
+                ns(request.elapsed()),
+            ]
+            .into_iter()
+            .enumerate()
             {
                 out[i * 4..i * 4 + 4].copy_from_slice(&v.to_le_bytes());
             }

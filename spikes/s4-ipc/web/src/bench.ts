@@ -20,10 +20,10 @@ const CLIENT_INTENTS: [number, Intent][] = [
   [40, { MarkWatched: { card: "addon-2-p1-4" } }],
 ];
 
-const HEADER = 16;
+const HEADER = 20;
 
 export interface FrameTimes {
-  /** All in ms. `transport` = round trip minus the core's own time. */
+  /** All in ms. `core` = diff + encode; `transport` = round trip minus all of the request's work in the core. */
   core: number;
   transport: number;
   decode: number;
@@ -69,9 +69,9 @@ function apply(diff: DiffKind, ops: TypedOp[] | GenericOp[]): void {
   else applyGeneric(ops as GenericOp[]);
 }
 
-function header(buf: ArrayBuffer): { core: number } {
+function header(buf: ArrayBuffer): { core: number; request: number } {
   const v = new DataView(buf);
-  return { core: (v.getUint32(4, true) + v.getUint32(8, true)) / 1e6 };
+  return { core: (v.getUint32(4, true) + v.getUint32(8, true)) / 1e6, request: v.getUint32(16, true) / 1e6 };
 }
 
 async function intentsAfter(t: Transport, frame: number): Promise<void> {
@@ -101,10 +101,10 @@ export async function runLive(t: Transport, scenario: Scenario, diff: DiffKind, 
       const t2 = performance.now();
       apply(diff, ops);
       const t3 = performance.now();
-      const { core } = header(buf);
+      const { core, request } = header(buf);
       result.frames.push({
         core,
-        transport: Math.max(0, t1 - t0 - core),
+        transport: Math.max(0, t1 - t0 - request),
         decode: t2 - t1,
         apply: t3 - t2,
         total: t3 - t0,

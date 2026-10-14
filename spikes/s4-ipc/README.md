@@ -7,7 +7,7 @@ Core ↔ UI IPC: view-model patches from a Rust core to a SolidJS store, over Ta
 | `core/src/vm.rs` | Toy view-model (home: rows of cards) and intents (T0.S4.1) |
 | `core/src/scenario.rs` | Deterministic load: `stream` (10 rows filling in, the "typical load") and `refresh` (full 10 × 50 home, then two full reshuffles) |
 | `core/src/keyed.rs`, `generic.rs`, `typed.rs` | Keyed list diff; generic value-tree diff; typed per-field diff (T0.S4.2) |
-| `core/src/session.rs` | One run: ticks → one patch per frame (batched), 16-byte timing header; the control-message handler shared by both transports |
+| `core/src/session.rs` | One run: ticks → one patch per frame (batched; ticks without changes aren't diffed), 20-byte timing header; the control-message handler shared by both transports |
 | `core/src/wire.rs` | JSON, MessagePack, postcard encoders (T0.S4.3) |
 | `core/src/server.rs` | WebSocket core + static file server (T0.S4.4) |
 | `core/src/bin/bench.rs` | Rust-side diff/encode times and frame sizes |
@@ -29,7 +29,7 @@ Results go to `.cache/s4-results/`. Page query options: `transports=tauri,ws,rep
 
 ## What a frame's numbers mean
 - **core**: diff (including the snapshot the next frame diffs against) + encode, measured in Rust and sent in the frame header.
-- **transport**: the page's request → reply time minus core. Frames are *pulled* (one request per frame), so this is a full round trip; a pushed frame only pays the reply leg.
+- **transport**: the page's request → reply time minus all the core's work for that request (scenario ticks + diff + encode, sent in the header). Frames are *pulled* (one request per frame), so this is a full round trip; a pushed frame only pays the reply leg.
 - **decode**, **apply**: in the page. Apply includes Solid's synchronous DOM updates, not layout or paint (S2's subject). Each frame's clock starts after the previous frame has painted.
 - **replay dom / store**: all frames fetched first, then only decode + apply timed, with the home view mounted (`dom`) or not (`store`).
 
