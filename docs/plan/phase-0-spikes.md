@@ -69,7 +69,7 @@ Suggested order: M0.1 → S3 → S1 → S4 → S2 → S7 → M0.2. S3 goes first
 Scope (D64): Windows is tested end to end on the owner's PC. macOS and Linux prototypes are built in CI; until real hardware is available, their plan is the documented fallback. Spike code lives in `spikes/s1-shell/` (D65) and uses a pinned prebuilt libmpv (D66).
 
 **Tasks**
-- [ ] T0.S1.1 Read how Rillio and `stremio-shell-ng` composite mpv + webview; write down the approach per OS.
+- [x] T0.S1.1 Read how Rillio and `stremio-shell-ng` composite mpv + webview; write down the approach per OS. See [S1 prior art](../spikes/S1.md#prior-art-t0s11).
 - [ ] T0.S1.2 Windows prototype with Tauri v2 + WebView2 + libmpv (render API or child window).
 - [ ] T0.S1.3 Windows HDR: HDR10 file on the owner's HDR monitor; check metadata passthrough and SDR UI brightness over HDR video.
 - [ ] T0.S1.4 Resize/fullscreen/minimise stress test; measure OSD frame times.
