@@ -4,6 +4,7 @@
 pub mod generic;
 pub mod keyed;
 pub mod scenario;
+pub mod server;
 pub mod session;
 pub mod typed;
 pub mod vm;
