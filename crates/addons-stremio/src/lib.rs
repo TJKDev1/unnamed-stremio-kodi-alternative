@@ -6,11 +6,13 @@
 mod de;
 pub mod manifest;
 pub mod model;
+pub mod route;
 pub mod transport;
 
 pub use de::Dropped;
 pub use manifest::{Validated, Warning, fetch_manifest};
 pub use model::*;
+pub use route::ResourcePath;
 pub use transport::{HttpResponse, Transport, TransportError};
 
 /// Every addon transport URL ends with this.

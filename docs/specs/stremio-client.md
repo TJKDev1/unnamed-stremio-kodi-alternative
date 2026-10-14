@@ -48,7 +48,7 @@ The default implementation (`ReqwestTransport`, feature `reqwest`, on by default
 
 ### Routes
 `ResourcePath { resource, type, id, extra: Vec<(String, String)> }` → `{base}/{resource}/{type}/{id}.json` or `{base}/{resource}/{type}/{id}/{extra}.json`, where:
-- `base` is the transport URL with the **trailing** `/manifest.json` removed (and any query string kept off the resource URL);
+- `base` is the transport URL with the **trailing** `/manifest.json` removed; a query string on the transport URL is carried over after `.json`, as stremio-core does (some addons authenticate that way);
 - `resource`, `type` and `id` are each encoded like JS `encodeURIComponent` (`tt1:1:2` → `tt1%3A1%3A2`), as stremio-core does;
 - `extra` is `name=value` pairs, each side `encodeURIComponent`-encoded, joined with `&`, in the given order. Repeated names are allowed (multi-select genres).
 
