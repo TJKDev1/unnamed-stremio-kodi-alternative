@@ -2,14 +2,18 @@
 //!
 //! Stremio addons carry credentials in places that are easy to miss: configurable addons
 //! (AIOStreams, Comet, Torrentio) encode the user's debrid key into the *path* of the addon
-//! URL, and debrid resolve links put tokens in stream URLs. A [`Scrubber`] removes them in
-//! three layers:
+//! URL, debrid resolve links put tokens in stream URLs, and proxies (MediaFlow) wrap whole
+//! upstream URLs in a query parameter. A [`Scrubber`] removes them in three layers:
 //!
-//! 1. **Known secrets** (e.g. the user's TorBox key) are replaced wherever they appear.
+//! 1. **Known secrets** (e.g. the user's TorBox key) are replaced wherever they appear,
+//!    including percent-encoded. A string that still contains one after decoding is
+//!    replaced whole.
 //! 2. **Addon base URLs** (everything before `/manifest.json`) are replaced with
-//!    `<scheme>://<host>/REDACTED`, which drops the whole config segment.
-//! 3. **Heuristics** on JSON: values under secret-looking keys, URL user-info, secret-looking
-//!    query parameters, and token-like path segments.
+//!    `<scheme>://<host>/REDACTED`, which drops the whole config segment. `https://`,
+//!    `http://` and `stremio://` (install links) forms are all covered.
+//! 3. **Heuristics** on JSON: values (strings or numbers) under secret-looking keys, URL
+//!    user-info, secret-looking query parameters, token-like path segments, keys after
+//!    debrid service names, and the same rules inside URL-valued query parameters.
 //!
 //! A fixture is clean when scrubbing it changes nothing; [`Scrubber::check`] reports what
 //! would change.
@@ -19,6 +23,9 @@ use url::Url;
 
 /// Replacement for every removed secret.
 pub const REDACTED: &str = "REDACTED";
+
+/// How deep nested URLs (a proxy's `?d=<url>`) and repeated percent-encoding are followed.
+const MAX_DEPTH: usize = 4;
 
 /// Key names (lower-cased, `_`/`-` removed) whose values are always secret.
 const SECRET_KEY_PARTS: &[&str] = &[
@@ -83,14 +90,21 @@ impl Scrubber {
     }
 
     /// Adds an addon URL (manifest URL or base URL). Its base, which holds the addon's config,
-    /// is replaced everywhere with `<scheme>://<host>/REDACTED`.
+    /// is replaced everywhere with `<scheme>://<host>/REDACTED`, in its `https://`, `http://`
+    /// and `stremio://` (install link) forms.
     pub fn addon_url(mut self, url: &str) -> Self {
         let base = addon_base(url);
-        // A base without a path (`https://host`) has no config to remove.
-        if redacted_base(&base) != base && !self.addon_bases.contains(&base) {
-            self.addon_bases.push(base);
-            self.addon_bases.sort_by_key(|s| std::cmp::Reverse(s.len()));
+        let Some((_, rest)) = base.split_once("://") else {
+            return self;
+        };
+        for scheme in ["https", "http", "stremio"] {
+            let base = format!("{scheme}://{rest}");
+            // A base without a path (`https://host`) has no config to remove.
+            if redacted_base(&base) != base && !self.addon_bases.contains(&base) {
+                self.addon_bases.push(base);
+            }
         }
+        self.addon_bases.sort_by_key(|s| std::cmp::Reverse(s.len()));
         self
     }
 
@@ -108,27 +122,140 @@ impl Scrubber {
 
     /// Scrubs a single string that is not inside a secret key.
     pub fn scrub_str(&self, text: &str) -> (String, Option<&'static str>) {
-        let mut out = text.to_owned();
-        let mut reason = None;
-        for base in &self.addon_bases {
-            if out.contains(base.as_str()) {
-                out = out.replace(base.as_str(), &redacted_base(base));
-                reason = Some("addon config in URL");
-            }
+        let (out, reason) = self.scrub_text(text, 0);
+        // Last line of defence: a known secret that survives in some encoding we could not
+        // rewrite in place takes the whole string with it.
+        if self.contains_known_secret(&out) {
+            return (REDACTED.to_owned(), Some("known secret (encoded)"));
         }
-        for secret in &self.secrets {
-            if out.contains(secret.as_str()) {
-                out = out.replace(secret.as_str(), REDACTED);
-                reason = Some("known secret");
-            }
-        }
-        if let Some(scrubbed) = scrub_url(&out)
+        (out, reason)
+    }
+
+    fn scrub_text(&self, text: &str, depth: usize) -> (String, Option<&'static str>) {
+        let (mut out, mut reason) = self.replace_known(text);
+        if let Some(scrubbed) = self.scrub_url(&out, depth)
             && scrubbed != out
         {
             out = scrubbed;
             reason = reason.or(Some("secret in URL"));
         }
         (out, reason)
+    }
+
+    /// Replaces known addon bases and secrets, literally and in their percent-encoded forms.
+    fn replace_known(&self, text: &str) -> (String, Option<&'static str>) {
+        let mut out = text.to_owned();
+        let mut reason = None;
+        for base in &self.addon_bases {
+            let redacted = redacted_base(base);
+            for form in encoded_forms(base) {
+                if out.contains(form.as_str()) {
+                    out = out.replace(form.as_str(), &redacted);
+                    reason = Some("addon config in URL");
+                }
+            }
+        }
+        for secret in &self.secrets {
+            for form in encoded_forms(secret) {
+                if out.contains(form.as_str()) {
+                    out = out.replace(form.as_str(), REDACTED);
+                    reason = Some("known secret");
+                }
+            }
+        }
+        (out, reason)
+    }
+
+    /// True if a known secret appears in `text` after up to [`MAX_DEPTH`] rounds of
+    /// percent-decoding.
+    fn contains_known_secret(&self, text: &str) -> bool {
+        let mut decoded = text.to_owned();
+        for _ in 0..=MAX_DEPTH {
+            if self.secrets.iter().any(|s| decoded.contains(s.as_str())) {
+                return true;
+            }
+            let next = percent_decode(&decoded);
+            if next == decoded {
+                break;
+            }
+            decoded = next;
+        }
+        false
+    }
+
+    /// Scrubs an absolute `http(s)://` or `stremio://` URL; `None` if `text` is not one.
+    /// URL-valued query parameters (a proxy's `?d=<url>`) are scrubbed recursively.
+    fn scrub_url(&self, text: &str, depth: usize) -> Option<String> {
+        if depth >= MAX_DEPTH {
+            return None;
+        }
+        let mut url = Url::parse(text).ok()?;
+        if !matches!(url.scheme(), "http" | "https" | "stremio") {
+            return None;
+        }
+        let mut changed = false;
+
+        if !url.username().is_empty() || url.password().is_some() {
+            url.set_username(REDACTED).ok()?;
+            url.set_password(None).ok()?;
+            changed = true;
+        }
+
+        if url.query().is_some() {
+            let mut any = false;
+            let pairs: Vec<(String, String)> = url
+                .query_pairs()
+                .map(|(k, v)| {
+                    let (k, v) = (k.into_owned(), v.into_owned());
+                    if v.is_empty() || v == REDACTED {
+                        (k, v)
+                    } else if is_secret_key(&k) || is_token_like(&v) || is_uuid(&v) {
+                        any = true;
+                        (k, REDACTED.to_owned())
+                    } else if let (nested, Some(_)) = self.scrub_text(&v, depth + 1) {
+                        any = true;
+                        (k, nested)
+                    } else {
+                        (k, v)
+                    }
+                })
+                .collect();
+            if any {
+                url.query_pairs_mut().clear().extend_pairs(pairs);
+                changed = true;
+            }
+        }
+
+        let segments: Vec<String> = url
+            .path_segments()
+            .map(|s| s.map(str::to_owned).collect())
+            .unwrap_or_default();
+        let mut new_segments = Vec::with_capacity(segments.len());
+        let mut path_changed = false;
+        let mut after_service = false;
+        for seg in &segments {
+            let decoded = percent_decode(seg);
+            let (known, _) = self.replace_known(&decoded);
+            // Debrid resolve links put the key right after the service name: `/resolve/torbox/<key>/`.
+            let scrubbed = if after_service && !decoded.is_empty() {
+                REDACTED.to_owned()
+            } else {
+                scrub_segment(&known)
+            };
+            after_service = is_service_key(&decoded);
+            path_changed |= scrubbed != decoded;
+            new_segments.push(scrubbed);
+        }
+        if path_changed {
+            url.path_segments_mut().ok()?.clear().extend(&new_segments);
+            changed = true;
+        }
+
+        Some(if changed {
+            url.to_string()
+        } else {
+            text.to_owned()
+        })
     }
 
     fn scrub_value(
@@ -156,6 +283,13 @@ impl Scrubber {
                     });
                 }
             }
+            Value::Number(_) if secret_key => {
+                *value = Value::String(REDACTED.to_owned());
+                findings.push(Finding {
+                    pointer: pointer.clone(),
+                    reason: "secret-looking key",
+                });
+            }
             Value::Array(items) => {
                 for (i, item) in items.iter_mut().enumerate() {
                     let len = pointer.len();
@@ -178,6 +312,12 @@ impl Scrubber {
             Value::Null | Value::Bool(_) | Value::Number(_) => {}
         }
     }
+}
+
+/// Scrubs an absolute `http(s)://` or `stremio://` URL with the built-in heuristics only;
+/// `None` if `text` is not one.
+pub fn scrub_url(text: &str) -> Option<String> {
+    Scrubber::new().scrub_url(text, 0)
 }
 
 /// True for key names that hold credentials (`apiKey`, `debrid_token`, `Authorization`, …).
@@ -231,76 +371,26 @@ fn redacted_base(base: &str) -> String {
     }
 }
 
-/// Scrubs an absolute http(s) URL; returns `None` if `text` is not one.
-pub fn scrub_url(text: &str) -> Option<String> {
-    let mut url = Url::parse(text).ok()?;
-    if !matches!(url.scheme(), "http" | "https") {
-        return None;
-    }
-    let mut changed = false;
-
-    if !url.username().is_empty() || url.password().is_some() {
-        url.set_username(REDACTED).ok()?;
-        url.set_password(None).ok()?;
-        changed = true;
-    }
-
-    if url.query().is_some() {
-        let pairs: Vec<(String, String)> = url
-            .query_pairs()
-            .map(|(k, v)| (k.into_owned(), v.into_owned()))
-            .collect();
-        let mut any = false;
-        let pairs: Vec<(String, String)> = pairs
-            .into_iter()
-            .map(|(k, v)| {
-                if (is_secret_key(&k) || is_token_like(&v)) && v != REDACTED && !v.is_empty() {
-                    any = true;
-                    (k, REDACTED.to_owned())
-                } else {
-                    (k, v)
+/// `s` as written, and percent-encoded the ways URLs and forms encode it.
+fn encoded_forms(s: &str) -> Vec<String> {
+    let mut forms = vec![s.to_owned()];
+    for (upper, plus) in [(true, false), (false, false), (true, true)] {
+        let mut out = String::with_capacity(s.len() * 3);
+        for b in s.bytes() {
+            match b {
+                b'A'..=b'Z' | b'a'..=b'z' | b'0'..=b'9' | b'-' | b'.' | b'_' | b'~' => {
+                    out.push(b as char)
                 }
-            })
-            .collect();
-        if any {
-            url.query_pairs_mut().clear().extend_pairs(pairs);
-            changed = true;
+                b' ' if plus => out.push('+'),
+                _ if upper => out.push_str(&format!("%{b:02X}")),
+                _ => out.push_str(&format!("%{b:02x}")),
+            }
+        }
+        if !forms.contains(&out) {
+            forms.push(out);
         }
     }
-
-    let segments: Vec<String> = url
-        .path_segments()
-        .map(|s| s.map(str::to_owned).collect())
-        .unwrap_or_default();
-    let mut new_segments = Vec::with_capacity(segments.len());
-    let mut path_changed = false;
-    let mut after_service = false;
-    for seg in &segments {
-        let decoded = percent_decode(seg);
-        // Debrid resolve links put the key right after the service name: `/resolve/torbox/<key>/`.
-        let scrubbed = if after_service && !decoded.is_empty() {
-            REDACTED.to_owned()
-        } else {
-            scrub_segment(&decoded)
-        };
-        after_service = is_service_key(&decoded);
-        if scrubbed != decoded {
-            path_changed = true;
-            new_segments.push(scrubbed);
-        } else {
-            new_segments.push(decoded);
-        }
-    }
-    if path_changed {
-        url.path_segments_mut().ok()?.clear().extend(&new_segments);
-        changed = true;
-    }
-
-    Some(if changed {
-        url.to_string()
-    } else {
-        text.to_owned()
-    })
+    forms
 }
 
 /// A path segment is a token (`REDACTED`), a `key=value|key=value` config with secret values
@@ -388,6 +478,24 @@ mod tests {
     }
 
     #[test]
+    fn percent_encoded_known_secret_is_caught() {
+        let s = Scrubber::new().secret("pass!word");
+        let v = json!({ "url": "https://cdn.example/download/pass%21word/movie.mkv" });
+        assert!(!s.check(&v).is_empty());
+        let mut v = v;
+        s.scrub(&mut v);
+        assert_eq!(v["url"], "https://cdn.example/download/REDACTED/movie.mkv");
+    }
+
+    #[test]
+    fn double_encoded_known_secret_is_caught() {
+        let s = Scrubber::new().secret("pass!word");
+        let mut v = json!({ "title": "x pass%2521word y" });
+        s.scrub(&mut v);
+        assert_eq!(v["title"], REDACTED);
+    }
+
+    #[test]
     fn addon_config_segment_is_dropped() {
         let manifest = "https://aiostreams.example.com/stremio/0d4c6e2a-1b3f-4a5e-9c7d-8e6f5a4b3c2d/eyJ0b3Jib3giOiJrZXkifQ/manifest.json";
         let s = Scrubber::new().addon_url(manifest);
@@ -396,6 +504,25 @@ mod tests {
         assert_eq!(
             v["transportUrl"],
             "https://aiostreams.example.com/REDACTED/manifest.json"
+        );
+    }
+
+    #[test]
+    fn addon_base_in_stremio_and_encoded_forms_is_dropped() {
+        let s = Scrubber::new().addon_url("https://addon.example/my config/manifest.json");
+        let mut v = json!({
+            "install": "stremio://addon.example/my config/manifest.json",
+            "proxied": "https://proxy.example/p?d=https%3A%2F%2Faddon.example%2Fmy%20config%2Fstream%2Fmovie%2Ftt1.json",
+        });
+        s.scrub(&mut v);
+        assert_eq!(
+            v["install"],
+            "stremio://addon.example/REDACTED/manifest.json"
+        );
+        assert!(
+            !v["proxied"].as_str().unwrap().contains("config"),
+            "{}",
+            v["proxied"]
         );
     }
 
@@ -417,6 +544,17 @@ mod tests {
         assert!(out.contains("providers=yts,eztv"), "{out}");
         assert!(out.contains("sort=quality"), "{out}");
         assert!(out.contains("tt0111161.json"), "{out}");
+    }
+
+    #[test]
+    fn stremio_install_links_are_scrubbed() {
+        let out = scrub_url(
+            "stremio://torrentio.strem.fun/realdebrid=ABC123DEFG456HIJK789/manifest.json",
+        )
+        .unwrap();
+        assert!(out.starts_with("stremio://torrentio.strem.fun/"), "{out}");
+        assert!(out.ends_with("/manifest.json"), "{out}");
+        assert!(!out.contains("ABC123DEFG456HIJK789"), "{out}");
     }
 
     #[test]
@@ -455,6 +593,20 @@ mod tests {
     }
 
     #[test]
+    fn nested_proxy_urls_are_scrubbed() {
+        let v = json!({
+            "url": "https://proxy.example/proxy/stream?d=https%3A%2F%2Fcdn.example%2Ffile.mkv%3Ftoken%3Dabc123&api_password=REDACTED"
+        });
+        let s = Scrubber::new();
+        assert!(!s.check(&v).is_empty());
+        let mut v = v;
+        s.scrub(&mut v);
+        let out = v["url"].as_str().unwrap();
+        assert!(!out.contains("abc123"), "{out}");
+        assert!(s.check(&v).is_empty(), "not idempotent: {out}");
+    }
+
+    #[test]
     fn secret_keys_in_json_are_redacted() {
         let mut v = json!({
             "behaviorHints": { "proxyHeaders": { "request": { "Authorization": "Bearer xyz" } } },
@@ -471,6 +623,16 @@ mod tests {
     }
 
     #[test]
+    fn numeric_values_under_secret_keys_are_redacted() {
+        let mut v = json!({ "token": 123456789012345678_u64, "password": 123456, "page": 2 });
+        let findings = Scrubber::new().scrub(&mut v);
+        assert_eq!(findings.len(), 2);
+        assert_eq!(v["token"], REDACTED);
+        assert_eq!(v["password"], REDACTED);
+        assert_eq!(v["page"], 2);
+    }
+
+    #[test]
     fn ordinary_stremio_data_is_untouched() {
         let v = json!({
             "metas": [{
@@ -483,6 +645,7 @@ mod tests {
                 "infoHash": "2b1f8e0c9d7a6b5c4d3e2f1a0b9c8d7e6f5a4b3c",
                 "fileIdx": 0,
                 "title": "The.Shawshank.Redemption.1994.2160p.UHD.BluRay.x265-GROUP\n👤 42 💾 18.3 GB",
+                "externalUrl": "https://www.imdb.com/title/tt0111161/?ref_=nv_sr_1&page=2",
             }],
             "cacheMaxAge": 3600,
         });

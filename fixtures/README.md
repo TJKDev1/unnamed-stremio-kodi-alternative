@@ -20,9 +20,9 @@ FIXTURE_SECRETS="your-torbox-key" \
 ```
 
 It replaces, with `REDACTED`:
-1. every `--secret` / `FIXTURE_SECRETS` value, anywhere;
-2. every `--addon` base URL, which removes its config segment (`https://host/<config>/manifest.json` → `https://host/REDACTED/manifest.json`);
-3. values under secret-looking keys (`apiKey`, `token`, `Authorization`, `torbox`, …), `user:pass@` in URLs, secret-looking query parameters, and token-like URL path segments (long letter+digit strings, UUIDs, base64 configs).
+1. every `--secret` / `FIXTURE_SECRETS` value, anywhere, including percent-encoded (a string that still contains one after decoding is replaced whole);
+2. every `--addon` base URL, which removes its config segment (`https://host/<config>/manifest.json` → `https://host/REDACTED/manifest.json`), in `https://`, `http://` and `stremio://` forms;
+3. values (strings or numbers) under secret-looking keys (`apiKey`, `token`, `Authorization`, `torbox`, …), `user:pass@` in URLs, secret-looking query parameters, token-like URL path segments (long letter+digit strings, UUIDs, base64 configs), the path segment after a debrid service name (`/resolve/torbox/<key>/`), and all of the above inside URL-valued query parameters (proxies like MediaFlow's `?d=<url>`).
 
 CI runs `app-fixtures check fixtures`, which fails if scrubbing would change anything. Run it locally with `FIXTURE_SECRETS` set to your real keys before pushing, which also catches keys the heuristics can't recognise.
 
