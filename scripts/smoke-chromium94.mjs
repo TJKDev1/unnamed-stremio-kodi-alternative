@@ -21,6 +21,20 @@ const chrome =
   join(root, ".cache/browsers/chromium/linux-911494/chrome-linux/chrome");
 
 const BOOT_OK = 'data-boot="ok"';
+const ERRORS_ATTR = "data-smoke-errors";
+// Injected as the first script of index.html (only when served by this test): records every
+// uncaught error and unhandled rejection onto <html>, where --dump-dom will show it.
+const ERROR_RECORDER = `<script>(function () {
+  var errors = [];
+  function record(message) {
+    errors.push(String(message));
+    document.documentElement.setAttribute("${ERRORS_ATTR}", JSON.stringify(errors));
+  }
+  addEventListener("error", function (e) { record("error: " + (e.error && e.error.stack || e.message)); });
+  addEventListener("unhandledrejection", function (e) {
+    record("unhandled rejection: " + (e.reason && e.reason.stack || e.reason));
+  });
+})();</script>`;
 const TYPES = {
   ".html": "text/html",
   ".js": "text/javascript",
@@ -51,9 +65,27 @@ const server = createServer((req, res) => {
     res.writeHead(404).end();
     return;
   }
+  let body = readFileSync(file);
+  if (extname(file) === ".html") {
+    const html = body.toString("utf8");
+    if (!/<head>/i.test(html)) {
+      res.writeHead(500).end();
+      return;
+    }
+    body = Buffer.from(html.replace(/<head>/i, (head) => head + ERROR_RECORDER));
+  }
   res.writeHead(200, { "content-type": TYPES[extname(file)] ?? "application/octet-stream" });
-  res.end(readFileSync(file));
+  res.end(body);
 });
+
+function decodeEntities(text) {
+  return text
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&amp;/g, "&");
+}
 
 server.listen(0, "127.0.0.1", () => {
   const address = server.address();
@@ -73,15 +105,28 @@ server.listen(0, "127.0.0.1", () => {
   let log = "";
   proc.stdout.on("data", (chunk) => (dom += chunk));
   proc.stderr.on("data", (chunk) => (log += chunk));
-  const timer = setTimeout(() => proc.kill("SIGKILL"), 60_000);
-  proc.on("close", (code) => {
+  let timedOut = false;
+  const timer = setTimeout(() => {
+    timedOut = true;
+    proc.kill("SIGKILL");
+  }, 60_000);
+  proc.on("error", (err) => fail(`could not start Chromium 94: ${err.message}`));
+  proc.on("close", (code, signal) => {
     clearTimeout(timer);
     server.close();
-    const errors = log.split("\n").filter((line) => /CONSOLE.*Uncaught|Uncaught \w*Error/.test(line));
-    if (errors.length > 0) fail(`uncaught errors in Chromium 94:\n${errors.join("\n")}`);
-    if (!dom.includes(BOOT_OK)) {
-      fail(`app did not boot in Chromium 94 (exit ${code}); DOM was:\n${dom.slice(0, 2000)}\n${log.slice(-2000)}`);
+    const tail = `\nDOM:\n${dom.slice(0, 2000)}\nlog:\n${log.slice(-2000)}`;
+    if (timedOut) fail(`Chromium 94 timed out after 60 s${tail}`);
+    if (code !== 0 || signal) fail(`Chromium 94 exited with ${signal ?? `code ${code}`}${tail}`);
+    // Without the recorder in the page, "no errors recorded" proves nothing.
+    if (!dom.includes('addEventListener("unhandledrejection"')) {
+      fail(`error recorder missing from the page${tail}`);
     }
-    console.log("smoke-chromium94: app booted in Chromium 94");
+    const recorded = dom.match(new RegExp(`${ERRORS_ATTR}="([^"]*)"`));
+    if (recorded) {
+      const errors = JSON.parse(decodeEntities(recorded[1] ?? "[]"));
+      fail(`uncaught errors in Chromium 94:\n${errors.join("\n")}`);
+    }
+    if (!dom.includes(BOOT_OK)) fail(`app did not boot in Chromium 94${tail}`);
+    console.log("smoke-chromium94: app booted in Chromium 94 with no uncaught errors");
   });
 });
