@@ -21,10 +21,10 @@ Researched 2026-10-13. Sources are linked inline. A few items come from secondar
 |---|---|
 | No native addon reordering for about 10 years. Users had to reinstall addons or hand their authKey to third-party managers. | Drag-to-reorder for addons, plus **separate** priority settings for catalogs, metadata and streams. |
 | Cinemeta is "protected" and can't be removed ([#567](https://github.com/Stremio/stremio-features/issues/567)) | Nothing is protected. |
-| Removing an addon removes all of its catalog rows; you can't hide just one row | Per-row hide, rename, reorder and merge, per profile ([06](06-ux-input-player.md#catalog-organizer)) |
+| Removing an addon removes all of its catalog rows; you can't hide just one row | Per-row hide, rename, reorder and merge, per profile ([06](06-ux-input-player.md#catalog-organizer-must-have-free)) |
 | **Catalog organizing and profiles moved behind a $40/yr Supporter tier** (June 2026) | Free, always. |
 | Addon config lives in the URL, so **debrid keys leak** whenever a URL is shared, and editing config means reinstalling | Config is stored client-side in the secret store and sent in a header (native protocol). For legacy addons we hide the URL and show the config through a UI. |
-| Users need external aggregators (AIOStreams) just to filter, dedupe and rank streams | A **built-in stream ranking engine** ([06](06-ux-input-player.md#stream-ranking-engine)) |
+| Users need external aggregators (AIOStreams) just to filter, dedupe and rank streams | A **built-in stream ranking engine** ([06](06-ux-input-player.md#stream-ranking-engine-must-have)) |
 | Player gaps: no audio delay, night mode or downmix, crop/zoom, scrubber thumbnails or PiP. External players lose resume. | mpv with every option exposed, plus external players with resume tracking via IPC |
 | Subtitles randomly disappear or re-enable each episode; no forced-subtitle auto-select | Per-profile subtitle rules: language priority, forced/SDH handling, remembered per show |
 | Addons can't receive playback events ([#824](https://github.com/Stremio/stremio-features/issues/824)), so only first-party scrobbling is possible | Playback event hooks in the native protocol |

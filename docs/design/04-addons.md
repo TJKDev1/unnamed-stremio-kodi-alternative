@@ -94,7 +94,7 @@ The owner's Kodi addon. Inspected 2026-10-13 (FenLightAM 2.1.44 mirror, `plugin.
 |---|---|
 | TMDb/IMDb/OMDb metadata, discover, people | Metadata addon (TMDb) + `people` and `discover` resources |
 | Trakt lists, watchlist, history, progress | **Trakt tracker addon** (see [Tracker & scrobbler addons](#tracker--scrobbler-addons)) |
-| TMDb lists, personal lists, favourites, random widgets | Catalog addons + custom rows ([06](06-ux-input-player.md#catalog-organizer)) |
+| TMDb lists, personal lists, favourites, random widgets | Catalog addons + custom rows ([06](06-ux-input-player.md#catalog-organizer-must-have-free)) |
 | Debrid cloud browsing (RD, PM, AD, TorBox, Offcloud, EasyDebrid) | **Debrid cloud addon(s)**, **TorBox first** (owner's service): catalogs of your cloud torrents, Usenet and web downloads matched to IDs, streams for matched titles, add/remove from cloud. Built on TorBox's official API (Main/Search APIs; official JS SDK exists) |
 | Easynews search | Easynews stream addon (low priority: owner has it but doesn't use it) |
 | External scrapers + source results window | Stream addons (e.g. AIOStreams) + our ranking engine + stream picker |
@@ -207,7 +207,7 @@ Trakt, Simkl and friends are **ordinary native addons**, not hard-coded features
   - **Local-first**: the app's own history is the hub (Trakt → local → Simkl), so you're never locked into any tracker.
 - **Works with Kodi/Stremio addons too**: scrobble events are emitted from the core player, so a native Trakt addon tracks what you watch *through Fen Light or a Stremio addon* as well. Fen Light's own Trakt integration can be turned off to avoid double scrobbling (a compat-profile setting).
 - **Ranking presets** and **stream formatters** (shareable files, not code).
-- **UI mods:** see [05](05-theming-and-modding.md#tier-3--mods-code).
+- **UI mods:** see [05](05-theming-and-modding.md#tier-3-mods-code).
 
 ### Built-in but replaceable: everything is a provider (D25)
 
@@ -230,7 +230,7 @@ The app is a **kernel + built-in addons** ([03](03-architecture.md#kernel--built
 **Built-in providers (proposal)**
 | System | Built-in default | Example replacement by a developer |
 |---|---|---|
-| Stream ranking | Rule engine ([06](06-ux-input-player.md#stream-ranking-engine)) | An ML ranker, or a port of AIOStreams' SEL engine |
+| Stream ranking | Rule engine ([06](06-ux-input-player.md#stream-ranking-engine-must-have)) | An ML ranker, or a port of AIOStreams' SEL engine |
 | Release-name parser | Rust parser (video + anime, Anitomy-style) | A parser tuned for a specific language/region |
 | ID & episode mapping | Offline dumps + patch overlay ([09](09-anime.md)) | A self-hosted mapping service |
 | Local files scanner/matcher | Built-in scanner | A Kodi-NFO-only scanner, a Plex-style naming matcher |

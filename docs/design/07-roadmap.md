@@ -1,5 +1,7 @@
 # 07 — Roadmap
 
+> **This is the overview.** The working plan (milestones, tasks, exit criteria, status) lives in [`../plan/`](../plan/README.md). If the two disagree, the plan wins and this page gets updated.
+
 No dates yet. Team size and time budget are open questions; see [08](08-open-questions.md). Phases are ordered by risk first, then value.
 
 Team: solo + AI, no deadline (D16). Each phase must end in something you can use daily. Built-in systems are written against public provider interfaces from Phase 1 (D25), even before third parties can replace them.

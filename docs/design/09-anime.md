@@ -33,7 +33,7 @@ Stremio/Cinemeta's `tt…:S:E` model can't represent anime properly:
 - Seanime breaks without AniList; **we never require any tracker**.
 
 ### 4. Anime-specific ranking fields
-The ranking engine ([06](06-ux-input-player.md#stream-ranking-engine)) gets anime fields that its presets can use, as Seanime's release profiles do:
+The ranking engine ([06](06-ux-input-player.md#stream-ranking-engine-must-have)) gets anime fields that its presets can use, as Seanime's release profiles do:
 - release group (preferred/avoided lists), batch vs single episode, **dual audio**, **multi-subs**, subtitle type (softsub/hardsub), source (BD/WEB), version (v2 repacks).
 - "Cached wins only within a quality band" (Seanime promotes a cached release only if it scores ≥ 70% of the best).
 - Per-content-type presets: e.g. an **"Anime" preset** (JP audio, EN subs, preferred groups) that applies automatically to anime entries.
