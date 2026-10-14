@@ -123,12 +123,74 @@ impl Scrubber {
     /// Scrubs a single string that is not inside a secret key.
     pub fn scrub_str(&self, text: &str) -> (String, Option<&'static str>) {
         let (out, reason) = self.scrub_text(text, 0);
-        // Last line of defence: a known secret that survives in some encoding we could not
-        // rewrite in place takes the whole string with it.
-        if self.contains_known_secret(&out) {
+        // Last line of defence: a known secret or addon config that survives in some encoding
+        // we could not rewrite in place takes the whole string with it.
+        if self.contains_known(&out) {
             return (REDACTED.to_owned(), Some("known secret (encoded)"));
         }
         (out, reason)
+    }
+
+    /// Byte strings that must never survive: each secret, and each addon's `host/config`
+    /// (decoded), e.g. `aiostreams.example.com/stremio/<uuid>/<blob>`.
+    fn needles(&self) -> Vec<Vec<u8>> {
+        let mut needles: Vec<Vec<u8>> =
+            self.secrets.iter().map(|s| s.as_bytes().to_vec()).collect();
+        for base in &self.addon_bases {
+            if let Some((host, segments)) = base_parts(base) {
+                needles.push(format!("{host}/{}", segments.join("/")).into_bytes());
+            }
+        }
+        needles
+    }
+
+    /// True if a needle appears in `text` as written or after up to [`MAX_DEPTH`] rounds of
+    /// percent-decoding. Works on bytes, so invalid UTF-8 in the decoded form can't hide one.
+    fn contains_known(&self, text: &str) -> bool {
+        let needles = self.needles();
+        if needles.is_empty() {
+            return false;
+        }
+        let mut bytes = text.as_bytes().to_vec();
+        for _ in 0..=MAX_DEPTH {
+            if needles
+                .iter()
+                .any(|n| bytes.windows(n.len()).any(|w| w == n.as_slice()))
+            {
+                return true;
+            }
+            let next = percent_decode_bytes(&bytes);
+            if next == bytes {
+                break;
+            }
+            bytes = next;
+        }
+        false
+    }
+
+    /// Scrubs a query value that may be a (possibly re-encoded) URL. Nested URLs past the
+    /// inspection budget are redacted whole rather than passed through unchecked.
+    fn scrub_nested(&self, value: &str, depth: usize) -> Option<String> {
+        let mut candidate = value.to_owned();
+        for level in 0..MAX_DEPTH {
+            if Url::parse(&candidate)
+                .is_ok_and(|u| matches!(u.scheme(), "http" | "https" | "stremio"))
+            {
+                if depth + 1 + level >= MAX_DEPTH {
+                    return Some(REDACTED.to_owned());
+                }
+                return match self.scrub_text(&candidate, depth + 1 + level) {
+                    (scrubbed, Some(_)) => Some(scrubbed),
+                    (_, None) => None,
+                };
+            }
+            let next = percent_decode(&candidate);
+            if next == candidate {
+                break;
+            }
+            candidate = next;
+        }
+        None
     }
 
     fn scrub_text(&self, text: &str, depth: usize) -> (String, Option<&'static str>) {
@@ -166,23 +228,6 @@ impl Scrubber {
         (out, reason)
     }
 
-    /// True if a known secret appears in `text` after up to [`MAX_DEPTH`] rounds of
-    /// percent-decoding.
-    fn contains_known_secret(&self, text: &str) -> bool {
-        let mut decoded = text.to_owned();
-        for _ in 0..=MAX_DEPTH {
-            if self.secrets.iter().any(|s| decoded.contains(s.as_str())) {
-                return true;
-            }
-            let next = percent_decode(&decoded);
-            if next == decoded {
-                break;
-            }
-            decoded = next;
-        }
-        false
-    }
-
     /// Scrubs an absolute `http(s)://` or `stremio://` URL; `None` if `text` is not one.
     /// URL-valued query parameters (a proxy's `?d=<url>`) are scrubbed recursively.
     fn scrub_url(&self, text: &str, depth: usize) -> Option<String> {
@@ -212,7 +257,7 @@ impl Scrubber {
                     } else if is_secret_key(&k) || is_token_like(&v) || is_uuid(&v) {
                         any = true;
                         (k, REDACTED.to_owned())
-                    } else if let (nested, Some(_)) = self.scrub_text(&v, depth + 1) {
+                    } else if let Some(nested) = self.scrub_nested(&v, depth) {
                         any = true;
                         (k, nested)
                     } else {
@@ -226,24 +271,35 @@ impl Scrubber {
             }
         }
 
-        let segments: Vec<String> = url
+        let mut segments: Vec<String> = url
             .path_segments()
-            .map(|s| s.map(str::to_owned).collect())
+            .map(|s| s.map(percent_decode).collect())
             .unwrap_or_default();
-        let mut new_segments = Vec::with_capacity(segments.len());
         let mut path_changed = false;
+        // A registered addon base, however its path is encoded: compare host + decoded segments.
+        for base in &self.addon_bases {
+            if let Some((host, base_segments)) = base_parts(base)
+                && url.host_str() == Some(host.as_str())
+                && segments.len() >= base_segments.len()
+                && segments[..base_segments.len()] == base_segments[..]
+            {
+                segments.splice(..base_segments.len(), [REDACTED.to_owned()]);
+                path_changed = true;
+                break;
+            }
+        }
+        let mut new_segments = Vec::with_capacity(segments.len());
         let mut after_service = false;
-        for seg in &segments {
-            let decoded = percent_decode(seg);
-            let (known, _) = self.replace_known(&decoded);
+        for decoded in &segments {
+            let (known, _) = self.replace_known(decoded);
             // Debrid resolve links put the key right after the service name: `/resolve/torbox/<key>/`.
             let scrubbed = if after_service && !decoded.is_empty() {
                 REDACTED.to_owned()
             } else {
                 scrub_segment(&known)
             };
-            after_service = is_service_key(&decoded);
-            path_changed |= scrubbed != decoded;
+            after_service = is_service_key(decoded);
+            path_changed |= scrubbed != *decoded;
             new_segments.push(scrubbed);
         }
         if path_changed {
@@ -438,8 +494,25 @@ fn is_uuid(s: &str) -> bool {
             .all(|(p, n)| p.len() == n && p.chars().all(|c| c.is_ascii_hexdigit()))
 }
 
+/// Host and decoded path segments of an addon base (`https://host/a/b` → `("host", ["a", "b"])`).
+fn base_parts(base: &str) -> Option<(String, Vec<String>)> {
+    let url = Url::parse(base).ok()?;
+    let host = url.host_str()?.to_owned();
+    let segments: Vec<String> = url
+        .path_segments()?
+        .filter(|s| !s.is_empty())
+        .map(percent_decode)
+        .collect();
+    (!segments.is_empty()).then_some((host, segments))
+}
+
+/// One round of percent-decoding. Invalid UTF-8 in the result is replaced (U+FFFD); use
+/// [`percent_decode_bytes`] where that could hide something.
 fn percent_decode(s: &str) -> String {
-    let bytes = s.as_bytes();
+    String::from_utf8_lossy(&percent_decode_bytes(s.as_bytes())).into_owned()
+}
+
+fn percent_decode_bytes(bytes: &[u8]) -> Vec<u8> {
     let mut out = Vec::with_capacity(bytes.len());
     let mut i = 0;
     while i < bytes.len() {
@@ -454,7 +527,7 @@ fn percent_decode(s: &str) -> String {
         out.push(bytes[i]);
         i += 1;
     }
-    String::from_utf8(out).unwrap_or_else(|_| s.to_owned())
+    out
 }
 
 fn hex(b: u8) -> Option<u8> {
@@ -604,6 +677,55 @@ mod tests {
         let out = v["url"].as_str().unwrap();
         assert!(!out.contains("abc123"), "{out}");
         assert!(s.check(&v).is_empty(), "not idempotent: {out}");
+    }
+
+    #[test]
+    fn addon_base_with_differently_encoded_path_is_dropped() {
+        let s = Scrubber::new().addon_url("https://addon.example/abc!def/manifest.json");
+        let mut v = json!({ "url": "https://addon.example/abc%21def/manifest.json" });
+        assert!(!s.check(&v).is_empty());
+        s.scrub(&mut v);
+        assert_eq!(v["url"], "https://addon.example/REDACTED/manifest.json");
+        assert!(s.check(&v).is_empty());
+    }
+
+    #[test]
+    fn invalid_utf8_does_not_hide_known_secret() {
+        let s = Scrubber::new().secret("pass!word");
+        let v = json!({ "url": "https://cdn.example/%FFpa%73s%21word/file.mkv" });
+        let mut v2 = v.clone();
+        assert!(!s.check(&v).is_empty());
+        s.scrub(&mut v2);
+        assert!(s.check(&v2).is_empty(), "{v2}");
+        assert!(!v2.to_string().contains("word"), "{v2}");
+    }
+
+    #[test]
+    fn re_encoded_proxy_urls_are_scrubbed() {
+        let s = Scrubber::new();
+        let mut v = json!({
+            "url": "https://proxy.example/p?d=https%253A%252F%252Fcdn.example%252Ffile.mkv%253Ftoken%253Dabc123"
+        });
+        assert!(!s.check(&v).is_empty());
+        s.scrub(&mut v);
+        assert!(!v.to_string().contains("abc123"), "{v}");
+        assert!(s.check(&v).is_empty(), "not idempotent: {v}");
+    }
+
+    #[test]
+    fn deeply_nested_proxy_urls_fail_closed() {
+        let mut inner = "https://cdn.example/file.mkv?token=abc123".to_owned();
+        for _ in 0..5 {
+            inner = format!(
+                "https://proxy.example/p?d={}",
+                url::form_urlencoded::byte_serialize(inner.as_bytes()).collect::<String>()
+            );
+        }
+        let s = Scrubber::new();
+        let mut v = json!({ "url": inner });
+        s.scrub(&mut v);
+        assert!(!v.to_string().contains("abc123"), "{v}");
+        assert!(s.check(&v).is_empty(), "not idempotent: {v}");
     }
 
     #[test]
