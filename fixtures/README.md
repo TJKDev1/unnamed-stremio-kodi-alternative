@@ -31,7 +31,9 @@ cargo run -p app-stremio-cli -- record --name aiostreams --addons $HOMEiostream
 Remove-Item Env:FIXTURE_SECRETS
 ```
 
-Without explicit paths it picks catalogs, metas, streams and subtitles from the manifest. To record specific requests, add them after `--`: `-- stream/movie/tt1375666 catalog/movie/top/skip=100`. Re-running replaces the addon's folder once the new recording has passed its checks.
+Without explicit paths it picks catalogs, metas, streams and subtitles from the manifest, skipping personal library catalogs (e.g. AIOStreams' TorBox library, which lists your downloads). `manifest.json` is scrubbed but not anonymized: before committing, check its `id` and catalog ids for anything personal.
+
+**Debrid libraries:** addons like AIOStreams can mix results from *your own* debrid library into normal stream lists (the SEL template marks them with ☁︎). That reveals what you've downloaded, and the anonymizer can't tell them apart. Before recording, turn off library results in the addon's config (or record with a config that has no library enabled), and grep the recording for library markers before committing. To record specific requests, add them after `--`: `-- stream/movie/tt1375666 catalog/movie/top/skip=100`. Re-running replaces the addon's folder once the new recording has passed its checks.
 
 ## No secrets, ever (D57), no release names (D62)
 

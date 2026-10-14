@@ -72,6 +72,9 @@ pub struct Finding {
 pub struct Scrubber {
     secrets: Vec<String>,
     addon_bases: Vec<String>,
+    /// Starts of config segments: wherever one appears, the whole identifier around it
+    /// (the run of letters, digits, `-` and `_` it begins) is replaced.
+    config_prefixes: Vec<String>,
 }
 
 impl Scrubber {
@@ -105,6 +108,16 @@ impl Scrubber {
         let Some((_, rest)) = base.split_once("://") else {
             return self;
         };
+        // Addons echo truncated pieces of their config elsewhere (AIOStreams puts the first
+        // 12 characters of the config UUID in its manifest `id`). The first 8 characters of
+        // each long config segment are unique enough to find such an echo; the whole
+        // identifier it starts is then removed.
+        for seg in rest.split('/').skip(1).filter(|seg| seg.len() >= 16) {
+            let prefix: String = seg.chars().take(8).collect();
+            if !self.config_prefixes.contains(&prefix) {
+                self.config_prefixes.push(prefix);
+            }
+        }
         for scheme in ["https", "http", "stremio"] {
             let base = format!("{scheme}://{rest}");
             // A base without a path (`https://host`) has no config to remove.
@@ -306,6 +319,16 @@ impl Scrubber {
                     out = out.replace(form.as_str(), REDACTED);
                     reason = Some("known secret");
                 }
+            }
+        }
+        for prefix in &self.config_prefixes {
+            while let Some(start) = out.find(prefix.as_str()) {
+                let is_id = |c: char| c.is_ascii_alphanumeric() || c == '-' || c == '_';
+                let end = out[start..]
+                    .find(|c: char| !is_id(c))
+                    .map_or(out.len(), |i| start + i);
+                out.replace_range(start..end, REDACTED);
+                reason = Some("addon config fragment");
             }
         }
         (out, reason)
@@ -683,6 +706,17 @@ mod tests {
         let findings = s.scrub(&mut v);
         assert_eq!(v["streams"][0]["title"], "cached via REDACTED");
         assert_eq!(findings[0].pointer, "/streams/0/title");
+    }
+
+    #[test]
+    fn truncated_config_segments_are_secret() {
+        let s = Scrubber::new().addon_url(
+            "https://aio.example/stremio/c0ffee00-1111-4222-8333-444455556666/eyJpIjoiYWJjIn0/manifest.json",
+        );
+        let mut v = json!({ "id": "aio.example.com.c0ffee00-111" });
+        s.scrub(&mut v);
+        assert_eq!(v["id"], "aio.example.com.REDACTED");
+        assert!(s.check(&v).is_empty());
     }
 
     #[test]

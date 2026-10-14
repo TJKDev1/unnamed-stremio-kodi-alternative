@@ -8,8 +8,8 @@ use std::path::{Path, PathBuf};
 use std::time::{SystemTime, UNIX_EPOCH};
 
 use app_addons_stremio::{
-    Descriptor, ExtraProp, Manifest, ResourcePath, ResourceResponse, Transport, Validated,
-    manifest, parse_resource,
+    Descriptor, ExtraProp, Manifest, ManifestCatalog, ResourcePath, ResourceResponse, Transport,
+    Validated, manifest, parse_resource,
 };
 use app_fixtures::{Scrubber, anonymize};
 use serde_json::{Value, json};
@@ -161,6 +161,10 @@ impl<'a, T: Transport> Recorder<'a, T> {
             self.say(&format!("    warning: {}", w.0));
         }
         self.write("manifest.json", &body.body, &mut false)?;
+        self.say(
+            "    note: manifest.json is scrubbed but not anonymized; check its `id` and catalog \
+             ids for anything personal before committing",
+        );
         self.say(&format!(
             "recorded manifest of {} {}",
             manifest.name, manifest.version
@@ -193,7 +197,13 @@ impl<'a, T: Transport> Recorder<'a, T> {
 
         // Catalogs: plain ones, then one each with skip, genre and search.
         let mut catalogs = Vec::new();
-        for c in m.catalogs.iter().take(MAX_CATALOGS) {
+        // Personal libraries (a debrid account's downloads) are the user's history, not
+        // addon behaviour: never recorded.
+        let catalogs_public: Vec<_> = m.catalogs.iter().filter(|c| !is_personal(c)).collect();
+        if catalogs_public.len() < m.catalogs.len() {
+            self.say("    note: skipping personal library catalogs");
+        }
+        for c in catalogs_public.iter().take(MAX_CATALOGS) {
             let required: Vec<_> = c.extra.iter().filter(|e| e.is_required).collect();
             let mut path = ResourcePath::new("catalog", &c.r#type, &c.id);
             for e in required {
@@ -207,7 +217,7 @@ impl<'a, T: Transport> Recorder<'a, T> {
             catalogs.push(path);
         }
         let variant = |name: &str, value: &dyn Fn(&ExtraProp) -> Option<String>| {
-            m.catalogs.iter().find_map(|c| {
+            catalogs_public.iter().find_map(|c| {
                 let e = c.extra.iter().find(|e| e.name == name)?;
                 if c.extra.iter().any(|o| o.is_required && o.name != name) {
                     return None;
@@ -404,6 +414,13 @@ impl<'a, T: Transport> Recorder<'a, T> {
         }
         Ok(())
     }
+}
+
+/// A catalog of the user's own content (e.g. AIOStreams' `library` catalogs listing a
+/// debrid account's downloads).
+fn is_personal(c: &ManifestCatalog) -> bool {
+    let personal = |s: &str| s.to_ascii_lowercase().contains("library");
+    personal(&c.r#type) || personal(&c.id)
 }
 
 /// Cuts every item list to [`MAX_ITEMS`]; returns whether anything was cut.
