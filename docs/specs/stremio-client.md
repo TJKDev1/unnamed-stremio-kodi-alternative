@@ -37,10 +37,14 @@ The default implementation (`ReqwestTransport`, feature `reqwest`, on by default
 - Numbers that addons send as strings (`fileIdx: "3"`, `videoSize: "123"`) are accepted.
 
 ### Manifest validation
-`Manifest::from_json` fails when `id`, `name`, `version` or `resources` are missing or of the wrong type. It returns warnings (not errors) when:
+`Manifest::from_json` fails when `id`, `name` or `version` is missing or empty, or when no `resources` entry is usable. It returns warnings (not errors) when:
+- a list item was dropped (bad resource, catalog, extra);
 - a resource object or catalog uses a type not listed in `types`;
-- a catalog has `extraRequired` names missing from `extraSupported`;
-- `idPrefixes` is an empty array (treated as "no ids match").
+- a catalog uses the legacy `extraSupported`/`extraRequired` (names only in `extraRequired` are treated as supported);
+- `idPrefixes` (manifest or resource) is an empty array (treated as "no ids match");
+- there are `catalogs` but no `catalog` resource.
+
+`transport_url` accepts `https://`, `http://` and `stremio://` (→ `https://`) URLs ending in `/manifest.json` (a query string is allowed); legacy `/stremio/v1` and `ipfs://` are `Unsupported`.
 
 ### Routes
 `ResourcePath { resource, type, id, extra: Vec<(String, String)> }` → `{base}/{resource}/{type}/{id}.json` or `{base}/{resource}/{type}/{id}/{extra}.json`, where:
