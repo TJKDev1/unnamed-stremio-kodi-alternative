@@ -45,7 +45,7 @@ Rules:
 - **Structural list edits go to a plain working copy** of each touched array (holding the same store proxies) and the copy is assigned once at the end of the frame. Field sets go through the store proxies, so only touched items re-render. (Splicing a store array in place notifies every later index: ~10× slower for a full reorder.)
 
 ## Behaviour
-- Budget: < 2 ms per frame for core diff + encode + transport + decode + apply at typical load. S4 measured 1.4 ms p95 over Tauri IPC (pull) and 0.6 ms over WebSocket on the owner's PC.
+- Budget: < 2 ms per frame for core diff + encode + transport + decode + apply at typical load. S4 measured 1.4–1.8 ms p95 over Tauri IPC (pull) and 0.7 ms over WebSocket on the owner's PC.
 - No JSON round-trip per item: one message per frame.
 - Startup: render last-known home snapshot immediately, then hydrate.
 - Skins and mods bind to these view-models, so view-models are public API (semver'd).

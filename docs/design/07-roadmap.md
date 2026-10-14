@@ -13,7 +13,7 @@ Team: solo + AI, no deadline (D16). Each phase must end in something you can use
 | S1 | **libmpv under a transparent webview** (Tauri v2 / custom shell) on Windows, then macOS and Linux | No tearing; correct HDR on Windows; resize without flicker; web OSD over video at 60 fps |
 | S2 | **Web UI performance on your LG TV**: SolidJS virtualized rows, 10 rows × 50 posters, focus engine | 60 fps scroll, < 2-frame focus response, memory within app limits |
 | S3 | **Rust Stremio protocol client** against 10 real addons, including configurable ones; **your AIOStreams config first** | All resources and extras parse; streams arrive progressively |
-| S4 | **Core ↔ UI IPC**: view-model patches over Tauri IPC and over WebSocket (home server) | < 2 ms per frame of patches at typical load. **Done:** 1.4 ms p95 over Tauri IPC, 0.6 ms over WebSocket ([S4](../spikes/S4.md), D70–D72) |
+| S4 | **Core ↔ UI IPC**: view-model patches over Tauri IPC and over WebSocket (home server) | < 2 ms per frame of patches at typical load. **Done:** 1.4–1.8 ms p95 over Tauri IPC, 0.7 ms over WebSocket ([S4](../spikes/S4.md), D70–D72) |
 | S5 | **WASM addon host**: Extism + a TS addon compiled to WASM doing HTTP + parsing | Cold call < 50 ms; permission enforcement works |
 | S6 | **Kodi shim proof**: run one simple video plugin through embedded CPython, then **Fen Light's main menu + one `WindowXMLDialog` (`select.xml`)** via a WindowXML-lite prototype | Folder listing + resolve + a blocking `Dialog().select()` round-trip; Fen Light's select dialog renders and returns a choice |
 | S7 | **Skin compiler proof**: one `.skin` component compiled to SolidJS with hot reload | Override `home.row` without touching the default skin |
