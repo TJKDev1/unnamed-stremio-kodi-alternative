@@ -1,0 +1,34 @@
+{
+  "addon": "https://hyper.stravo.site/REDACTED/manifest.json",
+  "recorded": "2026-10-14",
+  "requests": [
+    {
+      "cacheControl": "public, max-age=1800",
+      "file": "stream/movie/tt1375666.json",
+      "path": "/stream/movie/tt1375666.json",
+      "status": 200,
+      "trimmed": false
+    },
+    {
+      "cacheControl": "public, max-age=1800",
+      "file": "stream/movie/tmdb%3A27205.json",
+      "path": "/stream/movie/tmdb%3A27205.json",
+      "status": 200,
+      "trimmed": false
+    },
+    {
+      "cacheControl": "public, max-age=1800",
+      "file": "stream/series/tt0903747%3A1%3A1.json",
+      "path": "/stream/series/tt0903747%3A1%3A1.json",
+      "status": 200,
+      "trimmed": false
+    },
+    {
+      "cacheControl": "public, max-age=1800",
+      "file": null,
+      "path": "/stream/series/tt0944947%3A1%3A1.json",
+      "status": 404,
+      "trimmed": false
+    }
+  ]
+}

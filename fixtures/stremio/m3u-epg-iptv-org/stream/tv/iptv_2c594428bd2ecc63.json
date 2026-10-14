@@ -1,0 +1,11 @@
+{
+  "streams": [
+    {
+      "behaviorHints": {
+        "notWebReady": true
+      },
+      "title": "1+1 Title - Title",
+      "url": "http://stream.invalid/1.php"
+    }
+  ]
+}

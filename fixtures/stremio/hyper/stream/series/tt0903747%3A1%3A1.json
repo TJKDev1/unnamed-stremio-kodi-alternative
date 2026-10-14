@@ -1,0 +1,79 @@
+{
+  "streams": [
+    {
+      "externalUrl": "https://stream.invalid/1",
+      "name": null,
+      "title": "🔒 🌏 1080p | 720p | 480p (Audio Title) [Title]",
+      "type": "movie"
+    },
+    {
+      "externalUrl": "https://stream.invalid/2",
+      "name": null,
+      "title": "🔒 🌏 1080p (Audio Title) [mp4]",
+      "type": "movie"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "Title-720P-MP4",
+        "filename": "Title Title.S01.E01.720P.mp4",
+        "notWebReady": true,
+        "proxyHeaders": {
+          "request": {
+            "Accept": "*/*",
+            "Referer": "https://stream.invalid/3"
+          }
+        },
+        "videoSize": 684742893
+      },
+      "name": null,
+      "title": "🌏 720p (Audio Title) [mp4]",
+      "url": "https://stream.invalid/4.mp4"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "Title-480P-MP4",
+        "filename": "Title Title.S01.E01.480P.mp4",
+        "notWebReady": true,
+        "proxyHeaders": {
+          "request": {
+            "Accept": "*/*",
+            "Referer": "https://stream.invalid/5"
+          }
+        },
+        "videoSize": 242949969
+      },
+      "name": null,
+      "title": "🌏 480p (Audio Title) [mp4]",
+      "url": "https://stream.invalid/6.mp4"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "Title-360P-MP4",
+        "filename": "Title Title.S01.E01.360P.mp4",
+        "notWebReady": true,
+        "proxyHeaders": {
+          "request": {
+            "Accept": "*/*",
+            "Referer": "https://stream.invalid/7"
+          }
+        },
+        "videoSize": 200149402
+      },
+      "name": null,
+      "title": "🌏 360p (Audio Title) [mp4]",
+      "url": "https://stream.invalid/8.mp4"
+    },
+    {
+      "externalUrl": "https://stream.invalid/9",
+      "name": null,
+      "title": "✨ $3/Title • Title Title",
+      "type": "movie"
+    },
+    {
+      "externalUrl": "https://stream.invalid/10",
+      "name": null,
+      "title": "🗣️  Title Audio Dub",
+      "type": "movie"
+    }
+  ]
+}

@@ -1,0 +1,1314 @@
+{
+  "cacheMaxAge": 14400,
+  "hasMore": true,
+  "metas": [
+    {
+      "awards": "1 nomination total",
+      "background": "https://images.metahub.space/background/medium/tt22084616/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt22084616",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Tom Holland",
+        "Zendaya",
+        "Mark Ruffalo"
+      ],
+      "country": "United States, Canada, United Kingdom, Germany",
+      "description": "A forgotten Peter Parker lives alone as a full-time Spider-Man until mounting pressure triggers a dangerous change and a powerful new enemy emerges.",
+      "director": [
+        "Destin Daniel Cretton"
+      ],
+      "genre": [
+        "Action",
+        "Adventure"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "id": "tt22084616",
+      "imdbRating": "8.0",
+      "imdb_id": "tt22084616",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.0",
+          "url": "https://imdb.com/title/tt22084616"
+        },
+        {
+          "category": "share",
+          "name": "Spider-Man: Brand New Day",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Action"
+        },
+        {
+          "category": "Genres",
+          "name": "Adventure",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Adventure"
+        },
+        {
+          "category": "Cast",
+          "name": "Tom Holland",
+          "url": "stremio:///search?search=Tom%20Holland"
+        },
+        {
+          "category": "Cast",
+          "name": "Zendaya",
+          "url": "stremio:///search?search=Zendaya"
+        },
+        {
+          "category": "Cast",
+          "name": "Mark Ruffalo",
+          "url": "stremio:///search?search=Mark%20Ruffalo"
+        },
+        {
+          "category": "Writers",
+          "name": "Chris McKenna",
+          "url": "stremio:///search?search=Chris%20McKenna"
+        },
+        {
+          "category": "Writers",
+          "name": "Erik Sommers",
+          "url": "stremio:///search?search=Erik%20Sommers"
+        },
+        {
+          "category": "Writers",
+          "name": "Stan Lee",
+          "url": "stremio:///search?search=Stan%20Lee"
+        },
+        {
+          "category": "Directors",
+          "name": "Destin Daniel Cretton",
+          "url": "stremio:///search?search=Destin%20Daniel%20Cretton"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt22084616/img",
+      "moviedb_id": 969681,
+      "name": "Spider-Man: Brand New Day",
+      "popularities": {
+        "moviedb": 942.3201,
+        "stremio": 31.41067,
+        "stremio_lib": 0,
+        "trakt": 2083
+      },
+      "popularity": 31.41067,
+      "poster": "https://images.metahub.space/poster/small/tt22084616/img",
+      "releaseInfo": "2026",
+      "released": "2026-07-31T00:00:00.000Z",
+      "runtime": "145 min",
+      "slug": "movie/spider-man-brand-new-day-22084616",
+      "trailerStreams": [
+        {
+          "title": "Spider-Man: Brand New Day",
+          "ytId": "P3uI5sLosKU"
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "ytId": "62bIsvRcPv0"
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "ytId": "8TZMtslA3UY"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "P3uI5sLosKU",
+          "type": "Trailer"
+        },
+        {
+          "source": "62bIsvRcPv0",
+          "type": "Trailer"
+        },
+        {
+          "source": "8TZMtslA3UY",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Chris McKenna",
+        "Erik Sommers",
+        "Stan Lee"
+      ],
+      "year": "2026"
+    },
+    {
+      "awards": "3 wins & 7 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt15047880/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt15047880",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Emily Blunt",
+        "Josh O&apos;Connor",
+        "Colin Firth"
+      ],
+      "country": "United States, Canada, New Zealand, Japan",
+      "description": "If you found out we weren't alone, if someone showed you, proved it to you, would that frighten you?",
+      "director": [
+        "Steven Spielberg"
+      ],
+      "genre": [
+        "Action",
+        "Mystery",
+        "Sci-Fi"
+      ],
+      "genres": [
+        "Action",
+        "Mystery",
+        "Sci-Fi"
+      ],
+      "id": "tt15047880",
+      "imdbRating": "6.4",
+      "imdb_id": "tt15047880",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.4",
+          "url": "https://imdb.com/title/tt15047880"
+        },
+        {
+          "category": "share",
+          "name": "Disclosure Day",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Action"
+        },
+        {
+          "category": "Genres",
+          "name": "Mystery",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Mystery"
+        },
+        {
+          "category": "Genres",
+          "name": "Sci-Fi",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Sci-Fi"
+        },
+        {
+          "category": "Cast",
+          "name": "Emily Blunt",
+          "url": "stremio:///search?search=Emily%20Blunt"
+        },
+        {
+          "category": "Cast",
+          "name": "Josh O&apos;Connor",
+          "url": "stremio:///search?search=Josh%20O%26apos%3BConnor"
+        },
+        {
+          "category": "Cast",
+          "name": "Colin Firth",
+          "url": "stremio:///search?search=Colin%20Firth"
+        },
+        {
+          "category": "Writers",
+          "name": "David Koepp",
+          "url": "stremio:///search?search=David%20Koepp"
+        },
+        {
+          "category": "Writers",
+          "name": "Steven Spielberg",
+          "url": "stremio:///search?search=Steven%20Spielberg"
+        },
+        {
+          "category": "Directors",
+          "name": "Steven Spielberg",
+          "url": "stremio:///search?search=Steven%20Spielberg"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt15047880/img",
+      "moviedb_id": 1275779,
+      "name": "Disclosure Day",
+      "popularities": {
+        "moviedb": 82.6835,
+        "stremio": 2.7561166666666663,
+        "stremio_lib": 0,
+        "trakt": 265
+      },
+      "popularity": 2.7561166666666663,
+      "poster": "https://images.metahub.space/poster/small/tt15047880/img",
+      "releaseInfo": "2026",
+      "released": "2026-06-12T00:00:00.000Z",
+      "runtime": "146 min",
+      "slug": "movie/disclosure-day-15047880",
+      "trailerStreams": [
+        {
+          "title": "Disclosure Day",
+          "ytId": "icDuEHSxE-w"
+        },
+        {
+          "title": "Disclosure Day",
+          "ytId": "SCYT8vb2siQ"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "icDuEHSxE-w",
+          "type": "Trailer"
+        },
+        {
+          "source": "SCYT8vb2siQ",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "David Koepp",
+        "Steven Spielberg"
+      ],
+      "year": "2026"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt36983905/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt36983905",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Andrew Garfield",
+        "Jamie Bell",
+        "Stephen Dillane"
+      ],
+      "country": "United Kingdom, Germany, United States",
+      "description": "Based on the true story of the uprising that inspired the legend of Robin Hood, Andrew Garfield stars as the leader of a rebellion against the tyranny of King Richard II in a fight for justice.",
+      "director": [
+        "Paul Greengrass"
+      ],
+      "genre": [
+        "Action",
+        "Drama",
+        "History"
+      ],
+      "genres": [
+        "Action",
+        "Drama",
+        "History"
+      ],
+      "id": "tt36983905",
+      "imdbRating": "",
+      "imdb_id": "tt36983905",
+      "links": [
+        {
+          "category": "share",
+          "name": "The Uprising",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Action"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "History",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=History"
+        },
+        {
+          "category": "Cast",
+          "name": "Andrew Garfield",
+          "url": "stremio:///search?search=Andrew%20Garfield"
+        },
+        {
+          "category": "Cast",
+          "name": "Jamie Bell",
+          "url": "stremio:///search?search=Jamie%20Bell"
+        },
+        {
+          "category": "Cast",
+          "name": "Stephen Dillane",
+          "url": "stremio:///search?search=Stephen%20Dillane"
+        },
+        {
+          "category": "Writers",
+          "name": "Paul Greengrass",
+          "url": "stremio:///search?search=Paul%20Greengrass"
+        },
+        {
+          "category": "Directors",
+          "name": "Paul Greengrass",
+          "url": "stremio:///search?search=Paul%20Greengrass"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt36983905/img",
+      "moviedb_id": 977942,
+      "name": "The Uprising",
+      "popularities": {
+        "moviedb": 119.8056,
+        "stremio": 3.99352,
+        "stremio_lib": 0,
+        "trakt": 329
+      },
+      "popularity": 3.99352,
+      "poster": "https://images.metahub.space/poster/small/tt36983905/img",
+      "releaseInfo": "2026",
+      "released": "2026-09-11T00:00:00.000Z",
+      "runtime": "128 min",
+      "slug": "movie/the-uprising-36983905",
+      "trailerStreams": [
+        {
+          "title": "The Uprising",
+          "ytId": "lyhCxZN4Ro8"
+        },
+        {
+          "title": "The Uprising",
+          "ytId": "ZVkrhHebz1Q"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "lyhCxZN4Ro8",
+          "type": "Trailer"
+        },
+        {
+          "source": "ZVkrhHebz1Q",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Paul Greengrass"
+      ],
+      "year": "2026"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt27165187/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt27165187",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Anne Hathaway",
+        "Ewan McGregor",
+        "Maisy Stella"
+      ],
+      "country": "United States, Canada, Australia",
+      "description": "The Platt family bands together to navigate their new surroundings after a cosmic event transports their suburban neighborhood to someplace unknown.",
+      "director": [
+        "David Robert Mitchell"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Mystery"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Mystery"
+      ],
+      "id": "tt27165187",
+      "imdbRating": "6.5",
+      "imdb_id": "tt27165187",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.5",
+          "url": "https://imdb.com/title/tt27165187"
+        },
+        {
+          "category": "share",
+          "name": "The End of Oak Street",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Action"
+        },
+        {
+          "category": "Genres",
+          "name": "Adventure",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Adventure"
+        },
+        {
+          "category": "Genres",
+          "name": "Mystery",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Mystery"
+        },
+        {
+          "category": "Cast",
+          "name": "Anne Hathaway",
+          "url": "stremio:///search?search=Anne%20Hathaway"
+        },
+        {
+          "category": "Cast",
+          "name": "Ewan McGregor",
+          "url": "stremio:///search?search=Ewan%20McGregor"
+        },
+        {
+          "category": "Cast",
+          "name": "Maisy Stella",
+          "url": "stremio:///search?search=Maisy%20Stella"
+        },
+        {
+          "category": "Writers",
+          "name": "David Robert Mitchell",
+          "url": "stremio:///search?search=David%20Robert%20Mitchell"
+        },
+        {
+          "category": "Directors",
+          "name": "David Robert Mitchell",
+          "url": "stremio:///search?search=David%20Robert%20Mitchell"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt27165187/img",
+      "moviedb_id": 1101383,
+      "name": "The End of Oak Street",
+      "popularities": {
+        "moviedb": 172.9648,
+        "stremio": 5.765493333333334,
+        "stremio_lib": 0,
+        "trakt": 422
+      },
+      "popularity": 5.765493333333334,
+      "poster": "https://images.metahub.space/poster/small/tt27165187/img",
+      "releaseInfo": "2026",
+      "released": "2026-08-14T00:00:00.000Z",
+      "runtime": "100 min",
+      "slug": "movie/the-end-of-oak-street-27165187",
+      "trailerStreams": [
+        {
+          "title": "The End of Oak Street",
+          "ytId": "u4tgctWuHc0"
+        },
+        {
+          "title": "The End of Oak Street",
+          "ytId": "3oB9AxspVow"
+        },
+        {
+          "title": "The End of Oak Street",
+          "ytId": "s9GKXTbChjE"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "u4tgctWuHc0",
+          "type": "Trailer"
+        },
+        {
+          "source": "3oB9AxspVow",
+          "type": "Trailer"
+        },
+        {
+          "source": "s9GKXTbChjE",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "David Robert Mitchell"
+      ],
+      "year": "2026"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt31349844/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt31349844",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Alan Ritchson",
+        "Owen Wilson",
+        "Rodrigo Santoro"
+      ],
+      "country": "Australia, United States, United Kingdom",
+      "description": "A former soldier and his unlikely partner become the targets of a ruthless cartel while racing to complete a critical medical delivery and save the life of a little girl.",
+      "director": [
+        "Scott Waugh"
+      ],
+      "genre": [
+        "Action",
+        "Comedy",
+        "Thriller"
+      ],
+      "genres": [
+        "Action",
+        "Comedy",
+        "Thriller"
+      ],
+      "id": "tt31349844",
+      "imdbRating": "6.6",
+      "imdb_id": "tt31349844",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.6",
+          "url": "https://imdb.com/title/tt31349844"
+        },
+        {
+          "category": "share",
+          "name": "Runner",
+          "url": "https://www.strem.io/s/movie/runner-31349844"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Action"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Comedy"
+        },
+        {
+          "category": "Genres",
+          "name": "Thriller",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Thriller"
+        },
+        {
+          "category": "Cast",
+          "name": "Alan Ritchson",
+          "url": "stremio:///search?search=Alan%20Ritchson"
+        },
+        {
+          "category": "Cast",
+          "name": "Owen Wilson",
+          "url": "stremio:///search?search=Owen%20Wilson"
+        },
+        {
+          "category": "Cast",
+          "name": "Rodrigo Santoro",
+          "url": "stremio:///search?search=Rodrigo%20Santoro"
+        },
+        {
+          "category": "Writers",
+          "name": "Miles Hubley",
+          "url": "stremio:///search?search=Miles%20Hubley"
+        },
+        {
+          "category": "Writers",
+          "name": "Tommy White",
+          "url": "stremio:///search?search=Tommy%20White"
+        },
+        {
+          "category": "Directors",
+          "name": "Scott Waugh",
+          "url": "stremio:///search?search=Scott%20Waugh"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt31349844/img",
+      "moviedb_id": 1377237,
+      "name": "Runner",
+      "popularities": {
+        "moviedb": 259.3649,
+        "stremio": 8.645496666666666,
+        "stremio_lib": 0,
+        "trakt": 519
+      },
+      "popularity": 8.645496666666666,
+      "poster": "https://images.metahub.space/poster/small/tt31349844/img",
+      "releaseInfo": "2026",
+      "released": "2026-09-11T00:00:00.000Z",
+      "runtime": "97 min",
+      "slug": "movie/runner-31349844",
+      "trailerStreams": [
+        {
+          "title": "Runner",
+          "ytId": "B6Z9MM1LhEA"
+        },
+        {
+          "title": "Runner",
+          "ytId": "m8JUmBgHejI"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "B6Z9MM1LhEA",
+          "type": "Trailer"
+        },
+        {
+          "source": "m8JUmBgHejI",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Miles Hubley",
+        "Tommy White"
+      ],
+      "year": "2026"
+    },
+    {
+      "awards": "2 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt27369017/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt27369017",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Hwang Jung-min",
+        "Zo In-sung",
+        "Hoyeon"
+      ],
+      "country": "South Korea",
+      "description": "A mysterious discovery is made on the outskirts of the remote harbor town. The residents find themselves in a desperate fight for survival against something they have never encountered before.",
+      "director": [
+        "Na Hong-jin"
+      ],
+      "genre": [
+        "Action",
+        "Drama",
+        "Horror"
+      ],
+      "genres": [
+        "Action",
+        "Drama",
+        "Horror"
+      ],
+      "id": "tt27369017",
+      "imdbRating": "6.9",
+      "imdb_id": "tt27369017",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.9",
+          "url": "https://imdb.com/title/tt27369017"
+        },
+        {
+          "category": "share",
+          "name": "Hope",
+          "url": "https://www.strem.io/s/movie/hope-27369017"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Action"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Horror",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Horror"
+        },
+        {
+          "category": "Cast",
+          "name": "Hwang Jung-min",
+          "url": "stremio:///search?search=Hwang%20Jung-min"
+        },
+        {
+          "category": "Cast",
+          "name": "Zo In-sung",
+          "url": "stremio:///search?search=Zo%20In-sung"
+        },
+        {
+          "category": "Cast",
+          "name": "Hoyeon",
+          "url": "stremio:///search?search=Hoyeon"
+        },
+        {
+          "category": "Writers",
+          "name": "Na Hong-jin",
+          "url": "stremio:///search?search=Na%20Hong-jin"
+        },
+        {
+          "category": "Directors",
+          "name": "Na Hong-jin",
+          "url": "stremio:///search?search=Na%20Hong-jin"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt27369017/img",
+      "moviedb_id": 1058424,
+      "name": "Hope",
+      "popularities": {
+        "moviedb": 39.1022,
+        "stremio": 1.3034066666666668,
+        "stremio_lib": 0,
+        "trakt": 412
+      },
+      "popularity": 1.3034066666666668,
+      "poster": "https://images.metahub.space/poster/small/tt27369017/img",
+      "releaseInfo": "2026",
+      "released": "2026-09-09T00:00:00.000Z",
+      "runtime": "157 min",
+      "slug": "movie/hope-27369017",
+      "trailerStreams": [
+        {
+          "title": "Hope",
+          "ytId": "OFaJzL83y0Q"
+        },
+        {
+          "title": "Hope",
+          "ytId": "R5jcEBVBEbQ"
+        },
+        {
+          "title": "Hope",
+          "ytId": "ODnHr2Emnf0"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "OFaJzL83y0Q",
+          "type": "Trailer"
+        },
+        {
+          "source": "R5jcEBVBEbQ",
+          "type": "Trailer"
+        },
+        {
+          "source": "ODnHr2Emnf0",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Na Hong-jin"
+      ],
+      "year": "2026"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt28014327/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt28014327",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Ryan Reynolds",
+        "Kenneth Branagh",
+        "Marcin Dorocinski"
+      ],
+      "country": "United States",
+      "description": "Lieutenant Troy Brennan's reconnaissance mission over Soviet territory goes awry, forcing him to crash-land and survive in Russian wilderness while evading capture or rescue.",
+      "director": [
+        "John Francis Daley",
+        "Jonathan Goldstein"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "id": "tt28014327",
+      "imdbRating": "6.9",
+      "imdb_id": "tt28014327",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.9",
+          "url": "https://imdb.com/title/tt28014327"
+        },
+        {
+          "category": "share",
+          "name": "Mayday",
+          "url": "https://www.strem.io/s/movie/mayday-28014327"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Action"
+        },
+        {
+          "category": "Genres",
+          "name": "Adventure",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Adventure"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Comedy"
+        },
+        {
+          "category": "Cast",
+          "name": "Ryan Reynolds",
+          "url": "stremio:///search?search=Ryan%20Reynolds"
+        },
+        {
+          "category": "Cast",
+          "name": "Kenneth Branagh",
+          "url": "stremio:///search?search=Kenneth%20Branagh"
+        },
+        {
+          "category": "Cast",
+          "name": "Marcin Dorocinski",
+          "url": "stremio:///search?search=Marcin%20Dorocinski"
+        },
+        {
+          "category": "Writers",
+          "name": "John Francis Daley",
+          "url": "stremio:///search?search=John%20Francis%20Daley"
+        },
+        {
+          "category": "Writers",
+          "name": "Jonathan Goldstein",
+          "url": "stremio:///search?search=Jonathan%20Goldstein"
+        },
+        {
+          "category": "Directors",
+          "name": "John Francis Daley",
+          "url": "stremio:///search?search=John%20Francis%20Daley"
+        },
+        {
+          "category": "Directors",
+          "name": "Jonathan Goldstein",
+          "url": "stremio:///search?search=Jonathan%20Goldstein"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt28014327/img",
+      "moviedb_id": 1137844,
+      "name": "Mayday",
+      "popularities": {
+        "moviedb": 29.093,
+        "stremio": 0.9697666666666668,
+        "stremio_lib": 0,
+        "trakt": 202
+      },
+      "popularity": 0.9697666666666668,
+      "poster": "https://images.metahub.space/poster/small/tt28014327/img",
+      "releaseInfo": "2026",
+      "released": "2026-09-04T00:00:00.000Z",
+      "runtime": "111 min",
+      "slug": "movie/mayday-28014327",
+      "trailerStreams": [
+        {
+          "title": "Mayday",
+          "ytId": "om5Un9X720M"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "om5Un9X720M",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "John Francis Daley",
+        "Jonathan Goldstein"
+      ],
+      "year": "2026"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt27681354/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt27681354",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Henry Cavill",
+        "Jake Gyllenhaal",
+        "Eiza González"
+      ],
+      "country": "United Kingdom, United States",
+      "description": "A covert team of elite operatives are living in the shadows. When a ruthless despot steals a billion-dollar fortune, they're sent to steal it back--an impossible heist that erupts into a deadly game of strategy, deception and surv...",
+      "director": [
+        "Guy Ritchie"
+      ],
+      "genre": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "id": "tt27681354",
+      "imdbRating": "6.3",
+      "imdb_id": "tt27681354",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.3",
+          "url": "https://imdb.com/title/tt27681354"
+        },
+        {
+          "category": "share",
+          "name": "In the Grey",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Action"
+        },
+        {
+          "category": "Genres",
+          "name": "Crime",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Crime"
+        },
+        {
+          "category": "Genres",
+          "name": "Thriller",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Thriller"
+        },
+        {
+          "category": "Cast",
+          "name": "Henry Cavill",
+          "url": "stremio:///search?search=Henry%20Cavill"
+        },
+        {
+          "category": "Cast",
+          "name": "Jake Gyllenhaal",
+          "url": "stremio:///search?search=Jake%20Gyllenhaal"
+        },
+        {
+          "category": "Cast",
+          "name": "Eiza González",
+          "url": "stremio:///search?search=Eiza%20Gonz%C3%A1lez"
+        },
+        {
+          "category": "Writers",
+          "name": "Guy Ritchie",
+          "url": "stremio:///search?search=Guy%20Ritchie"
+        },
+        {
+          "category": "Directors",
+          "name": "Guy Ritchie",
+          "url": "stremio:///search?search=Guy%20Ritchie"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt27681354/img",
+      "moviedb_id": 1122573,
+      "name": "In the Grey",
+      "popularities": {
+        "moviedb": 35.5703,
+        "stremio": 1.1856766666666667,
+        "stremio_lib": 0,
+        "trakt": 79
+      },
+      "popularity": 1.1856766666666667,
+      "poster": "https://images.metahub.space/poster/small/tt27681354/img",
+      "releaseInfo": "2026",
+      "released": "2026-05-15T00:00:00.000Z",
+      "runtime": "97 min",
+      "slug": "movie/in-the-grey-27681354",
+      "trailerStreams": [
+        {
+          "title": "In the Grey",
+          "ytId": "nufP15iN4GE"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "nufP15iN4GE",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Guy Ritchie"
+      ],
+      "year": "2026"
+    },
+    {
+      "awards": "Won 4 Oscars. 344 wins & 506 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt31193180/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt31193180",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Michael B. Jordan",
+        "Jack O&apos;Connell",
+        "Hailee Steinfeld"
+      ],
+      "country": "United States",
+      "description": "Trying to leave their troubled lives behind, twin brothers return to their hometown to start again, only to discover that an even greater evil is waiting to welcome them back.",
+      "director": [
+        "Ryan Coogler"
+      ],
+      "genre": [
+        "Horror"
+      ],
+      "genres": [
+        "Horror"
+      ],
+      "id": "tt31193180",
+      "imdbRating": "7.5",
+      "imdb_id": "tt31193180",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.5",
+          "url": "https://imdb.com/title/tt31193180"
+        },
+        {
+          "category": "share",
+          "name": "Sinners",
+          "url": "https://www.strem.io/s/movie/sinners-31193180"
+        },
+        {
+          "category": "Genres",
+          "name": "Horror",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Horror"
+        },
+        {
+          "category": "Cast",
+          "name": "Michael B. Jordan",
+          "url": "stremio:///search?search=Michael%20B.%20Jordan"
+        },
+        {
+          "category": "Cast",
+          "name": "Jack O&apos;Connell",
+          "url": "stremio:///search?search=Jack%20O%26apos%3BConnell"
+        },
+        {
+          "category": "Cast",
+          "name": "Hailee Steinfeld",
+          "url": "stremio:///search?search=Hailee%20Steinfeld"
+        },
+        {
+          "category": "Writers",
+          "name": "Ryan Coogler",
+          "url": "stremio:///search?search=Ryan%20Coogler"
+        },
+        {
+          "category": "Directors",
+          "name": "Ryan Coogler",
+          "url": "stremio:///search?search=Ryan%20Coogler"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt31193180/img",
+      "moviedb_id": 1233413,
+      "name": "Sinners",
+      "popularities": {
+        "moviedb": 46.0139,
+        "stremio": 1.5337966666666667,
+        "stremio_lib": 0,
+        "trakt": 74
+      },
+      "popularity": 1.5337966666666667,
+      "poster": "https://images.metahub.space/poster/small/tt31193180/img",
+      "releaseInfo": "2025",
+      "released": "2025-04-18T00:00:00.000Z",
+      "runtime": "138 min",
+      "slug": "movie/sinners-31193180",
+      "trailerStreams": [
+        {
+          "title": "Sinners",
+          "ytId": "l2h2lC0vlX4"
+        },
+        {
+          "title": "Sinners",
+          "ytId": "O98jSd24lmA"
+        },
+        {
+          "title": "Sinners",
+          "ytId": "h-zFEZkoALI"
+        },
+        {
+          "title": "Sinners",
+          "ytId": "7joulECTx_U"
+        },
+        {
+          "title": "Sinners",
+          "ytId": "bKGxHflevuk"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "l2h2lC0vlX4",
+          "type": "Trailer"
+        },
+        {
+          "source": "O98jSd24lmA",
+          "type": "Trailer"
+        },
+        {
+          "source": "h-zFEZkoALI",
+          "type": "Trailer"
+        },
+        {
+          "source": "7joulECTx_U",
+          "type": "Trailer"
+        },
+        {
+          "source": "bKGxHflevuk",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Ryan Coogler"
+      ],
+      "year": "2025"
+    },
+    {
+      "affiliates": {
+        "fandango_embed": "<p><a href=\"http://www.qksrv.net/REDACTED?url=http%3a%2f%2fwww.fandango.com%2favengers%3aendgame2019_215871%2fmovieoverview%3fwssaffid%3d11840%26wssac%3d123\"><img src=\"https://images.fandango.com/r1.0.647/ImageRenderer/111/168/images/no_image_111x168.jpg/215871/images/masterrepository/fandango/215871/avengersendgame_payoff.jpg\" alt=\"Avengers: Endgame (2019)\" title=\"Avengers: Endgame (2019)\" border=\"0\" /></a> Now Playing</p><p><a href=\"http://www.qksrv.net/REDACTED?url=http%3a%2f%2fwww.fandango.com%2favengers%3aendgame2019_215871%2fmovieoverview%3fwssaffid%3d11840%26wssac%3d123\">Movie Details</a> <a href=\"http://www.qksrv.net/REDACTED?url=http%3a%2f%2fwww.fandango.com%2fmovie-trailer%2favengers%3aendgame2019-trailer%2f215871%3fwssaffid%3d11840%26wssac%3d123\">Play Trailers</a></p><p><a href=\"http://www.qksrv.net/REDACTED?url=http%3a%2f%2fwww.fandango.com%2favengers%3aendgame2019_215871%2fmovietimes%3fwssaffid%3d11840%26wssac%3d123\"><img src=\"https://images.fandango.com/r1.0.647//images/global/buy_tickets.gif\" alt=\"Buy Tickets\" title=\"Click here to see showtimes and buy tickets!\" border=\"0\" /></a></p>",
+        "fandango_link": "http://www.qksrv.net/REDACTED?url=http%3a%2f%2fwww.fandango.com%2favengers%3aendgame2019_215871%2fmovieoverview%3fwssaffid%3d11840%26wssac%3d123"
+      },
+      "awards": "Nominated for 1 Oscar. 71 wins & 132 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt4154796/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt4154796",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Robert Downey Jr.",
+        "Chris Evans",
+        "Mark Ruffalo"
+      ],
+      "country": "United States",
+      "description": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+      "director": [
+        "Anthony Russo",
+        "Joe Russo"
+      ],
+      "dvdRelease": "2019-07-30T00:00:00.000Z",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "id": "tt4154796",
+      "imdbRating": "8.4",
+      "imdb_id": "tt4154796",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.4",
+          "url": "https://imdb.com/title/tt4154796"
+        },
+        {
+          "category": "share",
+          "name": "Avengers: Endgame",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Action"
+        },
+        {
+          "category": "Genres",
+          "name": "Adventure",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Adventure"
+        },
+        {
+          "category": "Genres",
+          "name": "Sci-Fi",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Sci-Fi"
+        },
+        {
+          "category": "Cast",
+          "name": "Robert Downey Jr.",
+          "url": "stremio:///search?search=Robert%20Downey%20Jr."
+        },
+        {
+          "category": "Cast",
+          "name": "Chris Evans",
+          "url": "stremio:///search?search=Chris%20Evans"
+        },
+        {
+          "category": "Cast",
+          "name": "Mark Ruffalo",
+          "url": "stremio:///search?search=Mark%20Ruffalo"
+        },
+        {
+          "category": "Writers",
+          "name": "Christopher Markus",
+          "url": "stremio:///search?search=Christopher%20Markus"
+        },
+        {
+          "category": "Writers",
+          "name": "Stephen McFeely",
+          "url": "stremio:///search?search=Stephen%20McFeely"
+        },
+        {
+          "category": "Writers",
+          "name": "Stan Lee",
+          "url": "stremio:///search?search=Stan%20Lee"
+        },
+        {
+          "category": "Directors",
+          "name": "Anthony Russo",
+          "url": "stremio:///search?search=Anthony%20Russo"
+        },
+        {
+          "category": "Directors",
+          "name": "Joe Russo",
+          "url": "stremio:///search?search=Joe%20Russo"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt4154796/img",
+      "moviedb_id": 299534,
+      "name": "Avengers: Endgame",
+      "popularities": {
+        "moviedb": 96.8577,
+        "stremio": 3.2335899999999995,
+        "stremio_lib": 0.005,
+        "trakt": 143
+      },
+      "popularity": 3.2335899999999995,
+      "poster": "https://images.metahub.space/poster/small/tt4154796/img",
+      "releaseInfo": "2019",
+      "released": "2019-04-26T00:00:00.000Z",
+      "runtime": "181 min",
+      "slug": "movie/avengers-endgame-4154796",
+      "trailerStreams": [
+        {
+          "title": "Avengers: Endgame",
+          "ytId": "L2NAh3CIdig"
+        },
+        {
+          "title": "Avengers: Endgame",
+          "ytId": "AMSITikqKiM"
+        },
+        {
+          "title": "Avengers: Endgame",
+          "ytId": "TcMBFSGVi1c"
+        },
+        {
+          "title": "Avengers: Endgame",
+          "ytId": "hA6hldpSTF8"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "L2NAh3CIdig",
+          "type": "Trailer"
+        },
+        {
+          "source": "AMSITikqKiM",
+          "type": "Trailer"
+        },
+        {
+          "source": "TcMBFSGVi1c",
+          "type": "Trailer"
+        },
+        {
+          "source": "hA6hldpSTF8",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Christopher Markus",
+        "Stephen McFeely",
+        "Stan Lee"
+      ],
+      "year": "2019"
+    }
+  ],
+  "staleError": 3600,
+  "staleRevalidate": 3600
+}

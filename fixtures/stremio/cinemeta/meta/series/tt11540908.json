@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "background": "https://images.metahub.space/background/medium/tt11540908/img",
+    "behaviorHints": {
+      "defaultVideoId": null,
+      "hasScheduledVideos": true
+    },
+    "cast": [
+      "Summer H. Howell",
+      "Samantha Sloyan",
+      "Siena Agudong"
+    ],
+    "country": "Canada, United States",
+    "description": "After her father's sudden death, sheltered teenager Carrie White, raised by her domineering mother, enters public high school, where she faces a viral bullying scandal and the awakening of mysterious telekinetic powers.",
+    "director": [],
+    "genre": [
+      "Drama",
+      "Horror"
+    ],
+    "genres": [
+      "Drama",
+      "Horror"
+    ],
+    "id": "tt11540908",
+    "imdbRating": "7.8",
+    "imdb_id": "tt11540908",
+    "links": [
+      {
+        "category": "imdb",
+        "name": "7.8",
+        "url": "https://imdb.com/title/tt11540908"
+      },
+      {
+        "category": "share",
+        "name": "Carrie",
+        "url": "https://www.strem.io/s/series/carrie-11540908"
+      },
+      {
+        "category": "Genres",
+        "name": "Drama",
+        "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+      },
+      {
+        "category": "Genres",
+        "name": "Horror",
+        "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Horror"
+      },
+      {
+        "category": "Cast",
+        "name": "Summer H. Howell",
+        "url": "stremio:///search?search=Summer%20H.%20Howell"
+      },
+      {
+        "category": "Cast",
+        "name": "Samantha Sloyan",
+        "url": "stremio:///search?search=Samantha%20Sloyan"
+      },
+      {
+        "category": "Cast",
+        "name": "Siena Agudong",
+        "url": "stremio:///search?search=Siena%20Agudong"
+      },
+      {
+        "category": "Writers",
+        "name": "Mike Flanagan",
+        "url": "stremio:///search?search=Mike%20Flanagan"
+      }
+    ],
+    "logo": "https://images.metahub.space/logo/medium/tt11540908/img",
+    "moviedb_id": 288673,
+    "name": "Carrie",
+    "popularities": {
+      "moviedb": 305.573,
+      "stremio": 10.185766666666666,
+      "stremio_lib": 0,
+      "trakt": 6193
+    },
+    "popularity": 10.185766666666666,
+    "poster": "https://images.metahub.space/poster/small/tt11540908/img",
+    "releaseInfo": "2026–",
+    "released": "2026-10-07T00:00:00.000Z",
+    "runtime": "52 min",
+    "slug": "series/carrie-11540908",
+    "status": "Continuing",
+    "trailerStreams": [
+      {
+        "title": "Carrie",
+        "ytId": "jkUw2nh6fT0"
+      }
+    ],
+    "trailers": [
+      {
+        "source": "jkUw2nh6fT0",
+        "type": "Trailer"
+      }
+    ],
+    "tvdb_id": 455755,
+    "type": "series",
+    "videos": [
+      {
+        "description": "The start of a brand new day",
+        "episode": 1,
+        "firstAired": "2026-10-07T03:00:00.000Z",
+        "id": "tt11540908:1:1",
+        "name": "FIRST PERIOD",
+        "number": 1,
+        "overview": "The start of a brand new day",
+        "rating": "0",
+        "released": "2026-10-07T03:00:00.000Z",
+        "season": 1,
+        "thumbnail": "https://episodes.metahub.space/tt11540908/1/1/w780.jpg",
+        "tvdb_id": 10755138
+      },
+      {
+        "description": "New communication skills from an unfamiliar culture",
+        "episode": 2,
+        "firstAired": "2026-10-07T03:00:00.000Z",
+        "id": "tt11540908:1:2",
+        "name": "FOREIGN LANGUAGE",
+        "number": 2,
+        "overview": "New communication skills from an unfamiliar culture",
+        "rating": "0",
+        "released": "2026-10-07T03:00:00.000Z",
+        "season": 1,
+        "thumbnail": "https://episodes.metahub.space/tt11540908/1/2/w780.jpg",
+        "tvdb_id": 11873152
+      },
+      {
+        "description": "How people, communities, and societies interact",
+        "episode": 3,
+        "firstAired": "2026-10-07T03:00:00.000Z",
+        "id": "tt11540908:1:3",
+        "name": "SOCIAL STUDIES",
+        "number": 3,
+        "overview": "How people, communities, and societies interact",
+        "rating": "0",
+        "released": "2026-10-07T03:00:00.000Z",
+        "season": 1,
+        "thumbnail": "https://episodes.metahub.space/tt11540908/1/3/w780.jpg",
+        "tvdb_id": 11873153
+      },
+      {
+        "description": "Voice, movement, and improvisation",
+        "episode": 4,
+        "firstAired": "2026-10-07T03:00:00.000Z",
+        "id": "tt11540908:1:4",
+        "name": "DRAMATIC ARTS",
+        "number": 4,
+        "overview": "Voice, movement, and improvisation",
+        "rating": "0",
+        "released": "2026-10-07T03:00:00.000Z",
+        "season": 1,
+        "thumbnail": "https://episodes.metahub.space/tt11540908/1/4/w780.jpg",
+        "tvdb_id": 11873154
+      },
+      {
+        "description": "Health, fitness, and exercise",
+        "episode": 5,
+        "firstAired": "2026-10-07T03:00:00.000Z",
+        "id": "tt11540908:1:5",
+        "name": "PHYSICAL EDUCATION",
+        "number": 5,
+        "overview": "Health, fitness, and exercise",
+        "rating": "0",
+        "released": "2026-10-07T03:00:00.000Z",
+        "season": 1,
+        "thumbnail": "https://episodes.metahub.space/tt11540908/1/5/w780.jpg",
+        "tvdb_id": 11873155
+      },
+      {
+        "description": "Practical life skills for independent living",
+        "episode": 6,
+        "firstAired": "2026-10-07T03:00:00.000Z",
+        "id": "tt11540908:1:6",
+        "name": "HOME ECONOMICS",
+        "number": 6,
+        "overview": "Practical life skills for independent living",
+        "rating": "0",
+        "released": "2026-10-07T03:00:00.000Z",
+        "season": 1,
+        "thumbnail": "https://episodes.metahub.space/tt11540908/1/6/w780.jpg",
+        "tvdb_id": 11873156
+      },
+      {
+        "description": "The power of emotion and individual experience",
+        "episode": 7,
+        "firstAired": "2026-10-07T03:00:00.000Z",
+        "id": "tt11540908:1:7",
+        "name": "ROMANTIC LITERATURE",
+        "number": 7,
+        "overview": "The power of emotion and individual experience",
+        "rating": "0",
+        "released": "2026-10-07T03:00:00.000Z",
+        "season": 1,
+        "thumbnail": "https://episodes.metahub.space/tt11540908/1/7/w780.jpg",
+        "tvdb_id": 11873157
+      },
+      {
+        "description": "For every action, there is an equal and opposite reaction",
+        "episode": 8,
+        "firstAired": "2026-10-07T03:00:00.000Z",
+        "id": "tt11540908:1:8",
+        "name": "AP PHYSICS",
+        "number": 8,
+        "overview": "For every action, there is an equal and opposite reaction",
+        "rating": "0",
+        "released": "2026-10-07T03:00:00.000Z",
+        "season": 1,
+        "thumbnail": "https://episodes.metahub.space/tt11540908/1/8/w780.jpg",
+        "tvdb_id": 11873158
+      }
+    ],
+    "writer": [
+      "Mike Flanagan"
+    ],
+    "year": "2026–"
+  }
+}

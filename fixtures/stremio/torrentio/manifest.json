@@ -1,0 +1,33 @@
+{
+  "background": "https://torrentio.strem.fun/images/background_v1.jpg",
+  "behaviorHints": {
+    "configurable": true,
+    "configurationRequired": false
+  },
+  "catalogs": [],
+  "description": "Provides torrent streams from scraped torrent providers. Currently supports YTS(+), EZTV(+), RARBG(+), 1337x(+), EXT(+), ThePirateBay(+), KickassTorrents(+), TorrentGalaxy(+), MagnetDL(+), HorribleSubs(+), NyaaSi(+), TokyoTosho(+), AniDex(+), nekoBT(+), Rutor(+), Rutracker(+), Comando(+), BluDV(+), MicoLeaoDublado(+), Torrent9(+), ilCorSaRoNeRo(+), MejorTorrent(+), Wolfmax4k(+), Cinecalidad(+), BestTorrents(+). To configure providers, RealDebrid/Premiumize/AllDebrid/DebridLink/EasyDebrid/Offcloud/TorBox/Put.io/HighWay support and other settings visit https://torrentio.strem.fun",
+  "id": "com.stremio.torrentio.addon",
+  "logo": "https://torrentio.strem.fun/images/logo_v1.png",
+  "name": "Torrentio",
+  "resources": [
+    {
+      "idPrefixes": [
+        "tt",
+        "kitsu"
+      ],
+      "name": "stream",
+      "types": [
+        "movie",
+        "series",
+        "anime"
+      ]
+    }
+  ],
+  "types": [
+    "movie",
+    "series",
+    "anime",
+    "other"
+  ],
+  "version": "0.0.15"
+}

@@ -1,0 +1,194 @@
+{
+  "cacheMaxAge": 3600,
+  "staleError": 604800,
+  "staleRevalidate": 14400,
+  "streams": [
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|Title",
+        "filename": "S01E01 - Title Title (Title).mkv"
+      },
+      "fileIdx": 0,
+      "infoHash": "0000000000000000000000000000000000000001",
+      "name": "Torrentio\n1440p",
+      "sources": [
+        "tracker:udp://stream.invalid/2",
+        "tracker:udp://stream.invalid/3",
+        "tracker:udp://stream.invalid/4",
+        "tracker:udp://stream.invalid/5",
+        "tracker:udp://stream.invalid/6",
+        "tracker:udp://stream.invalid/7",
+        "tracker:udp://stream.invalid/8",
+        "tracker:udp://stream.invalid/9",
+        "tracker:udp://stream.invalid/10",
+        "tracker:udp://stream.invalid/11",
+        "tracker:udp://stream.invalid/12",
+        "tracker:udp://stream.invalid/13",
+        "tracker:udp://stream.invalid/14",
+        "tracker:udp://stream.invalid/15",
+        "tracker:udp://stream.invalid/16",
+        "tracker:http://stream.invalid/17",
+        "tracker:http://stream.invalid/18",
+        "tracker:udp://stream.invalid/19",
+        "tracker:http://stream.invalid/20",
+        "tracker:udp://stream.invalid/21",
+        "tracker:http://stream.invalid/22",
+        "tracker:http://stream.invalid/23",
+        "tracker:http://stream.invalid/24",
+        "tracker:udp://stream.invalid/25",
+        "tracker:http://stream.invalid/26",
+        "tracker:http://stream.invalid/27",
+        "dht:000000000000000000000000000000000000001c"
+      ],
+      "title": "[Title] Title Title 1440p - (AUDIO ENG - Title - JPN) (Title DUB) Title\nS01E01 - Title Title (Title).mkv\n👤 18 💾 1.69 GB ⚙️ Title\nDubbed / 🇬🇧 / 🇲🇽"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|1080p|Title",
+        "filename": "[Title] Title【Title】Title - 01 [1080P][Title][WEB-DL][AAC AVC][Title].mp4"
+      },
+      "fileIdx": 0,
+      "infoHash": "000000000000000000000000000000000000001d",
+      "name": "Torrentio\n1080p",
+      "title": "[Title] Title【Title】Title - 01 [1080P][Title][WEB-DL][AAC AVC][Title]…\n👤 1023 💾 435.48 MB ⚙️ Title\n🇨🇳"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|1080p|Title",
+        "filename": "[Title] Title Title - 01 [1080P][Title][WEB-DL][AAC AVC][Title].mp4"
+      },
+      "fileIdx": 0,
+      "infoHash": "000000000000000000000000000000000000001e",
+      "name": "Torrentio\n1080p",
+      "title": "[Title] Title Title - 01 [1080P][Title][Title…\n👤 389 💾 338.29 MB ⚙️ Title\n🇨🇳"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|Title",
+        "filename": "[Title] Title Title - S01E01 (BD 1080p AV1 Multi Opus 5.1).mkv"
+      },
+      "fileIdx": 0,
+      "infoHash": "000000000000000000000000000000000000001f",
+      "name": "Torrentio\n1080p",
+      "sources": [
+        "tracker:udp://stream.invalid/32",
+        "tracker:udp://stream.invalid/33",
+        "tracker:udp://stream.invalid/34",
+        "tracker:udp://stream.invalid/35",
+        "tracker:udp://stream.invalid/36",
+        "tracker:udp://stream.invalid/37",
+        "tracker:udp://stream.invalid/38",
+        "tracker:udp://stream.invalid/39",
+        "tracker:udp://stream.invalid/40",
+        "tracker:udp://stream.invalid/41",
+        "tracker:udp://stream.invalid/42",
+        "tracker:udp://stream.invalid/43",
+        "tracker:udp://stream.invalid/44",
+        "tracker:udp://stream.invalid/45",
+        "tracker:udp://stream.invalid/46",
+        "tracker:http://stream.invalid/47",
+        "tracker:http://stream.invalid/48",
+        "tracker:udp://stream.invalid/49",
+        "tracker:http://stream.invalid/50",
+        "tracker:udp://stream.invalid/51",
+        "tracker:http://stream.invalid/52",
+        "tracker:http://stream.invalid/53",
+        "tracker:http://stream.invalid/54",
+        "tracker:udp://stream.invalid/55",
+        "tracker:http://stream.invalid/56",
+        "tracker:http://stream.invalid/57",
+        "dht:000000000000000000000000000000000000003a"
+      ],
+      "title": "[Title] Title Title S01 (BD 1080p AV1 Multi Opus 5.1)\n[Title] Title Title - S01E01 (BD 1080p AV1 Multi Opus 5.1).mkv\n👤 290 💾 1.06 GB ⚙️ Title\nDubbed / Multi Audio / 🇬🇧"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|Title",
+        "filename": "[Title] Title Title - 01 [BD 1080p 10bit][x265 HEVC][Dual Audio 5.1].mkv"
+      },
+      "fileIdx": 15,
+      "infoHash": "000000000000000000000000000000000000003b",
+      "name": "Torrentio\n1080p",
+      "sources": [
+        "tracker:udp://stream.invalid/60",
+        "tracker:udp://stream.invalid/61",
+        "tracker:udp://stream.invalid/62",
+        "tracker:udp://stream.invalid/63",
+        "tracker:udp://stream.invalid/64",
+        "tracker:udp://stream.invalid/65",
+        "tracker:udp://stream.invalid/66",
+        "tracker:udp://stream.invalid/67",
+        "tracker:udp://stream.invalid/68",
+        "tracker:udp://stream.invalid/69",
+        "tracker:udp://stream.invalid/70",
+        "tracker:udp://stream.invalid/71",
+        "tracker:udp://stream.invalid/72",
+        "tracker:udp://stream.invalid/73",
+        "tracker:udp://stream.invalid/74",
+        "tracker:http://stream.invalid/75",
+        "tracker:http://stream.invalid/76",
+        "tracker:udp://stream.invalid/77",
+        "tracker:http://stream.invalid/78",
+        "tracker:udp://stream.invalid/79",
+        "tracker:http://stream.invalid/80",
+        "tracker:http://stream.invalid/81",
+        "tracker:http://stream.invalid/82",
+        "tracker:udp://stream.invalid/83",
+        "tracker:http://stream.invalid/84",
+        "tracker:http://stream.invalid/85",
+        "dht:0000000000000000000000000000000000000056"
+      ],
+      "title": "[Title] Title Title - 01 ~ 26 + Movie [BD 1080p 10bit][x265 HEVC][Dual Audio 5.1]\n[Title] Title Title - 01 [BD 1080p 10bit][x265 HEVC][Dual Audio 5.1].mkv\n👤 285 💾 352.31 MB ⚙️ Title\nDubbed / Dual Audio"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|1080p|Title",
+        "filename": "[Title] Title．Title Title - 01 [1080P][Title][WEB-DL][AAC AVC][Title].mp4"
+      },
+      "fileIdx": 0,
+      "infoHash": "0000000000000000000000000000000000000057",
+      "name": "Torrentio\n1080p",
+      "title": "[Title] Title．Title Title - 01 [1080P][Title][WEB-DL][AAC AVC][Title][MP4]\n👤 269 💾 443.92 MB ⚙️ Title\n🇨🇳"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|1080p|Title",
+        "filename": "[Title] Title。 - 01 [1080P][Title][WEB-DL][AAC AVC][Title].mp4"
+      },
+      "fileIdx": 0,
+      "infoHash": "0000000000000000000000000000000000000058",
+      "name": "Torrentio\n1080p",
+      "title": "[Title] Title。 - 01 [1080P][Title][WEB-DL][AAC Title…\n👤 268 💾 353.97 MB ⚙️ Title\n🇨🇳"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|1080p|Title",
+        "filename": "[Title] Title - 01 [1080P][Title][WEB-DL][AAC AVC][Title].mp4"
+      },
+      "fileIdx": 0,
+      "infoHash": "0000000000000000000000000000000000000059",
+      "name": "Torrentio\n1080p",
+      "title": "[Title] Title - 01 [1080P][Title][WEB-DL][AAC AVC][Title][MP4]\n👤 189 💾 414.44 MB ⚙️ Title\n🇨🇳"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|Title",
+        "filename": "Title.Title.S01E01-Title.Title.1080p.BRRIP.x265.OPUS51.DUAL-Title.mkv"
+      },
+      "fileIdx": 2,
+      "infoHash": "000000000000000000000000000000000000005a",
+      "name": "Torrentio\n1080p",
+      "title": "Title.Title.S01.1080p.BRRIP.x265.OPUS51.DUAL-Title\nTitle.Title.S01E01-Title.Title.1080p.BRRIP.x265.OPUS51.DUAL-Title.mkv\n👤 185 💾 232.02 MB ⚙️ Title\nDubbed / Dual Audio / 🇬🇧"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|Title",
+        "filename": "Title Title (1998) - S01E01 - Title Title (1080p BluRay x265 Title).mkv"
+      },
+      "fileIdx": 0,
+      "infoHash": "000000000000000000000000000000000000005b",
+      "name": "Torrentio\n1080p",
+      "title": "Title Title (1998) Season 1 S01 (1080p BluRay x265 HEVC 10bit AAC 5.1 English Japanese Title) [Title]\nTitle Title (1998) - S01E01 - Title Title (1080p BluRay x265 Title).mkv\n👤 163 💾 797.6 MB ⚙️ Title"
+    }
+  ]
+}

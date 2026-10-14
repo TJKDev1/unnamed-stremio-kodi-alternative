@@ -1,0 +1,1870 @@
+{
+  "cacheMaxAge": 14400,
+  "hasMore": true,
+  "metas": [
+    {
+      "background": "https://images.metahub.space/background/medium/tt39395275/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Kôichi Yamadera",
+        "Masako Nozawa",
+        "Ryô Horikawa"
+      ],
+      "country": "Japan",
+      "description": "Several years have passed since the fierce battle against Majin Buu, and Earth has finally regained a brief moment of peace. At the same time, Beerus, the God of Destruction, awakens from his long, deep sleep. The Kais and Supreme...",
+      "director": [],
+      "genre": [
+        "Animation"
+      ],
+      "genres": [
+        "Animation"
+      ],
+      "id": "tt39395275",
+      "imdbRating": "",
+      "imdb_id": "tt39395275",
+      "links": [
+        {
+          "category": "share",
+          "name": "Dragon Ball Super: Beerus",
+          "url": "https://www.strem.io/s/series/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Animation",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Animation"
+        },
+        {
+          "category": "Cast",
+          "name": "Kôichi Yamadera",
+          "url": "stremio:///search?search=K%C3%B4ichi%20Yamadera"
+        },
+        {
+          "category": "Cast",
+          "name": "Masako Nozawa",
+          "url": "stremio:///search?search=Masako%20Nozawa"
+        },
+        {
+          "category": "Cast",
+          "name": "Ryô Horikawa",
+          "url": "stremio:///search?search=Ry%C3%B4%20Horikawa"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt39395275/img",
+      "moviedb_id": 312359,
+      "name": "Dragon Ball Super: Beerus",
+      "popularities": {
+        "moviedb": 9.3546,
+        "stremio": 0.31182,
+        "stremio_lib": 0,
+        "trakt": 657
+      },
+      "popularity": 0.31182,
+      "poster": "https://images.metahub.space/poster/small/tt39395275/img",
+      "releaseInfo": "2026–",
+      "released": null,
+      "runtime": "23 min",
+      "slug": "series/dragon-ball-super-beerus-39395275",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "Dragon Ball Super: Beerus",
+          "ytId": "iCD3Lf7Jf9o"
+        },
+        {
+          "title": "Dragon Ball Super: Beerus",
+          "ytId": "Tf4wBaSj7SE"
+        },
+        {
+          "title": "Dragon Ball Super: Beerus",
+          "ytId": "Plp6IJ9utjU"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "iCD3Lf7Jf9o",
+          "type": "Trailer"
+        },
+        {
+          "source": "Tf4wBaSj7SE",
+          "type": "Trailer"
+        },
+        {
+          "source": "Plp6IJ9utjU",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 473154,
+      "type": "series",
+      "videos": [
+        {
+          "description": "Years after the battle with Earth's greatest enemy, Majin Buu, the planet's savior Son Goku spends his days in peace. Meanwhile, on a distant planet, the God of Destruction Beerus awakens from his long slumber!",
+          "episode": 1,
+          "firstAired": "2026-10-11T14:15:00.000Z",
+          "id": "tt39395275:1:1",
+          "name": "The God Who Destroys",
+          "number": 1,
+          "overview": "Years after the battle with Earth's greatest enemy, Majin Buu, the planet's savior Son Goku spends his days in peace. Meanwhile, on a distant planet, the God of Destruction Beerus awakens from his long slumber!",
+          "rating": 0,
+          "released": "2026-10-11T14:15:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt39395275/1/1/w780.jpg",
+          "tvdb_id": 11961083
+        }
+      ],
+      "writer": [],
+      "year": "2026–"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt35934755/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Josh Hartnett",
+        "Stephen Oates",
+        "Josh Cruddas"
+      ],
+      "country": "Canada",
+      "description": "When a mysterious sea creature terrorizes a remote town, a fisherman must fight to protect his family, his community, and his way of life.",
+      "director": [],
+      "genre": [
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "genres": [
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "id": "tt35934755",
+      "imdbRating": "",
+      "imdb_id": "tt35934755",
+      "links": [
+        {
+          "category": "share",
+          "name": "Below",
+          "url": "https://www.strem.io/s/series/below-35934755"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Horror",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Horror"
+        },
+        {
+          "category": "Genres",
+          "name": "Thriller",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Thriller"
+        },
+        {
+          "category": "Cast",
+          "name": "Josh Hartnett",
+          "url": "stremio:///search?search=Josh%20Hartnett"
+        },
+        {
+          "category": "Cast",
+          "name": "Stephen Oates",
+          "url": "stremio:///search?search=Stephen%20Oates"
+        },
+        {
+          "category": "Cast",
+          "name": "Josh Cruddas",
+          "url": "stremio:///search?search=Josh%20Cruddas"
+        },
+        {
+          "category": "Writers",
+          "name": "Jesse McKeown",
+          "url": "stremio:///search?search=Jesse%20McKeown"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt35934755/img",
+      "moviedb_id": 285322,
+      "name": "Below",
+      "popularities": {
+        "moviedb": 164.7643,
+        "stremio": 0.53529,
+        "stremio_lib": 0,
+        "trakt": 3337
+      },
+      "popularity": 0.53529,
+      "poster": "https://images.metahub.space/poster/small/tt35934755/img",
+      "releaseInfo": "2026–",
+      "released": "2026-10-08T00:00:00.000Z",
+      "runtime": "41 min",
+      "slug": "series/below-35934755",
+      "status": "Ended",
+      "trailerStreams": [
+        {
+          "title": "Below",
+          "ytId": "U57CNxSgoss"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "U57CNxSgoss",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 480205,
+      "type": "series",
+      "videos": [
+        {
+          "description": "Calvin Penney welcomes his family home for a long-awaited reunion as an unexpected arrival makes waves throughout the coastal town of Snooks Arm.",
+          "episode": 1,
+          "firstAired": "2026-10-08T00:00:00.000Z",
+          "id": "tt35934755:1:1",
+          "name": "Come Home Year",
+          "number": 1,
+          "overview": "Calvin Penney welcomes his family home for a long-awaited reunion as an unexpected arrival makes waves throughout the coastal town of Snooks Arm.",
+          "rating": 0,
+          "released": "2026-10-08T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt35934755/1/1/w780.jpg",
+          "tvdb_id": 11884174
+        },
+        {
+          "description": "Calvin teams up with marine researcher Dr. Fonda Howander to investigate strange events, while his son Wade tries to make sense of unsettling dreams.",
+          "episode": 2,
+          "firstAired": "2026-10-08T00:00:00.000Z",
+          "id": "tt35934755:1:2",
+          "name": "Crown and Anchor",
+          "number": 2,
+          "overview": "Calvin teams up with marine researcher Dr. Fonda Howander to investigate strange events, while his son Wade tries to make sense of unsettling dreams.",
+          "rating": 0,
+          "released": "2026-10-08T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt35934755/1/2/w780.jpg",
+          "tvdb_id": 11884175
+        },
+        {
+          "description": "Wade and Calvin encounter mysterious newcomers. Fonda warns the town's residents about a nautical threat as unease spreads through the community.",
+          "episode": 3,
+          "firstAired": "2026-10-08T00:00:00.000Z",
+          "id": "tt35934755:1:3",
+          "name": "Sir John Franklin",
+          "number": 3,
+          "overview": "Wade and Calvin encounter mysterious newcomers. Fonda warns the town's residents about a nautical threat as unease spreads through the community.",
+          "rating": 0,
+          "released": "2026-10-08T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt35934755/1/3/w780.jpg",
+          "tvdb_id": 11884176
+        },
+        {
+          "description": "As outsiders draw Calvin into a dangerous hunt for the creature, an unseen danger begins closing in on his family and everyone else in town.",
+          "episode": 4,
+          "firstAired": "2026-10-08T00:00:00.000Z",
+          "id": "tt35934755:1:4",
+          "name": "The Ocean Will Have Us All",
+          "number": 4,
+          "overview": "As outsiders draw Calvin into a dangerous hunt for the creature, an unseen danger begins closing in on his family and everyone else in town.",
+          "rating": 0,
+          "released": "2026-10-08T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt35934755/1/4/w780.jpg",
+          "tvdb_id": 11884177
+        },
+        {
+          "description": "Calvin uncovers shocking truths about his past. Fonda makes a startling discovery as unexpected company arrives.",
+          "episode": 5,
+          "firstAired": "2026-10-08T00:00:00.000Z",
+          "id": "tt35934755:1:5",
+          "name": "Little Pot Rock",
+          "number": 5,
+          "overview": "Calvin uncovers shocking truths about his past. Fonda makes a startling discovery as unexpected company arrives.",
+          "rating": 0,
+          "released": "2026-10-08T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt35934755/1/5/w780.jpg",
+          "tvdb_id": 11884178
+        },
+        {
+          "description": "As the true motives behind the crisis become clear and an evacuation begins, Calvin, his family and Fonda devise a risky plan to save their town.",
+          "episode": 6,
+          "firstAired": "2026-10-08T00:00:00.000Z",
+          "id": "tt35934755:1:6",
+          "name": "The Unfathering Deep",
+          "number": 6,
+          "overview": "As the true motives behind the crisis become clear and an evacuation begins, Calvin, his family and Fonda devise a risky plan to save their town.",
+          "rating": 0,
+          "released": "2026-10-08T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt35934755/1/6/w780.jpg",
+          "tvdb_id": 11884179
+        }
+      ],
+      "writer": [
+        "Jesse McKeown"
+      ],
+      "year": "2026–"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt11540908/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Summer H. Howell",
+        "Matthew Lillard",
+        "Amber Midthunder"
+      ],
+      "country": "Canada, United States",
+      "description": "A sheltered girl with telekinetic powers is bullied, leading to a horrific, bloody incident due to her domineering mother's influence.",
+      "director": [],
+      "genre": [
+        "Drama",
+        "Horror"
+      ],
+      "genres": [
+        "Drama",
+        "Horror"
+      ],
+      "id": "tt11540908",
+      "imdbRating": "7.6",
+      "imdb_id": "tt11540908",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.6",
+          "url": "https://imdb.com/title/tt11540908"
+        },
+        {
+          "category": "share",
+          "name": "Carrie",
+          "url": "https://www.strem.io/s/series/carrie-11540908"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Horror",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Horror"
+        },
+        {
+          "category": "Cast",
+          "name": "Summer H. Howell",
+          "url": "stremio:///search?search=Summer%20H.%20Howell"
+        },
+        {
+          "category": "Cast",
+          "name": "Matthew Lillard",
+          "url": "stremio:///search?search=Matthew%20Lillard"
+        },
+        {
+          "category": "Cast",
+          "name": "Amber Midthunder",
+          "url": "stremio:///search?search=Amber%20Midthunder"
+        },
+        {
+          "category": "Writers",
+          "name": "Mike Flanagan",
+          "url": "stremio:///search?search=Mike%20Flanagan"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt11540908/img",
+      "moviedb_id": 288673,
+      "name": "Carrie",
+      "popularities": {
+        "moviedb": 305.573,
+        "stremio": 10.185766666666666,
+        "stremio_lib": 0,
+        "trakt": 6269
+      },
+      "popularity": 10.185766666666666,
+      "poster": "https://images.metahub.space/poster/small/tt11540908/img",
+      "releaseInfo": "2026–",
+      "released": "2026-10-07T00:00:00.000Z",
+      "runtime": "52 min",
+      "slug": "series/carrie-11540908",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "Carrie",
+          "ytId": "jkUw2nh6fT0"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "jkUw2nh6fT0",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 455755,
+      "type": "series",
+      "videos": [
+        {
+          "description": "The start of a brand new day",
+          "episode": 1,
+          "firstAired": "2026-10-07T03:00:00.000Z",
+          "id": "tt11540908:1:1",
+          "name": "FIRST PERIOD",
+          "number": 1,
+          "overview": "The start of a brand new day",
+          "rating": 0,
+          "released": "2026-10-07T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt11540908/1/1/w780.jpg",
+          "tvdb_id": 10755138
+        },
+        {
+          "description": "New communication skills from an unfamiliar culture",
+          "episode": 2,
+          "firstAired": "2026-10-07T03:00:00.000Z",
+          "id": "tt11540908:1:2",
+          "name": "FOREIGN LANGUAGE",
+          "number": 2,
+          "overview": "New communication skills from an unfamiliar culture",
+          "rating": 0,
+          "released": "2026-10-07T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt11540908/1/2/w780.jpg",
+          "tvdb_id": 11873152
+        },
+        {
+          "description": "How people, communities, and societies interact",
+          "episode": 3,
+          "firstAired": "2026-10-07T03:00:00.000Z",
+          "id": "tt11540908:1:3",
+          "name": "SOCIAL STUDIES",
+          "number": 3,
+          "overview": "How people, communities, and societies interact",
+          "rating": 0,
+          "released": "2026-10-07T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt11540908/1/3/w780.jpg",
+          "tvdb_id": 11873153
+        },
+        {
+          "description": "Voice, movement, and improvisation",
+          "episode": 4,
+          "firstAired": "2026-10-07T03:00:00.000Z",
+          "id": "tt11540908:1:4",
+          "name": "DRAMATIC ARTS",
+          "number": 4,
+          "overview": "Voice, movement, and improvisation",
+          "rating": 0,
+          "released": "2026-10-07T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt11540908/1/4/w780.jpg",
+          "tvdb_id": 11873154
+        },
+        {
+          "description": "Health, fitness, and exercise",
+          "episode": 5,
+          "firstAired": "2026-10-07T03:00:00.000Z",
+          "id": "tt11540908:1:5",
+          "name": "PHYSICAL EDUCATION",
+          "number": 5,
+          "overview": "Health, fitness, and exercise",
+          "rating": 0,
+          "released": "2026-10-07T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt11540908/1/5/w780.jpg",
+          "tvdb_id": 11873155
+        },
+        {
+          "description": "Practical life skills for independent living",
+          "episode": 6,
+          "firstAired": "2026-10-07T03:00:00.000Z",
+          "id": "tt11540908:1:6",
+          "name": "HOME ECONOMICS",
+          "number": 6,
+          "overview": "Practical life skills for independent living",
+          "rating": 0,
+          "released": "2026-10-07T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt11540908/1/6/w780.jpg",
+          "tvdb_id": 11873156
+        },
+        {
+          "description": "The power of emotion and individual experience",
+          "episode": 7,
+          "firstAired": "2026-10-07T03:00:00.000Z",
+          "id": "tt11540908:1:7",
+          "name": "ROMANTIC LITERATURE",
+          "number": 7,
+          "overview": "The power of emotion and individual experience",
+          "rating": 0,
+          "released": "2026-10-07T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt11540908/1/7/w780.jpg",
+          "tvdb_id": 11873157
+        },
+        {
+          "description": "For every action, there is an equal and opposite reaction",
+          "episode": 8,
+          "firstAired": "2026-10-07T03:00:00.000Z",
+          "id": "tt11540908:1:8",
+          "name": "AP PHYSICS",
+          "number": 8,
+          "overview": "For every action, there is an equal and opposite reaction",
+          "rating": 0,
+          "released": "2026-10-07T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt11540908/1/8/w780.jpg",
+          "tvdb_id": 11873158
+        }
+      ],
+      "writer": [
+        "Mike Flanagan"
+      ],
+      "year": "2026–"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt21097264/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Florence Pugh",
+        "Mike Faist",
+        "Christopher Abbott"
+      ],
+      "country": "United States",
+      "description": "In the farmlands of the Salinas Valley in California, successive generations of two families, the Trasks and the Hamiltons, are destined to reenact the fateful story of Cain and Abel.",
+      "director": [],
+      "genre": [
+        "Drama"
+      ],
+      "genres": [
+        "Drama"
+      ],
+      "id": "tt21097264",
+      "imdbRating": "",
+      "imdb_id": "tt21097264",
+      "links": [
+        {
+          "category": "share",
+          "name": "East of Eden",
+          "url": "https://www.strem.io/s/series/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Cast",
+          "name": "Florence Pugh",
+          "url": "stremio:///search?search=Florence%20Pugh"
+        },
+        {
+          "category": "Cast",
+          "name": "Mike Faist",
+          "url": "stremio:///search?search=Mike%20Faist"
+        },
+        {
+          "category": "Cast",
+          "name": "Christopher Abbott",
+          "url": "stremio:///search?search=Christopher%20Abbott"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt21097264/img",
+      "moviedb_id": 258165,
+      "name": "East of Eden",
+      "popularities": {
+        "moviedb": 87.0977,
+        "stremio": 2.9032566666666666,
+        "stremio_lib": 0,
+        "trakt": 1816
+      },
+      "popularity": 2.9032566666666666,
+      "poster": "https://images.metahub.space/poster/small/tt21097264/img",
+      "releaseInfo": "2026",
+      "released": "2026-10-01T00:00:00.000Z",
+      "runtime": "59 min",
+      "slug": "series/east-of-eden-21097264",
+      "status": "Ended",
+      "trailerStreams": [
+        {
+          "title": "East of Eden",
+          "ytId": "M9NWvGZViCg"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "M9NWvGZViCg",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 430034,
+      "type": "series",
+      "videos": [
+        {
+          "description": "Torn apart by a domineering father, brothers Adam and Charles Trask are forced into opposing paths to adulthood — one far away, one close to home.",
+          "episode": 1,
+          "firstAired": "2026-10-01T11:00:00.000Z",
+          "id": "tt21097264:1:1",
+          "name": "Brothers",
+          "number": 1,
+          "overview": "Torn apart by a domineering father, brothers Adam and Charles Trask are forced into opposing paths to adulthood — one far away, one close to home.",
+          "rating": 0,
+          "released": "2026-10-01T11:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt21097264/1/1/w780.jpg",
+          "tvdb_id": 10716239
+        },
+        {
+          "description": "Cathy revisits her dark past, as her presence in the brothers' home sows discord in the present.",
+          "episode": 2,
+          "firstAired": "2026-10-01T11:00:00.000Z",
+          "id": "tt21097264:1:2",
+          "name": "Cathy",
+          "number": 2,
+          "overview": "Cathy revisits her dark past, as her presence in the brothers' home sows discord in the present.",
+          "rating": 0,
+          "released": "2026-10-01T11:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt21097264/1/2/w780.jpg",
+          "tvdb_id": 11929391
+        },
+        {
+          "description": "While Adam pursues his dream of a home and family in California, Cathy has her own ideas about the future.",
+          "episode": 3,
+          "firstAired": "2026-10-01T11:00:00.000Z",
+          "id": "tt21097264:1:3",
+          "name": "In the Valley",
+          "number": 3,
+          "overview": "While Adam pursues his dream of a home and family in California, Cathy has her own ideas about the future.",
+          "rating": 0,
+          "released": "2026-10-01T11:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt21097264/1/3/w780.jpg",
+          "tvdb_id": 11929392
+        },
+        {
+          "description": "Cathy starts over with a new name, a new life and a ruthless plan to achieve financial independence.",
+          "episode": 4,
+          "firstAired": "2026-10-01T11:00:00.000Z",
+          "id": "tt21097264:1:4",
+          "name": "Kate",
+          "number": 4,
+          "overview": "Cathy starts over with a new name, a new life and a ruthless plan to achieve financial independence.",
+          "rating": 0,
+          "released": "2026-10-01T11:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt21097264/1/4/w780.jpg",
+          "tvdb_id": 11929393
+        },
+        {
+          "description": "Ten years on, an encounter with Cathy shifts Adam's perspective, as he and Lee clash over telling the boys the truth about their mother.",
+          "episode": 5,
+          "firstAired": "2026-10-01T11:00:00.000Z",
+          "id": "tt21097264:1:5",
+          "name": "Departure",
+          "number": 5,
+          "overview": "Ten years on, an encounter with Cathy shifts Adam's perspective, as he and Lee clash over telling the boys the truth about their mother.",
+          "rating": 0,
+          "released": "2026-10-01T11:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt21097264/1/5/w780.jpg",
+          "tvdb_id": 11929394
+        },
+        {
+          "description": "Adam embarks on a bold new business venture. An alienated Cal is drawn to his family's past, while Cathy's begins to catch up with her.",
+          "episode": 6,
+          "firstAired": "2026-10-01T11:00:00.000Z",
+          "id": "tt21097264:1:6",
+          "name": "The Great Try",
+          "number": 6,
+          "overview": "Adam embarks on a bold new business venture. An alienated Cal is drawn to his family's past, while Cathy's begins to catch up with her.",
+          "rating": 0,
+          "released": "2026-10-01T11:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt21097264/1/6/w780.jpg",
+          "tvdb_id": 11929395
+        },
+        {
+          "description": "With World War I looming, the family wonders if the sins of the past can ever be erased — and whether a new generation is doomed to repeat them.",
+          "episode": 7,
+          "firstAired": "2026-10-01T11:00:00.000Z",
+          "id": "tt21097264:1:7",
+          "name": "Timshel",
+          "number": 7,
+          "overview": "With World War I looming, the family wonders if the sins of the past can ever be erased — and whether a new generation is doomed to repeat them.",
+          "rating": 0,
+          "released": "2026-10-01T11:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt21097264/1/7/w780.jpg",
+          "tvdb_id": 11929396
+        }
+      ],
+      "writer": [],
+      "year": "2026"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt36832679/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "María Valverde",
+        "Maribel Verdú",
+        "Jose Coronado"
+      ],
+      "country": "Spain",
+      "description": "In 1959, 13 people are stranded on an islet near Mallorca during a storm. At their small hotel, English tourist Elisa Mander is found dead. When suicide seems unlikely, retired actor Basil, once Sherlock Holmes on screen, investig...",
+      "director": [],
+      "genre": [
+        "Crime",
+        "Drama",
+        "History"
+      ],
+      "genres": [
+        "Crime",
+        "Drama",
+        "History"
+      ],
+      "id": "tt36832679",
+      "imdbRating": "",
+      "imdb_id": "tt36832679",
+      "links": [
+        {
+          "category": "share",
+          "name": "The Final Problem",
+          "url": "https://www.strem.io/s/series/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Crime",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Crime"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "History",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=History"
+        },
+        {
+          "category": "Cast",
+          "name": "María Valverde",
+          "url": "stremio:///search?search=Mar%C3%ADa%20Valverde"
+        },
+        {
+          "category": "Cast",
+          "name": "Maribel Verdú",
+          "url": "stremio:///search?search=Maribel%20Verd%C3%BA"
+        },
+        {
+          "category": "Cast",
+          "name": "Jose Coronado",
+          "url": "stremio:///search?search=Jose%20Coronado"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt36832679/img",
+      "moviedb_id": 290720,
+      "name": "The Final Problem",
+      "popularities": {
+        "moviedb": 12.3683,
+        "stremio": 0.4122766666666667,
+        "stremio_lib": 0,
+        "trakt": 195
+      },
+      "popularity": 0.4122766666666667,
+      "poster": "https://images.metahub.space/poster/small/tt36832679/img",
+      "releaseInfo": "2026",
+      "released": "2026-09-25T00:00:00.000Z",
+      "runtime": "46 min",
+      "slug": "series/the-final-problem-36832679",
+      "status": "Ended",
+      "trailerStreams": [
+        {
+          "title": "The Final Problem",
+          "ytId": "yLeja7kWgmU"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "yLeja7kWgmU",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 463400,
+      "type": "series",
+      "videos": [
+        {
+          "description": "Benjamin Basil travels to Mallorca hoping to relaunch his career, but a death turns the actor into a detective and the hotel guests into suspects.",
+          "episode": 1,
+          "firstAired": "2026-09-25T00:00:00.000Z",
+          "id": "tt36832679:1:1",
+          "name": "Episode 1",
+          "number": 1,
+          "overview": "Benjamin Basil travels to Mallorca hoping to relaunch his career, but a death turns the actor into a detective and the hotel guests into suspects.",
+          "rating": 0,
+          "released": "2026-09-25T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt36832679/1/1/w780.jpg",
+          "tvdb_id": 11127877
+        },
+        {
+          "description": "After a murder weapon appears in his room, Benjamin fears the killer will strike again. Vicky makes an accusation, but somehow it doesn't add up.",
+          "episode": 2,
+          "firstAired": "2026-09-25T00:00:00.000Z",
+          "id": "tt36832679:1:2",
+          "name": "Episode 2",
+          "number": 2,
+          "overview": "After a murder weapon appears in his room, Benjamin fears the killer will strike again. Vicky makes an accusation, but somehow it doesn't add up.",
+          "rating": 0,
+          "released": "2026-09-25T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt36832679/1/2/w780.jpg",
+          "tvdb_id": 11127878
+        },
+        {
+          "description": "The hotel resorts to drastic measures as the police finally get in touch. Benjamin and the guests grow increasingly suspicious of one another.",
+          "episode": 3,
+          "firstAired": "2026-09-25T00:00:00.000Z",
+          "id": "tt36832679:1:3",
+          "name": "Episode 3",
+          "number": 3,
+          "overview": "The hotel resorts to drastic measures as the police finally get in touch. Benjamin and the guests grow increasingly suspicious of one another.",
+          "rating": 0,
+          "released": "2026-09-25T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt36832679/1/3/w780.jpg",
+          "tvdb_id": 11127879
+        },
+        {
+          "description": "Benjamin can't leave behind what happened in Santa Águeda. The shooting of a new film reveals everyone's true colors and resolves the final problem.",
+          "episode": 4,
+          "firstAired": "2026-09-25T00:00:00.000Z",
+          "id": "tt36832679:1:4",
+          "name": "Episode 4",
+          "number": 4,
+          "overview": "Benjamin can't leave behind what happened in Santa Águeda. The shooting of a new film reveals everyone's true colors and resolves the final problem.",
+          "rating": 0,
+          "released": "2026-09-25T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt36832679/1/4/w780.jpg",
+          "tvdb_id": 11127880
+        }
+      ],
+      "writer": [],
+      "year": "2026"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt33081352/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Cree Summer",
+        "Jasmine Guy",
+        "Kadeem Hardison"
+      ],
+      "country": "United States",
+      "description": "Deborah Wayne enters her freshman year at Hillman College, her parents' HBCU alma mater, where she must escape their shadow and build her own legacy.",
+      "director": [],
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "id": "tt33081352",
+      "imdbRating": "",
+      "imdb_id": "tt33081352",
+      "links": [
+        {
+          "category": "share",
+          "name": "A Different World",
+          "url": "https://www.strem.io/s/series/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Comedy"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Cast",
+          "name": "Cree Summer",
+          "url": "stremio:///search?search=Cree%20Summer"
+        },
+        {
+          "category": "Cast",
+          "name": "Jasmine Guy",
+          "url": "stremio:///search?search=Jasmine%20Guy"
+        },
+        {
+          "category": "Cast",
+          "name": "Kadeem Hardison",
+          "url": "stremio:///search?search=Kadeem%20Hardison"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt33081352/img",
+      "moviedb_id": 305357,
+      "name": "A Different World",
+      "popularities": {
+        "moviedb": 13.6468,
+        "stremio": 0.45489333333333337,
+        "stremio_lib": 0,
+        "trakt": 219
+      },
+      "popularity": 0.45489333333333337,
+      "poster": "https://images.metahub.space/poster/small/tt33081352/img",
+      "releaseInfo": "2026–",
+      "released": "2026-09-24T00:00:00.000Z",
+      "slug": "series/a-different-world-33081352",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "A Different World",
+          "ytId": "W8jMEXwErvk"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "W8jMEXwErvk",
+          "type": "Trailer"
+        }
+      ],
+      "type": "series",
+      "videos": [
+        {
+          "description": "Deborah Wayne continues her parents' legacy by enrolling at Hillman College, where a new roommate and an old flame instantly complicate the situation.",
+          "episode": 1,
+          "firstAired": "2026-09-24T00:00:00.000Z",
+          "id": "tt33081352:1:1",
+          "moviedb_id": 6672541,
+          "name": "Irreconcilable Differences",
+          "number": 1,
+          "overview": "Deborah Wayne continues her parents' legacy by enrolling at Hillman College, where a new roommate and an old flame instantly complicate the situation.",
+          "rating": 5.429,
+          "released": "2026-09-24T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33081352/1/1/w780.jpg"
+        },
+        {
+          "description": "Deborah gets put on blast for speaking her mind. Rashida hustles to make extra cash. Shaquille's first football game doesn't go as planned.",
+          "episode": 2,
+          "firstAired": "2026-09-24T00:00:00.000Z",
+          "id": "tt33081352:1:2",
+          "moviedb_id": 7329384,
+          "name": "O Captain! My Captain!",
+          "number": 2,
+          "overview": "Deborah gets put on blast for speaking her mind. Rashida hustles to make extra cash. Shaquille's first football game doesn't go as planned.",
+          "rating": 5,
+          "released": "2026-09-24T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33081352/1/2/w780.jpg"
+        },
+        {
+          "description": "As old friends arrive for homecoming weekend, Dwayne and Whitley navigate marital tensions, while Deborah scrambles to lock down a headliner.",
+          "episode": 3,
+          "firstAired": "2026-09-24T00:00:00.000Z",
+          "id": "tt33081352:1:3",
+          "moviedb_id": 7329385,
+          "name": "Center de Stage",
+          "number": 3,
+          "overview": "As old friends arrive for homecoming weekend, Dwayne and Whitley navigate marital tensions, while Deborah scrambles to lock down a headliner.",
+          "rating": 2.75,
+          "released": "2026-09-24T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33081352/1/3/w780.jpg"
+        },
+        {
+          "description": "Cuffing season at Hillman is heating up, but school stress, money trouble and date-night drama could put the whole vibe on ice.",
+          "episode": 4,
+          "firstAired": "2026-09-24T00:00:00.000Z",
+          "id": "tt33081352:1:4",
+          "moviedb_id": 7329386,
+          "name": "Those Who Can... Cuff",
+          "number": 4,
+          "overview": "Cuffing season at Hillman is heating up, but school stress, money trouble and date-night drama could put the whole vibe on ice.",
+          "rating": 4.8,
+          "released": "2026-09-24T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33081352/1/4/w780.jpg"
+        },
+        {
+          "description": "Finals are kicking off and the entire crew is pressed — until a crisis makes them rethink what really matters.",
+          "episode": 5,
+          "firstAired": "2026-09-24T00:00:00.000Z",
+          "id": "tt33081352:1:5",
+          "moviedb_id": 7329387,
+          "name": "Final Words",
+          "number": 5,
+          "overview": "Finals are kicking off and the entire crew is pressed — until a crisis makes them rethink what really matters.",
+          "rating": 2.75,
+          "released": "2026-09-24T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33081352/1/5/w780.jpg"
+        },
+        {
+          "description": "Deborah questions whether she's found the man of her dreams. A night at the club gets messy when the aunties pull up.",
+          "episode": 6,
+          "firstAired": "2026-09-24T00:00:00.000Z",
+          "id": "tt33081352:1:6",
+          "moviedb_id": 7329388,
+          "name": "Insomnia and the Daydreamer",
+          "number": 6,
+          "overview": "Deborah questions whether she's found the man of her dreams. A night at the club gets messy when the aunties pull up.",
+          "rating": 2.75,
+          "released": "2026-09-24T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33081352/1/6/w780.jpg"
+        },
+        {
+          "description": "At the school talent show, Deborah and Kojo set out to prove their doubters wrong. Hazel finally competes for the title of Miss Gilbert Hall.",
+          "episode": 7,
+          "firstAired": "2026-09-24T00:00:00.000Z",
+          "id": "tt33081352:1:7",
+          "moviedb_id": 7329389,
+          "name": "Sometimes You Get The Culture... Sometimes The Culture Gets You",
+          "number": 7,
+          "overview": "At the school talent show, Deborah and Kojo set out to prove their doubters wrong. Hazel finally competes for the title of Miss Gilbert Hall.",
+          "rating": 3.25,
+          "released": "2026-09-24T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33081352/1/7/w780.jpg"
+        },
+        {
+          "description": "Stuck inside during a tornado warning, Hazel and Amir can't dodge their beef any longer. Deborah and Shaquille open up about their original breakup.",
+          "episode": 8,
+          "firstAired": "2026-09-24T00:00:00.000Z",
+          "id": "tt33081352:1:8",
+          "moviedb_id": 7329390,
+          "name": "I Choose Chaos",
+          "number": 8,
+          "overview": "Stuck inside during a tornado warning, Hazel and Amir can't dodge their beef any longer. Deborah and Shaquille open up about their original breakup.",
+          "rating": 2.75,
+          "released": "2026-09-24T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33081352/1/8/w780.jpg"
+        },
+        {
+          "description": "When Hillman's budget crisis — and the conflict between Dwayne and Whitley — pops off, Deborah and her friends make their move.",
+          "episode": 9,
+          "firstAired": "2026-09-24T00:00:00.000Z",
+          "id": "tt33081352:1:9",
+          "moviedb_id": 7329391,
+          "name": "Romancing the Unknown",
+          "number": 9,
+          "overview": "When Hillman's budget crisis — and the conflict between Dwayne and Whitley — pops off, Deborah and her friends make their move.",
+          "rating": 2.75,
+          "released": "2026-09-24T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33081352/1/9/w780.jpg"
+        },
+        {
+          "description": "The end-of-year gala brings big decisions, big drama and a new chapter in Hillman's story.",
+          "episode": 10,
+          "firstAired": "2026-09-24T00:00:00.000Z",
+          "id": "tt33081352:1:10",
+          "moviedb_id": 7329392,
+          "name": "A Gift & the Curse",
+          "number": 10,
+          "overview": "The end-of-year gala brings big decisions, big drama and a new chapter in Hillman's story.",
+          "rating": 4.8,
+          "released": "2026-09-24T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33081352/1/10/w780.jpg"
+        }
+      ],
+      "writer": [],
+      "year": "2026–"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt6773088/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Matthew McConaughey",
+        "Woody Harrelson",
+        "Jorie Blake Rosen"
+      ],
+      "country": "United States",
+      "description": "McConaughey and Harrelson they try to live together on a Texas ranch. That close space puts their friendship to the test.",
+      "director": [],
+      "genre": [
+        "Comedy"
+      ],
+      "genres": [
+        "Comedy"
+      ],
+      "id": "tt6773088",
+      "imdbRating": "",
+      "imdb_id": "tt6773088",
+      "links": [
+        {
+          "category": "share",
+          "name": "Brothers",
+          "url": "https://www.strem.io/s/series/brothers-6773088"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Comedy"
+        },
+        {
+          "category": "Cast",
+          "name": "Matthew McConaughey",
+          "url": "stremio:///search?search=Matthew%20McConaughey"
+        },
+        {
+          "category": "Cast",
+          "name": "Woody Harrelson",
+          "url": "stremio:///search?search=Woody%20Harrelson"
+        },
+        {
+          "category": "Cast",
+          "name": "Jorie Blake Rosen",
+          "url": "stremio:///search?search=Jorie%20Blake%20Rosen"
+        },
+        {
+          "category": "Writers",
+          "name": "David West Read",
+          "url": "stremio:///search?search=David%20West%20Read"
+        },
+        {
+          "category": "Writers",
+          "name": "Lee Eisenberg",
+          "url": "stremio:///search?search=Lee%20Eisenberg"
+        },
+        {
+          "category": "Writers",
+          "name": "Woody Harrelson",
+          "url": "stremio:///search?search=Woody%20Harrelson"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt6773088/img",
+      "moviedb_id": 250203,
+      "name": "Brothers",
+      "popularities": {
+        "moviedb": 31.3756,
+        "stremio": 1.1793233333333333,
+        "stremio_lib": 0,
+        "trakt": 617
+      },
+      "popularity": 1.1793233333333333,
+      "poster": "https://images.metahub.space/poster/small/tt6773088/img",
+      "releaseInfo": "2026–",
+      "released": "2026-09-23T00:00:00.000Z",
+      "runtime": "27 min",
+      "slug": "series/brothers-6773088",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "Brothers",
+          "ytId": "fIKFnzIcfcA"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "fIKFnzIcfcA",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 448114,
+      "type": "series",
+      "videos": [
+        {
+          "description": "A surprise visit from the Harrelsons goes sideways when Matthew’s mom drops a bombshell.",
+          "episode": 1,
+          "firstAired": "2026-09-23T08:00:00.000Z",
+          "id": "tt6773088:1:1",
+          "name": "On the Road",
+          "number": 1,
+          "overview": "A surprise visit from the Harrelsons goes sideways when Matthew’s mom drops a bombshell.",
+          "rating": 0,
+          "released": "2026-09-23T08:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt6773088/1/1/w780.jpg",
+          "tvdb_id": 10405646
+        },
+        {
+          "description": "Matthew takes his son Wyatt on his first hunting trip while Woody follows a trail of a different kind.",
+          "episode": 2,
+          "firstAired": "2026-09-23T08:00:00.000Z",
+          "id": "tt6773088:1:2",
+          "name": "The Hunt",
+          "number": 2,
+          "overview": "Matthew takes his son Wyatt on his first hunting trip while Woody follows a trail of a different kind.",
+          "rating": 0,
+          "released": "2026-09-23T08:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt6773088/1/2/w780.jpg",
+          "tvdb_id": 11851076
+        },
+        {
+          "description": "When Ma Mac wants the Harrelsons out, Woody hatches a harebrained plan to buy time.",
+          "episode": 3,
+          "firstAired": "2026-09-30T08:00:00.000Z",
+          "id": "tt6773088:1:3",
+          "name": "Little Woody",
+          "number": 3,
+          "overview": "When Ma Mac wants the Harrelsons out, Woody hatches a harebrained plan to buy time.",
+          "rating": 0,
+          "released": "2026-09-30T08:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt6773088/1/3/w780.jpg",
+          "tvdb_id": 11851077
+        },
+        {
+          "description": "Woody and Matthew put their musical talents to the test as Olive’s investigation ramps up.",
+          "episode": 4,
+          "firstAired": "2026-10-07T08:00:00.000Z",
+          "id": "tt6773088:1:4",
+          "name": "The Band",
+          "number": 4,
+          "overview": "Woody and Matthew put their musical talents to the test as Olive’s investigation ramps up.",
+          "rating": 0,
+          "released": "2026-10-07T08:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt6773088/1/4/w780.jpg",
+          "tvdb_id": 11851078
+        },
+        {
+          "description": "Things quickly spiral out of control for Matthew and Woody after forgetting Valentine's Day.",
+          "episode": 5,
+          "firstAired": "2026-10-14T08:00:00.000Z",
+          "id": "tt6773088:1:5",
+          "name": "Valentine's Day",
+          "number": 5,
+          "overview": "Things quickly spiral out of control for Matthew and Woody after forgetting Valentine's Day.",
+          "rating": 0,
+          "released": "2026-10-14T08:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt6773088/1/5/w780.jpg",
+          "tvdb_id": 11851079
+        }
+      ],
+      "writer": [
+        "David West Read",
+        "Lee Eisenberg",
+        "Woody Harrelson"
+      ],
+      "year": "2026–"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt36857537/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Douglas Booth",
+        "Michelle Keegan",
+        "Joe Armstrong"
+      ],
+      "country": "United Kingdom",
+      "description": "Two detectives fall in love while investigating a murder, until one becomes a suspect.",
+      "director": [],
+      "genre": [
+        "Crime",
+        "Thriller"
+      ],
+      "genres": [
+        "Crime",
+        "Thriller"
+      ],
+      "id": "tt36857537",
+      "imdbRating": "",
+      "imdb_id": "tt36857537",
+      "links": [
+        {
+          "category": "share",
+          "name": "The Blame",
+          "url": "https://www.strem.io/s/series/the-blame-36857537"
+        },
+        {
+          "category": "Genres",
+          "name": "Crime",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Crime"
+        },
+        {
+          "category": "Genres",
+          "name": "Thriller",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Thriller"
+        },
+        {
+          "category": "Cast",
+          "name": "Douglas Booth",
+          "url": "stremio:///search?search=Douglas%20Booth"
+        },
+        {
+          "category": "Cast",
+          "name": "Michelle Keegan",
+          "url": "stremio:///search?search=Michelle%20Keegan"
+        },
+        {
+          "category": "Cast",
+          "name": "Joe Armstrong",
+          "url": "stremio:///search?search=Joe%20Armstrong"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt36857537/img",
+      "moviedb_id": 319851,
+      "name": "The Blame",
+      "popularities": {
+        "moviedb": 15.9803,
+        "stremio": 0.5326766666666667,
+        "stremio_lib": 0,
+        "trakt": 206
+      },
+      "popularity": 0.5326766666666667,
+      "poster": "https://images.metahub.space/poster/small/tt36857537/img",
+      "releaseInfo": "2026–",
+      "released": null,
+      "runtime": "47 min",
+      "slug": "series/the-blame-36857537",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "The Blame",
+          "ytId": "ymiantTJRoo"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "ymiantTJRoo",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 466845,
+      "type": "series",
+      "videos": [
+        {
+          "description": "While investigating a murder, DI Emma Crane and DI Tom Radley uncover serious misconduct within Wakestead Police Station.",
+          "episode": 1,
+          "firstAired": "2026-09-20T21:00:00.000Z",
+          "id": "tt36857537:1:1",
+          "name": "Episode 1",
+          "number": 1,
+          "overview": "While investigating a murder, DI Emma Crane and DI Tom Radley uncover serious misconduct within Wakestead Police Station.",
+          "rating": 0,
+          "released": "2026-09-20T21:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt36857537/1/1/w780.jpg",
+          "tvdb_id": 11286752
+        },
+        {
+          "description": "Emma's discovery of shocking video evidence leads to an unexpected breakthrough in the case, and she has no choice but to turn on one of her own.",
+          "episode": 2,
+          "firstAired": "2026-09-21T21:00:00.000Z",
+          "id": "tt36857537:1:2",
+          "name": "Episode 2",
+          "number": 2,
+          "overview": "Emma's discovery of shocking video evidence leads to an unexpected breakthrough in the case, and she has no choice but to turn on one of her own.",
+          "rating": 0,
+          "released": "2026-09-21T21:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt36857537/1/2/w780.jpg",
+          "tvdb_id": 11973262
+        },
+        {
+          "description": "With a key suspect exonerated, Emma is unable to shake her suspicion that a serial predator is operating within Wakestead Police Station.",
+          "episode": 3,
+          "firstAired": "2026-09-27T21:00:00.000Z",
+          "id": "tt36857537:1:3",
+          "name": "Episode 3",
+          "number": 3,
+          "overview": "With a key suspect exonerated, Emma is unable to shake her suspicion that a serial predator is operating within Wakestead Police Station.",
+          "rating": 0,
+          "released": "2026-09-27T21:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt36857537/1/3/w780.jpg",
+          "tvdb_id": 11973263
+        },
+        {
+          "description": "Emma uncovers a potential lead to Sophie's killer as a link to another victim is discovered.",
+          "episode": 4,
+          "firstAired": "2026-09-28T21:00:00.000Z",
+          "id": "tt36857537:1:4",
+          "name": "Episode 4",
+          "number": 4,
+          "overview": "Emma uncovers a potential lead to Sophie's killer as a link to another victim is discovered.",
+          "rating": 0,
+          "released": "2026-09-28T21:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt36857537/1/4/w780.jpg",
+          "tvdb_id": 11973264
+        },
+        {
+          "description": "A suspect is brought in for questioning. Emma seeks help from an unlikely ally to bring her one step closer to Sophie's killer.",
+          "episode": 5,
+          "firstAired": "2026-10-04T21:00:00.000Z",
+          "id": "tt36857537:1:5",
+          "name": "Episode 5",
+          "number": 5,
+          "overview": "A suspect is brought in for questioning. Emma seeks help from an unlikely ally to bring her one step closer to Sophie's killer.",
+          "rating": 0,
+          "released": "2026-10-04T21:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt36857537/1/5/w780.jpg",
+          "tvdb_id": 11973265
+        },
+        {
+          "description": "Things come to a head when the identity of the serial abuser is finally revealed, but Emma uncovers a further clue, forcing a devastating confrontation.",
+          "episode": 6,
+          "firstAired": "2026-10-05T21:00:00.000Z",
+          "id": "tt36857537:1:6",
+          "name": "Episode 6",
+          "number": 6,
+          "overview": "Things come to a head when the identity of the serial abuser is finally revealed, but Emma uncovers a further clue, forcing a devastating confrontation.",
+          "rating": 0,
+          "released": "2026-10-05T21:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt36857537/1/6/w780.jpg",
+          "tvdb_id": 11973266
+        }
+      ],
+      "writer": [],
+      "year": "2026–"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt33539520/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Maria Sten",
+        "Greyston Holt",
+        "Adeline Rudolph"
+      ],
+      "country": "United States",
+      "description": "Neagley, drawing from her experience with Jack Reacher and the 110 Special Investigators, embarks on a perilous mission to expose a sinister threat, risking her life to unravel the mystery.",
+      "director": [],
+      "genre": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "id": "tt33539520",
+      "imdbRating": "",
+      "imdb_id": "tt33539520",
+      "links": [
+        {
+          "category": "share",
+          "name": "Neagley",
+          "url": "https://www.strem.io/s/series/neagley-33539520"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Action"
+        },
+        {
+          "category": "Genres",
+          "name": "Crime",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Crime"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Cast",
+          "name": "Maria Sten",
+          "url": "stremio:///search?search=Maria%20Sten"
+        },
+        {
+          "category": "Cast",
+          "name": "Greyston Holt",
+          "url": "stremio:///search?search=Greyston%20Holt"
+        },
+        {
+          "category": "Cast",
+          "name": "Adeline Rudolph",
+          "url": "stremio:///search?search=Adeline%20Rudolph"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt33539520/img",
+      "moviedb_id": 273207,
+      "name": "Neagley",
+      "popularities": {
+        "moviedb": 52.7191,
+        "stremio": 1.7573033333333332,
+        "stremio_lib": 0,
+        "trakt": 1247
+      },
+      "popularity": 1.7573033333333332,
+      "poster": "https://images.metahub.space/poster/small/tt33539520/img",
+      "releaseInfo": "2026–",
+      "released": "2026-09-16T00:00:00.000Z",
+      "runtime": "49 min",
+      "slug": "series/neagley-33539520",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "Neagley",
+          "ytId": "BOzNaa_o9_g"
+        },
+        {
+          "title": "Neagley",
+          "ytId": "e4R4guZS0WU"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "BOzNaa_o9_g",
+          "type": "Trailer"
+        },
+        {
+          "source": "e4R4guZS0WU",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 455064,
+      "type": "series",
+      "videos": [
+        {
+          "description": "When Neagley's childhood friend, Tommy, dies after walking into an oncoming train, the police are ready to label this as an apparent accident. But after receiving a mysterious message from the deceased, Neagley knows something is amiss.",
+          "episode": 1,
+          "firstAired": "2026-09-16T11:00:00.000Z",
+          "id": "tt33539520:1:1",
+          "name": "L Train",
+          "number": 1,
+          "overview": "When Neagley's childhood friend, Tommy, dies after walking into an oncoming train, the police are ready to label this as an apparent accident. But after receiving a mysterious message from the deceased, Neagley knows something is amiss.",
+          "rating": 0,
+          "released": "2026-09-16T11:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33539520/1/1/w780.jpg",
+          "tvdb_id": 11619755
+        },
+        {
+          "description": "With Neagley's investigation into the suspicious death of her childhood friend, Tommy Crane, hitting countless roadblocks, a long-buried secret from Neagley's past threatens to upend everything she once knew of her childhood.",
+          "episode": 2,
+          "firstAired": "2026-09-16T11:00:00.000Z",
+          "id": "tt33539520:1:2",
+          "name": "Team Building Exercises",
+          "number": 2,
+          "overview": "With Neagley's investigation into the suspicious death of her childhood friend, Tommy Crane, hitting countless roadblocks, a long-buried secret from Neagley's past threatens to upend everything she once knew of her childhood.",
+          "rating": 0,
+          "released": "2026-09-16T11:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33539520/1/2/w780.jpg",
+          "tvdb_id": 11866687
+        },
+        {
+          "description": "After an ambush turns up her best break in the case thus far, Neagley is blindsided by local law enforcement's attempts to sideline her.",
+          "episode": 3,
+          "firstAired": "2026-09-16T11:00:00.000Z",
+          "id": "tt33539520:1:3",
+          "name": "Hammer Time",
+          "number": 3,
+          "overview": "After an ambush turns up her best break in the case thus far, Neagley is blindsided by local law enforcement's attempts to sideline her.",
+          "rating": 0,
+          "released": "2026-09-16T11:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33539520/1/3/w780.jpg",
+          "tvdb_id": 11866688
+        },
+        {
+          "description": "Neagley's investigation into Tommy's death has drawn the focus of powerful enemies - putting herself and her team in danger.",
+          "episode": 4,
+          "firstAired": "2026-09-16T11:00:00.000Z",
+          "id": "tt33539520:1:4",
+          "name": "Breaking & Entering",
+          "number": 4,
+          "overview": "Neagley's investigation into Tommy's death has drawn the focus of powerful enemies - putting herself and her team in danger.",
+          "rating": 0,
+          "released": "2026-09-16T11:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33539520/1/4/w780.jpg",
+          "tvdb_id": 11866689
+        },
+        {
+          "description": "Hidden truths from Neagley's past come rushing to the forefront, forcing her to rely on her newfound team more than ever.",
+          "episode": 5,
+          "firstAired": "2026-09-16T11:00:00.000Z",
+          "id": "tt33539520:1:5",
+          "name": "Trip",
+          "number": 5,
+          "overview": "Hidden truths from Neagley's past come rushing to the forefront, forcing her to rely on her newfound team more than ever.",
+          "rating": 0,
+          "released": "2026-09-16T11:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33539520/1/5/w780.jpg",
+          "tvdb_id": 11866690
+        },
+        {
+          "description": "With new evidence coming to light, Neagley realizes she is not only responsible for solving Tommy's murder, but countless others as well.",
+          "episode": 6,
+          "firstAired": "2026-09-16T11:00:00.000Z",
+          "id": "tt33539520:1:6",
+          "name": "Rocked",
+          "number": 6,
+          "overview": "With new evidence coming to light, Neagley realizes she is not only responsible for solving Tommy's murder, but countless others as well.",
+          "rating": 0,
+          "released": "2026-09-16T11:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33539520/1/6/w780.jpg",
+          "tvdb_id": 11866691
+        },
+        {
+          "description": "As clues dry up, Hudson is forced to make a devil's bargain to keep the case from going cold.",
+          "episode": 7,
+          "firstAired": "2026-09-16T11:00:00.000Z",
+          "id": "tt33539520:1:7",
+          "name": "Lebron's No Jordan",
+          "number": 7,
+          "overview": "As clues dry up, Hudson is forced to make a devil's bargain to keep the case from going cold.",
+          "rating": 0,
+          "released": "2026-09-16T11:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33539520/1/7/w780.jpg",
+          "tvdb_id": 11866692
+        },
+        {
+          "description": "With the legacy of her deceased childhood friend on the line, and the lives of her team under threat, Neagley mounts one last stand to bring Tommy's killers to justice.",
+          "episode": 8,
+          "firstAired": "2026-09-16T11:00:00.000Z",
+          "id": "tt33539520:1:8",
+          "name": "Touched",
+          "number": 8,
+          "overview": "With the legacy of her deceased childhood friend on the line, and the lives of her team under threat, Neagley mounts one last stand to bring Tommy's killers to justice.",
+          "rating": 0,
+          "released": "2026-09-16T11:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33539520/1/8/w780.jpg",
+          "tvdb_id": 11866693
+        }
+      ],
+      "writer": [],
+      "year": "2026–"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt38218082/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Miku Martineau",
+        "Jessica Paré",
+        "Samuel Braun"
+      ],
+      "country": "Canada",
+      "description": "After being disgraced by her father's financial fraud, a teen girl must escape with her mother to a small town where she ends up being the only female rower on the team at her new prep school.",
+      "director": [],
+      "genre": [
+        "Drama",
+        "Romance"
+      ],
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "id": "tt38218082",
+      "imdbRating": "",
+      "imdb_id": "tt38218082",
+      "links": [
+        {
+          "category": "share",
+          "name": "Crew Girl",
+          "url": "https://www.strem.io/s/series/crew-girl-38218082"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Romance",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Romance"
+        },
+        {
+          "category": "Cast",
+          "name": "Miku Martineau",
+          "url": "stremio:///search?search=Miku%20Martineau"
+        },
+        {
+          "category": "Cast",
+          "name": "Jessica Paré",
+          "url": "stremio:///search?search=Jessica%20Par%C3%A9"
+        },
+        {
+          "category": "Cast",
+          "name": "Samuel Braun",
+          "url": "stremio:///search?search=Samuel%20Braun"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt38218082/img",
+      "moviedb_id": 300507,
+      "name": "Crew Girl",
+      "popularities": {
+        "moviedb": 28.4822,
+        "stremio": 0.9494066666666666,
+        "stremio_lib": 0,
+        "trakt": 202
+      },
+      "popularity": 0.9494066666666666,
+      "poster": "https://images.metahub.space/poster/small/tt38218082/img",
+      "releaseInfo": "2026–",
+      "released": "2026-09-10T00:00:00.000Z",
+      "runtime": "47 min",
+      "slug": "series/crew-girl-38218082",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "Crew Girl",
+          "ytId": "Xs5qsfqp-tA"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "Xs5qsfqp-tA",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 467896,
+      "type": "series",
+      "videos": [
+        {
+          "description": "A life-altering revelation about her father leaves teenage rower Teagan and her mother Ella scrambling for answers — and a new place to call home.",
+          "episode": 1,
+          "firstAired": "2026-09-10T04:00:00.000Z",
+          "id": "tt38218082:1:1",
+          "name": "The Catch",
+          "number": 1,
+          "overview": "A life-altering revelation about her father leaves teenage rower Teagan and her mother Ella scrambling for answers — and a new place to call home.",
+          "rating": 0,
+          "released": "2026-09-10T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt38218082/1/1/w780.jpg",
+          "tvdb_id": 11328208
+        },
+        {
+          "description": "Easton's rowing team struggles to find their rhythm ahead of an alumni race as egos clash over the stroke seat. Ella stresses about Teagan's tuition.",
+          "episode": 2,
+          "firstAired": "2026-09-10T04:00:00.000Z",
+          "id": "tt38218082:1:2",
+          "name": "The Hateful Eight",
+          "number": 2,
+          "overview": "Easton's rowing team struggles to find their rhythm ahead of an alumni race as egos clash over the stroke seat. Ella stresses about Teagan's tuition.",
+          "rating": 0,
+          "released": "2026-09-10T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt38218082/1/2/w780.jpg",
+          "tvdb_id": 11848625
+        },
+        {
+          "description": "Family rivalry heats up between Josh and Ryder during a first-class birthday celebration. Cam guides Teagan in her bid to earn the team's trust.",
+          "episode": 3,
+          "firstAired": "2026-09-10T04:00:00.000Z",
+          "id": "tt38218082:1:3",
+          "name": "Flight Crew",
+          "number": 3,
+          "overview": "Family rivalry heats up between Josh and Ryder during a first-class birthday celebration. Cam guides Teagan in her bid to earn the team's trust.",
+          "rating": 0,
+          "released": "2026-09-10T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt38218082/1/3/w780.jpg",
+          "tvdb_id": 11848626
+        },
+        {
+          "description": "As the team gears up for its first away race, Teagan grapples with competing interests off the water. Brittany floats a tempting proposition.",
+          "episode": 4,
+          "firstAired": "2026-09-10T04:00:00.000Z",
+          "id": "tt38218082:1:4",
+          "name": "True Rowmance",
+          "number": 4,
+          "overview": "As the team gears up for its first away race, Teagan grapples with competing interests off the water. Brittany floats a tempting proposition.",
+          "rating": 0,
+          "released": "2026-09-10T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt38218082/1/4/w780.jpg",
+          "tvdb_id": 11848627
+        },
+        {
+          "description": "Teagan's grand entrance at Easton's fall formal turns heads — and hearts. But the night gets choppy when unexpected emotions threaten to spoil the fun.",
+          "episode": 5,
+          "firstAired": "2026-09-10T04:00:00.000Z",
+          "id": "tt38218082:1:5",
+          "name": "Anatomy of a Fall Formal",
+          "number": 5,
+          "overview": "Teagan's grand entrance at Easton's fall formal turns heads — and hearts. But the night gets choppy when unexpected emotions threaten to spoil the fun.",
+          "rating": 0,
+          "released": "2026-09-10T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt38218082/1/5/w780.jpg",
+          "tvdb_id": 11848628
+        },
+        {
+          "description": "After a suspicious setback during a key race against Westvale, Noah's mystery-themed after-party becomes a real-life investigation in the boathouse.",
+          "episode": 6,
+          "firstAired": "2026-09-10T04:00:00.000Z",
+          "id": "tt38218082:1:6",
+          "name": "Bad Break",
+          "number": 6,
+          "overview": "After a suspicious setback during a key race against Westvale, Noah's mystery-themed after-party becomes a real-life investigation in the boathouse.",
+          "rating": 0,
+          "released": "2026-09-10T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt38218082/1/6/w780.jpg",
+          "tvdb_id": 11848629
+        },
+        {
+          "description": "Competing under scout scrutiny at the indoor qualifiers, Easton's top rowers grapple with secret struggles, personal sacrifices and Olympic\r\nambitions.",
+          "episode": 7,
+          "firstAired": "2026-09-10T04:00:00.000Z",
+          "id": "tt38218082:1:7",
+          "name": "Under Pressure",
+          "number": 7,
+          "overview": "Competing under scout scrutiny at the indoor qualifiers, Easton's top rowers grapple with secret struggles, personal sacrifices and Olympic\r\nambitions.",
+          "rating": 0,
+          "released": "2026-09-10T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt38218082/1/7/w780.jpg",
+          "tvdb_id": 11848630
+        },
+        {
+          "description": "Oars at the ready! A pivotal final race on home waters tests the team's integrity and resilience as old mistakes give way to new beginnings.",
+          "episode": 8,
+          "firstAired": "2026-09-10T04:00:00.000Z",
+          "id": "tt38218082:1:8",
+          "name": "O Coxswain, My Coxswain",
+          "number": 8,
+          "overview": "Oars at the ready! A pivotal final race on home waters tests the team's integrity and resilience as old mistakes give way to new beginnings.",
+          "rating": 0,
+          "released": "2026-09-10T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt38218082/1/8/w780.jpg",
+          "tvdb_id": 11848631
+        }
+      ],
+      "writer": [],
+      "year": "2026–"
+    }
+  ],
+  "staleError": 3600,
+  "staleRevalidate": 3600
+}

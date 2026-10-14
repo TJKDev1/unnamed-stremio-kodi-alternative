@@ -1,0 +1,118 @@
+{
+  "addon": "https://anime-kitsu.strem.fun/manifest.json",
+  "recorded": "2026-10-14",
+  "requests": [
+    {
+      "cacheControl": "max-age=43200, public",
+      "file": "catalog/anime/kitsu-anime-trending.json",
+      "path": "/catalog/anime/kitsu-anime-trending.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "max-age=43200, public",
+      "file": "catalog/anime/kitsu-anime-airing.json",
+      "path": "/catalog/anime/kitsu-anime-airing.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "max-age=43200, public",
+      "file": "catalog/anime/kitsu-anime-popular.json",
+      "path": "/catalog/anime/kitsu-anime-popular.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "max-age=43200, public",
+      "file": "catalog/anime/kitsu-anime-rating.json",
+      "path": "/catalog/anime/kitsu-anime-rating.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "max-age=43200, public",
+      "file": "catalog/anime/kitsu-anime-list/search%3Ddune.json",
+      "path": "/catalog/anime/kitsu-anime-list/search=dune.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "max-age=43200, public",
+      "file": "catalog/series/kitsu-anime-last-videos.json",
+      "path": "/catalog/series/kitsu-anime-last-videos.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "max-age=43200, public",
+      "file": "catalog/anime/kitsu-anime-airing/skip%3D100.json",
+      "path": "/catalog/anime/kitsu-anime-airing/skip=100.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "max-age=43200, public",
+      "file": "catalog/anime/kitsu-anime-airing/genre%3DAction.json",
+      "path": "/catalog/anime/kitsu-anime-airing/genre=Action.json",
+      "status": 200,
+      "trimmed": false
+    },
+    {
+      "cacheControl": "max-age=43200, public",
+      "file": "meta/series/kitsu%3A7442.json",
+      "path": "/meta/series/kitsu%3A7442.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "max-age=43200, public",
+      "file": "meta/series/kitsu%3A49847.json",
+      "path": "/meta/series/kitsu%3A49847.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "max-age=43200, public",
+      "file": "meta/movie/kitsu%3A48323.json",
+      "path": "/meta/movie/kitsu%3A48323.json",
+      "status": 200,
+      "trimmed": false
+    },
+    {
+      "cacheControl": "max-age=14400, stale-while-revalidate=43200, stale-if-error=86400, public",
+      "file": "subtitles/series/kitsu%3A1%3A1.json",
+      "path": "/subtitles/series/kitsu%3A1%3A1.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "max-age=14400, stale-while-revalidate=43200, stale-if-error=86400, public",
+      "file": "subtitles/anime/kitsu%3A1%3A1.json",
+      "path": "/subtitles/anime/kitsu%3A1%3A1.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "max-age=172800, stale-while-revalidate=518400, stale-if-error=1036800, public",
+      "file": "subtitles/series/kitsu%3A7442%3A1.json",
+      "path": "/subtitles/series/kitsu%3A7442%3A1.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "max-age=600, stale-while-revalidate=1800, stale-if-error=3600, public",
+      "file": "subtitles/series/kitsu%3A49847%3A1.json",
+      "path": "/subtitles/series/kitsu%3A49847%3A1.json",
+      "status": 200,
+      "trimmed": false
+    },
+    {
+      "cacheControl": "max-age=172800, stale-while-revalidate=518400, stale-if-error=1036800, public",
+      "file": "subtitles/movie/kitsu%3A48323.json",
+      "path": "/subtitles/movie/kitsu%3A48323.json",
+      "status": 200,
+      "trimmed": true
+    }
+  ]
+}

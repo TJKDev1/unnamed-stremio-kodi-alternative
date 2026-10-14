@@ -1,0 +1,23 @@
+[package]
+name = "app-stremio-cli"
+description = "Dev CLI for the Stremio addon client: query addons and record fixtures"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "stremio-cli"
+path = "src/main.rs"
+
+[dependencies]
+app-addons-stremio = { path = "../addons-stremio" }
+app-fixtures = { path = "../fixtures" }
+serde_json = "1"
+futures = "0.3"
+tokio = { version = "1", features = ["rt", "macros"] }
+
+[lints]
+workspace = true

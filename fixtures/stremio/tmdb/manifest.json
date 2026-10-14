@@ -1,0 +1,484 @@
+{
+  "background": "https://tmdb.elfhosted.com/background.png",
+  "behaviorHints": {
+    "configurable": true,
+    "configurationRequired": false
+  },
+  "catalogs": [
+    {
+      "extra": [
+        {
+          "isRequired": false,
+          "name": "genre",
+          "options": [
+            "Action",
+            "Adventure",
+            "Animation",
+            "Comedy",
+            "Crime",
+            "Documentary",
+            "Drama",
+            "Family",
+            "Fantasy",
+            "History",
+            "Horror",
+            "Music",
+            "Mystery",
+            "Romance",
+            "Science Fiction",
+            "TV Movie",
+            "Thriller",
+            "War",
+            "Western"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ],
+      "id": "tmdb.top",
+      "name": "Popular",
+      "pageSize": 20,
+      "type": "movie"
+    },
+    {
+      "extra": [
+        {
+          "isRequired": false,
+          "name": "genre",
+          "options": [
+            "Action & Adventure",
+            "Animation",
+            "Comedy",
+            "Crime",
+            "Documentary",
+            "Drama",
+            "Family",
+            "Kids",
+            "Mystery",
+            "News",
+            "Reality",
+            "Sci-Fi & Fantasy",
+            "Soap",
+            "Talk",
+            "War & Politics",
+            "Western"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ],
+      "id": "tmdb.top",
+      "name": "Popular",
+      "pageSize": 20,
+      "type": "series"
+    },
+    {
+      "extra": [
+        {
+          "isRequired": false,
+          "name": "genre",
+          "options": [
+            "2026",
+            "2025",
+            "2024",
+            "2023",
+            "2022",
+            "2021",
+            "2020",
+            "2019",
+            "2018",
+            "2017",
+            "2016",
+            "2015",
+            "2014",
+            "2013",
+            "2012",
+            "2011",
+            "2010",
+            "2009",
+            "2008",
+            "2007",
+            "2006"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ],
+      "id": "tmdb.year",
+      "name": "Year",
+      "pageSize": 20,
+      "type": "movie"
+    },
+    {
+      "extra": [
+        {
+          "isRequired": false,
+          "name": "genre",
+          "options": [
+            "2026",
+            "2025",
+            "2024",
+            "2023",
+            "2022",
+            "2021",
+            "2020",
+            "2019",
+            "2018",
+            "2017",
+            "2016",
+            "2015",
+            "2014",
+            "2013",
+            "2012",
+            "2011",
+            "2010",
+            "2009",
+            "2008",
+            "2007",
+            "2006"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ],
+      "id": "tmdb.year",
+      "name": "Year",
+      "pageSize": 20,
+      "type": "series"
+    },
+    {
+      "extra": [
+        {
+          "isRequired": false,
+          "name": "genre",
+          "options": [
+            "English",
+            "Afrikaans",
+            "Albanian",
+            "Arabic",
+            "Armenian",
+            "Basque",
+            "Belarusian",
+            "Bengali",
+            "Breton",
+            "Bulgarian",
+            "Catalan",
+            "Chamorro",
+            "Croatian",
+            "Czech",
+            "Danish",
+            "Dutch",
+            "Esperanto",
+            "Estonian",
+            "Finnish",
+            "French",
+            "Gaelic",
+            "Galician",
+            "Georgian",
+            "German",
+            "Greek",
+            "Hebrew",
+            "Hindi",
+            "Hungarian",
+            "Indonesian",
+            "Irish",
+            "Italian",
+            "Japanese",
+            "Kannada",
+            "Kazakh",
+            "Kirghiz",
+            "Korean",
+            "Kurdish",
+            "Latvian",
+            "Lithuanian",
+            "Malay",
+            "Malayalam",
+            "Mandarin",
+            "Marathi",
+            "Nepali",
+            "Norwegian",
+            "Norwegian Bokmål",
+            "Occitan",
+            "Persian",
+            "Polish",
+            "Portuguese",
+            "Punjabi",
+            "Romanian",
+            "Russian",
+            "Serbian",
+            "Sinhalese",
+            "Slovak",
+            "Slovenian",
+            "Somali",
+            "Spanish",
+            "Swahili",
+            "Swedish",
+            "Tagalog",
+            "Tamil",
+            "Telugu",
+            "Thai",
+            "Turkish",
+            "Ukrainian",
+            "Urdu",
+            "Uzbek",
+            "Vietnamese",
+            "Welsh",
+            "Zulu"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ],
+      "id": "tmdb.language",
+      "name": "Language",
+      "pageSize": 20,
+      "type": "movie"
+    },
+    {
+      "extra": [
+        {
+          "isRequired": false,
+          "name": "genre",
+          "options": [
+            "English",
+            "Afrikaans",
+            "Albanian",
+            "Arabic",
+            "Armenian",
+            "Basque",
+            "Belarusian",
+            "Bengali",
+            "Breton",
+            "Bulgarian",
+            "Catalan",
+            "Chamorro",
+            "Croatian",
+            "Czech",
+            "Danish",
+            "Dutch",
+            "Esperanto",
+            "Estonian",
+            "Finnish",
+            "French",
+            "Gaelic",
+            "Galician",
+            "Georgian",
+            "German",
+            "Greek",
+            "Hebrew",
+            "Hindi",
+            "Hungarian",
+            "Indonesian",
+            "Irish",
+            "Italian",
+            "Japanese",
+            "Kannada",
+            "Kazakh",
+            "Kirghiz",
+            "Korean",
+            "Kurdish",
+            "Latvian",
+            "Lithuanian",
+            "Malay",
+            "Malayalam",
+            "Mandarin",
+            "Marathi",
+            "Nepali",
+            "Norwegian",
+            "Norwegian Bokmål",
+            "Occitan",
+            "Persian",
+            "Polish",
+            "Portuguese",
+            "Punjabi",
+            "Romanian",
+            "Russian",
+            "Serbian",
+            "Sinhalese",
+            "Slovak",
+            "Slovenian",
+            "Somali",
+            "Spanish",
+            "Swahili",
+            "Swedish",
+            "Tagalog",
+            "Tamil",
+            "Telugu",
+            "Thai",
+            "Turkish",
+            "Ukrainian",
+            "Urdu",
+            "Uzbek",
+            "Vietnamese",
+            "Welsh",
+            "Zulu"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ],
+      "id": "tmdb.language",
+      "name": "Language",
+      "pageSize": 20,
+      "type": "series"
+    },
+    {
+      "extra": [
+        {
+          "isRequired": false,
+          "name": "genre",
+          "options": [
+            "Day",
+            "Week"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ],
+      "id": "tmdb.trending",
+      "name": "Trending",
+      "pageSize": 20,
+      "type": "movie"
+    },
+    {
+      "extra": [
+        {
+          "isRequired": false,
+          "name": "genre",
+          "options": [
+            "Day",
+            "Week"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ],
+      "id": "tmdb.trending",
+      "name": "Trending",
+      "pageSize": 20,
+      "type": "series"
+    },
+    {
+      "extra": [
+        {
+          "isRequired": false,
+          "name": "genre",
+          "options": [
+            "Action",
+            "Adventure",
+            "Animation",
+            "Comedy",
+            "Crime",
+            "Documentary",
+            "Drama",
+            "Family",
+            "Fantasy",
+            "History",
+            "Horror",
+            "Music",
+            "Mystery",
+            "Romance",
+            "Science Fiction",
+            "TV Movie",
+            "Thriller",
+            "War",
+            "Western"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ],
+      "id": "tmdb.latest",
+      "name": "Latest Releases",
+      "pageSize": 20,
+      "type": "movie"
+    },
+    {
+      "extra": [
+        {
+          "isRequired": false,
+          "name": "genre",
+          "options": [
+            "Action & Adventure",
+            "Animation",
+            "Comedy",
+            "Crime",
+            "Documentary",
+            "Drama",
+            "Family",
+            "Kids",
+            "Mystery",
+            "News",
+            "Reality",
+            "Sci-Fi & Fantasy",
+            "Soap",
+            "Talk",
+            "War & Politics",
+            "Western"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ],
+      "id": "tmdb.latest",
+      "name": "Latest Releases",
+      "pageSize": 20,
+      "type": "series"
+    },
+    {
+      "extra": [
+        {
+          "isRequired": true,
+          "name": "search",
+          "options": []
+        }
+      ],
+      "id": "tmdb.search",
+      "name": "Search",
+      "type": "movie"
+    },
+    {
+      "extra": [
+        {
+          "isRequired": true,
+          "name": "search",
+          "options": []
+        }
+      ],
+      "id": "tmdb.search",
+      "name": "Search",
+      "type": "series"
+    }
+  ],
+  "description": "Stremio addon that provides rich metadata for movies and TV shows from TMDB, featuring customizable catalogs, multi-language support, favorites lists, watchlist, ratings, and IMDb integration. Current settings: Language: en-US | TMDB Account: Not Connected | Trakt Integration: Not Connected | MDBList Integration: Not Connected | IMDb Integration: Disabled | RPDB Integration: Disabled | Top Posters Integration: Disabled | Search: Enabled | Active Catalogs: 12",
+  "favicon": "https://tmdb.elfhosted.com/favicon.png",
+  "id": "tmdb-addon",
+  "idPrefixes": [
+    "tmdb:"
+  ],
+  "logo": "https://tmdb.elfhosted.com/logo.png",
+  "name": "The Movie Database Addon",
+  "resources": [
+    "catalog",
+    "meta"
+  ],
+  "stremioAddonsConfig": {
+    "issuer": "https://stremio-addons.net",
+    "signature": "REDACTED"
+  },
+  "types": [
+    "movie",
+    "series"
+  ],
+  "version": "3.1.7"
+}

@@ -1,0 +1,36 @@
+{
+  "behaviorHints": {
+    "configurable": true,
+    "configurationRequired": false,
+    "p2p": false
+  },
+  "catalogs": [],
+  "description": "Provides fast streams for movies and tv-series",
+  "id": "org.fayallc.hyper",
+  "idPrefixes": [
+    "tt",
+    "tmdb:",
+    "tvdb:"
+  ],
+  "logo": "https://cdn.stravo.site/5/img/logo.png",
+  "name": "Hyper",
+  "resources": [
+    {
+      "idPrefixes": [
+        "tt",
+        "tmdb:",
+        "tvdb:"
+      ],
+      "name": "stream",
+      "types": [
+        "movie",
+        "series"
+      ]
+    }
+  ],
+  "types": [
+    "movie",
+    "series"
+  ],
+  "version": "0.11.10"
+}

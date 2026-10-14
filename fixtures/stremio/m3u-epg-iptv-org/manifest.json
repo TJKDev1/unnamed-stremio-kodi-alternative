@@ -1,0 +1,56 @@
+{
+  "behaviorHints": {
+    "configurable": true,
+    "configurationRequired": false
+  },
+  "catalogs": [
+    {
+      "extra": [
+        {
+          "name": "genre"
+        },
+        {
+          "name": "search"
+        },
+        {
+          "name": "skip"
+        }
+      ],
+      "genres": [
+        "All Channels"
+      ],
+      "id": "iptv_channels",
+      "name": "IPTV Channels",
+      "type": "tv"
+    },
+    {
+      "extra": [
+        {
+          "name": "search"
+        },
+        {
+          "name": "skip"
+        }
+      ],
+      "id": "iptv_movies",
+      "name": "IPTV Movies",
+      "type": "movie"
+    }
+  ],
+  "description": "IPTV addon with M3U, EPG & Xtream (JSON/M3U) + encrypted configs, LRU/Redis cache, cache toggle, EPG offset",
+  "id": "org.stremio.m3u-epg-addon",
+  "idPrefixes": [
+    "iptv_"
+  ],
+  "name": "M3U/EPG TV Addon",
+  "resources": [
+    "catalog",
+    "stream",
+    "meta"
+  ],
+  "types": [
+    "tv",
+    "movie"
+  ],
+  "version": "1.2.0"
+}

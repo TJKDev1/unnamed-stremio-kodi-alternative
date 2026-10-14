@@ -1,0 +1,2238 @@
+{
+  "cacheMaxAge": 14400,
+  "hasMore": true,
+  "metas": [
+    {
+      "background": "https://images.metahub.space/background/medium/tt11540908/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Summer H. Howell",
+        "Matthew Lillard",
+        "Amber Midthunder"
+      ],
+      "country": "Canada, United States",
+      "description": "A sheltered girl with telekinetic powers is bullied, leading to a horrific, bloody incident due to her domineering mother's influence.",
+      "director": [],
+      "genre": [
+        "Drama",
+        "Horror"
+      ],
+      "genres": [
+        "Drama",
+        "Horror"
+      ],
+      "id": "tt11540908",
+      "imdbRating": "7.6",
+      "imdb_id": "tt11540908",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.6",
+          "url": "https://imdb.com/title/tt11540908"
+        },
+        {
+          "category": "share",
+          "name": "Carrie",
+          "url": "https://www.strem.io/s/series/carrie-11540908"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Horror",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Horror"
+        },
+        {
+          "category": "Cast",
+          "name": "Summer H. Howell",
+          "url": "stremio:///search?search=Summer%20H.%20Howell"
+        },
+        {
+          "category": "Cast",
+          "name": "Matthew Lillard",
+          "url": "stremio:///search?search=Matthew%20Lillard"
+        },
+        {
+          "category": "Cast",
+          "name": "Amber Midthunder",
+          "url": "stremio:///search?search=Amber%20Midthunder"
+        },
+        {
+          "category": "Writers",
+          "name": "Mike Flanagan",
+          "url": "stremio:///search?search=Mike%20Flanagan"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt11540908/img",
+      "moviedb_id": 288673,
+      "name": "Carrie",
+      "popularities": {
+        "moviedb": 305.573,
+        "stremio": 10.185766666666666,
+        "stremio_lib": 0,
+        "trakt": 6269
+      },
+      "popularity": 10.185766666666666,
+      "poster": "https://images.metahub.space/poster/small/tt11540908/img",
+      "releaseInfo": "2026–",
+      "released": "2026-10-07T00:00:00.000Z",
+      "runtime": "52 min",
+      "slug": "series/carrie-11540908",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "Carrie",
+          "ytId": "jkUw2nh6fT0"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "jkUw2nh6fT0",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 455755,
+      "type": "series",
+      "videos": [
+        {
+          "description": "The start of a brand new day",
+          "episode": 1,
+          "firstAired": "2026-10-07T03:00:00.000Z",
+          "id": "tt11540908:1:1",
+          "name": "FIRST PERIOD",
+          "number": 1,
+          "overview": "The start of a brand new day",
+          "rating": 0,
+          "released": "2026-10-07T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt11540908/1/1/w780.jpg",
+          "tvdb_id": 10755138
+        },
+        {
+          "description": "New communication skills from an unfamiliar culture",
+          "episode": 2,
+          "firstAired": "2026-10-07T03:00:00.000Z",
+          "id": "tt11540908:1:2",
+          "name": "FOREIGN LANGUAGE",
+          "number": 2,
+          "overview": "New communication skills from an unfamiliar culture",
+          "rating": 0,
+          "released": "2026-10-07T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt11540908/1/2/w780.jpg",
+          "tvdb_id": 11873152
+        },
+        {
+          "description": "How people, communities, and societies interact",
+          "episode": 3,
+          "firstAired": "2026-10-07T03:00:00.000Z",
+          "id": "tt11540908:1:3",
+          "name": "SOCIAL STUDIES",
+          "number": 3,
+          "overview": "How people, communities, and societies interact",
+          "rating": 0,
+          "released": "2026-10-07T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt11540908/1/3/w780.jpg",
+          "tvdb_id": 11873153
+        },
+        {
+          "description": "Voice, movement, and improvisation",
+          "episode": 4,
+          "firstAired": "2026-10-07T03:00:00.000Z",
+          "id": "tt11540908:1:4",
+          "name": "DRAMATIC ARTS",
+          "number": 4,
+          "overview": "Voice, movement, and improvisation",
+          "rating": 0,
+          "released": "2026-10-07T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt11540908/1/4/w780.jpg",
+          "tvdb_id": 11873154
+        },
+        {
+          "description": "Health, fitness, and exercise",
+          "episode": 5,
+          "firstAired": "2026-10-07T03:00:00.000Z",
+          "id": "tt11540908:1:5",
+          "name": "PHYSICAL EDUCATION",
+          "number": 5,
+          "overview": "Health, fitness, and exercise",
+          "rating": 0,
+          "released": "2026-10-07T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt11540908/1/5/w780.jpg",
+          "tvdb_id": 11873155
+        },
+        {
+          "description": "Practical life skills for independent living",
+          "episode": 6,
+          "firstAired": "2026-10-07T03:00:00.000Z",
+          "id": "tt11540908:1:6",
+          "name": "HOME ECONOMICS",
+          "number": 6,
+          "overview": "Practical life skills for independent living",
+          "rating": 0,
+          "released": "2026-10-07T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt11540908/1/6/w780.jpg",
+          "tvdb_id": 11873156
+        },
+        {
+          "description": "The power of emotion and individual experience",
+          "episode": 7,
+          "firstAired": "2026-10-07T03:00:00.000Z",
+          "id": "tt11540908:1:7",
+          "name": "ROMANTIC LITERATURE",
+          "number": 7,
+          "overview": "The power of emotion and individual experience",
+          "rating": 0,
+          "released": "2026-10-07T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt11540908/1/7/w780.jpg",
+          "tvdb_id": 11873157
+        },
+        {
+          "description": "For every action, there is an equal and opposite reaction",
+          "episode": 8,
+          "firstAired": "2026-10-07T03:00:00.000Z",
+          "id": "tt11540908:1:8",
+          "name": "AP PHYSICS",
+          "number": 8,
+          "overview": "For every action, there is an equal and opposite reaction",
+          "rating": 0,
+          "released": "2026-10-07T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt11540908/1/8/w780.jpg",
+          "tvdb_id": 11873158
+        }
+      ],
+      "writer": [
+        "Mike Flanagan"
+      ],
+      "year": "2026–"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt35934755/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Josh Hartnett",
+        "Stephen Oates",
+        "Josh Cruddas"
+      ],
+      "country": "Canada",
+      "description": "When a mysterious sea creature terrorizes a remote town, a fisherman must fight to protect his family, his community, and his way of life.",
+      "director": [],
+      "genre": [
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "genres": [
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "id": "tt35934755",
+      "imdbRating": "",
+      "imdb_id": "tt35934755",
+      "links": [
+        {
+          "category": "share",
+          "name": "Below",
+          "url": "https://www.strem.io/s/series/below-35934755"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Horror",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Horror"
+        },
+        {
+          "category": "Genres",
+          "name": "Thriller",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Thriller"
+        },
+        {
+          "category": "Cast",
+          "name": "Josh Hartnett",
+          "url": "stremio:///search?search=Josh%20Hartnett"
+        },
+        {
+          "category": "Cast",
+          "name": "Stephen Oates",
+          "url": "stremio:///search?search=Stephen%20Oates"
+        },
+        {
+          "category": "Cast",
+          "name": "Josh Cruddas",
+          "url": "stremio:///search?search=Josh%20Cruddas"
+        },
+        {
+          "category": "Writers",
+          "name": "Jesse McKeown",
+          "url": "stremio:///search?search=Jesse%20McKeown"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt35934755/img",
+      "moviedb_id": 285322,
+      "name": "Below",
+      "popularities": {
+        "moviedb": 164.7643,
+        "stremio": 0.53529,
+        "stremio_lib": 0,
+        "trakt": 3337
+      },
+      "popularity": 0.53529,
+      "poster": "https://images.metahub.space/poster/small/tt35934755/img",
+      "releaseInfo": "2026–",
+      "released": "2026-10-08T00:00:00.000Z",
+      "runtime": "41 min",
+      "slug": "series/below-35934755",
+      "status": "Ended",
+      "trailerStreams": [
+        {
+          "title": "Below",
+          "ytId": "U57CNxSgoss"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "U57CNxSgoss",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 480205,
+      "type": "series",
+      "videos": [
+        {
+          "description": "Calvin Penney welcomes his family home for a long-awaited reunion as an unexpected arrival makes waves throughout the coastal town of Snooks Arm.",
+          "episode": 1,
+          "firstAired": "2026-10-08T00:00:00.000Z",
+          "id": "tt35934755:1:1",
+          "name": "Come Home Year",
+          "number": 1,
+          "overview": "Calvin Penney welcomes his family home for a long-awaited reunion as an unexpected arrival makes waves throughout the coastal town of Snooks Arm.",
+          "rating": 0,
+          "released": "2026-10-08T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt35934755/1/1/w780.jpg",
+          "tvdb_id": 11884174
+        },
+        {
+          "description": "Calvin teams up with marine researcher Dr. Fonda Howander to investigate strange events, while his son Wade tries to make sense of unsettling dreams.",
+          "episode": 2,
+          "firstAired": "2026-10-08T00:00:00.000Z",
+          "id": "tt35934755:1:2",
+          "name": "Crown and Anchor",
+          "number": 2,
+          "overview": "Calvin teams up with marine researcher Dr. Fonda Howander to investigate strange events, while his son Wade tries to make sense of unsettling dreams.",
+          "rating": 0,
+          "released": "2026-10-08T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt35934755/1/2/w780.jpg",
+          "tvdb_id": 11884175
+        },
+        {
+          "description": "Wade and Calvin encounter mysterious newcomers. Fonda warns the town's residents about a nautical threat as unease spreads through the community.",
+          "episode": 3,
+          "firstAired": "2026-10-08T00:00:00.000Z",
+          "id": "tt35934755:1:3",
+          "name": "Sir John Franklin",
+          "number": 3,
+          "overview": "Wade and Calvin encounter mysterious newcomers. Fonda warns the town's residents about a nautical threat as unease spreads through the community.",
+          "rating": 0,
+          "released": "2026-10-08T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt35934755/1/3/w780.jpg",
+          "tvdb_id": 11884176
+        },
+        {
+          "description": "As outsiders draw Calvin into a dangerous hunt for the creature, an unseen danger begins closing in on his family and everyone else in town.",
+          "episode": 4,
+          "firstAired": "2026-10-08T00:00:00.000Z",
+          "id": "tt35934755:1:4",
+          "name": "The Ocean Will Have Us All",
+          "number": 4,
+          "overview": "As outsiders draw Calvin into a dangerous hunt for the creature, an unseen danger begins closing in on his family and everyone else in town.",
+          "rating": 0,
+          "released": "2026-10-08T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt35934755/1/4/w780.jpg",
+          "tvdb_id": 11884177
+        },
+        {
+          "description": "Calvin uncovers shocking truths about his past. Fonda makes a startling discovery as unexpected company arrives.",
+          "episode": 5,
+          "firstAired": "2026-10-08T00:00:00.000Z",
+          "id": "tt35934755:1:5",
+          "name": "Little Pot Rock",
+          "number": 5,
+          "overview": "Calvin uncovers shocking truths about his past. Fonda makes a startling discovery as unexpected company arrives.",
+          "rating": 0,
+          "released": "2026-10-08T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt35934755/1/5/w780.jpg",
+          "tvdb_id": 11884178
+        },
+        {
+          "description": "As the true motives behind the crisis become clear and an evacuation begins, Calvin, his family and Fonda devise a risky plan to save their town.",
+          "episode": 6,
+          "firstAired": "2026-10-08T00:00:00.000Z",
+          "id": "tt35934755:1:6",
+          "name": "The Unfathering Deep",
+          "number": 6,
+          "overview": "As the true motives behind the crisis become clear and an evacuation begins, Calvin, his family and Fonda devise a risky plan to save their town.",
+          "rating": 0,
+          "released": "2026-10-08T00:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt35934755/1/6/w780.jpg",
+          "tvdb_id": 11884179
+        }
+      ],
+      "writer": [
+        "Jesse McKeown"
+      ],
+      "year": "2026–"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt21097264/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Florence Pugh",
+        "Mike Faist",
+        "Christopher Abbott"
+      ],
+      "country": "United States",
+      "description": "In the farmlands of the Salinas Valley in California, successive generations of two families, the Trasks and the Hamiltons, are destined to reenact the fateful story of Cain and Abel.",
+      "director": [],
+      "genre": [
+        "Drama"
+      ],
+      "genres": [
+        "Drama"
+      ],
+      "id": "tt21097264",
+      "imdbRating": "",
+      "imdb_id": "tt21097264",
+      "links": [
+        {
+          "category": "share",
+          "name": "East of Eden",
+          "url": "https://www.strem.io/s/series/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Cast",
+          "name": "Florence Pugh",
+          "url": "stremio:///search?search=Florence%20Pugh"
+        },
+        {
+          "category": "Cast",
+          "name": "Mike Faist",
+          "url": "stremio:///search?search=Mike%20Faist"
+        },
+        {
+          "category": "Cast",
+          "name": "Christopher Abbott",
+          "url": "stremio:///search?search=Christopher%20Abbott"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt21097264/img",
+      "moviedb_id": 258165,
+      "name": "East of Eden",
+      "popularities": {
+        "moviedb": 87.0977,
+        "stremio": 2.9032566666666666,
+        "stremio_lib": 0,
+        "trakt": 1816
+      },
+      "popularity": 2.9032566666666666,
+      "poster": "https://images.metahub.space/poster/small/tt21097264/img",
+      "releaseInfo": "2026",
+      "released": "2026-10-01T00:00:00.000Z",
+      "runtime": "59 min",
+      "slug": "series/east-of-eden-21097264",
+      "status": "Ended",
+      "trailerStreams": [
+        {
+          "title": "East of Eden",
+          "ytId": "M9NWvGZViCg"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "M9NWvGZViCg",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 430034,
+      "type": "series",
+      "videos": [
+        {
+          "description": "Torn apart by a domineering father, brothers Adam and Charles Trask are forced into opposing paths to adulthood — one far away, one close to home.",
+          "episode": 1,
+          "firstAired": "2026-10-01T11:00:00.000Z",
+          "id": "tt21097264:1:1",
+          "name": "Brothers",
+          "number": 1,
+          "overview": "Torn apart by a domineering father, brothers Adam and Charles Trask are forced into opposing paths to adulthood — one far away, one close to home.",
+          "rating": 0,
+          "released": "2026-10-01T11:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt21097264/1/1/w780.jpg",
+          "tvdb_id": 10716239
+        },
+        {
+          "description": "Cathy revisits her dark past, as her presence in the brothers' home sows discord in the present.",
+          "episode": 2,
+          "firstAired": "2026-10-01T11:00:00.000Z",
+          "id": "tt21097264:1:2",
+          "name": "Cathy",
+          "number": 2,
+          "overview": "Cathy revisits her dark past, as her presence in the brothers' home sows discord in the present.",
+          "rating": 0,
+          "released": "2026-10-01T11:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt21097264/1/2/w780.jpg",
+          "tvdb_id": 11929391
+        },
+        {
+          "description": "While Adam pursues his dream of a home and family in California, Cathy has her own ideas about the future.",
+          "episode": 3,
+          "firstAired": "2026-10-01T11:00:00.000Z",
+          "id": "tt21097264:1:3",
+          "name": "In the Valley",
+          "number": 3,
+          "overview": "While Adam pursues his dream of a home and family in California, Cathy has her own ideas about the future.",
+          "rating": 0,
+          "released": "2026-10-01T11:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt21097264/1/3/w780.jpg",
+          "tvdb_id": 11929392
+        },
+        {
+          "description": "Cathy starts over with a new name, a new life and a ruthless plan to achieve financial independence.",
+          "episode": 4,
+          "firstAired": "2026-10-01T11:00:00.000Z",
+          "id": "tt21097264:1:4",
+          "name": "Kate",
+          "number": 4,
+          "overview": "Cathy starts over with a new name, a new life and a ruthless plan to achieve financial independence.",
+          "rating": 0,
+          "released": "2026-10-01T11:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt21097264/1/4/w780.jpg",
+          "tvdb_id": 11929393
+        },
+        {
+          "description": "Ten years on, an encounter with Cathy shifts Adam's perspective, as he and Lee clash over telling the boys the truth about their mother.",
+          "episode": 5,
+          "firstAired": "2026-10-01T11:00:00.000Z",
+          "id": "tt21097264:1:5",
+          "name": "Departure",
+          "number": 5,
+          "overview": "Ten years on, an encounter with Cathy shifts Adam's perspective, as he and Lee clash over telling the boys the truth about their mother.",
+          "rating": 0,
+          "released": "2026-10-01T11:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt21097264/1/5/w780.jpg",
+          "tvdb_id": 11929394
+        },
+        {
+          "description": "Adam embarks on a bold new business venture. An alienated Cal is drawn to his family's past, while Cathy's begins to catch up with her.",
+          "episode": 6,
+          "firstAired": "2026-10-01T11:00:00.000Z",
+          "id": "tt21097264:1:6",
+          "name": "The Great Try",
+          "number": 6,
+          "overview": "Adam embarks on a bold new business venture. An alienated Cal is drawn to his family's past, while Cathy's begins to catch up with her.",
+          "rating": 0,
+          "released": "2026-10-01T11:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt21097264/1/6/w780.jpg",
+          "tvdb_id": 11929395
+        },
+        {
+          "description": "With World War I looming, the family wonders if the sins of the past can ever be erased — and whether a new generation is doomed to repeat them.",
+          "episode": 7,
+          "firstAired": "2026-10-01T11:00:00.000Z",
+          "id": "tt21097264:1:7",
+          "name": "Timshel",
+          "number": 7,
+          "overview": "With World War I looming, the family wonders if the sins of the past can ever be erased — and whether a new generation is doomed to repeat them.",
+          "rating": 0,
+          "released": "2026-10-01T11:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt21097264/1/7/w780.jpg",
+          "tvdb_id": 11929396
+        }
+      ],
+      "writer": [],
+      "year": "2026"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt26545992/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Kyle Chandler",
+        "Aaron Pierre",
+        "Kelly Macdonald"
+      ],
+      "country": "United States",
+      "description": "Lanterns follows new recruit John Stewart and Lantern legend Hal Jordan, two intergalactic cops drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
+      "director": [],
+      "genre": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "id": "tt26545992",
+      "imdbRating": "7.8",
+      "imdb_id": "tt26545992",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.8",
+          "url": "https://imdb.com/title/tt26545992"
+        },
+        {
+          "category": "share",
+          "name": "Lanterns",
+          "url": "https://www.strem.io/s/series/lanterns-26545992"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Action"
+        },
+        {
+          "category": "Genres",
+          "name": "Crime",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Crime"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Cast",
+          "name": "Kyle Chandler",
+          "url": "stremio:///search?search=Kyle%20Chandler"
+        },
+        {
+          "category": "Cast",
+          "name": "Aaron Pierre",
+          "url": "stremio:///search?search=Aaron%20Pierre"
+        },
+        {
+          "category": "Cast",
+          "name": "Kelly Macdonald",
+          "url": "stremio:///search?search=Kelly%20Macdonald"
+        },
+        {
+          "category": "Writers",
+          "name": "Tom King",
+          "url": "stremio:///search?search=Tom%20King"
+        },
+        {
+          "category": "Writers",
+          "name": "Damon Lindelof",
+          "url": "stremio:///search?search=Damon%20Lindelof"
+        },
+        {
+          "category": "Writers",
+          "name": "Chris Mundy",
+          "url": "stremio:///search?search=Chris%20Mundy"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt26545992/img",
+      "moviedb_id": 95350,
+      "name": "Lanterns",
+      "popularities": {
+        "moviedb": 287.6629,
+        "stremio": 9.588763333333333,
+        "stremio_lib": 0,
+        "trakt": 3001
+      },
+      "popularity": 9.588763333333333,
+      "poster": "https://images.metahub.space/poster/small/tt26545992/img",
+      "releaseInfo": "2026–",
+      "released": "2026-08-16T00:00:00.000Z",
+      "runtime": "53 min",
+      "slug": "series/lanterns-26545992",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "Lanterns",
+          "ytId": "7UIBOsuUwc4"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "7UIBOsuUwc4",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 376098,
+      "type": "series",
+      "videos": [
+        {
+          "description": "After a fatal shooting, Green Lantern Hal Jordan and new recruit John Stewart set out to prove it was an extraterrestrial event.",
+          "episode": 1,
+          "firstAired": "2026-08-17T05:00:00.000Z",
+          "id": "tt26545992:1:1",
+          "name": "Pilot",
+          "number": 1,
+          "overview": "After a fatal shooting, Green Lantern Hal Jordan and new recruit John Stewart set out to prove it was an extraterrestrial event.",
+          "rating": 0,
+          "released": "2026-08-17T05:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt26545992/1/1/w780.jpg",
+          "tvdb_id": 9216985
+        },
+        {
+          "description": "While John's middling errand ultimately proves eventful, Hal makes waves in Rushville - which only inspires him to dig deeper.",
+          "episode": 2,
+          "firstAired": "2026-08-24T05:00:00.000Z",
+          "id": "tt26545992:1:2",
+          "name": "Trust Fall",
+          "number": 2,
+          "overview": "While John's middling errand ultimately proves eventful, Hal makes waves in Rushville - which only inspires him to dig deeper.",
+          "rating": 0,
+          "released": "2026-08-24T05:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt26545992/1/2/w780.jpg",
+          "tvdb_id": 11908188
+        },
+        {
+          "description": "After a lifetime of preparation, John finally gets his chance to interview for the Guardians.",
+          "episode": 3,
+          "firstAired": "2026-08-31T05:00:00.000Z",
+          "id": "tt26545992:1:3",
+          "name": "OutKast",
+          "number": 3,
+          "overview": "After a lifetime of preparation, John finally gets his chance to interview for the Guardians.",
+          "rating": 0,
+          "released": "2026-08-31T05:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt26545992/1/3/w780.jpg",
+          "tvdb_id": 11908189
+        },
+        {
+          "description": "John and Hal run their new plan to uncover the Manhunter past Sheriff Kane, as Hal's visit to Sinestro begins to have consequences.",
+          "episode": 4,
+          "firstAired": "2026-09-07T05:00:00.000Z",
+          "id": "tt26545992:1:4",
+          "name": "The Weenie",
+          "number": 4,
+          "overview": "John and Hal run their new plan to uncover the Manhunter past Sheriff Kane, as Hal's visit to Sinestro begins to have consequences.",
+          "rating": 0,
+          "released": "2026-09-07T05:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt26545992/1/4/w780.jpg",
+          "tvdb_id": 11908190
+        },
+        {
+          "description": "As Rushville braces for catastrophe, John is forced into an impossible position, while Hal risks everything to take down the Manhunter.",
+          "episode": 5,
+          "firstAired": "2026-09-14T05:00:00.000Z",
+          "id": "tt26545992:1:5",
+          "name": "Lights Out",
+          "number": 5,
+          "overview": "As Rushville braces for catastrophe, John is forced into an impossible position, while Hal risks everything to take down the Manhunter.",
+          "rating": 0,
+          "released": "2026-09-14T05:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt26545992/1/5/w780.jpg",
+          "tvdb_id": 11908191
+        },
+        {
+          "description": "As John tries to move forward, the mysteries of Rushville refuse to let him go.",
+          "episode": 6,
+          "firstAired": "2026-09-21T05:00:00.000Z",
+          "id": "tt26545992:1:6",
+          "name": "Bad Optics",
+          "number": 6,
+          "overview": "As John tries to move forward, the mysteries of Rushville refuse to let him go.",
+          "rating": 0,
+          "released": "2026-09-21T05:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt26545992/1/6/w780.jpg",
+          "tvdb_id": 11908192
+        },
+        {
+          "description": "John and Hal reluctantly team up to solve a pressing murder – and find themselves on another planet.",
+          "episode": 7,
+          "firstAired": "2026-09-28T05:00:00.000Z",
+          "id": "tt26545992:1:7",
+          "name": "The Jordan Boys' Legacy",
+          "number": 7,
+          "overview": "John and Hal reluctantly team up to solve a pressing murder – and find themselves on another planet.",
+          "rating": 0,
+          "released": "2026-09-28T05:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt26545992/1/7/w780.jpg",
+          "tvdb_id": 11908193
+        },
+        {
+          "description": "As John and Hal draw closer to the truth, John comes to an unexpected understanding with Sheriff Kane... just as a chilling new discovery emerges.",
+          "episode": 8,
+          "firstAired": "2026-10-05T05:00:00.000Z",
+          "id": "tt26545992:1:8",
+          "name": "Dirt and Stars",
+          "number": 8,
+          "overview": "As John and Hal draw closer to the truth, John comes to an unexpected understanding with Sheriff Kane... just as a chilling new discovery emerges.",
+          "rating": 0,
+          "released": "2026-10-05T05:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt26545992/1/8/w780.jpg",
+          "tvdb_id": 11908194
+        }
+      ],
+      "writer": [
+        "Tom King",
+        "Damon Lindelof",
+        "Chris Mundy"
+      ],
+      "year": "2026–"
+    },
+    {
+      "awards": "Won 13 Primetime Emmys. 75 wins & 213 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt10986410/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Jason Sudeikis",
+        "Hannah Waddingham",
+        "Jeremy Swift"
+      ],
+      "country": "United States, United Kingdom",
+      "description": "American college football coach Ted Lasso is hired to manage AFC Richmond, a struggling English soccer club, and must win over skeptical players, staff, and fans.",
+      "director": [],
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Sport"
+      ],
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Sport"
+      ],
+      "id": "tt10986410",
+      "imdbRating": "8.7",
+      "imdb_id": "tt10986410",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.7",
+          "url": "https://imdb.com/title/tt10986410"
+        },
+        {
+          "category": "share",
+          "name": "Ted Lasso",
+          "url": "https://www.strem.io/s/series/ted-lasso-10986410"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Comedy"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Sport",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Sport"
+        },
+        {
+          "category": "Cast",
+          "name": "Jason Sudeikis",
+          "url": "stremio:///search?search=Jason%20Sudeikis"
+        },
+        {
+          "category": "Cast",
+          "name": "Hannah Waddingham",
+          "url": "stremio:///search?search=Hannah%20Waddingham"
+        },
+        {
+          "category": "Cast",
+          "name": "Jeremy Swift",
+          "url": "stremio:///search?search=Jeremy%20Swift"
+        },
+        {
+          "category": "Writers",
+          "name": "Jason Sudeikis",
+          "url": "stremio:///search?search=Jason%20Sudeikis"
+        },
+        {
+          "category": "Writers",
+          "name": "Brendan Hunt",
+          "url": "stremio:///search?search=Brendan%20Hunt"
+        },
+        {
+          "category": "Writers",
+          "name": "Joe Kelly",
+          "url": "stremio:///search?search=Joe%20Kelly"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt10986410/img",
+      "moviedb_id": 97546,
+      "name": "Ted Lasso",
+      "popularities": {
+        "moviedb": 265.0335,
+        "stremio": 8.83445,
+        "stremio_lib": 0,
+        "trakt": 4600
+      },
+      "popularity": 8.83445,
+      "poster": "https://images.metahub.space/poster/small/tt10986410/img",
+      "releaseInfo": "2020–",
+      "released": "2020-08-14T00:00:00.000Z",
+      "runtime": "43 min",
+      "slug": "series/ted-lasso-10986410",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "Ted Lasso",
+          "ytId": "BwPcMIDFVKw"
+        },
+        {
+          "title": "Ted Lasso",
+          "ytId": "3u7EIiohs6U"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "BwPcMIDFVKw",
+          "type": "Trailer"
+        },
+        {
+          "source": "3u7EIiohs6U",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 383203,
+      "type": "series",
+      "videos": [
+        {
+          "description": "Richmond adjust to an exciting change, but Jamie has reservations. Ted learns there's something new going on back in Kansas as well.",
+          "episode": 3,
+          "firstAired": "2023-03-29T08:00:00.000Z",
+          "id": "tt10986410:3:3",
+          "name": "4-5-1",
+          "number": 3,
+          "overview": "Richmond adjust to an exciting change, but Jamie has reservations. Ted learns there's something new going on back in Kansas as well.",
+          "rating": 0,
+          "released": "2023-03-29T08:00:00.000Z",
+          "season": 3,
+          "thumbnail": "https://episodes.metahub.space/tt10986410/3/3/w780.jpg",
+          "tvdb_id": 9618353
+        },
+        {
+          "description": "Everyone's feeling the pressure as Richmond gear up to play West Ham. Ted is reunited with an old friend.",
+          "episode": 4,
+          "firstAired": "2023-04-05T08:00:00.000Z",
+          "id": "tt10986410:3:4",
+          "name": "Big Week",
+          "number": 4,
+          "overview": "Everyone's feeling the pressure as Richmond gear up to play West Ham. Ted is reunited with an old friend.",
+          "rating": 0,
+          "released": "2023-04-05T08:00:00.000Z",
+          "season": 3,
+          "thumbnail": "https://episodes.metahub.space/tt10986410/3/4/w780.jpg",
+          "tvdb_id": 9618354
+        },
+        {
+          "description": "With their season in a tailspin, Richmond try to right the ship against mighty Manchester City. Off the pitch, everyone faces their own setbacks.",
+          "episode": 5,
+          "firstAired": "2023-04-12T08:00:00.000Z",
+          "id": "tt10986410:3:5",
+          "name": "Signs",
+          "number": 5,
+          "overview": "With their season in a tailspin, Richmond try to right the ship against mighty Manchester City. Off the pitch, everyone faces their own setbacks.",
+          "rating": 0,
+          "released": "2023-04-12T08:00:00.000Z",
+          "season": 3,
+          "thumbnail": "https://episodes.metahub.space/tt10986410/3/5/w780.jpg",
+          "tvdb_id": 9618355
+        },
+        {
+          "description": "A friendly match takes the team to Amsterdam, where one night out unlocks truths for many.",
+          "episode": 6,
+          "firstAired": "2023-04-19T08:00:00.000Z",
+          "id": "tt10986410:3:6",
+          "name": "Sunflowers",
+          "number": 6,
+          "overview": "A friendly match takes the team to Amsterdam, where one night out unlocks truths for many.",
+          "rating": 0,
+          "released": "2023-04-19T08:00:00.000Z",
+          "season": 3,
+          "thumbnail": "https://episodes.metahub.space/tt10986410/3/6/w780.jpg",
+          "tvdb_id": 9618356
+        },
+        {
+          "description": "The Greyhounds try a new strategy that has everyone thinking outside the box. Sam prepares to host a VIP guest at Ola's.",
+          "episode": 7,
+          "firstAired": "2023-04-26T08:00:00.000Z",
+          "id": "tt10986410:3:7",
+          "name": "The Strings That Bind Us",
+          "number": 7,
+          "overview": "The Greyhounds try a new strategy that has everyone thinking outside the box. Sam prepares to host a VIP guest at Ola's.",
+          "rating": 0,
+          "released": "2023-04-26T08:00:00.000Z",
+          "season": 3,
+          "thumbnail": "https://episodes.metahub.space/tt10986410/3/7/w780.jpg",
+          "tvdb_id": 9618357
+        },
+        {
+          "description": "While watching Henry, Ted fights the urge to spiral when Michelle and Dr. Jacob go on a romantic trip. An online leak has massive implications for Keeley.",
+          "episode": 8,
+          "firstAired": "2023-05-03T08:00:00.000Z",
+          "id": "tt10986410:3:8",
+          "name": "We’ll Never Have Paris",
+          "number": 8,
+          "overview": "While watching Henry, Ted fights the urge to spiral when Michelle and Dr. Jacob go on a romantic trip. An online leak has massive implications for Keeley.",
+          "rating": 0,
+          "released": "2023-05-03T08:00:00.000Z",
+          "season": 3,
+          "thumbnail": "https://episodes.metahub.space/tt10986410/3/8/w780.jpg",
+          "tvdb_id": 9618358
+        },
+        {
+          "description": "Colin and Isaac's friendship is tested. Roy is asked to do a press conference.",
+          "episode": 9,
+          "firstAired": "2023-05-10T08:00:00.000Z",
+          "id": "tt10986410:3:9",
+          "name": "La Locker Room Aux Folles",
+          "number": 9,
+          "overview": "Colin and Isaac's friendship is tested. Roy is asked to do a press conference.",
+          "rating": 0,
+          "released": "2023-05-10T08:00:00.000Z",
+          "season": 3,
+          "thumbnail": "https://episodes.metahub.space/tt10986410/3/9/w780.jpg",
+          "tvdb_id": 9618359
+        },
+        {
+          "description": "While some of the Greyhounds head home to play for their countries in international matches, Edwin Akufo brings a business proposal to Rebecca.",
+          "episode": 10,
+          "firstAired": "2023-05-17T08:00:00.000Z",
+          "id": "tt10986410:3:10",
+          "name": "International Break",
+          "number": 10,
+          "overview": "While some of the Greyhounds head home to play for their countries in international matches, Edwin Akufo brings a business proposal to Rebecca.",
+          "rating": 0,
+          "released": "2023-05-17T08:00:00.000Z",
+          "season": 3,
+          "thumbnail": "https://episodes.metahub.space/tt10986410/3/10/w780.jpg",
+          "tvdb_id": 9618360
+        },
+        {
+          "description": "An unexpected guest has Ted on edge. When Richmond travel to Manchester for a big match, Roy and Keeley become concerned about Jamie.",
+          "episode": 11,
+          "firstAired": "2023-05-24T08:00:00.000Z",
+          "id": "tt10986410:3:11",
+          "name": "Mom City",
+          "number": 11,
+          "overview": "An unexpected guest has Ted on edge. When Richmond travel to Manchester for a big match, Roy and Keeley become concerned about Jamie.",
+          "rating": 0,
+          "released": "2023-05-24T08:00:00.000Z",
+          "season": 3,
+          "thumbnail": "https://episodes.metahub.space/tt10986410/3/11/w780.jpg",
+          "tvdb_id": 9618361
+        },
+        {
+          "description": "AFC Richmond play their final match of the season.",
+          "episode": 12,
+          "firstAired": "2023-05-31T08:00:00.000Z",
+          "id": "tt10986410:3:12",
+          "name": "So Long, Farewell",
+          "number": 12,
+          "overview": "AFC Richmond play their final match of the season.",
+          "rating": 0,
+          "released": "2023-05-31T08:00:00.000Z",
+          "season": 3,
+          "thumbnail": "https://episodes.metahub.space/tt10986410/3/12/w780.jpg",
+          "tvdb_id": 9618362
+        }
+      ],
+      "writer": [
+        "Jason Sudeikis",
+        "Brendan Hunt",
+        "Joe Kelly"
+      ],
+      "year": "2020–"
+    },
+    {
+      "awards": "Nominated for 1 BAFTA Award. 8 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt31510819/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Tom Hardy",
+        "Pierce Brosnan",
+        "Paddy Considine"
+      ],
+      "country": "United Kingdom, United States",
+      "description": "Power is up for grabs as two warring crime families clash in a battle that threatens to topple empires. In the crossfire stands Harry Da Souza, a street-smart 'fixer' who knows too well where loyalties lie when opposing forces col...",
+      "director": null,
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "id": "tt31510819",
+      "imdbRating": "8.3",
+      "imdb_id": "tt31510819",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.3",
+          "url": "https://imdb.com/title/tt31510819"
+        },
+        {
+          "category": "share",
+          "name": "MobLand",
+          "url": "https://www.strem.io/s/series/mobland-31510819"
+        },
+        {
+          "category": "Genres",
+          "name": "Crime",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Crime"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Cast",
+          "name": "Tom Hardy",
+          "url": "stremio:///search?search=Tom%20Hardy"
+        },
+        {
+          "category": "Cast",
+          "name": "Pierce Brosnan",
+          "url": "stremio:///search?search=Pierce%20Brosnan"
+        },
+        {
+          "category": "Cast",
+          "name": "Paddy Considine",
+          "url": "stremio:///search?search=Paddy%20Considine"
+        },
+        {
+          "category": "Writers",
+          "name": "Ronan Bennett",
+          "url": "stremio:///search?search=Ronan%20Bennett"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt31510819/img",
+      "moviedb_id": 247718,
+      "name": "MobLand",
+      "popularities": {
+        "moviedb": 316.9988,
+        "stremio": 10.566626666666668,
+        "stremio_lib": 0,
+        "trakt": 3970
+      },
+      "popularity": 10.566626666666668,
+      "poster": "https://images.metahub.space/poster/small/tt31510819/img",
+      "releaseInfo": "2025–",
+      "released": "2025-03-30T00:00:00.000Z",
+      "runtime": "47 min",
+      "slug": "series/mobland-31510819",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "MobLand",
+          "ytId": "qKGgw7Ob5f4"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "qKGgw7Ob5f4",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 446831,
+      "type": "series",
+      "videos": [
+        {
+          "description": "Harry Da Souza is called upon to make a problem disappear after a night out goes awry for the sons of two warring crime families. As boss Richie Stevenson looks to pin blame, patriarch Conrad Harrigan gathers his clan with a plan.",
+          "episode": 1,
+          "firstAired": "2025-03-30T03:00:00.000Z",
+          "id": "tt31510819:1:1",
+          "name": "Stick or Twist",
+          "number": 1,
+          "overview": "Harry Da Souza is called upon to make a problem disappear after a night out goes awry for the sons of two warring crime families. As boss Richie Stevenson looks to pin blame, patriarch Conrad Harrigan gathers his clan with a plan.",
+          "rating": 0,
+          "released": "2025-03-30T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt31510819/1/1/w780.jpg",
+          "tvdb_id": 10345021
+        },
+        {
+          "description": "Harry deals with the aftermath of the Harrigan family meeting as Jan wonders what's the final straw. Kevin scurries Eddie out of London after a threat from Richie. Maeve shows her hand to Conrad. Chasing a lead, Harry makes a startling discovery.",
+          "episode": 2,
+          "firstAired": "2025-04-06T03:00:00.000Z",
+          "id": "tt31510819:1:2",
+          "name": "Jigsaw Puzzle",
+          "number": 2,
+          "overview": "Harry deals with the aftermath of the Harrigan family meeting as Jan wonders what's the final straw. Kevin scurries Eddie out of London after a threat from Richie. Maeve shows her hand to Conrad. Chasing a lead, Harry makes a startling discovery.",
+          "rating": 0,
+          "released": "2025-04-06T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt31510819/1/2/w780.jpg",
+          "tvdb_id": 10987394
+        },
+        {
+          "description": "Richie makes his move, putting the Harrigans on high alert. Conrad and Maeve lock horns over Eddie but agree on a plan B. As Kevin prepares for all-out war, Harry kills two birds with one stone, and an anonymous tip leads Fisk to the cemetery.",
+          "episode": 3,
+          "firstAired": "2025-04-13T03:00:00.000Z",
+          "id": "tt31510819:1:3",
+          "name": "Plan B",
+          "number": 3,
+          "overview": "Richie makes his move, putting the Harrigans on high alert. Conrad and Maeve lock horns over Eddie but agree on a plan B. As Kevin prepares for all-out war, Harry kills two birds with one stone, and an anonymous tip leads Fisk to the cemetery.",
+          "rating": 0,
+          "released": "2025-04-13T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt31510819/1/3/w780.jpg",
+          "tvdb_id": 10987395
+        },
+        {
+          "description": "Harry pays a visit to Antoine at the urging of Bella. Fisk and Mukasa trade theories. Suspecting a rat, Conrad comes to Jan for a favor. Kevin makes a startling confession. Richie calls a midnight meeting at the Sinful Monkey with shocking results.",
+          "episode": 4,
+          "firstAired": "2025-04-20T03:00:00.000Z",
+          "id": "tt31510819:1:4",
+          "name": "Rat Trap",
+          "number": 4,
+          "overview": "Harry pays a visit to Antoine at the urging of Bella. Fisk and Mukasa trade theories. Suspecting a rat, Conrad comes to Jan for a favor. Kevin makes a startling confession. Richie calls a midnight meeting at the Sinful Monkey with shocking results.",
+          "rating": 0,
+          "released": "2025-04-20T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt31510819/1/4/w780.jpg",
+          "tvdb_id": 10987396
+        },
+        {
+          "description": "Kevin and Harry assess scenarios in a search for insurance and an exit strategy. Looking for a way back in, Brendan approaches Seraphina. Left to their own devices, Bella and Jan commiserate. Richie makes a proposal. Maeve, in her element, strikes.",
+          "episode": 5,
+          "firstAired": "2025-04-27T03:00:00.000Z",
+          "id": "tt31510819:1:5",
+          "name": "Funeral for a Friend",
+          "number": 5,
+          "overview": "Kevin and Harry assess scenarios in a search for insurance and an exit strategy. Looking for a way back in, Brendan approaches Seraphina. Left to their own devices, Bella and Jan commiserate. Richie makes a proposal. Maeve, in her element, strikes.",
+          "rating": 0,
+          "released": "2025-04-27T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt31510819/1/5/w780.jpg",
+          "tvdb_id": 10987397
+        },
+        {
+          "description": "In the aftermath of Plan B, Conrad twists the knife and Fisk has a realization: this is war. Maeve gives Eddie a lesson in the art of chess. Richie takes the bait. Harry goes searching for Seraphina and Brendan, who've gone rogue.",
+          "episode": 6,
+          "firstAired": "2025-05-04T03:00:00.000Z",
+          "id": "tt31510819:1:6",
+          "name": "Antwerp Blues",
+          "number": 6,
+          "overview": "In the aftermath of Plan B, Conrad twists the knife and Fisk has a realization: this is war. Maeve gives Eddie a lesson in the art of chess. Richie takes the bait. Harry goes searching for Seraphina and Brendan, who've gone rogue.",
+          "rating": 0,
+          "released": "2025-05-04T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt31510819/1/6/w780.jpg",
+          "tvdb_id": 10987398
+        },
+        {
+          "description": "O'Hara points out the elephant in the room. Harry takes extreme measures.",
+          "episode": 7,
+          "firstAired": "2025-05-11T03:00:00.000Z",
+          "id": "tt31510819:1:7",
+          "name": "The Crossroads",
+          "number": 7,
+          "overview": "O'Hara points out the elephant in the room. Harry takes extreme measures.",
+          "rating": 0,
+          "released": "2025-05-11T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt31510819/1/7/w780.jpg",
+          "tvdb_id": 10987399
+        },
+        {
+          "description": "Maeve extends an olive branch. Kevin questions the wisdom of a sit down with Jaime. Tattersall offers Fisk and Mukasa a new point of entry. Harry comes to Kat for a favor as Richie, at the Sinful Monkey, contemplates a new affiliation.",
+          "episode": 8,
+          "firstAired": "2025-05-18T03:00:00.000Z",
+          "id": "tt31510819:1:8",
+          "name": "Helter Skelter",
+          "number": 8,
+          "overview": "Maeve extends an olive branch. Kevin questions the wisdom of a sit down with Jaime. Tattersall offers Fisk and Mukasa a new point of entry. Harry comes to Kat for a favor as Richie, at the Sinful Monkey, contemplates a new affiliation.",
+          "rating": 0,
+          "released": "2025-05-18T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt31510819/1/8/w780.jpg",
+          "tvdb_id": 10987400
+        },
+        {
+          "description": "Bella, trying to salvage her plan with Antoine, does a runner down to London. Tattersall gets Alice's tootsies tapping. Conrad clears the air at The Falkland Arms. Kevin confronts his past. The Harrigans sit down for a normal family dinner.",
+          "episode": 9,
+          "firstAired": "2025-05-25T03:00:00.000Z",
+          "id": "tt31510819:1:9",
+          "name": "Beggars Banquet",
+          "number": 9,
+          "overview": "Bella, trying to salvage her plan with Antoine, does a runner down to London. Tattersall gets Alice's tootsies tapping. Conrad clears the air at The Falkland Arms. Kevin confronts his past. The Harrigans sit down for a normal family dinner.",
+          "rating": 0,
+          "released": "2025-05-25T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt31510819/1/9/w780.jpg",
+          "tvdb_id": 10987401
+        },
+        {
+          "description": "Power is up for grabs as two warring crime families clash in a battle that threatens to topple empires and ruin lives. In the crossfire stands Harry Da Souza, a street-smart 'fixer' who knows too well where loyalties lie when opposing forces collide.",
+          "episode": 10,
+          "firstAired": "2025-06-01T03:00:00.000Z",
+          "id": "tt31510819:1:10",
+          "name": "The Beast in Me",
+          "number": 10,
+          "overview": "Power is up for grabs as two warring crime families clash in a battle that threatens to topple empires and ruin lives. In the crossfire stands Harry Da Souza, a street-smart 'fixer' who knows too well where loyalties lie when opposing forces collide.",
+          "rating": 0,
+          "released": "2025-06-01T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt31510819/1/10/w780.jpg",
+          "tvdb_id": 10987402
+        }
+      ],
+      "writer": [
+        "Ronan Bennett"
+      ],
+      "year": "2025–"
+    },
+    {
+      "awards": "Won 3 Primetime Emmys. 20 wins & 125 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt5875444/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Gary Oldman",
+        "Jack Lowden",
+        "Kristin Scott Thomas"
+      ],
+      "country": "United Kingdom, United States",
+      "description": "A dysfunctional team of MI5 agents navigate the espionage world's smoke and mirrors to defend the UK from sinister forces.",
+      "director": [],
+      "genre": [
+        "Drama",
+        "Thriller"
+      ],
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "id": "tt5875444",
+      "imdbRating": "8.4",
+      "imdb_id": "tt5875444",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.4",
+          "url": "https://imdb.com/title/tt5875444"
+        },
+        {
+          "category": "share",
+          "name": "Slow Horses",
+          "url": "https://www.strem.io/s/series/slow-horses-5875444"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Thriller",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Thriller"
+        },
+        {
+          "category": "Cast",
+          "name": "Gary Oldman",
+          "url": "stremio:///search?search=Gary%20Oldman"
+        },
+        {
+          "category": "Cast",
+          "name": "Jack Lowden",
+          "url": "stremio:///search?search=Jack%20Lowden"
+        },
+        {
+          "category": "Cast",
+          "name": "Kristin Scott Thomas",
+          "url": "stremio:///search?search=Kristin%20Scott%20Thomas"
+        },
+        {
+          "category": "Writers",
+          "name": "Mick Herron",
+          "url": "stremio:///search?search=Mick%20Herron"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt5875444/img",
+      "moviedb_id": 95480,
+      "name": "Slow Horses",
+      "popularities": {
+        "moviedb": 210.4856,
+        "stremio": 7.016186666666667,
+        "stremio_lib": 0,
+        "trakt": 2936
+      },
+      "popularity": 7.016186666666667,
+      "poster": "https://images.metahub.space/poster/small/tt5875444/img",
+      "releaseInfo": "2022–",
+      "released": "2022-04-01T00:00:00.000Z",
+      "runtime": "46 min",
+      "slug": "series/slow-horses-5875444",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "Slow Horses",
+          "ytId": "O9ZJChzPn0U"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "O9ZJChzPn0U",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 372264,
+      "type": "series",
+      "videos": [
+        {
+          "description": "Tearney makes a bold move. The Slow Horses assist the Tiger Team, unaware of their hidden agenda. Lamb and Ho take a road trip.",
+          "episode": 4,
+          "firstAired": "2023-12-13T00:00:00.000Z",
+          "id": "tt5875444:3:4",
+          "name": "Uninvited Guests",
+          "number": 4,
+          "overview": "Tearney makes a bold move. The Slow Horses assist the Tiger Team, unaware of their hidden agenda. Lamb and Ho take a road trip.",
+          "rating": 0,
+          "released": "2023-12-13T00:00:00.000Z",
+          "season": 3,
+          "thumbnail": "https://episodes.metahub.space/tt5875444/3/4/w780.jpg",
+          "tvdb_id": 10038533
+        },
+        {
+          "description": "Taverner and Tearney face off for control of MI5. River and Louisa find themselves caught in the crossfire.",
+          "episode": 5,
+          "firstAired": "2023-12-20T00:00:00.000Z",
+          "id": "tt5875444:3:5",
+          "name": "Cleaning Up",
+          "number": 5,
+          "overview": "Taverner and Tearney face off for control of MI5. River and Louisa find themselves caught in the crossfire.",
+          "rating": 0,
+          "released": "2023-12-20T00:00:00.000Z",
+          "season": 3,
+          "thumbnail": "https://episodes.metahub.space/tt5875444/3/5/w780.jpg",
+          "tvdb_id": 10038534
+        },
+        {
+          "description": "The Slow Horses fight for their lives. Lamb shares some devastating truths with Catherine.",
+          "episode": 6,
+          "firstAired": "2023-12-27T00:00:00.000Z",
+          "id": "tt5875444:3:6",
+          "name": "Footprints",
+          "number": 6,
+          "overview": "The Slow Horses fight for their lives. Lamb shares some devastating truths with Catherine.",
+          "rating": 0,
+          "released": "2023-12-27T00:00:00.000Z",
+          "season": 3,
+          "thumbnail": "https://episodes.metahub.space/tt5875444/3/6/w780.jpg",
+          "tvdb_id": 10038535
+        },
+        {
+          "description": "A London bombing puts Taverner under pressure. When River grows concerned for his grandfather, Louisa encourages him to go for a visit.",
+          "episode": 1,
+          "firstAired": "2024-09-04T00:00:00.000Z",
+          "id": "tt5875444:4:1",
+          "name": "Identity Theft",
+          "number": 1,
+          "overview": "A London bombing puts Taverner under pressure. When River grows concerned for his grandfather, Louisa encourages him to go for a visit.",
+          "rating": 0,
+          "released": "2024-09-04T00:00:00.000Z",
+          "season": 4,
+          "thumbnail": "https://episodes.metahub.space/tt5875444/4/1/w780.jpg",
+          "tvdb_id": 10226547
+        },
+        {
+          "description": "A naïve agent makes a discovery about the Westacres bomber. Lamb suspects that David knows more than he’s letting on.",
+          "episode": 2,
+          "firstAired": "2024-09-11T00:00:00.000Z",
+          "id": "tt5875444:4:2",
+          "name": "A Stranger Comes to Town",
+          "number": 2,
+          "overview": "A naïve agent makes a discovery about the Westacres bomber. Lamb suspects that David knows more than he’s letting on.",
+          "rating": 0,
+          "released": "2024-09-11T00:00:00.000Z",
+          "season": 4,
+          "thumbnail": "https://episodes.metahub.space/tt5875444/4/2/w780.jpg",
+          "tvdb_id": 10565102
+        },
+        {
+          "description": "River is trapped in France. Back at Slough House, the Dogs have come for Lamb.",
+          "episode": 3,
+          "firstAired": "2024-09-18T00:00:00.000Z",
+          "id": "tt5875444:4:3",
+          "name": "Penny for Your Thoughts",
+          "number": 3,
+          "overview": "River is trapped in France. Back at Slough House, the Dogs have come for Lamb.",
+          "rating": 0,
+          "released": "2024-09-18T00:00:00.000Z",
+          "season": 4,
+          "thumbnail": "https://episodes.metahub.space/tt5875444/4/3/w780.jpg",
+          "tvdb_id": 10585999
+        },
+        {
+          "description": "Taverner is desperate to hide dangerous secrets. River seeks answers at his grandfather’s house.",
+          "episode": 4,
+          "firstAired": "2024-09-25T00:00:00.000Z",
+          "id": "tt5875444:4:4",
+          "name": "Returns",
+          "number": 4,
+          "overview": "Taverner is desperate to hide dangerous secrets. River seeks answers at his grandfather’s house.",
+          "rating": 0,
+          "released": "2024-09-25T00:00:00.000Z",
+          "season": 4,
+          "thumbnail": "https://episodes.metahub.space/tt5875444/4/4/w780.jpg",
+          "tvdb_id": 10586000
+        },
+        {
+          "description": "Lamb questions David about France as River comes face to face with the enemy.",
+          "episode": 5,
+          "firstAired": "2024-10-02T00:00:00.000Z",
+          "id": "tt5875444:4:5",
+          "name": "Grave Danger",
+          "number": 5,
+          "overview": "Lamb questions David about France as River comes face to face with the enemy.",
+          "rating": 0,
+          "released": "2024-10-02T00:00:00.000Z",
+          "season": 4,
+          "thumbnail": "https://episodes.metahub.space/tt5875444/4/5/w780.jpg",
+          "tvdb_id": 10586001
+        },
+        {
+          "description": "Impossible decisions are faced and sacrifices are made.",
+          "episode": 6,
+          "firstAired": "2024-10-09T00:00:00.000Z",
+          "id": "tt5875444:4:6",
+          "name": "Hello Goodbye",
+          "number": 6,
+          "overview": "Impossible decisions are faced and sacrifices are made.",
+          "rating": 0,
+          "released": "2024-10-09T00:00:00.000Z",
+          "season": 4,
+          "thumbnail": "https://episodes.metahub.space/tt5875444/4/6/w780.jpg",
+          "tvdb_id": 10586002
+        },
+        {
+          "description": "A mass shooting rocks London, intensifying a testy mayoral race. Shirley believes one of the Slow Horses was the target of an attempted hit.",
+          "episode": 1,
+          "firstAired": "2025-09-24T00:00:00.000Z",
+          "id": "tt5875444:5:1",
+          "name": "Bad Dates",
+          "number": 1,
+          "overview": "A mass shooting rocks London, intensifying a testy mayoral race. Shirley believes one of the Slow Horses was the target of an attempted hit.",
+          "rating": 0,
+          "released": "2025-09-24T00:00:00.000Z",
+          "season": 5,
+          "thumbnail": "https://episodes.metahub.space/tt5875444/5/1/w780.jpg",
+          "tvdb_id": 11175982
+        }
+      ],
+      "writer": [
+        "Mick Herron"
+      ],
+      "year": "2022–"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt37972251/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [],
+      "country": "United Kingdom",
+      "director": [],
+      "genre": [
+        "Drama",
+        "Thriller"
+      ],
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "id": "tt37972251",
+      "imdbRating": "",
+      "imdb_id": "tt37972251",
+      "links": [
+        {
+          "category": "share",
+          "name": "War",
+          "url": "https://www.strem.io/s/series/war-37972251"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Thriller",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Thriller"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt37972251/img",
+      "moviedb_id": 298852,
+      "name": "War",
+      "popularities": {
+        "moviedb": 53.1496,
+        "stremio": 1.7716533333333333,
+        "stremio_lib": 0,
+        "trakt": 553
+      },
+      "popularity": 1.7716533333333333,
+      "poster": "https://images.metahub.space/poster/small/tt37972251/img",
+      "releaseInfo": "2025–",
+      "released": null,
+      "runtime": "53 min",
+      "slug": "series/war-37972251",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "War",
+          "ytId": "3pJGKhUxuNM"
+        },
+        {
+          "title": "War",
+          "ytId": "ZybkHGaoPvQ"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "3pJGKhUxuNM",
+          "type": "Trailer"
+        },
+        {
+          "source": "ZybkHGaoPvQ",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 467092,
+      "type": "series",
+      "videos": [
+        {
+          "description": "As Morgan and Carla's 10-year marriage hurtles toward divorce, their respective attorneys begin to ramp up their war rooms.",
+          "episode": 1,
+          "firstAired": "2026-10-01T02:00:00.000Z",
+          "id": "tt37972251:1:1",
+          "name": "It's Done",
+          "number": 1,
+          "overview": "As Morgan and Carla's 10-year marriage hurtles toward divorce, their respective attorneys begin to ramp up their war rooms.",
+          "rating": 0,
+          "released": "2026-10-01T02:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt37972251/1/1/w780.jpg",
+          "tvdb_id": 11297044
+        },
+        {
+          "description": "As Johnny starts his first day, each team attempts to gain the upper hand during mediation. Later, Serena tries to control the narrative.",
+          "episode": 2,
+          "firstAired": "2026-10-08T02:00:00.000Z",
+          "id": "tt37972251:1:2",
+          "name": "No More Nasty Surprises",
+          "number": 2,
+          "overview": "As Johnny starts his first day, each team attempts to gain the upper hand during mediation. Later, Serena tries to control the narrative.",
+          "rating": 0,
+          "released": "2026-10-08T02:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt37972251/1/2/w780.jpg",
+          "tvdb_id": 11913354
+        },
+        {
+          "description": "With the prenup thrown into question, Morgan's relationship with his stepson, Gabe, becomes central to both firms' plans.",
+          "episode": 3,
+          "firstAired": "2026-10-15T02:00:00.000Z",
+          "id": "tt37972251:1:3",
+          "name": "Chip Off the Block",
+          "number": 3,
+          "overview": "With the prenup thrown into question, Morgan's relationship with his stepson, Gabe, becomes central to both firms' plans.",
+          "rating": 0,
+          "released": "2026-10-15T02:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt37972251/1/3/w780.jpg",
+          "tvdb_id": 11913355
+        }
+      ],
+      "writer": [],
+      "year": "2025–"
+    },
+    {
+      "awards": "Won 17 Primetime Emmys. 132 wins & 413 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt1844624/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Lady Gaga",
+        "Kathy Bates",
+        "Angela Bassett"
+      ],
+      "country": "United States",
+      "description": "An anthology horror drama series centering on different characters and locations, showcasing different aspects of horror. Created and produced by Ryan Murphy and Brad Falchuk.",
+      "director": null,
+      "dvdRelease": null,
+      "genre": [
+        "Drama",
+        "Horror",
+        "Sci-Fi"
+      ],
+      "genres": [
+        "Drama",
+        "Horror",
+        "Sci-Fi"
+      ],
+      "id": "tt1844624",
+      "imdbRating": "7.9",
+      "imdb_id": "tt1844624",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.9",
+          "url": "https://imdb.com/title/tt1844624"
+        },
+        {
+          "category": "share",
+          "name": "American Horror Story",
+          "url": "https://www.strem.io/s/series/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Horror",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Horror"
+        },
+        {
+          "category": "Genres",
+          "name": "Sci-Fi",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Sci-Fi"
+        },
+        {
+          "category": "Cast",
+          "name": "Lady Gaga",
+          "url": "stremio:///search?search=Lady%20Gaga"
+        },
+        {
+          "category": "Cast",
+          "name": "Kathy Bates",
+          "url": "stremio:///search?search=Kathy%20Bates"
+        },
+        {
+          "category": "Cast",
+          "name": "Angela Bassett",
+          "url": "stremio:///search?search=Angela%20Bassett"
+        },
+        {
+          "category": "Writers",
+          "name": "Brad Falchuk",
+          "url": "stremio:///search?search=Brad%20Falchuk"
+        },
+        {
+          "category": "Writers",
+          "name": "Ryan Murphy",
+          "url": "stremio:///search?search=Ryan%20Murphy"
+        },
+        {
+          "category": "Writers",
+          "name": "Halley Feiffer",
+          "url": "stremio:///search?search=Halley%20Feiffer"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt1844624/img",
+      "moviedb_id": 1413,
+      "name": "American Horror Story",
+      "popularities": {
+        "ALLIANCE": 0,
+        "EJD": 0,
+        "EXMD": 0,
+        "PXS_TEST": 0,
+        "SCM": 38.5,
+        "moviedb": 199.5107,
+        "stremio": 6.650356666666667,
+        "stremio_lib": 0,
+        "trakt": 1900
+      },
+      "popularity": 6.650356666666667,
+      "poster": "https://images.metahub.space/poster/small/tt1844624/img",
+      "releaseInfo": "2011–",
+      "released": "2011-10-05T00:00:00.000Z",
+      "runtime": "44 min",
+      "slug": "series/american-horror-story-1844624",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "American Horror Story",
+          "ytId": "nLJR2twdK00"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "nLJR2twdK00",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 250487,
+      "type": "series",
+      "videos": [
+        {
+          "description": "Grief and peril dominate Gino; the discovery of a tragedy becomes a revelation for Adam.",
+          "episode": 10,
+          "firstAired": "2022-11-17T06:00:00.000Z",
+          "id": "tt1844624:11:10",
+          "name": "Requiem 1981/1987 (2)",
+          "number": 10,
+          "overview": "Grief and peril dominate Gino; the discovery of a tragedy becomes a revelation for Adam.",
+          "rating": 0,
+          "released": "2022-11-17T06:00:00.000Z",
+          "season": 11,
+          "thumbnail": "https://episodes.metahub.space/tt1844624/11/10/w780.jpg",
+          "tvdb_id": 9358541
+        },
+        {
+          "description": "After multiple failed attempts of IVF, actress Anna Victoria Alcott wants nothing more than to start a family. As the buzz around her recent film grows, she fears that something may be targeting her - and her pursuit of motherhood.",
+          "episode": 1,
+          "firstAired": "2023-09-21T06:00:00.000Z",
+          "id": "tt1844624:12:1",
+          "name": "Multiply Thy Pain",
+          "number": 1,
+          "overview": "After multiple failed attempts of IVF, actress Anna Victoria Alcott wants nothing more than to start a family. As the buzz around her recent film grows, she fears that something may be targeting her - and her pursuit of motherhood.",
+          "rating": 0,
+          "released": "2023-09-21T06:00:00.000Z",
+          "season": 12,
+          "thumbnail": "https://episodes.metahub.space/tt1844624/12/1/w780.jpg",
+          "tvdb_id": 9762394
+        },
+        {
+          "description": "It's awards season and Anna is primed to be a major player in contention. After a frightening encounter convinces her that she's being followed, she begins to question who she can trust.",
+          "episode": 2,
+          "firstAired": "2023-09-28T06:00:00.000Z",
+          "id": "tt1844624:12:2",
+          "name": "Rockabye",
+          "number": 2,
+          "overview": "It's awards season and Anna is primed to be a major player in contention. After a frightening encounter convinces her that she's being followed, she begins to question who she can trust.",
+          "rating": 0,
+          "released": "2023-09-28T06:00:00.000Z",
+          "season": 12,
+          "thumbnail": "https://episodes.metahub.space/tt1844624/12/2/w780.jpg",
+          "tvdb_id": 9762395
+        },
+        {
+          "description": "As Anna and Dex settle into their Hamptons sanctuary, the comfort begins to fade. Her circle of trust is slowly shrinking, and doubt creeps into Anna's head - could the evil be right under her nose?",
+          "episode": 3,
+          "firstAired": "2023-10-05T06:00:00.000Z",
+          "id": "tt1844624:12:3",
+          "name": "When The Bough Breaks",
+          "number": 3,
+          "overview": "As Anna and Dex settle into their Hamptons sanctuary, the comfort begins to fade. Her circle of trust is slowly shrinking, and doubt creeps into Anna's head - could the evil be right under her nose?",
+          "rating": 0,
+          "released": "2023-10-05T06:00:00.000Z",
+          "season": 12,
+          "thumbnail": "https://episodes.metahub.space/tt1844624/12/3/w780.jpg",
+          "tvdb_id": 9762396
+        },
+        {
+          "description": "With help from Siobhan, a major announcement helps restore Anna's public image. Behind closed doors however, something powerful seems to be taking over.",
+          "episode": 4,
+          "firstAired": "2023-10-12T06:00:00.000Z",
+          "id": "tt1844624:12:4",
+          "name": "Vanishing Twin",
+          "number": 4,
+          "overview": "With help from Siobhan, a major announcement helps restore Anna's public image. Behind closed doors however, something powerful seems to be taking over.",
+          "rating": 0,
+          "released": "2023-10-12T06:00:00.000Z",
+          "season": 12,
+          "thumbnail": "https://episodes.metahub.space/tt1844624/12/4/w780.jpg",
+          "tvdb_id": 9779710
+        },
+        {
+          "description": "Anna senses the dark presence closing in on her, closer than ever. Ms. Preecher reveals pieces of her past and may know the truth about what's happening to Anna and Dex.",
+          "episode": 5,
+          "firstAired": "2023-10-19T06:00:00.000Z",
+          "id": "tt1844624:12:5",
+          "name": "Preech",
+          "number": 5,
+          "overview": "Anna senses the dark presence closing in on her, closer than ever. Ms. Preecher reveals pieces of her past and may know the truth about what's happening to Anna and Dex.",
+          "rating": 0,
+          "released": "2023-10-19T06:00:00.000Z",
+          "season": 12,
+          "thumbnail": "https://episodes.metahub.space/tt1844624/12/5/w780.jpg",
+          "tvdb_id": 9779711
+        },
+        {
+          "description": "A glimpse into Anna's past reveals why she craves motherhood, while Dex's troubling family life is dragged into the spotlight.",
+          "episode": 6,
+          "firstAired": "2024-04-04T06:00:00.000Z",
+          "id": "tt1844624:12:6",
+          "name": "Opening Night",
+          "number": 6,
+          "overview": "A glimpse into Anna's past reveals why she craves motherhood, while Dex's troubling family life is dragged into the spotlight.",
+          "rating": 0,
+          "released": "2024-04-04T06:00:00.000Z",
+          "season": 12,
+          "thumbnail": "https://episodes.metahub.space/tt1844624/12/6/w780.jpg",
+          "tvdb_id": 9779712
+        },
+        {
+          "description": "Entrenched in her grapple for fame and motherhood, Anna may be involved in a cycle much bigger - and older - than she realizes.",
+          "episode": 7,
+          "firstAired": "2024-04-11T06:00:00.000Z",
+          "id": "tt1844624:12:7",
+          "name": "Ave Hestia",
+          "number": 7,
+          "overview": "Entrenched in her grapple for fame and motherhood, Anna may be involved in a cycle much bigger - and older - than she realizes.",
+          "rating": 0,
+          "released": "2024-04-11T06:00:00.000Z",
+          "season": 12,
+          "thumbnail": "https://episodes.metahub.space/tt1844624/12/7/w780.jpg",
+          "tvdb_id": 9779713
+        },
+        {
+          "description": "The world around Anna is starting to crescendo in every way: her career path continues to skyrocket, while her personal life is more stressful than ever - just in time for Hollywood's big night.",
+          "episode": 8,
+          "firstAired": "2024-04-18T06:00:00.000Z",
+          "id": "tt1844624:12:8",
+          "name": "Little Gold Man",
+          "number": 8,
+          "overview": "The world around Anna is starting to crescendo in every way: her career path continues to skyrocket, while her personal life is more stressful than ever - just in time for Hollywood's big night.",
+          "rating": 0,
+          "released": "2024-04-18T06:00:00.000Z",
+          "season": 12,
+          "thumbnail": "https://episodes.metahub.space/tt1844624/12/8/w780.jpg",
+          "tvdb_id": 10431094
+        },
+        {
+          "description": "Her choices have unknowingly led to deadly consequences, but Anna can still have it all - for a price.",
+          "episode": 9,
+          "firstAired": "2024-04-25T06:00:00.000Z",
+          "id": "tt1844624:12:9",
+          "name": "The Auteur",
+          "number": 9,
+          "overview": "Her choices have unknowingly led to deadly consequences, but Anna can still have it all - for a price.",
+          "rating": 0,
+          "released": "2024-04-25T06:00:00.000Z",
+          "season": 12,
+          "thumbnail": "https://episodes.metahub.space/tt1844624/12/9/w780.jpg",
+          "tvdb_id": 10431095
+        }
+      ],
+      "writer": [
+        "Brad Falchuk",
+        "Ryan Murphy",
+        "Halley Feiffer"
+      ],
+      "year": "2011–"
+    },
+    {
+      "awards": "Won 1 Primetime Emmy. 4 wins & 30 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt13210838/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Theo James",
+        "Kaya Scodelario",
+        "Joely Richardson"
+      ],
+      "country": "United Kingdom, United States",
+      "description": "When aristocratic Eddie inherits the family estate, he discovers that it's home to a huge weed empire, and its proprietors aren't going anywhere.",
+      "director": [],
+      "genre": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "id": "tt13210838",
+      "imdbRating": "8.0",
+      "imdb_id": "tt13210838",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.0",
+          "url": "https://imdb.com/title/tt13210838"
+        },
+        {
+          "category": "share",
+          "name": "The Gentlemen",
+          "url": "https://www.strem.io/s/series/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Action"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Comedy"
+        },
+        {
+          "category": "Genres",
+          "name": "Crime",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Crime"
+        },
+        {
+          "category": "Cast",
+          "name": "Theo James",
+          "url": "stremio:///search?search=Theo%20James"
+        },
+        {
+          "category": "Cast",
+          "name": "Kaya Scodelario",
+          "url": "stremio:///search?search=Kaya%20Scodelario"
+        },
+        {
+          "category": "Cast",
+          "name": "Joely Richardson",
+          "url": "stremio:///search?search=Joely%20Richardson"
+        },
+        {
+          "category": "Writers",
+          "name": "Guy Ritchie",
+          "url": "stremio:///search?search=Guy%20Ritchie"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt13210838/img",
+      "moviedb_id": 236235,
+      "name": "The Gentlemen",
+      "popularities": {
+        "moviedb": 90.6592,
+        "stremio": 3.0219733333333334,
+        "stremio_lib": 0,
+        "trakt": 1629
+      },
+      "popularity": 3.0219733333333334,
+      "poster": "https://images.metahub.space/poster/small/tt13210838/img",
+      "releaseInfo": "2024–",
+      "released": "2024-03-07T00:00:00.000Z",
+      "runtime": "53 min",
+      "slug": "series/the-gentlemen-13210838",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "The Gentlemen",
+          "ytId": "wyEOwHrpZH4"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "wyEOwHrpZH4",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 426845,
+      "type": "series",
+      "videos": [
+        {
+          "description": "When the Duke of Halstead dies, his second son inherits everything, including the title, house and grounds — plus a whole heap of trouble.",
+          "episode": 1,
+          "firstAired": "2024-03-07T08:00:00.000Z",
+          "id": "tt13210838:1:1",
+          "name": "Refined Aggression",
+          "number": 1,
+          "overview": "When the Duke of Halstead dies, his second son inherits everything, including the title, house and grounds — plus a whole heap of trouble.",
+          "rating": 0,
+          "released": "2024-03-07T08:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt13210838/1/1/w780.jpg",
+          "tvdb_id": 9438784
+        },
+        {
+          "description": "The toffs and their gamekeeper hunt a new kind of prey. Susie enlists some help to clean up the mess, and Halstead Manor is blessed with a holy visitor.",
+          "episode": 2,
+          "firstAired": "2024-03-07T08:00:00.000Z",
+          "id": "tt13210838:1:2",
+          "name": "Tackle Tommy Woo Woo",
+          "number": 2,
+          "overview": "The toffs and their gamekeeper hunt a new kind of prey. Susie enlists some help to clean up the mess, and Halstead Manor is blessed with a holy visitor.",
+          "rating": 0,
+          "released": "2024-03-07T08:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt13210838/1/2/w780.jpg",
+          "tvdb_id": 10233801
+        },
+        {
+          "description": "Jimmy gets distracted on the job. As supply chain issues delay deliveries, the Horniman brothers take a risky ride to placate a dissatisfied customer.",
+          "episode": 3,
+          "firstAired": "2024-03-07T08:00:00.000Z",
+          "id": "tt13210838:1:3",
+          "name": "Where's My Weed At?",
+          "number": 3,
+          "overview": "Jimmy gets distracted on the job. As supply chain issues delay deliveries, the Horniman brothers take a risky ride to placate a dissatisfied customer.",
+          "rating": 0,
+          "released": "2024-03-07T08:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt13210838/1/3/w780.jpg",
+          "tvdb_id": 10233802
+        },
+        {
+          "description": "Susie is keen to expand the business. Eddie is determined that it won't be on his estate, so the Hornimans search for alternative locations.",
+          "episode": 4,
+          "firstAired": "2024-03-07T08:00:00.000Z",
+          "id": "tt13210838:1:4",
+          "name": "An Unsympathetic Gentleman",
+          "number": 4,
+          "overview": "Susie is keen to expand the business. Eddie is determined that it won't be on his estate, so the Hornimans search for alternative locations.",
+          "rating": 0,
+          "released": "2024-03-07T08:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt13210838/1/4/w780.jpg",
+          "tvdb_id": 10233803
+        },
+        {
+          "description": "Distribution issues in Europe and a theft on the farm cause a headache for Eddie and Susie — until they make a new acquaintance who can help them out.",
+          "episode": 5,
+          "firstAired": "2024-03-07T08:00:00.000Z",
+          "id": "tt13210838:1:5",
+          "name": "I've Hundreds of Cousins",
+          "number": 5,
+          "overview": "Distribution issues in Europe and a theft on the farm cause a headache for Eddie and Susie — until they make a new acquaintance who can help them out.",
+          "rating": 0,
+          "released": "2024-03-07T08:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt13210838/1/5/w780.jpg",
+          "tvdb_id": 10233804
+        },
+        {
+          "description": "Eddie's doubts about Susie continue to grow. But there's 15 million pounds of dirty money to be laundered before she'll consider leaving the estate.",
+          "episode": 6,
+          "firstAired": "2024-03-07T08:00:00.000Z",
+          "id": "tt13210838:1:6",
+          "name": "All Eventualities",
+          "number": 6,
+          "overview": "Eddie's doubts about Susie continue to grow. But there's 15 million pounds of dirty money to be laundered before she'll consider leaving the estate.",
+          "rating": 0,
+          "released": "2024-03-07T08:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt13210838/1/6/w780.jpg",
+          "tvdb_id": 10233805
+        },
+        {
+          "description": "Bent on vengeance, Susie goes against her father's orders. Eddie offers to help her but is less certain than ever about where his allegiances lie.",
+          "episode": 7,
+          "firstAired": "2024-03-07T08:00:00.000Z",
+          "id": "tt13210838:1:7",
+          "name": "Not Without Danger",
+          "number": 7,
+          "overview": "Bent on vengeance, Susie goes against her father's orders. Eddie offers to help her but is less certain than ever about where his allegiances lie.",
+          "rating": 0,
+          "released": "2024-03-07T08:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt13210838/1/7/w780.jpg",
+          "tvdb_id": 10233807
+        },
+        {
+          "description": "A familiar face returns to settle a score with Freddy. Bobby decides it's time to retire and wants Eddie and Susie to make the necessary arrangements.",
+          "episode": 8,
+          "firstAired": "2024-03-07T08:00:00.000Z",
+          "id": "tt13210838:1:8",
+          "name": "The Gospel According to Bobby Glass",
+          "number": 8,
+          "overview": "A familiar face returns to settle a score with Freddy. Bobby decides it's time to retire and wants Eddie and Susie to make the necessary arrangements.",
+          "rating": 0,
+          "released": "2024-03-07T08:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt13210838/1/8/w780.jpg",
+          "tvdb_id": 10233808
+        },
+        {
+          "description": "An Italian gangster, a royal sheikh and a cash-hungry lord join Eddie for a shooting party. With his eyes on a peerage, he needs it to go off with a bang.",
+          "episode": 1,
+          "firstAired": "2026-09-03T08:00:00.000Z",
+          "id": "tt13210838:2:1",
+          "name": "The Road to Kingdom",
+          "number": 1,
+          "overview": "An Italian gangster, a royal sheikh and a cash-hungry lord join Eddie for a shooting party. With his eyes on a peerage, he needs it to go off with a bang.",
+          "rating": 0,
+          "released": "2026-09-03T08:00:00.000Z",
+          "season": 2,
+          "thumbnail": "https://episodes.metahub.space/tt13210838/2/1/w780.jpg",
+          "tvdb_id": 11877747
+        },
+        {
+          "description": "Eddie makes a deal with the Mafia in Milan, while Jack preps for a high-stakes night on the town. But will either be able to deliver on their promise?",
+          "episode": 2,
+          "firstAired": "2026-09-03T08:00:00.000Z",
+          "id": "tt13210838:2:2",
+          "name": "There's a Rat in the Kitchen",
+          "number": 2,
+          "overview": "Eddie makes a deal with the Mafia in Milan, while Jack preps for a high-stakes night on the town. But will either be able to deliver on their promise?",
+          "rating": 0,
+          "released": "2026-09-03T08:00:00.000Z",
+          "season": 2,
+          "thumbnail": "https://episodes.metahub.space/tt13210838/2/2/w780.jpg",
+          "tvdb_id": 11935192
+        }
+      ],
+      "writer": [
+        "Guy Ritchie"
+      ],
+      "year": "2024–"
+    }
+  ],
+  "staleError": 3600,
+  "staleRevalidate": 3600
+}

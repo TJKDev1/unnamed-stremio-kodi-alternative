@@ -80,7 +80,7 @@ Plugin architectures go wrong in known ways: Eclipse/OSGi became complex "plugin
   - The UI is a pure projection of view-models, so swapping skins is cheap and safe.
 - **Async runtime:** tokio on native, wasm-bindgen-futures in WASM.
 - **Storage:** SQLite with FTS5 for library, search, history and cache metadata. On disk: image cache, addon response cache (honours `cacheMaxAge`/`staleRevalidate`).
-- **Networking:** reqwest/hyper, HTTP/2, connection pooling, per-addon concurrency limits and timeouts, optional SOCKS5/HTTP proxy per addon (a Stremio feature request).
+- **Networking:** protocol crates are sans-IO behind a `Transport` trait (D60); the default transport is reqwest/hyper (rustls), HTTP/2, connection pooling, per-addon concurrency limits and timeouts, optional SOCKS5/HTTP proxy per addon (a Stremio feature request).
 - **Secrets:** OS keychain (Windows Credential Manager, macOS/iOS Keychain, libsecret). Encrypted file fallback on the home server.
 
 ### Why Rust is the right call (your question)
@@ -206,11 +206,12 @@ Bootstrapped in M0.1; crates not yet created are added when their phase starts. 
 
 ```
 /crates
-  fixtures/        fixture secret scrubber + checker (dev tooling)
+  fixtures/        fixture secret scrubber, anonymizer + checker (dev tooling)
+  stremio-cli/     dev CLI: query Stremio addons, record fixtures (dev tooling)
   kernel/          lifecycle, slot registry, event bus, permissions, storage, UI host
   sdk-schema/      interface definitions → Rust traits, TS types, WASM bindings
   core/            state machine, models, intents
-  addons-stremio/  Stremio protocol client
+  addons-stremio/  Stremio protocol client (sans-IO, D60)
   addons-native/   v2 protocol + WASM host (wasmtime / wasmi on iOS)
   kodi-host/       sidecar: CPython embedding + xbmc* shim
   library/         SQLite, scanners, matchers
@@ -226,7 +227,7 @@ Bootstrapped in M0.1; crates not yet created are added when their phase starts. 
   desktop/  ios/  webos/  android/
 /sdk
   addon-sdk-rust/  addon-sdk-ts/   (write once → HTTP server or WASM)
-/fixtures          recorded addon responses for conformance tests (secrets scrubbed)
+/fixtures          recorded addon responses for conformance tests (secrets scrubbed, streams anonymized)
 /scripts           dev/CI scripts (e.g. Chromium 94 smoke test)
 /xtask             repo maintenance: cargo xtask <task> (license policy)
 /docs

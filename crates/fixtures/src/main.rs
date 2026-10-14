@@ -5,13 +5,15 @@
 //! app-fixtures check [--secret VALUE]... [--addon URL]... PATH...   fail if anything would change
 //! ```
 //!
+//! Both also anonymize stream and subtitle content (D62, [`app_fixtures::anonymize`]).
+//!
 //! Secrets can also come from the `FIXTURE_SECRETS` environment variable (comma- or
 //! newline-separated), so real keys never have to appear on the command line.
 
 use std::path::{Path, PathBuf};
 use std::process::ExitCode;
 
-use app_fixtures::Scrubber;
+use app_fixtures::{Finding, Scrubber, anonymize};
 
 const USAGE: &str = "usage:
   app-fixtures scrub [--secret VALUE]... [--addon URL]... FILE...
@@ -62,7 +64,8 @@ fn main() -> ExitCode {
     match result {
         Ok(()) => ExitCode::SUCCESS,
         Err(err) => {
-            eprintln!("{err}");
+            // Errors name files, and file names can hold the very secrets we were given.
+            eprintln!("{}", scrubber.scrub_str(&err).0);
             ExitCode::FAILURE
         }
     }
@@ -71,14 +74,16 @@ fn main() -> ExitCode {
 fn scrub(scrubber: &Scrubber, files: &[PathBuf]) -> Result<(), String> {
     for file in files {
         let mut value = read_json(file)?;
-        let findings = scrubber.scrub(&mut value);
+        let mut findings = scrubber.scrub(&mut value);
+        findings.extend(anonymize::anonymize(&mut value));
+        let shown = scrubber.scrub_str(&file.display().to_string()).0;
         if findings.is_empty() {
-            println!("{}: clean", file.display());
+            println!("{shown}: clean");
             continue;
         }
         let text = serde_json::to_string_pretty(&value).map_err(|e| e.to_string())? + "\n";
         std::fs::write(file, text).map_err(|e| format!("writing {}: {e}", file.display()))?;
-        println!("{}: scrubbed {} value(s)", file.display(), findings.len());
+        println!("{shown}: scrubbed/anonymized {} value(s)", findings.len());
     }
     Ok(())
 }
@@ -90,13 +95,20 @@ fn check(scrubber: &Scrubber, roots: &[PathBuf]) -> Result<(), String> {
     }
     let mut dirty = 0;
     for file in &files {
-        for finding in scrubber.check(&read_json(file)?) {
-            eprintln!(
-                "{}: {} at {}",
-                file.display(),
-                finding.reason,
-                finding.pointer
-            );
+        // Diagnostics name files, so they go through the scrubber too.
+        let shown = scrubber.scrub_str(&file.display().to_string()).0;
+        if let Some(reason) = scrubber.check_path(&file.to_string_lossy()) {
+            eprintln!("{shown}: {reason} in the file name");
+            dirty += 1;
+        }
+        let value = read_json(file)?;
+        let findings: Vec<Finding> = scrubber
+            .check(&value)
+            .into_iter()
+            .chain(anonymize::check(&value))
+            .collect();
+        for finding in findings {
+            eprintln!("{shown}: {} at {}", finding.reason, finding.pointer);
             dirty += 1;
         }
     }
@@ -105,7 +117,7 @@ fn check(scrubber: &Scrubber, roots: &[PathBuf]) -> Result<(), String> {
         Ok(())
     } else {
         Err(format!(
-            "fixtures: {dirty} value(s) look secret; run `app-fixtures scrub` on the file(s) above"
+            "fixtures: {dirty} value(s) look secret or not anonymized; run `app-fixtures scrub` on the file(s) above"
         ))
     }
 }

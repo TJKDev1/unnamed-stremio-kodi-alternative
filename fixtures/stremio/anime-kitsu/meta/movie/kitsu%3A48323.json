@@ -1,0 +1,84 @@
+{
+  "cacheMaxAge": 43200,
+  "meta": {
+    "aliases": [
+      "Chainsaw Man – The Movie: Reze Arc",
+      "Chainsaw Man: Reze-hen",
+      "Gekijouban Chainsaw Man: Reze-hen",
+      "劇場版 チェンソーマン レゼ篇"
+    ],
+    "animeType": "movie",
+    "background": "https://assets.fanart.tv/fanart/chainsaw-man---the-movie-reze-arc-6937807057731.jpg",
+    "behaviorHints": {
+      "defaultVideoId": "kitsu:48323"
+    },
+    "description": "Denji became “Chainsaw Man”, a boy with a devil’s heart, and is now part of Special Division 4’s devil hunters. After a date with Makima, the woman of his dreams, Denji takes shelter from the rain. There he meets Reze, a girl who works in a café.\n\n(Source: MAPPA CHANNEL).",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "id": "kitsu:48323",
+    "imdbRating": "8.9",
+    "imdb_id": "tt30472557",
+    "kitsu_id": "48323",
+    "links": [
+      {
+        "category": "imdb",
+        "name": "8.9",
+        "url": "https://kitsu.io/anime/Chainsaw-Man--The-Movie-Reze-Arc"
+      },
+      {
+        "category": "Franchise",
+        "name": "Sequel: Chainsaw Man: Shikaku-hen",
+        "url": "stremio:///detail/movie/kitsu:50406"
+      },
+      {
+        "category": "Franchise",
+        "name": "Prequel: Chainsaw Man",
+        "url": "stremio:///detail/movie/kitsu:43806"
+      },
+      {
+        "category": "Genres",
+        "name": "Action",
+        "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Action"
+      },
+      {
+        "category": "Genres",
+        "name": "Adventure",
+        "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Adventure"
+      }
+    ],
+    "logo": "https://assets.fanart.tv/fanart/chainsaw-man---the-movie-reze-arc-68efb4a885042.png",
+    "name": "Chainsaw Man: Reze-hen",
+    "poster": "https://media.kitsu.app/anime/48323/poster_image/medium-c1ff86228f7d5e9ce2564837fb8e0585.jpeg",
+    "releaseInfo": "2025",
+    "runtime": "100 min",
+    "slug": "Chainsaw-Man--The-Movie-Reze-Arc",
+    "status": "finished",
+    "trailers": [
+      {
+        "source": "GJ1jrCnm-t8",
+        "type": "Trailer"
+      }
+    ],
+    "type": "movie",
+    "userCount": 5984,
+    "videos": [
+      {
+        "absoluteEpisode": null,
+        "episode": 1,
+        "id": "kitsu:48323",
+        "imdbEpisode": 1,
+        "imdbSeason": 1,
+        "imdb_id": "tt30472557",
+        "overview": null,
+        "released": "2025-09-19T00:00:00.000Z",
+        "runtime": "100 min",
+        "season": 1,
+        "thumbnail": null,
+        "title": "Episode 1"
+      }
+    ],
+    "year": "2025"
+  }
+}

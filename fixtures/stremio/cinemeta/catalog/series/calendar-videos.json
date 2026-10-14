@@ -1,0 +1,1029 @@
+{
+  "hasMore": true,
+  "metas": [
+    {
+      "awards": "Nominated for 1 Primetime Emmy. 1 win & 12 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt2057880/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Andy Cohen",
+        "Kyle Richards",
+        "Teresa Giudice"
+      ],
+      "description": "Host Andy Cohen discusses exciting and provocative pop culture events with celebrity guests, reality TV personalities and viewers.",
+      "director": null,
+      "dvdRelease": null,
+      "genre": [
+        "Talk-Show"
+      ],
+      "genres": [
+        "Talk-Show"
+      ],
+      "id": "tt2057880",
+      "imdbRating": "5.6",
+      "imdb_id": "tt2057880",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "5.6",
+          "url": "https://imdb.com/title/tt2057880"
+        },
+        {
+          "category": "share",
+          "name": "Watch What Happens Live with Andy Cohen",
+          "url": "https://www.strem.io/s/series/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Talk-Show",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Talk-Show"
+        },
+        {
+          "category": "Cast",
+          "name": "Andy Cohen",
+          "url": "stremio:///search?search=Andy%20Cohen"
+        },
+        {
+          "category": "Cast",
+          "name": "Kyle Richards",
+          "url": "stremio:///search?search=Kyle%20Richards"
+        },
+        {
+          "category": "Cast",
+          "name": "Teresa Giudice",
+          "url": "stremio:///search?search=Teresa%20Giudice"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt2057880/img",
+      "name": "Watch What Happens Live with Andy Cohen",
+      "popularities": {
+        "ALLIANCE": 0,
+        "EJD": 0,
+        "EXMD": 0,
+        "PXS_TEST": 0,
+        "moviedb": 586.1518,
+        "stremio": 19.53839333333333,
+        "stremio_lib": 0
+      },
+      "popularity": 19.53839333333333,
+      "poster": "https://images.metahub.space/poster/small/tt2057880/img",
+      "releaseInfo": "2009–",
+      "released": "2009-06-16T00:00:00.000Z",
+      "runtime": "30 min",
+      "slug": "series/watch-what-happens-live-with-andy-cohen-2057880",
+      "status": "Continuing",
+      "type": "series",
+      "writer": null,
+      "year": "2009–"
+    },
+    {
+      "awards": "Nominated for 1 Primetime Emmy. 3 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt0118933/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Maurice Roëves",
+        "Gina Bellman",
+        "Lina Sastri"
+      ],
+      "description": "The tribes of Israel need to defeat the superior might of the Philistines: \"Now appoint a king to lead us, such as all the other nations have.\" (I Samuel, 8:5). And so the prophet Samuel gives the Hebrews their first king, Saul, a...",
+      "director": [
+        "Robert Markowitz"
+      ],
+      "dvdRelease": "2002-02-04T00:00:00.000Z",
+      "genre": [
+        "Adventure",
+        "Biography",
+        "Drama"
+      ],
+      "genres": [
+        "Adventure",
+        "Biography",
+        "Drama"
+      ],
+      "id": "tt0118933",
+      "imdbRating": "6.9",
+      "imdb_id": "tt0118933",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.9",
+          "url": "https://imdb.com/title/tt0118933"
+        },
+        {
+          "category": "share",
+          "name": "David",
+          "url": "https://www.strem.io/s/series/david-0118933"
+        },
+        {
+          "category": "Genres",
+          "name": "Adventure",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Adventure"
+        },
+        {
+          "category": "Genres",
+          "name": "Biography",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Biography"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Cast",
+          "name": "Maurice Roëves",
+          "url": "stremio:///search?search=Maurice%20Ro%C3%ABves"
+        },
+        {
+          "category": "Cast",
+          "name": "Gina Bellman",
+          "url": "stremio:///search?search=Gina%20Bellman"
+        },
+        {
+          "category": "Cast",
+          "name": "Lina Sastri",
+          "url": "stremio:///search?search=Lina%20Sastri"
+        },
+        {
+          "category": "Writers",
+          "name": "Larry Gross (teleplay)",
+          "url": "stremio:///search?search=Larry%20Gross%20(teleplay)"
+        },
+        {
+          "category": "Directors",
+          "name": "Robert Markowitz",
+          "url": "stremio:///search?search=Robert%20Markowitz"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt0118933/img",
+      "name": "David",
+      "popularities": {
+        "moviedb": 456.0151,
+        "stremio": 15.200503333333334,
+        "stremio_lib": 0,
+        "trakt": 1
+      },
+      "popularity": 15.200503333333334,
+      "poster": "https://images.metahub.space/poster/small/tt0118933/img",
+      "releaseInfo": "1997",
+      "released": "1997-04-06T00:00:00.000Z",
+      "runtime": "43 min",
+      "slug": "series/david-0118933",
+      "status": "Continuing",
+      "trailerStreams": [],
+      "trailers": [],
+      "type": "series",
+      "writer": [
+        "Larry Gross (teleplay)"
+      ],
+      "year": "1997"
+    },
+    {
+      "awards": "3 wins & 13 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt9288030/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Alan Ritchson",
+        "Maria Sten",
+        "Malcolm Goodwin"
+      ],
+      "description": "Itinerant former military policeman Jack Reacher solves crimes and metes out his own brand of street justice. Based on the novels by Lee Child.",
+      "director": null,
+      "genre": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "id": "tt9288030",
+      "imdbRating": "8.0",
+      "imdb_id": "tt9288030",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.0",
+          "url": "https://imdb.com/title/tt9288030"
+        },
+        {
+          "category": "share",
+          "name": "Reacher",
+          "url": "https://www.strem.io/s/series/reacher-9288030"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Action"
+        },
+        {
+          "category": "Genres",
+          "name": "Crime",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Crime"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Cast",
+          "name": "Alan Ritchson",
+          "url": "stremio:///search?search=Alan%20Ritchson"
+        },
+        {
+          "category": "Cast",
+          "name": "Maria Sten",
+          "url": "stremio:///search?search=Maria%20Sten"
+        },
+        {
+          "category": "Cast",
+          "name": "Malcolm Goodwin",
+          "url": "stremio:///search?search=Malcolm%20Goodwin"
+        },
+        {
+          "category": "Writers",
+          "name": "Nick Santora",
+          "url": "stremio:///search?search=Nick%20Santora"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt9288030/img",
+      "name": "Reacher",
+      "popularities": {
+        "moviedb": 439.9248,
+        "stremio": 14.66416,
+        "stremio_lib": 0,
+        "trakt": 1577
+      },
+      "popularity": 14.66416,
+      "poster": "https://images.metahub.space/poster/small/tt9288030/img",
+      "releaseInfo": "2022–",
+      "released": "2022-02-04T00:00:00.000Z",
+      "runtime": "49 min",
+      "slug": "series/reacher-9288030",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "Reacher",
+          "ytId": "GSycMV-_Csw"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "GSycMV-_Csw",
+          "type": "Trailer"
+        }
+      ],
+      "type": "series",
+      "writer": [
+        "Nick Santora"
+      ],
+      "year": "2022–"
+    },
+    {
+      "awards": "Won 6 Primetime Emmys. 59 wins & 181 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt0203259/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Mariska Hargitay",
+        "Christopher Meloni",
+        "Ice-T"
+      ],
+      "description": "Follows the NYPD's specially trained squad of detectives who investigate sex crimes, including rape, paedophilia, child abuse, human trafficking and domestic violence.",
+      "director": null,
+      "dvdRelease": "2010-01-19T00:00:00.000Z",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "id": "tt0203259",
+      "imdbRating": "8.1",
+      "imdb_id": "tt0203259",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.1",
+          "url": "https://imdb.com/title/tt0203259"
+        },
+        {
+          "category": "share",
+          "name": "Law & Order: Special Victims Unit",
+          "url": "https://www.strem.io/s/series/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Crime",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Crime"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Mystery",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Mystery"
+        },
+        {
+          "category": "Cast",
+          "name": "Mariska Hargitay",
+          "url": "stremio:///search?search=Mariska%20Hargitay"
+        },
+        {
+          "category": "Cast",
+          "name": "Christopher Meloni",
+          "url": "stremio:///search?search=Christopher%20Meloni"
+        },
+        {
+          "category": "Cast",
+          "name": "Ice-T",
+          "url": "stremio:///search?search=Ice-T"
+        },
+        {
+          "category": "Writers",
+          "name": "Dick Wolf",
+          "url": "stremio:///search?search=Dick%20Wolf"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt0203259/img",
+      "name": "Law & Order: Special Victims Unit",
+      "popularities": {
+        "ALLIANCE": 0,
+        "EJD": 0,
+        "EXMD": 0,
+        "PXS_TEST": 0,
+        "moviedb": 438.8096,
+        "stremio": 14.626986666666664,
+        "stremio_lib": 0,
+        "trakt": 787
+      },
+      "popularity": 14.626986666666664,
+      "poster": "https://images.metahub.space/poster/small/tt0203259/img",
+      "releaseInfo": "1999–",
+      "released": "1999-09-20T00:00:00.000Z",
+      "runtime": "44 min",
+      "slug": "series/law-order-special-victims-unit-0203259",
+      "status": "Continuing",
+      "type": "series",
+      "writer": [
+        "Dick Wolf"
+      ],
+      "year": "1999–"
+    },
+    {
+      "awards": "Won 2 Primetime Emmys. 15 wins & 34 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt3444938/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Jimmy Fallon",
+        "The Roots",
+        "Steve Higgins"
+      ],
+      "description": "Jimmy Fallon hosts the Tonight Show and interviews celebrities, plays games with them and has a musical or comedic guest perform.",
+      "director": null,
+      "dvdRelease": null,
+      "genre": [
+        "Comedy",
+        "Music",
+        "Talk-Show"
+      ],
+      "genres": [
+        "Comedy",
+        "Music",
+        "Talk-Show"
+      ],
+      "id": "tt3444938",
+      "imdbRating": "7.0",
+      "imdb_id": "tt3444938",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.0",
+          "url": "https://imdb.com/title/tt3444938"
+        },
+        {
+          "category": "share",
+          "name": "The Tonight Show Starring Jimmy Fallon",
+          "url": "https://www.strem.io/s/series/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Comedy"
+        },
+        {
+          "category": "Genres",
+          "name": "Music",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Music"
+        },
+        {
+          "category": "Genres",
+          "name": "Talk-Show",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Talk-Show"
+        },
+        {
+          "category": "Cast",
+          "name": "Jimmy Fallon",
+          "url": "stremio:///search?search=Jimmy%20Fallon"
+        },
+        {
+          "category": "Cast",
+          "name": "The Roots",
+          "url": "stremio:///search?search=The%20Roots"
+        },
+        {
+          "category": "Cast",
+          "name": "Steve Higgins",
+          "url": "stremio:///search?search=Steve%20Higgins"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt3444938/img",
+      "name": "The Tonight Show Starring Jimmy Fallon",
+      "popularities": {
+        "ALLIANCE": 0,
+        "EJD": 0,
+        "EXMD": 0,
+        "PXS_TEST": 0,
+        "moviedb": 424.0746,
+        "stremio": 14.13582,
+        "stremio_lib": 0,
+        "trakt": 4
+      },
+      "popularity": 14.13582,
+      "poster": "https://images.metahub.space/poster/small/tt3444938/img",
+      "releaseInfo": "2014–",
+      "released": "2014-02-17T00:00:00.000Z",
+      "runtime": "45 min",
+      "slug": "series/the-tonight-show-starring-jimmy-fallon-3444938",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "The Tonight Show Starring Jimmy Fallon",
+          "ytId": "q-0YafsWK_M"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "q-0YafsWK_M",
+          "type": "Trailer"
+        }
+      ],
+      "type": "series",
+      "writer": null,
+      "year": "2014–"
+    },
+    {
+      "awards": "Won 6 Primetime Emmys. 50 wins & 210 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt0098844/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Jerry Orbach",
+        "Jesse L. Martin",
+        "Dennis Farina"
+      ],
+      "description": "A two-part drama that focuses on the New York criminal-justice system by showing a violent crime investigated by police detectives in the first half and then the trial of the accused in court by prosecutors in the second half.",
+      "director": null,
+      "dvdRelease": null,
+      "genre": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "id": "tt0098844",
+      "imdbRating": "7.8",
+      "imdb_id": "tt0098844",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.8",
+          "url": "https://imdb.com/title/tt0098844"
+        },
+        {
+          "category": "share",
+          "name": "Law & Order",
+          "url": "https://www.strem.io/s/series/law-order-0098844"
+        },
+        {
+          "category": "Genres",
+          "name": "Crime",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Crime"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Mystery",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Mystery"
+        },
+        {
+          "category": "Cast",
+          "name": "Jerry Orbach",
+          "url": "stremio:///search?search=Jerry%20Orbach"
+        },
+        {
+          "category": "Cast",
+          "name": "Jesse L. Martin",
+          "url": "stremio:///search?search=Jesse%20L.%20Martin"
+        },
+        {
+          "category": "Cast",
+          "name": "Dennis Farina",
+          "url": "stremio:///search?search=Dennis%20Farina"
+        },
+        {
+          "category": "Writers",
+          "name": "Dick Wolf",
+          "url": "stremio:///search?search=Dick%20Wolf"
+        },
+        {
+          "category": "Writers",
+          "name": "Rick Eid",
+          "url": "stremio:///search?search=Rick%20Eid"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt0098844/img",
+      "name": "Law & Order",
+      "popularities": {
+        "ALLIANCE": 0,
+        "EJD": 0,
+        "EXMD": 0,
+        "PXS_TEST": 0,
+        "moviedb": 415.3367,
+        "stremio": 13.844556666666668,
+        "stremio_lib": 0,
+        "trakt": 345
+      },
+      "popularity": 13.844556666666668,
+      "poster": "https://images.metahub.space/poster/small/tt0098844/img",
+      "releaseInfo": "1990–",
+      "released": "1990-09-13T00:00:00.000Z",
+      "runtime": "45 min",
+      "slug": "series/law-order-0098844",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "Law & Order",
+          "ytId": "RzN8cPlcMTU"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "RzN8cPlcMTU",
+          "type": "Trailer"
+        }
+      ],
+      "type": "series",
+      "writer": [
+        "Dick Wolf",
+        "Rick Eid"
+      ],
+      "year": "1990–"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt10394706/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Michael Chiklis",
+        "Sasha Alexander",
+        "Asher Bishop"
+      ],
+      "description": "Ten years ago, Slade Wilson-aka the super-assassin called Deathstroke-made a tragic mistake and his wife and son paid a terrible price. Now, a decade later, Wilson's family is threatened once again.",
+      "director": [],
+      "genre": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "id": "tt10394706",
+      "imdbRating": "6.6",
+      "imdb_id": "tt10394706",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.6",
+          "url": "https://imdb.com/title/tt10394706"
+        },
+        {
+          "category": "share",
+          "name": "Deathstroke: Knights & Dragons",
+          "url": "https://www.strem.io/s/series/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Animation",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Animation"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Action"
+        },
+        {
+          "category": "Genres",
+          "name": "Adventure",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Adventure"
+        },
+        {
+          "category": "Cast",
+          "name": "Michael Chiklis",
+          "url": "stremio:///search?search=Michael%20Chiklis"
+        },
+        {
+          "category": "Cast",
+          "name": "Sasha Alexander",
+          "url": "stremio:///search?search=Sasha%20Alexander"
+        },
+        {
+          "category": "Cast",
+          "name": "Asher Bishop",
+          "url": "stremio:///search?search=Asher%20Bishop"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt10394706/img",
+      "name": "Deathstroke: Knights & Dragons",
+      "popularities": {
+        "moviedb": 394.094,
+        "stremio": 13.136466666666667,
+        "stremio_lib": 0,
+        "trakt": 2
+      },
+      "popularity": 13.136466666666667,
+      "poster": "https://images.metahub.space/poster/small/tt10394706/img",
+      "releaseInfo": "2020",
+      "released": "2020-01-06T00:00:00.000Z",
+      "runtime": "39 min",
+      "slug": "series/deathstroke-knights-dragons-10394706",
+      "status": "Ended",
+      "trailerStreams": [
+        {
+          "title": "Deathstroke: Knights & Dragons",
+          "ytId": "MsdVLe2xi9g"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "MsdVLe2xi9g",
+          "type": "Trailer"
+        }
+      ],
+      "type": "series",
+      "writer": [],
+      "year": "2020"
+    },
+    {
+      "awards": "Nominated for 11 Primetime Emmys. 2 wins & 59 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt3513388/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Seth Meyers",
+        "The 8G Band",
+        "Fred Armisen"
+      ],
+      "description": "Seth Meyers hosts a late-night talk show.",
+      "director": null,
+      "dvdRelease": null,
+      "genre": [
+        "Comedy",
+        "Talk-Show"
+      ],
+      "genres": [
+        "Comedy",
+        "Talk-Show"
+      ],
+      "id": "tt3513388",
+      "imdbRating": "6.4",
+      "imdb_id": "tt3513388",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.4",
+          "url": "https://imdb.com/title/tt3513388"
+        },
+        {
+          "category": "share",
+          "name": "Late Night with Seth Meyers",
+          "url": "https://www.strem.io/s/series/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Comedy"
+        },
+        {
+          "category": "Genres",
+          "name": "Talk-Show",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Talk-Show"
+        },
+        {
+          "category": "Cast",
+          "name": "Seth Meyers",
+          "url": "stremio:///search?search=Seth%20Meyers"
+        },
+        {
+          "category": "Cast",
+          "name": "The 8G Band",
+          "url": "stremio:///search?search=The%208G%20Band"
+        },
+        {
+          "category": "Cast",
+          "name": "Fred Armisen",
+          "url": "stremio:///search?search=Fred%20Armisen"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt3513388/img",
+      "name": "Late Night with Seth Meyers",
+      "popularities": {
+        "ALLIANCE": 0,
+        "EJD": 0,
+        "EXMD": 0,
+        "PXS_TEST": 0,
+        "moviedb": 390.011,
+        "stremio": 13.000366666666668,
+        "stremio_lib": 0,
+        "trakt": 69
+      },
+      "popularity": 13.000366666666668,
+      "poster": "https://images.metahub.space/poster/small/tt3513388/img",
+      "releaseInfo": "2014–",
+      "released": "2014-02-24T00:00:00.000Z",
+      "runtime": "45 min",
+      "slug": "series/late-night-with-seth-meyers-3513388",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "Late Night with Seth Meyers",
+          "ytId": "rLwbzGyC6t4"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "rLwbzGyC6t4",
+          "type": "Trailer"
+        }
+      ],
+      "type": "series",
+      "writer": null,
+      "year": "2014–"
+    },
+    {
+      "awards": "Won 5 Primetime Emmys. 61 wins & 211 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt0386676/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Steve Carell",
+        "Jenna Fischer",
+        "John Krasinski"
+      ],
+      "description": "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, tedium and romance.",
+      "director": null,
+      "dvdRelease": null,
+      "genre": [
+        "Comedy"
+      ],
+      "genres": [
+        "Comedy"
+      ],
+      "id": "tt0386676",
+      "imdbRating": "9.0",
+      "imdb_id": "tt0386676",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "9.0",
+          "url": "https://imdb.com/title/tt0386676"
+        },
+        {
+          "category": "share",
+          "name": "The Office",
+          "url": "https://www.strem.io/s/series/the-office-0386676"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Comedy"
+        },
+        {
+          "category": "Cast",
+          "name": "Steve Carell",
+          "url": "stremio:///search?search=Steve%20Carell"
+        },
+        {
+          "category": "Cast",
+          "name": "Jenna Fischer",
+          "url": "stremio:///search?search=Jenna%20Fischer"
+        },
+        {
+          "category": "Cast",
+          "name": "John Krasinski",
+          "url": "stremio:///search?search=John%20Krasinski"
+        },
+        {
+          "category": "Writers",
+          "name": "Greg Daniels",
+          "url": "stremio:///search?search=Greg%20Daniels"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt0386676/img",
+      "name": "The Office",
+      "popularities": {
+        "ALLIANCE": 0,
+        "EJD": 0,
+        "EXMD": 0,
+        "PXS_TEST": 0,
+        "SCM": 1,
+        "moviedb": 385.2133,
+        "stremio": 12.840443333333331,
+        "stremio_lib": 0,
+        "trakt": 902
+      },
+      "popularity": 12.840443333333331,
+      "poster": "https://images.metahub.space/poster/small/tt0386676/img",
+      "releaseInfo": "2005–2013",
+      "released": "2005-03-24T00:00:00.000Z",
+      "runtime": "22 min",
+      "slug": "series/the-office-0386676",
+      "status": "Ended",
+      "trailerStreams": [
+        {
+          "title": "The Office",
+          "ytId": "-C2z-nshFts"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "-C2z-nshFts",
+          "type": "Trailer"
+        }
+      ],
+      "type": "series",
+      "writer": [
+        "Greg Daniels"
+      ],
+      "year": "2005–2013"
+    },
+    {
+      "awards": "Nominated for 1 Primetime Emmy. 4 wins & 16 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt1196946/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Simon Baker",
+        "Robin Tunney",
+        "Tim Kang"
+      ],
+      "description": "Famous \"psychic\" Patrick Jane outs himself as a fake, and using his heightened observational skills and impeccable knowledge of the human psyche, he works with the police so he can find \"Red John\", the madman who killed his family.",
+      "director": null,
+      "dvdRelease": null,
+      "genre": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "id": "tt1196946",
+      "imdbRating": "8.2",
+      "imdb_id": "tt1196946",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.2",
+          "url": "https://imdb.com/title/tt1196946"
+        },
+        {
+          "category": "share",
+          "name": "The Mentalist",
+          "url": "https://www.strem.io/s/series/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Crime",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Crime"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Mystery",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Mystery"
+        },
+        {
+          "category": "Cast",
+          "name": "Simon Baker",
+          "url": "stremio:///search?search=Simon%20Baker"
+        },
+        {
+          "category": "Cast",
+          "name": "Robin Tunney",
+          "url": "stremio:///search?search=Robin%20Tunney"
+        },
+        {
+          "category": "Cast",
+          "name": "Tim Kang",
+          "url": "stremio:///search?search=Tim%20Kang"
+        },
+        {
+          "category": "Writers",
+          "name": "Bruno Heller",
+          "url": "stremio:///search?search=Bruno%20Heller"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt1196946/img",
+      "name": "The Mentalist",
+      "popularities": {
+        "ALLIANCE": 0,
+        "EJD": 0,
+        "EXMD": 0,
+        "PXS": 6,
+        "PXS_TEST": 0,
+        "SCM": 1,
+        "moviedb": 374.1073,
+        "stremio": 12.470243333333334,
+        "stremio_lib": 0,
+        "trakt": 1621
+      },
+      "popularity": 12.470243333333334,
+      "poster": "https://images.metahub.space/poster/small/tt1196946/img",
+      "releaseInfo": "2008–2015",
+      "released": "2008-09-23T00:00:00.000Z",
+      "runtime": "43 min",
+      "slug": "series/the-mentalist-1196946",
+      "status": "Ended",
+      "trailerStreams": [
+        {
+          "title": "The Mentalist",
+          "ytId": "nn2Q69pSC_M"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "nn2Q69pSC_M",
+          "type": "Trailer"
+        }
+      ],
+      "type": "series",
+      "writer": [
+        "Bruno Heller"
+      ],
+      "year": "2008–2015"
+    }
+  ],
+  "skip": 0
+}

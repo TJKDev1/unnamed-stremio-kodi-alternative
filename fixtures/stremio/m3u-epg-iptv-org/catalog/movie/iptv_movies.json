@@ -1,0 +1,104 @@
+{
+  "metas": [
+    {
+      "description": "Movie: 00s Replay",
+      "genres": [
+        "Movies"
+      ],
+      "id": "iptv_273bc8dec8e79dea",
+      "name": "00s Replay",
+      "poster": "https://images.pluto.tv/channels/REDACTED/colorLogoPNG.png",
+      "type": "movie"
+    },
+    {
+      "description": "Movie: 3HD",
+      "genres": [
+        "General"
+      ],
+      "id": "iptv_acd18fd06adcd467",
+      "name": "3HD",
+      "poster": "https://i.imgur.com/YRiulCU.png",
+      "type": "movie"
+    },
+    {
+      "description": "Movie: 4ever Cinema (1080p)",
+      "genres": [
+        "Movies"
+      ],
+      "id": "iptv_2eb3692453566079",
+      "name": "4ever Cinema (1080p)",
+      "poster": "https://i.imgur.com/vFOgVbG.png",
+      "type": "movie"
+    },
+    {
+      "description": "Movie: 24 Hour Free Movies (720p)",
+      "genres": [
+        "Movies"
+      ],
+      "id": "iptv_527849b19ca39d73",
+      "name": "24 Hour Free Movies (720p)",
+      "poster": "https://i.imgur.com/iSVnzR1.png",
+      "type": "movie"
+    },
+    {
+      "description": "Movie: 24 News HD",
+      "genres": [
+        "News"
+      ],
+      "id": "iptv_d9b8d29b0d334115",
+      "name": "24 News HD",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/9/93/24_News_HD_Logo.png",
+      "type": "movie"
+    },
+    {
+      "description": "Movie: 30A TV Classic Movies (720p)",
+      "genres": [
+        "Movies"
+      ],
+      "id": "iptv_80d6ccb4fd2cb936",
+      "name": "30A TV Classic Movies (720p)",
+      "poster": "https://via.placeholder.com/300x450/CC6600/FFFFFF?text=30A%20TV%20Classic%20Movies%20(720p)",
+      "type": "movie"
+    },
+    {
+      "description": "Movie: 50 Cent Action (720p)",
+      "genres": [
+        "Movies;Series"
+      ],
+      "id": "iptv_faa85e9f34314c10",
+      "name": "50 Cent Action (720p)",
+      "poster": "https://provider-static.plex.tv/epg/cms/production/REDACTED/50CentAction_Logo_1500x1000_DarkBG_-_Chris_Connors.png",
+      "type": "movie"
+    },
+    {
+      "description": "Movie: 70s Cinema",
+      "genres": [
+        "Movies"
+      ],
+      "id": "iptv_09a63b25798513e3",
+      "name": "70s Cinema",
+      "poster": "https://i.imgur.com/mgXeEE4.png",
+      "type": "movie"
+    },
+    {
+      "description": "Movie: 80s Rewind",
+      "genres": [
+        "Movies"
+      ],
+      "id": "iptv_18a04142eb7c5bca",
+      "name": "80s Rewind",
+      "poster": "https://i.imgur.com/nkEeYfI.png",
+      "type": "movie"
+    },
+    {
+      "description": "Movie: 90s Throwback",
+      "genres": [
+        "Movies"
+      ],
+      "id": "iptv_12780d8e641f04c6",
+      "name": "90s Throwback",
+      "poster": "https://i.imgur.com/KoGko6M.png",
+      "type": "movie"
+    }
+  ]
+}

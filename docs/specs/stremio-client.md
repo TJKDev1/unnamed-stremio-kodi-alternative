@@ -1,19 +1,97 @@
 # Spec: Stremio addon client (protocol v1)
 
-**Status:** stub · **Implemented by:** S3, M1.2, M1.3 · **Decisions:** D15, D44, D48
+**Status:** draft · **Implemented by:** S3, M1.2, M1.3 · **Decisions:** D15, D44, D48, D60, D61, D62, D63 · **Code:** `crates/addons-stremio` (`app-addons-stremio`), dev CLI `crates/stremio-cli`
 
 ## Purpose
 100% compatible client for the Stremio addon protocol. Design: [Stremio addon protocol](../design/04-addons.md#stremio-addon-protocol-must-be-100-compatible). stremio-core is a reference for behaviour and test cases only (D44).
 
 ## Scope
-- **In:** manifest, all resources (`catalog`, `meta`, `stream`, `subtitles`, `addon_catalog`), extras, IDs, caching headers, configure flow, account import, EPG.
-- **Out:** `ipfs://`/`ipns://` transport (low priority); playing `infoHash`/`nzbUrl`/archive streams (plugins).
+- **In:** manifest, all resources (`catalog`, `meta`, `stream`, `subtitles`, `addon_catalog`), extras, IDs, caching hints, configure flow, account import, EPG.
+- **Out:** `ipfs://`/`ipns://` transport and the legacy `/stremio/v1` JSON-RPC transport (low priority); playing `infoHash`/`nzbUrl`/archive streams (plugins).
+- **S3 covers:** models, manifest validation, routes, router + fan-out, cache policy, recording. Configure flow, account import and EPG date routes come in M1.2.
 
-## Contract (to fill in)
-- Normalized models: `Manifest`, `MetaPreview`, `Meta`, `Video`, `Stream`, `Subtitle`; unknown fields preserved.
-- Router: choose addons by resource, `types` and `idPrefixes`; per-addon priority for catalogs/meta/streams separately.
-- Routes and extra encoding (`/{resource}/{type}/{id}/{extra}.json`).
-- Secrets: the installed URL is a secret; UI and exports show a redacted form.
+## Contract
+
+### Layering (D60)
+The crate is **sans-IO**: models, validation, routes, routing and cache policy are plain functions over data. All network access goes through one trait:
+
+```rust
+pub trait Transport: Send + Sync {
+    /// GET `url`. Implementations apply their own timeout and return the body whatever the status.
+    fn get(&self, url: &str) -> impl Future<Output = Result<HttpResponse, TransportError>> + Send;
+}
+pub struct HttpResponse { pub status: u16, pub cache_control: Option<String>, pub body: Vec<u8> }
+```
+
+The default implementation (`ReqwestTransport`, feature `reqwest`, on by default) uses reqwest + rustls on tokio. Fan-out uses only `futures` combinators, so the crate never names a runtime; per-request timeouts live in the transport. Tests use a fixture-backed fake transport.
+
+### Models
+`Manifest`, `ManifestResource`, `ManifestCatalog` (used for both `catalogs` and `addonCatalogs`, as in stremio-core), `ExtraProp`, `MetaPreview`, `Meta`, `Video`, `Stream` (+ `StreamSource`), `Subtitle`, `Descriptor { transport_url, manifest }`, and one response type per resource.
+
+- Field names follow the protocol (`camelCase` on the wire, `snake_case` in Rust).
+- **Unknown fields are preserved** in an `other: Map<String, Value>` on every object, and re-serialized unchanged.
+- **Lists are lenient:** an item that fails to parse is dropped and reported in `ParseReport.dropped` (index + error); the rest of the response still loads. Required-shape errors on the top level (no `metas`/`meta`/`streams`/`subtitles`/`addons` key) fail the response.
+- `ManifestResource` accepts a string (`"stream"`) or an object (`{name, types, idPrefixes}`).
+- Legacy catalog extras (`extraSupported: [names]`, `extraRequired: [names]`) are normalized into `extra: [ExtraProp]` (`isRequired` set for names in `extraRequired`). The original fields are not re-emitted.
+- `Stream` keeps all protocol fields; `Stream::source()` classifies it as `Url`, `YouTube`, `Torrent { info_hash, file_idx, sources, file_must_include }`, `External`, `Nzb`, `Archive { kind, urls }`, or `Unknown`. A stream with no playable source is kept as `Unknown`: the UI shows "requires plugin" instead of hiding it.
+- Numbers that addons send as strings (`fileIdx: "3"`, `videoSize: "123"`) are accepted, and strings sent as numbers (`imdbRating: 7.5`, `releaseInfo: 2010`) are stringified.
+- Legacy aliases are **not** serde aliases: Cinemeta and TMDB send `episode` *and* `number`, `title` *and* `name` on the same video, which an alias rejects as a duplicate field. `Video::episode_number()` / `Video::display_title()` fall back to the legacy field instead.
+
+### Manifest validation
+`Manifest::from_json` fails when `id`, `name` or `version` is missing or empty, or `resources` is missing. It returns warnings (not errors) when:
+- `resources` has no usable entry (Stremio accepts `[]`; an unconfigured AIOStreams serves it);
+- a list item was dropped (bad resource, catalog, extra);
+- a resource object or catalog uses a type not listed in `types`;
+- a catalog uses the legacy `extraSupported`/`extraRequired` (names only in `extraRequired` are treated as supported);
+- a resource object has no `types` (it matches nothing);
+- there are `catalogs` but no `catalog` resource.
+
+`transport_url` accepts `https://`, `http://` and `stremio://` (→ `https://`) URLs ending in `/manifest.json` (a query string is allowed); legacy `/stremio/v1` and `ipfs://` are `Unsupported`.
+
+### Routes
+`ResourcePath { resource, type, id, extra: Vec<(String, String)> }` → `{base}/{resource}/{type}/{id}.json` or `{base}/{resource}/{type}/{id}/{extra}.json`, where:
+- `base` is the transport URL with the **trailing** `/manifest.json` removed; a query string on the transport URL is carried over after `.json`, as stremio-core does (some addons authenticate that way);
+- `resource`, `type` and `id` are each encoded like JS `encodeURIComponent` (`tt1:1:2` → `tt1%3A1%3A2`), as stremio-core does;
+- `extra` is `name=value` pairs, each side `encodeURIComponent`-encoded, joined with `&`, in the given order. Repeated names are allowed (multi-select genres).
+
+### Router
+`plan(addons, request) -> Vec<Planned>`, in install order. `Manifest::supports(path)` follows stremio-core's `Manifest::is_resource_supported` exactly:
+- `catalog` / `addon_catalog`: an entry in `catalogs` / `addonCatalogs` with the same type and id whose required extras are all present and whose extras are all supported (`is_extra_supported`).
+- anything else: the **first** resource with that name decides. A string resource uses the manifest's `types` and `idPrefixes`; a resource object uses **only its own** (no fallback), so an object without `types` matches nothing. Missing **or empty** `idPrefixes` match any id; otherwise the id must start with one of them.
+
+`plan_catalogs(addons, type, extra)` lists every catalog that accepts exactly those extras (home board rows).
+
+`fetch_all(transport, plan)` returns a `Stream` of `(addon index, Result<Response>)` items **in completion order**: one slow addon never delays another.
+
+### Caching (`cacheMaxAge` / `staleRevalidate` / `staleError`)
+Values are seconds, read from the response body; if the body has none, `Cache-Control: max-age`, `stale-while-revalidate`, `stale-if-error` are used. For a cached entry of age `a`:
+
+| Age | Result |
+|---|---|
+| `a < cacheMaxAge` | `Fresh`: serve cached, no request |
+| `a < cacheMaxAge + staleRevalidate` | `Stale`: serve cached now, revalidate in the background |
+| otherwise | `Expired`: fetch; if the fetch fails and `a < cacheMaxAge + staleError`, serve cached |
+
+`Cache-Control: no-store`/`no-cache` always wins over body hints. No hints, all-zero hints, or those directives ⇒ not cached, and a successful non-cacheable answer **evicts** any older entry for that URL. Hint arithmetic saturates (addons control the numbers). The cache key is the full resource URL. The clock is injected (`Clock` trait) so tests use a fake.
+
+`Cache::fetch` returns the response plus where it came from (`Network`, `Fresh`, `Stale`, `StaleOnError`). The crate never spawns tasks: on `Stale` the caller runs `Cache::revalidate` in the background on its own runtime. Entries that can no longer be served are evicted on the next store.
+
+### Fixtures (D61, D62)
+`fixtures/stremio/<addon>/` holds:
+- `manifest.json`: the manifest response body;
+- `<resource>/<type>/<id>[/<extra>].json`: response bodies (`ResourcePath::fixture_path`), with every path segment percent-encoded for the filesystem (everything except `A-Z a-z 0-9 - _ .`, so `:` becomes `%3A`, which is legal on Windows; the extra segment is the already-encoded `name=value&…` string, encoded again);
+- `index.json`: `{ "addon": <scrubbed transport URL>, "recorded": "YYYY-MM-DD", "requests": [{ "path", "status", "cacheControl", "file", "trimmed" }] }`. `file` is `null` when the response wasn't usable (non-2xx or not a valid response); network failures have `error` instead of `status`.
+
+Recordings are written by `stremio-cli record`, which, **before anything touches disk**:
+1. cuts every `metas`/`metasDetailed`/`videos`/`streams`/`subtitles`/`addons` list to its first 10 items (order and shape survive; `trimmed: true` in the index);
+2. scrubs secrets (T0.1.7 scrubber, plus `FIXTURE_SECRETS`);
+3. anonymizes stream and subtitle content (`app_fixtures::anonymize`), at any depth inside an item: technical tokens (resolution, codec, HDR, size, languages), numbers, emoji and punctuation are kept; every other word becomes `Title`; `infoHash`/`videoHash` become zero-padded counters; URLs (including subtitle URLs and `tracker:<url>` / `dht:<hash>` sources) become `<scheme>://stream.invalid/<n>[.ext]` or fake hashes. Only `ytId`, `countryWhitelist` and subtitle `lang`/encoding codes stay verbatim;
+4. names each file from the request path, unless the path itself contains something secret (then `<resource>/redacted/<n>.json`);
+5. writes into a staging folder (`.<name>.recording`), re-checks every file's contents **and name**, and only then swaps it in. The old folder is moved to `.<name>.previous` first and moved back if the swap fails; if even that fails, the error says so and the next run restores it before doing anything else. A failed manifest fetch, write or check leaves the old recording untouched; a failed *resource* request is part of the recording (an index entry with `error` or a non-2xx `status`).
+
+The addon URL's query parameter values count as secrets, like its path. URLs embedded in prose (any case, including inside another URL) are scrubbed, as are secret-looking `name=value` pairs anywhere and secrets used as JSON object keys. Everything the CLI prints, including argument errors, goes through the same scrubber (errors can quote URLs). CI's `app-fixtures check` also checks file names (after up to three rounds of percent-decoding).
+
+Anonymizing is idempotent; `app-fixtures check` (CI) fails on any fixture that isn't already scrubbed and anonymized. Without explicit paths the recorder picks up to 8 catalogs plus one `skip`, `genre` and `search` variant, both addon catalogs, up to 3 metas (ids from catalogs first, then Inception / Game of Thrones / Cowboy Bebop) and up to 5 stream and subtitle requests the manifest claims to serve.
 
 ## Behaviour (known constraints)
 - Movie without `videos` ⇒ video id = meta id.
@@ -21,12 +99,32 @@
 - Streams are delivered per addon as each answers; never wait for all.
 - Unplayable stream kinds show as "requires plugin X", not hidden.
 - AIOStreams: trust its order by default (see [stream-ranking](stream-ranking.md)).
+- Secrets: the installed URL is a secret; UI and exports show a redacted form.
+- A non-2xx status or a body that isn't JSON is an error for that addon only.
 
 ## Conformance tests
-- Recorded fixtures from ~20 addons (AIOStreams first, Cinemeta, OpenSubtitles, Torrentio-style, MediaFusion, Comet, TMDB, Anime Kitsu, IPTV/EPG); secrets scrubbed.
-- Legacy manifest forms (`extraSupported/extraRequired`, resource strings vs objects).
-- Cache header behaviour with a fake clock.
+- Every committed fixture parses with **zero dropped items** and its manifest validates without errors (`crates/addons-stremio/tests/conformance.rs`).
+- Legacy manifest forms (`extraSupported/extraRequired`, resource strings vs objects): unit tests on synthetic manifests.
+- Route encoding against stremio-core's `encodeURIComponent` set.
+- Cache table above with a fake clock.
+- Router selection by type / idPrefix / resource-object overrides.
+
+### Conformance addons (D63)
+| Addon | Why | Recorded by |
+|---|---|---|
+| AIOStreams (owner's config) | Target #1, configurable, pre-sorted debrid streams | owner (`record`, local) |
+| Comet (owner's config) | Debrid scraper, 403 without config | owner |
+| MediaFusion (owner's config) | Scraper + live TV, empty without config | owner |
+| Cinemeta | Official catalogs/meta, `addon_catalog` | CI-safe, recorded in S3 |
+| OpenSubtitles v3 | Subtitles | S3 |
+| Anime Kitsu | `kitsu:` ids, anime meta | S3 |
+| TMDB (tmdb.elfhosted.com) | `tmdb:` ids, genre/skip extras | S3 |
+| M3U/EPG TV Addon (iptv-org config) | `tv` type, base64 config in path | S3 |
+| Torrentio (unconfigured) | `infoHash` streams | S3 |
+| WatchHub | `externalUrl` streams | S3 |
+| Hyper (unconfigured) | `name: null`, paywall/upsell `externalUrl` streams mixed with free direct streams, `tmdb:` ids, 404 for unknown ids | S3 |
 
 ## Open items
-- Exact list of the ~20 conformance addons.
+- Grow to ~20 addons in M1.2.
+- EPG (`catalog/tv/{id}/date=…` → `metasDetailed`): no reachable legal addon with `epgProvider` found during S3; synthetic fixture until one is.
 - Stremio datastore API shapes for import (undocumented; capture during T1.2.9).

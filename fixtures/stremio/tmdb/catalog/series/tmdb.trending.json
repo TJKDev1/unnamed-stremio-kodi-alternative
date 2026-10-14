@@ -1,0 +1,1073 @@
+{
+  "metas": [
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Carrie White",
+            "name": "Summer H. Howell",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/9l9D6DhugB4FBIZecuMyZ4Uulyr.jpg"
+          },
+          {
+            "character": "Margaret White",
+            "name": "Samantha Sloyan",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/iI6mYgxrQSwphBJdfwYN3vB6oS2.jpg"
+          },
+          {
+            "character": "Sue Snell",
+            "name": "Siena Agudong",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/nCVWiVrIVqw0LnpyhYsckOMQJHS.jpg"
+          },
+          {
+            "character": "Chris Hargensen",
+            "name": "Alison Thornton",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/hDCMe5RLABbSBA04BIUxJnBmol6.jpg"
+          },
+          {
+            "character": "Tommy Ross",
+            "name": "Joel Oulette",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/qmzQBjq1hLpU37HtsKw5MszgRKa.jpg"
+          },
+          {
+            "character": "Tina Blake",
+            "name": "Josie Totah",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/125iM9BTPVDfRjKGVSqmvgeGsai.jpg"
+          },
+          {
+            "character": "Billy Nolan",
+            "name": "Arthur Conti",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/pnO8qBwvLJfN54UaKsy0QQlAc8u.jpg"
+          },
+          {
+            "character": "Emaline West",
+            "name": "Thalia Dudek",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/lmpaF8Yi0SfojtEwlY1CkEjzGU7.jpg"
+          },
+          {
+            "character": "Miss Desjardin",
+            "name": "Amber Midthunder",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/f8VWGyaIS38NkDIzQ2hapXKt0N5.jpg"
+          },
+          {
+            "character": "Principal Grayle",
+            "name": "Matthew Lillard",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mIEKAfe0iC41RDXibbTy48LtNOi.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/9yCJtipMeDe8uAdSJKvw8BnYfRz.jpg",
+      "description": "After her father's sudden, untimely death thrusts her into the unforgiving ecosystem of public high school, Carrie is forced to navigate a viral bullying scandal that tears through her community, the relentless pressure and casual cruelty of the social‑media age, and the awakening of mysterious telekinetic powers that rise alongside her adolescence.",
+      "genre": [
+        "Mystery",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "id": "tmdb:288673",
+      "imdbRating": "8.5",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.5",
+          "url": "https://imdb.com/title/tt11540908"
+        },
+        {
+          "category": "Cast",
+          "name": "Summer H. Howell",
+          "url": "stremio:///search?search=Summer%20H.%20Howell"
+        },
+        {
+          "category": "Cast",
+          "name": "Samantha Sloyan",
+          "url": "stremio:///search?search=Samantha%20Sloyan"
+        },
+        {
+          "category": "Cast",
+          "name": "Siena Agudong",
+          "url": "stremio:///search?search=Siena%20Agudong"
+        },
+        {
+          "category": "Cast",
+          "name": "Alison Thornton",
+          "url": "stremio:///search?search=Alison%20Thornton"
+        },
+        {
+          "category": "Cast",
+          "name": "Joel Oulette",
+          "url": "stremio:///search?search=Joel%20Oulette"
+        },
+        {
+          "category": "Cast",
+          "name": "Josie Totah",
+          "url": "stremio:///search?search=Josie%20Totah"
+        },
+        {
+          "category": "Cast",
+          "name": "Arthur Conti",
+          "url": "stremio:///search?search=Arthur%20Conti"
+        },
+        {
+          "category": "Cast",
+          "name": "Thalia Dudek",
+          "url": "stremio:///search?search=Thalia%20Dudek"
+        },
+        {
+          "category": "Cast",
+          "name": "Amber Midthunder",
+          "url": "stremio:///search?search=Amber%20Midthunder"
+        },
+        {
+          "category": "Cast",
+          "name": "Matthew Lillard",
+          "url": "stremio:///search?search=Matthew%20Lillard"
+        }
+      ],
+      "name": "Carrie",
+      "poster": "https://image.tmdb.org/t/p/w342/6mUMquPQBFJGqTACS3Azkwwrx8d.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026-2026",
+      "runtime": "49min",
+      "type": "series",
+      "writer": [
+        "Mike Flanagan"
+      ],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Jim Hawkins",
+            "name": "Tom Sweet",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/w4CjZHZ5PNSEP4Z1BKuVgCeAXMV.jpg"
+          },
+          {
+            "character": "Long John Silver",
+            "name": "David Oyelowo",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/7UZHRwOKe2cYxj8SeNUklyPYkns.jpg"
+          },
+          {
+            "character": "Bess Hawkins",
+            "name": "Hayley Atwell",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/x57wXHexIjD2ywly9cRA4rov7cu.jpg"
+          },
+          {
+            "character": "Aaron Graham",
+            "name": "Jack Huston",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/qWGoZaUbeuaOLbDvyP5txYr9Hct.jpg"
+          },
+          {
+            "character": "Billy Bones",
+            "name": "Tomer Capone",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/r6s7dkYZUJpd00C7p9itT6Gp8XB.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/cv102XnL9r7M9jFr0hsMeqzpAWW.jpg",
+      "description": "Young Jim Hawkins and his mother Bess come into possession of a legendary pirate’s treasure map and are drawn into a deadly voyage across the Atlantic, where Jim is forced to navigate mutiny, violence and betrayal, leaving him forever changed.",
+      "genre": [
+        "Action & Adventure"
+      ],
+      "id": "tmdb:333101",
+      "imdbRating": "6.2",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.2",
+          "url": "https://imdb.com/title/tt40385667"
+        },
+        {
+          "category": "Cast",
+          "name": "Tom Sweet",
+          "url": "stremio:///search?search=Tom%20Sweet"
+        },
+        {
+          "category": "Cast",
+          "name": "David Oyelowo",
+          "url": "stremio:///search?search=David%20Oyelowo"
+        },
+        {
+          "category": "Cast",
+          "name": "Hayley Atwell",
+          "url": "stremio:///search?search=Hayley%20Atwell"
+        },
+        {
+          "category": "Cast",
+          "name": "Jack Huston",
+          "url": "stremio:///search?search=Jack%20Huston"
+        },
+        {
+          "category": "Cast",
+          "name": "Tomer Capone",
+          "url": "stremio:///search?search=Tomer%20Capone"
+        }
+      ],
+      "name": "Treasure Island",
+      "poster": "https://image.tmdb.org/t/p/w342/xZQ5ABJF1iLjGq9xR4MthpgQEFF.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026-",
+      "runtime": "44min",
+      "type": "series",
+      "writer": [
+        "Robert Murphy"
+      ],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Calvin Penney",
+            "name": "Josh Hartnett",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/5eMo8D7h1XrSu6ZN4UXhPcS6YNG.jpg"
+          },
+          {
+            "character": "Dr. Fonda Howander",
+            "name": "Mackenzie Davis",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ekQbEIKh26jbz17P0wwLbo6uNs9.jpg"
+          },
+          {
+            "character": "Wade Penney",
+            "name": "Charlie Heaton",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/lTFj22o0odUj9MfzjLvBtjfGyOT.jpg"
+          },
+          {
+            "character": "Mary Penney",
+            "name": "Ruby Stokes",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/82itS42KR0RisdZNRemnGuKowIe.jpg"
+          },
+          {
+            "character": "Noah Townsend",
+            "name": "Kaleb Horn",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/e8Dw4RNTmmbn5p7pYNP92wO3cA9.jpg"
+          },
+          {
+            "character": "Jay Penney",
+            "name": "Rohan Campbell",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/r1PDcoPF1NDvvxwqkOJTrFaT1za.jpg"
+          },
+          {
+            "character": "Ruth Penney",
+            "name": "Willow Kean",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/7p7LEKqI5Kn353wKLpbQdD5V3JP.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
+      "description": "When a mysterious sea creature terrorizes a small Newfoundland town, a hard-bitten fisherman and his family fight to protect their close-knit community.",
+      "genre": [
+        "Drama",
+        "Mystery"
+      ],
+      "id": "tmdb:285322",
+      "imdbRating": "7.3",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.3",
+          "url": "https://imdb.com/title/tt35934755"
+        },
+        {
+          "category": "Cast",
+          "name": "Josh Hartnett",
+          "url": "stremio:///search?search=Josh%20Hartnett"
+        },
+        {
+          "category": "Cast",
+          "name": "Mackenzie Davis",
+          "url": "stremio:///search?search=Mackenzie%20Davis"
+        },
+        {
+          "category": "Cast",
+          "name": "Charlie Heaton",
+          "url": "stremio:///search?search=Charlie%20Heaton"
+        },
+        {
+          "category": "Cast",
+          "name": "Ruby Stokes",
+          "url": "stremio:///search?search=Ruby%20Stokes"
+        },
+        {
+          "category": "Cast",
+          "name": "Kaleb Horn",
+          "url": "stremio:///search?search=Kaleb%20Horn"
+        },
+        {
+          "category": "Cast",
+          "name": "Rohan Campbell",
+          "url": "stremio:///search?search=Rohan%20Campbell"
+        },
+        {
+          "category": "Cast",
+          "name": "Willow Kean",
+          "url": "stremio:///search?search=Willow%20Kean"
+        }
+      ],
+      "name": "Below",
+      "poster": "https://image.tmdb.org/t/p/w342/vgLqqhMUbljp585qPp1EFCyJtcz.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026-2026",
+      "runtime": "37min",
+      "type": "series",
+      "writer": [
+        "Jesse McKeown"
+      ],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Vision",
+            "name": "Paul Bettany",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/oNrDowF5cRtK5lJJuCAh0KeFizy.jpg"
+          },
+          {
+            "character": "Ultron",
+            "name": "James Spader",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/3gurW3OgDOD4hcqDfgcqUnoNg34.jpg"
+          },
+          {
+            "character": "Thomas Shepard",
+            "name": "Ruaridh Mollica",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/wiSim6nG9TSY4AO8KOwsaaPJ0EH.jpg"
+          },
+          {
+            "character": "Paladin",
+            "name": "Todd Stashwick",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/seKRXV2HMS36ip4SfQq6PLRiLL2.jpg"
+          },
+          {
+            "character": "Jocasta",
+            "name": "T'Nia Miller",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/rNsPJGkQz2yMbqcrWQCdGxq7t20.jpg"
+          },
+          {
+            "character": "Lisa Molinari",
+            "name": "Lauren Morais",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/7Eur3EddzlvXTYzKAGkRmo87xcS.jpg"
+          },
+          {
+            "character": "F.R.I.D.A.Y.",
+            "name": "Orla Brady",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/wjo8xposTE0HenFopy6KELCWoD0.jpg"
+          },
+          {
+            "character": "Handler",
+            "name": "Diane Morgan",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/46Mdcr9ycOaLCKApoj101Cx1c1S.jpg"
+          },
+          {
+            "character": "Fiona Guthrie",
+            "name": "Polly Frame",
+            "photo": null
+          },
+          {
+            "character": "D.U.M.-E",
+            "name": "Henry Lewis",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/sMDsMyLYhmI1N1amPPmd6Lrh7UK.jpg"
+          },
+          {
+            "character": "U",
+            "name": "Jonathan Sayer",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/cfF9sJMiJyxkYATv47H2qRabCVB.jpg"
+          },
+          {
+            "character": "E.D.I.T.H.",
+            "name": "Emily Hampshire",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/cw5F0VKKSVzRvQB4CMRXhs6WxoH.jpg"
+          },
+          {
+            "character": "J.A.R.V.I.S.",
+            "name": "James D'Arcy",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/6CInTvBeLwXLx2id9TgaULaVEO4.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg",
+      "description": "With a bounty on his head, Vision must confront his nature and resist Ultron's influence to survive.",
+      "genre": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "id": "tmdb:213375",
+      "imdbRating": "10.0",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "10.0",
+          "url": "https://imdb.com/title/tt23112594"
+        },
+        {
+          "category": "Cast",
+          "name": "Paul Bettany",
+          "url": "stremio:///search?search=Paul%20Bettany"
+        },
+        {
+          "category": "Cast",
+          "name": "James Spader",
+          "url": "stremio:///search?search=James%20Spader"
+        },
+        {
+          "category": "Cast",
+          "name": "Ruaridh Mollica",
+          "url": "stremio:///search?search=Ruaridh%20Mollica"
+        },
+        {
+          "category": "Cast",
+          "name": "Todd Stashwick",
+          "url": "stremio:///search?search=Todd%20Stashwick"
+        },
+        {
+          "category": "Cast",
+          "name": "T'Nia Miller",
+          "url": "stremio:///search?search=T'Nia%20Miller"
+        },
+        {
+          "category": "Cast",
+          "name": "Lauren Morais",
+          "url": "stremio:///search?search=Lauren%20Morais"
+        },
+        {
+          "category": "Cast",
+          "name": "Orla Brady",
+          "url": "stremio:///search?search=Orla%20Brady"
+        },
+        {
+          "category": "Cast",
+          "name": "Diane Morgan",
+          "url": "stremio:///search?search=Diane%20Morgan"
+        },
+        {
+          "category": "Cast",
+          "name": "Polly Frame",
+          "url": "stremio:///search?search=Polly%20Frame"
+        },
+        {
+          "category": "Cast",
+          "name": "Henry Lewis",
+          "url": "stremio:///search?search=Henry%20Lewis"
+        },
+        {
+          "category": "Cast",
+          "name": "Jonathan Sayer",
+          "url": "stremio:///search?search=Jonathan%20Sayer"
+        },
+        {
+          "category": "Cast",
+          "name": "Emily Hampshire",
+          "url": "stremio:///search?search=Emily%20Hampshire"
+        },
+        {
+          "category": "Cast",
+          "name": "James D'Arcy",
+          "url": "stremio:///search?search=James%20D'Arcy"
+        }
+      ],
+      "name": "VisionQuest",
+      "poster": "https://image.tmdb.org/t/p/w342/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026-",
+      "runtime": "",
+      "type": "series",
+      "writer": [
+        "Terry Matalas"
+      ],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Son Goku / Son Goten (voice)",
+            "name": "Masako Nozawa",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/jxbXdejmPoiKnNoQz7Dkb80qC26.jpg"
+          },
+          {
+            "character": "Vegeta (voice)",
+            "name": "Ryo Horikawa",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/vZ69WQJfR5D2xow5FkddduRjq6c.jpg"
+          },
+          {
+            "character": "Chichi (voice)",
+            "name": "Naoko Watanabe",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/wgX2xT2y21Tv0eKIMSyMXf6CC0U.jpg"
+          },
+          {
+            "character": "Mr. Satan (voice)",
+            "name": "Unsho Ishizuka",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/nmj1vTrJc0zvuUYqxSyWXmIGBlP.jpg"
+          },
+          {
+            "character": "Beerus (voice)",
+            "name": "Koichi Yamadera",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/biov5jENp2XYfehkcdnRvi796Wi.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg",
+      "description": "When Beerus, the God of Destruction, awakens in search of a worthy rival, Goku and his friends face an epic battle to stop him from destroying Earth.\n\nRemastered and re-edited version of Dragon Ball Super.",
+      "genre": [
+        "Animation",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "id": "tmdb:312359",
+      "imdbRating": "9.8",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "9.8",
+          "url": "https://imdb.com/title/tt39395275"
+        },
+        {
+          "category": "Cast",
+          "name": "Masako Nozawa",
+          "url": "stremio:///search?search=Masako%20Nozawa"
+        },
+        {
+          "category": "Cast",
+          "name": "Ryo Horikawa",
+          "url": "stremio:///search?search=Ryo%20Horikawa"
+        },
+        {
+          "category": "Cast",
+          "name": "Naoko Watanabe",
+          "url": "stremio:///search?search=Naoko%20Watanabe"
+        },
+        {
+          "category": "Cast",
+          "name": "Unsho Ishizuka",
+          "url": "stremio:///search?search=Unsho%20Ishizuka"
+        },
+        {
+          "category": "Cast",
+          "name": "Koichi Yamadera",
+          "url": "stremio:///search?search=Koichi%20Yamadera"
+        }
+      ],
+      "name": "Dragon Ball Super: Beerus",
+      "poster": "https://image.tmdb.org/t/p/w342/AojgldgsOlzZV8ahyOzaiAjJWvV.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026-",
+      "runtime": "24min",
+      "type": "series",
+      "writer": [],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Lisa Konrad",
+            "name": "Friederike Becht",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/uxvEF4bF60ipQnM5QStX8Wbnnse.jpg"
+          },
+          {
+            "character": "Robert Lenzen",
+            "name": "Hans Löw",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/eu2VBm55a9aQNKEtFY9qKGm5ya5.jpg"
+          },
+          {
+            "character": "",
+            "name": "Alexander Schubert",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/dWRleMp2Qqs7dpae56Tzpxv5yEJ.jpg"
+          },
+          {
+            "character": "",
+            "name": "Katja Ponickau",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/34stNsJekzoUx2tOlmoEQw4oDkk.jpg"
+          },
+          {
+            "character": "Toni",
+            "name": "Naila Schuberth",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/evYmtGc11LWZNlwSUeBun4w0yOu.jpg"
+          },
+          {
+            "character": "",
+            "name": "Josephine Thiesen",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/1YThG6A6GDI5sgUfxKOjZvWmKlE.jpg"
+          },
+          {
+            "character": "",
+            "name": "Matthias Brandt",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/4hsgiicaXbQvgUkyWmTlaSTqk91.jpg"
+          },
+          {
+            "character": "",
+            "name": "Anna Schudt",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/5b8DG26iAbZmAzgOapN0N46tSye.jpg"
+          },
+          {
+            "character": "",
+            "name": "Michael Klammer",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/u47AlkNpQm0AMr9zY1DnFqXQJxW.jpg"
+          },
+          {
+            "character": "",
+            "name": "Malaya Stern Takeda",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/yWTDo2UTmW83Tq68j4miBIDhuq4.jpg"
+          },
+          {
+            "character": "Max",
+            "name": "Stefan Gorski",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/2O811iT6YfC8xbLyw91E2ScwPkF.jpg"
+          },
+          {
+            "character": "Alexandra Faust",
+            "name": "Silvina Buchbauer",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mZYv7WL35v4Ig5C5R92OYgMnxsg.jpg"
+          },
+          {
+            "character": "Samy",
+            "name": "Jonas Tesifa",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/uy3gJE9Y34s0X71GKW7nvoUWc54.jpg"
+          },
+          {
+            "character": "Jorgo Vatali",
+            "name": "Vassily Kazakos",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/u4paudNhLFc6FcBKmtOEfx87Ql9.jpg"
+          },
+          {
+            "character": "",
+            "name": "Miriam Ohlmeyer",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/6pTZmTz9I9webrBurWCrkbOulIw.jpg"
+          },
+          {
+            "character": "Besucher",
+            "name": "Christian Skibinski",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/A7anfbBMp0c19CQC1Y3m1GHIaKn.jpg"
+          },
+          {
+            "character": "Besucher",
+            "name": "Stefan Riesner",
+            "photo": null
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/69XNjGvcopgPz9Hte0ny1Swk2vW.jpg",
+      "description": "Follow famous author Lisa Konrad, who has not left her house for a decade after witnessing the murder of her sister. One night she sees who she believes was the murdered on television, and decides to use herself as bait to catch them.",
+      "genre": [
+        "Drama",
+        "Mystery"
+      ],
+      "id": "tmdb:283371",
+      "imdbRating": "8.2",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.2",
+          "url": "https://imdb.com/title/tt36470958"
+        },
+        {
+          "category": "Cast",
+          "name": "Friederike Becht",
+          "url": "stremio:///search?search=Friederike%20Becht"
+        },
+        {
+          "category": "Cast",
+          "name": "Hans Löw",
+          "url": "stremio:///search?search=Hans%20L%C3%B6w"
+        },
+        {
+          "category": "Cast",
+          "name": "Alexander Schubert",
+          "url": "stremio:///search?search=Alexander%20Schubert"
+        },
+        {
+          "category": "Cast",
+          "name": "Katja Ponickau",
+          "url": "stremio:///search?search=Katja%20Ponickau"
+        },
+        {
+          "category": "Cast",
+          "name": "Naila Schuberth",
+          "url": "stremio:///search?search=Naila%20Schuberth"
+        },
+        {
+          "category": "Cast",
+          "name": "Josephine Thiesen",
+          "url": "stremio:///search?search=Josephine%20Thiesen"
+        },
+        {
+          "category": "Cast",
+          "name": "Matthias Brandt",
+          "url": "stremio:///search?search=Matthias%20Brandt"
+        },
+        {
+          "category": "Cast",
+          "name": "Anna Schudt",
+          "url": "stremio:///search?search=Anna%20Schudt"
+        },
+        {
+          "category": "Cast",
+          "name": "Michael Klammer",
+          "url": "stremio:///search?search=Michael%20Klammer"
+        },
+        {
+          "category": "Cast",
+          "name": "Malaya Stern Takeda",
+          "url": "stremio:///search?search=Malaya%20Stern%20Takeda"
+        },
+        {
+          "category": "Cast",
+          "name": "Stefan Gorski",
+          "url": "stremio:///search?search=Stefan%20Gorski"
+        },
+        {
+          "category": "Cast",
+          "name": "Silvina Buchbauer",
+          "url": "stremio:///search?search=Silvina%20Buchbauer"
+        },
+        {
+          "category": "Cast",
+          "name": "Jonas Tesifa",
+          "url": "stremio:///search?search=Jonas%20Tesifa"
+        },
+        {
+          "category": "Cast",
+          "name": "Vassily Kazakos",
+          "url": "stremio:///search?search=Vassily%20Kazakos"
+        },
+        {
+          "category": "Cast",
+          "name": "Miriam Ohlmeyer",
+          "url": "stremio:///search?search=Miriam%20Ohlmeyer"
+        },
+        {
+          "category": "Cast",
+          "name": "Christian Skibinski",
+          "url": "stremio:///search?search=Christian%20Skibinski"
+        },
+        {
+          "category": "Cast",
+          "name": "Stefan Riesner",
+          "url": "stremio:///search?search=Stefan%20Riesner"
+        }
+      ],
+      "name": "The Trap",
+      "poster": "https://image.tmdb.org/t/p/w342/dkLTaC44QqnCAgzCf180TxMmmG5.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026-",
+      "runtime": "",
+      "type": "series",
+      "writer": [
+        "Isabel Kleefeld"
+      ],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Hal Jordan / Halogram",
+            "name": "Kyle Chandler",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/66n7XNj1dyYkzCBWR3Lq8Vz4PJ1.jpg"
+          },
+          {
+            "character": "John Stewart",
+            "name": "Aaron Pierre",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/hNwZWdT2KxKj1YLbipvtUhNjfAp.jpg"
+          },
+          {
+            "character": "Sheriff Kerry Kane",
+            "name": "Kelly Macdonald",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/k0yVocTnTMWlNdaeOO7YRViCdhO.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/6gqezQJ2mkm4jreWwLyOZy2Vf6i.jpg",
+      "description": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
+      "genre": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "id": "tmdb:95350",
+      "imdbRating": "8.3",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.3",
+          "url": "https://imdb.com/title/tt26545992"
+        },
+        {
+          "category": "Cast",
+          "name": "Kyle Chandler",
+          "url": "stremio:///search?search=Kyle%20Chandler"
+        },
+        {
+          "category": "Cast",
+          "name": "Aaron Pierre",
+          "url": "stremio:///search?search=Aaron%20Pierre"
+        },
+        {
+          "category": "Cast",
+          "name": "Kelly Macdonald",
+          "url": "stremio:///search?search=Kelly%20Macdonald"
+        }
+      ],
+      "name": "Lanterns",
+      "poster": "https://image.tmdb.org/t/p/w342/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026-",
+      "runtime": "57min",
+      "type": "series",
+      "writer": [
+        "Damon Lindelof",
+        "Chris Mundy",
+        "Tom King"
+      ],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Self",
+            "name": "Mike Tyson",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/7eI1WK9985q8XiUgg3rDjOwa3MR.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/qFNAWAHCXWtS4EMlLxTAetTpZAR.jpg",
+      "description": "Explore the explosive life of Mike Tyson — one of the most feared and fascinating figures in sports history.",
+      "genre": [
+        "Documentary"
+      ],
+      "id": "tmdb:335536",
+      "imdbRating": "N/A",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "N/A",
+          "url": "https://imdb.com/title/tt35051210"
+        },
+        {
+          "category": "Cast",
+          "name": "Mike Tyson",
+          "url": "stremio:///search?search=Mike%20Tyson"
+        }
+      ],
+      "name": "TYSON",
+      "poster": "https://image.tmdb.org/t/p/w342/mdtpJEWW1j5Ns7bIcbw1UeIdvhp.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026-",
+      "runtime": "",
+      "type": "series",
+      "writer": [],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Ted Lasso",
+            "name": "Jason Sudeikis",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/uuacnP9DOHMsmj8FhBi0cWWDgrn.jpg"
+          },
+          {
+            "character": "Rebecca Welton",
+            "name": "Hannah Waddingham",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/eHAICyhvjiRZCgzKyJCk9hWnnjr.jpg"
+          },
+          {
+            "character": "Leslie Higgins",
+            "name": "Jeremy Swift",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/muRh4WbyEE4S2763bv777ywpKP3.jpg"
+          },
+          {
+            "character": "Roy Kent",
+            "name": "Brett Goldstein",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/xYdFNE7EkncE8uiPJzT3RrkqcAQ.jpg"
+          },
+          {
+            "character": "Coach Beard",
+            "name": "Brendan Hunt",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/7Z8q2WUop3q5BdyaBD6YvweGWrZ.jpg"
+          },
+          {
+            "character": "Keeley Jones",
+            "name": "Juno Temple",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/vwCjlWQLQWbmcUT2Lwn9G0O8r2.jpg"
+          },
+          {
+            "character": "Alice Chilton",
+            "name": "Tanya Reynolds",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/vvuOMMdNCizVvclhDb6ZAZa9BOR.jpg"
+          },
+          {
+            "character": "Siobhan Harrigan",
+            "name": "Rex Hayes",
+            "photo": null
+          },
+          {
+            "character": "Katie 'Boots' Quinn",
+            "name": "Jude Mack",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/iZbW7IkBCFkt164Hh3Oa2PBpNr8.jpg"
+          },
+          {
+            "character": "Niamh Harrigan",
+            "name": "Aisling Sharkey",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/5jZWUV3VyKwEzxIOsffgk8lJLrM.jpg"
+          },
+          {
+            "character": "Gemma Jay",
+            "name": "Abbie Hern",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/duZ7DxzjMxOeFPB7VyIFuHtczAM.jpg"
+          },
+          {
+            "character": "Lizzie Davis",
+            "name": "Faye Marsay",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/63vFGISlg0mD1c0tAjxlMMPgWVj.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/nE94ejEbzNCU48bW1oju0dqBONz.jpg",
+      "description": "Ted Lasso, an American football coach, moves to England when he's hired to manage a soccer team—despite having no experience. With cynical players and a doubtful town, will he get them to see the Ted Lasso Way?",
+      "genre": [
+        "Drama",
+        "Comedy"
+      ],
+      "id": "tmdb:97546",
+      "imdbRating": "8.4",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.4",
+          "url": "https://imdb.com/title/tt10986410"
+        },
+        {
+          "category": "Cast",
+          "name": "Jason Sudeikis",
+          "url": "stremio:///search?search=Jason%20Sudeikis"
+        },
+        {
+          "category": "Cast",
+          "name": "Hannah Waddingham",
+          "url": "stremio:///search?search=Hannah%20Waddingham"
+        },
+        {
+          "category": "Cast",
+          "name": "Jeremy Swift",
+          "url": "stremio:///search?search=Jeremy%20Swift"
+        },
+        {
+          "category": "Cast",
+          "name": "Brett Goldstein",
+          "url": "stremio:///search?search=Brett%20Goldstein"
+        },
+        {
+          "category": "Cast",
+          "name": "Brendan Hunt",
+          "url": "stremio:///search?search=Brendan%20Hunt"
+        },
+        {
+          "category": "Cast",
+          "name": "Juno Temple",
+          "url": "stremio:///search?search=Juno%20Temple"
+        },
+        {
+          "category": "Cast",
+          "name": "Tanya Reynolds",
+          "url": "stremio:///search?search=Tanya%20Reynolds"
+        },
+        {
+          "category": "Cast",
+          "name": "Rex Hayes",
+          "url": "stremio:///search?search=Rex%20Hayes"
+        },
+        {
+          "category": "Cast",
+          "name": "Jude Mack",
+          "url": "stremio:///search?search=Jude%20Mack"
+        },
+        {
+          "category": "Cast",
+          "name": "Aisling Sharkey",
+          "url": "stremio:///search?search=Aisling%20Sharkey"
+        },
+        {
+          "category": "Cast",
+          "name": "Abbie Hern",
+          "url": "stremio:///search?search=Abbie%20Hern"
+        },
+        {
+          "category": "Cast",
+          "name": "Faye Marsay",
+          "url": "stremio:///search?search=Faye%20Marsay"
+        }
+      ],
+      "name": "Ted Lasso",
+      "poster": "https://image.tmdb.org/t/p/w342/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2020-",
+      "runtime": "56min",
+      "type": "series",
+      "writer": [
+        "Bill Lawrence",
+        "Jason Sudeikis",
+        "Joe Kelly",
+        "Brendan Hunt"
+      ],
+      "year": "2020"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Yu Changxuan",
+            "name": "Cheng Lei",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/lPCcaPjZkd1LVzIf9ZYRB82u9Z0.jpg"
+          },
+          {
+            "character": "Ye Pingjun",
+            "name": "Xu Ruohan",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/2STQEbzr74sOlJ4iGZLyWxsMenp.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/vD84yLJVVd7cC2lKF8sEukQG2A3.jpg",
+      "description": "In the turbulent era of the Republic of China, student Ye Pingjun takes a job at a Western Hunan meeting house to fund her mother’s medical care. However, she's unexpectedly caught in the crossfire of an assassination attempt against the powerful Yu family’s fifth son, Yu Changxuan, and ends up accused of a crime she didn’t commit. Pingjun strikes a bold bargain: if Changxuan cannot identify the true culprit within ten days, he must clear her name. What begins as a high-stakes investigation quickly evolves into a calculated courtship as Changxuan maneuvers to win her heart while hiding a complex web of secrets. Will their blossoming romance survive the encroaching shadows of war, or will the secrets of their past pull them apart?",
+      "genre": [
+        "Drama"
+      ],
+      "id": "tmdb:304452",
+      "imdbRating": "9.0",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "9.0",
+          "url": "https://imdb.com/title/tt37109705"
+        },
+        {
+          "category": "Cast",
+          "name": "Cheng Lei",
+          "url": "stremio:///search?search=Cheng%20Lei"
+        },
+        {
+          "category": "Cast",
+          "name": "Xu Ruohan",
+          "url": "stremio:///search?search=Xu%20Ruohan"
+        },
+        {
+          "category": "Directors",
+          "name": "Kuk Kok-Leung",
+          "url": "stremio:///search?search=Kuk%20Kok-Leung"
+        },
+        {
+          "category": "Directors",
+          "name": "Wang Hui",
+          "url": "stremio:///search?search=Wang%20Hui"
+        }
+      ],
+      "name": "The Lament of Autumn",
+      "poster": "https://image.tmdb.org/t/p/w342/3cevVFOasnHhuMqfI06ALkhVoU0.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026-",
+      "runtime": "46min",
+      "type": "series",
+      "writer": [],
+      "year": "2026"
+    }
+  ]
+}

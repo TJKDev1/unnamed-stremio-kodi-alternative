@@ -1,0 +1,4166 @@
+{
+  "metas": [
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Sally Owens",
+            "name": "Sandra Bullock",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/4rfjISL3Flx16jfiusXoHbpt87X.jpg"
+          },
+          {
+            "character": "Gillian Owens",
+            "name": "Nicole Kidman",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/4KSQDodyBtTDMaREYgMdWD1LbH1.jpg"
+          },
+          {
+            "character": "Kylie",
+            "name": "Joey King",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/94c69mPYSK9jFsAEu0OKB7Qs684.jpg"
+          },
+          {
+            "character": "Antonia",
+            "name": "Maisie Williams",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/zk1rlBVci2fmnFhMezaPpa4kwZF.jpg"
+          },
+          {
+            "character": "Gideon",
+            "name": "Xolo Maridueña",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/tJMI7BpjlhHSMpzSz9e1XxygnKd.jpg"
+          },
+          {
+            "character": "Ian Wright",
+            "name": "Lee Pace",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/eeTc0d2AX1vFYVxZ6Qw7qZpg4Tz.jpg"
+          },
+          {
+            "character": "Jet",
+            "name": "Dianne Wiest",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/p9mfzY68FtEbedOMNB5X4eBShhx.jpg"
+          },
+          {
+            "character": "Franny",
+            "name": "Stockard Channing",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/fsk0HkOVKtdcbHfsc99bQvMJep3.jpg"
+          },
+          {
+            "character": "Tom Lockland",
+            "name": "Solly McLeod",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/6aMA4kUV1ji4uu3zzBzQ9fwgUDO.jpg"
+          },
+          {
+            "character": "Maria Owens",
+            "name": "Ema Cavolli",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mzAXiBoJeY1fA9Nc6KNsKNPfsgO.jpg"
+          },
+          {
+            "character": "Hannah Owens",
+            "name": "Cassie Bradley",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/u1rqfCyqHMjeOewKuaIaA9D3WqY.jpg"
+          },
+          {
+            "character": "Jane",
+            "name": "Liz Kingsman",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/sNCFfAVWGe4d4SLlUiNWvLk1Vwe.jpg"
+          },
+          {
+            "character": "Derek",
+            "name": "Nathan Foad",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ou9BZuorEW8PJlbz9fMbVhIvxJj.jpg"
+          },
+          {
+            "character": "Paula",
+            "name": "Katy Wix",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/vVr5KhTeqvxTjgYE1xA6SnfxUuB.jpg"
+          },
+          {
+            "character": "Margaret",
+            "name": "Diana Quick",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/fEpYmTAQcKPUyvt6XsUCsUTv3K4.jpg"
+          },
+          {
+            "character": "Laura",
+            "name": "Ava Galindez",
+            "photo": null
+          },
+          {
+            "character": "Young Kylie",
+            "name": "Scarlett Nasrat",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/qM3mL63JMpgN6oWKxcRqQ7ucEsq.jpg"
+          },
+          {
+            "character": "Young Antonia",
+            "name": "Harriett Scott",
+            "photo": null
+          },
+          {
+            "character": "Local Woman",
+            "name": "Amy Bowden",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/vOubMmn1V1ROMHHh29DKnNbpoFc.jpg"
+          },
+          {
+            "character": "Local Woman",
+            "name": "Aimée Cassettari",
+            "photo": null
+          },
+          {
+            "character": "Botany Child",
+            "name": "Logan Truter",
+            "photo": null
+          },
+          {
+            "character": "Botany Child",
+            "name": "Naledi Percival",
+            "photo": null
+          },
+          {
+            "character": "Botany Child",
+            "name": "Roman Anderson",
+            "photo": null
+          },
+          {
+            "character": "Botany Child",
+            "name": "Riley Chung",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/9yKaWeYlhnUmit4JN0H2YYgmR50.jpg"
+          },
+          {
+            "character": "Botany Child",
+            "name": "Teddy Russell",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/2WA5ri5F9XIk1djJhQcHKRke7Jw.jpg"
+          },
+          {
+            "character": "New England Woman",
+            "name": "Emma Bown",
+            "photo": null
+          },
+          {
+            "character": "Happy Woman",
+            "name": "Rachel Handshaw",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/8QWc14rdCg60eLKIbnuZchNuU7B.jpg"
+          },
+          {
+            "character": "Woman Mourner",
+            "name": "Caitlin Mcewan",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/b9pcNrU6bB0NFv1aheCxkHDvE9V.jpg"
+          },
+          {
+            "character": "EMT",
+            "name": "Mariah Baillie",
+            "photo": null
+          },
+          {
+            "character": "Groundskeeper",
+            "name": "Richard Rycroft",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/jDwcesUInRsSgDPXQRfQTa5bORM.jpg"
+          },
+          {
+            "character": "Celebrant",
+            "name": "Anise Senat",
+            "photo": null
+          },
+          {
+            "character": "David Warn",
+            "name": "Farhan Rana Rajpoot",
+            "photo": null
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/wE6syT1vv6W24iLGfhR4kQHnIDN.jpg",
+      "description": "The Owens sisters must confront the dark curse that threatens to unravel their family once and for all.",
+      "director": [
+        "Susanne Bier",
+        "Farhan Rana Rajpoot"
+      ],
+      "genre": [
+        "Romance",
+        "Fantasy",
+        "Comedy"
+      ],
+      "id": "tmdb:1302904",
+      "imdbRating": "6.4",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.4",
+          "url": "https://imdb.com/title/tt32588798"
+        },
+        {
+          "category": "Cast",
+          "name": "Sandra Bullock",
+          "url": "stremio:///search?search=Sandra%20Bullock"
+        },
+        {
+          "category": "Cast",
+          "name": "Nicole Kidman",
+          "url": "stremio:///search?search=Nicole%20Kidman"
+        },
+        {
+          "category": "Cast",
+          "name": "Joey King",
+          "url": "stremio:///search?search=Joey%20King"
+        },
+        {
+          "category": "Cast",
+          "name": "Maisie Williams",
+          "url": "stremio:///search?search=Maisie%20Williams"
+        },
+        {
+          "category": "Cast",
+          "name": "Xolo Maridueña",
+          "url": "stremio:///search?search=Xolo%20Maridue%C3%B1a"
+        },
+        {
+          "category": "Cast",
+          "name": "Lee Pace",
+          "url": "stremio:///search?search=Lee%20Pace"
+        },
+        {
+          "category": "Cast",
+          "name": "Dianne Wiest",
+          "url": "stremio:///search?search=Dianne%20Wiest"
+        },
+        {
+          "category": "Cast",
+          "name": "Stockard Channing",
+          "url": "stremio:///search?search=Stockard%20Channing"
+        },
+        {
+          "category": "Cast",
+          "name": "Solly McLeod",
+          "url": "stremio:///search?search=Solly%20McLeod"
+        },
+        {
+          "category": "Cast",
+          "name": "Ema Cavolli",
+          "url": "stremio:///search?search=Ema%20Cavolli"
+        },
+        {
+          "category": "Cast",
+          "name": "Cassie Bradley",
+          "url": "stremio:///search?search=Cassie%20Bradley"
+        },
+        {
+          "category": "Cast",
+          "name": "Liz Kingsman",
+          "url": "stremio:///search?search=Liz%20Kingsman"
+        },
+        {
+          "category": "Cast",
+          "name": "Nathan Foad",
+          "url": "stremio:///search?search=Nathan%20Foad"
+        },
+        {
+          "category": "Cast",
+          "name": "Katy Wix",
+          "url": "stremio:///search?search=Katy%20Wix"
+        },
+        {
+          "category": "Cast",
+          "name": "Diana Quick",
+          "url": "stremio:///search?search=Diana%20Quick"
+        },
+        {
+          "category": "Cast",
+          "name": "Ava Galindez",
+          "url": "stremio:///search?search=Ava%20Galindez"
+        },
+        {
+          "category": "Cast",
+          "name": "Scarlett Nasrat",
+          "url": "stremio:///search?search=Scarlett%20Nasrat"
+        },
+        {
+          "category": "Cast",
+          "name": "Harriett Scott",
+          "url": "stremio:///search?search=Harriett%20Scott"
+        },
+        {
+          "category": "Cast",
+          "name": "Amy Bowden",
+          "url": "stremio:///search?search=Amy%20Bowden"
+        },
+        {
+          "category": "Cast",
+          "name": "Aimée Cassettari",
+          "url": "stremio:///search?search=Aim%C3%A9e%20Cassettari"
+        },
+        {
+          "category": "Cast",
+          "name": "Logan Truter",
+          "url": "stremio:///search?search=Logan%20Truter"
+        },
+        {
+          "category": "Cast",
+          "name": "Naledi Percival",
+          "url": "stremio:///search?search=Naledi%20Percival"
+        },
+        {
+          "category": "Cast",
+          "name": "Roman Anderson",
+          "url": "stremio:///search?search=Roman%20Anderson"
+        },
+        {
+          "category": "Cast",
+          "name": "Riley Chung",
+          "url": "stremio:///search?search=Riley%20Chung"
+        },
+        {
+          "category": "Cast",
+          "name": "Teddy Russell",
+          "url": "stremio:///search?search=Teddy%20Russell"
+        },
+        {
+          "category": "Cast",
+          "name": "Emma Bown",
+          "url": "stremio:///search?search=Emma%20Bown"
+        },
+        {
+          "category": "Cast",
+          "name": "Rachel Handshaw",
+          "url": "stremio:///search?search=Rachel%20Handshaw"
+        },
+        {
+          "category": "Cast",
+          "name": "Caitlin Mcewan",
+          "url": "stremio:///search?search=Caitlin%20Mcewan"
+        },
+        {
+          "category": "Cast",
+          "name": "Mariah Baillie",
+          "url": "stremio:///search?search=Mariah%20Baillie"
+        },
+        {
+          "category": "Cast",
+          "name": "Richard Rycroft",
+          "url": "stremio:///search?search=Richard%20Rycroft"
+        },
+        {
+          "category": "Cast",
+          "name": "Anise Senat",
+          "url": "stremio:///search?search=Anise%20Senat"
+        },
+        {
+          "category": "Cast",
+          "name": "Farhan Rana Rajpoot",
+          "url": "stremio:///search?search=Farhan%20Rana%20Rajpoot"
+        },
+        {
+          "category": "Directors",
+          "name": "Susanne Bier",
+          "url": "stremio:///search?search=Susanne%20Bier"
+        },
+        {
+          "category": "Directors",
+          "name": "Farhan Rana Rajpoot",
+          "url": "stremio:///search?search=Farhan%20Rana%20Rajpoot"
+        }
+      ],
+      "name": "Practical Magic 2",
+      "poster": "https://image.tmdb.org/t/p/w342/ogwQOLbCfncjvBhFb5l0OmQH8KC.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026",
+      "runtime": "2h10min",
+      "type": "movie",
+      "writer": [],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Mark Kimball",
+            "name": "Ben Affleck",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/aTcqu8cI4wMohU17xTdqmXKTGrw.jpg"
+          },
+          {
+            "character": "Abigail Kimball",
+            "name": "Kerry Washington",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/zgyjYlxmHG6Ntbg16JcTp8Vu8M3.jpg"
+          },
+          {
+            "character": "Dayle Burton",
+            "name": "Gillian Anderson",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/3Ny8ZYahb33vpqNEPNCE2IOXPew.jpg"
+          },
+          {
+            "character": "Sam Allison",
+            "name": "Steven Yeun",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/fOMFO2Xx4duzpNgS9Q5ytO44yGb.jpg"
+          },
+          {
+            "character": "Cecilia Trujillo",
+            "name": "Adriana Paz",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/aUBNKmudV1CCMUHskWemg58vc3n.jpg"
+          },
+          {
+            "character": "Ramon",
+            "name": "Luis Gerardo Méndez",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/uV8XXAlTxNFsD4sBzCHsgo5MpKZ.jpg"
+          },
+          {
+            "character": "Denny Kimball",
+            "name": "Christopher Woodley",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/7qIR7rpHoQDUjtW0PUxPAvD2znu.jpg"
+          },
+          {
+            "character": "Hector",
+            "name": "Jacob Estrada",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/eai64zk7gMEyqOnK28r7P26oO9d.jpg"
+          },
+          {
+            "character": "Ron Sperling",
+            "name": "Ray Fisher",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/310snvA05xDOQZDn2fJSp242GHw.jpg"
+          },
+          {
+            "character": "Hannah",
+            "name": "Taylor Cooper",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ai4yynRG9h8VASG76NZQgnj2Kx1.jpg"
+          },
+          {
+            "character": "Rand",
+            "name": "Chris Gann",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/jX73lEGi5TNjordeEEZRKjqGL9x.jpg"
+          },
+          {
+            "character": "Kidnapper / James Bureaux",
+            "name": "Matt Gerald",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/six7c3aZpiEomHjj4ZYokq8Vgtx.jpg"
+          },
+          {
+            "character": "Kidnapper",
+            "name": "Craig Baxley Jr.",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/a0JdBlTdKHZPRIeWrbQiwE3N8R4.jpg"
+          },
+          {
+            "character": "Kidnapper",
+            "name": "Zack Duhame",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mI6sdZQaeHDi3jXinS4g1jizywk.jpg"
+          },
+          {
+            "character": "Kidnapper",
+            "name": "Brett Sheerin",
+            "photo": null
+          },
+          {
+            "character": "Spotter",
+            "name": "Levi Gilbert",
+            "photo": null
+          },
+          {
+            "character": "Spotter",
+            "name": "Kamy D. Bruder",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/zClbeBZWyCogpRZz9zRQnBSl5X9.jpg"
+          },
+          {
+            "character": "Group Organizer",
+            "name": "Christie Rios",
+            "photo": null
+          },
+          {
+            "character": "Latin Interviewer",
+            "name": "Xochitl Romero",
+            "photo": null
+          },
+          {
+            "character": "Gretchen",
+            "name": "Elizabeth O'Donnell",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/1lSlAP5kMxWebc7l31tmUZjlBXV.jpg"
+          },
+          {
+            "character": "L.A. Times Reporter",
+            "name": "Don O. Knowlton",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/7zUe3pjsb8SNFie4QM6Lra4GHKz.jpg"
+          },
+          {
+            "character": "Reporter #1",
+            "name": "Anoushah Rasta",
+            "photo": null
+          },
+          {
+            "character": "Reporter #2",
+            "name": "Daniel Diaz",
+            "photo": null
+          },
+          {
+            "character": "Reporter #3",
+            "name": "Kristel Elling",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/1DyyxNBWJvPWRGXA30oshqCetue.jpg"
+          },
+          {
+            "character": "Reporter #4",
+            "name": "Brooke Griego",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mdxXHc25OdxS2kRGVVTNRUzkeRj.jpg"
+          },
+          {
+            "character": "Colleague",
+            "name": "Andray Johnson",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/4T1P5gP4qcRCum827FqR6GpZjJZ.jpg"
+          },
+          {
+            "character": "Gayle King",
+            "name": "Gayle King",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/8pgxwvySCYZ7XXtONVjpPHfSSQR.jpg"
+          },
+          {
+            "character": "Dancer",
+            "name": "Jesus Norianueva",
+            "photo": null
+          },
+          {
+            "character": "Dancer",
+            "name": "Deja Hunter",
+            "photo": null
+          },
+          {
+            "character": "Dancer",
+            "name": "Mimi Rios",
+            "photo": null
+          },
+          {
+            "character": "Dancer",
+            "name": "Vanessa Benitez",
+            "photo": null
+          },
+          {
+            "character": "Dancer",
+            "name": "Andrew Ortiz",
+            "photo": null
+          },
+          {
+            "character": "Dancer",
+            "name": "Celeste Noelia Quintana",
+            "photo": null
+          },
+          {
+            "character": "Dancer",
+            "name": "Alex Ramirez",
+            "photo": null
+          },
+          {
+            "character": "Dancer",
+            "name": "Andy Romero",
+            "photo": null
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/tzoarEu7TsG959upiELyYPm5kO9.jpg",
+      "description": "When the son of an L.A. mayoral candidate is kidnapped, he and his wife have a few hours to come up with the ransom payment. With most of their money spent on his political campaign, they have to get their hands dirty and expose a side of their lives they never intended to see the light of day.",
+      "director": [
+        "Ben Affleck"
+      ],
+      "genre": [
+        "Thriller",
+        "Drama"
+      ],
+      "id": "tmdb:1236045",
+      "imdbRating": "7.4",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.4",
+          "url": "https://imdb.com/title/tt31049299"
+        },
+        {
+          "category": "Cast",
+          "name": "Ben Affleck",
+          "url": "stremio:///search?search=Ben%20Affleck"
+        },
+        {
+          "category": "Cast",
+          "name": "Kerry Washington",
+          "url": "stremio:///search?search=Kerry%20Washington"
+        },
+        {
+          "category": "Cast",
+          "name": "Gillian Anderson",
+          "url": "stremio:///search?search=Gillian%20Anderson"
+        },
+        {
+          "category": "Cast",
+          "name": "Steven Yeun",
+          "url": "stremio:///search?search=Steven%20Yeun"
+        },
+        {
+          "category": "Cast",
+          "name": "Adriana Paz",
+          "url": "stremio:///search?search=Adriana%20Paz"
+        },
+        {
+          "category": "Cast",
+          "name": "Luis Gerardo Méndez",
+          "url": "stremio:///search?search=Luis%20Gerardo%20M%C3%A9ndez"
+        },
+        {
+          "category": "Cast",
+          "name": "Christopher Woodley",
+          "url": "stremio:///search?search=Christopher%20Woodley"
+        },
+        {
+          "category": "Cast",
+          "name": "Jacob Estrada",
+          "url": "stremio:///search?search=Jacob%20Estrada"
+        },
+        {
+          "category": "Cast",
+          "name": "Ray Fisher",
+          "url": "stremio:///search?search=Ray%20Fisher"
+        },
+        {
+          "category": "Cast",
+          "name": "Taylor Cooper",
+          "url": "stremio:///search?search=Taylor%20Cooper"
+        },
+        {
+          "category": "Cast",
+          "name": "Chris Gann",
+          "url": "stremio:///search?search=Chris%20Gann"
+        },
+        {
+          "category": "Cast",
+          "name": "Matt Gerald",
+          "url": "stremio:///search?search=Matt%20Gerald"
+        },
+        {
+          "category": "Cast",
+          "name": "Craig Baxley Jr.",
+          "url": "stremio:///search?search=Craig%20Baxley%20Jr."
+        },
+        {
+          "category": "Cast",
+          "name": "Zack Duhame",
+          "url": "stremio:///search?search=Zack%20Duhame"
+        },
+        {
+          "category": "Cast",
+          "name": "Brett Sheerin",
+          "url": "stremio:///search?search=Brett%20Sheerin"
+        },
+        {
+          "category": "Cast",
+          "name": "Levi Gilbert",
+          "url": "stremio:///search?search=Levi%20Gilbert"
+        },
+        {
+          "category": "Cast",
+          "name": "Kamy D. Bruder",
+          "url": "stremio:///search?search=Kamy%20D.%20Bruder"
+        },
+        {
+          "category": "Cast",
+          "name": "Christie Rios",
+          "url": "stremio:///search?search=Christie%20Rios"
+        },
+        {
+          "category": "Cast",
+          "name": "Xochitl Romero",
+          "url": "stremio:///search?search=Xochitl%20Romero"
+        },
+        {
+          "category": "Cast",
+          "name": "Elizabeth O'Donnell",
+          "url": "stremio:///search?search=Elizabeth%20O'Donnell"
+        },
+        {
+          "category": "Cast",
+          "name": "Don O. Knowlton",
+          "url": "stremio:///search?search=Don%20O.%20Knowlton"
+        },
+        {
+          "category": "Cast",
+          "name": "Anoushah Rasta",
+          "url": "stremio:///search?search=Anoushah%20Rasta"
+        },
+        {
+          "category": "Cast",
+          "name": "Daniel Diaz",
+          "url": "stremio:///search?search=Daniel%20Diaz"
+        },
+        {
+          "category": "Cast",
+          "name": "Kristel Elling",
+          "url": "stremio:///search?search=Kristel%20Elling"
+        },
+        {
+          "category": "Cast",
+          "name": "Brooke Griego",
+          "url": "stremio:///search?search=Brooke%20Griego"
+        },
+        {
+          "category": "Cast",
+          "name": "Andray Johnson",
+          "url": "stremio:///search?search=Andray%20Johnson"
+        },
+        {
+          "category": "Cast",
+          "name": "Gayle King",
+          "url": "stremio:///search?search=Gayle%20King"
+        },
+        {
+          "category": "Cast",
+          "name": "Jesus Norianueva",
+          "url": "stremio:///search?search=Jesus%20Norianueva"
+        },
+        {
+          "category": "Cast",
+          "name": "Deja Hunter",
+          "url": "stremio:///search?search=Deja%20Hunter"
+        },
+        {
+          "category": "Cast",
+          "name": "Mimi Rios",
+          "url": "stremio:///search?search=Mimi%20Rios"
+        },
+        {
+          "category": "Cast",
+          "name": "Vanessa Benitez",
+          "url": "stremio:///search?search=Vanessa%20Benitez"
+        },
+        {
+          "category": "Cast",
+          "name": "Andrew Ortiz",
+          "url": "stremio:///search?search=Andrew%20Ortiz"
+        },
+        {
+          "category": "Cast",
+          "name": "Celeste Noelia Quintana",
+          "url": "stremio:///search?search=Celeste%20Noelia%20Quintana"
+        },
+        {
+          "category": "Cast",
+          "name": "Alex Ramirez",
+          "url": "stremio:///search?search=Alex%20Ramirez"
+        },
+        {
+          "category": "Cast",
+          "name": "Andy Romero",
+          "url": "stremio:///search?search=Andy%20Romero"
+        },
+        {
+          "category": "Directors",
+          "name": "Ben Affleck",
+          "url": "stremio:///search?search=Ben%20Affleck"
+        },
+        {
+          "category": "Writers",
+          "name": "Billy Ray",
+          "url": "stremio:///search?search=Billy%20Ray"
+        },
+        {
+          "category": "Writers",
+          "name": "Ben Affleck",
+          "url": "stremio:///search?search=Ben%20Affleck"
+        },
+        {
+          "category": "Writers",
+          "name": "Connor O. McIntyre",
+          "url": "stremio:///search?search=Connor%20O.%20McIntyre"
+        }
+      ],
+      "name": "Animals",
+      "poster": "https://image.tmdb.org/t/p/w342/iISM36voS1E8gX9BM0DVK0kgi3E.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026",
+      "runtime": "1h46min",
+      "type": "movie",
+      "writer": [
+        "Billy Ray",
+        "Ben Affleck",
+        "Connor O. McIntyre"
+      ],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Sean",
+            "name": "John Cena",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/rgB2eIOt7WyQjdgJCOuESdDlrjg.jpg"
+          },
+          {
+            "character": "Aimee",
+            "name": "Jessica Biel",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/u5DzbWKvAzS0M4ZhYqpUR9MZr2M.jpg"
+          },
+          {
+            "character": "Ted",
+            "name": "Arturo Castro",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/pbLoDCfjm3fLtGHVqQcnbM2d0cu.jpg"
+          },
+          {
+            "character": "Crosby",
+            "name": "Sam Richardson",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/hUN7IIbegvL7aSqQI5KRWoqqJLm.jpg"
+          },
+          {
+            "character": "Charmaine",
+            "name": "Teyonah Parris",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/iGvBTOi0y2fbBVwgnBRXgY0IXDY.jpg"
+          },
+          {
+            "character": "Helen",
+            "name": "Danai Gurira",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/z7H7QeQvr24vskGlANQhG43vozQ.jpg"
+          },
+          {
+            "character": "Robbie",
+            "name": "Golshifteh Farahani",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/lbsd2lAIQq4egOUXDIfjhte12vv.jpg"
+          },
+          {
+            "character": "Mosier",
+            "name": "Corey Stoll",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/2eMxKecTZBiS60gPUVWcimYgGDp.jpg"
+          },
+          {
+            "character": "Falko",
+            "name": "Daniel Bernhardt",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/3BLz32inDr1jznU6pKQmh20zfhK.jpg"
+          },
+          {
+            "character": "Mustafa",
+            "name": "Randeep Hooda",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/6Raio06bsLalCe4XDsknXxfDamV.jpg"
+          },
+          {
+            "character": "Smalley",
+            "name": "Bill Camp",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/wxYyJSltCHwU0MTg838SllOlvNT.jpg"
+          },
+          {
+            "character": "Grigor",
+            "name": "Kristofer Hivju",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/bACL39GihNmBnFRay78rS3PUHsH.jpg"
+          },
+          {
+            "character": "Young Sean",
+            "name": "Graham Harvey",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/npf6JiNKasP0jmOBxG7yyeouCUm.jpg"
+          },
+          {
+            "character": "Young Aimee",
+            "name": "Reagan Marum",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/j7pupI9uvM35lNxqXglYb4iT0dm.jpg"
+          },
+          {
+            "character": "Young Ted",
+            "name": "Max Fox",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/5If5cWVLCEXPfbtCIpDnsRUU0np.jpg"
+          },
+          {
+            "character": "Young Crosby",
+            "name": "Aiden Stoxx",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/42xffUpYAlk6tHz4ee7Z3rqsbLr.jpg"
+          },
+          {
+            "character": "Eastbrook",
+            "name": "Tornike Gogrichiani",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/uxricy51fMAFvK2WDsYAiBaoamG.jpg"
+          },
+          {
+            "character": "Young Charmaine",
+            "name": "Braxton Paul",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/fTUpRQVODPySDwf3IFmEkx3Whct.jpg"
+          },
+          {
+            "character": "Female Commando",
+            "name": "Aurélia Agel",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/65jldkmfDloJqJzmWSfmk2ex2J0.jpg"
+          },
+          {
+            "character": "Female Commando",
+            "name": "Eniko Fulop",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/xoYaskmRgAKexpobG0D9EpkHiN0.jpg"
+          },
+          {
+            "character": "Mason",
+            "name": "Silas Timberlake",
+            "photo": null
+          },
+          {
+            "character": "Older Kid",
+            "name": "Elton McCrudden",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/aqqaTQwzz7J92wRCiIIajsZ6D3b.jpg"
+          },
+          {
+            "character": "Brian",
+            "name": "Grant Kilburn",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mKqOYNK4NORpjowO6NSf5GsGI0P.jpg"
+          },
+          {
+            "character": "Dan",
+            "name": "James Devoti",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/g9Rn7Q19YsAW0uC0GbnbLsyKWJZ.jpg"
+          },
+          {
+            "character": "Jackson",
+            "name": "Jack Alldridge",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/zz3IDRqx7wM26KTwptjDH63st5c.jpg"
+          },
+          {
+            "character": "Shelby",
+            "name": "Millie Brady",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/rCMJ6hS6qMta17X6QzmNDqLdm38.jpg"
+          },
+          {
+            "character": "CIA Op Waitress",
+            "name": "Shelby Malone",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/9ATpvttpFuc3Co7xv9fZHKIBDKe.jpg"
+          },
+          {
+            "character": "News Anchor",
+            "name": "Lynda Kinkade",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/9qmLXHfklkx1xcveMvfxOXzZ7Pr.jpg"
+          },
+          {
+            "character": "Nicholas Bernardi",
+            "name": "Patrick Newall",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/dOGLRCvGb8mCXSjoDAq4l9Xroob.jpg"
+          },
+          {
+            "character": "Alexander Banimari",
+            "name": "Anthony J. Vorhies",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/wraN2i121orlXFt14dmh2tLkFGL.jpg"
+          },
+          {
+            "character": "Valentina La Mure",
+            "name": "Vanessa Malits",
+            "photo": null
+          },
+          {
+            "character": "Priest",
+            "name": "Justin Muller",
+            "photo": null
+          },
+          {
+            "character": "Hippie Van Driver",
+            "name": "Joshua Watkins",
+            "photo": null
+          },
+          {
+            "character": "Crew Chief Grizz",
+            "name": "Sam Hargrave",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mq7KgHiyuwFOvxuEg8p0Z30pybY.jpg"
+          },
+          {
+            "character": "Mike Dozer Driver",
+            "name": "Shane Habberstad",
+            "photo": null
+          },
+          {
+            "character": "Cell Phone Guy",
+            "name": "Karim Debbagh",
+            "photo": null
+          },
+          {
+            "character": "Ted's Sister",
+            "name": "Rachel McDermott",
+            "photo": null
+          },
+          {
+            "character": "Doctor",
+            "name": "Gábor Róbert Maday",
+            "photo": null
+          },
+          {
+            "character": "Nurse",
+            "name": "Dounia Ezzriouli",
+            "photo": null
+          },
+          {
+            "character": "Patient",
+            "name": "Samar Boukadida",
+            "photo": null
+          },
+          {
+            "character": "Little Boy's Mom",
+            "name": "Khadija Laafar",
+            "photo": null
+          },
+          {
+            "character": "Little Boy with Cars",
+            "name": "Moumen Yasser",
+            "photo": null
+          },
+          {
+            "character": "Robbie's Lair Waiter",
+            "name": "Bella Bernhardt",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/vzhj2SxbtytYnUpwsObzypINyLp.jpg"
+          },
+          {
+            "character": "Friendly Neighbor",
+            "name": "Amy Denning Winfrey",
+            "photo": null
+          },
+          {
+            "character": "Bartender",
+            "name": "Harris Ellison",
+            "photo": null
+          },
+          {
+            "character": "Hostess",
+            "name": "Hiba Absar",
+            "photo": null
+          },
+          {
+            "character": "Casino Waitress",
+            "name": "Emilia Abrudan",
+            "photo": null
+          },
+          {
+            "character": "Man with Camel",
+            "name": "Mohamed Benhmamane",
+            "photo": null
+          },
+          {
+            "character": "Gravedigger",
+            "name": "Brandon Forshaw",
+            "photo": null
+          },
+          {
+            "character": "Gravedigger",
+            "name": "Russell Cannon",
+            "photo": null
+          },
+          {
+            "character": "Nordic Thor Commando",
+            "name": "Ivan Kostadinov",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/88aNcosMQq8ngiir8kz0Q0nYmH5.jpg"
+          },
+          {
+            "character": "Lead Merc",
+            "name": "Pedro Luque",
+            "photo": null
+          },
+          {
+            "character": "Blackthorn Agent",
+            "name": "Nathaniel Perry",
+            "photo": null
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/4N2Ur9ald3D1rncUzmskcwe9PCK.jpg",
+      "description": "When a group of former childhood friends reconnect, their reunion takes a wild turn as they stumble upon a dangerous international plot—and must save the world.",
+      "director": [
+        "Sam Hargrave"
+      ],
+      "genre": [
+        "Action",
+        "Comedy",
+        "Adventure"
+      ],
+      "id": "tmdb:1148365",
+      "imdbRating": "7.9",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.9",
+          "url": "https://imdb.com/title/tt28498219"
+        },
+        {
+          "category": "Cast",
+          "name": "John Cena",
+          "url": "stremio:///search?search=John%20Cena"
+        },
+        {
+          "category": "Cast",
+          "name": "Jessica Biel",
+          "url": "stremio:///search?search=Jessica%20Biel"
+        },
+        {
+          "category": "Cast",
+          "name": "Arturo Castro",
+          "url": "stremio:///search?search=Arturo%20Castro"
+        },
+        {
+          "category": "Cast",
+          "name": "Sam Richardson",
+          "url": "stremio:///search?search=Sam%20Richardson"
+        },
+        {
+          "category": "Cast",
+          "name": "Teyonah Parris",
+          "url": "stremio:///search?search=Teyonah%20Parris"
+        },
+        {
+          "category": "Cast",
+          "name": "Danai Gurira",
+          "url": "stremio:///search?search=Danai%20Gurira"
+        },
+        {
+          "category": "Cast",
+          "name": "Golshifteh Farahani",
+          "url": "stremio:///search?search=Golshifteh%20Farahani"
+        },
+        {
+          "category": "Cast",
+          "name": "Corey Stoll",
+          "url": "stremio:///search?search=Corey%20Stoll"
+        },
+        {
+          "category": "Cast",
+          "name": "Daniel Bernhardt",
+          "url": "stremio:///search?search=Daniel%20Bernhardt"
+        },
+        {
+          "category": "Cast",
+          "name": "Randeep Hooda",
+          "url": "stremio:///search?search=Randeep%20Hooda"
+        },
+        {
+          "category": "Cast",
+          "name": "Bill Camp",
+          "url": "stremio:///search?search=Bill%20Camp"
+        },
+        {
+          "category": "Cast",
+          "name": "Kristofer Hivju",
+          "url": "stremio:///search?search=Kristofer%20Hivju"
+        },
+        {
+          "category": "Cast",
+          "name": "Graham Harvey",
+          "url": "stremio:///search?search=Graham%20Harvey"
+        },
+        {
+          "category": "Cast",
+          "name": "Reagan Marum",
+          "url": "stremio:///search?search=Reagan%20Marum"
+        },
+        {
+          "category": "Cast",
+          "name": "Max Fox",
+          "url": "stremio:///search?search=Max%20Fox"
+        },
+        {
+          "category": "Cast",
+          "name": "Aiden Stoxx",
+          "url": "stremio:///search?search=Aiden%20Stoxx"
+        },
+        {
+          "category": "Cast",
+          "name": "Tornike Gogrichiani",
+          "url": "stremio:///search?search=Tornike%20Gogrichiani"
+        },
+        {
+          "category": "Cast",
+          "name": "Braxton Paul",
+          "url": "stremio:///search?search=Braxton%20Paul"
+        },
+        {
+          "category": "Cast",
+          "name": "Aurélia Agel",
+          "url": "stremio:///search?search=Aur%C3%A9lia%20Agel"
+        },
+        {
+          "category": "Cast",
+          "name": "Eniko Fulop",
+          "url": "stremio:///search?search=Eniko%20Fulop"
+        },
+        {
+          "category": "Cast",
+          "name": "Silas Timberlake",
+          "url": "stremio:///search?search=Silas%20Timberlake"
+        },
+        {
+          "category": "Cast",
+          "name": "Elton McCrudden",
+          "url": "stremio:///search?search=Elton%20McCrudden"
+        },
+        {
+          "category": "Cast",
+          "name": "Grant Kilburn",
+          "url": "stremio:///search?search=Grant%20Kilburn"
+        },
+        {
+          "category": "Cast",
+          "name": "James Devoti",
+          "url": "stremio:///search?search=James%20Devoti"
+        },
+        {
+          "category": "Cast",
+          "name": "Jack Alldridge",
+          "url": "stremio:///search?search=Jack%20Alldridge"
+        },
+        {
+          "category": "Cast",
+          "name": "Millie Brady",
+          "url": "stremio:///search?search=Millie%20Brady"
+        },
+        {
+          "category": "Cast",
+          "name": "Shelby Malone",
+          "url": "stremio:///search?search=Shelby%20Malone"
+        },
+        {
+          "category": "Cast",
+          "name": "Lynda Kinkade",
+          "url": "stremio:///search?search=Lynda%20Kinkade"
+        },
+        {
+          "category": "Cast",
+          "name": "Patrick Newall",
+          "url": "stremio:///search?search=Patrick%20Newall"
+        },
+        {
+          "category": "Cast",
+          "name": "Anthony J. Vorhies",
+          "url": "stremio:///search?search=Anthony%20J.%20Vorhies"
+        },
+        {
+          "category": "Cast",
+          "name": "Vanessa Malits",
+          "url": "stremio:///search?search=Vanessa%20Malits"
+        },
+        {
+          "category": "Cast",
+          "name": "Justin Muller",
+          "url": "stremio:///search?search=Justin%20Muller"
+        },
+        {
+          "category": "Cast",
+          "name": "Joshua Watkins",
+          "url": "stremio:///search?search=Joshua%20Watkins"
+        },
+        {
+          "category": "Cast",
+          "name": "Sam Hargrave",
+          "url": "stremio:///search?search=Sam%20Hargrave"
+        },
+        {
+          "category": "Cast",
+          "name": "Shane Habberstad",
+          "url": "stremio:///search?search=Shane%20Habberstad"
+        },
+        {
+          "category": "Cast",
+          "name": "Karim Debbagh",
+          "url": "stremio:///search?search=Karim%20Debbagh"
+        },
+        {
+          "category": "Cast",
+          "name": "Rachel McDermott",
+          "url": "stremio:///search?search=Rachel%20McDermott"
+        },
+        {
+          "category": "Cast",
+          "name": "Gábor Róbert Maday",
+          "url": "stremio:///search?search=G%C3%A1bor%20R%C3%B3bert%20Maday"
+        },
+        {
+          "category": "Cast",
+          "name": "Dounia Ezzriouli",
+          "url": "stremio:///search?search=Dounia%20Ezzriouli"
+        },
+        {
+          "category": "Cast",
+          "name": "Samar Boukadida",
+          "url": "stremio:///search?search=Samar%20Boukadida"
+        },
+        {
+          "category": "Cast",
+          "name": "Khadija Laafar",
+          "url": "stremio:///search?search=Khadija%20Laafar"
+        },
+        {
+          "category": "Cast",
+          "name": "Moumen Yasser",
+          "url": "stremio:///search?search=Moumen%20Yasser"
+        },
+        {
+          "category": "Cast",
+          "name": "Bella Bernhardt",
+          "url": "stremio:///search?search=Bella%20Bernhardt"
+        },
+        {
+          "category": "Cast",
+          "name": "Amy Denning Winfrey",
+          "url": "stremio:///search?search=Amy%20Denning%20Winfrey"
+        },
+        {
+          "category": "Cast",
+          "name": "Harris Ellison",
+          "url": "stremio:///search?search=Harris%20Ellison"
+        },
+        {
+          "category": "Cast",
+          "name": "Hiba Absar",
+          "url": "stremio:///search?search=Hiba%20Absar"
+        },
+        {
+          "category": "Cast",
+          "name": "Emilia Abrudan",
+          "url": "stremio:///search?search=Emilia%20Abrudan"
+        },
+        {
+          "category": "Cast",
+          "name": "Mohamed Benhmamane",
+          "url": "stremio:///search?search=Mohamed%20Benhmamane"
+        },
+        {
+          "category": "Cast",
+          "name": "Brandon Forshaw",
+          "url": "stremio:///search?search=Brandon%20Forshaw"
+        },
+        {
+          "category": "Cast",
+          "name": "Russell Cannon",
+          "url": "stremio:///search?search=Russell%20Cannon"
+        },
+        {
+          "category": "Cast",
+          "name": "Ivan Kostadinov",
+          "url": "stremio:///search?search=Ivan%20Kostadinov"
+        },
+        {
+          "category": "Cast",
+          "name": "Pedro Luque",
+          "url": "stremio:///search?search=Pedro%20Luque"
+        },
+        {
+          "category": "Cast",
+          "name": "Nathaniel Perry",
+          "url": "stremio:///search?search=Nathaniel%20Perry"
+        },
+        {
+          "category": "Directors",
+          "name": "Sam Hargrave",
+          "url": "stremio:///search?search=Sam%20Hargrave"
+        },
+        {
+          "category": "Writers",
+          "name": "David Coggeshall",
+          "url": "stremio:///search?search=David%20Coggeshall"
+        }
+      ],
+      "name": "Matchbox the Movie",
+      "poster": "https://image.tmdb.org/t/p/w342/lFKA4GMz36dImEy3DQPdPF7G4V9.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026",
+      "runtime": "2h7min",
+      "type": "movie",
+      "writer": [
+        "David Coggeshall"
+      ],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Victor von Doom  / Doctor Doom",
+            "name": "Robert Downey Jr.",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg"
+          },
+          {
+            "character": "Steve Rogers",
+            "name": "Chris Evans",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/3bOGNsHlrswhyW79uvIHH1V43JI.jpg"
+          },
+          {
+            "character": "Thor",
+            "name": "Chris Hemsworth",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/piQGdoIQOF3C1EI5cbYZLAW1gfj.jpg"
+          },
+          {
+            "character": "Reed Richards / Mister Fantastic",
+            "name": "Pedro Pascal",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/oKcMbVn0NJTNzQt0ClKKvVXkm60.jpg"
+          },
+          {
+            "character": "Scott Lang / Ant-Man",
+            "name": "Paul Rudd",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/6jtwNOLKy0LdsRAKwZqgYMAfd5n.jpg"
+          },
+          {
+            "character": "Sam Wilson / Captain America",
+            "name": "Anthony Mackie",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/vecvTm7SimizluJkyIwBxeLbvRm.jpg"
+          },
+          {
+            "character": "Yelena Belova",
+            "name": "Florence Pugh",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/2URrZb95t3kY6pLroKny3Enmabp.jpg"
+          },
+          {
+            "character": "Sue Storm / Invisible Woman",
+            "name": "Vanessa Kirby",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/a8a9U00KL2JJkkekzhNnueIGKKF.jpg"
+          },
+          {
+            "character": "Ben Grimm / The Thing",
+            "name": "Ebon Moss-Bachrach",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/xD8GVNayMpiTZxLfahy2DseYcQq.jpg"
+          },
+          {
+            "character": "John Walker",
+            "name": "Wyatt Russell",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/zIldBzXdBWskPZB7x35G2hYEVDo.jpg"
+          },
+          {
+            "character": "Gambit",
+            "name": "Channing Tatum",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/4TpgnS6l8YUXSne9Av9nda6mjxY.jpg"
+          },
+          {
+            "character": "Shaun / Shang-Chi",
+            "name": "Simu Liu",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/cCx2OghLj9KN73oyRZe92i2p3Ih.jpg"
+          },
+          {
+            "character": "Magneto",
+            "name": "Ian McKellen",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/5cnnnpnJG6TiYUSS7qgJheUZgnv.jpg"
+          },
+          {
+            "character": "Peggy Carter",
+            "name": "Hayley Atwell",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/x57wXHexIjD2ywly9cRA4rov7cu.jpg"
+          },
+          {
+            "character": "Loki",
+            "name": "Tom Hiddleston",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mclHxMm8aPlCPKptP67257F5GPo.jpg"
+          },
+          {
+            "character": "Scott Summers / Cyclops",
+            "name": "James Marsden",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/lf7OnfKZnMgNh9b98764tqSocGK.jpg"
+          },
+          {
+            "character": "Professor Charles Xavier",
+            "name": "Patrick Stewart",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ufqtnLh3JJjPbEgxEag3MM5nZyv.jpg"
+          },
+          {
+            "character": "Johnny Storm / Human Torch",
+            "name": "Joseph Quinn",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/zshhuioZaH8S5ZKdMcojzWi1ntl.jpg"
+          },
+          {
+            "character": "Bucky Barnes / Winter Soldier",
+            "name": "Sebastian Stan",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/v20RLWst39klatsqUgSrwHxhwee.jpg"
+          },
+          {
+            "character": "Alexei Shostakov",
+            "name": "David Harbour",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/qMFtMWlYVtFVyBoBhX5IoA5sN5a.jpg"
+          },
+          {
+            "character": "Shuri",
+            "name": "Letitia Wright",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/f7PevpEeBqwzACPhoZ8K3ktrKvE.jpg"
+          },
+          {
+            "character": "Robert Reynolds",
+            "name": "Lewis Pullman",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/i2wJQ2eaVuTPaA84jzxNtxs54mO.jpg"
+          },
+          {
+            "character": "Dr. Henry 'Hank' McCoy / Beast",
+            "name": "Kelsey Grammer",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/5zik4VJim6YTSWDjC7tkp13wxUp.jpg"
+          },
+          {
+            "character": "Cassie Lang",
+            "name": "Kathryn Newton",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/3mos4oK6bps0uhQzW1L7nj5O0Gd.jpg"
+          },
+          {
+            "character": "Joaquin Torres",
+            "name": "Danny Ramirez",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/7ZvcfWA5O5ULiupbHZtGGEPwnpI.jpg"
+          },
+          {
+            "character": "M'Baku",
+            "name": "Winston Duke",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/MhBiZbryibwuoEtPL9Ns8pYHC1.jpg"
+          },
+          {
+            "character": "Kurt Wagner / Nightcrawler",
+            "name": "Alan Cumming",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/axil8ufunARfqyU4ceZNh36fkVQ.jpg"
+          },
+          {
+            "character": "Ava Starr",
+            "name": "Hannah John-Kamen",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/2fqNQQW3B7upH4rBubhxXkIIoGk.jpg"
+          },
+          {
+            "character": "Raven Darkholme / Mystique",
+            "name": "Rebecca Romijn",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/doqFBHNbNhoLF9RX9SYPqwu1mvd.jpg"
+          },
+          {
+            "character": "Namora",
+            "name": "Mabel Cadena",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/z0kAf1LBESLPj4zUaXSngKH7cwg.jpg"
+          },
+          {
+            "character": "Namor",
+            "name": "Tenoch Huerta Mejía",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/x0Wy85CZu887ZQMWrjj4vVulczM.jpg"
+          },
+          {
+            "character": "",
+            "name": "Wesley Holloway",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/3PcwUCcn7B3PKgwDhJwzYiiVAUX.jpg"
+          },
+          {
+            "character": "Attuma",
+            "name": "Alex Livinalli",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/kcPcUfbPMiuNfY3Ox48lXc50NHS.jpg"
+          },
+          {
+            "character": "Gorr's Daughter",
+            "name": "India Rose Hemsworth",
+            "photo": null
+          },
+          {
+            "character": "",
+            "name": "Matilda Firth",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/jmNWhQKAWy0uzGus4BpbKkQjWZ9.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/g3gpP5YDbA85DsA0bt5mgGQIe5q.jpg",
+      "description": "Beloved heroes from three distinct universes are set on a deadly collision course and face an existential threat unlike anything they've ever encountered.",
+      "director": [
+        "Joe Russo",
+        "Anthony Russo"
+      ],
+      "genre": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "id": "tmdb:1003596",
+      "imdbRating": "N/A",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "N/A",
+          "url": "https://imdb.com/title/tt21357150"
+        },
+        {
+          "category": "Cast",
+          "name": "Robert Downey Jr.",
+          "url": "stremio:///search?search=Robert%20Downey%20Jr."
+        },
+        {
+          "category": "Cast",
+          "name": "Chris Evans",
+          "url": "stremio:///search?search=Chris%20Evans"
+        },
+        {
+          "category": "Cast",
+          "name": "Chris Hemsworth",
+          "url": "stremio:///search?search=Chris%20Hemsworth"
+        },
+        {
+          "category": "Cast",
+          "name": "Pedro Pascal",
+          "url": "stremio:///search?search=Pedro%20Pascal"
+        },
+        {
+          "category": "Cast",
+          "name": "Paul Rudd",
+          "url": "stremio:///search?search=Paul%20Rudd"
+        },
+        {
+          "category": "Cast",
+          "name": "Anthony Mackie",
+          "url": "stremio:///search?search=Anthony%20Mackie"
+        },
+        {
+          "category": "Cast",
+          "name": "Florence Pugh",
+          "url": "stremio:///search?search=Florence%20Pugh"
+        },
+        {
+          "category": "Cast",
+          "name": "Vanessa Kirby",
+          "url": "stremio:///search?search=Vanessa%20Kirby"
+        },
+        {
+          "category": "Cast",
+          "name": "Ebon Moss-Bachrach",
+          "url": "stremio:///search?search=Ebon%20Moss-Bachrach"
+        },
+        {
+          "category": "Cast",
+          "name": "Wyatt Russell",
+          "url": "stremio:///search?search=Wyatt%20Russell"
+        },
+        {
+          "category": "Cast",
+          "name": "Channing Tatum",
+          "url": "stremio:///search?search=Channing%20Tatum"
+        },
+        {
+          "category": "Cast",
+          "name": "Simu Liu",
+          "url": "stremio:///search?search=Simu%20Liu"
+        },
+        {
+          "category": "Cast",
+          "name": "Ian McKellen",
+          "url": "stremio:///search?search=Ian%20McKellen"
+        },
+        {
+          "category": "Cast",
+          "name": "Hayley Atwell",
+          "url": "stremio:///search?search=Hayley%20Atwell"
+        },
+        {
+          "category": "Cast",
+          "name": "Tom Hiddleston",
+          "url": "stremio:///search?search=Tom%20Hiddleston"
+        },
+        {
+          "category": "Cast",
+          "name": "James Marsden",
+          "url": "stremio:///search?search=James%20Marsden"
+        },
+        {
+          "category": "Cast",
+          "name": "Patrick Stewart",
+          "url": "stremio:///search?search=Patrick%20Stewart"
+        },
+        {
+          "category": "Cast",
+          "name": "Joseph Quinn",
+          "url": "stremio:///search?search=Joseph%20Quinn"
+        },
+        {
+          "category": "Cast",
+          "name": "Sebastian Stan",
+          "url": "stremio:///search?search=Sebastian%20Stan"
+        },
+        {
+          "category": "Cast",
+          "name": "David Harbour",
+          "url": "stremio:///search?search=David%20Harbour"
+        },
+        {
+          "category": "Cast",
+          "name": "Letitia Wright",
+          "url": "stremio:///search?search=Letitia%20Wright"
+        },
+        {
+          "category": "Cast",
+          "name": "Lewis Pullman",
+          "url": "stremio:///search?search=Lewis%20Pullman"
+        },
+        {
+          "category": "Cast",
+          "name": "Kelsey Grammer",
+          "url": "stremio:///search?search=Kelsey%20Grammer"
+        },
+        {
+          "category": "Cast",
+          "name": "Kathryn Newton",
+          "url": "stremio:///search?search=Kathryn%20Newton"
+        },
+        {
+          "category": "Cast",
+          "name": "Danny Ramirez",
+          "url": "stremio:///search?search=Danny%20Ramirez"
+        },
+        {
+          "category": "Cast",
+          "name": "Winston Duke",
+          "url": "stremio:///search?search=Winston%20Duke"
+        },
+        {
+          "category": "Cast",
+          "name": "Alan Cumming",
+          "url": "stremio:///search?search=Alan%20Cumming"
+        },
+        {
+          "category": "Cast",
+          "name": "Hannah John-Kamen",
+          "url": "stremio:///search?search=Hannah%20John-Kamen"
+        },
+        {
+          "category": "Cast",
+          "name": "Rebecca Romijn",
+          "url": "stremio:///search?search=Rebecca%20Romijn"
+        },
+        {
+          "category": "Cast",
+          "name": "Mabel Cadena",
+          "url": "stremio:///search?search=Mabel%20Cadena"
+        },
+        {
+          "category": "Cast",
+          "name": "Tenoch Huerta Mejía",
+          "url": "stremio:///search?search=Tenoch%20Huerta%20Mej%C3%ADa"
+        },
+        {
+          "category": "Cast",
+          "name": "Wesley Holloway",
+          "url": "stremio:///search?search=Wesley%20Holloway"
+        },
+        {
+          "category": "Cast",
+          "name": "Alex Livinalli",
+          "url": "stremio:///search?search=Alex%20Livinalli"
+        },
+        {
+          "category": "Cast",
+          "name": "India Rose Hemsworth",
+          "url": "stremio:///search?search=India%20Rose%20Hemsworth"
+        },
+        {
+          "category": "Cast",
+          "name": "Matilda Firth",
+          "url": "stremio:///search?search=Matilda%20Firth"
+        },
+        {
+          "category": "Directors",
+          "name": "Joe Russo",
+          "url": "stremio:///search?search=Joe%20Russo"
+        },
+        {
+          "category": "Directors",
+          "name": "Anthony Russo",
+          "url": "stremio:///search?search=Anthony%20Russo"
+        },
+        {
+          "category": "Writers",
+          "name": "Stephen McFeely",
+          "url": "stremio:///search?search=Stephen%20McFeely"
+        },
+        {
+          "category": "Writers",
+          "name": "Michael Waldron",
+          "url": "stremio:///search?search=Michael%20Waldron"
+        },
+        {
+          "category": "Writers",
+          "name": "Chris McKenna",
+          "url": "stremio:///search?search=Chris%20McKenna"
+        },
+        {
+          "category": "Writers",
+          "name": "Erik Sommers",
+          "url": "stremio:///search?search=Erik%20Sommers"
+        }
+      ],
+      "name": "Avengers: Doomsday",
+      "poster": "https://image.tmdb.org/t/p/w342/jzPwsojjFStf5lR5Nm07w2hH56G.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026",
+      "runtime": "2h45min",
+      "type": "movie",
+      "writer": [
+        "Stephen McFeely",
+        "Michael Waldron",
+        "Chris McKenna",
+        "Erik Sommers"
+      ],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Peter Parker / Spider-Man",
+            "name": "Tom Holland",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/adwEBb2sCSzqwnpVgNEG7irl1Ne.jpg"
+          },
+          {
+            "character": "Jean Grey",
+            "name": "Sadie Sink",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/92FddzBfK50XOUbtwjqHPraoGHy.jpg"
+          },
+          {
+            "character": "William 'Bill' Metzger",
+            "name": "Tramell Tillman",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/bGb9u59fTIweCAdF0btl5cGqo26.jpg"
+          },
+          {
+            "character": "MJ",
+            "name": "Zendaya",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/qGkBlyn1AwQpuFnRARMRwj0iHZp.jpg"
+          },
+          {
+            "character": "Ned Leeds",
+            "name": "Jacob Batalon",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/53YhaL4xw4Sb1ssoHkeSSBaO29c.jpg"
+          },
+          {
+            "character": "Frank Castle / Punisher",
+            "name": "Jon Bernthal",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/bjcglF1IpDcZNs1HwFxakGpzBo6.jpg"
+          },
+          {
+            "character": "Bruce Banner / Hulk",
+            "name": "Mark Ruffalo",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/5GilHMOt5PAQh6rlUKZzGmaKEI7.jpg"
+          },
+          {
+            "character": "Yelena Belova / Black Widow",
+            "name": "Florence Pugh",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/2URrZb95t3kY6pLroKny3Enmabp.jpg"
+          },
+          {
+            "character": "Detective Jean DeWolff",
+            "name": "Liza Colón-Zayas",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/q2gHcef0wckji0AS8ZEO6cYx065.jpg"
+          },
+          {
+            "character": "May Parker",
+            "name": "Marisa Tomei",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/vAQ10fvGfVyuJdMNKVMA4ZkacWL.jpg"
+          },
+          {
+            "character": "E.V. (voice)",
+            "name": "Naomi Watts",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/7ysvff7ZhW388SIh2YjQ0XIryOn.jpg"
+          },
+          {
+            "character": "Mac Gargan / Scorpion",
+            "name": "Michael Mando",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/gvM2wG66bjEpiirdeQdyG9EzUfv.jpg"
+          },
+          {
+            "character": "Narrator of Spider Video (voice)",
+            "name": "Keith David",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/1x0QXavmIy3QmhyrOsV7gMnJaEx.jpg"
+          },
+          {
+            "character": "Tombstone",
+            "name": "Marvin Jones III",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/nS4X8TP3idFsxDdV9UqTRbz585g.jpg"
+          },
+          {
+            "character": "Sara",
+            "name": "Olivia Booth-Ford",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/nBerjq4BKbhxQeTgVKaD4zvmRKs.jpg"
+          },
+          {
+            "character": "Apartment Girl",
+            "name": "Taryn Marie Butler",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/6J0TwaDUldwthNJEeOsZxbbKMHk.jpg"
+          },
+          {
+            "character": "Building Manager",
+            "name": "Johnny Myers",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/lGRoYKUPsGgB3LfJjtuHCppzSDD.jpg"
+          },
+          {
+            "character": "Ramrod",
+            "name": "Billy Clements",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/nipJ22DXJBsdM1teQodwop42U6S.jpg"
+          },
+          {
+            "character": "Sheila Rivera",
+            "name": "Zabryna Guevara",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/7NlCmTZoauvyqjNdzTZv2auwOXg.jpg"
+          },
+          {
+            "character": "Marley",
+            "name": "Nina Rose Galano",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/eASy0nRcdFp8IFgAv6t4aeUpzMF.jpg"
+          },
+          {
+            "character": "EJ",
+            "name": "Maikol Roque",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mvHuLX4jwOqgm4HLV4S7e8MscxK.jpg"
+          },
+          {
+            "character": "NYC Street Driver",
+            "name": "Jamel Davall Rodriguez",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/cvjAg6a3bXwGuDppbHQ5dWc8E7X.jpg"
+          },
+          {
+            "character": "Scooter Kid",
+            "name": "Ethan Sokontwe",
+            "photo": null
+          },
+          {
+            "character": "Tour Bus Guide",
+            "name": "Tariyé Peterside",
+            "photo": null
+          },
+          {
+            "character": "DODC Escort Guard",
+            "name": "Phoenix Di Sebastiani",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mBkkZ5irQZPsxdcCIPLCvNv5iT8.jpg"
+          },
+          {
+            "character": "Female Janitor",
+            "name": "Vivien Keene",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/7csygYDCRBnA7HET56990kK2ZWZ.jpg"
+          },
+          {
+            "character": "DODC Box Guard",
+            "name": "Kurtis Lowe",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/hl2paxbdmhZYVCiEfYx1HiCdD6M.jpg"
+          },
+          {
+            "character": "DODC Box Agent",
+            "name": "Marc Small",
+            "photo": null
+          },
+          {
+            "character": "Warehouse Worker",
+            "name": "David Hepple",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/axRNDGr0MNeUKJBJA8nQcNq5adC.jpg"
+          },
+          {
+            "character": "DODC Crew Chief",
+            "name": "Jamaal Burcher",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/d0Y282nAAAXEs9zmsd7v7jHJkD9.jpg"
+          },
+          {
+            "character": "Bathhouse Attendant",
+            "name": "Lieve Carchon",
+            "photo": null
+          },
+          {
+            "character": "Female DODC Guard",
+            "name": "Mary Stillwaggon Stewart",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/atHOg8beOKwXa5epAWttJ77YIVS.jpg"
+          },
+          {
+            "character": "DODC Weapons Tech",
+            "name": "Luka Hays",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/JymMSMDfVVv2Azoeu8piiqRr1f.jpg"
+          },
+          {
+            "character": "Bodega Clerk",
+            "name": "Camila López",
+            "photo": null
+          },
+          {
+            "character": "Partygoer",
+            "name": "Robert Veng",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/jH41qpyAwgAdyWJS6c1OlYENGhb.jpg"
+          },
+          {
+            "character": "Partygoer",
+            "name": "Aoife Haakenson",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/6NqGTvzQxXxP8hVgk9sP6Fdj8HS.jpg"
+          },
+          {
+            "character": "Partygoer",
+            "name": "Gabriel Blaikie",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/olsbUaK4AbpJtbKfsSm3m97yqff.jpg"
+          },
+          {
+            "character": "The Boyfriend",
+            "name": "Eman Esfandi",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/lrDfNC81vTkFW9WApEDiC1euHZn.jpg"
+          },
+          {
+            "character": "Building Tenant",
+            "name": "Shing Moussa Chung",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/eKys0g3R4WxpQ20gFr4R9MfLkHc.jpg"
+          },
+          {
+            "character": "Apartment Girl Boyfriend",
+            "name": "Akil Young",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/6UXuF1yM1MG4cja1MK6VWElEtKV.jpg"
+          },
+          {
+            "character": "DODC Substation Guard",
+            "name": "Benedict Cezair-Thompson",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/3QQRJIn43weIE91q1vgNJs7hV9.jpg"
+          },
+          {
+            "character": "Cindy",
+            "name": "Shannon Young Cho",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/1BLAZ6DZS29nQ3k1BmJU3XGvST7.jpg"
+          },
+          {
+            "character": "David",
+            "name": "Niyi Akin",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/rTqhakLTHzJcUlLcF8CYj1hmz2r.jpg"
+          },
+          {
+            "character": "Businessman",
+            "name": "Carlos Agualusa",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/blNxDInTehaB1yu61GmF4bDQ6Fa.jpg"
+          },
+          {
+            "character": "Street Woman",
+            "name": "Shelley Williams",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/7lzLwZRNGTDVqU5alnly5ZI7LsP.jpg"
+          },
+          {
+            "character": "Street Worker",
+            "name": "Jud Charlton",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/T1UcgXk2pQDq8O9jE2aFJn9bp5.jpg"
+          },
+          {
+            "character": "Balcony Guy",
+            "name": "John Moraitis",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/9h9cG6PyfEmhX4oMmmYnQyK4BuA.jpg"
+          },
+          {
+            "character": "Balcony Girl",
+            "name": "Beatriz Do O",
+            "photo": null
+          },
+          {
+            "character": "Lucy (Bride)",
+            "name": "Daisy Sequerra",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/gPrxwTtId6ZVOpCkCc7QEHQQoit.jpg"
+          },
+          {
+            "character": "John (Groom)",
+            "name": "Nezar Alderazi",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/940awVhZvZO9ANqj3TE9ExcSB88.jpg"
+          },
+          {
+            "character": "Cater-Waiter",
+            "name": "Daniel Kabanda",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ctcwQIg4thdEUIgKhqhbGVMJtOh.jpg"
+          },
+          {
+            "character": "Marriage Heli Pilot",
+            "name": "Michael Magnet",
+            "photo": null
+          },
+          {
+            "character": "Night Driver",
+            "name": "Simon Schatzberger",
+            "photo": null
+          },
+          {
+            "character": "DODC Tech",
+            "name": "Sean Carrington",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/eGt8fd6qSDOxi0PTgYOsvICLPcD.jpg"
+          },
+          {
+            "character": "DODC Prison Yard Guard",
+            "name": "Anthony Nyro",
+            "photo": null
+          },
+          {
+            "character": "DODC Containment Guard",
+            "name": "Michael Amariah",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mWsW3cdo2gFsvymHSoefrRBHGuq.jpg"
+          },
+          {
+            "character": "Snow",
+            "name": "Fan Xiaoshuang",
+            "photo": null
+          },
+          {
+            "character": "Web Kid",
+            "name": "Elvis Carlos",
+            "photo": null
+          },
+          {
+            "character": "Pat Kiernan (uncredited)",
+            "name": "Pat Kiernan",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/8AYGHy2JeJFjcAKyyIRe6lpk35a.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/subj7knTn4DeS6KS7qI66EQKe9i.jpg",
+      "description": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
+      "director": [
+        "Destin Daniel Cretton"
+      ],
+      "genre": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "id": "tmdb:969681",
+      "imdbRating": "8.4",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.4",
+          "url": "https://imdb.com/title/tt22084616"
+        },
+        {
+          "category": "Cast",
+          "name": "Tom Holland",
+          "url": "stremio:///search?search=Tom%20Holland"
+        },
+        {
+          "category": "Cast",
+          "name": "Sadie Sink",
+          "url": "stremio:///search?search=Sadie%20Sink"
+        },
+        {
+          "category": "Cast",
+          "name": "Tramell Tillman",
+          "url": "stremio:///search?search=Tramell%20Tillman"
+        },
+        {
+          "category": "Cast",
+          "name": "Zendaya",
+          "url": "stremio:///search?search=Zendaya"
+        },
+        {
+          "category": "Cast",
+          "name": "Jacob Batalon",
+          "url": "stremio:///search?search=Jacob%20Batalon"
+        },
+        {
+          "category": "Cast",
+          "name": "Jon Bernthal",
+          "url": "stremio:///search?search=Jon%20Bernthal"
+        },
+        {
+          "category": "Cast",
+          "name": "Mark Ruffalo",
+          "url": "stremio:///search?search=Mark%20Ruffalo"
+        },
+        {
+          "category": "Cast",
+          "name": "Florence Pugh",
+          "url": "stremio:///search?search=Florence%20Pugh"
+        },
+        {
+          "category": "Cast",
+          "name": "Liza Colón-Zayas",
+          "url": "stremio:///search?search=Liza%20Col%C3%B3n-Zayas"
+        },
+        {
+          "category": "Cast",
+          "name": "Marisa Tomei",
+          "url": "stremio:///search?search=Marisa%20Tomei"
+        },
+        {
+          "category": "Cast",
+          "name": "Naomi Watts",
+          "url": "stremio:///search?search=Naomi%20Watts"
+        },
+        {
+          "category": "Cast",
+          "name": "Michael Mando",
+          "url": "stremio:///search?search=Michael%20Mando"
+        },
+        {
+          "category": "Cast",
+          "name": "Keith David",
+          "url": "stremio:///search?search=Keith%20David"
+        },
+        {
+          "category": "Cast",
+          "name": "Marvin Jones III",
+          "url": "stremio:///search?search=Marvin%20Jones%20III"
+        },
+        {
+          "category": "Cast",
+          "name": "Olivia Booth-Ford",
+          "url": "stremio:///search?search=Olivia%20Booth-Ford"
+        },
+        {
+          "category": "Cast",
+          "name": "Taryn Marie Butler",
+          "url": "stremio:///search?search=Taryn%20Marie%20Butler"
+        },
+        {
+          "category": "Cast",
+          "name": "Johnny Myers",
+          "url": "stremio:///search?search=Johnny%20Myers"
+        },
+        {
+          "category": "Cast",
+          "name": "Billy Clements",
+          "url": "stremio:///search?search=Billy%20Clements"
+        },
+        {
+          "category": "Cast",
+          "name": "Zabryna Guevara",
+          "url": "stremio:///search?search=Zabryna%20Guevara"
+        },
+        {
+          "category": "Cast",
+          "name": "Nina Rose Galano",
+          "url": "stremio:///search?search=Nina%20Rose%20Galano"
+        },
+        {
+          "category": "Cast",
+          "name": "Maikol Roque",
+          "url": "stremio:///search?search=Maikol%20Roque"
+        },
+        {
+          "category": "Cast",
+          "name": "Jamel Davall Rodriguez",
+          "url": "stremio:///search?search=Jamel%20Davall%20Rodriguez"
+        },
+        {
+          "category": "Cast",
+          "name": "Ethan Sokontwe",
+          "url": "stremio:///search?search=Ethan%20Sokontwe"
+        },
+        {
+          "category": "Cast",
+          "name": "Tariyé Peterside",
+          "url": "stremio:///search?search=Tariy%C3%A9%20Peterside"
+        },
+        {
+          "category": "Cast",
+          "name": "Phoenix Di Sebastiani",
+          "url": "stremio:///search?search=Phoenix%20Di%20Sebastiani"
+        },
+        {
+          "category": "Cast",
+          "name": "Vivien Keene",
+          "url": "stremio:///search?search=Vivien%20Keene"
+        },
+        {
+          "category": "Cast",
+          "name": "Kurtis Lowe",
+          "url": "stremio:///search?search=Kurtis%20Lowe"
+        },
+        {
+          "category": "Cast",
+          "name": "Marc Small",
+          "url": "stremio:///search?search=Marc%20Small"
+        },
+        {
+          "category": "Cast",
+          "name": "David Hepple",
+          "url": "stremio:///search?search=David%20Hepple"
+        },
+        {
+          "category": "Cast",
+          "name": "Jamaal Burcher",
+          "url": "stremio:///search?search=Jamaal%20Burcher"
+        },
+        {
+          "category": "Cast",
+          "name": "Lieve Carchon",
+          "url": "stremio:///search?search=Lieve%20Carchon"
+        },
+        {
+          "category": "Cast",
+          "name": "Mary Stillwaggon Stewart",
+          "url": "stremio:///search?search=Mary%20Stillwaggon%20Stewart"
+        },
+        {
+          "category": "Cast",
+          "name": "Luka Hays",
+          "url": "stremio:///search?search=Luka%20Hays"
+        },
+        {
+          "category": "Cast",
+          "name": "Camila López",
+          "url": "stremio:///search?search=Camila%20L%C3%B3pez"
+        },
+        {
+          "category": "Cast",
+          "name": "Robert Veng",
+          "url": "stremio:///search?search=Robert%20Veng"
+        },
+        {
+          "category": "Cast",
+          "name": "Aoife Haakenson",
+          "url": "stremio:///search?search=Aoife%20Haakenson"
+        },
+        {
+          "category": "Cast",
+          "name": "Gabriel Blaikie",
+          "url": "stremio:///search?search=Gabriel%20Blaikie"
+        },
+        {
+          "category": "Cast",
+          "name": "Eman Esfandi",
+          "url": "stremio:///search?search=Eman%20Esfandi"
+        },
+        {
+          "category": "Cast",
+          "name": "Shing Moussa Chung",
+          "url": "stremio:///search?search=Shing%20Moussa%20Chung"
+        },
+        {
+          "category": "Cast",
+          "name": "Akil Young",
+          "url": "stremio:///search?search=Akil%20Young"
+        },
+        {
+          "category": "Cast",
+          "name": "Benedict Cezair-Thompson",
+          "url": "stremio:///search?search=Benedict%20Cezair-Thompson"
+        },
+        {
+          "category": "Cast",
+          "name": "Shannon Young Cho",
+          "url": "stremio:///search?search=Shannon%20Young%20Cho"
+        },
+        {
+          "category": "Cast",
+          "name": "Niyi Akin",
+          "url": "stremio:///search?search=Niyi%20Akin"
+        },
+        {
+          "category": "Cast",
+          "name": "Carlos Agualusa",
+          "url": "stremio:///search?search=Carlos%20Agualusa"
+        },
+        {
+          "category": "Cast",
+          "name": "Shelley Williams",
+          "url": "stremio:///search?search=Shelley%20Williams"
+        },
+        {
+          "category": "Cast",
+          "name": "Jud Charlton",
+          "url": "stremio:///search?search=Jud%20Charlton"
+        },
+        {
+          "category": "Cast",
+          "name": "John Moraitis",
+          "url": "stremio:///search?search=John%20Moraitis"
+        },
+        {
+          "category": "Cast",
+          "name": "Beatriz Do O",
+          "url": "stremio:///search?search=Beatriz%20Do%20O"
+        },
+        {
+          "category": "Cast",
+          "name": "Daisy Sequerra",
+          "url": "stremio:///search?search=Daisy%20Sequerra"
+        },
+        {
+          "category": "Cast",
+          "name": "Nezar Alderazi",
+          "url": "stremio:///search?search=Nezar%20Alderazi"
+        },
+        {
+          "category": "Cast",
+          "name": "Daniel Kabanda",
+          "url": "stremio:///search?search=Daniel%20Kabanda"
+        },
+        {
+          "category": "Cast",
+          "name": "Michael Magnet",
+          "url": "stremio:///search?search=Michael%20Magnet"
+        },
+        {
+          "category": "Cast",
+          "name": "Simon Schatzberger",
+          "url": "stremio:///search?search=Simon%20Schatzberger"
+        },
+        {
+          "category": "Cast",
+          "name": "Sean Carrington",
+          "url": "stremio:///search?search=Sean%20Carrington"
+        },
+        {
+          "category": "Cast",
+          "name": "Anthony Nyro",
+          "url": "stremio:///search?search=Anthony%20Nyro"
+        },
+        {
+          "category": "Cast",
+          "name": "Michael Amariah",
+          "url": "stremio:///search?search=Michael%20Amariah"
+        },
+        {
+          "category": "Cast",
+          "name": "Fan Xiaoshuang",
+          "url": "stremio:///search?search=Fan%20Xiaoshuang"
+        },
+        {
+          "category": "Cast",
+          "name": "Elvis Carlos",
+          "url": "stremio:///search?search=Elvis%20Carlos"
+        },
+        {
+          "category": "Cast",
+          "name": "Pat Kiernan",
+          "url": "stremio:///search?search=Pat%20Kiernan"
+        },
+        {
+          "category": "Directors",
+          "name": "Destin Daniel Cretton",
+          "url": "stremio:///search?search=Destin%20Daniel%20Cretton"
+        },
+        {
+          "category": "Writers",
+          "name": "Erik Sommers",
+          "url": "stremio:///search?search=Erik%20Sommers"
+        },
+        {
+          "category": "Writers",
+          "name": "Chris McKenna",
+          "url": "stremio:///search?search=Chris%20McKenna"
+        }
+      ],
+      "name": "Spider-Man: Brand New Day",
+      "poster": "https://image.tmdb.org/t/p/w342/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026",
+      "runtime": "2h25min",
+      "type": "movie",
+      "writer": [
+        "Erik Sommers",
+        "Chris McKenna"
+      ],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Mommy / Other Mommy",
+            "name": "Jessica Chastain",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/eQKnihReJeB9vQEa5gySzAlKfZt.jpg"
+          },
+          {
+            "character": "Daddo",
+            "name": "Jay Duplass",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/eUY0JDlqzf5pE9pmdvv4IPU3NYn.jpg"
+          },
+          {
+            "character": "Bela",
+            "name": "Arabella Olivia Clark",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/bwTovaznMIXo9Je01soHBCzmFxn.jpg"
+          },
+          {
+            "character": "Grandma Ruth",
+            "name": "Karen Allen",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/75yyZZyinCUcuK8pOSXnggmuiRp.jpg"
+          },
+          {
+            "character": "Uncle Frank",
+            "name": "Arian Moayed",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/hYBqwt0HelUqgKSd1VDUAyvfDME.jpg"
+          },
+          {
+            "character": "Lois Anthony",
+            "name": "Dichen Lachman",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/yLrpMHBNtuUAu3M9EjaYHnn5EEY.jpg"
+          },
+          {
+            "character": "Kelvin",
+            "name": "Sean Kaufman",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/9sMkCOJU6tWIoezXBapA58C4qpH.jpg"
+          },
+          {
+            "character": "Brian",
+            "name": "Adam Silver",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/jE3zEMEYflS3adHtF11YqLAwlVI.jpg"
+          },
+          {
+            "character": "Ruiss",
+            "name": "Alec Secăreanu",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/faV10C9gsWfF7E5HwKoqymhbDPb.jpg"
+          },
+          {
+            "character": "Tony",
+            "name": "Travis Nelson",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/y5aSsFzlsW21qjXb2gxdla8rsKc.jpg"
+          },
+          {
+            "character": "Callie",
+            "name": "Carrie Dimaculangan",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/be9i55RrygV2ti7vXwr61j8OlCL.jpg"
+          },
+          {
+            "character": "Other Mommy (Creature)",
+            "name": "Hayley Spelman",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/cGy1nKhFlCmsN1SpPZE0GHxOX9M.jpg"
+          },
+          {
+            "character": "Tube Kid 1",
+            "name": "Rosie Anne O'Gorman",
+            "photo": null
+          },
+          {
+            "character": "Tube Kid 2",
+            "name": "Alejandro Nieves",
+            "photo": null
+          },
+          {
+            "character": "Diner Parent (uncredited)",
+            "name": "Tyrone Kearns",
+            "photo": null
+          },
+          {
+            "character": "Party Guest (uncredited)",
+            "name": "Eleanor Jordan O'Farrell",
+            "photo": null
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg",
+      "description": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
+      "director": [
+        "Rob Savage"
+      ],
+      "genre": [
+        "Horror"
+      ],
+      "id": "tmdb:1400837",
+      "imdbRating": "5.9",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "5.9",
+          "url": "https://imdb.com/title/tt36586020"
+        },
+        {
+          "category": "Cast",
+          "name": "Jessica Chastain",
+          "url": "stremio:///search?search=Jessica%20Chastain"
+        },
+        {
+          "category": "Cast",
+          "name": "Jay Duplass",
+          "url": "stremio:///search?search=Jay%20Duplass"
+        },
+        {
+          "category": "Cast",
+          "name": "Arabella Olivia Clark",
+          "url": "stremio:///search?search=Arabella%20Olivia%20Clark"
+        },
+        {
+          "category": "Cast",
+          "name": "Karen Allen",
+          "url": "stremio:///search?search=Karen%20Allen"
+        },
+        {
+          "category": "Cast",
+          "name": "Arian Moayed",
+          "url": "stremio:///search?search=Arian%20Moayed"
+        },
+        {
+          "category": "Cast",
+          "name": "Dichen Lachman",
+          "url": "stremio:///search?search=Dichen%20Lachman"
+        },
+        {
+          "category": "Cast",
+          "name": "Sean Kaufman",
+          "url": "stremio:///search?search=Sean%20Kaufman"
+        },
+        {
+          "category": "Cast",
+          "name": "Adam Silver",
+          "url": "stremio:///search?search=Adam%20Silver"
+        },
+        {
+          "category": "Cast",
+          "name": "Alec Secăreanu",
+          "url": "stremio:///search?search=Alec%20Sec%C4%83reanu"
+        },
+        {
+          "category": "Cast",
+          "name": "Travis Nelson",
+          "url": "stremio:///search?search=Travis%20Nelson"
+        },
+        {
+          "category": "Cast",
+          "name": "Carrie Dimaculangan",
+          "url": "stremio:///search?search=Carrie%20Dimaculangan"
+        },
+        {
+          "category": "Cast",
+          "name": "Hayley Spelman",
+          "url": "stremio:///search?search=Hayley%20Spelman"
+        },
+        {
+          "category": "Cast",
+          "name": "Rosie Anne O'Gorman",
+          "url": "stremio:///search?search=Rosie%20Anne%20O'Gorman"
+        },
+        {
+          "category": "Cast",
+          "name": "Alejandro Nieves",
+          "url": "stremio:///search?search=Alejandro%20Nieves"
+        },
+        {
+          "category": "Cast",
+          "name": "Tyrone Kearns",
+          "url": "stremio:///search?search=Tyrone%20Kearns"
+        },
+        {
+          "category": "Cast",
+          "name": "Eleanor Jordan O'Farrell",
+          "url": "stremio:///search?search=Eleanor%20Jordan%20O'Farrell"
+        },
+        {
+          "category": "Directors",
+          "name": "Rob Savage",
+          "url": "stremio:///search?search=Rob%20Savage"
+        }
+      ],
+      "name": "Other Mommy",
+      "poster": "https://image.tmdb.org/t/p/w342/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026",
+      "runtime": "1h33min",
+      "type": "movie",
+      "writer": [],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Digger Rockwell",
+            "name": "Tom Cruise",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/maf8PhSvDCdEwjEMbYfGpojR5RP.jpg"
+          },
+          {
+            "character": "Dr. Nirav Ganesh",
+            "name": "Riz Ahmed",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/1uP9RaX7BGVx7XGTEmwObBJJzsC.jpg"
+          },
+          {
+            "character": "President Compson",
+            "name": "John Goodman",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/yyYqoyKHO7hE1zpgEV2XlqYWcNV.jpg"
+          },
+          {
+            "character": "Emma Rockwell",
+            "name": "Sandra Hüller",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/jQfKXVCPTH9KEnzHHU4QemCnlMe.jpg"
+          },
+          {
+            "character": "Vice President Eddie",
+            "name": "Michael Stuhlbarg",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/aYB3SQm3h6ZyAdlbGyiNfakjx56.jpg"
+          },
+          {
+            "character": "Kenny",
+            "name": "Jesse Plemons",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/og4I51GsuwohdPgoELOHVMMqMre.jpg"
+          },
+          {
+            "character": "General Fitzgerald",
+            "name": "Robert John Burke",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/uWEaY5gypb6cp1bdUYG4uCKw4sK.jpg"
+          },
+          {
+            "character": "Lina",
+            "name": "Emma D'Arcy",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/9Zlmb7VmtVCxkLq5yqFFRRxCaED.jpg"
+          },
+          {
+            "character": "Defense Secretary Amos",
+            "name": "Burn Gorman",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/udgACYWqCSuu6nvtrSjmyU28B0V.jpg"
+          },
+          {
+            "character": "Hannah",
+            "name": "Sophie Wilde",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/fMZvMsvTv9MYSC6LTNdIUaMGjIv.jpg"
+          },
+          {
+            "character": "Clarkson",
+            "name": "Danny Kirrane",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/yfui1GBLB2UBktBi9WRuxJoJqcs.jpg"
+          },
+          {
+            "character": "Dr. Berg / Reader",
+            "name": "Ross Hatt",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/5FKIImFCpbRzcyyBzyUXDLfvcdd.jpg"
+          },
+          {
+            "character": "Adelia",
+            "name": "Mercedes Hernández",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/2pC5Lv1eiItvAxeEe8KTbRlM1wY.jpg"
+          },
+          {
+            "character": "Brad",
+            "name": "James Dryden",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/66DNJWRWXzv0Sl3OHB9o5DSqFEo.jpg"
+          },
+          {
+            "character": "Steve",
+            "name": "Richard Foster-King",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/1QVbtpayYXScMIj9A2GeRan4HCO.jpg"
+          },
+          {
+            "character": "Admiral Jacobs",
+            "name": "Corey Johnson",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mhNbf4vGzixPL5mTIOBUPguqvpB.jpg"
+          },
+          {
+            "character": "AG Schumer",
+            "name": "Pip Torrens",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/1n7pzFfT6jDHe8kc6I0AEfRryhz.jpg"
+          },
+          {
+            "character": "Reverend Nathaniel Moore",
+            "name": "Stephen Wight",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/heHE7eTw43KguJ0u0bNkGZHOP0G.jpg"
+          },
+          {
+            "character": "Deputy NSA Flower",
+            "name": "Tom Bell",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/dxeZ03hZgbRn9iwqWjeKtC3cBox.jpg"
+          },
+          {
+            "character": "Secretary Jackson",
+            "name": "Cullen Moss",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/zjVvER4Bg4mz38u2JQfLgypYrSP.jpg"
+          },
+          {
+            "character": "Cabinet Member",
+            "name": "Kenton Craig",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/aMwd30xzQQj62lDJKlk4FYgtIT2.jpg"
+          },
+          {
+            "character": "Cabinet Member",
+            "name": "Simon Thorp",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/6rrcqHppJQhaGrrrgWYoRAk36jm.jpg"
+          },
+          {
+            "character": "Cabinet Member",
+            "name": "William Meredith",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/vLiHlMF7IPZ0bNQzN0MV8RKw992.jpg"
+          },
+          {
+            "character": "Cabinet Member",
+            "name": "Nicholas Murchie",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/774c6qNoi4u2YTOqBlMNBrOCVmP.jpg"
+          },
+          {
+            "character": "Simon - Head Technician",
+            "name": "Lee Zarrett",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/oilQd5Oqe2xIIl8iEsrrTvysXof.jpg"
+          },
+          {
+            "character": "Adrian",
+            "name": "Morgan Brind",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/paSizetCuj4IMAAtTUQEWYAbBre.jpg"
+          },
+          {
+            "character": "Sinead",
+            "name": "Linxi Doël",
+            "photo": null
+          },
+          {
+            "character": "Sinead",
+            "name": "Aoife Hinds",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/5Gckrcs7WXkMClFWszNOtuJqRou.jpg"
+          },
+          {
+            "character": "Hope",
+            "name": "Flora Higgins",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/bm7olqutC2WypKnZAmwI1bNgRXP.jpg"
+          },
+          {
+            "character": "Press Secretary",
+            "name": "Joe Hurst",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/2OK4pzKuMw9fnPiDOef7509p7qN.jpg"
+          },
+          {
+            "character": "Assistant Press Secretary",
+            "name": "Will Taylor",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/c5XNLSV8B7qZLDWtzg4AUIymkVk.jpg"
+          },
+          {
+            "character": "Male Nurse in Greens",
+            "name": "John Reech Bumanglag",
+            "photo": null
+          },
+          {
+            "character": "Martha",
+            "name": "Marty Cruikshank",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/hIkZbj0Bn60st2zqdmrrnzgNxfW.jpg"
+          },
+          {
+            "character": "Kyle",
+            "name": "Teddy Hawley",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/lIgp8ltjD8AnHEv2Jfiyi5RJXLM.jpg"
+          },
+          {
+            "character": "Jo",
+            "name": "Mary Higgins",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/rt6gW3hxRSZsqoFmqCUmfSI1qu1.jpg"
+          },
+          {
+            "character": "Agatha",
+            "name": "Annabel Mullion",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/gtTf7IgIdxlDiUGVifZXvPUWFMZ.jpg"
+          },
+          {
+            "character": "Stewardess",
+            "name": "Ágota Dunai",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/cFrwyGUS5OhVuNotTmdgEqGuFVT.jpg"
+          },
+          {
+            "character": "Stewardess",
+            "name": "Christy Meyer",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/abJUb0FtGxhNi6VZuBZosirfDbx.jpg"
+          },
+          {
+            "character": "Security Woman",
+            "name": "Andreea Păduraru",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/r2gQxc9eSWJWlnAn9IyoJURL8HH.jpg"
+          },
+          {
+            "character": "Female Interviewee",
+            "name": "Annette Holland",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/kX46DxrwEt7q2cpi2KDcIFSuwKD.jpg"
+          },
+          {
+            "character": "Male Interviewee",
+            "name": "Michael Eaves",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/zF3NUDRT6KJPrfmV7XNecEQ72As.jpg"
+          },
+          {
+            "character": "Male Newsreader",
+            "name": "Chris Courtenay",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/rbDYkxUKDCzbOMgwYSzFkguHjQL.jpg"
+          },
+          {
+            "character": "Male Newsreader",
+            "name": "David Vickery",
+            "photo": null
+          },
+          {
+            "character": "Female Newsreader",
+            "name": "Kate McKenzie",
+            "photo": null
+          },
+          {
+            "character": "Female Newsreader",
+            "name": "Charlotte Coleman",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/hLMhHjT8T3jtxtXcH9NTSVzPrgL.jpg"
+          },
+          {
+            "character": "President of the Council",
+            "name": "Rupert Shelbourne",
+            "photo": null
+          },
+          {
+            "character": "President of the Council",
+            "name": "Anton Blake Horowitz",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/8rGHFLZHpXq74lc9N4pVT1Qj194.jpg"
+          },
+          {
+            "character": "Helmut",
+            "name": "Scott Hinds",
+            "photo": null
+          },
+          {
+            "character": "Agitator",
+            "name": "Neil Stoddart",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/9Th47xSTQjXa4HvfIOOEdbfaQTC.jpg"
+          },
+          {
+            "character": "Euro Rep 1",
+            "name": "Bodo Friesecke",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/bHor8UdG5x1Pp4H95bcsYGciXO9.jpg"
+          },
+          {
+            "character": "Euro Rep 2",
+            "name": "Martin Oelbermann",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/aAUt1b5tkHkQb8C5TzWvbc7cFHZ.jpg"
+          },
+          {
+            "character": "Rockwell Security",
+            "name": "Ewen Weatherburn",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/oKW0yxxTBO7TC8fRiQEpF4yo95K.jpg"
+          },
+          {
+            "character": "Beatrice Compson",
+            "name": "Barbara Marten",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/sZiDuphaHkKzcmSCdpG5lsp0N6t.jpg"
+          },
+          {
+            "character": "Costumer / Reader",
+            "name": "Laure Stockley",
+            "photo": null
+          },
+          {
+            "character": "Stagehand",
+            "name": "Jessica Lundholm",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ahyyKZsfZ8Hesq2VBEPJ4paVQ3D.jpg"
+          },
+          {
+            "character": "Lighting Designer",
+            "name": "Elizabeth Guterbock",
+            "photo": null
+          },
+          {
+            "character": "Head Chef",
+            "name": "Ángel Silva",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/sbkcbfOO56J76HxXIAn0GhSHpMe.jpg"
+          },
+          {
+            "character": "Kitchen Worker",
+            "name": "Jessen Aroonachellum",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/u2CtoFR0iHkNqAvwPfkQD6lKuxq.jpg"
+          },
+          {
+            "character": "Kitchen Worker",
+            "name": "Ka Long Kelvin Chan",
+            "photo": null
+          },
+          {
+            "character": "Kitchen Worker",
+            "name": "Denus Antanythas",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/tqhvHzTCxT9ig8SjUw1OFaSzPN0.jpg"
+          },
+          {
+            "character": "Kitchen Worker",
+            "name": "William Mychael Lee",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/nQdjZuBHca4t2IoonZ0J7KbPSOd.jpg"
+          },
+          {
+            "character": "Kitchen Worker",
+            "name": "Blayne Kelly",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mL9DhURF9qKY1jzaSyEnH8za0ZM.jpg"
+          },
+          {
+            "character": "Theatre Audience / Reader",
+            "name": "Tom Ashley",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/2mwcg77N7zanPRtk6YdUoAC0o0S.jpg"
+          },
+          {
+            "character": "Theater Audience",
+            "name": "Dominic Charman",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/gQkelI3fg3YPdCykEH0csFiFJlh.jpg"
+          },
+          {
+            "character": "Dancer",
+            "name": "Mason Boyce",
+            "photo": null
+          },
+          {
+            "character": "Dancer",
+            "name": "Alex Brown",
+            "photo": null
+          },
+          {
+            "character": "Dancer",
+            "name": "Tom Clark",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/wYQkvbOeiFsNdSjaolyX6ovJPVa.jpg"
+          },
+          {
+            "character": "Dancer",
+            "name": "Danny Coburn",
+            "photo": null
+          },
+          {
+            "character": "Dancer",
+            "name": "Leon Cooke",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/2ltoe0Ue76EAO0u1D9KbNjj60Kg.jpg"
+          },
+          {
+            "character": "Dancer",
+            "name": "Mike Fellows",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/vg4sO0fuo1y9xfECAvq0sttNkkK.jpg"
+          },
+          {
+            "character": "Dancer",
+            "name": "Andrew Monaghan",
+            "photo": null
+          },
+          {
+            "character": "Dancer",
+            "name": "Harry Price",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/tHBDGKAgkf9UuCv0tavqyDZEy6M.jpg"
+          },
+          {
+            "character": "Dancer",
+            "name": "Aaron J. Smith",
+            "photo": null
+          },
+          {
+            "character": "Dancer",
+            "name": "Charles Tatman",
+            "photo": null
+          },
+          {
+            "character": "Dancer",
+            "name": "Grant Thresh",
+            "photo": null
+          },
+          {
+            "character": "Oil Rig Staff 1 (uncredited)",
+            "name": "Bushra Baig",
+            "photo": null
+          },
+          {
+            "character": "EU Ambassador (uncredited)",
+            "name": "Charlie Bentley",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/xIrwKlRiAdGXBN7M8b8uAztv3rs.jpg"
+          },
+          {
+            "character": "EU Ambassador (uncredited)",
+            "name": "Ian Chance",
+            "photo": null
+          },
+          {
+            "character": "EU Ambassador (uncredited)",
+            "name": "Oleg Hill",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/aMZttm31lnkFmkiZeF093A0HIVm.jpg"
+          },
+          {
+            "character": "EU Ambassador (uncredited)",
+            "name": "Nick Owenford",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/dn6bnZvxKd2wQ8L4bKXYjZuXd3i.jpg"
+          },
+          {
+            "character": "EU Ambassador (uncredited)",
+            "name": "Robert James Smith",
+            "photo": null
+          },
+          {
+            "character": "Homeless Man (uncredited)",
+            "name": "Simon Collins",
+            "photo": null
+          },
+          {
+            "character": "EU Delegate (uncredited)",
+            "name": "Nick Davison",
+            "photo": null
+          },
+          {
+            "character": "The Man (uncredited)",
+            "name": "R.A. Donnelly",
+            "photo": null
+          },
+          {
+            "character": "Theatre Crew (uncredited)",
+            "name": "Keith Higinbotham",
+            "photo": null
+          },
+          {
+            "character": "Policeman (uncredited)",
+            "name": "Jorge Leon",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/sogpJVsJqRQYgh9JbomIzUwlgII.jpg"
+          },
+          {
+            "character": "Bedroom Security (uncredited)",
+            "name": "Daniel Martin",
+            "photo": null
+          },
+          {
+            "character": "Clarke (uncredited)",
+            "name": "John Polivka",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/iIaIjJZLgS81X1j8GfPdZbaLrzU.jpg"
+          },
+          {
+            "character": "EU Representative (uncredited)",
+            "name": "Michael van Koetsveld",
+            "photo": null
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/b7t3r39Oll5qPxBKzLZ8eHMBD7l.jpg",
+      "description": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything.",
+      "director": [
+        "Alejandro G. Iñárritu"
+      ],
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "id": "tmdb:1248832",
+      "imdbRating": "7.5",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.5",
+          "url": "https://imdb.com/title/tt31450459"
+        },
+        {
+          "category": "Cast",
+          "name": "Tom Cruise",
+          "url": "stremio:///search?search=Tom%20Cruise"
+        },
+        {
+          "category": "Cast",
+          "name": "Riz Ahmed",
+          "url": "stremio:///search?search=Riz%20Ahmed"
+        },
+        {
+          "category": "Cast",
+          "name": "John Goodman",
+          "url": "stremio:///search?search=John%20Goodman"
+        },
+        {
+          "category": "Cast",
+          "name": "Sandra Hüller",
+          "url": "stremio:///search?search=Sandra%20H%C3%BCller"
+        },
+        {
+          "category": "Cast",
+          "name": "Michael Stuhlbarg",
+          "url": "stremio:///search?search=Michael%20Stuhlbarg"
+        },
+        {
+          "category": "Cast",
+          "name": "Jesse Plemons",
+          "url": "stremio:///search?search=Jesse%20Plemons"
+        },
+        {
+          "category": "Cast",
+          "name": "Robert John Burke",
+          "url": "stremio:///search?search=Robert%20John%20Burke"
+        },
+        {
+          "category": "Cast",
+          "name": "Emma D'Arcy",
+          "url": "stremio:///search?search=Emma%20D'Arcy"
+        },
+        {
+          "category": "Cast",
+          "name": "Burn Gorman",
+          "url": "stremio:///search?search=Burn%20Gorman"
+        },
+        {
+          "category": "Cast",
+          "name": "Sophie Wilde",
+          "url": "stremio:///search?search=Sophie%20Wilde"
+        },
+        {
+          "category": "Cast",
+          "name": "Danny Kirrane",
+          "url": "stremio:///search?search=Danny%20Kirrane"
+        },
+        {
+          "category": "Cast",
+          "name": "Ross Hatt",
+          "url": "stremio:///search?search=Ross%20Hatt"
+        },
+        {
+          "category": "Cast",
+          "name": "Mercedes Hernández",
+          "url": "stremio:///search?search=Mercedes%20Hern%C3%A1ndez"
+        },
+        {
+          "category": "Cast",
+          "name": "James Dryden",
+          "url": "stremio:///search?search=James%20Dryden"
+        },
+        {
+          "category": "Cast",
+          "name": "Richard Foster-King",
+          "url": "stremio:///search?search=Richard%20Foster-King"
+        },
+        {
+          "category": "Cast",
+          "name": "Corey Johnson",
+          "url": "stremio:///search?search=Corey%20Johnson"
+        },
+        {
+          "category": "Cast",
+          "name": "Pip Torrens",
+          "url": "stremio:///search?search=Pip%20Torrens"
+        },
+        {
+          "category": "Cast",
+          "name": "Stephen Wight",
+          "url": "stremio:///search?search=Stephen%20Wight"
+        },
+        {
+          "category": "Cast",
+          "name": "Tom Bell",
+          "url": "stremio:///search?search=Tom%20Bell"
+        },
+        {
+          "category": "Cast",
+          "name": "Cullen Moss",
+          "url": "stremio:///search?search=Cullen%20Moss"
+        },
+        {
+          "category": "Cast",
+          "name": "Kenton Craig",
+          "url": "stremio:///search?search=Kenton%20Craig"
+        },
+        {
+          "category": "Cast",
+          "name": "Simon Thorp",
+          "url": "stremio:///search?search=Simon%20Thorp"
+        },
+        {
+          "category": "Cast",
+          "name": "William Meredith",
+          "url": "stremio:///search?search=William%20Meredith"
+        },
+        {
+          "category": "Cast",
+          "name": "Nicholas Murchie",
+          "url": "stremio:///search?search=Nicholas%20Murchie"
+        },
+        {
+          "category": "Cast",
+          "name": "Lee Zarrett",
+          "url": "stremio:///search?search=Lee%20Zarrett"
+        },
+        {
+          "category": "Cast",
+          "name": "Morgan Brind",
+          "url": "stremio:///search?search=Morgan%20Brind"
+        },
+        {
+          "category": "Cast",
+          "name": "Linxi Doël",
+          "url": "stremio:///search?search=Linxi%20Do%C3%ABl"
+        },
+        {
+          "category": "Cast",
+          "name": "Aoife Hinds",
+          "url": "stremio:///search?search=Aoife%20Hinds"
+        },
+        {
+          "category": "Cast",
+          "name": "Flora Higgins",
+          "url": "stremio:///search?search=Flora%20Higgins"
+        },
+        {
+          "category": "Cast",
+          "name": "Joe Hurst",
+          "url": "stremio:///search?search=Joe%20Hurst"
+        },
+        {
+          "category": "Cast",
+          "name": "Will Taylor",
+          "url": "stremio:///search?search=Will%20Taylor"
+        },
+        {
+          "category": "Cast",
+          "name": "John Reech Bumanglag",
+          "url": "stremio:///search?search=John%20Reech%20Bumanglag"
+        },
+        {
+          "category": "Cast",
+          "name": "Marty Cruikshank",
+          "url": "stremio:///search?search=Marty%20Cruikshank"
+        },
+        {
+          "category": "Cast",
+          "name": "Teddy Hawley",
+          "url": "stremio:///search?search=Teddy%20Hawley"
+        },
+        {
+          "category": "Cast",
+          "name": "Mary Higgins",
+          "url": "stremio:///search?search=Mary%20Higgins"
+        },
+        {
+          "category": "Cast",
+          "name": "Annabel Mullion",
+          "url": "stremio:///search?search=Annabel%20Mullion"
+        },
+        {
+          "category": "Cast",
+          "name": "Ágota Dunai",
+          "url": "stremio:///search?search=%C3%81gota%20Dunai"
+        },
+        {
+          "category": "Cast",
+          "name": "Christy Meyer",
+          "url": "stremio:///search?search=Christy%20Meyer"
+        },
+        {
+          "category": "Cast",
+          "name": "Andreea Păduraru",
+          "url": "stremio:///search?search=Andreea%20P%C4%83duraru"
+        },
+        {
+          "category": "Cast",
+          "name": "Annette Holland",
+          "url": "stremio:///search?search=Annette%20Holland"
+        },
+        {
+          "category": "Cast",
+          "name": "Michael Eaves",
+          "url": "stremio:///search?search=Michael%20Eaves"
+        },
+        {
+          "category": "Cast",
+          "name": "Chris Courtenay",
+          "url": "stremio:///search?search=Chris%20Courtenay"
+        },
+        {
+          "category": "Cast",
+          "name": "David Vickery",
+          "url": "stremio:///search?search=David%20Vickery"
+        },
+        {
+          "category": "Cast",
+          "name": "Kate McKenzie",
+          "url": "stremio:///search?search=Kate%20McKenzie"
+        },
+        {
+          "category": "Cast",
+          "name": "Charlotte Coleman",
+          "url": "stremio:///search?search=Charlotte%20Coleman"
+        },
+        {
+          "category": "Cast",
+          "name": "Rupert Shelbourne",
+          "url": "stremio:///search?search=Rupert%20Shelbourne"
+        },
+        {
+          "category": "Cast",
+          "name": "Anton Blake Horowitz",
+          "url": "stremio:///search?search=Anton%20Blake%20Horowitz"
+        },
+        {
+          "category": "Cast",
+          "name": "Scott Hinds",
+          "url": "stremio:///search?search=Scott%20Hinds"
+        },
+        {
+          "category": "Cast",
+          "name": "Neil Stoddart",
+          "url": "stremio:///search?search=Neil%20Stoddart"
+        },
+        {
+          "category": "Cast",
+          "name": "Bodo Friesecke",
+          "url": "stremio:///search?search=Bodo%20Friesecke"
+        },
+        {
+          "category": "Cast",
+          "name": "Martin Oelbermann",
+          "url": "stremio:///search?search=Martin%20Oelbermann"
+        },
+        {
+          "category": "Cast",
+          "name": "Ewen Weatherburn",
+          "url": "stremio:///search?search=Ewen%20Weatherburn"
+        },
+        {
+          "category": "Cast",
+          "name": "Barbara Marten",
+          "url": "stremio:///search?search=Barbara%20Marten"
+        },
+        {
+          "category": "Cast",
+          "name": "Laure Stockley",
+          "url": "stremio:///search?search=Laure%20Stockley"
+        },
+        {
+          "category": "Cast",
+          "name": "Jessica Lundholm",
+          "url": "stremio:///search?search=Jessica%20Lundholm"
+        },
+        {
+          "category": "Cast",
+          "name": "Elizabeth Guterbock",
+          "url": "stremio:///search?search=Elizabeth%20Guterbock"
+        },
+        {
+          "category": "Cast",
+          "name": "Ángel Silva",
+          "url": "stremio:///search?search=%C3%81ngel%20Silva"
+        },
+        {
+          "category": "Cast",
+          "name": "Jessen Aroonachellum",
+          "url": "stremio:///search?search=Jessen%20Aroonachellum"
+        },
+        {
+          "category": "Cast",
+          "name": "Ka Long Kelvin Chan",
+          "url": "stremio:///search?search=Ka%20Long%20Kelvin%20Chan"
+        },
+        {
+          "category": "Cast",
+          "name": "Denus Antanythas",
+          "url": "stremio:///search?search=Denus%20Antanythas"
+        },
+        {
+          "category": "Cast",
+          "name": "William Mychael Lee",
+          "url": "stremio:///search?search=William%20Mychael%20Lee"
+        },
+        {
+          "category": "Cast",
+          "name": "Blayne Kelly",
+          "url": "stremio:///search?search=Blayne%20Kelly"
+        },
+        {
+          "category": "Cast",
+          "name": "Tom Ashley",
+          "url": "stremio:///search?search=Tom%20Ashley"
+        },
+        {
+          "category": "Cast",
+          "name": "Dominic Charman",
+          "url": "stremio:///search?search=Dominic%20Charman"
+        },
+        {
+          "category": "Cast",
+          "name": "Mason Boyce",
+          "url": "stremio:///search?search=Mason%20Boyce"
+        },
+        {
+          "category": "Cast",
+          "name": "Alex Brown",
+          "url": "stremio:///search?search=Alex%20Brown"
+        },
+        {
+          "category": "Cast",
+          "name": "Tom Clark",
+          "url": "stremio:///search?search=Tom%20Clark"
+        },
+        {
+          "category": "Cast",
+          "name": "Danny Coburn",
+          "url": "stremio:///search?search=Danny%20Coburn"
+        },
+        {
+          "category": "Cast",
+          "name": "Leon Cooke",
+          "url": "stremio:///search?search=Leon%20Cooke"
+        },
+        {
+          "category": "Cast",
+          "name": "Mike Fellows",
+          "url": "stremio:///search?search=Mike%20Fellows"
+        },
+        {
+          "category": "Cast",
+          "name": "Andrew Monaghan",
+          "url": "stremio:///search?search=Andrew%20Monaghan"
+        },
+        {
+          "category": "Cast",
+          "name": "Harry Price",
+          "url": "stremio:///search?search=Harry%20Price"
+        },
+        {
+          "category": "Cast",
+          "name": "Aaron J. Smith",
+          "url": "stremio:///search?search=Aaron%20J.%20Smith"
+        },
+        {
+          "category": "Cast",
+          "name": "Charles Tatman",
+          "url": "stremio:///search?search=Charles%20Tatman"
+        },
+        {
+          "category": "Cast",
+          "name": "Grant Thresh",
+          "url": "stremio:///search?search=Grant%20Thresh"
+        },
+        {
+          "category": "Cast",
+          "name": "Bushra Baig",
+          "url": "stremio:///search?search=Bushra%20Baig"
+        },
+        {
+          "category": "Cast",
+          "name": "Charlie Bentley",
+          "url": "stremio:///search?search=Charlie%20Bentley"
+        },
+        {
+          "category": "Cast",
+          "name": "Ian Chance",
+          "url": "stremio:///search?search=Ian%20Chance"
+        },
+        {
+          "category": "Cast",
+          "name": "Oleg Hill",
+          "url": "stremio:///search?search=Oleg%20Hill"
+        },
+        {
+          "category": "Cast",
+          "name": "Nick Owenford",
+          "url": "stremio:///search?search=Nick%20Owenford"
+        },
+        {
+          "category": "Cast",
+          "name": "Robert James Smith",
+          "url": "stremio:///search?search=Robert%20James%20Smith"
+        },
+        {
+          "category": "Cast",
+          "name": "Simon Collins",
+          "url": "stremio:///search?search=Simon%20Collins"
+        },
+        {
+          "category": "Cast",
+          "name": "Nick Davison",
+          "url": "stremio:///search?search=Nick%20Davison"
+        },
+        {
+          "category": "Cast",
+          "name": "R.A. Donnelly",
+          "url": "stremio:///search?search=R.A.%20Donnelly"
+        },
+        {
+          "category": "Cast",
+          "name": "Keith Higinbotham",
+          "url": "stremio:///search?search=Keith%20Higinbotham"
+        },
+        {
+          "category": "Cast",
+          "name": "Jorge Leon",
+          "url": "stremio:///search?search=Jorge%20Leon"
+        },
+        {
+          "category": "Cast",
+          "name": "Daniel Martin",
+          "url": "stremio:///search?search=Daniel%20Martin"
+        },
+        {
+          "category": "Cast",
+          "name": "John Polivka",
+          "url": "stremio:///search?search=John%20Polivka"
+        },
+        {
+          "category": "Cast",
+          "name": "Michael van Koetsveld",
+          "url": "stremio:///search?search=Michael%20van%20Koetsveld"
+        },
+        {
+          "category": "Directors",
+          "name": "Alejandro G. Iñárritu",
+          "url": "stremio:///search?search=Alejandro%20G.%20I%C3%B1%C3%A1rritu"
+        }
+      ],
+      "name": "Digger",
+      "poster": "https://image.tmdb.org/t/p/w342/1ATXKrIPJyKNwnJ6lcG088Sa6zi.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026",
+      "runtime": "2h9min",
+      "type": "movie",
+      "writer": [],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Ryu",
+            "name": "Andrew Koji",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/oU53nWLQ6wFHzERwSi1fD53LxZB.jpg"
+          },
+          {
+            "character": "Ken Masters",
+            "name": "Noah Centineo",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/p1bcst401RyxfDGykx2iQLI7CV5.jpg"
+          },
+          {
+            "character": "Chun-Li",
+            "name": "Callina Liang",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/yiajT9WAsvuxF9uNJrkSuzVv3On.jpg"
+          },
+          {
+            "character": "Akuma",
+            "name": "Joe Anoa'i",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/6BKc77eAUBQdL9MmgBorBc4SMdE.jpg"
+          },
+          {
+            "character": "M. Bison",
+            "name": "David Dastmalchian",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/eLafwcpL64CqzwjjSgKpO7Rv4ae.jpg"
+          },
+          {
+            "character": "Guile",
+            "name": "Cody Rhodes",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/m9hfLcsQuESprcb7dJUj5lQLWCv.jpg"
+          },
+          {
+            "character": "Dan Hibiki",
+            "name": "Andrew Schulz",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/fdeYq1EraYvlYM3VmGXjIaSGoTz.jpg"
+          },
+          {
+            "character": "Don Sauvage",
+            "name": "Eric Andre",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/e9XlcFnZQiBSQ1vISQVyTOrkIaq.jpg"
+          },
+          {
+            "character": "Dhalsim",
+            "name": "Vidyut Jammwal",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/9iBEIKvn1GGzymF3kVPBHtaMkWy.jpg"
+          },
+          {
+            "character": "Cammy",
+            "name": "Mel Jarnson",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/8m0gnlADmLXkMkvSzDR2OhBfsCB.jpg"
+          },
+          {
+            "character": "Vega",
+            "name": "Orville Peck",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/oW989m8J8gWGCBDkjplkqQoMob6.jpg"
+          },
+          {
+            "character": "Zangief",
+            "name": "Olivier Richters",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/8Zz5WYE1Muc3AX9daxCxgNTRE5.jpg"
+          },
+          {
+            "character": "Balrog",
+            "name": "50 Cent",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/7VfwFIwBxy7qBUErosWRDQOovl9.jpg"
+          },
+          {
+            "character": "Blanka",
+            "name": "Jason Momoa",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/3troAR6QbSb6nUFMDu61YCCWLKa.jpg"
+          },
+          {
+            "character": "E. Honda",
+            "name": "Hirooki Goto",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/uzqLC7AbKClQzcDPHZVRCyxacLx.jpg"
+          },
+          {
+            "character": "Juli",
+            "name": "Rayna Vallandingham",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/hAIWaRWdJB2CIOIpNuEa7Cesjv4.jpg"
+          },
+          {
+            "character": "Joe",
+            "name": "Alexander Volkanovski",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/zCEe5Le93whbKXgUikCJ3hFz4Y0.jpg"
+          },
+          {
+            "character": "Marvin",
+            "name": "Kyle Mooney",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/xywmFOt1OkUGa2Ex2YnmjI6gyd7.jpg"
+          },
+          {
+            "character": "JJ",
+            "name": "Kristy Best",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/59SfxmgV30kqIlsgNfYG20EimHu.jpg"
+          },
+          {
+            "character": "",
+            "name": "Michael Philippou",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/zpkBlS9F4FGbNxaOQY2AuvL18Q8.jpg"
+          },
+          {
+            "character": "",
+            "name": "Danny Philippou",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/zzf84gR6R6D5ZJDLY8jQH5tsfDc.jpg"
+          },
+          {
+            "character": "",
+            "name": "Lannan Eacott",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/f7LrrVNVrjRm3aN9lctqb78rowP.jpg"
+          },
+          {
+            "character": "",
+            "name": "Lachlan Power",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mFI9EIr9RUEIrPMLXTDv98SiQBP.jpg"
+          },
+          {
+            "character": "Gouken (voice)",
+            "name": "Don Lee",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/xqnARIEzfyr3BalhFBWHmCusLKH.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg",
+      "description": "In 1993, estranged Street Fighters Ryu and Ken Masters are thrown back into combat when the mysterious Chun-Li recruits them for the next World Warrior Tournament: a brutal clash of fists, fate, and fury. But behind this battle royale lies a deadly conspiracy that forces them to face off against each other and the demons of their past. And if they don't, it's GAME OVER!",
+      "director": [
+        "Kitao Sakurai"
+      ],
+      "genre": [
+        "Action",
+        "Fantasy"
+      ],
+      "id": "tmdb:1153576",
+      "imdbRating": "6.0",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.0",
+          "url": "https://imdb.com/title/tt27419420"
+        },
+        {
+          "category": "Cast",
+          "name": "Andrew Koji",
+          "url": "stremio:///search?search=Andrew%20Koji"
+        },
+        {
+          "category": "Cast",
+          "name": "Noah Centineo",
+          "url": "stremio:///search?search=Noah%20Centineo"
+        },
+        {
+          "category": "Cast",
+          "name": "Callina Liang",
+          "url": "stremio:///search?search=Callina%20Liang"
+        },
+        {
+          "category": "Cast",
+          "name": "Joe Anoa'i",
+          "url": "stremio:///search?search=Joe%20Anoa'i"
+        },
+        {
+          "category": "Cast",
+          "name": "David Dastmalchian",
+          "url": "stremio:///search?search=David%20Dastmalchian"
+        },
+        {
+          "category": "Cast",
+          "name": "Cody Rhodes",
+          "url": "stremio:///search?search=Cody%20Rhodes"
+        },
+        {
+          "category": "Cast",
+          "name": "Andrew Schulz",
+          "url": "stremio:///search?search=Andrew%20Schulz"
+        },
+        {
+          "category": "Cast",
+          "name": "Eric Andre",
+          "url": "stremio:///search?search=Eric%20Andre"
+        },
+        {
+          "category": "Cast",
+          "name": "Vidyut Jammwal",
+          "url": "stremio:///search?search=Vidyut%20Jammwal"
+        },
+        {
+          "category": "Cast",
+          "name": "Mel Jarnson",
+          "url": "stremio:///search?search=Mel%20Jarnson"
+        },
+        {
+          "category": "Cast",
+          "name": "Orville Peck",
+          "url": "stremio:///search?search=Orville%20Peck"
+        },
+        {
+          "category": "Cast",
+          "name": "Olivier Richters",
+          "url": "stremio:///search?search=Olivier%20Richters"
+        },
+        {
+          "category": "Cast",
+          "name": "50 Cent",
+          "url": "stremio:///search?search=50%20Cent"
+        },
+        {
+          "category": "Cast",
+          "name": "Jason Momoa",
+          "url": "stremio:///search?search=Jason%20Momoa"
+        },
+        {
+          "category": "Cast",
+          "name": "Hirooki Goto",
+          "url": "stremio:///search?search=Hirooki%20Goto"
+        },
+        {
+          "category": "Cast",
+          "name": "Rayna Vallandingham",
+          "url": "stremio:///search?search=Rayna%20Vallandingham"
+        },
+        {
+          "category": "Cast",
+          "name": "Alexander Volkanovski",
+          "url": "stremio:///search?search=Alexander%20Volkanovski"
+        },
+        {
+          "category": "Cast",
+          "name": "Kyle Mooney",
+          "url": "stremio:///search?search=Kyle%20Mooney"
+        },
+        {
+          "category": "Cast",
+          "name": "Kristy Best",
+          "url": "stremio:///search?search=Kristy%20Best"
+        },
+        {
+          "category": "Cast",
+          "name": "Michael Philippou",
+          "url": "stremio:///search?search=Michael%20Philippou"
+        },
+        {
+          "category": "Cast",
+          "name": "Danny Philippou",
+          "url": "stremio:///search?search=Danny%20Philippou"
+        },
+        {
+          "category": "Cast",
+          "name": "Lannan Eacott",
+          "url": "stremio:///search?search=Lannan%20Eacott"
+        },
+        {
+          "category": "Cast",
+          "name": "Lachlan Power",
+          "url": "stremio:///search?search=Lachlan%20Power"
+        },
+        {
+          "category": "Cast",
+          "name": "Don Lee",
+          "url": "stremio:///search?search=Don%20Lee"
+        },
+        {
+          "category": "Directors",
+          "name": "Kitao Sakurai",
+          "url": "stremio:///search?search=Kitao%20Sakurai"
+        }
+      ],
+      "name": "Street Fighter",
+      "poster": "https://image.tmdb.org/t/p/w342/dJPT2Uf12X6aFg8i5N67NTpIZ9t.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026",
+      "runtime": "2h0min",
+      "type": "movie",
+      "writer": [],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Bryan",
+            "name": "Austin Abrams",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/nvbJNwyhIICUFcS4lhxj9mGvL5z.jpg"
+          },
+          {
+            "character": "Paul",
+            "name": "Paul Walter Hauser",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/hXjjbYg1Ah8mFf5ZcaakyXzDKMx.jpg"
+          },
+          {
+            "character": "Maxine",
+            "name": "Kali Reis",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ruLDXHnKA4aHEQCcFGDAJ7bLTdt.jpg"
+          },
+          {
+            "character": "Carl",
+            "name": "Zach Cherry",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/fT3Wv8ef0Vn0daHWAObCp2Bd4Y.jpg"
+          },
+          {
+            "character": "Officer Wilson",
+            "name": "Johnno Wilson",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/eZtBoBE0F7Qb9ZyNpacMOQtmWnM.jpg"
+          },
+          {
+            "character": "Puker",
+            "name": "Shaun W. Loeser",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/pMV7kzy7OHk4X93uRGbrdvuFgQB.jpg"
+          },
+          {
+            "character": "Intercom (voice)",
+            "name": "Zach Cregger",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/bpFGFfWYIrZVK7WjwkVLwIoMKEb.jpg"
+          },
+          {
+            "character": "Dr. Maria Stokes",
+            "name": "Emily Piggford",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ruijvaNNXzGXqGphQXsoHts1Ovc.jpg"
+          },
+          {
+            "character": "Dave",
+            "name": "Will Merrick",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/zqyH01TJ9WW6TaAULCG2ChSbNwI.jpg"
+          },
+          {
+            "character": "Birdie",
+            "name": "Zoé Bellas",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/3nw4EhStA4IcJQxz4Yevm25u5ov.jpg"
+          },
+          {
+            "character": "Stanley",
+            "name": "Chris Lew Kum Hoi",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/7kHYxjhnRErXDRNYaSRemLCx9J7.jpg"
+          },
+          {
+            "character": "Wade",
+            "name": "Griffin Newman",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/vRnjx2UGdMhvFn5coYZJLKHVWbq.jpg"
+          },
+          {
+            "character": "Agatha",
+            "name": "Magdalena Šittová",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/6QDtKNoL6DXwJHpzDrvWG3rKSwa.jpg"
+          },
+          {
+            "character": "Pedestrian",
+            "name": "Andrea Miltner",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/oBdyio9RROvtUgauXJH6kE2dWEY.jpg"
+          },
+          {
+            "character": "Michelle (voice)",
+            "name": "Sara Paxton",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/DWrjFhjSLY4EFanCMKNPrUmP2p.jpg"
+          },
+          {
+            "character": "Farmer",
+            "name": "Karel Dobrý",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mcvTqsqIPTVZiT4saALPljNUQ5B.jpg"
+          },
+          {
+            "character": "Additional Voices (voice)",
+            "name": "Devon Deshaun Stewart",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/qZ5BMtEva7XEEdO3BpB9pCPzqMx.jpg"
+          },
+          {
+            "character": "Additional Voices (voice)",
+            "name": "Kellen Goff",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/3HWEo27RznochUzqPYsffYPzC8A.jpg"
+          },
+          {
+            "character": "RV Girl",
+            "name": "Isla McRae",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/t39ROabYVn1fmcA8TUWWyfDy6xN.jpg"
+          },
+          {
+            "character": "Surgeon",
+            "name": "James Beaumont",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/8r0hnzq1U6YJizyM1qEAxB2Oqx7.jpg"
+          },
+          {
+            "character": "Andrea Vasquez",
+            "name": "Jo Martin",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/laBhqkm8ME6dE0BHgla42m9DyQT.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
+      "description": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
+      "director": [
+        "Zach Cregger"
+      ],
+      "genre": [
+        "Horror",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "id": "tmdb:1423191",
+      "imdbRating": "7.3",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.3",
+          "url": "https://imdb.com/title/tt35538033"
+        },
+        {
+          "category": "Cast",
+          "name": "Austin Abrams",
+          "url": "stremio:///search?search=Austin%20Abrams"
+        },
+        {
+          "category": "Cast",
+          "name": "Paul Walter Hauser",
+          "url": "stremio:///search?search=Paul%20Walter%20Hauser"
+        },
+        {
+          "category": "Cast",
+          "name": "Kali Reis",
+          "url": "stremio:///search?search=Kali%20Reis"
+        },
+        {
+          "category": "Cast",
+          "name": "Zach Cherry",
+          "url": "stremio:///search?search=Zach%20Cherry"
+        },
+        {
+          "category": "Cast",
+          "name": "Johnno Wilson",
+          "url": "stremio:///search?search=Johnno%20Wilson"
+        },
+        {
+          "category": "Cast",
+          "name": "Shaun W. Loeser",
+          "url": "stremio:///search?search=Shaun%20W.%20Loeser"
+        },
+        {
+          "category": "Cast",
+          "name": "Zach Cregger",
+          "url": "stremio:///search?search=Zach%20Cregger"
+        },
+        {
+          "category": "Cast",
+          "name": "Emily Piggford",
+          "url": "stremio:///search?search=Emily%20Piggford"
+        },
+        {
+          "category": "Cast",
+          "name": "Will Merrick",
+          "url": "stremio:///search?search=Will%20Merrick"
+        },
+        {
+          "category": "Cast",
+          "name": "Zoé Bellas",
+          "url": "stremio:///search?search=Zo%C3%A9%20Bellas"
+        },
+        {
+          "category": "Cast",
+          "name": "Chris Lew Kum Hoi",
+          "url": "stremio:///search?search=Chris%20Lew%20Kum%20Hoi"
+        },
+        {
+          "category": "Cast",
+          "name": "Griffin Newman",
+          "url": "stremio:///search?search=Griffin%20Newman"
+        },
+        {
+          "category": "Cast",
+          "name": "Magdalena Šittová",
+          "url": "stremio:///search?search=Magdalena%20%C5%A0ittov%C3%A1"
+        },
+        {
+          "category": "Cast",
+          "name": "Andrea Miltner",
+          "url": "stremio:///search?search=Andrea%20Miltner"
+        },
+        {
+          "category": "Cast",
+          "name": "Sara Paxton",
+          "url": "stremio:///search?search=Sara%20Paxton"
+        },
+        {
+          "category": "Cast",
+          "name": "Karel Dobrý",
+          "url": "stremio:///search?search=Karel%20Dobr%C3%BD"
+        },
+        {
+          "category": "Cast",
+          "name": "Devon Deshaun Stewart",
+          "url": "stremio:///search?search=Devon%20Deshaun%20Stewart"
+        },
+        {
+          "category": "Cast",
+          "name": "Kellen Goff",
+          "url": "stremio:///search?search=Kellen%20Goff"
+        },
+        {
+          "category": "Cast",
+          "name": "Isla McRae",
+          "url": "stremio:///search?search=Isla%20McRae"
+        },
+        {
+          "category": "Cast",
+          "name": "James Beaumont",
+          "url": "stremio:///search?search=James%20Beaumont"
+        },
+        {
+          "category": "Cast",
+          "name": "Jo Martin",
+          "url": "stremio:///search?search=Jo%20Martin"
+        },
+        {
+          "category": "Directors",
+          "name": "Zach Cregger",
+          "url": "stremio:///search?search=Zach%20Cregger"
+        },
+        {
+          "category": "Writers",
+          "name": "Shay Hatten",
+          "url": "stremio:///search?search=Shay%20Hatten"
+        },
+        {
+          "category": "Writers",
+          "name": "Zach Cregger",
+          "url": "stremio:///search?search=Zach%20Cregger"
+        }
+      ],
+      "name": "Resident Evil",
+      "poster": "https://image.tmdb.org/t/p/w342/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026",
+      "runtime": "1h35min",
+      "type": "movie",
+      "writer": [
+        "Shay Hatten",
+        "Zach Cregger"
+      ],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Jay Gardiner",
+            "name": "Austin Abrams",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/nvbJNwyhIICUFcS4lhxj9mGvL5z.jpg"
+          },
+          {
+            "character": "Mitt Gardiner",
+            "name": "Josh Brolin",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/sX2etBbIkxRaCsATyw5ZpOVMPTD.jpg"
+          },
+          {
+            "character": "Zara Gardiner",
+            "name": "Elisabeth Shue",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/1pmjDSLvOuqKW1P2KRPlpFMeUFe.jpg"
+          },
+          {
+            "character": "Hewey",
+            "name": "John Ortiz",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/o2SOFI53N6Gv5S3fDEBNbeimbzY.jpg"
+          },
+          {
+            "character": "Eva Gardiner",
+            "name": "Jane Levy",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/iYyWPOOpZgAqZK6IddSaD4R9QW3.jpg"
+          },
+          {
+            "character": "Nan Gardiner",
+            "name": "Emily Rudd",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/vVl4ABlqUuh5n1M2B9AOOa9r6kV.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/dUzzwJpX4Fiet2QJy5P1TxpW1Qa.jpg",
+      "description": "Following the death of his father, Jay Gardiner goes diving off the central Coast of California in search of his remains, but is swallowed by a massive sperm whale. While trapped inside its belly with only one hour of oxygen left, Jay comes to realize that the hard-earned lessons his father imparted may be the key to his escape.",
+      "director": [
+        "Brian Duffield"
+      ],
+      "genre": [
+        "Thriller"
+      ],
+      "id": "tmdb:1255833",
+      "imdbRating": "N/A",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "N/A",
+          "url": "https://imdb.com/title/tt28535715"
+        },
+        {
+          "category": "Cast",
+          "name": "Austin Abrams",
+          "url": "stremio:///search?search=Austin%20Abrams"
+        },
+        {
+          "category": "Cast",
+          "name": "Josh Brolin",
+          "url": "stremio:///search?search=Josh%20Brolin"
+        },
+        {
+          "category": "Cast",
+          "name": "Elisabeth Shue",
+          "url": "stremio:///search?search=Elisabeth%20Shue"
+        },
+        {
+          "category": "Cast",
+          "name": "John Ortiz",
+          "url": "stremio:///search?search=John%20Ortiz"
+        },
+        {
+          "category": "Cast",
+          "name": "Jane Levy",
+          "url": "stremio:///search?search=Jane%20Levy"
+        },
+        {
+          "category": "Cast",
+          "name": "Emily Rudd",
+          "url": "stremio:///search?search=Emily%20Rudd"
+        },
+        {
+          "category": "Directors",
+          "name": "Brian Duffield",
+          "url": "stremio:///search?search=Brian%20Duffield"
+        }
+      ],
+      "name": "Whalefall",
+      "poster": "https://image.tmdb.org/t/p/w342/vjTYUTgh9nO88i6HZ4YPRhiFL05.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026",
+      "runtime": "1h38min",
+      "type": "movie",
+      "writer": [],
+      "year": "2026"
+    }
+  ]
+}

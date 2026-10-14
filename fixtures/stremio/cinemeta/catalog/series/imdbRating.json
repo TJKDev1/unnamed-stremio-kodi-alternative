@@ -1,0 +1,2493 @@
+{
+  "cacheMaxAge": 14400,
+  "hasMore": true,
+  "metas": [
+    {
+      "awards": "6 wins & 19 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt11231226/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Emayatzy Corinealdi",
+        "McKinley Freeman",
+        "Tim Jo"
+      ],
+      "country": "United States",
+      "description": "Jax Stewart juggles work, family, friends, and a complicated personal life as a brilliant and fearless defense attorney in Los Angeles who bucks the justice system every chance she gets.",
+      "director": [],
+      "genre": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "id": "tt11231226",
+      "imdbRating": "6.7",
+      "imdb_id": "tt11231226",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.7",
+          "url": "https://imdb.com/title/tt11231226"
+        },
+        {
+          "category": "share",
+          "name": "Reasonable Doubt",
+          "url": "https://www.strem.io/s/series/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Crime",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Crime"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Thriller",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Thriller"
+        },
+        {
+          "category": "Cast",
+          "name": "Emayatzy Corinealdi",
+          "url": "stremio:///search?search=Emayatzy%20Corinealdi"
+        },
+        {
+          "category": "Cast",
+          "name": "McKinley Freeman",
+          "url": "stremio:///search?search=McKinley%20Freeman"
+        },
+        {
+          "category": "Cast",
+          "name": "Tim Jo",
+          "url": "stremio:///search?search=Tim%20Jo"
+        },
+        {
+          "category": "Writers",
+          "name": "Raamla Mohamed Hunter",
+          "url": "stremio:///search?search=Raamla%20Mohamed%20Hunter"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt11231226/img",
+      "moviedb_id": 205272,
+      "name": "Reasonable Doubt",
+      "popularities": {
+        "moviedb": 26.1548,
+        "stremio": 0.8718266666666667,
+        "stremio_lib": 0,
+        "trakt": 508
+      },
+      "popularity": 0.8718266666666667,
+      "poster": "https://images.metahub.space/poster/small/tt11231226/img",
+      "releaseInfo": "2022–",
+      "released": "2022-09-27T00:00:00.000Z",
+      "runtime": "50 min",
+      "slug": "series/reasonable-doubt-11231226",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "Reasonable Doubt",
+          "ytId": "ztaqk6reLlc"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "ztaqk6reLlc",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 410743,
+      "type": "series",
+      "videos": [
+        {
+          "description": "Shanelle gets interviewed from jail causing Jax’s panic attacks to return as we take a look back on JT and Shanelle’s relationship. Meanwhile, Lewis learns of Spenser’s new interests at school.",
+          "episode": 4,
+          "firstAired": "2024-09-05T08:00:00.000Z",
+          "id": "tt11231226:2:4",
+          "name": "Primetime",
+          "number": 4,
+          "overview": "Shanelle gets interviewed from jail causing Jax’s panic attacks to return as we take a look back on JT and Shanelle’s relationship. Meanwhile, Lewis learns of Spenser’s new interests at school.",
+          "rating": 0,
+          "released": "2024-09-05T08:00:00.000Z",
+          "season": 2,
+          "thumbnail": "https://episodes.metahub.space/tt11231226/2/4/w780.jpg",
+          "tvdb_id": 10500258
+        },
+        {
+          "description": "Jax confronts Shanelle on her new theory about the case while Corey reveals to the partners at the firm his frustrations with Jax. In the meantime, Terrence helps Lewis navigate a new problem.",
+          "episode": 5,
+          "firstAired": "2024-09-12T08:00:00.000Z",
+          "id": "tt11231226:2:5",
+          "name": "Guilty Until Proven Innocent",
+          "number": 5,
+          "overview": "Jax confronts Shanelle on her new theory about the case while Corey reveals to the partners at the firm his frustrations with Jax. In the meantime, Terrence helps Lewis navigate a new problem.",
+          "rating": 0,
+          "released": "2024-09-12T08:00:00.000Z",
+          "season": 2,
+          "thumbnail": "https://episodes.metahub.space/tt11231226/2/5/w780.jpg",
+          "tvdb_id": 10660541
+        },
+        {
+          "description": "Jax has found herself in a dangerous situation once again, while Lucy’s past resurfaces. Adrian takes the stand revealing new secrets as Lewis struggles to keep one of his own.",
+          "episode": 6,
+          "firstAired": "2024-09-19T08:00:00.000Z",
+          "id": "tt11231226:2:6",
+          "name": "This Can't Be Life",
+          "number": 6,
+          "overview": "Jax has found herself in a dangerous situation once again, while Lucy’s past resurfaces. Adrian takes the stand revealing new secrets as Lewis struggles to keep one of his own.",
+          "rating": 0,
+          "released": "2024-09-19T08:00:00.000Z",
+          "season": 2,
+          "thumbnail": "https://episodes.metahub.space/tt11231226/2/6/w780.jpg",
+          "tvdb_id": 10660542
+        },
+        {
+          "description": "Jax and Lewis are at an impasse while things get heated at the office with Corey. The prosecution rests on Shanelle’s case.",
+          "episode": 7,
+          "firstAired": "2024-09-26T08:00:00.000Z",
+          "id": "tt11231226:2:7",
+          "name": "Venus vs. Mars",
+          "number": 7,
+          "overview": "Jax and Lewis are at an impasse while things get heated at the office with Corey. The prosecution rests on Shanelle’s case.",
+          "rating": 0,
+          "released": "2024-09-26T08:00:00.000Z",
+          "season": 2,
+          "thumbnail": "https://episodes.metahub.space/tt11231226/2/7/w780.jpg",
+          "tvdb_id": 10660543
+        },
+        {
+          "description": "As the defense begins their case, Jax is forced to face a new normal with Lewis. Meanwhile, Lucy struggles to keep her ex-husband out of her life.",
+          "episode": 8,
+          "firstAired": "2024-10-03T08:00:00.000Z",
+          "id": "tt11231226:2:8",
+          "name": "Change the Game",
+          "number": 8,
+          "overview": "As the defense begins their case, Jax is forced to face a new normal with Lewis. Meanwhile, Lucy struggles to keep her ex-husband out of her life.",
+          "rating": 0,
+          "released": "2024-10-03T08:00:00.000Z",
+          "season": 2,
+          "thumbnail": "https://episodes.metahub.space/tt11231226/2/8/w780.jpg",
+          "tvdb_id": 10660544
+        },
+        {
+          "description": "After her failed performance on the stand, Sally is hanging by a thread making Jax suspicious. However, Jax and Corey prep Shanelle to take the stand before Jax realizes the truth about JT’s murder.",
+          "episode": 9,
+          "firstAired": "2024-10-10T08:00:00.000Z",
+          "id": "tt11231226:2:9",
+          "name": "Who You Wit",
+          "number": 9,
+          "overview": "After her failed performance on the stand, Sally is hanging by a thread making Jax suspicious. However, Jax and Corey prep Shanelle to take the stand before Jax realizes the truth about JT’s murder.",
+          "rating": 0,
+          "released": "2024-10-10T08:00:00.000Z",
+          "season": 2,
+          "thumbnail": "https://episodes.metahub.space/tt11231226/2/9/w780.jpg",
+          "tvdb_id": 10691322
+        },
+        {
+          "description": "The verdict for Shanelle’s case comes back. Jax and Lewis have to figure out what their future looks like.",
+          "episode": 10,
+          "firstAired": "2024-10-17T08:00:00.000Z",
+          "id": "tt11231226:2:10",
+          "name": "Encore",
+          "number": 10,
+          "overview": "The verdict for Shanelle’s case comes back. Jax and Lewis have to figure out what their future looks like.",
+          "rating": 0,
+          "released": "2024-10-17T08:00:00.000Z",
+          "season": 2,
+          "thumbnail": "https://episodes.metahub.space/tt11231226/2/10/w780.jpg",
+          "tvdb_id": 10691323
+        },
+        {
+          "description": "Feeling restless and undervalued, Jax jumps back into the ring when an ex-child star and his entourage of enablers land on her doorstep with a mess only she can untangle.",
+          "episode": 1,
+          "firstAired": "2025-09-18T08:00:00.000Z",
+          "id": "tt11231226:3:1",
+          "name": "Feelin' It",
+          "number": 1,
+          "overview": "Feeling restless and undervalued, Jax jumps back into the ring when an ex-child star and his entourage of enablers land on her doorstep with a mess only she can untangle.",
+          "rating": 0,
+          "released": "2025-09-18T08:00:00.000Z",
+          "season": 3,
+          "thumbnail": "https://episodes.metahub.space/tt11231226/3/1/w780.jpg",
+          "tvdb_id": 11106116
+        },
+        {
+          "description": "With her second chair in place, Jax navigates a missing persons case - until it takes a surprising turn. Lewis meets Toni's demands.",
+          "episode": 2,
+          "firstAired": "2025-09-18T08:00:00.000Z",
+          "id": "tt11231226:3:2",
+          "name": "A Million and One Questions",
+          "number": 2,
+          "overview": "With her second chair in place, Jax navigates a missing persons case - until it takes a surprising turn. Lewis meets Toni's demands.",
+          "rating": 0,
+          "released": "2025-09-18T08:00:00.000Z",
+          "season": 3,
+          "thumbnail": "https://episodes.metahub.space/tt11231226/3/2/w780.jpg",
+          "tvdb_id": 11121413
+        },
+        {
+          "description": "As Ozzie’s behavior jeopardizes his bail, Jax uncovers a dark secret while juggling the return of a personal matter and an unexpected arrest. Bill is forced to choose between loyalty and ambition.",
+          "episode": 3,
+          "firstAired": "2025-09-25T08:00:00.000Z",
+          "id": "tt11231226:3:3",
+          "name": "Run This Town",
+          "number": 3,
+          "overview": "As Ozzie’s behavior jeopardizes his bail, Jax uncovers a dark secret while juggling the return of a personal matter and an unexpected arrest. Bill is forced to choose between loyalty and ambition.",
+          "rating": 0,
+          "released": "2025-09-25T08:00:00.000Z",
+          "season": 3,
+          "thumbnail": "https://episodes.metahub.space/tt11231226/3/3/w780.jpg",
+          "tvdb_id": 11121414
+        }
+      ],
+      "writer": [
+        "Raamla Mohamed Hunter"
+      ],
+      "year": "2022–"
+    },
+    {
+      "awards": "Nominated for 3 Primetime Emmys. 4 wins & 17 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt0472954/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Charlie Day",
+        "Glenn Howerton",
+        "Rob Mac"
+      ],
+      "country": "United States",
+      "description": "Five friends with big egos and small brains are the proprietors of an Irish pub in Philadelphia.",
+      "director": null,
+      "dvdRelease": "2007-09-04T00:00:00.000Z",
+      "genre": [
+        "Comedy"
+      ],
+      "genres": [
+        "Comedy"
+      ],
+      "id": "tt0472954",
+      "imdbRating": "8.8",
+      "imdb_id": "tt0472954",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.8",
+          "url": "https://imdb.com/title/tt0472954"
+        },
+        {
+          "category": "share",
+          "name": "It's Always Sunny in Philadelphia",
+          "url": "https://www.strem.io/s/series/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Comedy"
+        },
+        {
+          "category": "Cast",
+          "name": "Charlie Day",
+          "url": "stremio:///search?search=Charlie%20Day"
+        },
+        {
+          "category": "Cast",
+          "name": "Glenn Howerton",
+          "url": "stremio:///search?search=Glenn%20Howerton"
+        },
+        {
+          "category": "Cast",
+          "name": "Rob Mac",
+          "url": "stremio:///search?search=Rob%20Mac"
+        },
+        {
+          "category": "Writers",
+          "name": "Glenn Howerton",
+          "url": "stremio:///search?search=Glenn%20Howerton"
+        },
+        {
+          "category": "Writers",
+          "name": "Rob Mac",
+          "url": "stremio:///search?search=Rob%20Mac"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt0472954/img",
+      "moviedb_id": 2710,
+      "name": "It's Always Sunny in Philadelphia",
+      "popularities": {
+        "ALLIANCE": 0,
+        "EJD": 0,
+        "EXMD": 0,
+        "PXS_TEST": 0,
+        "moviedb": 99.8769,
+        "stremio": 3.3292300000000004,
+        "stremio_lib": 0,
+        "trakt": 3823
+      },
+      "popularity": 3.3292300000000004,
+      "poster": "https://images.metahub.space/poster/small/tt0472954/img",
+      "releaseInfo": "2005–",
+      "released": "2005-08-04T00:00:00.000Z",
+      "runtime": "25 min",
+      "slug": "series/its-always-sunny-in-philadelphia-0472954",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "It's Always Sunny in Philadelphia",
+          "ytId": "blLAdGYPhiQ"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "blLAdGYPhiQ",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 75805,
+      "type": "series",
+      "videos": [
+        {
+          "description": "The guys crash Dee's bowling league night and compete in a Battle of the Sexes at a bowling alley owned by the McPoyles. Dee, The Waitress, Artemis, and Gail the Snail versus Dennis, Mac, Charlie, and Frank in a classic match to prove once and for all who has the upper hand in sports.",
+          "episode": 7,
+          "firstAired": "2023-07-13T06:00:00.000Z",
+          "id": "tt0472954:16:7",
+          "name": "The Gang Goes Bowling",
+          "number": 7,
+          "overview": "The guys crash Dee's bowling league night and compete in a Battle of the Sexes at a bowling alley owned by the McPoyles. Dee, The Waitress, Artemis, and Gail the Snail versus Dennis, Mac, Charlie, and Frank in a classic match to prove once and for all who has the upper hand in sports.",
+          "rating": 0,
+          "released": "2023-07-13T06:00:00.000Z",
+          "season": 16,
+          "thumbnail": "https://episodes.metahub.space/tt0472954/16/7/w780.jpg",
+          "tvdb_id": 9794771
+        },
+        {
+          "description": "After a physical reveals that Dennis has elevated blood pressure, he decides to take a day away from The Gang to de-stress at the beach. But life has other plans, and his day spirals into a domino-chain of tech and customer service challenges until he can no longer contain his rage.",
+          "episode": 8,
+          "firstAired": "2023-07-20T06:00:00.000Z",
+          "id": "tt0472954:16:8",
+          "name": "Dennis Takes a Mental Health Day",
+          "number": 8,
+          "overview": "After a physical reveals that Dennis has elevated blood pressure, he decides to take a day away from The Gang to de-stress at the beach. But life has other plans, and his day spirals into a domino-chain of tech and customer service challenges until he can no longer contain his rage.",
+          "rating": 0,
+          "released": "2023-07-20T06:00:00.000Z",
+          "season": 16,
+          "thumbnail": "https://episodes.metahub.space/tt0472954/16/8/w780.jpg",
+          "tvdb_id": 9794770
+        },
+        {
+          "description": "Months after the Gang visited, Abbott's Principal Ava walks viewers through some of the unseen footage of the Gang's volunteerism and reveals their true intentions.",
+          "episode": 1,
+          "firstAired": "2025-07-10T06:00:00.000Z",
+          "id": "tt0472954:17:1",
+          "name": "The Gang F***s Up Abbott Elementary",
+          "number": 1,
+          "overview": "Months after the Gang visited, Abbott's Principal Ava walks viewers through some of the unseen footage of the Gang's volunteerism and reveals their true intentions.",
+          "rating": 0,
+          "released": "2025-07-10T06:00:00.000Z",
+          "season": 17,
+          "thumbnail": "https://episodes.metahub.space/tt0472954/17/1/w780.jpg",
+          "tvdb_id": 11124943
+        },
+        {
+          "description": "The five stages of grief set in for Dee as Frank lies on his deathbed. Meanwhile, the Guys plot their new path forward by pitching their business ventures to Philadelphia's elite.",
+          "episode": 2,
+          "firstAired": "2025-07-10T06:00:00.000Z",
+          "id": "tt0472954:17:2",
+          "name": "Frank Is in a Coma",
+          "number": 2,
+          "overview": "The five stages of grief set in for Dee as Frank lies on his deathbed. Meanwhile, the Guys plot their new path forward by pitching their business ventures to Philadelphia's elite.",
+          "rating": 0,
+          "released": "2025-07-10T06:00:00.000Z",
+          "season": 17,
+          "thumbnail": "https://episodes.metahub.space/tt0472954/17/2/w780.jpg",
+          "tvdb_id": 11200014
+        },
+        {
+          "description": "After witnessing EMTs resuscitate a Paddy's patron, Mac and Dennis set out to become the pinnacle of masculinity; Frank tries to prove a prank's innocence with The Lawyer; Dee attempts to hack her part-time side hustle with Charlie's help as he descends into the fast-paced life of a chef.",
+          "episode": 3,
+          "firstAired": "2025-07-17T06:00:00.000Z",
+          "id": "tt0472954:17:3",
+          "name": "Mac and Dennis Become EMTs",
+          "number": 3,
+          "overview": "After witnessing EMTs resuscitate a Paddy's patron, Mac and Dennis set out to become the pinnacle of masculinity; Frank tries to prove a prank's innocence with The Lawyer; Dee attempts to hack her part-time side hustle with Charlie's help as he descends into the fast-paced life of a chef.",
+          "rating": 0,
+          "released": "2025-07-17T06:00:00.000Z",
+          "season": 17,
+          "thumbnail": "https://episodes.metahub.space/tt0472954/17/3/w780.jpg",
+          "tvdb_id": 11200015
+        },
+        {
+          "description": "Desperate to stave off a public relations nightmare, the Gang embraces their newfound corporate professionalism to strategically scapegoat one Paddy's employee to fall on the proverbial sword.",
+          "episode": 4,
+          "firstAired": "2025-07-24T06:00:00.000Z",
+          "id": "tt0472954:17:4",
+          "name": "Thought Leadership: A Corporate Conversation",
+          "number": 4,
+          "overview": "Desperate to stave off a public relations nightmare, the Gang embraces their newfound corporate professionalism to strategically scapegoat one Paddy's employee to fall on the proverbial sword.",
+          "rating": 0,
+          "released": "2025-07-24T06:00:00.000Z",
+          "season": 17,
+          "thumbnail": "https://episodes.metahub.space/tt0472954/17/4/w780.jpg",
+          "tvdb_id": 11200016
+        },
+        {
+          "description": "Frank attempts to win big with an old business associate at a West Virginia dog track; Dennis and Dee lose more than their shirts to gambling addiction; Mac and Charlie learn about a simpler way of life.",
+          "episode": 5,
+          "firstAired": "2025-07-31T06:00:00.000Z",
+          "id": "tt0472954:17:5",
+          "name": "The Gang Goes to a Dog Track",
+          "number": 5,
+          "overview": "Frank attempts to win big with an old business associate at a West Virginia dog track; Dennis and Dee lose more than their shirts to gambling addiction; Mac and Charlie learn about a simpler way of life.",
+          "rating": 0,
+          "released": "2025-07-31T06:00:00.000Z",
+          "season": 17,
+          "thumbnail": "https://episodes.metahub.space/tt0472954/17/5/w780.jpg",
+          "tvdb_id": 11200017
+        },
+        {
+          "description": "When Tammy and Trey, now in their 40s, show up to remove their teenage son from Paddy's, Dennis and Dee attempt to reconnect with their former prom dates. Frank's sudden disappearance sends Mac and Charlie on a mission to track down his whereabouts.",
+          "episode": 6,
+          "firstAired": "2025-08-07T06:00:00.000Z",
+          "id": "tt0472954:17:6",
+          "name": "Overage Drinking: A National Concern",
+          "number": 6,
+          "overview": "When Tammy and Trey, now in their 40s, show up to remove their teenage son from Paddy's, Dennis and Dee attempt to reconnect with their former prom dates. Frank's sudden disappearance sends Mac and Charlie on a mission to track down his whereabouts.",
+          "rating": 0,
+          "released": "2025-08-07T06:00:00.000Z",
+          "season": 17,
+          "thumbnail": "https://episodes.metahub.space/tt0472954/17/6/w780.jpg",
+          "tvdb_id": 11200018
+        },
+        {
+          "description": "Upon learning that Frank's making a \"Hometown Visit\" with his Golden Bachelor partners, the Gang rehearses their family dinner to appeal to America.",
+          "episode": 7,
+          "firstAired": "2025-08-14T06:00:00.000Z",
+          "id": "tt0472954:17:7",
+          "name": "The Gang Gets Ready for Primetime",
+          "number": 7,
+          "overview": "Upon learning that Frank's making a \"Hometown Visit\" with his Golden Bachelor partners, the Gang rehearses their family dinner to appeal to America.",
+          "rating": 0,
+          "released": "2025-08-14T06:00:00.000Z",
+          "season": 17,
+          "thumbnail": "https://episodes.metahub.space/tt0472954/17/7/w780.jpg",
+          "tvdb_id": 11200019
+        },
+        {
+          "description": "Host Jesse Palmer walks the audience through Frank's journey up until his final rose ceremony in the \"Golden Bachelor\" finale. But whom will he pick: a young internet celebrity, a confident woman his age, or a familiar face?",
+          "episode": 8,
+          "firstAired": "2025-08-21T06:00:00.000Z",
+          "id": "tt0472954:17:8",
+          "name": "The Golden Bachelor Live",
+          "number": 8,
+          "overview": "Host Jesse Palmer walks the audience through Frank's journey up until his final rose ceremony in the \"Golden Bachelor\" finale. But whom will he pick: a young internet celebrity, a confident woman his age, or a familiar face?",
+          "rating": 0,
+          "released": "2025-08-21T06:00:00.000Z",
+          "season": 17,
+          "thumbnail": "https://episodes.metahub.space/tt0472954/17/8/w780.jpg",
+          "tvdb_id": 11200020
+        }
+      ],
+      "writer": [
+        "Glenn Howerton",
+        "Rob Mac"
+      ],
+      "year": "2005–"
+    },
+    {
+      "awards": "Won 2 BAFTA Awards. 9 wins & 24 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt13138834/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Siobhan Finneran",
+        "Sean Bean",
+        "Jodie Whittaker"
+      ],
+      "country": "United Kingdom",
+      "description": "An anthology series exploring life in the British prison system.",
+      "director": [],
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "id": "tt13138834",
+      "imdbRating": "8.1",
+      "imdb_id": "tt13138834",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.1",
+          "url": "https://imdb.com/title/tt13138834"
+        },
+        {
+          "category": "share",
+          "name": "Time",
+          "url": "https://www.strem.io/s/series/time-13138834"
+        },
+        {
+          "category": "Genres",
+          "name": "Crime",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Crime"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Cast",
+          "name": "Siobhan Finneran",
+          "url": "stremio:///search?search=Siobhan%20Finneran"
+        },
+        {
+          "category": "Cast",
+          "name": "Sean Bean",
+          "url": "stremio:///search?search=Sean%20Bean"
+        },
+        {
+          "category": "Cast",
+          "name": "Jodie Whittaker",
+          "url": "stremio:///search?search=Jodie%20Whittaker"
+        },
+        {
+          "category": "Writers",
+          "name": "Jimmy McGovern",
+          "url": "stremio:///search?search=Jimmy%20McGovern"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt13138834/img",
+      "moviedb_id": 126116,
+      "name": "Time",
+      "popularities": {
+        "moviedb": 34.4917,
+        "stremio": 1.1497233333333334,
+        "stremio_lib": 0,
+        "trakt": 583
+      },
+      "popularity": 1.1497233333333334,
+      "poster": "https://images.metahub.space/poster/small/tt13138834/img",
+      "releaseInfo": "2021–",
+      "released": "2021-08-17T00:00:00.000Z",
+      "runtime": "60 min",
+      "slug": "series/time-13138834",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "Time",
+          "ytId": "_YQ7_yIVtbU"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "_YQ7_yIVtbU",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 393654,
+      "type": "series",
+      "videos": [
+        {
+          "description": "Mark Cobden is sent to prison and has to learn quickly how to survive. When an inmate identifies prison officer Eric McNally’s weakness, he faces an impossible choice.",
+          "episode": 1,
+          "firstAired": "2021-06-06T21:00:00.000Z",
+          "id": "tt13138834:1:1",
+          "name": "Episode 1",
+          "number": 1,
+          "overview": "Mark Cobden is sent to prison and has to learn quickly how to survive. When an inmate identifies prison officer Eric McNally’s weakness, he faces an impossible choice.",
+          "rating": 0,
+          "released": "2021-06-06T21:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt13138834/1/1/w780.jpg",
+          "tvdb_id": 8442161
+        },
+        {
+          "description": "Mark is being bullied by fellow inmate Johnno. Does he tell the prison officers and be labelled a grass or risk the attacks becoming more and more violent? Eric’s son is attacked.",
+          "episode": 2,
+          "firstAired": "2021-06-13T21:00:00.000Z",
+          "id": "tt13138834:1:2",
+          "name": "Episode 2",
+          "number": 2,
+          "overview": "Mark is being bullied by fellow inmate Johnno. Does he tell the prison officers and be labelled a grass or risk the attacks becoming more and more violent? Eric’s son is attacked.",
+          "rating": 0,
+          "released": "2021-06-13T21:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt13138834/1/2/w780.jpg",
+          "tvdb_id": 8442165
+        },
+        {
+          "description": "Mark suffers a tragic personal loss and is given the chance to leave prison for a day. Eric is forced to take greater risks to protect his family, but where will he draw the line?",
+          "episode": 3,
+          "firstAired": "2021-06-20T21:00:00.000Z",
+          "id": "tt13138834:1:3",
+          "name": "Episode 3",
+          "number": 3,
+          "overview": "Mark suffers a tragic personal loss and is given the chance to leave prison for a day. Eric is forced to take greater risks to protect his family, but where will he draw the line?",
+          "rating": 0,
+          "released": "2021-06-20T21:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt13138834/1/3/w780.jpg",
+          "tvdb_id": 8442166
+        },
+        {
+          "description": "Struggling single mother Orla finds herself in a desperate situation after being sent to Carlingford prison. There, she meets Kelsey, a young heroin addict, and Abi, a tough lifer.",
+          "episode": 1,
+          "firstAired": "2023-10-29T21:00:00.000Z",
+          "id": "tt13138834:2:1",
+          "name": "Episode 1",
+          "number": 1,
+          "overview": "Struggling single mother Orla finds herself in a desperate situation after being sent to Carlingford prison. There, she meets Kelsey, a young heroin addict, and Abi, a tough lifer.",
+          "rating": 0,
+          "released": "2023-10-29T21:00:00.000Z",
+          "season": 2,
+          "thumbnail": "https://episodes.metahub.space/tt13138834/2/1/w780.jpg",
+          "tvdb_id": 9870943
+        },
+        {
+          "description": "Six months on, Orla finds herself back in prison. Desperate for her kids, how far will she go to take action? Meanwhile, Abi considers revenge, and Kelsey plans for her future.",
+          "episode": 2,
+          "firstAired": "2023-11-05T21:00:00.000Z",
+          "id": "tt13138834:2:2",
+          "name": "Episode 2",
+          "number": 2,
+          "overview": "Six months on, Orla finds herself back in prison. Desperate for her kids, how far will she go to take action? Meanwhile, Abi considers revenge, and Kelsey plans for her future.",
+          "rating": 0,
+          "released": "2023-11-05T21:00:00.000Z",
+          "season": 2,
+          "thumbnail": "https://episodes.metahub.space/tt13138834/2/2/w780.jpg",
+          "tvdb_id": 9960200
+        },
+        {
+          "description": "Abi and Kelsey bond after the birth of Kelsey’s baby, Orla faces the consequences of her actions, and intense pressure builds in the prison.",
+          "episode": 3,
+          "firstAired": "2023-11-12T21:00:00.000Z",
+          "id": "tt13138834:2:3",
+          "name": "Episode 3",
+          "number": 3,
+          "overview": "Abi and Kelsey bond after the birth of Kelsey’s baby, Orla faces the consequences of her actions, and intense pressure builds in the prison.",
+          "rating": 0,
+          "released": "2023-11-12T21:00:00.000Z",
+          "season": 2,
+          "thumbnail": "https://episodes.metahub.space/tt13138834/2/3/w780.jpg",
+          "tvdb_id": 9960201
+        },
+        {
+          "episode": 1,
+          "firstAired": "2026-10-11T21:00:00.000Z",
+          "id": "tt13138834:3:1",
+          "name": "Episode 1",
+          "number": 1,
+          "overview": "",
+          "rating": 0,
+          "released": "2026-10-11T21:00:00.000Z",
+          "season": 3,
+          "thumbnail": "https://episodes.metahub.space/tt13138834/3/1/w780.jpg",
+          "tvdb_id": 12013131
+        },
+        {
+          "episode": 2,
+          "firstAired": "2026-10-12T21:00:00.000Z",
+          "id": "tt13138834:3:2",
+          "name": "Episode 2",
+          "number": 2,
+          "overview": "",
+          "rating": 0,
+          "released": "2026-10-12T21:00:00.000Z",
+          "season": 3,
+          "thumbnail": "https://episodes.metahub.space/tt13138834/3/2/w780.jpg",
+          "tvdb_id": 12013132
+        }
+      ],
+      "writer": [
+        "Jimmy McGovern"
+      ],
+      "year": "2021–"
+    },
+    {
+      "awards": "Won 32 Primetime Emmys. 99 wins & 134 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt3530232/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "John Oliver",
+        "David Kaye",
+        "Donald Trump"
+      ],
+      "country": "United States",
+      "description": "Former Daily Show host and correspondent John Oliver brings his persona to this weekly news satire program.",
+      "director": null,
+      "dvdRelease": null,
+      "genre": [
+        "Comedy",
+        "News",
+        "Talk-Show"
+      ],
+      "genres": [
+        "Comedy",
+        "News",
+        "Talk-Show"
+      ],
+      "id": "tt3530232",
+      "imdbRating": "8.8",
+      "imdb_id": "tt3530232",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.8",
+          "url": "https://imdb.com/title/tt3530232"
+        },
+        {
+          "category": "share",
+          "name": "Last Week Tonight with John Oliver",
+          "url": "https://www.strem.io/s/series/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Comedy"
+        },
+        {
+          "category": "Genres",
+          "name": "News",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=News"
+        },
+        {
+          "category": "Genres",
+          "name": "Talk-Show",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Talk-Show"
+        },
+        {
+          "category": "Cast",
+          "name": "John Oliver",
+          "url": "stremio:///search?search=John%20Oliver"
+        },
+        {
+          "category": "Cast",
+          "name": "David Kaye",
+          "url": "stremio:///search?search=David%20Kaye"
+        },
+        {
+          "category": "Cast",
+          "name": "Donald Trump",
+          "url": "stremio:///search?search=Donald%20Trump"
+        },
+        {
+          "category": "Writers",
+          "name": "John Oliver",
+          "url": "stremio:///search?search=John%20Oliver"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt3530232/img",
+      "moviedb_id": 60694,
+      "name": "Last Week Tonight with John Oliver",
+      "popularities": {
+        "ALLIANCE": 0,
+        "EJD": 0,
+        "EXMD": 0,
+        "PXS_TEST": 0,
+        "SCM": 16,
+        "moviedb": 88.299,
+        "stremio": 2.9433,
+        "stremio_lib": 0,
+        "trakt": 1265
+      },
+      "popularity": 2.9433,
+      "poster": "https://images.metahub.space/poster/small/tt3530232/img",
+      "releaseInfo": "2014–",
+      "released": "2014-04-27T00:00:00.000Z",
+      "runtime": "33 min",
+      "slug": "series/last-week-tonight-with-john-oliver-3530232",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "Last Week Tonight with John Oliver",
+          "ytId": "PawUmci7JuU"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "PawUmci7JuU",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 278518,
+      "type": "series",
+      "videos": [
+        {
+          "description": "John Oliver discusses the elections on the horizon for Hungarian Prime Minister Viktor Orbán, why conservatives in the US are so invested in him maintaining power, and what it all has to do with Rob Schneider.",
+          "episode": 7,
+          "firstAired": "2026-03-30T07:00:00.000Z",
+          "id": "tt3530232:13:7",
+          "name": "March 29, 2026: Hungary",
+          "number": 7,
+          "overview": "John Oliver discusses the elections on the horizon for Hungarian Prime Minister Viktor Orbán, why conservatives in the US are so invested in him maintaining power, and what it all has to do with Rob Schneider.",
+          "rating": 0,
+          "released": "2026-03-30T07:00:00.000Z",
+          "season": 13,
+          "thumbnail": "https://episodes.metahub.space/tt3530232/13/7/w780.jpg",
+          "tvdb_id": 11693791
+        },
+        {
+          "description": "John Oliver discusses prediction markets – platforms where you can bet on basically anything, from the weather to the war in Iran – and the legal and moral questions posed by their existence.",
+          "episode": 8,
+          "firstAired": "2026-04-20T07:00:00.000Z",
+          "id": "tt3530232:13:8",
+          "name": "April 19, 2026: Prediction Markets",
+          "number": 8,
+          "overview": "John Oliver discusses prediction markets – platforms where you can bet on basically anything, from the weather to the war in Iran – and the legal and moral questions posed by their existence.",
+          "rating": 0,
+          "released": "2026-04-20T07:00:00.000Z",
+          "season": 13,
+          "thumbnail": "https://episodes.metahub.space/tt3530232/13/8/w780.jpg",
+          "tvdb_id": 11706241
+        },
+        {
+          "description": "John Oliver discusses AI chatbots, why they're flirting with users unprompted and encouraging people to open soggy cereal cafes, and how their flaws can be genuinely hazardous to the public.",
+          "episode": 9,
+          "firstAired": "2026-04-27T07:00:00.000Z",
+          "id": "tt3530232:13:9",
+          "name": "April 26, 2026: AI Chatbots",
+          "number": 9,
+          "overview": "John Oliver discusses AI chatbots, why they're flirting with users unprompted and encouraging people to open soggy cereal cafes, and how their flaws can be genuinely hazardous to the public.",
+          "rating": 0,
+          "released": "2026-04-27T07:00:00.000Z",
+          "season": 13,
+          "thumbnail": "https://episodes.metahub.space/tt3530232/13/9/w780.jpg",
+          "tvdb_id": 11706242
+        },
+        {
+          "description": "John Oliver discusses the sprawling industry of \"gas station drugs\" – a world of questionable supplements and boner pills – which is posing a risk to the public by putting underregulated substances over the counter.",
+          "episode": 10,
+          "firstAired": "2026-05-04T07:00:00.000Z",
+          "id": "tt3530232:13:10",
+          "name": "May 3, 2026: Gas Station Drugs",
+          "number": 10,
+          "overview": "John Oliver discusses the sprawling industry of \"gas station drugs\" – a world of questionable supplements and boner pills – which is posing a risk to the public by putting underregulated substances over the counter.",
+          "rating": 0,
+          "released": "2026-05-04T07:00:00.000Z",
+          "season": 13,
+          "thumbnail": "https://episodes.metahub.space/tt3530232/13/10/w780.jpg",
+          "tvdb_id": 11706243
+        },
+        {
+          "description": "John Oliver discusses the shadow docket – a shortcut to the Supreme Court which is rapidly advancing the Trump administration's agenda. Plus, some fun and unexpected facts about turtles! You know, to spice things up.",
+          "episode": 11,
+          "firstAired": "2026-05-11T07:00:00.000Z",
+          "id": "tt3530232:13:11",
+          "name": "May 10, 2026: Shadow Docket",
+          "number": 11,
+          "overview": "John Oliver discusses the shadow docket – a shortcut to the Supreme Court which is rapidly advancing the Trump administration's agenda. Plus, some fun and unexpected facts about turtles! You know, to spice things up.",
+          "rating": 0,
+          "released": "2026-05-11T07:00:00.000Z",
+          "season": 13,
+          "thumbnail": "https://episodes.metahub.space/tt3530232/13/11/w780.jpg",
+          "tvdb_id": 11777303
+        },
+        {
+          "description": "John Oliver discusses structured settlements – the incremental payments designed to sustain victims of injury or wrongful death over long periods of time.",
+          "episode": 12,
+          "firstAired": "2026-05-18T07:00:00.000Z",
+          "id": "tt3530232:13:12",
+          "name": "May 17, 2026: Structured Settlements",
+          "number": 12,
+          "overview": "John Oliver discusses structured settlements – the incremental payments designed to sustain victims of injury or wrongful death over long periods of time.",
+          "rating": 0,
+          "released": "2026-05-18T07:00:00.000Z",
+          "season": 13,
+          "thumbnail": "https://episodes.metahub.space/tt3530232/13/12/w780.jpg",
+          "tvdb_id": 11777304
+        },
+        {
+          "description": "John Oliver discusses who Donald Trump has pardoned since he's been in office, and what it would be like to have sex with a cartoon character who has your voice. Not a cartoon character OF YOU! Just a cartoon character *with your voice.*",
+          "episode": 13,
+          "firstAired": "2026-06-01T07:00:00.000Z",
+          "id": "tt3530232:13:13",
+          "name": "May 31, 2026: Presidential Pardons",
+          "number": 13,
+          "overview": "John Oliver discusses who Donald Trump has pardoned since he's been in office, and what it would be like to have sex with a cartoon character who has your voice. Not a cartoon character OF YOU! Just a cartoon character *with your voice.*",
+          "rating": 0,
+          "released": "2026-06-01T07:00:00.000Z",
+          "season": 13,
+          "thumbnail": "https://episodes.metahub.space/tt3530232/13/13/w780.jpg",
+          "tvdb_id": 11799620
+        },
+        {
+          "description": "John Oliver discusses New College of Florida – the small liberal arts school that has been taken over by Governor Ron DeSantis – and why we think their new mascot would really get Samantha from Sex and the City going.",
+          "episode": 14,
+          "firstAired": "2026-06-08T07:00:00.000Z",
+          "id": "tt3530232:13:14",
+          "name": "June 7, 2026: New College of Florida",
+          "number": 14,
+          "overview": "John Oliver discusses New College of Florida – the small liberal arts school that has been taken over by Governor Ron DeSantis – and why we think their new mascot would really get Samantha from Sex and the City going.",
+          "rating": 0,
+          "released": "2026-06-08T07:00:00.000Z",
+          "season": 13,
+          "thumbnail": "https://episodes.metahub.space/tt3530232/13/14/w780.jpg",
+          "tvdb_id": 11799621
+        },
+        {
+          "description": "John Oliver discusses the upcoming elections in the UK, why the race for prime minister hinges on 76,000 voters who live in a small area called Makerfield, and which party leader looks like his first words were \"British East India Company.\"",
+          "episode": 15,
+          "firstAired": "2026-06-15T07:00:00.000Z",
+          "id": "tt3530232:13:15",
+          "name": "June 14, 2026: UK Elections",
+          "number": 15,
+          "overview": "John Oliver discusses the upcoming elections in the UK, why the race for prime minister hinges on 76,000 voters who live in a small area called Makerfield, and which party leader looks like his first words were \"British East India Company.\"",
+          "rating": 0,
+          "released": "2026-06-15T07:00:00.000Z",
+          "season": 13,
+          "thumbnail": "https://episodes.metahub.space/tt3530232/13/15/w780.jpg",
+          "tvdb_id": 11799622
+        },
+        {
+          "description": "John Oliver discusses one of the most destructive invasive species in America: feral hogs. How they got here, the damage they're doing, and why the Discovery Channel should really consider doing \"Cow Week.\"",
+          "episode": 16,
+          "firstAired": "2026-06-22T07:00:00.000Z",
+          "id": "tt3530232:13:16",
+          "name": "June 21, 2026: Feral Hogs",
+          "number": 16,
+          "overview": "John Oliver discusses one of the most destructive invasive species in America: feral hogs. How they got here, the damage they're doing, and why the Discovery Channel should really consider doing \"Cow Week.\"",
+          "rating": 0,
+          "released": "2026-06-22T07:00:00.000Z",
+          "season": 13,
+          "thumbnail": "https://episodes.metahub.space/tt3530232/13/16/w780.jpg",
+          "tvdb_id": 11799623
+        }
+      ],
+      "writer": [
+        "John Oliver"
+      ],
+      "year": "2014–"
+    },
+    {
+      "awards": "Nominated for 4 Primetime Emmys. 2 wins & 5 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt0096563/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Ruben Barela",
+        "Andrew Fincher",
+        "Alex Cox"
+      ],
+      "country": "United States",
+      "description": "Camera crews follow police officers while they work.",
+      "director": null,
+      "dvdRelease": null,
+      "genre": [
+        "Action",
+        "Crime",
+        "Reality-TV"
+      ],
+      "genres": [
+        "Action",
+        "Crime",
+        "Reality-TV"
+      ],
+      "id": "tt0096563",
+      "imdbRating": "6.9",
+      "imdb_id": "tt0096563",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.9",
+          "url": "https://imdb.com/title/tt0096563"
+        },
+        {
+          "category": "share",
+          "name": "Cops",
+          "url": "https://www.strem.io/s/series/cops-0096563"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Action"
+        },
+        {
+          "category": "Genres",
+          "name": "Crime",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Crime"
+        },
+        {
+          "category": "Genres",
+          "name": "Reality-TV",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Reality-TV"
+        },
+        {
+          "category": "Cast",
+          "name": "Ruben Barela",
+          "url": "stremio:///search?search=Ruben%20Barela"
+        },
+        {
+          "category": "Cast",
+          "name": "Andrew Fincher",
+          "url": "stremio:///search?search=Andrew%20Fincher"
+        },
+        {
+          "category": "Cast",
+          "name": "Alex Cox",
+          "url": "stremio:///search?search=Alex%20Cox"
+        },
+        {
+          "category": "Writers",
+          "name": "John Langley",
+          "url": "stremio:///search?search=John%20Langley"
+        },
+        {
+          "category": "Writers",
+          "name": "Malcolm Barbour",
+          "url": "stremio:///search?search=Malcolm%20Barbour"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt0096563/img",
+      "moviedb_id": 3670,
+      "name": "Cops",
+      "popularities": {
+        "ALLIANCE": 0,
+        "EJD": 0,
+        "EXMD": 0,
+        "PXS_TEST": 0,
+        "moviedb": 49.4889,
+        "stremio": 1.64963,
+        "stremio_lib": 0,
+        "trakt": 174
+      },
+      "popularity": 1.64963,
+      "poster": "https://images.metahub.space/poster/small/tt0096563/img",
+      "releaseInfo": "1989–2025",
+      "released": "1989-03-11T00:00:00.000Z",
+      "runtime": "25 min",
+      "slug": "series/cops-0096563",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "Cops",
+          "ytId": "1WuhOPOhjmM"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "1WuhOPOhjmM",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 74709,
+      "type": "series",
+      "videos": [
+        {
+          "description": "A suspect claims to have broken into a truck to escape the cold; squatters in California provide a fake lease agreement; an outreach team connects unhoused individuals with housing and drug treatment.",
+          "episode": 47,
+          "firstAired": "2026-05-16T06:00:00.000Z",
+          "id": "tt0096563:37:47",
+          "name": "Chilly With a Chance of Handcuffs",
+          "number": 47,
+          "overview": "A suspect claims to have broken into a truck to escape the cold; squatters in California provide a fake lease agreement; an outreach team connects unhoused individuals with housing and drug treatment.",
+          "rating": 0,
+          "released": "2026-05-16T06:00:00.000Z",
+          "season": 37,
+          "thumbnail": "https://episodes.metahub.space/tt0096563/37/47/w780.jpg",
+          "tvdb_id": 11774069
+        },
+        {
+          "description": "A man fleeing from a stolen Honda has his hiding spot revealed by his loyal pet; a Veteran injured overseas struggles with addiction; a driver tells Deputies he started using meth during COVID.",
+          "episode": 48,
+          "firstAired": "2026-05-23T06:00:00.000Z",
+          "id": "tt0096563:37:48",
+          "name": "Shoulda Been Delivery",
+          "number": 48,
+          "overview": "A man fleeing from a stolen Honda has his hiding spot revealed by his loyal pet; a Veteran injured overseas struggles with addiction; a driver tells Deputies he started using meth during COVID.",
+          "rating": 0,
+          "released": "2026-05-23T06:00:00.000Z",
+          "season": 37,
+          "thumbnail": "https://episodes.metahub.space/tt0096563/37/48/w780.jpg",
+          "tvdb_id": 11774070
+        },
+        {
+          "description": "A drug dealer discards a gun and is caught with a half pound of meth. A man refuses to identify himself and becomes combative when detained.\r\n",
+          "episode": 49,
+          "firstAired": "2026-05-30T06:00:00.000Z",
+          "id": "tt0096563:37:49",
+          "name": "Flingin' Heaters",
+          "number": 49,
+          "overview": "A drug dealer discards a gun and is caught with a half pound of meth. A man refuses to identify himself and becomes combative when detained.\r\n",
+          "rating": 0,
+          "released": "2026-05-30T06:00:00.000Z",
+          "season": 37,
+          "thumbnail": "https://episodes.metahub.space/tt0096563/37/49/w780.jpg",
+          "tvdb_id": 11816871
+        },
+        {
+          "description": "Officers with NYPD's 75th Precinct and drone operators with the Technical Assistance Response Unit (TARU) conduct a narcotics sting in Brooklyn.",
+          "episode": 50,
+          "firstAired": "2026-06-06T06:00:00.000Z",
+          "id": "tt0096563:37:50",
+          "name": "NYPD: Taru Above, 75 Below",
+          "number": 50,
+          "overview": "Officers with NYPD's 75th Precinct and drone operators with the Technical Assistance Response Unit (TARU) conduct a narcotics sting in Brooklyn.",
+          "rating": 0,
+          "released": "2026-06-06T06:00:00.000Z",
+          "season": 37,
+          "thumbnail": "https://episodes.metahub.space/tt0096563/37/50/w780.jpg",
+          "tvdb_id": 11829078
+        },
+        {
+          "description": "NYPD Officers stop a teenager with a concealed gun; an angry mob in Brooklyn hogties a man caught breaking into a van.",
+          "episode": 51,
+          "firstAired": "2026-06-13T06:00:00.000Z",
+          "id": "tt0096563:37:51",
+          "name": "NYPD: Seven Lives Saved",
+          "number": 51,
+          "overview": "NYPD Officers stop a teenager with a concealed gun; an angry mob in Brooklyn hogties a man caught breaking into a van.",
+          "rating": 0,
+          "released": "2026-06-13T06:00:00.000Z",
+          "season": 37,
+          "thumbnail": "https://episodes.metahub.space/tt0096563/37/51/w780.jpg",
+          "tvdb_id": 11829080
+        },
+        {
+          "description": "The Air Unit tracks a speeding car. A fleeing SUV hits a dead end and slides down a hill. A suspect crashes and cries. A Grappler stops a chase. TVIs send cars spinning.",
+          "episode": 1,
+          "firstAired": "2026-06-20T06:00:00.000Z",
+          "id": "tt0096563:38:1",
+          "name": "Car Chases: End of the Road",
+          "number": 1,
+          "overview": "The Air Unit tracks a speeding car. A fleeing SUV hits a dead end and slides down a hill. A suspect crashes and cries. A Grappler stops a chase. TVIs send cars spinning.",
+          "rating": 0,
+          "released": "2026-06-20T06:00:00.000Z",
+          "season": 38,
+          "thumbnail": "https://episodes.metahub.space/tt0096563/38/1/w780.jpg",
+          "tvdb_id": 11829082
+        },
+        {
+          "description": "A teen ditches a gun. A tense takedown in a park. A suspect is tackled mid-sprint. A brawl over an unflushed toilet. A swampy manhunt. A fence-hopping foot pursuit.",
+          "episode": 2,
+          "firstAired": "2026-06-27T06:00:00.000Z",
+          "id": "tt0096563:38:2",
+          "name": "Resisting Arrest: Tough to Cuff",
+          "number": 2,
+          "overview": "A teen ditches a gun. A tense takedown in a park. A suspect is tackled mid-sprint. A brawl over an unflushed toilet. A swampy manhunt. A fence-hopping foot pursuit.",
+          "rating": 0,
+          "released": "2026-06-27T06:00:00.000Z",
+          "season": 38,
+          "thumbnail": "https://episodes.metahub.space/tt0096563/38/2/w780.jpg",
+          "tvdb_id": 11829085
+        },
+        {
+          "description": "A front-yard fight. An armed felon flees. A balcony brawl. A DV suspect hides. A nervous driver is tased. A bicyclist ignores commands. A cuffed suspect runs.",
+          "episode": 3,
+          "firstAired": "2026-07-04T06:00:00.000Z",
+          "id": "tt0096563:38:3",
+          "name": "Tased and Confused: Shocking Behavior",
+          "number": 3,
+          "overview": "A front-yard fight. An armed felon flees. A balcony brawl. A DV suspect hides. A nervous driver is tased. A bicyclist ignores commands. A cuffed suspect runs.",
+          "rating": 0,
+          "released": "2026-07-04T06:00:00.000Z",
+          "season": 38,
+          "thumbnail": "https://episodes.metahub.space/tt0096563/38/3/w780.jpg",
+          "tvdb_id": 11829088
+        },
+        {
+          "description": "Bank robbers get caught with guns and masks after a PIT ends a pursuit. A man claims he bought a stolen motorcycle for $800. The Air Unit tracks a stolen car while FHP sets up a TVI.",
+          "episode": 4,
+          "firstAired": "2026-08-08T06:00:00.000Z",
+          "id": "tt0096563:38:4",
+          "name": "Florida Man Strikes Again",
+          "number": 4,
+          "overview": "Bank robbers get caught with guns and masks after a PIT ends a pursuit. A man claims he bought a stolen motorcycle for $800. The Air Unit tracks a stolen car while FHP sets up a TVI.",
+          "rating": 0,
+          "released": "2026-08-08T06:00:00.000Z",
+          "season": 38,
+          "thumbnail": "https://episodes.metahub.space/tt0096563/38/4/w780.jpg",
+          "tvdb_id": 11914358
+        },
+        {
+          "description": "A suspect sets a door ablaze and attacks with deer antlers. A woman in a stolen car says her grandpa/husband paid for it. Viral video: burglar meets screams and a shotgun.",
+          "episode": 5,
+          "firstAired": "2026-08-08T06:00:00.000Z",
+          "id": "tt0096563:38:5",
+          "name": "Will Florida Man Ever Learn?",
+          "number": 5,
+          "overview": "A suspect sets a door ablaze and attacks with deer antlers. A woman in a stolen car says her grandpa/husband paid for it. Viral video: burglar meets screams and a shotgun.",
+          "rating": 0,
+          "released": "2026-08-08T06:00:00.000Z",
+          "season": 38,
+          "thumbnail": "https://episodes.metahub.space/tt0096563/38/5/w780.jpg",
+          "tvdb_id": 11914359
+        }
+      ],
+      "writer": [
+        "John Langley",
+        "Malcolm Barbour"
+      ],
+      "year": "1989–2025"
+    },
+    {
+      "awards": "5 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt18332852/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Jeremy Irvine",
+        "Hermione Corfield",
+        "Harriet Slater"
+      ],
+      "country": "United States",
+      "description": "This prequel to the Outlander series focuses on the lives and courtship of the parents of Jamie Fraser: Brian Fraser and Ellen Mackenzie as well as Claire Beauchamp's parents, Henry Beauchamp and Julia Moriston.",
+      "director": [],
+      "genre": [
+        "Drama",
+        "Fantasy",
+        "Romance"
+      ],
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Romance"
+      ],
+      "id": "tt18332852",
+      "imdbRating": "8.1",
+      "imdb_id": "tt18332852",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.1",
+          "url": "https://imdb.com/title/tt18332852"
+        },
+        {
+          "category": "share",
+          "name": "Outlander: Blood of My Blood",
+          "url": "https://www.strem.io/s/series/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Fantasy",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Fantasy"
+        },
+        {
+          "category": "Genres",
+          "name": "Romance",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Romance"
+        },
+        {
+          "category": "Cast",
+          "name": "Jeremy Irvine",
+          "url": "stremio:///search?search=Jeremy%20Irvine"
+        },
+        {
+          "category": "Cast",
+          "name": "Hermione Corfield",
+          "url": "stremio:///search?search=Hermione%20Corfield"
+        },
+        {
+          "category": "Cast",
+          "name": "Harriet Slater",
+          "url": "stremio:///search?search=Harriet%20Slater"
+        },
+        {
+          "category": "Writers",
+          "name": "Matthew B. Roberts",
+          "url": "stremio:///search?search=Matthew%20B.%20Roberts"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt18332852/img",
+      "moviedb_id": 207484,
+      "name": "Outlander: Blood of My Blood",
+      "popularities": {
+        "moviedb": 29.906,
+        "stremio": 0.9968666666666668,
+        "stremio_lib": 0,
+        "trakt": 489
+      },
+      "popularity": 0.9968666666666668,
+      "poster": "https://images.metahub.space/poster/small/tt18332852/img",
+      "releaseInfo": "2025–",
+      "released": "2025-08-08T00:00:00.000Z",
+      "runtime": "63 min",
+      "slug": "series/outlander-blood-of-my-blood-18332852",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "Outlander: Blood of My Blood",
+          "ytId": "9hvjJEXoIhs"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "9hvjJEXoIhs",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 429964,
+      "type": "series",
+      "videos": [
+        {
+          "description": "At the Gathering, Brian Fraser and Ellen MacKenzie meet for the first time and are struck by their strong connection.",
+          "episode": 1,
+          "firstAired": "2025-08-09T04:00:00.000Z",
+          "id": "tt18332852:1:1",
+          "name": "Providence",
+          "number": 1,
+          "overview": "At the Gathering, Brian Fraser and Ellen MacKenzie meet for the first time and are struck by their strong connection.",
+          "rating": 0,
+          "released": "2025-08-09T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt18332852/1/1/w780.jpg",
+          "tvdb_id": 9569207
+        },
+        {
+          "description": "While Henry fights in WWI and Julia works in the censorship office in London, their love story unfolds through the letters they write to each other.",
+          "episode": 2,
+          "firstAired": "2025-08-09T04:00:00.000Z",
+          "id": "tt18332852:1:2",
+          "name": "S.W.A.K. (Sealed With a Kiss)",
+          "number": 2,
+          "overview": "While Henry fights in WWI and Julia works in the censorship office in London, their love story unfolds through the letters they write to each other.",
+          "rating": 0,
+          "released": "2025-08-09T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt18332852/1/2/w780.jpg",
+          "tvdb_id": 11013422
+        },
+        {
+          "description": "Ellen hatches a new plan to protect herself and her family. Julia is forced to make an impossible choice.",
+          "episode": 3,
+          "firstAired": "2025-08-16T04:00:00.000Z",
+          "id": "tt18332852:1:3",
+          "name": "School of the Moon",
+          "number": 3,
+          "overview": "Ellen hatches a new plan to protect herself and her family. Julia is forced to make an impossible choice.",
+          "rating": 0,
+          "released": "2025-08-16T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt18332852/1/3/w780.jpg",
+          "tvdb_id": 11013423
+        },
+        {
+          "description": "Henry tackles a challenging assignment in his own way. Ellen learns some concerning information about the family into which she's expected to marry.",
+          "episode": 4,
+          "firstAired": "2025-08-23T04:00:00.000Z",
+          "id": "tt18332852:1:4",
+          "name": "A Soldier's Heart",
+          "number": 4,
+          "overview": "Henry tackles a challenging assignment in his own way. Ellen learns some concerning information about the family into which she's expected to marry.",
+          "rating": 0,
+          "released": "2025-08-23T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt18332852/1/4/w780.jpg",
+          "tvdb_id": 11013424
+        },
+        {
+          "description": "Ellen and Brian attend Beltane. Henry struggles to hold onto his hope. Julia loses allies when secrets come out.",
+          "episode": 5,
+          "firstAired": "2025-08-30T04:00:00.000Z",
+          "id": "tt18332852:1:5",
+          "name": "Needfire",
+          "number": 5,
+          "overview": "Ellen and Brian attend Beltane. Henry struggles to hold onto his hope. Julia loses allies when secrets come out.",
+          "rating": 0,
+          "released": "2025-08-30T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt18332852/1/5/w780.jpg",
+          "tvdb_id": 11013425
+        },
+        {
+          "description": "Henry continues to look for Julia until a new discovery threatens to end his search.",
+          "episode": 6,
+          "firstAired": "2025-09-06T04:00:00.000Z",
+          "id": "tt18332852:1:6",
+          "name": "Birthright",
+          "number": 6,
+          "overview": "Henry continues to look for Julia until a new discovery threatens to end his search.",
+          "rating": 0,
+          "released": "2025-09-06T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt18332852/1/6/w780.jpg",
+          "tvdb_id": 11013426
+        },
+        {
+          "description": "Lord Lovat goes to extreme lengths to fulfill a prophecy. Dougal attends a clandestine meeting that could spell political disaster for the MacKenzies.",
+          "episode": 7,
+          "firstAired": "2025-09-13T04:00:00.000Z",
+          "id": "tt18332852:1:7",
+          "name": "Luceo Non Uro",
+          "number": 7,
+          "overview": "Lord Lovat goes to extreme lengths to fulfill a prophecy. Dougal attends a clandestine meeting that could spell political disaster for the MacKenzies.",
+          "rating": 0,
+          "released": "2025-09-13T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt18332852/1/7/w780.jpg",
+          "tvdb_id": 11013427
+        },
+        {
+          "description": "At the request of the Grants, Ellen undergoes a test to prove her worthiness to marry into the clan.",
+          "episode": 8,
+          "firstAired": "2025-09-20T04:00:00.000Z",
+          "id": "tt18332852:1:8",
+          "name": "A Virtuous Woman",
+          "number": 8,
+          "overview": "At the request of the Grants, Ellen undergoes a test to prove her worthiness to marry into the clan.",
+          "rating": 0,
+          "released": "2025-09-20T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt18332852/1/8/w780.jpg",
+          "tvdb_id": 11013428
+        },
+        {
+          "description": "All the Highland clans attend the Earl of Mar's annual hunting event at Braemar Castle, where the Earl makes an inflammatory proclamation.",
+          "episode": 9,
+          "firstAired": "2025-09-27T04:00:00.000Z",
+          "id": "tt18332852:1:9",
+          "name": "Braemar",
+          "number": 9,
+          "overview": "All the Highland clans attend the Earl of Mar's annual hunting event at Braemar Castle, where the Earl makes an inflammatory proclamation.",
+          "rating": 0,
+          "released": "2025-09-27T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt18332852/1/9/w780.jpg",
+          "tvdb_id": 11013429
+        },
+        {
+          "description": "Ellen prepares for her wedding day, while Julia attempts her escape.",
+          "episode": 10,
+          "firstAired": "2025-10-11T04:00:00.000Z",
+          "id": "tt18332852:1:10",
+          "name": "Something Borrowed",
+          "number": 10,
+          "overview": "Ellen prepares for her wedding day, while Julia attempts her escape.",
+          "rating": 0,
+          "released": "2025-10-11T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt18332852/1/10/w780.jpg",
+          "tvdb_id": 11013430
+        }
+      ],
+      "writer": [
+        "Matthew B. Roberts"
+      ],
+      "year": "2025–"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt32268630/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Morena Baccarin",
+        "Matt Lauria",
+        "Michele Weaver"
+      ],
+      "country": "United States",
+      "description": "Mickey Fox investigates criminal activity and patrols the streets of small-town Edgewater while contending with her ex-con father and a mysterious incident involving her wayward daughter.",
+      "director": [],
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "id": "tt32268630",
+      "imdbRating": "6.6",
+      "imdb_id": "tt32268630",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.6",
+          "url": "https://imdb.com/title/tt32268630"
+        },
+        {
+          "category": "share",
+          "name": "Sheriff Country",
+          "url": "https://www.strem.io/s/series/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Crime",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Crime"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Cast",
+          "name": "Morena Baccarin",
+          "url": "stremio:///search?search=Morena%20Baccarin"
+        },
+        {
+          "category": "Cast",
+          "name": "Matt Lauria",
+          "url": "stremio:///search?search=Matt%20Lauria"
+        },
+        {
+          "category": "Cast",
+          "name": "Michele Weaver",
+          "url": "stremio:///search?search=Michele%20Weaver"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt32268630/img",
+      "moviedb_id": 253391,
+      "name": "Sheriff Country",
+      "popularities": {
+        "moviedb": 29.3595,
+        "stremio": 0.97865,
+        "stremio_lib": 0,
+        "trakt": 726
+      },
+      "popularity": 0.97865,
+      "poster": "https://images.metahub.space/poster/small/tt32268630/img",
+      "releaseInfo": "2025–",
+      "released": "2025-10-17T00:00:00.000Z",
+      "runtime": "43 min",
+      "slug": "series/sheriff-country-32268630",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "Sheriff Country",
+          "ytId": "OPf6EfNIld0"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "OPf6EfNIld0",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 449708,
+      "type": "series",
+      "videos": [
+        {
+          "description": "When a daring daylight robbery shakes the heart of Edgewater, Mickey must navigate rising tensions, personal entanglements and a town quick to judge. Meanwhile, suspicions swirl around Skye.",
+          "episode": 3,
+          "firstAired": "2025-11-01T04:00:00.000Z",
+          "id": "tt32268630:1:3",
+          "name": "The Sixth Man",
+          "number": 3,
+          "overview": "When a daring daylight robbery shakes the heart of Edgewater, Mickey must navigate rising tensions, personal entanglements and a town quick to judge. Meanwhile, suspicions swirl around Skye.",
+          "rating": 0,
+          "released": "2025-11-01T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt32268630/1/3/w780.jpg",
+          "tvdb_id": 11377987
+        },
+        {
+          "description": "When Skye becomes the prime suspect in a murder case, Mickey is forced to step down amid the investigation and launch her own off-the-books search for the truth. As tensions rise and family loyalties are tested, Mickey risks everything to try and clear her daughter’s name.",
+          "episode": 4,
+          "firstAired": "2025-11-08T04:00:00.000Z",
+          "id": "tt32268630:1:4",
+          "name": "Out of Office",
+          "number": 4,
+          "overview": "When Skye becomes the prime suspect in a murder case, Mickey is forced to step down amid the investigation and launch her own off-the-books search for the truth. As tensions rise and family loyalties are tested, Mickey risks everything to try and clear her daughter’s name.",
+          "rating": 0,
+          "released": "2025-11-08T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt32268630/1/4/w780.jpg",
+          "tvdb_id": 11378012
+        },
+        {
+          "description": "A high-stakes transport mission puts Sheriff Mickey Fox and Deputy Boone on edge as they race against time to protect a vulnerable witness.",
+          "episode": 5,
+          "firstAired": "2025-11-15T04:00:00.000Z",
+          "id": "tt32268630:1:5",
+          "name": "Expecting Trouble",
+          "number": 5,
+          "overview": "A high-stakes transport mission puts Sheriff Mickey Fox and Deputy Boone on edge as they race against time to protect a vulnerable witness.",
+          "rating": 0,
+          "released": "2025-11-15T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt32268630/1/5/w780.jpg",
+          "tvdb_id": 11378013
+        },
+        {
+          "description": "When a body is discovered along the Eel River, Sheriff Mickey Fox and her team launch a homicide investigation that rattles the heart of Edgewater. Meanwhile, Wes risks everything to uncover the truth about the murder.",
+          "episode": 6,
+          "firstAired": "2025-11-22T04:00:00.000Z",
+          "id": "tt32268630:1:6",
+          "name": "Exit Interview",
+          "number": 6,
+          "overview": "When a body is discovered along the Eel River, Sheriff Mickey Fox and her team launch a homicide investigation that rattles the heart of Edgewater. Meanwhile, Wes risks everything to uncover the truth about the murder.",
+          "rating": 0,
+          "released": "2025-11-22T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt32268630/1/6/w780.jpg",
+          "tvdb_id": 11429347
+        },
+        {
+          "description": "While investigating a brutal assault at Edgewater High, Sheriff Mickey Fox uncovers a disturbing web of secrets, lies and abuse of power at the school.",
+          "episode": 7,
+          "firstAired": "2025-12-06T04:00:00.000Z",
+          "id": "tt32268630:1:7",
+          "name": "Glory Days",
+          "number": 7,
+          "overview": "While investigating a brutal assault at Edgewater High, Sheriff Mickey Fox uncovers a disturbing web of secrets, lies and abuse of power at the school.",
+          "rating": 0,
+          "released": "2025-12-06T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt32268630/1/7/w780.jpg",
+          "tvdb_id": 11432412
+        },
+        {
+          "description": "As cannabis growers in Edgewater scramble to pay their taxes in cash, a violent robbery leaves a man in critical condition and exposes the vulnerability of the legal cannabis trade. Meanwhile, Mickey navigates a tense meal with her stepsister, Sharon.",
+          "episode": 8,
+          "firstAired": "2025-12-13T04:00:00.000Z",
+          "id": "tt32268630:1:8",
+          "name": "Death & Taxes",
+          "number": 8,
+          "overview": "As cannabis growers in Edgewater scramble to pay their taxes in cash, a violent robbery leaves a man in critical condition and exposes the vulnerability of the legal cannabis trade. Meanwhile, Mickey navigates a tense meal with her stepsister, Sharon.",
+          "rating": 0,
+          "released": "2025-12-13T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt32268630/1/8/w780.jpg",
+          "tvdb_id": 11454542
+        },
+        {
+          "description": "After a father and son flee a secluded ranch run by one of Edgewater's most power families, Mickey investigates disturbing allegations of abuse and uncovers dangerous secrets, which leads to a tense standoff and confrontation.",
+          "episode": 9,
+          "firstAired": "2025-12-20T04:00:00.000Z",
+          "id": "tt32268630:1:9",
+          "name": "Crucible (1)",
+          "number": 9,
+          "overview": "After a father and son flee a secluded ranch run by one of Edgewater's most power families, Mickey investigates disturbing allegations of abuse and uncovers dangerous secrets, which leads to a tense standoff and confrontation.",
+          "rating": 0,
+          "released": "2025-12-20T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt32268630/1/9/w780.jpg",
+          "tvdb_id": 11462684
+        },
+        {
+          "description": "With Travis’ life on the line and the sheriff’s office under attack, Mickey must do whatever it takes to protect her people.",
+          "episode": 10,
+          "firstAired": "2026-02-28T04:00:00.000Z",
+          "id": "tt32268630:1:10",
+          "name": "Crucible (2)",
+          "number": 10,
+          "overview": "With Travis’ life on the line and the sheriff’s office under attack, Mickey must do whatever it takes to protect her people.",
+          "rating": 0,
+          "released": "2026-02-28T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt32268630/1/10/w780.jpg",
+          "tvdb_id": 11465160
+        },
+        {
+          "description": "When a courthouse security test ends in a shocking murder, Sheriff Mickey Fox uncovers a dangerous conspiracy reaching deep into Edgewater’s justice system.",
+          "episode": 11,
+          "firstAired": "2026-03-07T04:00:00.000Z",
+          "id": "tt32268630:1:11",
+          "name": "The Aftermath",
+          "number": 11,
+          "overview": "When a courthouse security test ends in a shocking murder, Sheriff Mickey Fox uncovers a dangerous conspiracy reaching deep into Edgewater’s justice system.",
+          "rating": 0,
+          "released": "2026-03-07T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt32268630/1/11/w780.jpg",
+          "tvdb_id": 11537543
+        },
+        {
+          "description": "When a violent home invasion turns out to be the result of a deadly batch of synthetic weed sweeping through Edgewater, Mickey and Boone race to contain the chaos. Meanwhile, Cassidy uncovers disturbing new clues in her sister’s disappearance case.",
+          "episode": 12,
+          "firstAired": "2026-03-14T04:00:00.000Z",
+          "id": "tt32268630:1:12",
+          "name": "Plus One",
+          "number": 12,
+          "overview": "When a violent home invasion turns out to be the result of a deadly batch of synthetic weed sweeping through Edgewater, Mickey and Boone race to contain the chaos. Meanwhile, Cassidy uncovers disturbing new clues in her sister’s disappearance case.",
+          "rating": 0,
+          "released": "2026-03-14T04:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt32268630/1/12/w780.jpg",
+          "tvdb_id": 11549856
+        }
+      ],
+      "writer": [],
+      "year": "2025–"
+    },
+    {
+      "awards": "Won 4 BAFTA Awards. 8 wins & 2 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt33248156/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Claudia Winkleman",
+        "Nick Mohammed",
+        "Alan Carr"
+      ],
+      "country": "United Kingdom, Netherlands",
+      "description": "A psychological game show that follows celebrities where the contestants are trying to outwit, outplay, and outlast the challenge.",
+      "director": [],
+      "genre": [
+        "Game-Show",
+        "Reality-TV"
+      ],
+      "genres": [
+        "Game-Show",
+        "Reality-TV"
+      ],
+      "id": "tt33248156",
+      "imdbRating": "8.6",
+      "imdb_id": "tt33248156",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.6",
+          "url": "https://imdb.com/title/tt33248156"
+        },
+        {
+          "category": "share",
+          "name": "The Celebrity Traitors UK",
+          "url": "https://www.strem.io/s/series/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Game-Show",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Game-Show"
+        },
+        {
+          "category": "Genres",
+          "name": "Reality-TV",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Reality-TV"
+        },
+        {
+          "category": "Cast",
+          "name": "Claudia Winkleman",
+          "url": "stremio:///search?search=Claudia%20Winkleman"
+        },
+        {
+          "category": "Cast",
+          "name": "Nick Mohammed",
+          "url": "stremio:///search?search=Nick%20Mohammed"
+        },
+        {
+          "category": "Cast",
+          "name": "Alan Carr",
+          "url": "stremio:///search?search=Alan%20Carr"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt33248156/img",
+      "moviedb_id": 291431,
+      "name": "The Celebrity Traitors UK",
+      "popularities": {
+        "moviedb": 20.5851,
+        "stremio": 0.6861700000000001,
+        "stremio_lib": 0,
+        "trakt": 622
+      },
+      "popularity": 0.6861700000000001,
+      "poster": "https://images.metahub.space/poster/small/tt33248156/img",
+      "releaseInfo": "2025–",
+      "released": "2025-11-20T00:00:00.000Z",
+      "runtime": "63 min",
+      "slug": "series/the-celebrity-traitors-uk-33248156",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "The Celebrity Traitors UK",
+          "ytId": "4H1zx-HKQj0"
+        },
+        {
+          "title": "The Celebrity Traitors UK",
+          "ytId": "4gVqjcjWHM8"
+        },
+        {
+          "title": "The Celebrity Traitors UK",
+          "ytId": "qEvRY6nwl6g"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "4H1zx-HKQj0",
+          "type": "Trailer"
+        },
+        {
+          "source": "4gVqjcjWHM8",
+          "type": "Trailer"
+        },
+        {
+          "source": "qEvRY6nwl6g",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 453660,
+      "type": "series",
+      "videos": [
+        {
+          "description": "Claudia Winkleman greets a group of celebrities as they arrive at a beautiful castle in the Scottish Highlands to play the ultimate reality game of detection, back-stabbing and trust.",
+          "episode": 1,
+          "firstAired": "2025-10-08T20:00:00.000Z",
+          "id": "tt33248156:1:1",
+          "name": "Episode 1",
+          "number": 1,
+          "overview": "Claudia Winkleman greets a group of celebrities as they arrive at a beautiful castle in the Scottish Highlands to play the ultimate reality game of detection, back-stabbing and trust.",
+          "rating": 0,
+          "released": "2025-10-08T20:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33248156/1/1/w780.jpg",
+          "tvdb_id": 10651478
+        },
+        {
+          "description": "As the ultimate game of detection, treachery and trust continues, the celebrity players realise that the mission is not only high stakes but could also hold important information in their hunt.",
+          "episode": 2,
+          "firstAired": "2025-10-09T20:00:00.000Z",
+          "id": "tt33248156:1:2",
+          "name": "Episode 2",
+          "number": 2,
+          "overview": "As the ultimate game of detection, treachery and trust continues, the celebrity players realise that the mission is not only high stakes but could also hold important information in their hunt.",
+          "rating": 0,
+          "released": "2025-10-09T20:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33248156/1/2/w780.jpg",
+          "tvdb_id": 10651479
+        },
+        {
+          "description": "With the first banishment sending shockwaves throughout the castle, the Traitors don’t wait long to commit their next murder.",
+          "episode": 3,
+          "firstAired": "2025-10-15T20:00:00.000Z",
+          "id": "tt33248156:1:3",
+          "name": "Episode 3",
+          "number": 3,
+          "overview": "With the first banishment sending shockwaves throughout the castle, the Traitors don’t wait long to commit their next murder.",
+          "rating": 0,
+          "released": "2025-10-15T20:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33248156/1/3/w780.jpg",
+          "tvdb_id": 10651480
+        },
+        {
+          "description": "As the players fall deeper into the game, a new day brings new suspicions amongst the Faithful.",
+          "episode": 4,
+          "firstAired": "2025-10-16T20:00:00.000Z",
+          "id": "tt33248156:1:4",
+          "name": "Episode 4",
+          "number": 4,
+          "overview": "As the players fall deeper into the game, a new day brings new suspicions amongst the Faithful.",
+          "rating": 0,
+          "released": "2025-10-16T20:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33248156/1/4/w780.jpg",
+          "tvdb_id": 10651481
+        },
+        {
+          "description": "As the drama continues, the question on everyone's lips is which celebrity was murdered. Could it lead them to a Traitor?",
+          "episode": 5,
+          "firstAired": "2025-10-22T20:00:00.000Z",
+          "id": "tt33248156:1:5",
+          "name": "Episode 5",
+          "number": 5,
+          "overview": "As the drama continues, the question on everyone's lips is which celebrity was murdered. Could it lead them to a Traitor?",
+          "rating": 0,
+          "released": "2025-10-22T20:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33248156/1/5/w780.jpg",
+          "tvdb_id": 10651482
+        },
+        {
+          "description": "As the celebrity players gather for breakfast, their focus is solely on the game and who they can - and more importantly can’t - trust.",
+          "episode": 6,
+          "firstAired": "2025-10-23T20:00:00.000Z",
+          "id": "tt33248156:1:6",
+          "name": "Episode 6",
+          "number": 6,
+          "overview": "As the celebrity players gather for breakfast, their focus is solely on the game and who they can - and more importantly can’t - trust.",
+          "rating": 0,
+          "released": "2025-10-23T20:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33248156/1/6/w780.jpg",
+          "tvdb_id": 10651483
+        },
+        {
+          "description": "As morning breaks, breakfast proves to be a wakeup call for the Faithful as the Traitors strike again.",
+          "episode": 7,
+          "firstAired": "2025-10-29T20:00:00.000Z",
+          "id": "tt33248156:1:7",
+          "name": "Episode 7",
+          "number": 7,
+          "overview": "As morning breaks, breakfast proves to be a wakeup call for the Faithful as the Traitors strike again.",
+          "rating": 0,
+          "released": "2025-10-29T20:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33248156/1/7/w780.jpg",
+          "tvdb_id": 10651484
+        },
+        {
+          "description": "As the game nears the end, the murders become increasingly harder for the Traitors, and time is running out to raise the final prize pot.",
+          "episode": 8,
+          "firstAired": "2025-10-30T20:00:00.000Z",
+          "id": "tt33248156:1:8",
+          "name": "Episode 8",
+          "number": 8,
+          "overview": "As the game nears the end, the murders become increasingly harder for the Traitors, and time is running out to raise the final prize pot.",
+          "rating": 0,
+          "released": "2025-10-30T20:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33248156/1/8/w780.jpg",
+          "tvdb_id": 10651485
+        },
+        {
+          "description": "The ultimate game of deception and trust draws to a close. Will the Faithful banish all the Traitors to secure victory, or will the Traitors manage to deceive until the bitter end?",
+          "episode": 9,
+          "firstAired": "2025-11-06T20:00:00.000Z",
+          "id": "tt33248156:1:9",
+          "name": "Finale",
+          "number": 9,
+          "overview": "The ultimate game of deception and trust draws to a close. Will the Faithful banish all the Traitors to secure victory, or will the Traitors manage to deceive until the bitter end?",
+          "rating": 0,
+          "released": "2025-11-06T20:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt33248156/1/9/w780.jpg",
+          "tvdb_id": 10651486
+        },
+        {
+          "description": "Claudia Winkleman welcomes a brand new group of celebrities as they arrive at a beautiful castle in the Scottish Highlands to play the ultimate reality game of detection, back-stabbing and trust.",
+          "episode": 1,
+          "firstAired": "2026-10-01T20:00:00.000Z",
+          "id": "tt33248156:2:1",
+          "name": "Episode 1",
+          "number": 1,
+          "overview": "Claudia Winkleman welcomes a brand new group of celebrities as they arrive at a beautiful castle in the Scottish Highlands to play the ultimate reality game of detection, back-stabbing and trust.",
+          "rating": 0,
+          "released": "2026-10-01T20:00:00.000Z",
+          "season": 2,
+          "thumbnail": "https://episodes.metahub.space/tt33248156/2/1/w780.jpg",
+          "tvdb_id": 11965000
+        }
+      ],
+      "writer": [],
+      "year": "2025–"
+    },
+    {
+      "awards": "Nominated for 1 BAFTA Award. 8 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt31510819/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Tom Hardy",
+        "Pierce Brosnan",
+        "Paddy Considine"
+      ],
+      "country": "United Kingdom, United States",
+      "description": "Power is up for grabs as two warring crime families clash in a battle that threatens to topple empires. In the crossfire stands Harry Da Souza, a street-smart 'fixer' who knows too well where loyalties lie when opposing forces col...",
+      "director": null,
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "id": "tt31510819",
+      "imdbRating": "8.3",
+      "imdb_id": "tt31510819",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.3",
+          "url": "https://imdb.com/title/tt31510819"
+        },
+        {
+          "category": "share",
+          "name": "MobLand",
+          "url": "https://www.strem.io/s/series/mobland-31510819"
+        },
+        {
+          "category": "Genres",
+          "name": "Crime",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Crime"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Cast",
+          "name": "Tom Hardy",
+          "url": "stremio:///search?search=Tom%20Hardy"
+        },
+        {
+          "category": "Cast",
+          "name": "Pierce Brosnan",
+          "url": "stremio:///search?search=Pierce%20Brosnan"
+        },
+        {
+          "category": "Cast",
+          "name": "Paddy Considine",
+          "url": "stremio:///search?search=Paddy%20Considine"
+        },
+        {
+          "category": "Writers",
+          "name": "Ronan Bennett",
+          "url": "stremio:///search?search=Ronan%20Bennett"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt31510819/img",
+      "moviedb_id": 247718,
+      "name": "MobLand",
+      "popularities": {
+        "moviedb": 316.9988,
+        "stremio": 10.566626666666668,
+        "stremio_lib": 0,
+        "trakt": 3970
+      },
+      "popularity": 10.566626666666668,
+      "poster": "https://images.metahub.space/poster/small/tt31510819/img",
+      "releaseInfo": "2025–",
+      "released": "2025-03-30T00:00:00.000Z",
+      "runtime": "47 min",
+      "slug": "series/mobland-31510819",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "MobLand",
+          "ytId": "qKGgw7Ob5f4"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "qKGgw7Ob5f4",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 446831,
+      "type": "series",
+      "videos": [
+        {
+          "description": "Harry Da Souza is called upon to make a problem disappear after a night out goes awry for the sons of two warring crime families. As boss Richie Stevenson looks to pin blame, patriarch Conrad Harrigan gathers his clan with a plan.",
+          "episode": 1,
+          "firstAired": "2025-03-30T03:00:00.000Z",
+          "id": "tt31510819:1:1",
+          "name": "Stick or Twist",
+          "number": 1,
+          "overview": "Harry Da Souza is called upon to make a problem disappear after a night out goes awry for the sons of two warring crime families. As boss Richie Stevenson looks to pin blame, patriarch Conrad Harrigan gathers his clan with a plan.",
+          "rating": 0,
+          "released": "2025-03-30T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt31510819/1/1/w780.jpg",
+          "tvdb_id": 10345021
+        },
+        {
+          "description": "Harry deals with the aftermath of the Harrigan family meeting as Jan wonders what's the final straw. Kevin scurries Eddie out of London after a threat from Richie. Maeve shows her hand to Conrad. Chasing a lead, Harry makes a startling discovery.",
+          "episode": 2,
+          "firstAired": "2025-04-06T03:00:00.000Z",
+          "id": "tt31510819:1:2",
+          "name": "Jigsaw Puzzle",
+          "number": 2,
+          "overview": "Harry deals with the aftermath of the Harrigan family meeting as Jan wonders what's the final straw. Kevin scurries Eddie out of London after a threat from Richie. Maeve shows her hand to Conrad. Chasing a lead, Harry makes a startling discovery.",
+          "rating": 0,
+          "released": "2025-04-06T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt31510819/1/2/w780.jpg",
+          "tvdb_id": 10987394
+        },
+        {
+          "description": "Richie makes his move, putting the Harrigans on high alert. Conrad and Maeve lock horns over Eddie but agree on a plan B. As Kevin prepares for all-out war, Harry kills two birds with one stone, and an anonymous tip leads Fisk to the cemetery.",
+          "episode": 3,
+          "firstAired": "2025-04-13T03:00:00.000Z",
+          "id": "tt31510819:1:3",
+          "name": "Plan B",
+          "number": 3,
+          "overview": "Richie makes his move, putting the Harrigans on high alert. Conrad and Maeve lock horns over Eddie but agree on a plan B. As Kevin prepares for all-out war, Harry kills two birds with one stone, and an anonymous tip leads Fisk to the cemetery.",
+          "rating": 0,
+          "released": "2025-04-13T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt31510819/1/3/w780.jpg",
+          "tvdb_id": 10987395
+        },
+        {
+          "description": "Harry pays a visit to Antoine at the urging of Bella. Fisk and Mukasa trade theories. Suspecting a rat, Conrad comes to Jan for a favor. Kevin makes a startling confession. Richie calls a midnight meeting at the Sinful Monkey with shocking results.",
+          "episode": 4,
+          "firstAired": "2025-04-20T03:00:00.000Z",
+          "id": "tt31510819:1:4",
+          "name": "Rat Trap",
+          "number": 4,
+          "overview": "Harry pays a visit to Antoine at the urging of Bella. Fisk and Mukasa trade theories. Suspecting a rat, Conrad comes to Jan for a favor. Kevin makes a startling confession. Richie calls a midnight meeting at the Sinful Monkey with shocking results.",
+          "rating": 0,
+          "released": "2025-04-20T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt31510819/1/4/w780.jpg",
+          "tvdb_id": 10987396
+        },
+        {
+          "description": "Kevin and Harry assess scenarios in a search for insurance and an exit strategy. Looking for a way back in, Brendan approaches Seraphina. Left to their own devices, Bella and Jan commiserate. Richie makes a proposal. Maeve, in her element, strikes.",
+          "episode": 5,
+          "firstAired": "2025-04-27T03:00:00.000Z",
+          "id": "tt31510819:1:5",
+          "name": "Funeral for a Friend",
+          "number": 5,
+          "overview": "Kevin and Harry assess scenarios in a search for insurance and an exit strategy. Looking for a way back in, Brendan approaches Seraphina. Left to their own devices, Bella and Jan commiserate. Richie makes a proposal. Maeve, in her element, strikes.",
+          "rating": 0,
+          "released": "2025-04-27T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt31510819/1/5/w780.jpg",
+          "tvdb_id": 10987397
+        },
+        {
+          "description": "In the aftermath of Plan B, Conrad twists the knife and Fisk has a realization: this is war. Maeve gives Eddie a lesson in the art of chess. Richie takes the bait. Harry goes searching for Seraphina and Brendan, who've gone rogue.",
+          "episode": 6,
+          "firstAired": "2025-05-04T03:00:00.000Z",
+          "id": "tt31510819:1:6",
+          "name": "Antwerp Blues",
+          "number": 6,
+          "overview": "In the aftermath of Plan B, Conrad twists the knife and Fisk has a realization: this is war. Maeve gives Eddie a lesson in the art of chess. Richie takes the bait. Harry goes searching for Seraphina and Brendan, who've gone rogue.",
+          "rating": 0,
+          "released": "2025-05-04T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt31510819/1/6/w780.jpg",
+          "tvdb_id": 10987398
+        },
+        {
+          "description": "O'Hara points out the elephant in the room. Harry takes extreme measures.",
+          "episode": 7,
+          "firstAired": "2025-05-11T03:00:00.000Z",
+          "id": "tt31510819:1:7",
+          "name": "The Crossroads",
+          "number": 7,
+          "overview": "O'Hara points out the elephant in the room. Harry takes extreme measures.",
+          "rating": 0,
+          "released": "2025-05-11T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt31510819/1/7/w780.jpg",
+          "tvdb_id": 10987399
+        },
+        {
+          "description": "Maeve extends an olive branch. Kevin questions the wisdom of a sit down with Jaime. Tattersall offers Fisk and Mukasa a new point of entry. Harry comes to Kat for a favor as Richie, at the Sinful Monkey, contemplates a new affiliation.",
+          "episode": 8,
+          "firstAired": "2025-05-18T03:00:00.000Z",
+          "id": "tt31510819:1:8",
+          "name": "Helter Skelter",
+          "number": 8,
+          "overview": "Maeve extends an olive branch. Kevin questions the wisdom of a sit down with Jaime. Tattersall offers Fisk and Mukasa a new point of entry. Harry comes to Kat for a favor as Richie, at the Sinful Monkey, contemplates a new affiliation.",
+          "rating": 0,
+          "released": "2025-05-18T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt31510819/1/8/w780.jpg",
+          "tvdb_id": 10987400
+        },
+        {
+          "description": "Bella, trying to salvage her plan with Antoine, does a runner down to London. Tattersall gets Alice's tootsies tapping. Conrad clears the air at The Falkland Arms. Kevin confronts his past. The Harrigans sit down for a normal family dinner.",
+          "episode": 9,
+          "firstAired": "2025-05-25T03:00:00.000Z",
+          "id": "tt31510819:1:9",
+          "name": "Beggars Banquet",
+          "number": 9,
+          "overview": "Bella, trying to salvage her plan with Antoine, does a runner down to London. Tattersall gets Alice's tootsies tapping. Conrad clears the air at The Falkland Arms. Kevin confronts his past. The Harrigans sit down for a normal family dinner.",
+          "rating": 0,
+          "released": "2025-05-25T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt31510819/1/9/w780.jpg",
+          "tvdb_id": 10987401
+        },
+        {
+          "description": "Power is up for grabs as two warring crime families clash in a battle that threatens to topple empires and ruin lives. In the crossfire stands Harry Da Souza, a street-smart 'fixer' who knows too well where loyalties lie when opposing forces collide.",
+          "episode": 10,
+          "firstAired": "2025-06-01T03:00:00.000Z",
+          "id": "tt31510819:1:10",
+          "name": "The Beast in Me",
+          "number": 10,
+          "overview": "Power is up for grabs as two warring crime families clash in a battle that threatens to topple empires and ruin lives. In the crossfire stands Harry Da Souza, a street-smart 'fixer' who knows too well where loyalties lie when opposing forces collide.",
+          "rating": 0,
+          "released": "2025-06-01T03:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt31510819/1/10/w780.jpg",
+          "tvdb_id": 10987402
+        }
+      ],
+      "writer": [
+        "Ronan Bennett"
+      ],
+      "year": "2025–"
+    },
+    {
+      "awards": "Nominated for 1 Primetime Emmy. 5 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt19231492/img",
+      "behaviorHints": {
+        "defaultVideoId": null,
+        "hasScheduledVideos": true
+      },
+      "cast": [
+        "Joel Edgerton",
+        "Jennifer Connelly",
+        "Alice Braga"
+      ],
+      "country": "United States",
+      "description": "A man is abducted into an alternate version of his life. Amid the mind-bending landscape of lives he could've lived, he embarks on a harrowing journey to get back to his true family and save them from a most terrifying foe: himself..",
+      "director": [],
+      "genre": [
+        "Drama",
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "genres": [
+        "Drama",
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "id": "tt19231492",
+      "imdbRating": "7.6",
+      "imdb_id": "tt19231492",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.6",
+          "url": "https://imdb.com/title/tt19231492"
+        },
+        {
+          "category": "share",
+          "name": "Dark Matter",
+          "url": "https://www.strem.io/s/series/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Sci-Fi",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Sci-Fi"
+        },
+        {
+          "category": "Genres",
+          "name": "Thriller",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/series/top?genre=Thriller"
+        },
+        {
+          "category": "Cast",
+          "name": "Joel Edgerton",
+          "url": "stremio:///search?search=Joel%20Edgerton"
+        },
+        {
+          "category": "Cast",
+          "name": "Jennifer Connelly",
+          "url": "stremio:///search?search=Jennifer%20Connelly"
+        },
+        {
+          "category": "Cast",
+          "name": "Alice Braga",
+          "url": "stremio:///search?search=Alice%20Braga"
+        },
+        {
+          "category": "Writers",
+          "name": "Blake Crouch",
+          "url": "stremio:///search?search=Blake%20Crouch"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt19231492/img",
+      "moviedb_id": 196322,
+      "name": "Dark Matter",
+      "popularities": {
+        "moviedb": 73.2884,
+        "stremio": 2.4429466666666664,
+        "stremio_lib": 0,
+        "trakt": 2105
+      },
+      "popularity": 2.4429466666666664,
+      "poster": "https://images.metahub.space/poster/small/tt19231492/img",
+      "releaseInfo": "2024–",
+      "released": "2024-05-08T00:00:00.000Z",
+      "runtime": "54 min",
+      "slug": "series/dark-matter-19231492",
+      "status": "Continuing",
+      "trailerStreams": [
+        {
+          "title": "Dark Matter",
+          "ytId": "g8p9o-qAdKQ"
+        },
+        {
+          "title": "Dark Matter",
+          "ytId": "j6ucGt_Xp14"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "g8p9o-qAdKQ",
+          "type": "Trailer"
+        },
+        {
+          "source": "j6ucGt_Xp14",
+          "type": "Trailer"
+        }
+      ],
+      "tvdb_id": 393159,
+      "type": "series",
+      "videos": [
+        {
+          "description": "Physics professor and family man Jason Dessen is abducted from everything he loves.",
+          "episode": 1,
+          "firstAired": "2024-05-08T08:00:00.000Z",
+          "id": "tt19231492:1:1",
+          "name": "Are You Happy in Your Life?",
+          "number": 1,
+          "overview": "Physics professor and family man Jason Dessen is abducted from everything he loves.",
+          "rating": 0,
+          "released": "2024-05-08T08:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt19231492/1/1/w780.jpg",
+          "tvdb_id": 8083754
+        },
+        {
+          "description": "Jason wakes to a life that makes no sense—he doesn’t have a family and he’s created something extraordinary.",
+          "episode": 2,
+          "firstAired": "2024-05-08T08:00:00.000Z",
+          "id": "tt19231492:1:2",
+          "name": "Trip of a Lifetime",
+          "number": 2,
+          "overview": "Jason wakes to a life that makes no sense—he doesn’t have a family and he’s created something extraordinary.",
+          "rating": 0,
+          "released": "2024-05-08T08:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt19231492/1/2/w780.jpg",
+          "tvdb_id": 9519076
+        },
+        {
+          "description": "Leighton and Amanda show Jason his groundbreaking invention. Daniela and Jason2 throw a dinner party.",
+          "episode": 3,
+          "firstAired": "2024-05-15T08:00:00.000Z",
+          "id": "tt19231492:1:3",
+          "name": "The Box",
+          "number": 3,
+          "overview": "Leighton and Amanda show Jason his groundbreaking invention. Daniela and Jason2 throw a dinner party.",
+          "rating": 0,
+          "released": "2024-05-15T08:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt19231492/1/3/w780.jpg",
+          "tvdb_id": 9519077
+        },
+        {
+          "description": "Jason and Amanda fight to stay alive in the dangerous Corridor. Jason2 makes some life changes and visits an old friend.",
+          "episode": 4,
+          "firstAired": "2024-05-22T08:00:00.000Z",
+          "id": "tt19231492:1:4",
+          "name": "The Corridor",
+          "number": 4,
+          "overview": "Jason and Amanda fight to stay alive in the dangerous Corridor. Jason2 makes some life changes and visits an old friend.",
+          "rating": 0,
+          "released": "2024-05-22T08:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt19231492/1/4/w780.jpg",
+          "tvdb_id": 10294885
+        },
+        {
+          "description": "As they learn more about the Box, Jason and Amanda see alternate versions of their lives. Jason2 begins training a potential investor.",
+          "episode": 5,
+          "firstAired": "2024-05-29T08:00:00.000Z",
+          "id": "tt19231492:1:5",
+          "name": "Worldless",
+          "number": 5,
+          "overview": "As they learn more about the Box, Jason and Amanda see alternate versions of their lives. Jason2 begins training a potential investor.",
+          "rating": 0,
+          "released": "2024-05-29T08:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt19231492/1/5/w780.jpg",
+          "tvdb_id": 10294886
+        },
+        {
+          "description": "Daniela suspects something’s not right with her husband. Jason and Amanda grow closer.",
+          "episode": 6,
+          "firstAired": "2024-06-05T08:00:00.000Z",
+          "id": "tt19231492:1:6",
+          "name": "Superposition",
+          "number": 6,
+          "overview": "Daniela suspects something’s not right with her husband. Jason and Amanda grow closer.",
+          "rating": 0,
+          "released": "2024-06-05T08:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt19231492/1/6/w780.jpg",
+          "tvdb_id": 10294887
+        },
+        {
+          "description": "Jason and Amanda visit a breathtaking world. To hide the truth from Daniela, Jason2 takes desperate action.",
+          "episode": 7,
+          "firstAired": "2024-06-12T08:00:00.000Z",
+          "id": "tt19231492:1:7",
+          "name": "In the Fires of Dead Stars",
+          "number": 7,
+          "overview": "Jason and Amanda visit a breathtaking world. To hide the truth from Daniela, Jason2 takes desperate action.",
+          "rating": 0,
+          "released": "2024-06-12T08:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt19231492/1/7/w780.jpg",
+          "tvdb_id": 10294888
+        },
+        {
+          "description": "Panicked and cornered, Jason2 tells Daniela and Charlie they need to leave town immediately.",
+          "episode": 8,
+          "firstAired": "2024-06-19T08:00:00.000Z",
+          "id": "tt19231492:1:8",
+          "name": "Jupiter",
+          "number": 8,
+          "overview": "Panicked and cornered, Jason2 tells Daniela and Charlie they need to leave town immediately.",
+          "rating": 0,
+          "released": "2024-06-19T08:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt19231492/1/8/w780.jpg",
+          "tvdb_id": 10294889
+        },
+        {
+          "description": "The Dessens' world comes crashing down.",
+          "episode": 9,
+          "firstAired": "2024-06-26T08:00:00.000Z",
+          "id": "tt19231492:1:9",
+          "name": "Entanglement",
+          "number": 9,
+          "overview": "The Dessens' world comes crashing down.",
+          "rating": 0,
+          "released": "2024-06-26T08:00:00.000Z",
+          "season": 1,
+          "thumbnail": "https://episodes.metahub.space/tt19231492/1/9/w780.jpg",
+          "tvdb_id": 10294890
+        },
+        {
+          "description": "The Dessens receive an unwelcome visitor. Ryan finds Amanda. Leighton finds himself.",
+          "episode": 1,
+          "firstAired": "2026-08-28T08:00:00.000Z",
+          "id": "tt19231492:2:1",
+          "name": "A Quiet Life",
+          "number": 1,
+          "overview": "The Dessens receive an unwelcome visitor. Ryan finds Amanda. Leighton finds himself.",
+          "rating": 0,
+          "released": "2026-08-28T08:00:00.000Z",
+          "season": 2,
+          "thumbnail": "https://episodes.metahub.space/tt19231492/2/1/w780.jpg",
+          "tvdb_id": 11728983
+        }
+      ],
+      "writer": [
+        "Blake Crouch"
+      ],
+      "year": "2024–"
+    }
+  ],
+  "staleError": 3600,
+  "staleRevalidate": 3600
+}

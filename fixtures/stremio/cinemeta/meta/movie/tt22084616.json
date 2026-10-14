@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "awards": "1 nomination total",
+    "background": "https://images.metahub.space/background/medium/tt22084616/img",
+    "behaviorHints": {
+      "defaultVideoId": "tt22084616",
+      "hasScheduledVideos": false
+    },
+    "cast": [
+      "Tom Holland",
+      "Zendaya",
+      "Mark Ruffalo"
+    ],
+    "country": "United States, Canada, United Kingdom, Germany",
+    "description": "A forgotten Peter Parker lives alone as a full-time Spider-Man until mounting pressure triggers a dangerous change and a powerful new enemy emerges.",
+    "director": [
+      "Destin Daniel Cretton"
+    ],
+    "genre": [
+      "Action",
+      "Adventure"
+    ],
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "id": "tt22084616",
+    "imdbRating": "8.0",
+    "imdb_id": "tt22084616",
+    "links": [
+      {
+        "category": "imdb",
+        "name": "8.0",
+        "url": "https://imdb.com/title/tt22084616"
+      },
+      {
+        "category": "share",
+        "name": "Spider-Man: Brand New Day",
+        "url": "https://www.strem.io/s/movie/REDACTED"
+      },
+      {
+        "category": "Genres",
+        "name": "Action",
+        "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Action"
+      },
+      {
+        "category": "Genres",
+        "name": "Adventure",
+        "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Adventure"
+      },
+      {
+        "category": "Cast",
+        "name": "Tom Holland",
+        "url": "stremio:///search?search=Tom%20Holland"
+      },
+      {
+        "category": "Cast",
+        "name": "Zendaya",
+        "url": "stremio:///search?search=Zendaya"
+      },
+      {
+        "category": "Cast",
+        "name": "Mark Ruffalo",
+        "url": "stremio:///search?search=Mark%20Ruffalo"
+      },
+      {
+        "category": "Writers",
+        "name": "Chris McKenna",
+        "url": "stremio:///search?search=Chris%20McKenna"
+      },
+      {
+        "category": "Writers",
+        "name": "Erik Sommers",
+        "url": "stremio:///search?search=Erik%20Sommers"
+      },
+      {
+        "category": "Writers",
+        "name": "Stan Lee",
+        "url": "stremio:///search?search=Stan%20Lee"
+      },
+      {
+        "category": "Directors",
+        "name": "Destin Daniel Cretton",
+        "url": "stremio:///search?search=Destin%20Daniel%20Cretton"
+      }
+    ],
+    "logo": "https://images.metahub.space/logo/medium/tt22084616/img",
+    "moviedb_id": 969681,
+    "name": "Spider-Man: Brand New Day",
+    "popularities": {
+      "moviedb": 942.3201,
+      "stremio": 31.41067,
+      "stremio_lib": 0,
+      "trakt": 1963
+    },
+    "popularity": 31.41067,
+    "poster": "https://images.metahub.space/poster/small/tt22084616/img",
+    "releaseInfo": "2026",
+    "released": "2026-07-31T00:00:00.000Z",
+    "runtime": "145 min",
+    "slug": "movie/spider-man-brand-new-day-22084616",
+    "trailerStreams": [
+      {
+        "title": "Spider-Man: Brand New Day",
+        "ytId": "P3uI5sLosKU"
+      },
+      {
+        "title": "Spider-Man: Brand New Day",
+        "ytId": "62bIsvRcPv0"
+      },
+      {
+        "title": "Spider-Man: Brand New Day",
+        "ytId": "8TZMtslA3UY"
+      }
+    ],
+    "trailers": [
+      {
+        "source": "P3uI5sLosKU",
+        "type": "Trailer"
+      },
+      {
+        "source": "62bIsvRcPv0",
+        "type": "Trailer"
+      },
+      {
+        "source": "8TZMtslA3UY",
+        "type": "Trailer"
+      }
+    ],
+    "type": "movie",
+    "writer": [
+      "Chris McKenna",
+      "Erik Sommers",
+      "Stan Lee"
+    ],
+    "year": "2026"
+  }
+}

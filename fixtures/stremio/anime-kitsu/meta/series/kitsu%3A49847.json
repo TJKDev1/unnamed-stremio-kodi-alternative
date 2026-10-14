@@ -1,0 +1,211 @@
+{
+  "cacheMaxAge": 43200,
+  "meta": {
+    "aliases": [
+      "STEEL BALL RUN JoJo's Bizarre Adventure",
+      "Steel Ball Run: JoJo's Bizarre Adventure",
+      "Steel Ball Run: JoJo no Kimyou na Bouken",
+      "JoJo's Bizarre Adventure Part 7: Steel Ball Run",
+      "JoJo's Bizarre Adventure: Steel Ball Run",
+      "JoJo no Kimyou na Bouken: Steel Ball Run",
+      "ジョジョの奇妙な冒険 スティール・ボール・ラン",
+      "STEEL BALL RUN JoJo's Bizarre Adventure 1st STAGE",
+      "ジョジョの奇妙な冒険 スティール・ボール・ラン 1st STAGE",
+      "JoJo no Kimyou na Bouken: Steel Ball Run - 1st STAGE",
+      "STEEL BALL RUN JoJo's Bizarre Adventure 2nd - 3rd STAGE",
+      "JoJo no Kimyou na Bouken: Steel Ball Run - 2nd - 3rd STAGE",
+      "ジョジョの奇妙な冒険 スティール・ボール・ラン 2nd - 3rd STAGE"
+    ],
+    "animeType": "ONA",
+    "background": "https://assets.fanart.tv/fanart/jojos-bizarre-adventure-2012-5aca89809c69a.jpg",
+    "description": "It’s 1890, in America, the Steel Ball Run — the first horse racing championship across the North American continent — was about to begin. Spanning around 4,000 miles, the race offered 50 million dollars as the winning prize.\n\nJohnny Joestar, once hailed as a genius jockey, is now paralysed and lost in despair.\n\nHe finds hope in the mysterious phenomena caused by Gyro Zeppeli, an outlaw aiming to win the race, and determines to participate in the Steel Ball Run Race.\n\nEach having their own goal in mind, the two form an alliance and set foot upon the gruelling adventure and race.",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "id": "kitsu:49847",
+    "imdbRating": "8.7",
+    "imdb_id": "tt2359704",
+    "kitsu_id": "49847",
+    "links": [
+      {
+        "category": "imdb",
+        "name": "8.7",
+        "url": "https://kitsu.io/anime/steel-ball-run-jojo-no-kimyou-na-bouken"
+      },
+      {
+        "category": "Franchise",
+        "name": "Prequel: JoJo no Kimyou na Bouken: Stone Ocean Part 3",
+        "url": "stremio:///detail/series/kitsu:46598"
+      },
+      {
+        "category": "Genres",
+        "name": "Action",
+        "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Action"
+      },
+      {
+        "category": "Genres",
+        "name": "Adventure",
+        "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Adventure"
+      }
+    ],
+    "logo": "https://assets.fanart.tv/fanart/jojos-bizarre-adventure-2012-6941c9555d9ff.png",
+    "name": "Steel Ball Run: JoJo no Kimyou na Bouken",
+    "poster": "https://media.kitsu.app/anime/49847/poster_image/medium-2b8c58a8ac75e30ad82ebefa74ca7c5a.jpeg",
+    "releaseInfo": "2026-",
+    "runtime": "25 min",
+    "slug": "steel-ball-run-jojo-no-kimyou-na-bouken",
+    "status": "current",
+    "trailers": [
+      {
+        "source": "43qoWFJbWF0",
+        "type": "Trailer"
+      }
+    ],
+    "type": "series",
+    "userCount": 1655,
+    "videos": [
+      {
+        "absoluteEpisode": 191,
+        "episode": 1,
+        "id": "kitsu:49847:1",
+        "imdbEpisode": 1,
+        "imdbSeason": 6,
+        "imdb_id": "tt2359704",
+        "overview": "After a fateful encounter with outlaw Gyro Zeppeli, former racing prodigy Johnny Joestar enters the Steel Ball Run, the first horse race across America.",
+        "released": "2026-03-19T07:00:00.000Z",
+        "runtime": "47 min",
+        "season": 1,
+        "thumbnail": "https://media.kitsu.app/episode/381858/thumbnail/c4e874e018ae4c152d370d3cae874e27.jpg",
+        "title": "STEEL BALL RUN"
+      },
+      {
+        "absoluteEpisode": 192,
+        "episode": 2,
+        "id": "kitsu:49847:2",
+        "imdbEpisode": 2,
+        "imdbSeason": 6,
+        "imdb_id": "tt2359704",
+        "overview": "After a shocking end to the 1st STAGE, abnormal murders unfold. Legendary cowboy Mountain Tim steps up to investigate as the tense 2nd STAGE begins.",
+        "released": "2026-09-25T07:00:00.000Z",
+        "runtime": "25 min",
+        "season": 1,
+        "thumbnail": "https://media.kitsu.app/episode/381859/thumbnail/0c1a20f85eb8766daa0eeade15ab80ca.jpg",
+        "title": "The Sheriff's Request to Mountain Tim"
+      },
+      {
+        "absoluteEpisode": 193,
+        "episode": 3,
+        "id": "kitsu:49847:3",
+        "imdbEpisode": 3,
+        "imdbSeason": 6,
+        "imdb_id": "tt2359704",
+        "overview": "At camp, Johnny catches a glimpse of Gyro's past. Then the Boomboom Family strikes with an otherworldly power. The duo escapes — or so they think.",
+        "released": "2026-10-02T07:00:00.000Z",
+        "runtime": "25 min",
+        "season": 1,
+        "thumbnail": "https://media.kitsu.app/episode/381860/thumbnail/f5bbe2e586bf5db07d0f8adb7249ffd6.jpg",
+        "title": "The Desert-Born Outlaws"
+      },
+      {
+        "absoluteEpisode": 194,
+        "episode": 4,
+        "id": "kitsu:49847:4",
+        "imdbEpisode": 4,
+        "imdbSeason": 6,
+        "imdb_id": "tt2359704",
+        "overview": "Caught in the Boombooms' trap, a magnetic force threatens to tear Johnny, Gyro, and Mountain Tim apart. They learn about \"Stands\" and Johnny's body reacts.",
+        "released": "2026-10-09T07:00:00.000Z",
+        "runtime": "25 min",
+        "season": 1,
+        "thumbnail": "https://media.kitsu.app/episode/381861/thumbnail/b37b87e1423a9c82197f37f83767ac2b.jpg",
+        "title": "The Devil's Palm"
+      },
+      {
+        "absoluteEpisode": 195,
+        "episode": 5,
+        "id": "kitsu:49847:5",
+        "imdbEpisode": 5,
+        "imdbSeason": 6,
+        "imdb_id": "tt2359704",
+        "overview": "",
+        "released": "2026-10-16T07:00:00.000Z",
+        "runtime": "25 min",
+        "season": 1,
+        "thumbnail": "https://media.kitsu.app/episode/381862/thumbnail/02156884042526d719b612da682509c4.jpg",
+        "title": "The Terrorist from a Faraway Country"
+      },
+      {
+        "absoluteEpisode": 196,
+        "episode": 6,
+        "id": "kitsu:49847:6",
+        "imdbEpisode": 6,
+        "imdbSeason": 6,
+        "imdb_id": "tt2359704",
+        "overview": "",
+        "released": "2026-10-23T07:00:00.000Z",
+        "runtime": "25 min",
+        "season": 1,
+        "thumbnail": "https://episodes.metahub.space/tt2359704/6/6/w780.jpg",
+        "title": "Episode 6"
+      },
+      {
+        "absoluteEpisode": 197,
+        "episode": 7,
+        "id": "kitsu:49847:7",
+        "imdbEpisode": 7,
+        "imdbSeason": 6,
+        "imdb_id": "tt2359704",
+        "overview": "",
+        "released": "2026-10-30T07:00:00.000Z",
+        "runtime": "25 min",
+        "season": 1,
+        "thumbnail": "https://episodes.metahub.space/tt2359704/6/7/w780.jpg",
+        "title": "Episode 7"
+      },
+      {
+        "absoluteEpisode": 198,
+        "episode": 8,
+        "id": "kitsu:49847:8",
+        "imdbEpisode": 8,
+        "imdbSeason": 6,
+        "imdb_id": "tt2359704",
+        "overview": "",
+        "released": "2026-11-06T07:00:00.000Z",
+        "runtime": "25 min",
+        "season": 1,
+        "thumbnail": "https://episodes.metahub.space/tt2359704/6/8/w780.jpg",
+        "title": "Episode 8"
+      },
+      {
+        "absoluteEpisode": 199,
+        "episode": 9,
+        "id": "kitsu:49847:9",
+        "imdbEpisode": 9,
+        "imdbSeason": 6,
+        "imdb_id": "tt2359704",
+        "overview": "",
+        "released": "2026-11-13T07:00:00.000Z",
+        "runtime": "25 min",
+        "season": 1,
+        "thumbnail": "https://episodes.metahub.space/tt2359704/6/9/w780.jpg",
+        "title": "Episode 9"
+      },
+      {
+        "absoluteEpisode": 200,
+        "episode": 10,
+        "id": "kitsu:49847:10",
+        "imdbEpisode": 10,
+        "imdbSeason": 6,
+        "imdb_id": "tt2359704",
+        "overview": "",
+        "released": "2026-11-20T07:00:00.000Z",
+        "runtime": "25 min",
+        "season": 1,
+        "thumbnail": "https://episodes.metahub.space/tt2359704/6/10/w780.jpg",
+        "title": "Episode 10"
+      }
+    ],
+    "year": "2026-"
+  }
+}

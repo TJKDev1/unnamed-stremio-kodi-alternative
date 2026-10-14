@@ -1,0 +1,20 @@
+{
+  "addon": "https://watchhub.strem.io/manifest.json",
+  "recorded": "2026-10-14",
+  "requests": [
+    {
+      "cacheControl": "public, max-age=1209600",
+      "file": "stream/movie/tt1375666.json",
+      "path": "/stream/movie/tt1375666.json",
+      "status": 200,
+      "trimmed": false
+    },
+    {
+      "cacheControl": "public, max-age=1209600",
+      "file": "stream/series/tt0944947%3A1%3A1.json",
+      "path": "/stream/series/tt0944947%3A1%3A1.json",
+      "status": 200,
+      "trimmed": false
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "addon": "https://tmdb.elfhosted.com/manifest.json",
+  "recorded": "2026-10-14",
+  "requests": [
+    {
+      "cacheControl": "max-age=86400, stale-while-revalidate=604800, stale-if-error=1209600, public",
+      "file": "catalog/movie/tmdb.top.json",
+      "path": "/catalog/movie/tmdb.top.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "max-age=86400, stale-while-revalidate=604800, stale-if-error=1209600, public",
+      "file": "catalog/series/tmdb.top.json",
+      "path": "/catalog/series/tmdb.top.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "max-age=86400, stale-while-revalidate=604800, stale-if-error=1209600, public",
+      "file": "catalog/movie/tmdb.year.json",
+      "path": "/catalog/movie/tmdb.year.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "max-age=86400, stale-while-revalidate=604800, stale-if-error=1209600, public",
+      "file": "catalog/series/tmdb.year.json",
+      "path": "/catalog/series/tmdb.year.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "max-age=86400, stale-while-revalidate=604800, stale-if-error=1209600, public",
+      "file": "catalog/movie/tmdb.language.json",
+      "path": "/catalog/movie/tmdb.language.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "max-age=86400, stale-while-revalidate=604800, stale-if-error=1209600, public",
+      "file": "catalog/series/tmdb.language.json",
+      "path": "/catalog/series/tmdb.language.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "max-age=86400, stale-while-revalidate=604800, stale-if-error=1209600, public",
+      "file": "catalog/movie/tmdb.trending.json",
+      "path": "/catalog/movie/tmdb.trending.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "max-age=86400, stale-while-revalidate=604800, stale-if-error=1209600, public",
+      "file": "catalog/series/tmdb.trending.json",
+      "path": "/catalog/series/tmdb.trending.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "max-age=86400, stale-while-revalidate=604800, stale-if-error=1209600, public",
+      "file": "catalog/movie/tmdb.top/skip%3D100.json",
+      "path": "/catalog/movie/tmdb.top/skip=100.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "max-age=86400, stale-while-revalidate=604800, stale-if-error=1209600, public",
+      "file": "catalog/movie/tmdb.top/genre%3DAction.json",
+      "path": "/catalog/movie/tmdb.top/genre=Action.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "max-age=86400, stale-while-revalidate=604800, stale-if-error=1209600, public",
+      "file": "catalog/movie/tmdb.search/search%3Ddune.json",
+      "path": "/catalog/movie/tmdb.search/search=dune.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "max-age=1209600, stale-while-revalidate=1728000, stale-if-error=2592000, public",
+      "file": "meta/movie/tmdb%3A969681.json",
+      "path": "/meta/movie/tmdb%3A969681.json",
+      "status": 200,
+      "trimmed": false
+    },
+    {
+      "cacheControl": "max-age=86400, stale-while-revalidate=1728000, stale-if-error=2592000, public",
+      "file": "meta/series/tmdb%3A22980.json",
+      "path": "/meta/series/tmdb%3A22980.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "max-age=86400, stale-while-revalidate=1728000, stale-if-error=2592000, public",
+      "file": "meta/series/tmdb%3A288673.json",
+      "path": "/meta/series/tmdb%3A288673.json",
+      "status": 200,
+      "trimmed": false
+    }
+  ]
+}

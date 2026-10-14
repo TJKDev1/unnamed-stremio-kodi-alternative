@@ -1,0 +1,1058 @@
+{
+  "cacheMaxAge": 14400,
+  "hasMore": true,
+  "metas": [
+    {
+      "background": "https://images.metahub.space/background/medium/tt31049299/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt31049299",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Gillian Anderson",
+        "Ben Affleck",
+        "Steven Yeun"
+      ],
+      "country": "United States",
+      "description": "Desperate to pay their son's ransom, a mayoral candidate and his wife resort to extreme measures, revealing dark secrets they never intended to bring to light.",
+      "director": [
+        "Ben Affleck"
+      ],
+      "genre": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "id": "tt31049299",
+      "imdbRating": "",
+      "imdb_id": "tt31049299",
+      "links": [
+        {
+          "category": "share",
+          "name": "Animals",
+          "url": "https://www.strem.io/s/movie/animals-31049299"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Action"
+        },
+        {
+          "category": "Genres",
+          "name": "Crime",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Crime"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Drama"
+        },
+        {
+          "category": "Cast",
+          "name": "Gillian Anderson",
+          "url": "stremio:///search?search=Gillian%20Anderson"
+        },
+        {
+          "category": "Cast",
+          "name": "Ben Affleck",
+          "url": "stremio:///search?search=Ben%20Affleck"
+        },
+        {
+          "category": "Cast",
+          "name": "Steven Yeun",
+          "url": "stremio:///search?search=Steven%20Yeun"
+        },
+        {
+          "category": "Writers",
+          "name": "Connor O. McIntyre",
+          "url": "stremio:///search?search=Connor%20O.%20McIntyre"
+        },
+        {
+          "category": "Writers",
+          "name": "Billy Ray",
+          "url": "stremio:///search?search=Billy%20Ray"
+        },
+        {
+          "category": "Writers",
+          "name": "Ben Affleck",
+          "url": "stremio:///search?search=Ben%20Affleck"
+        },
+        {
+          "category": "Directors",
+          "name": "Ben Affleck",
+          "url": "stremio:///search?search=Ben%20Affleck"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt31049299/img",
+      "moviedb_id": 1236045,
+      "name": "Animals",
+      "popularities": {
+        "moviedb": 8.6916,
+        "stremio": 0.28972,
+        "stremio_lib": 0,
+        "trakt": 1131
+      },
+      "popularity": 0.28972,
+      "poster": "https://images.metahub.space/poster/small/tt31049299/img",
+      "releaseInfo": "2026",
+      "released": "2026-10-09T00:00:00.000Z",
+      "runtime": "109 min",
+      "slug": "movie/animals-31049299",
+      "trailerStreams": [
+        {
+          "title": "Animals",
+          "ytId": "ZkN2M4ODdys"
+        },
+        {
+          "title": "Animals",
+          "ytId": "mlBfQJ8oxB0"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "ZkN2M4ODdys",
+          "type": "Trailer"
+        },
+        {
+          "source": "mlBfQJ8oxB0",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Connor O. McIntyre",
+        "Billy Ray",
+        "Ben Affleck"
+      ],
+      "year": "2026"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt37510326/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt37510326",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Billy Magnussen",
+        "Betty Gilpin",
+        "Jeremy Allen White"
+      ],
+      "country": "United States",
+      "description": "Follows Frances Haugen, a young Facebook engineer, who enlisted the help of Jeff Horwitz, a Wall Street Journal reporter, to blow the whistle on the social network's most guarded secrets.",
+      "director": [
+        "Aaron Sorkin"
+      ],
+      "genre": [
+        "Biography",
+        "Drama"
+      ],
+      "genres": [
+        "Biography",
+        "Drama"
+      ],
+      "id": "tt37510326",
+      "imdbRating": "",
+      "imdb_id": "tt37510326",
+      "links": [
+        {
+          "category": "share",
+          "name": "The Social Reckoning",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Biography",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Biography"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Drama"
+        },
+        {
+          "category": "Cast",
+          "name": "Billy Magnussen",
+          "url": "stremio:///search?search=Billy%20Magnussen"
+        },
+        {
+          "category": "Cast",
+          "name": "Betty Gilpin",
+          "url": "stremio:///search?search=Betty%20Gilpin"
+        },
+        {
+          "category": "Cast",
+          "name": "Jeremy Allen White",
+          "url": "stremio:///search?search=Jeremy%20Allen%20White"
+        },
+        {
+          "category": "Writers",
+          "name": "Jeff Horwitz",
+          "url": "stremio:///search?search=Jeff%20Horwitz"
+        },
+        {
+          "category": "Writers",
+          "name": "Aaron Sorkin",
+          "url": "stremio:///search?search=Aaron%20Sorkin"
+        },
+        {
+          "category": "Directors",
+          "name": "Aaron Sorkin",
+          "url": "stremio:///search?search=Aaron%20Sorkin"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt37510326/img",
+      "moviedb_id": 1281331,
+      "name": "The Social Reckoning",
+      "popularities": {
+        "moviedb": 64.9285,
+        "stremio": 1.2268066666666668,
+        "stremio_lib": 0,
+        "trakt": 111
+      },
+      "popularity": 1.2268066666666668,
+      "poster": "https://images.metahub.space/poster/small/tt37510326/img",
+      "releaseInfo": "2026",
+      "released": "2026-10-09T00:00:00.000Z",
+      "runtime": "112 min",
+      "slug": "movie/the-social-reckoning-37510326",
+      "trailerStreams": [
+        {
+          "title": "The Social Reckoning",
+          "ytId": "R8ANzYpaZaY"
+        },
+        {
+          "title": "The Social Reckoning",
+          "ytId": "MfHEZw7Xw_c"
+        },
+        {
+          "title": "The Social Reckoning",
+          "ytId": "gM4LkaXwGuY"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "R8ANzYpaZaY",
+          "type": "Trailer"
+        },
+        {
+          "source": "MfHEZw7Xw_c",
+          "type": "Trailer"
+        },
+        {
+          "source": "gM4LkaXwGuY",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Jeff Horwitz",
+        "Aaron Sorkin"
+      ],
+      "year": "2026"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt36586020/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt36586020",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Jessica Chastain",
+        "Dichen Lachman",
+        "Karen Allen"
+      ],
+      "country": "Ireland, United States",
+      "description": "Bela, an 8-year-old girl living in a home with marital problems, confronts a sinister entity which comes out of her closet. The presence, whom she calls \"Other Mommy,\" becomes increasingly threatening to her and her family.",
+      "director": [
+        "Rob Savage"
+      ],
+      "genre": [
+        "Horror"
+      ],
+      "genres": [
+        "Horror"
+      ],
+      "id": "tt36586020",
+      "imdbRating": "",
+      "imdb_id": "tt36586020",
+      "links": [
+        {
+          "category": "share",
+          "name": "Other Mommy",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Horror",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Horror"
+        },
+        {
+          "category": "Cast",
+          "name": "Jessica Chastain",
+          "url": "stremio:///search?search=Jessica%20Chastain"
+        },
+        {
+          "category": "Cast",
+          "name": "Dichen Lachman",
+          "url": "stremio:///search?search=Dichen%20Lachman"
+        },
+        {
+          "category": "Cast",
+          "name": "Karen Allen",
+          "url": "stremio:///search?search=Karen%20Allen"
+        },
+        {
+          "category": "Writers",
+          "name": "Nathan Elston",
+          "url": "stremio:///search?search=Nathan%20Elston"
+        },
+        {
+          "category": "Writers",
+          "name": "Josh Malerman",
+          "url": "stremio:///search?search=Josh%20Malerman"
+        },
+        {
+          "category": "Directors",
+          "name": "Rob Savage",
+          "url": "stremio:///search?search=Rob%20Savage"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt36586020/img",
+      "moviedb_id": 1400837,
+      "name": "Other Mommy",
+      "popularities": {
+        "moviedb": 154.2777,
+        "stremio": 2.1443533333333336,
+        "stremio_lib": 0,
+        "trakt": 183
+      },
+      "popularity": 2.1443533333333336,
+      "poster": "https://images.metahub.space/poster/small/tt36586020/img",
+      "releaseInfo": "2026",
+      "released": "2026-10-09T00:00:00.000Z",
+      "runtime": "93 min",
+      "slug": "movie/other-mommy-36586020",
+      "trailerStreams": [
+        {
+          "title": "Other Mommy",
+          "ytId": "-mnTITqqiT0"
+        },
+        {
+          "title": "Other Mommy",
+          "ytId": "bEpTgowZ1dI"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "-mnTITqqiT0",
+          "type": "Trailer"
+        },
+        {
+          "source": "bEpTgowZ1dI",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Nathan Elston",
+        "Josh Malerman"
+      ],
+      "year": "2026"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt28498219/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt28498219",
+        "hasScheduledVideos": false
+      },
+      "cast": [],
+      "country": "United States",
+      "description": "Based on the iconic toy automobiles created in 1953.",
+      "director": [],
+      "genre": [
+        "Action"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "id": "tt28498219",
+      "imdbRating": "",
+      "imdb_id": "tt28498219",
+      "links": [
+        {
+          "category": "share",
+          "name": "Matchbox",
+          "url": "https://www.strem.io/s/movie/matchbox-28498219"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Action"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt28498219/img",
+      "moviedb_id": 1148365,
+      "name": "Matchbox",
+      "popularities": {
+        "moviedb": 14.756,
+        "stremio": 0.4918666666666667,
+        "stremio_lib": 0,
+        "trakt": 1022
+      },
+      "popularity": 0.4918666666666667,
+      "poster": "https://images.metahub.space/poster/small/tt28498219/img",
+      "releaseInfo": "2026",
+      "released": null,
+      "runtime": "127 min",
+      "slug": "movie/matchbox-28498219",
+      "trailerStreams": [
+        {
+          "title": "Matchbox",
+          "ytId": "7xfqITrMDcI"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "7xfqITrMDcI",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [],
+      "year": "2026"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt32261958/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt32261958",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Anne Hathaway",
+        "Dakota Johnson",
+        "Josh Hartnett"
+      ],
+      "country": "United States",
+      "description": "Lowen Ashleigh gets hired by Jeremy Crawford to ghostwrite novels for his bestselling author wife Verity, who's unable to finish after an accident. Lowen uncovers Verity's disturbing truths while residing at the Crawfords' home to...",
+      "director": [
+        "Michael Showalter"
+      ],
+      "genre": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "id": "tt32261958",
+      "imdbRating": "",
+      "imdb_id": "tt32261958",
+      "links": [
+        {
+          "category": "share",
+          "name": "Verity",
+          "url": "https://www.strem.io/s/movie/verity-32261958"
+        },
+        {
+          "category": "Genres",
+          "name": "Crime",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Crime"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Mystery",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Mystery"
+        },
+        {
+          "category": "Cast",
+          "name": "Anne Hathaway",
+          "url": "stremio:///search?search=Anne%20Hathaway"
+        },
+        {
+          "category": "Cast",
+          "name": "Dakota Johnson",
+          "url": "stremio:///search?search=Dakota%20Johnson"
+        },
+        {
+          "category": "Cast",
+          "name": "Josh Hartnett",
+          "url": "stremio:///search?search=Josh%20Hartnett"
+        },
+        {
+          "category": "Writers",
+          "name": "Nick Antosca",
+          "url": "stremio:///search?search=Nick%20Antosca"
+        },
+        {
+          "category": "Writers",
+          "name": "Colleen Hoover",
+          "url": "stremio:///search?search=Colleen%20Hoover"
+        },
+        {
+          "category": "Writers",
+          "name": "Will Honley",
+          "url": "stremio:///search?search=Will%20Honley"
+        },
+        {
+          "category": "Directors",
+          "name": "Michael Showalter",
+          "url": "stremio:///search?search=Michael%20Showalter"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt32261958/img",
+      "moviedb_id": 1283515,
+      "name": "Verity",
+      "popularities": {
+        "moviedb": 110.7586,
+        "stremio": 3.691953333333333,
+        "stremio_lib": 0,
+        "trakt": 158
+      },
+      "popularity": 3.691953333333333,
+      "poster": "https://images.metahub.space/poster/small/tt32261958/img",
+      "releaseInfo": "2026",
+      "released": "2026-10-02T00:00:00.000Z",
+      "runtime": "114 min",
+      "slug": "movie/verity-32261958",
+      "trailerStreams": [
+        {
+          "title": "Verity",
+          "ytId": "xdPMKhjMSFs"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "xdPMKhjMSFs",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Nick Antosca",
+        "Colleen Hoover",
+        "Will Honley"
+      ],
+      "year": "2026"
+    },
+    {
+      "background": "https://live.metahub.space/background/medium/tt44568097/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt44568097",
+        "hasScheduledVideos": false
+      },
+      "cast": [],
+      "country": "United States",
+      "credits_cast": [],
+      "credits_crew": [
+        {
+          "department": "Directing",
+          "id": 31654,
+          "job": "Director",
+          "name": "Chris Smith",
+          "profile_path": "/w7YxLmX6901brkneH06nxPBSmji.jpg"
+        },
+        {
+          "department": "Production",
+          "id": 6444762,
+          "job": "Producer",
+          "name": "Liam Epstein",
+          "profile_path": null
+        },
+        {
+          "department": "Production",
+          "id": 3874330,
+          "job": "Producer",
+          "name": "Kimberley Ferdinando",
+          "profile_path": null
+        }
+      ],
+      "description": "A journalist and a detective uncover the truth about a killer whose charm masked a trail of failed marriages and suspicious deaths.",
+      "director": [
+        "Chris Smith"
+      ],
+      "genres": [
+        "Documentary"
+      ],
+      "id": "tt44568097",
+      "imdbRating": "6.6",
+      "imdb_id": "tt44568097",
+      "language": "English",
+      "logo": "https://live.metahub.space/logo/medium/tt44568097/img",
+      "moviedb_id": 1758536,
+      "name": "The Widower: 'Til Death Do Us Part",
+      "poster": "https://live.metahub.space/poster/small/tt44568097/img",
+      "releaseInfo": "2026",
+      "runtime": "91 min",
+      "slug": "movie/the-widower-til-death-do-us-part-44568097",
+      "trailers": [
+        {
+          "source": "2Xn881UkR3s",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt31450459/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt31450459",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Tom Cruise",
+        "Riz Ahmed",
+        "Aetheria Angel"
+      ],
+      "country": "United States, United Kingdom, Mexico",
+      "description": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything.",
+      "director": [
+        "Alejandro G. Iñárritu"
+      ],
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "id": "tt31450459",
+      "imdbRating": "",
+      "imdb_id": "tt31450459",
+      "links": [
+        {
+          "category": "share",
+          "name": "Digger",
+          "url": "https://www.strem.io/s/movie/digger-31450459"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Comedy"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Drama"
+        },
+        {
+          "category": "Cast",
+          "name": "Tom Cruise",
+          "url": "stremio:///search?search=Tom%20Cruise"
+        },
+        {
+          "category": "Cast",
+          "name": "Riz Ahmed",
+          "url": "stremio:///search?search=Riz%20Ahmed"
+        },
+        {
+          "category": "Cast",
+          "name": "Aetheria Angel",
+          "url": "stremio:///search?search=Aetheria%20Angel"
+        },
+        {
+          "category": "Writers",
+          "name": "Sabina Berman",
+          "url": "stremio:///search?search=Sabina%20Berman"
+        },
+        {
+          "category": "Writers",
+          "name": "Alexander Dinelaris",
+          "url": "stremio:///search?search=Alexander%20Dinelaris"
+        },
+        {
+          "category": "Writers",
+          "name": "Nicolás Giacobone",
+          "url": "stremio:///search?search=Nicol%C3%A1s%20Giacobone"
+        },
+        {
+          "category": "Directors",
+          "name": "Alejandro G. Iñárritu",
+          "url": "stremio:///search?search=Alejandro%20G.%20I%C3%B1%C3%A1rritu"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt31450459/img",
+      "moviedb_id": 1248832,
+      "name": "Digger",
+      "popularities": {
+        "moviedb": 3.8521,
+        "stremio": 0.12840333333333334,
+        "stremio_lib": 0,
+        "trakt": 114
+      },
+      "popularity": 0.12840333333333334,
+      "poster": "https://images.metahub.space/poster/small/tt31450459/img",
+      "releaseInfo": "2026",
+      "released": "2026-10-02T00:00:00.000Z",
+      "runtime": "106 min",
+      "slug": "movie/digger-31450459",
+      "trailerStreams": [
+        {
+          "title": "Digger",
+          "ytId": "Rd21PhsDHww"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "Rd21PhsDHww",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Sabina Berman",
+        "Alexander Dinelaris",
+        "Nicolás Giacobone"
+      ],
+      "year": "2026"
+    },
+    {
+      "awards": "4 wins & 6 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt35511966/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt35511966",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Penélope Cruz",
+        "Glenn Close",
+        "Miguel Bernardeau"
+      ],
+      "country": "Spain, France",
+      "description": "Explores what it means to be gay throughout different eras, focusing on \"three existences\" that are connected through themes of sexuality, desire, pain, and inheritance.",
+      "director": [
+        "Javier Ambrossi",
+        "Javier Calvo"
+      ],
+      "genre": [
+        "Drama",
+        "History",
+        "Musical"
+      ],
+      "genres": [
+        "Drama",
+        "History",
+        "Musical"
+      ],
+      "id": "tt35511966",
+      "imdbRating": "7.0",
+      "imdb_id": "tt35511966",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.0",
+          "url": "https://imdb.com/title/tt35511966"
+        },
+        {
+          "category": "share",
+          "name": "La bola negra",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "History",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=History"
+        },
+        {
+          "category": "Genres",
+          "name": "Musical",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Musical"
+        },
+        {
+          "category": "Cast",
+          "name": "Penélope Cruz",
+          "url": "stremio:///search?search=Pen%C3%A9lope%20Cruz"
+        },
+        {
+          "category": "Cast",
+          "name": "Glenn Close",
+          "url": "stremio:///search?search=Glenn%20Close"
+        },
+        {
+          "category": "Cast",
+          "name": "Miguel Bernardeau",
+          "url": "stremio:///search?search=Miguel%20Bernardeau"
+        },
+        {
+          "category": "Writers",
+          "name": "Javier Ambrossi",
+          "url": "stremio:///search?search=Javier%20Ambrossi"
+        },
+        {
+          "category": "Writers",
+          "name": "Javier Calvo",
+          "url": "stremio:///search?search=Javier%20Calvo"
+        },
+        {
+          "category": "Writers",
+          "name": "Alberto Conejero",
+          "url": "stremio:///search?search=Alberto%20Conejero"
+        },
+        {
+          "category": "Directors",
+          "name": "Javier Ambrossi",
+          "url": "stremio:///search?search=Javier%20Ambrossi"
+        },
+        {
+          "category": "Directors",
+          "name": "Javier Calvo",
+          "url": "stremio:///search?search=Javier%20Calvo"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt35511966/img",
+      "moviedb_id": 1422041,
+      "name": "La bola negra",
+      "popularities": {
+        "moviedb": 19.5011,
+        "stremio": 0.6500366666666667,
+        "stremio_lib": 0,
+        "trakt": 51
+      },
+      "popularity": 0.6500366666666667,
+      "poster": "https://images.metahub.space/poster/small/tt35511966/img",
+      "releaseInfo": "2026",
+      "released": "2026-12-02T00:00:00.000Z",
+      "runtime": "155 min",
+      "slug": "movie/la-bola-negra-35511966",
+      "trailerStreams": [
+        {
+          "title": "La bola negra",
+          "ytId": "lBVxKt0gKDY"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "lBVxKt0gKDY",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Javier Ambrossi",
+        "Javier Calvo",
+        "Alberto Conejero"
+      ],
+      "year": "2026"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt6933238/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt6933238",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Russell Crowe",
+        "Shailene Woodley",
+        "Jacob Tremblay"
+      ],
+      "country": "United States",
+      "description": "A Harvard student becomes the Unabomber after psychological experiments. Years later, an FBI agent's pursuit reveals how his past shaped his deadly campaign that killed 3 and injured 23 from 1978-1995.",
+      "director": [
+        "Janus Metz"
+      ],
+      "genre": [
+        "Biography",
+        "Crime",
+        "Drama"
+      ],
+      "genres": [
+        "Biography",
+        "Crime",
+        "Drama"
+      ],
+      "id": "tt6933238",
+      "imdbRating": "6.2",
+      "imdb_id": "tt6933238",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.2",
+          "url": "https://imdb.com/title/tt6933238"
+        },
+        {
+          "category": "share",
+          "name": "Unabomber",
+          "url": "https://www.strem.io/s/movie/unabomber-6933238"
+        },
+        {
+          "category": "Genres",
+          "name": "Biography",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Biography"
+        },
+        {
+          "category": "Genres",
+          "name": "Crime",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Crime"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Drama"
+        },
+        {
+          "category": "Cast",
+          "name": "Russell Crowe",
+          "url": "stremio:///search?search=Russell%20Crowe"
+        },
+        {
+          "category": "Cast",
+          "name": "Shailene Woodley",
+          "url": "stremio:///search?search=Shailene%20Woodley"
+        },
+        {
+          "category": "Cast",
+          "name": "Jacob Tremblay",
+          "url": "stremio:///search?search=Jacob%20Tremblay"
+        },
+        {
+          "category": "Writers",
+          "name": "Sam Chalsen",
+          "url": "stremio:///search?search=Sam%20Chalsen"
+        },
+        {
+          "category": "Writers",
+          "name": "Nelson Greaves",
+          "url": "stremio:///search?search=Nelson%20Greaves"
+        },
+        {
+          "category": "Directors",
+          "name": "Janus Metz",
+          "url": "stremio:///search?search=Janus%20Metz"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt6933238/img",
+      "moviedb_id": 1492640,
+      "name": "Unabomber",
+      "popularities": {
+        "moviedb": 70.6957,
+        "stremio": 2.3565233333333335,
+        "stremio_lib": 0,
+        "trakt": 278
+      },
+      "popularity": 2.3565233333333335,
+      "poster": "https://images.metahub.space/poster/small/tt6933238/img",
+      "releaseInfo": "2026",
+      "released": "2026-09-25T00:00:00.000Z",
+      "runtime": "101 min",
+      "slug": "movie/unabomber-6933238",
+      "trailerStreams": [
+        {
+          "title": "Unabomber",
+          "ytId": "B3tR6qQjbgI"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "B3tR6qQjbgI",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Sam Chalsen",
+        "Nelson Greaves"
+      ],
+      "year": "2026"
+    },
+    {
+      "background": "https://live.metahub.space/background/medium/tt44766123/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt44766123",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Yuval Abraham"
+      ],
+      "credits_cast": [
+        {
+          "character": "Self",
+          "id": 4487239,
+          "name": "Yuval Abraham",
+          "profile_path": "/62uWfsiFDf0pmpmMtFcOlwAfdSj.jpg"
+        }
+      ],
+      "credits_crew": [
+        {
+          "department": "Directing",
+          "id": 4487239,
+          "job": "Director",
+          "name": "Yuval Abraham",
+          "profile_path": "/62uWfsiFDf0pmpmMtFcOlwAfdSj.jpg"
+        },
+        {
+          "department": "Directing",
+          "id": 4487240,
+          "job": "Director",
+          "name": "Rachel Szor",
+          "profile_path": "/dXgPmqNhMKcWgPD6dIxu4IFAKhP.jpg"
+        },
+        {
+          "department": "Production",
+          "id": 208693,
+          "job": "Producer",
+          "name": "James Wilson",
+          "profile_path": "/1iABUZ8ojpdSosyWKezohLyYMIu.jpg"
+        },
+        {
+          "department": "Production",
+          "id": 2101469,
+          "job": "Producer",
+          "name": "Lindsay Poulton",
+          "profile_path": null
+        },
+        {
+          "department": "Production",
+          "id": 6484129,
+          "job": "Producer",
+          "name": "Harry Davies",
+          "profile_path": null
+        }
+      ],
+      "description": "In secret conversations on the rooftops of Tel Aviv at night, the systems behind Israel's calculated mass killing of Palestinian civilians in Gaza are revealed by the people who designed and operated them.",
+      "director": [
+        "Yuval Abraham",
+        "Rachel Szor"
+      ],
+      "genres": [
+        "Documentary"
+      ],
+      "id": "tt44766123",
+      "imdbRating": "7.7",
+      "imdb_id": "tt44766123",
+      "logo": "https://live.metahub.space/logo/medium/tt44766123/img",
+      "moviedb_id": 1755291,
+      "name": "NAZA",
+      "poster": "https://live.metahub.space/poster/small/tt44766123/img",
+      "releaseInfo": "2026",
+      "runtime": "80 min",
+      "slug": "movie/naza-44766123",
+      "trailers": [
+        {
+          "source": "40KW6knYMo4",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie"
+    }
+  ],
+  "staleError": 3600,
+  "staleRevalidate": 3600
+}

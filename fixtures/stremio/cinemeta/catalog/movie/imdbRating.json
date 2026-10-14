@@ -1,0 +1,1184 @@
+{
+  "cacheMaxAge": 14400,
+  "hasMore": true,
+  "metas": [
+    {
+      "background": "https://images.metahub.space/background/medium/tt22526100/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt22526100",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Lili Reinhart",
+        "Tom Bateman",
+        "Rachel Marsh"
+      ],
+      "country": "United States",
+      "description": "After an impulsive kiss, two scientists end up in a fake relationship, testing their theories about love and each other.",
+      "director": [
+        "Claire Scanlon"
+      ],
+      "genre": [
+        "Comedy",
+        "Romance"
+      ],
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "id": "tt22526100",
+      "imdbRating": "",
+      "imdb_id": "tt22526100",
+      "links": [
+        {
+          "category": "share",
+          "name": "The Love Hypothesis",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Comedy"
+        },
+        {
+          "category": "Genres",
+          "name": "Romance",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Romance"
+        },
+        {
+          "category": "Cast",
+          "name": "Lili Reinhart",
+          "url": "stremio:///search?search=Lili%20Reinhart"
+        },
+        {
+          "category": "Cast",
+          "name": "Tom Bateman",
+          "url": "stremio:///search?search=Tom%20Bateman"
+        },
+        {
+          "category": "Cast",
+          "name": "Rachel Marsh",
+          "url": "stremio:///search?search=Rachel%20Marsh"
+        },
+        {
+          "category": "Writers",
+          "name": "Ali Hazelwood",
+          "url": "stremio:///search?search=Ali%20Hazelwood"
+        },
+        {
+          "category": "Writers",
+          "name": "Sarah Rothschild",
+          "url": "stremio:///search?search=Sarah%20Rothschild"
+        },
+        {
+          "category": "Directors",
+          "name": "Claire Scanlon",
+          "url": "stremio:///search?search=Claire%20Scanlon"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt22526100/img",
+      "moviedb_id": 1032863,
+      "name": "The Love Hypothesis",
+      "popularities": {
+        "moviedb": 106.6841,
+        "stremio": 5.18651,
+        "stremio_lib": 0,
+        "trakt": 303
+      },
+      "popularity": 5.18651,
+      "poster": "https://images.metahub.space/poster/small/tt22526100/img",
+      "releaseInfo": "2026",
+      "released": "2026-09-23T00:00:00.000Z",
+      "runtime": "112 min",
+      "slug": "movie/the-love-hypothesis-22526100",
+      "trailerStreams": [
+        {
+          "title": "The Love Hypothesis",
+          "ytId": "xwdamnfS6IM"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "xwdamnfS6IM",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Ali Hazelwood",
+        "Sarah Rothschild"
+      ],
+      "year": "2026"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt16478058/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt16478058",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Janina Gavankar",
+        "Maitreyi Ramakrishnan",
+        "Priyanka Kedia"
+      ],
+      "country": "United States",
+      "description": "A raucous comedy set in the cut-throat world of collegiate Bollywood dance competitions.",
+      "director": [
+        "Lena Khan"
+      ],
+      "genre": [
+        "Comedy"
+      ],
+      "genres": [
+        "Comedy"
+      ],
+      "id": "tt16478058",
+      "imdbRating": "",
+      "imdb_id": "tt16478058",
+      "links": [
+        {
+          "category": "share",
+          "name": "Best of the Best",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Comedy"
+        },
+        {
+          "category": "Cast",
+          "name": "Janina Gavankar",
+          "url": "stremio:///search?search=Janina%20Gavankar"
+        },
+        {
+          "category": "Cast",
+          "name": "Maitreyi Ramakrishnan",
+          "url": "stremio:///search?search=Maitreyi%20Ramakrishnan"
+        },
+        {
+          "category": "Cast",
+          "name": "Priyanka Kedia",
+          "url": "stremio:///search?search=Priyanka%20Kedia"
+        },
+        {
+          "category": "Writers",
+          "name": "Hasan Minhaj",
+          "url": "stremio:///search?search=Hasan%20Minhaj"
+        },
+        {
+          "category": "Writers",
+          "name": "Prashanth Venkataramanujam",
+          "url": "stremio:///search?search=Prashanth%20Venkataramanujam"
+        },
+        {
+          "category": "Directors",
+          "name": "Lena Khan",
+          "url": "stremio:///search?search=Lena%20Khan"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt16478058/img",
+      "moviedb_id": 1514863,
+      "name": "Best of the Best",
+      "popularities": {
+        "moviedb": 9.9007,
+        "stremio": 0.33002333333333334,
+        "stremio_lib": 0,
+        "trakt": 52
+      },
+      "popularity": 0.33002333333333334,
+      "poster": "https://images.metahub.space/poster/small/tt16478058/img",
+      "releaseInfo": "2026",
+      "released": "2026-09-18T00:00:00.000Z",
+      "runtime": "112 min",
+      "slug": "movie/best-of-the-best-16478058",
+      "trailerStreams": [
+        {
+          "title": "Best of the Best",
+          "ytId": "PuNATO-6a9U"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "PuNATO-6a9U",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Hasan Minhaj",
+        "Prashanth Venkataramanujam"
+      ],
+      "year": "2026"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt28014327/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt28014327",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Ryan Reynolds",
+        "Kenneth Branagh",
+        "Marcin Dorocinski"
+      ],
+      "country": "United States",
+      "description": "Lieutenant Troy Brennan's reconnaissance mission over Soviet territory goes awry, forcing him to crash-land and survive in Russian wilderness while evading capture or rescue.",
+      "director": [
+        "John Francis Daley",
+        "Jonathan Goldstein"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "id": "tt28014327",
+      "imdbRating": "6.9",
+      "imdb_id": "tt28014327",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.9",
+          "url": "https://imdb.com/title/tt28014327"
+        },
+        {
+          "category": "share",
+          "name": "Mayday",
+          "url": "https://www.strem.io/s/movie/mayday-28014327"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Action"
+        },
+        {
+          "category": "Genres",
+          "name": "Adventure",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Adventure"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Comedy"
+        },
+        {
+          "category": "Cast",
+          "name": "Ryan Reynolds",
+          "url": "stremio:///search?search=Ryan%20Reynolds"
+        },
+        {
+          "category": "Cast",
+          "name": "Kenneth Branagh",
+          "url": "stremio:///search?search=Kenneth%20Branagh"
+        },
+        {
+          "category": "Cast",
+          "name": "Marcin Dorocinski",
+          "url": "stremio:///search?search=Marcin%20Dorocinski"
+        },
+        {
+          "category": "Writers",
+          "name": "John Francis Daley",
+          "url": "stremio:///search?search=John%20Francis%20Daley"
+        },
+        {
+          "category": "Writers",
+          "name": "Jonathan Goldstein",
+          "url": "stremio:///search?search=Jonathan%20Goldstein"
+        },
+        {
+          "category": "Directors",
+          "name": "John Francis Daley",
+          "url": "stremio:///search?search=John%20Francis%20Daley"
+        },
+        {
+          "category": "Directors",
+          "name": "Jonathan Goldstein",
+          "url": "stremio:///search?search=Jonathan%20Goldstein"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt28014327/img",
+      "moviedb_id": 1137844,
+      "name": "Mayday",
+      "popularities": {
+        "moviedb": 29.093,
+        "stremio": 0.9697666666666668,
+        "stremio_lib": 0,
+        "trakt": 190
+      },
+      "popularity": 0.9697666666666668,
+      "poster": "https://images.metahub.space/poster/small/tt28014327/img",
+      "releaseInfo": "2026",
+      "released": "2026-09-04T00:00:00.000Z",
+      "runtime": "111 min",
+      "slug": "movie/mayday-28014327",
+      "trailerStreams": [
+        {
+          "title": "Mayday",
+          "ytId": "om5Un9X720M"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "om5Un9X720M",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "John Francis Daley",
+        "Jonathan Goldstein"
+      ],
+      "year": "2026"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt38267923/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt38267923",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "George Clooney",
+        "Camille Cottin",
+        "Laetitia Casta"
+      ],
+      "country": "France",
+      "description": "Follows a former talent agent turned aspiring director who must reunite with her old team when her lead actor drops out days before filming begins.",
+      "director": [
+        "Émilie Noblet"
+      ],
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "id": "tt38267923",
+      "imdbRating": "",
+      "imdb_id": "tt38267923",
+      "links": [
+        {
+          "category": "share",
+          "name": "Call My Agent! The Movie",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Comedy"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Drama"
+        },
+        {
+          "category": "Cast",
+          "name": "George Clooney",
+          "url": "stremio:///search?search=George%20Clooney"
+        },
+        {
+          "category": "Cast",
+          "name": "Camille Cottin",
+          "url": "stremio:///search?search=Camille%20Cottin"
+        },
+        {
+          "category": "Cast",
+          "name": "Laetitia Casta",
+          "url": "stremio:///search?search=Laetitia%20Casta"
+        },
+        {
+          "category": "Writers",
+          "name": "Lison Daniel",
+          "url": "stremio:///search?search=Lison%20Daniel"
+        },
+        {
+          "category": "Writers",
+          "name": "Fanny Herrero",
+          "url": "stremio:///search?search=Fanny%20Herrero"
+        },
+        {
+          "category": "Directors",
+          "name": "Émilie Noblet",
+          "url": "stremio:///search?search=%C3%89milie%20Noblet"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt38267923/img",
+      "moviedb_id": 1365884,
+      "name": "Call My Agent! The Movie",
+      "popularities": {
+        "moviedb": 6.8182,
+        "stremio": 0.22727333333333333,
+        "stremio_lib": 0,
+        "trakt": 51
+      },
+      "popularity": 0.22727333333333333,
+      "poster": "https://images.metahub.space/poster/small/tt38267923/img",
+      "releaseInfo": "2026",
+      "released": "2026-09-10T00:00:00.000Z",
+      "runtime": "117 min",
+      "slug": "movie/call-my-agent-the-movie-38267923",
+      "trailerStreams": [
+        {
+          "title": "Call My Agent! The Movie",
+          "ytId": "01PX2jZNW5A"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "01PX2jZNW5A",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Lison Daniel",
+        "Fanny Herrero"
+      ],
+      "year": "2026"
+    },
+    {
+      "awards": "1 nomination total",
+      "background": "https://images.metahub.space/background/medium/tt37281055/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt37281055",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Cristin Milioti",
+        "Delaney Quinn",
+        "Topher Grace"
+      ],
+      "country": "United States",
+      "description": "A brave girl and her friends must escape a kids television show.",
+      "director": [
+        "Casper Kelly"
+      ],
+      "genre": [
+        "Horror"
+      ],
+      "genres": [
+        "Horror"
+      ],
+      "id": "tt37281055",
+      "imdbRating": "7.1",
+      "imdb_id": "tt37281055",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.1",
+          "url": "https://imdb.com/title/tt37281055"
+        },
+        {
+          "category": "share",
+          "name": "Buddy",
+          "url": "https://www.strem.io/s/movie/buddy-37281055"
+        },
+        {
+          "category": "Genres",
+          "name": "Horror",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Horror"
+        },
+        {
+          "category": "Cast",
+          "name": "Cristin Milioti",
+          "url": "stremio:///search?search=Cristin%20Milioti"
+        },
+        {
+          "category": "Cast",
+          "name": "Delaney Quinn",
+          "url": "stremio:///search?search=Delaney%20Quinn"
+        },
+        {
+          "category": "Cast",
+          "name": "Topher Grace",
+          "url": "stremio:///search?search=Topher%20Grace"
+        },
+        {
+          "category": "Writers",
+          "name": "Casper Kelly",
+          "url": "stremio:///search?search=Casper%20Kelly"
+        },
+        {
+          "category": "Writers",
+          "name": "Jamie King",
+          "url": "stremio:///search?search=Jamie%20King"
+        },
+        {
+          "category": "Directors",
+          "name": "Casper Kelly",
+          "url": "stremio:///search?search=Casper%20Kelly"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt37281055/img",
+      "moviedb_id": 1514026,
+      "name": "Buddy",
+      "popularities": {
+        "moviedb": 14.7618,
+        "stremio": 0.70181,
+        "stremio_lib": 0,
+        "trakt": 595
+      },
+      "popularity": 0.70181,
+      "poster": "https://images.metahub.space/poster/small/tt37281055/img",
+      "releaseInfo": "2026",
+      "released": "2026-08-28T00:00:00.000Z",
+      "runtime": "95 min",
+      "slug": "movie/buddy-37281055",
+      "trailerStreams": [
+        {
+          "title": "Buddy",
+          "ytId": "udPBHzBnXKA"
+        },
+        {
+          "title": "Buddy",
+          "ytId": "O1fNEHX9tSM"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "udPBHzBnXKA",
+          "type": "Trailer"
+        },
+        {
+          "source": "O1fNEHX9tSM",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Casper Kelly",
+        "Jamie King"
+      ],
+      "year": "2026"
+    },
+    {
+      "awards": "1 win & 2 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt35519455/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt35519455",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Phinehas Yoon",
+        "Akira Jackson",
+        "Noah Toth"
+      ],
+      "country": "United States",
+      "description": "Friends on a late-night food run become trapped on an infinite highway with otherworldly terrors lurking beyond. Confined in their car, they must decide whether to accept their fate or attempt escape.",
+      "director": [
+        "Alexander Ullom"
+      ],
+      "genre": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
+      "id": "tt35519455",
+      "imdbRating": "5.8",
+      "imdb_id": "tt35519455",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "5.8",
+          "url": "https://imdb.com/title/tt35519455"
+        },
+        {
+          "category": "share",
+          "name": "It Ends",
+          "url": "https://www.strem.io/s/movie/it-ends-35519455"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Fantasy",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Fantasy"
+        },
+        {
+          "category": "Genres",
+          "name": "Horror",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Horror"
+        },
+        {
+          "category": "Cast",
+          "name": "Phinehas Yoon",
+          "url": "stremio:///search?search=Phinehas%20Yoon"
+        },
+        {
+          "category": "Cast",
+          "name": "Akira Jackson",
+          "url": "stremio:///search?search=Akira%20Jackson"
+        },
+        {
+          "category": "Cast",
+          "name": "Noah Toth",
+          "url": "stremio:///search?search=Noah%20Toth"
+        },
+        {
+          "category": "Writers",
+          "name": "Alexander Ullom",
+          "url": "stremio:///search?search=Alexander%20Ullom"
+        },
+        {
+          "category": "Directors",
+          "name": "Alexander Ullom",
+          "url": "stremio:///search?search=Alexander%20Ullom"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt35519455/img",
+      "moviedb_id": 1422011,
+      "name": "It Ends",
+      "popularities": {
+        "moviedb": 44.8128,
+        "stremio": 1.4937600000000002,
+        "stremio_lib": 0,
+        "trakt": 54
+      },
+      "popularity": 1.4937600000000002,
+      "poster": "https://images.metahub.space/poster/small/tt35519455/img",
+      "releaseInfo": "2025",
+      "released": "2025-12-10T00:00:00.000Z",
+      "runtime": "89 min",
+      "slug": "movie/it-ends-35519455",
+      "trailerStreams": [
+        {
+          "title": "It Ends",
+          "ytId": "mQj2Hm7TXLQ"
+        },
+        {
+          "title": "It Ends",
+          "ytId": "9k7jckaHeuA"
+        },
+        {
+          "title": "It Ends",
+          "ytId": "zFszhQLMNXU"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "mQj2Hm7TXLQ",
+          "type": "Trailer"
+        },
+        {
+          "source": "9k7jckaHeuA",
+          "type": "Trailer"
+        },
+        {
+          "source": "zFszhQLMNXU",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Alexander Ullom"
+      ],
+      "year": "2025"
+    },
+    {
+      "awards": "1 win total",
+      "background": "https://images.metahub.space/background/medium/tt1756855/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt1756855",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Will Forte",
+        "Lana Condor",
+        "John Cena"
+      ],
+      "country": "United States",
+      "description": "After enduring years of malfunctioning products, Wile E. Coyote teams up with a local personal injury attorney to take on ACME, the manufacturer of anything and everything used by the Looney Tunes characters.",
+      "director": [
+        "Dave Green"
+      ],
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "id": "tt1756855",
+      "imdbRating": "7.6",
+      "imdb_id": "tt1756855",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.6",
+          "url": "https://imdb.com/title/tt1756855"
+        },
+        {
+          "category": "share",
+          "name": "Coyote vs. Acme",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Animation",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Animation"
+        },
+        {
+          "category": "Genres",
+          "name": "Adventure",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Adventure"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Comedy"
+        },
+        {
+          "category": "Cast",
+          "name": "Will Forte",
+          "url": "stremio:///search?search=Will%20Forte"
+        },
+        {
+          "category": "Cast",
+          "name": "Lana Condor",
+          "url": "stremio:///search?search=Lana%20Condor"
+        },
+        {
+          "category": "Cast",
+          "name": "John Cena",
+          "url": "stremio:///search?search=John%20Cena"
+        },
+        {
+          "category": "Writers",
+          "name": "Samy Burch",
+          "url": "stremio:///search?search=Samy%20Burch"
+        },
+        {
+          "category": "Writers",
+          "name": "James Gunn",
+          "url": "stremio:///search?search=James%20Gunn"
+        },
+        {
+          "category": "Writers",
+          "name": "Jeremy Slater",
+          "url": "stremio:///search?search=Jeremy%20Slater"
+        },
+        {
+          "category": "Directors",
+          "name": "Dave Green",
+          "url": "stremio:///search?search=Dave%20Green"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt1756855/img",
+      "moviedb_id": 1204680,
+      "name": "Coyote vs. Acme",
+      "popularities": {
+        "moviedb": 171.3351,
+        "stremio": 5.71117,
+        "stremio_lib": 0,
+        "trakt": 326
+      },
+      "popularity": 5.71117,
+      "poster": "https://images.metahub.space/poster/small/tt1756855/img",
+      "releaseInfo": "2026",
+      "released": "2026-08-28T00:00:00.000Z",
+      "runtime": "103 min",
+      "slug": "movie/coyote-vs-acme-1756855",
+      "trailerStreams": [
+        {
+          "title": "Coyote vs. Acme",
+          "ytId": "kMsiD1Nky5I"
+        },
+        {
+          "title": "Coyote vs. Acme",
+          "ytId": "H-43VeYGiPM"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "kMsiD1Nky5I",
+          "type": "Trailer"
+        },
+        {
+          "source": "H-43VeYGiPM",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Samy Burch",
+        "James Gunn",
+        "Jeremy Slater"
+      ],
+      "year": "2026"
+    },
+    {
+      "awards": "1 nomination total",
+      "background": "https://images.metahub.space/background/medium/tt27706593/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt27706593",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Matthew McConaughey",
+        "Angelina LookingGlass",
+        "Kurt Russell"
+      ],
+      "country": "United States, United Kingdom",
+      "description": "Amziah King, beekeeper, musician, and anchor of his community, reunites with former foster daughter Kateri after many years apart, and fends off threats to his honey business.",
+      "director": [
+        "Andrew Patterson"
+      ],
+      "genre": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "id": "tt27706593",
+      "imdbRating": "7.3",
+      "imdb_id": "tt27706593",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.3",
+          "url": "https://imdb.com/title/tt27706593"
+        },
+        {
+          "category": "share",
+          "name": "The Rivals of Amziah King",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Crime",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Crime"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Thriller",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Thriller"
+        },
+        {
+          "category": "Cast",
+          "name": "Matthew McConaughey",
+          "url": "stremio:///search?search=Matthew%20McConaughey"
+        },
+        {
+          "category": "Cast",
+          "name": "Angelina LookingGlass",
+          "url": "stremio:///search?search=Angelina%20LookingGlass"
+        },
+        {
+          "category": "Cast",
+          "name": "Kurt Russell",
+          "url": "stremio:///search?search=Kurt%20Russell"
+        },
+        {
+          "category": "Writers",
+          "name": "Andrew Patterson",
+          "url": "stremio:///search?search=Andrew%20Patterson"
+        },
+        {
+          "category": "Directors",
+          "name": "Andrew Patterson",
+          "url": "stremio:///search?search=Andrew%20Patterson"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt27706593/img",
+      "moviedb_id": 1124142,
+      "name": "The Rivals of Amziah King",
+      "popularities": {
+        "moviedb": 9.4504,
+        "stremio": 0.3150133333333333,
+        "stremio_lib": 0,
+        "trakt": 60
+      },
+      "popularity": 0.3150133333333333,
+      "poster": "https://images.metahub.space/poster/small/tt27706593/img",
+      "releaseInfo": "2026",
+      "released": "2026-08-21T00:00:00.000Z",
+      "runtime": "131 min",
+      "slug": "movie/the-rivals-of-amziah-king-27706593",
+      "trailerStreams": [
+        {
+          "title": "The Rivals of Amziah King",
+          "ytId": "GwSvAyaMGMo"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "GwSvAyaMGMo",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Andrew Patterson"
+      ],
+      "year": "2026"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt36590417/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt36590417",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Jack Champion",
+        "Melanie Lynskey",
+        "Stephanie Beatriz"
+      ],
+      "country": "United States",
+      "description": "Sophie Birenbaum gets the lead in her high school show, but at the same time, her mom's cancer comes back.",
+      "director": [
+        "Julia Hart"
+      ],
+      "genre": [
+        "Comedy"
+      ],
+      "genres": [
+        "Comedy"
+      ],
+      "id": "tt36590417",
+      "imdbRating": "",
+      "imdb_id": "tt36590417",
+      "links": [
+        {
+          "category": "share",
+          "name": "Don't Say Good Luck",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Comedy"
+        },
+        {
+          "category": "Cast",
+          "name": "Jack Champion",
+          "url": "stremio:///search?search=Jack%20Champion"
+        },
+        {
+          "category": "Cast",
+          "name": "Melanie Lynskey",
+          "url": "stremio:///search?search=Melanie%20Lynskey"
+        },
+        {
+          "category": "Cast",
+          "name": "Stephanie Beatriz",
+          "url": "stremio:///search?search=Stephanie%20Beatriz"
+        },
+        {
+          "category": "Writers",
+          "name": "Laura Hankin",
+          "url": "stremio:///search?search=Laura%20Hankin"
+        },
+        {
+          "category": "Writers",
+          "name": "Julia Hart",
+          "url": "stremio:///search?search=Julia%20Hart"
+        },
+        {
+          "category": "Writers",
+          "name": "Jordan Horowitz",
+          "url": "stremio:///search?search=Jordan%20Horowitz"
+        },
+        {
+          "category": "Directors",
+          "name": "Julia Hart",
+          "url": "stremio:///search?search=Julia%20Hart"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt36590417/img",
+      "moviedb_id": 1504358,
+      "name": "Don't Say Good Luck",
+      "popularities": {
+        "moviedb": 9.5031,
+        "stremio": 0.28619,
+        "stremio_lib": 0,
+        "trakt": 64
+      },
+      "popularity": 0.28619,
+      "poster": "https://images.metahub.space/poster/small/tt36590417/img",
+      "releaseInfo": "2026",
+      "released": null,
+      "runtime": "96 min",
+      "slug": "movie/dont-say-good-luck-36590417",
+      "trailerStreams": [
+        {
+          "title": "Don't Say Good Luck",
+          "ytId": "bvWqHSFkO5s"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "bvWqHSFkO5s",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Laura Hankin",
+        "Julia Hart",
+        "Jordan Horowitz"
+      ],
+      "year": "2026"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt27165187/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt27165187",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Anne Hathaway",
+        "Ewan McGregor",
+        "Maisy Stella"
+      ],
+      "country": "United States, Canada, Australia",
+      "description": "The Platt family bands together to navigate their new surroundings after a cosmic event transports their suburban neighborhood to someplace unknown.",
+      "director": [
+        "David Robert Mitchell"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Mystery"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Mystery"
+      ],
+      "id": "tt27165187",
+      "imdbRating": "6.5",
+      "imdb_id": "tt27165187",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.5",
+          "url": "https://imdb.com/title/tt27165187"
+        },
+        {
+          "category": "share",
+          "name": "The End of Oak Street",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Action"
+        },
+        {
+          "category": "Genres",
+          "name": "Adventure",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Adventure"
+        },
+        {
+          "category": "Genres",
+          "name": "Mystery",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Mystery"
+        },
+        {
+          "category": "Cast",
+          "name": "Anne Hathaway",
+          "url": "stremio:///search?search=Anne%20Hathaway"
+        },
+        {
+          "category": "Cast",
+          "name": "Ewan McGregor",
+          "url": "stremio:///search?search=Ewan%20McGregor"
+        },
+        {
+          "category": "Cast",
+          "name": "Maisy Stella",
+          "url": "stremio:///search?search=Maisy%20Stella"
+        },
+        {
+          "category": "Writers",
+          "name": "David Robert Mitchell",
+          "url": "stremio:///search?search=David%20Robert%20Mitchell"
+        },
+        {
+          "category": "Directors",
+          "name": "David Robert Mitchell",
+          "url": "stremio:///search?search=David%20Robert%20Mitchell"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt27165187/img",
+      "moviedb_id": 1101383,
+      "name": "The End of Oak Street",
+      "popularities": {
+        "moviedb": 172.9648,
+        "stremio": 5.765493333333334,
+        "stremio_lib": 0,
+        "trakt": 403
+      },
+      "popularity": 5.765493333333334,
+      "poster": "https://images.metahub.space/poster/small/tt27165187/img",
+      "releaseInfo": "2026",
+      "released": "2026-08-14T00:00:00.000Z",
+      "runtime": "100 min",
+      "slug": "movie/the-end-of-oak-street-27165187",
+      "trailerStreams": [
+        {
+          "title": "The End of Oak Street",
+          "ytId": "u4tgctWuHc0"
+        },
+        {
+          "title": "The End of Oak Street",
+          "ytId": "3oB9AxspVow"
+        },
+        {
+          "title": "The End of Oak Street",
+          "ytId": "s9GKXTbChjE"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "u4tgctWuHc0",
+          "type": "Trailer"
+        },
+        {
+          "source": "3oB9AxspVow",
+          "type": "Trailer"
+        },
+        {
+          "source": "s9GKXTbChjE",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "David Robert Mitchell"
+      ],
+      "year": "2026"
+    }
+  ],
+  "staleError": 3600,
+  "staleRevalidate": 3600
+}

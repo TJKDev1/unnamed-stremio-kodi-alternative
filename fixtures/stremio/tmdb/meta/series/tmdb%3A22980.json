@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "ageRating": null,
+    "app_extras": {
+      "cast": [
+        {
+          "character": "Self - Host",
+          "name": "Andy Cohen",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/eZrNjW7RQgkhwfcBw0qGTLPVgf4.jpg"
+        }
+      ]
+    },
+    "background": "https://image.tmdb.org/t/p/original/hINekSpbcBxjnjGqmIm6I4bz2ab.jpg",
+    "behaviorHints": {
+      "defaultVideoId": null,
+      "hasScheduledVideos": true
+    },
+    "country": "United States of America",
+    "description": "Bravo network executive Andy Cohen discusses pop culture topics with celebrities and reality show personalities.",
+    "genre": [
+      "Talk",
+      "Comedy"
+    ],
+    "genres": [
+      "Talk",
+      "Comedy"
+    ],
+    "id": "tmdb:22980",
+    "imdbRating": "5.6",
+    "imdb_id": "tt2057880",
+    "links": [
+      {
+        "category": "imdb",
+        "name": "5.6",
+        "url": "https://imdb.com/title/tt2057880"
+      },
+      {
+        "category": "share",
+        "name": "Watch What Happens Live with Andy Cohen",
+        "url": "https://www.strem.io/s/series/REDACTED"
+      },
+      {
+        "category": "Genres",
+        "name": "Talk",
+        "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/series/tmdb.top?genre=Talk"
+      },
+      {
+        "category": "Genres",
+        "name": "Comedy",
+        "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/series/tmdb.top?genre=Comedy"
+      },
+      {
+        "category": "Cast",
+        "name": "Andy Cohen",
+        "url": "stremio:///search?search=Andy%20Cohen"
+      }
+    ],
+    "logo": "https://image.tmdb.org/t/p/original/f7o8UibNBHJIlsT5REKmzYzsbaZ.png",
+    "name": "Watch What Happens Live with Andy Cohen",
+    "poster": "https://image.tmdb.org/t/p/w500/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
+    "releaseInfo": "2009-",
+    "released": "2009-07-16T00:00:00.000Z",
+    "runtime": "21min",
+    "slug": "series/watch-what-happens-live-with-andy-cohen-2057880",
+    "status": "Returning Series",
+    "trailerStreams": [],
+    "trailers": [],
+    "type": "series",
+    "videos": [
+      {
+        "description": "The dirt on that fateful night of The Real Housewives of New Jersey's episode \"Hot Tub of Sour Grapes\".",
+        "episode": 1,
+        "firstAired": "2012-08-26T00:00:00.000Z",
+        "id": "tt2057880:0:1",
+        "name": "1-on-1 With Caroline Manzo & Teresa Giudice",
+        "number": 1,
+        "overview": "The dirt on that fateful night of The Real Housewives of New Jersey's episode \"Hot Tub of Sour Grapes\".",
+        "rating": "0",
+        "released": "2012-08-26T00:00:00.000Z",
+        "runtime": "30min",
+        "season": 0,
+        "thumbnail": null
+      },
+      {
+        "description": "Atlanta housewives clip show",
+        "episode": 2,
+        "firstAired": "2011-12-10T00:00:00.000Z",
+        "id": "tt2057880:0:2",
+        "name": "Atlanta Housewives",
+        "number": 2,
+        "overview": "Atlanta housewives clip show",
+        "rating": "0",
+        "released": "2011-12-10T00:00:00.000Z",
+        "runtime": "30min",
+        "season": 0,
+        "thumbnail": null
+      },
+      {
+        "description": "",
+        "episode": 3,
+        "firstAired": "2013-02-12T00:00:00.000Z",
+        "id": "tt2057880:0:3",
+        "name": "Watch What Happens Love Special",
+        "number": 3,
+        "overview": "",
+        "rating": "0",
+        "released": "2013-02-12T00:00:00.000Z",
+        "runtime": "30min",
+        "season": 0,
+        "thumbnail": null
+      },
+      {
+        "description": "Host and Bravo Executive Andy Cohen sits down for a conversation with \"The Real Housewives of Atlanta\" star NeNe Leakes.",
+        "episode": 4,
+        "firstAired": "2013-05-05T00:00:00.000Z",
+        "id": "tt2057880:0:4",
+        "name": "NeNe One-On-One",
+        "number": 4,
+        "overview": "Host and Bravo Executive Andy Cohen sits down for a conversation with \"The Real Housewives of Atlanta\" star NeNe Leakes.",
+        "rating": "0",
+        "released": "2013-05-05T00:00:00.000Z",
+        "runtime": "30min",
+        "season": 0,
+        "thumbnail": null
+      },
+      {
+        "description": "Host and Bravo executive Andy Cohen sits down for a candid discussion with the Jersey Housewives to find out how they met and where they stand on relationships and friendships as well as other things affecting their lives.",
+        "episode": 5,
+        "firstAired": "2013-05-19T00:00:00.000Z",
+        "id": "tt2057880:0:5",
+        "name": "Jersey Housewives Tell All",
+        "number": 5,
+        "overview": "Host and Bravo executive Andy Cohen sits down for a candid discussion with the Jersey Housewives to find out how they met and where they stand on relationships and friendships as well as other things affecting their lives.",
+        "rating": "0",
+        "released": "2013-05-19T00:00:00.000Z",
+        "runtime": "30min",
+        "season": 0,
+        "thumbnail": null
+      },
+      {
+        "description": "Andy Cohen interviews past and present cast members of \"The Real Housewives of Atlanta\" while reliving the TV series' most provocative moments.",
+        "episode": 6,
+        "firstAired": "2015-07-12T00:00:00.000Z",
+        "id": "tt2057880:0:6",
+        "name": "The Real Housewives of Atlanta: 100th Episode Special",
+        "number": 6,
+        "overview": "Andy Cohen interviews past and present cast members of \"The Real Housewives of Atlanta\" while reliving the TV series' most provocative moments.",
+        "rating": "0",
+        "released": "2015-07-12T00:00:00.000Z",
+        "runtime": "30min",
+        "season": 0,
+        "thumbnail": "https://image.tmdb.org/t/p/w500/wBvKHs08law5Lj0ZufprHSRPuWT.jpg"
+      },
+      {
+        "description": "",
+        "episode": 1,
+        "firstAired": "2009-07-16T00:00:00.001Z",
+        "id": "tt2057880:1:1",
+        "name": "Pilot: Danielle Staub",
+        "number": 1,
+        "overview": "",
+        "rating": "8.5",
+        "released": "2009-07-16T00:00:00.001Z",
+        "runtime": "30min",
+        "season": 1,
+        "thumbnail": null
+      },
+      {
+        "description": "",
+        "episode": 2,
+        "firstAired": "2009-07-23T00:00:00.001Z",
+        "id": "tt2057880:1:2",
+        "name": "Kelly Ripa, Mark Consuelos & Isaac Mizrahi",
+        "number": 2,
+        "overview": "",
+        "rating": "2",
+        "released": "2009-07-23T00:00:00.001Z",
+        "runtime": "30min",
+        "season": 1,
+        "thumbnail": null
+      },
+      {
+        "description": "",
+        "episode": 3,
+        "firstAired": "2009-07-30T00:00:00.001Z",
+        "id": "tt2057880:1:3",
+        "name": "Sheree Whitfield",
+        "number": 3,
+        "overview": "",
+        "rating": "0",
+        "released": "2009-07-30T00:00:00.001Z",
+        "runtime": "30min",
+        "season": 1,
+        "thumbnail": null
+      },
+      {
+        "description": "",
+        "episode": 4,
+        "firstAired": "2009-08-06T00:00:00.001Z",
+        "id": "tt2057880:1:4",
+        "name": "NeNe Leakes",
+        "number": 4,
+        "overview": "",
+        "rating": "0",
+        "released": "2009-08-06T00:00:00.001Z",
+        "runtime": "30min",
+        "season": 1,
+        "thumbnail": null
+      }
+    ],
+    "writer": [
+      "Andy Cohen"
+    ],
+    "year": "2009-"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "copyright": "For use only by clients authorized in writing by Stremio. Authors and users of unauthorized clients accept full legal exposure/liability for their actions.",
+  "streams": [
+    {
+      "androidTvUrl": "intent://stream.invalid/1",
+      "androidUrl": "https://stream.invalid/2",
+      "externalUrl": "https://stream.invalid/3",
+      "fireTvUrl": null,
+      "iosUrl": "https://stream.invalid/4",
+      "name": "Title Title",
+      "rokuUrl": null,
+      "titanOsUrl": "Title_Title",
+      "title": "Title, Title",
+      "tizenUrl": "{\"Title\":\"Title.Title\",\"Title_Title\":\"\"}",
+      "tvOsUrl": null,
+      "vidaaOsUrl": null,
+      "webosUrl": "{ \"Title\": \"Title\", \"Title\": { \"Title\": \"\" }}",
+      "xboxUrl": null
+    },
+    {
+      "androidTvUrl": "intent://stream.invalid/5",
+      "androidUrl": "https://stream.invalid/6",
+      "externalUrl": "https://stream.invalid/7",
+      "fireTvUrl": "intent://stream.invalid/8",
+      "iosUrl": "https://stream.invalid/9",
+      "name": "Title Max Title Title",
+      "rokuUrl": "Title/13?Title=Title.dv.Title.Title-Title-Title-Title-Title&Title=movie",
+      "titanOsUrl": null,
+      "title": "Title",
+      "tizenUrl": "{\"Title\":\"Title.Title.Title\",\"Title_Title\":\"Title.dv.Title.Title-Title-Title-Title-Title\"}",
+      "tvOsUrl": "aiv://stream.invalid/10",
+      "vidaaOsUrl": null,
+      "webosUrl": "{ \"Title\": \"Title\", \"Title\": { \"Title\": \"Title.dv.Title.Title-Title-Title-Title-Title\" }}",
+      "xboxUrl": "https://stream.invalid/11"
+    }
+  ]
+}
