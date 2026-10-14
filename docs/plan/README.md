@@ -22,8 +22,9 @@ Later phases are deliberately rough. A phase gets broken into tasks **when the p
 
 | | Current |
 |---|---|
-| Phase | 0 — not started |
-| Next up | [M0.1 Repo bootstrap](phase-0-spikes.md#m01-repo-bootstrap) |
+| Phase | 0 — in progress |
+| Done | [M0.1 Repo bootstrap](phase-0-spikes.md#m01-repo-bootstrap) (2026-10-14, PR #1) |
+| Next up | [S3 Rust Stremio protocol client](phase-0-spikes.md#s3-rust-stremio-protocol-client) |
 | Blocked on | nothing |
 
 Update this table whenever a milestone closes.

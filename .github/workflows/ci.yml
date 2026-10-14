@@ -1,0 +1,78 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+env:
+  CARGO_TERM_COLOR: always
+  RUSTFLAGS: -D warnings
+
+jobs:
+  fmt:
+    name: rustfmt
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - run: rustup show active-toolchain || rustup toolchain install
+      - run: cargo fmt --all --check
+
+  policy:
+    name: Repo policy (licenses, fixture secrets)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - run: rustup show active-toolchain || rustup toolchain install
+      - uses: Swatinem/rust-cache@v2
+      - run: cargo xtask check-licenses
+      - run: cargo run --quiet --package app-fixtures -- check fixtures
+
+  rust:
+    name: Rust (${{ matrix.os }})
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, macos-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v7
+      - run: rustup show active-toolchain || rustup toolchain install
+      - uses: Swatinem/rust-cache@v2
+      - run: cargo build --workspace --locked
+      - run: cargo clippy --workspace --all-targets --locked
+      - run: cargo test --workspace --locked
+
+  ui:
+    name: UI (${{ matrix.os }})
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, macos-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .node-version
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm typecheck
+      - run: pnpm lint
+      - run: pnpm -r run test
+      - run: pnpm build
+      # Boot the built UI in a real Chromium 94 (D14). Linux only: no other builds of that snapshot.
+      - if: runner.os == 'Linux'
+        uses: actions/cache@v6
+        with:
+          path: .cache/browsers
+          key: chromium94-911494-${{ runner.os }}
+      - if: runner.os == 'Linux'
+        run: pnpm chromium94:install
+      - if: runner.os == 'Linux'
+        run: pnpm smoke:chromium94

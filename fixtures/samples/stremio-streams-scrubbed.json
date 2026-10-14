@@ -1,0 +1,24 @@
+{
+  "transportUrl": "https://aiostreams.example.com/REDACTED/manifest.json",
+  "streams": [
+    {
+      "name": "[TB+] AIOStreams\n2160p",
+      "description": "The.Shawshank.Redemption.1994.2160p.UHD.BluRay.x265-GROUP\n18.3 GB",
+      "url": "https://aiostreams.example.com/REDACTED/playback/REDACTED/The.Shawshank.Redemption.1994.2160p.mkv",
+      "behaviorHints": {
+        "bingeGroup": "aiostreams|torbox|2160p",
+        "proxyHeaders": {
+          "request": {
+            "Authorization": "REDACTED"
+          }
+        }
+      }
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "infoHash": "2b1f8e0c9d7a6b5c4d3e2f1a0b9c8d7e6f5a4b3c",
+      "fileIdx": 0
+    }
+  ],
+  "cacheMaxAge": 3600
+}

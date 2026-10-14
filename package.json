@@ -1,0 +1,35 @@
+{
+  "name": "app-workspace",
+  "private": true,
+  "license": "GPL-3.0-or-later",
+  "type": "module",
+  "packageManager": "pnpm@12.4.1",
+  "engines": {
+    "node": ">=26"
+  },
+  "browserslist": [
+    "chrome >= 94"
+  ],
+  "scripts": {
+    "build": "pnpm -r run build",
+    "typecheck": "pnpm -r run typecheck",
+    "lint": "eslint . && stylelint \"**/*.css\" --allow-empty-input",
+    "test": "pnpm typecheck && pnpm -r run test",
+    "chromium94:install": "browsers install chromium@911494 --platform linux --path .cache/browsers",
+    "smoke:chromium94": "node scripts/smoke-chromium94.mjs"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@puppeteer/browsers": "^3.2.4",
+    "eslint": "^10.12.0",
+    "eslint-plugin-compat": "^7.0.2",
+    "globals": "^17.13.0",
+    "stylelint": "^17.16.0",
+    "stylelint-config-standard": "^40.0.0",
+    "stylelint-no-unsupported-browser-features": "^8.1.2",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.71.2",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.4"
+  }
+}

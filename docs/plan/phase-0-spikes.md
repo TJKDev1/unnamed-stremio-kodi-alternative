@@ -23,17 +23,17 @@ Suggested order: M0.1 → S3 → S1 → S4 → S2 → S7 → M0.2. S3 goes first
 
 **Exit criteria**
 - `cargo build`, `cargo test`, the UI build and lint all run in CI on Windows, macOS and Linux.
-- The [repository layout](../design/03-architecture.md#repository-layout-proposal) exists with placeholder crates/packages.
+- The [repository layout](../design/03-architecture.md#repository-layout) exists with placeholder crates/packages.
 - License files and per-crate license fields match D37.
 
 **Tasks**
-- [ ] T0.1.1 Cargo workspace with placeholder crates from the layout (`kernel`, `sdk-schema`, `core`, `addons-stremio`, `library`, `ranking`, `player`, `server`).
-- [ ] T0.1.2 UI workspace (pnpm) with `ui/app`, `ui/skin-default`, `ui/sdk`; TypeScript strict; build targets that cover Chromium 94 (D14).
-- [ ] T0.1.3 CI (GitHub Actions): fmt, clippy, tests, UI typecheck/lint/build, on the three desktop OSes.
-- [ ] T0.1.4 License files: GPL-3.0-or-later at root, AGPL-3.0-or-later for `server`/sync crates, MIT for SDKs; CI check on `Cargo.toml` license fields (D37, D59).
-- [ ] T0.1.5 `CONTRIBUTING.md`: task IDs in commits, spec-first workflow, definition of done (from [plan/README](README.md#definition-of-done-every-task)).
-- [ ] T0.1.6 `docs/spikes/` folder with a write-up template.
-- [ ] T0.1.7 Test fixtures folder for recorded addon responses (no secrets: a scrubber for debrid keys in URLs).
+- [x] T0.1.1 Cargo workspace with placeholder crates from the layout (`kernel`, `sdk-schema`, `core`, `addons-stremio`, `library`, `ranking`, `player`, `server`).
+- [x] T0.1.2 UI workspace (pnpm) with `ui/app`, `ui/skin-default`, `ui/sdk`; TypeScript strict; build targets that cover Chromium 94 (D14).
+- [x] T0.1.3 CI (GitHub Actions): fmt, clippy, tests, UI typecheck/lint/build, on the three desktop OSes.
+- [x] T0.1.4 License files: GPL-3.0-or-later at root, AGPL-3.0-or-later for `server`/sync crates, MIT for SDKs; CI check on `Cargo.toml` license fields (D37, D59).
+- [x] T0.1.5 `CONTRIBUTING.md`: task IDs in commits, spec-first workflow, definition of done (from [plan/README](README.md#definition-of-done-every-task)).
+- [x] T0.1.6 `docs/spikes/` folder with a write-up template.
+- [x] T0.1.7 Test fixtures folder for recorded addon responses (no secrets: a scrubber for debrid keys in URLs).
 
 ---
 
