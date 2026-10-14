@@ -2,13 +2,14 @@
 
 Status: **planning**, last updated 2026-10-14. The app is called **"the app"** throughout until we pick a name.
 
-The docs are split into three parts:
+The docs are split into three parts, plus spike reports:
 
 | Folder | What it is | Changes when… |
 |---|---|---|
 | [`design/`](design/) | The *why*: vision, research, architecture, decision log (D#), open questions | A decision is made or revisited |
 | [`plan/`](plan/README.md) | The *what and when*: phases → milestones → tasks, with exit criteria and checkboxes | Work starts, finishes or is re-scoped |
 | [`specs/`](specs/README.md) | The *exact contracts* code is written against: interfaces, schemas, conformance tests | Before a task that implements it starts; after a spike changes it |
+| [`spikes/`](spikes/README.md) | Phase 0 spike write-ups: what we tried, numbers, verdict | A spike finishes |
 
 Rule of thumb: **design says why, plan says what's next, specs say exactly how.** A task links to the spec it implements; a spec links to the decisions behind it.
 
