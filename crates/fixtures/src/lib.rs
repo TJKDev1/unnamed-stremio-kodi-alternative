@@ -131,14 +131,20 @@ impl Scrubber {
         (out, reason)
     }
 
-    /// Byte strings that must never survive: each secret, and each addon's `host/config`
-    /// (decoded), e.g. `aiostreams.example.com/stremio/<uuid>/<blob>`.
+    /// Byte strings that must never survive: each secret, and each addon's decoded config path
+    /// (e.g. `/stremio/<uuid>/<blob>`), whatever host, port or scheme it appears with. Very
+    /// short paths are anchored to the host to avoid redacting unrelated text.
     fn needles(&self) -> Vec<Vec<u8>> {
         let mut needles: Vec<Vec<u8>> =
             self.secrets.iter().map(|s| s.as_bytes().to_vec()).collect();
         for base in &self.addon_bases {
             if let Some((host, segments)) = base_parts(base) {
-                needles.push(format!("{host}/{}", segments.join("/")).into_bytes());
+                let path = format!("/{}", segments.join("/"));
+                needles.push(if path.len() >= 8 {
+                    path.into_bytes()
+                } else {
+                    format!("{host}{path}").into_bytes()
+                });
             }
         }
         needles
@@ -686,6 +692,19 @@ mod tests {
         assert!(!s.check(&v).is_empty());
         s.scrub(&mut v);
         assert_eq!(v["url"], "https://addon.example/REDACTED/manifest.json");
+        assert!(s.check(&v).is_empty());
+    }
+
+    #[test]
+    fn addon_config_in_prose_with_port_and_other_encoding_is_caught() {
+        let s = Scrubber::new()
+            .addon_url("http://localhost:3000/eyJ0b3Jib3giOiJteWtleTEyMyJ9==/manifest.json");
+        let mut v = json!({
+            "error": "Addon request failed: http://localhost:3000/eyJ0b3Jib3giOiJteWtleTEyMyJ9%3D%3D/manifest.json (timeout)"
+        });
+        assert!(!s.check(&v).is_empty());
+        s.scrub(&mut v);
+        assert!(!v.to_string().contains("eyJ0b3Jib3gi"), "{v}");
         assert!(s.check(&v).is_empty());
     }
 
