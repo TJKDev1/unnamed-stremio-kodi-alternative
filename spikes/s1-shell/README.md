@@ -20,6 +20,7 @@ macOS/Linux: install libmpv from the package manager (or set `S1_LIBMPV`). There
 | `--no-hint` | Turn off `target-colorspace-hint` (SDR output, tone-mapped) |
 | `--auto bench\|stress` | Unattended: run the tests, save results, quit |
 | `--seconds N` | Length of each test phase (default 10) |
+| `--mpv key=value` | Extra mpv option, repeatable (e.g. `--mpv video-sync=display-resample`) |
 
 Results go to `.cache/s1-results/<unix time>-{results.json,mpv.log,page.log}`.
 

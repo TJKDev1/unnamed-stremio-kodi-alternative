@@ -44,7 +44,9 @@ const clips = [
     file: "tearing.mkv",
     args: [
       "-f", "lavfi", "-i", `color=c=black:size=1920x1080:rate=60:duration=${SECONDS}`,
-      "-vf", "drawbox=x='mod(t*1920,1920)':y=0:w=48:h=1080:color=white:t=fill",
+      "-f", "lavfi", "-i", "color=c=white:size=48x1080:rate=60",
+      // overlay re-evaluates x every frame (drawbox only evaluates it once).
+      "-filter_complex", "[0][1]overlay=x='mod(t*1920,1920)':y=0:shortest=1",
       "-c:v", "libx264", "-preset", "fast", "-crf", "18", "-pix_fmt", "yuv420p",
     ],
   },

@@ -2,6 +2,7 @@
 //!
 //! usage: s1-shell [--file PATH] [--window transparent|opaque] [--embed|--no-embed]
 //!                 [--hint-mode source|target] [--no-hint] [--auto bench|stress] [--seconds N]
+//!                 [--mpv key=value]...
 //!
 //! See spikes/s1-shell/README.md.
 
@@ -33,6 +34,8 @@ struct Args {
     hint_mode: String,
     auto: Option<String>,
     seconds: u64,
+    /// Extra mpv options (`--mpv key=value`, repeatable), applied last.
+    mpv: Vec<String>,
 }
 
 fn parse_args() -> Args {
@@ -45,6 +48,7 @@ fn parse_args() -> Args {
         hint_mode: "source".into(),
         auto: None,
         seconds: 10,
+        mpv: Vec::new(),
     };
     let mut it = std::env::args().skip(1);
     while let Some(arg) = it.next() {
@@ -56,6 +60,7 @@ fn parse_args() -> Args {
             "--no-hint" => a.hint = false,
             "--hint-mode" => a.hint_mode = it.next().expect("--hint-mode source|target"),
             "--auto" => a.auto = it.next(),
+            "--mpv" => a.mpv.push(it.next().expect("--mpv key=value")),
             "--seconds" => a.seconds = it.next().and_then(|s| s.parse().ok()).expect("--seconds N"),
             other => panic!("unknown argument {other}"),
         }
@@ -133,6 +138,12 @@ fn start_mpv(
         if args.hint { "auto" } else { "no" },
     )?;
     m.set_option("target-colorspace-hint-mode", &args.hint_mode)?;
+    for kv in &args.mpv {
+        let (k, v) = kv
+            .split_once('=')
+            .ok_or_else(|| format!("--mpv {kv}: expected key=value"))?;
+        m.set_option(k, v)?;
+    }
     m.initialize("v")?;
     let m = Arc::new(m);
 
@@ -223,10 +234,10 @@ fn child_windows(state: tauri::State<'_, AppState>) -> Vec<String> {
     #[cfg(windows)]
     return win::describe_children(state.hwnd);
     #[cfg(not(windows))]
-    {
-        let _ = state;
-        Vec::new()
-    }
+    return vec![format!(
+        "native handle {:#x} (child windows: Windows only)",
+        state.hwnd
+    )];
 }
 
 #[tauri::command]
