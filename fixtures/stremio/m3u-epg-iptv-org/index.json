@@ -1,0 +1,76 @@
+{
+  "addon": "https://stiptv.ddns.me/REDACTED/manifest.json",
+  "recorded": "2026-10-14",
+  "requests": [
+    {
+      "cacheControl": "no-transform",
+      "file": "catalog/tv/iptv_channels.json",
+      "path": "/catalog/tv/iptv_channels.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "no-transform",
+      "file": "catalog/movie/iptv_movies.json",
+      "path": "/catalog/movie/iptv_movies.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "no-transform",
+      "file": "catalog/tv/iptv_channels/skip%3D100.json",
+      "path": "/catalog/tv/iptv_channels/skip=100.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "no-transform",
+      "file": "catalog/tv/iptv_channels/search%3Ddune.json",
+      "path": "/catalog/tv/iptv_channels/search=dune.json",
+      "status": 200,
+      "trimmed": false
+    },
+    {
+      "cacheControl": "no-transform",
+      "file": "meta/tv/iptv_2c594428bd2ecc63.json",
+      "path": "/meta/tv/iptv_2c594428bd2ecc63.json",
+      "status": 200,
+      "trimmed": false
+    },
+    {
+      "cacheControl": "no-transform",
+      "file": "meta/movie/iptv_273bc8dec8e79dea.json",
+      "path": "/meta/movie/iptv_273bc8dec8e79dea.json",
+      "status": 200,
+      "trimmed": false
+    },
+    {
+      "cacheControl": "no-transform",
+      "file": "meta/tv/iptv_0c65b2101b372c0e.json",
+      "path": "/meta/tv/iptv_0c65b2101b372c0e.json",
+      "status": 200,
+      "trimmed": false
+    },
+    {
+      "cacheControl": "no-transform",
+      "file": "stream/tv/iptv_2c594428bd2ecc63.json",
+      "path": "/stream/tv/iptv_2c594428bd2ecc63.json",
+      "status": 200,
+      "trimmed": false
+    },
+    {
+      "cacheControl": "no-transform",
+      "file": "stream/movie/iptv_273bc8dec8e79dea.json",
+      "path": "/stream/movie/iptv_273bc8dec8e79dea.json",
+      "status": 200,
+      "trimmed": false
+    },
+    {
+      "cacheControl": "no-transform",
+      "file": "stream/tv/iptv_0c65b2101b372c0e.json",
+      "path": "/stream/tv/iptv_0c65b2101b372c0e.json",
+      "status": 200,
+      "trimmed": false
+    }
+  ]
+}

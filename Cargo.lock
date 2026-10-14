@@ -59,7 +59,9 @@ name = "app-stremio-cli"
 version = "0.0.0"
 dependencies = [
  "app-addons-stremio",
+ "app-fixtures",
  "futures",
+ "serde_json",
  "tokio",
 ]
 

@@ -23,9 +23,9 @@ Later phases are deliberately rough. A phase gets broken into tasks **when the p
 | | Current |
 |---|---|
 | Phase | 0 — in progress |
-| Done | [M0.1 Repo bootstrap](phase-0-spikes.md#m01-repo-bootstrap) (2026-10-14, PR #1) |
-| Next up | [S3 Rust Stremio protocol client](phase-0-spikes.md#s3-rust-stremio-protocol-client) |
-| Blocked on | nothing |
+| Done | [M0.1 Repo bootstrap](phase-0-spikes.md#m01-repo-bootstrap) (2026-10-14, PR #1); [S3 Stremio client](phase-0-spikes.md#s3-rust-stremio-protocol-client) code + report ([S3](../spikes/S3.md)) |
+| Next up | [S1 libmpv under a transparent webview](phase-0-spikes.md#s1-libmpv-under-a-transparent-webview) |
+| Blocked on | nothing. Owner to-do: record AIOStreams, Comet, MediaFusion fixtures to fully close S3 (T0.S3.7) |
 
 Update this table whenever a milestone closes.
 

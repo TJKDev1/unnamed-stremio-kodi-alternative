@@ -21,6 +21,8 @@
 use serde_json::Value;
 use url::Url;
 
+pub mod anonymize;
+
 /// Replacement for every removed secret.
 pub const REDACTED: &str = "REDACTED";
 

@@ -1,0 +1,11 @@
+{
+  "streams": [
+    {
+      "behaviorHints": {
+        "notWebReady": true
+      },
+      "title": "Title Title",
+      "url": "https://stream.invalid/1.m3u8"
+    }
+  ]
+}

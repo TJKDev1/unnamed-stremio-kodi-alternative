@@ -1,0 +1,725 @@
+{
+  "meta": {
+    "ageRating": null,
+    "app_extras": {
+      "cast": [
+        {
+          "character": "Peter Parker / Spider-Man",
+          "name": "Tom Holland",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/adwEBb2sCSzqwnpVgNEG7irl1Ne.jpg"
+        },
+        {
+          "character": "Jean Grey",
+          "name": "Sadie Sink",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/92FddzBfK50XOUbtwjqHPraoGHy.jpg"
+        },
+        {
+          "character": "William 'Bill' Metzger",
+          "name": "Tramell Tillman",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/bEA15zMnkcXlRroYjKrFUWiiK7y.jpg"
+        },
+        {
+          "character": "MJ",
+          "name": "Zendaya",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/qGkBlyn1AwQpuFnRARMRwj0iHZp.jpg"
+        },
+        {
+          "character": "Ned Leeds",
+          "name": "Jacob Batalon",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/53YhaL4xw4Sb1ssoHkeSSBaO29c.jpg"
+        },
+        {
+          "character": "Frank Castle / Punisher",
+          "name": "Jon Bernthal",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/bjcglF1IpDcZNs1HwFxakGpzBo6.jpg"
+        },
+        {
+          "character": "Bruce Banner / Hulk",
+          "name": "Mark Ruffalo",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/5GilHMOt5PAQh6rlUKZzGmaKEI7.jpg"
+        },
+        {
+          "character": "Yelena Belova / Black Widow",
+          "name": "Florence Pugh",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/2URrZb95t3kY6pLroKny3Enmabp.jpg"
+        },
+        {
+          "character": "Detective Jean DeWolff",
+          "name": "Liza Colón-Zayas",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/q2gHcef0wckji0AS8ZEO6cYx065.jpg"
+        },
+        {
+          "character": "May Parker",
+          "name": "Marisa Tomei",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/vAQ10fvGfVyuJdMNKVMA4ZkacWL.jpg"
+        },
+        {
+          "character": "E.V. (voice)",
+          "name": "Naomi Watts",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/7ysvff7ZhW388SIh2YjQ0XIryOn.jpg"
+        },
+        {
+          "character": "Mac Gargan / Scorpion",
+          "name": "Michael Mando",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/gvM2wG66bjEpiirdeQdyG9EzUfv.jpg"
+        },
+        {
+          "character": "Narrator of Spider Video (voice)",
+          "name": "Keith David",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/1x0QXavmIy3QmhyrOsV7gMnJaEx.jpg"
+        },
+        {
+          "character": "Tombstone",
+          "name": "Marvin Jones III",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/nS4X8TP3idFsxDdV9UqTRbz585g.jpg"
+        },
+        {
+          "character": "Sara",
+          "name": "Olivia Booth-Ford",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/nBerjq4BKbhxQeTgVKaD4zvmRKs.jpg"
+        },
+        {
+          "character": "Apartment Girl",
+          "name": "Taryn Marie Butler",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/6J0TwaDUldwthNJEeOsZxbbKMHk.jpg"
+        },
+        {
+          "character": "Building Manager",
+          "name": "Johnny Myers",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/lGRoYKUPsGgB3LfJjtuHCppzSDD.jpg"
+        },
+        {
+          "character": "Ramrod",
+          "name": "Billy Clements",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/nipJ22DXJBsdM1teQodwop42U6S.jpg"
+        },
+        {
+          "character": "Sheila Rivera",
+          "name": "Zabryna Guevara",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/7NlCmTZoauvyqjNdzTZv2auwOXg.jpg"
+        },
+        {
+          "character": "Marley",
+          "name": "Nina Rose Galano",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/eASy0nRcdFp8IFgAv6t4aeUpzMF.jpg"
+        },
+        {
+          "character": "EJ",
+          "name": "Maikol Roque",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mvHuLX4jwOqgm4HLV4S7e8MscxK.jpg"
+        },
+        {
+          "character": "NYC Street Driver",
+          "name": "Jamel Davall Rodriguez",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/cvjAg6a3bXwGuDppbHQ5dWc8E7X.jpg"
+        },
+        {
+          "character": "Scooter Kid",
+          "name": "Ethan Sokontwe",
+          "photo": null
+        },
+        {
+          "character": "Tour Bus Guide",
+          "name": "Tariyé Peterside",
+          "photo": null
+        },
+        {
+          "character": "DODC Escort Guard",
+          "name": "Phoenix Di Sebastiani",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mBkkZ5irQZPsxdcCIPLCvNv5iT8.jpg"
+        },
+        {
+          "character": "Female Janitor",
+          "name": "Vivien Keene",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/7csygYDCRBnA7HET56990kK2ZWZ.jpg"
+        },
+        {
+          "character": "DODC Box Guard",
+          "name": "Kurtis Lowe",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/hl2paxbdmhZYVCiEfYx1HiCdD6M.jpg"
+        },
+        {
+          "character": "DODC Box Agent",
+          "name": "Marc Small",
+          "photo": null
+        },
+        {
+          "character": "Warehouse Worker",
+          "name": "David Hepple",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/axRNDGr0MNeUKJBJA8nQcNq5adC.jpg"
+        },
+        {
+          "character": "DODC Crew Chief",
+          "name": "Jamaal Burcher",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/d0Y282nAAAXEs9zmsd7v7jHJkD9.jpg"
+        },
+        {
+          "character": "Bathhouse Attendant",
+          "name": "Lieve Carchon",
+          "photo": null
+        },
+        {
+          "character": "Female DODC Guard",
+          "name": "Mary Stillwaggon Stewart",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/atHOg8beOKwXa5epAWttJ77YIVS.jpg"
+        },
+        {
+          "character": "DODC Weapons Tech",
+          "name": "Luka Hays",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/JymMSMDfVVv2Azoeu8piiqRr1f.jpg"
+        },
+        {
+          "character": "Bodega Clerk",
+          "name": "Camila López",
+          "photo": null
+        },
+        {
+          "character": "Partygoer",
+          "name": "Robert Veng",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/jH41qpyAwgAdyWJS6c1OlYENGhb.jpg"
+        },
+        {
+          "character": "Partygoer",
+          "name": "Aoife Haakenson",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/6NqGTvzQxXxP8hVgk9sP6Fdj8HS.jpg"
+        },
+        {
+          "character": "Partygoer",
+          "name": "Gabriel Blaikie",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/olsbUaK4AbpJtbKfsSm3m97yqff.jpg"
+        },
+        {
+          "character": "The Boyfriend",
+          "name": "Eman Esfandi",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/lrDfNC81vTkFW9WApEDiC1euHZn.jpg"
+        },
+        {
+          "character": "Building Tenant",
+          "name": "Shing Moussa Chung",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/eKys0g3R4WxpQ20gFr4R9MfLkHc.jpg"
+        },
+        {
+          "character": "Apartment Girl Boyfriend",
+          "name": "Akil Young",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/6UXuF1yM1MG4cja1MK6VWElEtKV.jpg"
+        },
+        {
+          "character": "DODC Substation Guard",
+          "name": "Benedict Cezair-Thompson",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/3QQRJIn43weIE91q1vgNJs7hV9.jpg"
+        },
+        {
+          "character": "Cindy",
+          "name": "Shannon Young Cho",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/1BLAZ6DZS29nQ3k1BmJU3XGvST7.jpg"
+        },
+        {
+          "character": "David",
+          "name": "Niyi Akin",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/rTqhakLTHzJcUlLcF8CYj1hmz2r.jpg"
+        },
+        {
+          "character": "Businessman",
+          "name": "Carlos Agualusa",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/blNxDInTehaB1yu61GmF4bDQ6Fa.jpg"
+        },
+        {
+          "character": "Street Woman",
+          "name": "Shelley Williams",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/7lzLwZRNGTDVqU5alnly5ZI7LsP.jpg"
+        },
+        {
+          "character": "Street Worker",
+          "name": "Jud Charlton",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/T1UcgXk2pQDq8O9jE2aFJn9bp5.jpg"
+        },
+        {
+          "character": "Balcony Guy",
+          "name": "John Moraitis",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/9h9cG6PyfEmhX4oMmmYnQyK4BuA.jpg"
+        },
+        {
+          "character": "Balcony Girl",
+          "name": "Beatriz Do O",
+          "photo": null
+        },
+        {
+          "character": "Lucy (Bride)",
+          "name": "Daisy Sequerra",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/gPrxwTtId6ZVOpCkCc7QEHQQoit.jpg"
+        },
+        {
+          "character": "John (Groom)",
+          "name": "Nezar Alderazi",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/940awVhZvZO9ANqj3TE9ExcSB88.jpg"
+        },
+        {
+          "character": "Cater-Waiter",
+          "name": "Daniel Kabanda",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ctcwQIg4thdEUIgKhqhbGVMJtOh.jpg"
+        },
+        {
+          "character": "Marriage Heli Pilot",
+          "name": "Michael Magnet",
+          "photo": null
+        },
+        {
+          "character": "Night Driver",
+          "name": "Simon Schatzberger",
+          "photo": null
+        },
+        {
+          "character": "DODC Tech",
+          "name": "Sean Carrington",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/eGt8fd6qSDOxi0PTgYOsvICLPcD.jpg"
+        },
+        {
+          "character": "DODC Prison Yard Guard",
+          "name": "Anthony Nyro",
+          "photo": null
+        },
+        {
+          "character": "DODC Containment Guard",
+          "name": "Michael Amariah",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mWsW3cdo2gFsvymHSoefrRBHGuq.jpg"
+        },
+        {
+          "character": "Snow",
+          "name": "Fan Xiaoshuang",
+          "photo": null
+        },
+        {
+          "character": "Web Kid",
+          "name": "Elvis Carlos",
+          "photo": null
+        },
+        {
+          "character": "Pat Kiernan (uncredited)",
+          "name": "Pat Kiernan",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/8AYGHy2JeJFjcAKyyIRe6lpk35a.jpg"
+        }
+      ]
+    },
+    "background": "https://image.tmdb.org/t/p/original/4tjxYg2AbOzzG9G1YuiT2NzYhlH.jpg",
+    "behaviorHints": {
+      "defaultVideoId": "tt22084616",
+      "hasScheduledVideos": false
+    },
+    "country": "United States of America",
+    "description": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
+    "director": [
+      "Destin Daniel Cretton"
+    ],
+    "genre": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "id": "tmdb:969681",
+    "imdbRating": "8.0",
+    "imdb_id": "tt22084616",
+    "links": [
+      {
+        "category": "imdb",
+        "name": "8.0",
+        "url": "https://imdb.com/title/tt22084616"
+      },
+      {
+        "category": "share",
+        "name": "Spider-Man: Brand New Day",
+        "url": "https://www.strem.io/s/movie/spider-man:-brand-new-day-22084616"
+      },
+      {
+        "category": "Genres",
+        "name": "Science Fiction",
+        "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/movie/tmdb.top?genre=Science%20Fiction"
+      },
+      {
+        "category": "Genres",
+        "name": "Action",
+        "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/movie/tmdb.top?genre=Action"
+      },
+      {
+        "category": "Genres",
+        "name": "Adventure",
+        "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/movie/tmdb.top?genre=Adventure"
+      },
+      {
+        "category": "Cast",
+        "name": "Tom Holland",
+        "url": "stremio:///search?search=Tom%20Holland"
+      },
+      {
+        "category": "Cast",
+        "name": "Sadie Sink",
+        "url": "stremio:///search?search=Sadie%20Sink"
+      },
+      {
+        "category": "Cast",
+        "name": "Tramell Tillman",
+        "url": "stremio:///search?search=Tramell%20Tillman"
+      },
+      {
+        "category": "Cast",
+        "name": "Zendaya",
+        "url": "stremio:///search?search=Zendaya"
+      },
+      {
+        "category": "Cast",
+        "name": "Jacob Batalon",
+        "url": "stremio:///search?search=Jacob%20Batalon"
+      },
+      {
+        "category": "Cast",
+        "name": "Jon Bernthal",
+        "url": "stremio:///search?search=Jon%20Bernthal"
+      },
+      {
+        "category": "Cast",
+        "name": "Mark Ruffalo",
+        "url": "stremio:///search?search=Mark%20Ruffalo"
+      },
+      {
+        "category": "Cast",
+        "name": "Florence Pugh",
+        "url": "stremio:///search?search=Florence%20Pugh"
+      },
+      {
+        "category": "Cast",
+        "name": "Liza Colón-Zayas",
+        "url": "stremio:///search?search=Liza%20Col%C3%B3n-Zayas"
+      },
+      {
+        "category": "Cast",
+        "name": "Marisa Tomei",
+        "url": "stremio:///search?search=Marisa%20Tomei"
+      },
+      {
+        "category": "Cast",
+        "name": "Naomi Watts",
+        "url": "stremio:///search?search=Naomi%20Watts"
+      },
+      {
+        "category": "Cast",
+        "name": "Michael Mando",
+        "url": "stremio:///search?search=Michael%20Mando"
+      },
+      {
+        "category": "Cast",
+        "name": "Keith David",
+        "url": "stremio:///search?search=Keith%20David"
+      },
+      {
+        "category": "Cast",
+        "name": "Marvin Jones III",
+        "url": "stremio:///search?search=Marvin%20Jones%20III"
+      },
+      {
+        "category": "Cast",
+        "name": "Olivia Booth-Ford",
+        "url": "stremio:///search?search=Olivia%20Booth-Ford"
+      },
+      {
+        "category": "Cast",
+        "name": "Taryn Marie Butler",
+        "url": "stremio:///search?search=Taryn%20Marie%20Butler"
+      },
+      {
+        "category": "Cast",
+        "name": "Johnny Myers",
+        "url": "stremio:///search?search=Johnny%20Myers"
+      },
+      {
+        "category": "Cast",
+        "name": "Billy Clements",
+        "url": "stremio:///search?search=Billy%20Clements"
+      },
+      {
+        "category": "Cast",
+        "name": "Zabryna Guevara",
+        "url": "stremio:///search?search=Zabryna%20Guevara"
+      },
+      {
+        "category": "Cast",
+        "name": "Nina Rose Galano",
+        "url": "stremio:///search?search=Nina%20Rose%20Galano"
+      },
+      {
+        "category": "Cast",
+        "name": "Maikol Roque",
+        "url": "stremio:///search?search=Maikol%20Roque"
+      },
+      {
+        "category": "Cast",
+        "name": "Jamel Davall Rodriguez",
+        "url": "stremio:///search?search=Jamel%20Davall%20Rodriguez"
+      },
+      {
+        "category": "Cast",
+        "name": "Ethan Sokontwe",
+        "url": "stremio:///search?search=Ethan%20Sokontwe"
+      },
+      {
+        "category": "Cast",
+        "name": "Tariyé Peterside",
+        "url": "stremio:///search?search=Tariy%C3%A9%20Peterside"
+      },
+      {
+        "category": "Cast",
+        "name": "Phoenix Di Sebastiani",
+        "url": "stremio:///search?search=Phoenix%20Di%20Sebastiani"
+      },
+      {
+        "category": "Cast",
+        "name": "Vivien Keene",
+        "url": "stremio:///search?search=Vivien%20Keene"
+      },
+      {
+        "category": "Cast",
+        "name": "Kurtis Lowe",
+        "url": "stremio:///search?search=Kurtis%20Lowe"
+      },
+      {
+        "category": "Cast",
+        "name": "Marc Small",
+        "url": "stremio:///search?search=Marc%20Small"
+      },
+      {
+        "category": "Cast",
+        "name": "David Hepple",
+        "url": "stremio:///search?search=David%20Hepple"
+      },
+      {
+        "category": "Cast",
+        "name": "Jamaal Burcher",
+        "url": "stremio:///search?search=Jamaal%20Burcher"
+      },
+      {
+        "category": "Cast",
+        "name": "Lieve Carchon",
+        "url": "stremio:///search?search=Lieve%20Carchon"
+      },
+      {
+        "category": "Cast",
+        "name": "Mary Stillwaggon Stewart",
+        "url": "stremio:///search?search=Mary%20Stillwaggon%20Stewart"
+      },
+      {
+        "category": "Cast",
+        "name": "Luka Hays",
+        "url": "stremio:///search?search=Luka%20Hays"
+      },
+      {
+        "category": "Cast",
+        "name": "Camila López",
+        "url": "stremio:///search?search=Camila%20L%C3%B3pez"
+      },
+      {
+        "category": "Cast",
+        "name": "Robert Veng",
+        "url": "stremio:///search?search=Robert%20Veng"
+      },
+      {
+        "category": "Cast",
+        "name": "Aoife Haakenson",
+        "url": "stremio:///search?search=Aoife%20Haakenson"
+      },
+      {
+        "category": "Cast",
+        "name": "Gabriel Blaikie",
+        "url": "stremio:///search?search=Gabriel%20Blaikie"
+      },
+      {
+        "category": "Cast",
+        "name": "Eman Esfandi",
+        "url": "stremio:///search?search=Eman%20Esfandi"
+      },
+      {
+        "category": "Cast",
+        "name": "Shing Moussa Chung",
+        "url": "stremio:///search?search=Shing%20Moussa%20Chung"
+      },
+      {
+        "category": "Cast",
+        "name": "Akil Young",
+        "url": "stremio:///search?search=Akil%20Young"
+      },
+      {
+        "category": "Cast",
+        "name": "Benedict Cezair-Thompson",
+        "url": "stremio:///search?search=Benedict%20Cezair-Thompson"
+      },
+      {
+        "category": "Cast",
+        "name": "Shannon Young Cho",
+        "url": "stremio:///search?search=Shannon%20Young%20Cho"
+      },
+      {
+        "category": "Cast",
+        "name": "Niyi Akin",
+        "url": "stremio:///search?search=Niyi%20Akin"
+      },
+      {
+        "category": "Cast",
+        "name": "Carlos Agualusa",
+        "url": "stremio:///search?search=Carlos%20Agualusa"
+      },
+      {
+        "category": "Cast",
+        "name": "Shelley Williams",
+        "url": "stremio:///search?search=Shelley%20Williams"
+      },
+      {
+        "category": "Cast",
+        "name": "Jud Charlton",
+        "url": "stremio:///search?search=Jud%20Charlton"
+      },
+      {
+        "category": "Cast",
+        "name": "John Moraitis",
+        "url": "stremio:///search?search=John%20Moraitis"
+      },
+      {
+        "category": "Cast",
+        "name": "Beatriz Do O",
+        "url": "stremio:///search?search=Beatriz%20Do%20O"
+      },
+      {
+        "category": "Cast",
+        "name": "Daisy Sequerra",
+        "url": "stremio:///search?search=Daisy%20Sequerra"
+      },
+      {
+        "category": "Cast",
+        "name": "Nezar Alderazi",
+        "url": "stremio:///search?search=Nezar%20Alderazi"
+      },
+      {
+        "category": "Cast",
+        "name": "Daniel Kabanda",
+        "url": "stremio:///search?search=Daniel%20Kabanda"
+      },
+      {
+        "category": "Cast",
+        "name": "Michael Magnet",
+        "url": "stremio:///search?search=Michael%20Magnet"
+      },
+      {
+        "category": "Cast",
+        "name": "Simon Schatzberger",
+        "url": "stremio:///search?search=Simon%20Schatzberger"
+      },
+      {
+        "category": "Cast",
+        "name": "Sean Carrington",
+        "url": "stremio:///search?search=Sean%20Carrington"
+      },
+      {
+        "category": "Cast",
+        "name": "Anthony Nyro",
+        "url": "stremio:///search?search=Anthony%20Nyro"
+      },
+      {
+        "category": "Cast",
+        "name": "Michael Amariah",
+        "url": "stremio:///search?search=Michael%20Amariah"
+      },
+      {
+        "category": "Cast",
+        "name": "Fan Xiaoshuang",
+        "url": "stremio:///search?search=Fan%20Xiaoshuang"
+      },
+      {
+        "category": "Cast",
+        "name": "Elvis Carlos",
+        "url": "stremio:///search?search=Elvis%20Carlos"
+      },
+      {
+        "category": "Cast",
+        "name": "Pat Kiernan",
+        "url": "stremio:///search?search=Pat%20Kiernan"
+      },
+      {
+        "category": "Directors",
+        "name": "Destin Daniel Cretton",
+        "url": "stremio:///search?search=Destin%20Daniel%20Cretton"
+      },
+      {
+        "category": "Writers",
+        "name": "Erik Sommers",
+        "url": "stremio:///search?search=Erik%20Sommers"
+      },
+      {
+        "category": "Writers",
+        "name": "Chris McKenna",
+        "url": "stremio:///search?search=Chris%20McKenna"
+      },
+      {
+        "category": "Spider-Man (MCU) Collection",
+        "name": "Spider-Man: Homecoming",
+        "url": "stremio:///detail/movie/tmdb:315635"
+      },
+      {
+        "category": "Spider-Man (MCU) Collection",
+        "name": "Spider-Man: Far From Home",
+        "url": "stremio:///detail/movie/tmdb:429617"
+      },
+      {
+        "category": "Spider-Man (MCU) Collection",
+        "name": "Spider-Man: No Way Home",
+        "url": "stremio:///detail/movie/tmdb:634649"
+      },
+      {
+        "category": "Spider-Man (MCU) Collection",
+        "name": "Spider-Man: Brand New Day",
+        "url": "stremio:///detail/movie/tmdb:969681"
+      }
+    ],
+    "logo": "https://image.tmdb.org/t/p/original/dGMb0iSnNp7UMAHkKX63Kh6AJvy.png",
+    "name": "Spider-Man: Brand New Day",
+    "poster": "https://image.tmdb.org/t/p/w500/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+    "releaseInfo": "2026",
+    "released": "2026-07-29T00:00:00.000Z",
+    "runtime": "2h25min",
+    "slug": "movie/spider-man:-brand-new-day-22084616",
+    "trailerStreams": [
+      {
+        "title": "Final Trailer (Peter’s Journey)",
+        "ytId": "P3uI5sLosKU"
+      },
+      {
+        "title": "New Trailer",
+        "ytId": "62bIsvRcPv0"
+      },
+      {
+        "title": "Official Trailer",
+        "ytId": "8TZMtslA3UY"
+      }
+    ],
+    "trailers": [
+      {
+        "source": "P3uI5sLosKU",
+        "type": "Trailer"
+      },
+      {
+        "source": "62bIsvRcPv0",
+        "type": "Trailer"
+      },
+      {
+        "source": "8TZMtslA3UY",
+        "type": "Trailer"
+      }
+    ],
+    "type": "movie",
+    "writer": [
+      "Erik Sommers",
+      "Chris McKenna"
+    ],
+    "year": "2026"
+  }
+}

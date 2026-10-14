@@ -34,7 +34,8 @@ The default implementation (`ReqwestTransport`, feature `reqwest`, on by default
 - `ManifestResource` accepts a string (`"stream"`) or an object (`{name, types, idPrefixes}`).
 - Legacy catalog extras (`extraSupported: [names]`, `extraRequired: [names]`) are normalized into `extra: [ExtraProp]` (`isRequired` set for names in `extraRequired`). The original fields are not re-emitted.
 - `Stream` keeps all protocol fields; `Stream::source()` classifies it as `Url`, `YouTube`, `Torrent { info_hash, file_idx, sources, file_must_include }`, `External`, `Nzb`, `Archive { kind, urls }`, or `Unknown`. A stream with no playable source is kept as `Unknown`: the UI shows "requires plugin" instead of hiding it.
-- Numbers that addons send as strings (`fileIdx: "3"`, `videoSize: "123"`) are accepted.
+- Numbers that addons send as strings (`fileIdx: "3"`, `videoSize: "123"`) are accepted, and strings sent as numbers (`imdbRating: 7.5`, `releaseInfo: 2010`) are stringified.
+- Legacy aliases are **not** serde aliases: Cinemeta and TMDB send `episode` *and* `number`, `title` *and* `name` on the same video, which an alias rejects as a duplicate field. `Video::episode_number()` / `Video::display_title()` fall back to the legacy field instead.
 
 ### Manifest validation
 `Manifest::from_json` fails when `id`, `name` or `version` is missing or empty, or when no `resources` entry is usable. It returns warnings (not errors) when:
@@ -76,10 +77,16 @@ No hints, all-zero hints, or `no-store`/`no-cache` ⇒ not cached. The cache key
 ### Fixtures (D61, D62)
 `fixtures/stremio/<addon>/` holds:
 - `manifest.json`: the manifest response body;
-- `<resource>/<type>/<id>[/<extra>].json`: response bodies, with every path segment percent-encoded for the filesystem (everything except `A-Z a-z 0-9 - _ .`, so `:` becomes `%3A`, which is legal on Windows);
-- `index.json`: `{ "addon": <scrubbed transport URL>, "recorded": "YYYY-MM-DD", "requests": [{ "path", "status", "cacheControl", "file" }] }`.
+- `<resource>/<type>/<id>[/<extra>].json`: response bodies (`ResourcePath::fixture_path`), with every path segment percent-encoded for the filesystem (everything except `A-Z a-z 0-9 - _ .`, so `:` becomes `%3A`, which is legal on Windows; the extra segment is the already-encoded `name=value&…` string, encoded again);
+- `index.json`: `{ "addon": <scrubbed transport URL>, "recorded": "YYYY-MM-DD", "requests": [{ "path", "status", "cacheControl", "file", "trimmed" }] }`. `file` is `null` when the response wasn't usable (non-2xx or not a valid response); network failures have `error` instead of `status`.
 
-Recordings are written by `stremio-cli record`, which scrubs secrets (T0.1.7 scrubber) **and** anonymizes stream and subtitle content before anything touches disk. Anonymizing keeps the shape and the technical tokens (resolution, codec, HDR, size, languages, emoji) and replaces work titles, release groups, info hashes and stream URLs with synthetic values. It's idempotent, and CI checks every committed fixture is already scrubbed and anonymized.
+Recordings are written by `stremio-cli record`, which, **before anything touches disk**:
+1. cuts every `metas`/`metasDetailed`/`videos`/`streams`/`subtitles`/`addons` list to its first 10 items (order and shape survive; `trimmed: true` in the index);
+2. scrubs secrets (T0.1.7 scrubber, plus `FIXTURE_SECRETS`);
+3. anonymizes stream and subtitle content (`app_fixtures::anonymize`): technical tokens (resolution, codec, HDR, size, languages), numbers, emoji and punctuation are kept; every other word becomes `Title`; info/video hashes become zero-padded counters; URLs become `<scheme>://stream.invalid/<n>[.ext]`. Subtitle `id`/`url`/`lang`, `ytId` and public tracker URLs stay;
+4. re-checks every written file and fails if anything still looks secret.
+
+Anonymizing is idempotent; `app-fixtures check` (CI) fails on any fixture that isn't already scrubbed and anonymized. Without explicit paths the recorder picks up to 8 catalogs plus one `skip`, `genre` and `search` variant, both addon catalogs, up to 3 metas (ids from catalogs first, then Inception / Game of Thrones / Cowboy Bebop) and up to 5 stream and subtitle requests the manifest claims to serve.
 
 ## Behaviour (known constraints)
 - Movie without `videos` ⇒ video id = meta id.
@@ -91,7 +98,7 @@ Recordings are written by `stremio-cli record`, which scrubs secrets (T0.1.7 scr
 - A non-2xx status or a body that isn't JSON is an error for that addon only.
 
 ## Conformance tests
-- Every committed fixture parses with **zero dropped items** and its manifest validates without errors (`cargo test -p app-addons-stremio`).
+- Every committed fixture parses with **zero dropped items** and its manifest validates without errors (`crates/addons-stremio/tests/conformance.rs`).
 - Legacy manifest forms (`extraSupported/extraRequired`, resource strings vs objects): unit tests on synthetic manifests.
 - Route encoding against stremio-core's `encodeURIComponent` set.
 - Cache table above with a fake clock.

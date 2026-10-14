@@ -431,11 +431,10 @@ impl Meta {
 pub struct Video {
     #[serde(deserialize_with = "string")]
     pub id: String,
-    /// `title` in the protocol; some addons use `name`.
+    /// `title` in the protocol; see [`Video::display_title`] for the `name` fallback.
     #[serde(
         default,
         deserialize_with = "de::opt_string",
-        alias = "name",
         skip_serializing_if = "Option::is_none"
     )]
     pub title: Option<String>,
@@ -451,11 +450,10 @@ pub struct Video {
         skip_serializing_if = "Option::is_none"
     )]
     pub season: Option<u64>,
-    /// `episode` in the protocol; old addons use `number`.
+    /// `episode` in the protocol; see [`Video::episode_number`] for the `number` fallback.
     #[serde(
         default,
         deserialize_with = "de::opt_u64",
-        alias = "number",
         skip_serializing_if = "Option::is_none"
     )]
     pub episode: Option<u64>,
@@ -480,6 +478,24 @@ pub struct Video {
     pub streams: Vec<Stream>,
     #[serde(flatten)]
     pub other: Other,
+}
+
+impl Video {
+    /// `title`, or the legacy `name` (Cinemeta and TMDB send both; serde aliases would reject
+    /// that as a duplicate field, so the fallback is read from `other`).
+    pub fn display_title(&self) -> Option<&str> {
+        self.title
+            .as_deref()
+            .or_else(|| self.other.get("name").and_then(Value::as_str))
+    }
+
+    /// `episode`, or the legacy `number`.
+    pub fn episode_number(&self) -> Option<u64> {
+        self.episode.or_else(|| {
+            let n = self.other.get("number")?;
+            n.as_u64().or_else(|| n.as_str()?.trim().parse().ok())
+        })
+    }
 }
 
 // ---------------------------------------------------------------------------------------------
@@ -929,6 +945,21 @@ mod tests {
             StreamSource::Archive("rar")
         );
         assert_eq!(s(json!({ "name": "?" })).source(), StreamSource::Unknown);
+    }
+
+    #[test]
+    fn videos_with_both_new_and_legacy_fields() {
+        let parsed: Parsed<MetaResponse> = parse_value(json!({ "meta": {
+            "id": "tt1", "type": "series", "videos": [
+                { "id": "tt1:1:1", "episode": 1, "number": 1, "title": "A", "name": "A" },
+                { "id": "tt1:1:2", "number": "2", "name": "B" }
+            ]
+        }}));
+        assert!(parsed.dropped.is_empty(), "{:?}", parsed.dropped);
+        let videos = parsed.value.meta.unwrap().videos;
+        assert_eq!(videos[0].episode_number(), Some(1));
+        assert_eq!(videos[1].episode_number(), Some(2));
+        assert_eq!(videos[1].display_title(), Some("B"));
     }
 
     #[test]

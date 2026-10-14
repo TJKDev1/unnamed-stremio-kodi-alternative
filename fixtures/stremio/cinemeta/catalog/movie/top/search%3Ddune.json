@@ -1,0 +1,147 @@
+{
+  "cacheMaxAge": 86400,
+  "metas": [
+    {
+      "background": "https://images.metahub.space/background/medium/tt1160419/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt1160419",
+        "hasScheduledVideos": false
+      },
+      "id": "tt1160419",
+      "imdb_id": "tt1160419",
+      "links": [],
+      "name": "Dune",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNWIyNmU5MGYtZDZmNi00ZjAwLWJlYjgtZTc0ZGIxMDE4ZGYwXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2021",
+      "type": "movie"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt15239678/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt15239678",
+        "hasScheduledVideos": false
+      },
+      "id": "tt15239678",
+      "imdb_id": "tt15239678",
+      "links": [],
+      "name": "Dune: Part Two",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2024",
+      "type": "movie"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt31378509/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt31378509",
+        "hasScheduledVideos": false
+      },
+      "id": "tt31378509",
+      "imdb_id": "tt31378509",
+      "links": [],
+      "name": "Dune: Part Three",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjk1NjgwZDMtYzI5OS00Y2Q4LWI1NmItNTE5OGU2NDVmMTAxXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2026",
+      "type": "movie"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt0087182/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt0087182",
+        "hasScheduledVideos": false
+      },
+      "id": "tt0087182",
+      "imdb_id": "tt0087182",
+      "links": [],
+      "name": "Dune",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMGJlMGM3NDAtOWNhMy00MWExLWI2MzEtMDQ0ZDIzZDY5ZmQ2XkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "1984",
+      "type": "movie"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt1935156/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt1935156",
+        "hasScheduledVideos": false
+      },
+      "id": "tt1935156",
+      "imdb_id": "tt1935156",
+      "links": [],
+      "name": "Jodorowsky's Dune",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTU0MzcxMTAxMl5BMl5BanBnXkFtZTgwODMyMTIxMTE@._V1_SX250.jpg",
+      "releaseInfo": "2013",
+      "type": "movie"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt11835714/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt11835714",
+        "hasScheduledVideos": false
+      },
+      "id": "tt11835714",
+      "imdb_id": "tt11835714",
+      "links": [],
+      "name": "Dune Drifter",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZDZkNjFlYzYtMjNkMC00YmJiLWJkZDItZDIxYTU0MWJmNWNkXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2020",
+      "type": "movie"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt15331462/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt15331462",
+        "hasScheduledVideos": false
+      },
+      "id": "tt15331462",
+      "imdb_id": "tt15331462",
+      "links": [],
+      "name": "Planet Dune",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTI3ZDZjMzAtZTkyYi00YTc4LWEyNDctYzNlOTc2ODIwMWNhXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2021",
+      "type": "movie"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt0099474/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt0099474",
+        "hasScheduledVideos": false
+      },
+      "id": "tt0099474",
+      "imdb_id": "tt0099474",
+      "links": [],
+      "name": "Dune Warriors",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDk4ZjQzMGQtMDI1OC00NDY3LWFiMmItMmNmNTFjYmQwMDIzXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "1991",
+      "type": "movie"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt14450978/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt14450978",
+        "hasScheduledVideos": false
+      },
+      "id": "tt14450978",
+      "imdb_id": "tt14450978",
+      "links": [],
+      "name": "Dune World",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZGEzZTI2ZDQtZWI1YS00ZjZjLTllMTgtZTM1Y2Y2ODY5Mjk5XkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2021",
+      "type": "movie"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt11018038/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt11018038",
+        "hasScheduledVideos": false
+      },
+      "id": "tt11018038",
+      "imdb_id": "tt11018038",
+      "links": [],
+      "name": "Dune Dreams",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDk0YTE2ODItMGVhYy00MmU0LWI3Y2MtZGY2ZmU5ZmFhOTlhXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2021",
+      "type": "movie"
+    }
+  ],
+  "query": "dune",
+  "rank": 6.25
+}

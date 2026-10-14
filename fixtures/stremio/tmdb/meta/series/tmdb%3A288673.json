@@ -1,0 +1,295 @@
+{
+  "meta": {
+    "ageRating": null,
+    "app_extras": {
+      "cast": [
+        {
+          "character": "Carrie White",
+          "name": "Summer H. Howell",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/9l9D6DhugB4FBIZecuMyZ4Uulyr.jpg"
+        },
+        {
+          "character": "Margaret White",
+          "name": "Samantha Sloyan",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/iI6mYgxrQSwphBJdfwYN3vB6oS2.jpg"
+        },
+        {
+          "character": "Sue Snell",
+          "name": "Siena Agudong",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/nCVWiVrIVqw0LnpyhYsckOMQJHS.jpg"
+        },
+        {
+          "character": "Chris Hargensen",
+          "name": "Alison Thornton",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/hDCMe5RLABbSBA04BIUxJnBmol6.jpg"
+        },
+        {
+          "character": "Tommy Ross",
+          "name": "Joel Oulette",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/qmzQBjq1hLpU37HtsKw5MszgRKa.jpg"
+        },
+        {
+          "character": "Tina Blake",
+          "name": "Josie Totah",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/125iM9BTPVDfRjKGVSqmvgeGsai.jpg"
+        },
+        {
+          "character": "Billy Nolan",
+          "name": "Arthur Conti",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/pnO8qBwvLJfN54UaKsy0QQlAc8u.jpg"
+        },
+        {
+          "character": "Emaline West",
+          "name": "Thalia Dudek",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/lmpaF8Yi0SfojtEwlY1CkEjzGU7.jpg"
+        },
+        {
+          "character": "Miss Desjardin",
+          "name": "Amber Midthunder",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/f8VWGyaIS38NkDIzQ2hapXKt0N5.jpg"
+        },
+        {
+          "character": "Principal Grayle",
+          "name": "Matthew Lillard",
+          "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mIEKAfe0iC41RDXibbTy48LtNOi.jpg"
+        }
+      ]
+    },
+    "background": "https://image.tmdb.org/t/p/original/9yCJtipMeDe8uAdSJKvw8BnYfRz.jpg",
+    "behaviorHints": {
+      "defaultVideoId": null,
+      "hasScheduledVideos": true
+    },
+    "country": "United States of America, Canada",
+    "description": "After her father's sudden, untimely death thrusts her into the unforgiving ecosystem of public high school, Carrie is forced to navigate a viral bullying scandal that tears through her community, the relentless pressure and casual cruelty of the social‑media age, and the awakening of mysterious telekinetic powers that rise alongside her adolescence.",
+    "genre": [
+      "Mystery",
+      "Drama",
+      "Sci-Fi & Fantasy"
+    ],
+    "genres": [
+      "Mystery",
+      "Drama",
+      "Sci-Fi & Fantasy"
+    ],
+    "id": "tmdb:288673",
+    "imdbRating": "7.8",
+    "imdb_id": "tt11540908",
+    "links": [
+      {
+        "category": "imdb",
+        "name": "7.8",
+        "url": "https://imdb.com/title/tt11540908"
+      },
+      {
+        "category": "share",
+        "name": "Carrie",
+        "url": "https://www.strem.io/s/series/carrie-11540908"
+      },
+      {
+        "category": "Genres",
+        "name": "Mystery",
+        "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/series/tmdb.top?genre=Mystery"
+      },
+      {
+        "category": "Genres",
+        "name": "Drama",
+        "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/series/tmdb.top?genre=Drama"
+      },
+      {
+        "category": "Genres",
+        "name": "Sci-Fi & Fantasy",
+        "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/series/tmdb.top?genre=Sci-Fi%20%26%20Fantasy"
+      },
+      {
+        "category": "Cast",
+        "name": "Summer H. Howell",
+        "url": "stremio:///search?search=Summer%20H.%20Howell"
+      },
+      {
+        "category": "Cast",
+        "name": "Samantha Sloyan",
+        "url": "stremio:///search?search=Samantha%20Sloyan"
+      },
+      {
+        "category": "Cast",
+        "name": "Siena Agudong",
+        "url": "stremio:///search?search=Siena%20Agudong"
+      },
+      {
+        "category": "Cast",
+        "name": "Alison Thornton",
+        "url": "stremio:///search?search=Alison%20Thornton"
+      },
+      {
+        "category": "Cast",
+        "name": "Joel Oulette",
+        "url": "stremio:///search?search=Joel%20Oulette"
+      },
+      {
+        "category": "Cast",
+        "name": "Josie Totah",
+        "url": "stremio:///search?search=Josie%20Totah"
+      },
+      {
+        "category": "Cast",
+        "name": "Arthur Conti",
+        "url": "stremio:///search?search=Arthur%20Conti"
+      },
+      {
+        "category": "Cast",
+        "name": "Thalia Dudek",
+        "url": "stremio:///search?search=Thalia%20Dudek"
+      },
+      {
+        "category": "Cast",
+        "name": "Amber Midthunder",
+        "url": "stremio:///search?search=Amber%20Midthunder"
+      },
+      {
+        "category": "Cast",
+        "name": "Matthew Lillard",
+        "url": "stremio:///search?search=Matthew%20Lillard"
+      }
+    ],
+    "logo": "https://image.tmdb.org/t/p/original/p7lOufvkG9Od7280KE91ca5TLW5.png",
+    "name": "Carrie",
+    "poster": "https://image.tmdb.org/t/p/w500/6mUMquPQBFJGqTACS3Azkwwrx8d.jpg",
+    "releaseInfo": "2026-2026",
+    "released": "2026-10-07T00:00:00.000Z",
+    "runtime": "49min",
+    "slug": "series/carrie-11540908",
+    "status": "Ended",
+    "trailerStreams": [
+      {
+        "title": "Official Trailer",
+        "ytId": "jkUw2nh6fT0"
+      }
+    ],
+    "trailers": [
+      {
+        "source": "jkUw2nh6fT0",
+        "type": "Trailer"
+      }
+    ],
+    "type": "series",
+    "videos": [
+      {
+        "description": "The start of a brand new day.",
+        "episode": 1,
+        "firstAired": "2026-10-07T00:00:00.001Z",
+        "id": "tt11540908:1:1",
+        "name": "FIRST PERIOD",
+        "number": 1,
+        "overview": "The start of a brand new day.",
+        "rating": "8.262",
+        "released": "2026-10-07T00:00:00.001Z",
+        "runtime": "56min",
+        "season": 1,
+        "thumbnail": "https://image.tmdb.org/t/p/w500/q6K86iDYMr8G0xQC5OxDHi34OWo.jpg"
+      },
+      {
+        "description": "New communication skills from an unfamiliar culture.",
+        "episode": 2,
+        "firstAired": "2026-10-07T00:00:00.001Z",
+        "id": "tt11540908:1:2",
+        "name": "FOREIGN LANGUAGE",
+        "number": 2,
+        "overview": "New communication skills from an unfamiliar culture.",
+        "rating": "7.875",
+        "released": "2026-10-07T00:00:00.001Z",
+        "runtime": "52min",
+        "season": 1,
+        "thumbnail": "https://image.tmdb.org/t/p/w500/2BAJUukstdRp5JdJL4KgB1oFXEj.jpg"
+      },
+      {
+        "description": "How people, communities, and societies interact.",
+        "episode": 3,
+        "firstAired": "2026-10-07T00:00:00.001Z",
+        "id": "tt11540908:1:3",
+        "name": "SOCIAL STUDIES",
+        "number": 3,
+        "overview": "How people, communities, and societies interact.",
+        "rating": "7.947",
+        "released": "2026-10-07T00:00:00.001Z",
+        "runtime": "50min",
+        "season": 1,
+        "thumbnail": "https://image.tmdb.org/t/p/w500/rCayKt9PSctLY3Oo85nBvm1ibnq.jpg"
+      },
+      {
+        "description": "Voice, movement, and improvisation.",
+        "episode": 4,
+        "firstAired": "2026-10-07T00:00:00.001Z",
+        "id": "tt11540908:1:4",
+        "name": "DRAMATIC ARTS",
+        "number": 4,
+        "overview": "Voice, movement, and improvisation.",
+        "rating": "8.167",
+        "released": "2026-10-07T00:00:00.001Z",
+        "runtime": "53min",
+        "season": 1,
+        "thumbnail": "https://image.tmdb.org/t/p/w500/br1jADm12G7gdN9rSlj3dn0VB4i.jpg"
+      },
+      {
+        "description": "Health, fitness, and exercise.",
+        "episode": 5,
+        "firstAired": "2026-10-07T00:00:00.001Z",
+        "id": "tt11540908:1:5",
+        "name": "PHYSICAL EDUCATION",
+        "number": 5,
+        "overview": "Health, fitness, and exercise.",
+        "rating": "8.067",
+        "released": "2026-10-07T00:00:00.001Z",
+        "runtime": "49min",
+        "season": 1,
+        "thumbnail": "https://image.tmdb.org/t/p/w500/aosEmangiVoqjUIgCcTz8pEUFuS.jpg"
+      },
+      {
+        "description": "Practical life skills for independent living.",
+        "episode": 6,
+        "firstAired": "2026-10-07T00:00:00.001Z",
+        "id": "tt11540908:1:6",
+        "name": "HOME ECONOMICS",
+        "number": 6,
+        "overview": "Practical life skills for independent living.",
+        "rating": "8.382",
+        "released": "2026-10-07T00:00:00.001Z",
+        "runtime": "60min",
+        "season": 1,
+        "thumbnail": "https://image.tmdb.org/t/p/w500/ggtBh6ZtP3LQL6iHAt3FpT2y0j2.jpg"
+      },
+      {
+        "description": "The power of emotion and individual experience.",
+        "episode": 7,
+        "firstAired": "2026-10-07T00:00:00.001Z",
+        "id": "tt11540908:1:7",
+        "name": "ROMANTIC LITERATURE",
+        "number": 7,
+        "overview": "The power of emotion and individual experience.",
+        "rating": "8.3",
+        "released": "2026-10-07T00:00:00.001Z",
+        "runtime": "54min",
+        "season": 1,
+        "thumbnail": "https://image.tmdb.org/t/p/w500/eQRCwK89aL7C0qEfEGrpkqfB2as.jpg"
+      },
+      {
+        "description": "For every action, there is an equal and opposite reaction.",
+        "episode": 8,
+        "firstAired": "2026-10-07T00:00:00.001Z",
+        "id": "tt11540908:1:8",
+        "name": "AP PHYSICS",
+        "number": 8,
+        "overview": "For every action, there is an equal and opposite reaction.",
+        "rating": "8.1",
+        "released": "2026-10-07T00:00:00.001Z",
+        "runtime": "49min",
+        "season": 1,
+        "thumbnail": "https://image.tmdb.org/t/p/w500/wcCBQrz9zvQkaxlfFyClGGJGFEO.jpg"
+      }
+    ],
+    "writer": [
+      "Mike Flanagan"
+    ],
+    "year": "2026-2026"
+  }
+}

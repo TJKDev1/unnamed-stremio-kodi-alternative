@@ -1,0 +1,118 @@
+{
+  "addon": "https://v3-cinemeta.strem.io/manifest.json",
+  "recorded": "2026-10-14",
+  "requests": [
+    {
+      "cacheControl": "public, max-age=14400",
+      "file": "catalog/movie/top.json",
+      "path": "/catalog/movie/top.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "public, max-age=14400",
+      "file": "catalog/series/top.json",
+      "path": "/catalog/series/top.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "public, max-age=14400",
+      "file": "catalog/movie/year/genre%3D2026.json",
+      "path": "/catalog/movie/year/genre=2026.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "public, max-age=14400",
+      "file": "catalog/series/year/genre%3D2026.json",
+      "path": "/catalog/series/year/genre=2026.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "public, max-age=14400",
+      "file": "catalog/movie/imdbRating.json",
+      "path": "/catalog/movie/imdbRating.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "public, max-age=14400",
+      "file": "catalog/series/imdbRating.json",
+      "path": "/catalog/series/imdbRating.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "public, max-age=10800",
+      "file": "catalog/series/last-videos.json",
+      "path": "/catalog/series/last-videos.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "public, max-age=10800",
+      "file": "catalog/series/calendar-videos.json",
+      "path": "/catalog/series/calendar-videos.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "public, max-age=14400",
+      "file": "catalog/movie/top/skip%3D100.json",
+      "path": "/catalog/movie/top/skip=100.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "public, max-age=14400",
+      "file": "catalog/movie/top/genre%3DAction.json",
+      "path": "/catalog/movie/top/genre=Action.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "public, max-age=86400",
+      "file": "catalog/movie/top/search%3Ddune.json",
+      "path": "/catalog/movie/top/search=dune.json",
+      "status": 200,
+      "trimmed": true
+    },
+    {
+      "cacheControl": "public, max-age=10800",
+      "file": "addon_catalog/all/official.json",
+      "path": "/addon_catalog/all/official.json",
+      "status": 200,
+      "trimmed": false
+    },
+    {
+      "cacheControl": "public, max-age=10800",
+      "file": "addon_catalog/movie/official.json",
+      "path": "/addon_catalog/movie/official.json",
+      "status": 200,
+      "trimmed": false
+    },
+    {
+      "cacheControl": "public, max-age=10800",
+      "file": "meta/movie/tt22084616.json",
+      "path": "/meta/movie/tt22084616.json",
+      "status": 200,
+      "trimmed": false
+    },
+    {
+      "cacheControl": "public, max-age=10800",
+      "file": "meta/series/tt11540908.json",
+      "path": "/meta/series/tt11540908.json",
+      "status": 200,
+      "trimmed": false
+    },
+    {
+      "cacheControl": "public, max-age=10800",
+      "file": "meta/movie/tt31049299.json",
+      "path": "/meta/movie/tt31049299.json",
+      "status": 200,
+      "trimmed": false
+    }
+  ]
+}

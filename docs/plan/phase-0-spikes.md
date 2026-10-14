@@ -48,13 +48,13 @@ Suggested order: M0.1 → S3 → S1 → S4 → S2 → S7 → M0.2. S3 goes first
 - Recorded responses are saved as fixtures (secrets scrubbed) for the conformance suite.
 
 **Tasks**
-- [ ] T0.S3.1 Normalized models (`Manifest`, `MetaPreview`, `Meta`, `Video`, `Stream`, `Subtitle`) with serde, tolerant of unknown fields.
-- [ ] T0.S3.2 Manifest fetch + validation, including the legacy `extraSupported/extraRequired` forms and resource-as-object.
-- [ ] T0.S3.3 Route building (`/{resource}/{type}/{id}/{extra}.json`) with correct extra encoding.
-- [ ] T0.S3.4 Resource router: pick addons by `types`/`idPrefixes`; fan out in parallel; per-addon timeout.
-- [ ] T0.S3.5 `cacheMaxAge`/`staleRevalidate`/`staleError` honoured (in-memory is fine for the spike).
-- [ ] T0.S3.6 Dev CLI: `stremio-cli catalog|meta|streams <addon-url> …` printing results as they arrive.
-- [ ] T0.S3.7 Record fixtures from the 10 addons; write the S3 report.
+- [x] T0.S3.1 Normalized models (`Manifest`, `MetaPreview`, `Meta`, `Video`, `Stream`, `Subtitle`) with serde, tolerant of unknown fields.
+- [x] T0.S3.2 Manifest fetch + validation, including the legacy `extraSupported/extraRequired` forms and resource-as-object.
+- [x] T0.S3.3 Route building (`/{resource}/{type}/{id}/{extra}.json`) with correct extra encoding.
+- [x] T0.S3.4 Resource router: pick addons by `types`/`idPrefixes`; fan out in parallel; per-addon timeout.
+- [x] T0.S3.5 `cacheMaxAge`/`staleRevalidate`/`staleError` honoured (in-memory is fine for the spike).
+- [x] T0.S3.6 Dev CLI: `stremio-cli catalog|meta|streams <addon-url> …` printing results as they arrive.
+- [~] T0.S3.7 Record fixtures from the 10 addons; write the S3 report. 7/10 recorded + report done; AIOStreams, Comet and MediaFusion need the owner's config (D61): `stremio-cli record`, see [fixtures/README](../../fixtures/README.md#recording-an-addon).
 
 ## S1 libmpv under a transparent webview
 

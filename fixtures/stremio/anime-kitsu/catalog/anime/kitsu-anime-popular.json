@@ -1,0 +1,637 @@
+{
+  "cacheMaxAge": 43200,
+  "metas": [
+    {
+      "aliases": [
+        "Attack on Titan",
+        "Shingeki no Kyojin",
+        "AoT"
+      ],
+      "animeType": "TV",
+      "background": "https://images.metahub.space/background/medium/tt2560140/img",
+      "description": "Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called titans, forcing humans to hide in fear behind enormous concentric walls. What makes these giants truly terrifying is that their taste for human flesh is not born out of hunger but what appears to be out of pleasure. To ensure their survival, the remnants of humanity began living within defensive barriers, resulting in one hundred years without a single titan encounter. However, that fragile calm is soon shattered when a colossal titan manages to breach the supposedly impregnable outer wall, reigniting the fight for survival against the man-eating abominations.\n\nAfter witnessing a horrific personal loss at the hands of the invading creatures, Eren Yeager dedicates his life to their eradication by enlisting into the Survey Corps, an elite military unit that combats the merciless humanoids outside the protection of the walls. Based on Hajime Isayama's award-winning manga, Shingeki no Kyojin follows Eren, along with his adopted sister Mikasa Ackerman and his childhood friend Armin Arlert, as they join the brutal war against the titans and race to discover a way of defeating them before the last walls are breached.",
+      "genres": [
+        "Mystery",
+        "Super Power",
+        "Military",
+        "Fantasy",
+        "Drama",
+        "Action"
+      ],
+      "id": "kitsu:7442",
+      "imdbRating": "8.4",
+      "imdb_id": "tt2560140",
+      "kitsu_id": "7442",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.4",
+          "url": "https://kitsu.io/anime/attack-on-titan"
+        },
+        {
+          "category": "Genres",
+          "name": "Mystery",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Mystery"
+        },
+        {
+          "category": "Genres",
+          "name": "Super Power",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Super Power"
+        },
+        {
+          "category": "Genres",
+          "name": "Military",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Military"
+        },
+        {
+          "category": "Genres",
+          "name": "Fantasy",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Fantasy"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Action"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt2560140/img",
+      "name": "Attack on Titan",
+      "poster": "https://media.kitsu.app/anime/poster_images/7442/medium.jpg",
+      "releaseInfo": "2013",
+      "runtime": "24 min",
+      "trailers": [
+        {
+          "source": "LHtdKWJdif4",
+          "type": "Trailer"
+        }
+      ],
+      "type": "series"
+    },
+    {
+      "aliases": [
+        "My Hero Academia",
+        "Boku no Hero Academia"
+      ],
+      "animeType": "TV",
+      "background": "https://assets.fanart.tv/fanart/my-hero-academia-5ca8d43cd466f.jpg",
+      "description": "What would the world be like if 80 percent of the population manifested extraordinary superpowers called “Quirks” at age four? Heroes and villains would be battling it out everywhere! Becoming a hero would mean learning to use your power, but where would you go to study? U.A. High's Hero Program of course! But what would you do if you were one of the 20 percent who were born Quirkless?\n\nMiddle school student Izuku Midoriya wants to be a hero more than anything, but he hasn't got an ounce of power in him. With no chance of ever getting into the prestigious U.A. High School for budding heroes, his life is looking more and more like a dead end. Then an encounter with All Might, the greatest hero of them all gives him a chance to change his destiny…",
+      "genres": [
+        "Comedy",
+        "Super Power",
+        "School",
+        "Action"
+      ],
+      "id": "kitsu:11469",
+      "imdbRating": "8.3",
+      "imdb_id": "tt5626028",
+      "kitsu_id": "11469",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.3",
+          "url": "https://kitsu.io/anime/boku-no-hero-academia"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Comedy"
+        },
+        {
+          "category": "Genres",
+          "name": "Super Power",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Super Power"
+        },
+        {
+          "category": "Genres",
+          "name": "School",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=School"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Action"
+        }
+      ],
+      "logo": "https://assets.fanart.tv/fanart/my-hero-academia-58ab2e4282d2a.png",
+      "name": "Boku no Hero Academia",
+      "poster": "https://media.kitsu.app/anime/poster_images/11469/medium.jpg",
+      "releaseInfo": "2016",
+      "runtime": "23 min",
+      "trailers": [
+        {
+          "source": "D5fYOnwYkj4",
+          "type": "Trailer"
+        }
+      ],
+      "type": "series"
+    },
+    {
+      "aliases": [
+        "My Hero Academia Season 2",
+        "Boku no Hero Academia 2"
+      ],
+      "animeType": "TV",
+      "background": "https://assets.fanart.tv/fanart/my-hero-academia-5ca8d43cd466f.jpg",
+      "description": "Taking off right after the last episode of the first season. The school is temporarily closed due to security. When U.A. restarts, it is announced that the highly anticipated School Sports Festival will soon be taking place. All classes: Hero, Support, General and Business will be participating. Tournaments all around will decide who is the top Hero in training.",
+      "genres": [
+        "Comedy",
+        "Super Power",
+        "School",
+        "Action"
+      ],
+      "id": "kitsu:12268",
+      "imdbRating": "8.3",
+      "imdb_id": "tt5626028",
+      "kitsu_id": "12268",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.3",
+          "url": "https://kitsu.io/anime/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Comedy"
+        },
+        {
+          "category": "Genres",
+          "name": "Super Power",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Super Power"
+        },
+        {
+          "category": "Genres",
+          "name": "School",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=School"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Action"
+        }
+      ],
+      "logo": "https://assets.fanart.tv/fanart/my-hero-academia-58ab2e4282d2a.png",
+      "name": "Boku no Hero Academia 2",
+      "poster": "https://media.kitsu.app/anime/poster_images/12268/medium.jpg",
+      "releaseInfo": "2017",
+      "runtime": "24 min",
+      "trailers": [
+        {
+          "source": "9ZIgCYSn3e8",
+          "type": "Trailer"
+        }
+      ],
+      "type": "series"
+    },
+    {
+      "aliases": [
+        "One Punch Man",
+        "One Punch-Man",
+        "OPM",
+        "One-Punch Man"
+      ],
+      "animeType": "TV",
+      "background": "https://images.metahub.space/background/medium/tt4508902/img",
+      "description": "The seemingly ordinary and unimpressive Saitama has a rather unique hobby: being a hero. In order to pursue his childhood dream, he trained relentlessly for three years—and lost all of his hair in the process. Now, Saitama is incredibly powerful, so much so that no enemy is able to defeat him in battle. In fact, all it takes to defeat evildoers with just one punch has led to an unexpected problem—he is no longer able to enjoy the thrill of battling and has become quite bored.\n\nThis all changes with the arrival of Genos, a 19-year-old cyborg, who wishes to be Saitama's disciple after seeing what he is capable of. Genos proposes that the two join the Hero Association in order to become certified heroes that will be recognized for their positive contributions to society, and Saitama, shocked that no one knows who he is, quickly agrees. And thus begins the story of One Punch Man, an action-comedy that follows an eccentric individual who longs to fight strong enemies that can hopefully give him the excitement he once felt and just maybe, he'll become popular in the process.",
+      "genres": [
+        "Comedy",
+        "Sci-Fi",
+        "Supernatural",
+        "Super Power",
+        "Parody",
+        "Action"
+      ],
+      "id": "kitsu:10740",
+      "imdbRating": "8.3",
+      "imdb_id": "tt4508902",
+      "kitsu_id": "10740",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.3",
+          "url": "https://kitsu.io/anime/one-punch-man"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Comedy"
+        },
+        {
+          "category": "Genres",
+          "name": "Sci-Fi",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Sci-Fi"
+        },
+        {
+          "category": "Genres",
+          "name": "Supernatural",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Supernatural"
+        },
+        {
+          "category": "Genres",
+          "name": "Super Power",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Super Power"
+        },
+        {
+          "category": "Genres",
+          "name": "Parody",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Parody"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Action"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt4508902/img",
+      "name": "One Punch Man",
+      "poster": "https://media.kitsu.app/anime/poster_images/10740/medium.jpg",
+      "releaseInfo": "2015",
+      "runtime": "24 min",
+      "trailers": [
+        {
+          "source": "tMblzsXwAKo",
+          "type": "Trailer"
+        }
+      ],
+      "type": "series"
+    },
+    {
+      "aliases": [
+        "My Hero Academia Season 3",
+        "Boku no Hero Academia 3"
+      ],
+      "animeType": "TV",
+      "background": "https://assets.fanart.tv/fanart/my-hero-academia-5ca8d43cd466f.jpg",
+      "description": "Summer is here, and the heroes of Class 1-A and 1-B are in for the toughest training camp of their lives! A group of seasoned pros pushes everyone's Quirks to new heights as the students face one overwhelming challenge after another. Braving the elements in this secret location becomes the least of their worries when routine training turns into a critical struggle for survival.",
+      "genres": [
+        "Comedy",
+        "Super Power",
+        "School",
+        "Action"
+      ],
+      "id": "kitsu:13881",
+      "imdbRating": "8.3",
+      "imdb_id": "tt5626028",
+      "kitsu_id": "13881",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.3",
+          "url": "https://kitsu.io/anime/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Comedy"
+        },
+        {
+          "category": "Genres",
+          "name": "Super Power",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Super Power"
+        },
+        {
+          "category": "Genres",
+          "name": "School",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=School"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Action"
+        }
+      ],
+      "logo": "https://assets.fanart.tv/fanart/my-hero-academia-58ab2e4282d2a.png",
+      "name": "Boku no Hero Academia 3",
+      "poster": "https://media.kitsu.app/anime/poster_images/13881/medium.jpg",
+      "releaseInfo": "2018",
+      "runtime": "24 min",
+      "trailers": [
+        {
+          "source": "JezE6iZUWxo",
+          "type": "Trailer"
+        }
+      ],
+      "type": "series"
+    },
+    {
+      "aliases": [
+        "Death Note",
+        "DN"
+      ],
+      "animeType": "TV",
+      "background": "https://images.metahub.space/background/medium/tt0877057/img",
+      "description": "A shinigami, as a god of death, can kill any person—provided they see their victim's face and write their victim's name in a notebook called a Death Note. One day, Ryuk, bored by the shinigami lifestyle and interested in seeing how a human would use a Death Note, drops one into the human realm.\n\nHigh school student and prodigy Light Yagami stumbles upon the Death Note and—since he deplores the state of the world—tests the deadly notebook by writing a criminal's name in it. When the criminal dies immediately following his experiment with the Death Note, Light is greatly surprised and quickly recognizes how devastating the power that has fallen into his hands could be.\n\nWith this divine capability, Light decides to extinguish all criminals in order to build a new world where crime does not exist and people worship him as a god. Police, however, quickly discover that a serial killer is targeting criminals and, consequently, try to apprehend the culprit. To do this, the Japanese investigators count on the assistance of the best detective in the world: a young and eccentric man known only by the name of L.",
+      "genres": [
+        "Mystery",
+        "Supernatural",
+        "Police",
+        "Psychological",
+        "Thriller"
+      ],
+      "id": "kitsu:1376",
+      "imdbRating": "8.3",
+      "imdb_id": "tt0877057",
+      "kitsu_id": "1376",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.3",
+          "url": "https://kitsu.io/anime/death-note"
+        },
+        {
+          "category": "Genres",
+          "name": "Mystery",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Mystery"
+        },
+        {
+          "category": "Genres",
+          "name": "Supernatural",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Supernatural"
+        },
+        {
+          "category": "Genres",
+          "name": "Police",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Police"
+        },
+        {
+          "category": "Genres",
+          "name": "Psychological",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Psychological"
+        },
+        {
+          "category": "Genres",
+          "name": "Thriller",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Thriller"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt0877057/img",
+      "name": "Death Note",
+      "poster": "https://media.kitsu.app/anime/poster_images/1376/medium.jpg",
+      "releaseInfo": "2006-2007",
+      "runtime": "23 min",
+      "trailers": [
+        {
+          "source": "NlJZ-YgAt-c",
+          "type": "Trailer"
+        }
+      ],
+      "type": "series"
+    },
+    {
+      "aliases": [
+        "Fullmetal Alchemist: Brotherhood",
+        "Hagane no Renkinjutsushi: Fullmetal Alchemist",
+        "Hagane no Renkinjutsushi (2009)",
+        "Fullmetal Alchemist (2009)",
+        "FMA",
+        "Hagaren"
+      ],
+      "animeType": "TV",
+      "background": "https://images.metahub.space/background/medium/tt1355642/img",
+      "description": "\"In order for something to be obtained, something of equal value must be lost.\"\n\nAlchemy is bound by this Law of Equivalent Exchange—something the young brothers Edward and Alphonse Elric only realize after attempting human transmutation: the one forbidden act of alchemy. They pay a terrible price for their transgression—Edward loses his left leg, Alphonse his physical body. It is only by the desperate sacrifice of Edward's right arm that he is able to affix Alphonse's soul to a suit of armor. Devastated and alone, it is the hope that they would both eventually return to their original bodies that gives Edward the inspiration to obtain metal limbs called \"automail\" and become a state alchemist, the Fullmetal Alchemist.\n\nThree years of searching later, the brothers seek the Philosopher's Stone, a mythical relic that allows an alchemist to overcome the Law of Equivalent Exchange. Even with military allies Colonel Roy Mustang, Lieutenant Riza Hawkeye, and Lieutenant Colonel Maes Hughes on their side, the brothers find themselves caught up in a nationwide conspiracy that leads them not only to the true nature of the elusive Philosopher's Stone, but their country's murky history as well. In between finding a serial killer and racing against time, Edward and Alphonse must ask themselves if what they are doing will make them human again... or take away their humanity.",
+      "genres": [
+        "Comedy",
+        "Magic",
+        "Military",
+        "Fantasy",
+        "Drama",
+        "Action",
+        "Adventure"
+      ],
+      "id": "kitsu:3936",
+      "imdbRating": "8.3",
+      "imdb_id": "tt1355642",
+      "kitsu_id": "3936",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.3",
+          "url": "https://kitsu.io/anime/fullmetal-alchemist-brotherhood"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Comedy"
+        },
+        {
+          "category": "Genres",
+          "name": "Magic",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Magic"
+        },
+        {
+          "category": "Genres",
+          "name": "Military",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Military"
+        },
+        {
+          "category": "Genres",
+          "name": "Fantasy",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Fantasy"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Action"
+        },
+        {
+          "category": "Genres",
+          "name": "Adventure",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Adventure"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt1355642/img",
+      "name": "Fullmetal Alchemist: Brotherhood",
+      "poster": "https://media.kitsu.app/anime/poster_images/3936/medium.jpg",
+      "releaseInfo": "2009-2010",
+      "runtime": "24 min",
+      "trailers": [
+        {
+          "source": "yb2R1l0O9Zs",
+          "type": "Trailer"
+        }
+      ],
+      "type": "series"
+    },
+    {
+      "aliases": [
+        "Your Name.",
+        "Kimi no Na wa."
+      ],
+      "animeType": "movie",
+      "background": "https://assets.fanart.tv/fanart/your-name-5845e4f97e1b1.jpg",
+      "description": "From director Makoto Shinkai, the innovative mind behind Voices of a Distant Star and 5 Centimeters Per Second, comes a beautiful masterpiece about time, the thread of fate, and the hearts of two young souls.\n\nThe day the stars fell, two lives changed forever. High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other. Yet, somehow, it works. They build a connection and communicate by leaving notes, messages, and more importantly, an imprint.\n\nWhen a dazzling comet lights up the night’s sky, it dawns on them. They want something more from this connection—a chance to meet, an opportunity to truly know each other. Tugging at the string of fate, they try to find a way to each other. But distance isn’t the only thing keeping them apart. Is their bond strong enough to face the cruel irony of time? Or is their meeting nothing more than a wish upon the stars?",
+      "genres": [
+        "Supernatural",
+        "School",
+        "Drama",
+        "Romance",
+        "Friendship"
+      ],
+      "id": "kitsu:11614",
+      "imdbRating": "8.3",
+      "imdb_id": "tt5311514",
+      "kitsu_id": "11614",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.3",
+          "url": "https://kitsu.io/anime/kimi-no-na-wa"
+        },
+        {
+          "category": "Genres",
+          "name": "Supernatural",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Supernatural"
+        },
+        {
+          "category": "Genres",
+          "name": "School",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=School"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Romance",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Romance"
+        },
+        {
+          "category": "Genres",
+          "name": "Friendship",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Friendship"
+        }
+      ],
+      "logo": "https://assets.fanart.tv/fanart/your-name-587d8cb5bef81.png",
+      "name": "Kimi no Na wa.",
+      "poster": "https://media.kitsu.app/anime/poster_images/11614/medium.jpg",
+      "releaseInfo": "2016",
+      "runtime": "106 min",
+      "trailers": [
+        {
+          "source": "3KR8_igDs1Y",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie"
+    },
+    {
+      "aliases": [
+        "Hunter x Hunter",
+        "Hunter x Hunter (2011)",
+        "HUNTER×HUNTER ハンターハンター",
+        "HxH (2011)",
+        "Hantā Hantā (2011)"
+      ],
+      "animeType": "TV",
+      "background": "https://images.metahub.space/background/medium/tt2098220/img",
+      "description": "Hunter x Hunter is set in a world where Hunters exist to perform all manner of dangerous tasks like capturing criminals and bravely searching for lost treasures in uncharted territories. Twelve-year-old Gon Freecss is determined to become the best Hunter possible in hopes of finding his father, who was a Hunter himself and had long ago abandoned his young son. However, Gon soon realizes the path to achieving his goals is far more challenging than he could have ever imagined.\n\nAlong the way to becoming an official Hunter, Gon befriends the lively doctor-in-training Leorio, vengeful Kurapika, and rebellious ex-assassin Killua. To attain their own goals and desires, together the four of them take the Hunter Exam, notorious for its low success rate and high probability of death. Throughout their journey, Gon and his friends embark on an adventure that puts them through many hardships and struggles. They will meet a plethora of monsters, creatures, and characters—all while learning what being a Hunter truly means.",
+      "genres": [
+        "Super Power",
+        "Fantasy",
+        "Action",
+        "Adventure"
+      ],
+      "id": "kitsu:6448",
+      "imdbRating": "8.4",
+      "imdb_id": "tt2098220",
+      "kitsu_id": "6448",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.4",
+          "url": "https://kitsu.io/anime/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Super Power",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Super Power"
+        },
+        {
+          "category": "Genres",
+          "name": "Fantasy",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Fantasy"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Action"
+        },
+        {
+          "category": "Genres",
+          "name": "Adventure",
+          "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Adventure"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt2098220/img",
+      "name": "Hunter x Hunter (2011)",
+      "poster": "https://media.kitsu.app/anime/poster_images/6448/medium.jpg",
+      "releaseInfo": "2011-2014",
+      "runtime": "23 min",
+      "trailers": [
+        {
+          "source": "fda6QzBA2mI",
+          "type": "Trailer"
+        }
+      ],
+      "type": "series"
+    },
+    {
+      "aliases": [
+        "Demon Slayer: Kimetsu no Yaiba",
+        "Kimetsu no Yaiba",
+        "Blade of Demon Destruction",
+        "KnY",
+        "Kimetsu no Yaiba: Kyoudai no Kizuna",
+        "Demon Slayer: Kimetsu no Yaiba: Bonds of Siblings",
+        "Demon Slayer: Kimetsu no Yaiba - Tanjiro Kamado, Unwavering Resolve Arc",
+        "鬼滅の刃-兄妹の絆-",
+        "鬼灭之刃",
+        "הלהב קוטל השדים",
+        "قاتل الشياطين",
+        "ดาบพิฆาตอสูร",
+        "Miecz zabójcy demonów – Kimetsu no Yaiba",
+        "Guardians de la nit: Kimetsu no Yaiba",
+        "İblis Keser"
+      ],
+      "animeType": "TV",
+      "background": "https://images.metahub.space/background/medium/tt9335498/img",
+      "description": "It is the Taisho Period in Japan. Tanjiro, a kindhearted boy who sells charcoal for a living, finds his family slaughtered by a demon. To make matters worse, his younger sister Nezuko, the sole survivor, has been transformed into a demon herself. Though devastated by this grim reality, Tanjiro resolves to become a “demon slayer” so that he can turn his sister back into a human, and kill the demon that massacred his family.",
+      "genres": [],
+      "id": "kitsu:41370",
+      "imdbRating": "8.6",
+      "imdb_id": "tt9335498",
+      "kitsu_id": "41370",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.6",
+          "url": "https://kitsu.io/anime/kimetsu-no-yaiba"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt9335498/img",
+      "name": "Kimetsu no Yaiba",
+      "poster": "https://media.kitsu.app/anime/poster_images/41370/medium.jpg",
+      "releaseInfo": "2019",
+      "runtime": "23 min",
+      "trailers": [
+        {
+          "source": "Sl2k7bfBeCw",
+          "type": "Trailer"
+        }
+      ],
+      "type": "series"
+    }
+  ]
+}

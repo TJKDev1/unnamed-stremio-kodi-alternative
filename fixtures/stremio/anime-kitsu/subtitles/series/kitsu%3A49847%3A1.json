@@ -1,0 +1,6 @@
+{
+  "cacheMaxAge": 600,
+  "staleError": 3600,
+  "staleRevalidate": 1800,
+  "subtitles": []
+}

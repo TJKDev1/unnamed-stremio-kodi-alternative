@@ -1,0 +1,3804 @@
+{
+  "metas": [
+    {
+      "ageRating": null,
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Paul Atreides",
+            "name": "Timothée Chalamet",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/dFxpwRpmzpVfP1zjluH68DeQhyj.jpg"
+          },
+          {
+            "character": "Lady Jessica Atreides",
+            "name": "Rebecca Ferguson",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ra53cM1aNmdH0aFhj8yBqPOj2fb.jpg"
+          },
+          {
+            "character": "Duke Leto Atreides",
+            "name": "Oscar Isaac",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/dW5U5yrIIPmMjRThR9KT2xH6nTz.jpg"
+          },
+          {
+            "character": "Duncan Idaho",
+            "name": "Jason Momoa",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/3troAR6QbSb6nUFMDu61YCCWLKa.jpg"
+          },
+          {
+            "character": "Baron Vladimir Harkonnen",
+            "name": "Stellan Skarsgård",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mW7xmtGV4y79kQGn0zkKVGDMAmw.jpg"
+          },
+          {
+            "character": "Thufir Hawat",
+            "name": "Stephen McKinley Henderson",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/z2weSPo4sdMNj47tP5o0me41r2z.jpg"
+          },
+          {
+            "character": "Gurney Halleck",
+            "name": "Josh Brolin",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/sX2etBbIkxRaCsATyw5ZpOVMPTD.jpg"
+          },
+          {
+            "character": "Stilgar",
+            "name": "Javier Bardem",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/zfRID0jx8DKBluPGU9xtk9sZWUt.jpg"
+          },
+          {
+            "character": "Dr. Liet Kynes",
+            "name": "Sharon Duncan-Brewster",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/gp5h6rOrqBrIGgID4AMd58O6Ow6.jpg"
+          },
+          {
+            "character": "Dr. Wellington Yueh",
+            "name": "Chang Chen",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/tkROVkn6yoqF3AcQ4hneOursHXR.jpg"
+          },
+          {
+            "character": "Beast Rabban Harkonnen",
+            "name": "Dave Bautista",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/snk6JiXOOoRjPtHU5VMoy6qbd32.jpg"
+          },
+          {
+            "character": "Piter de Vries",
+            "name": "David Dastmalchian",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/eLafwcpL64CqzwjjSgKpO7Rv4ae.jpg"
+          },
+          {
+            "character": "Chani",
+            "name": "Zendaya",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/qGkBlyn1AwQpuFnRARMRwj0iHZp.jpg"
+          },
+          {
+            "character": "Reverend Mother Mohiam",
+            "name": "Charlotte Rampling",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/Htvl9mN6mlf2a18RAFzNXF3RiG.jpg"
+          },
+          {
+            "character": "Jamis",
+            "name": "Babs Olusanmokun",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/bqycmpUrpISeLzQniiYwAZ5X1RN.jpg"
+          },
+          {
+            "character": "Herald of the Change",
+            "name": "Benjamin Clementine",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/johpHbzqrue6XDG63vapfugGbnn.jpg"
+          },
+          {
+            "character": "Bene Gesserit Sister",
+            "name": "Souad Faress",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/aEGdIch9eRzJcsAGbF7mAZPUiXt.jpg"
+          },
+          {
+            "character": "Shadout Mapes",
+            "name": "Golda Rosheuvel",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/nlSIvTWzMEzZGljKYgpZxGcsJtv.jpg"
+          },
+          {
+            "character": "Lieutenant Lanville",
+            "name": "Roger Yuan",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/jHdxbT6n3ToYKw0DVFIUkva86SO.jpg"
+          },
+          {
+            "character": "Arrakeen Residency Gardener",
+            "name": "Seun Shote",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/33szNjKtUsTxlwV039Gec2PKQS2.jpg"
+          },
+          {
+            "character": "Sardaukar Bashar",
+            "name": "Neil Bell",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/3K3dDytqtTSaGrDZ3qOHYpJUGea.jpg"
+          },
+          {
+            "character": "Hawat Specialist",
+            "name": "Oliver Ryan",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/S0YPiYOSikfqjR6HMuxoFDzh0f.jpg"
+          },
+          {
+            "character": "Harkonnen Trooper",
+            "name": "Stephen Collins",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/86LlKrbvYVmR4Ca9fARwUoY5TgJ.jpg"
+          },
+          {
+            "character": "Harkonnen Trooper",
+            "name": "Charlie Rawes",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/zsARROMEHNANOAI8wntYcn3BpOM.jpg"
+          },
+          {
+            "character": "Harkonnen Trooper",
+            "name": "Richard Carter",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/vwMG8213y9UiCDXBPIUwzhVxUcX.jpg"
+          },
+          {
+            "character": "Sardaukar Assassin",
+            "name": "Benjamin Dilloway",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/reXJcitDu5hsCO7Hlra2ZFzr6Nn.jpg"
+          },
+          {
+            "character": "Shamir",
+            "name": "Elmi Rashid Elmi",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/kMH7mX7rzVrrPuWL0qVeYExXVcx.jpg"
+          },
+          {
+            "character": "Tanat",
+            "name": "Tachia Newall",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ywvojfXK3uzw0IgVEVg3j00GPuy.jpg"
+          },
+          {
+            "character": "Female Fremen",
+            "name": "Gloria Obianyo",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/8vRsNhtxFzYsHQItIKwcMW9flts.jpg"
+          },
+          {
+            "character": "Male Fremen",
+            "name": "Fehinti Balogun",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/lNpDOJn9wMkMg8XLqTvdwxDcztL.jpg"
+          },
+          {
+            "character": "Baron Servant",
+            "name": "Dora Kápolnai-Schvab",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/dFohxzfYViaBsklakLceIuZKrfw.jpg"
+          },
+          {
+            "character": "Baron Servant",
+            "name": "Joelle",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/rqmxqILAmCqIXCedRBtgh6NLaw2.jpg"
+          },
+          {
+            "character": "Atreides Lieutenant",
+            "name": "Jimmy Walker",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/veFEysBjID6MpxNb4gCDXKQmm0e.jpg"
+          },
+          {
+            "character": "Sardaukar Soldier",
+            "name": "Paul Bullion",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/uR76mlAgEpmj0WNnzJ7jG337fZF.jpg"
+          },
+          {
+            "character": "Human Spider Proxy",
+            "name": "Milena Sidorova",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/9kLGHnnFqCDFBZ1M048zLp4KIGh.jpg"
+          },
+          {
+            "character": "Harkonnen Guard",
+            "name": "János Timkó",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/qHKNILSJE41Mtj2NUO6mdT29BeG.jpg"
+          },
+          {
+            "character": "Bene Gesserit Ancestor (voice)",
+            "name": "Jean Gilpin",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/8NRvEevVGpG0y5gSb7SvBMiUfur.jpg"
+          },
+          {
+            "character": "Bene Gesserit Ancestor (voice)",
+            "name": "Marianne Faithfull",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/jDUoK3Lg4hL84kihErRvYtABwz4.jpg"
+          },
+          {
+            "character": "Bene Gesserit Ancestor (voice)",
+            "name": "Ellen Dubin",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/cvf1pX4t6ZzDPsRi9J2xGrGj78c.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/original/zRKQW58MBEY078AxkHxEJzUskCl.jpg",
+      "behaviorHints": {
+        "defaultVideoId": "tt1160419",
+        "hasScheduledVideos": false
+      },
+      "country": "United States of America",
+      "description": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence - a commodity capable of unlocking humanity's greatest potential - only those who can conquer their fear will survive.",
+      "director": [
+        "Denis Villeneuve"
+      ],
+      "genre": [
+        "Science Fiction",
+        "Adventure"
+      ],
+      "genres": [
+        "Science Fiction",
+        "Adventure"
+      ],
+      "id": "tmdb:438631",
+      "imdbRating": "8.0",
+      "imdb_id": "tt1160419",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.0",
+          "url": "https://imdb.com/title/tt1160419"
+        },
+        {
+          "category": "share",
+          "name": "Dune",
+          "url": "https://www.strem.io/s/movie/dune-1160419"
+        },
+        {
+          "category": "Genres",
+          "name": "Science Fiction",
+          "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/movie/tmdb.top?genre=Science%20Fiction"
+        },
+        {
+          "category": "Genres",
+          "name": "Adventure",
+          "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/movie/tmdb.top?genre=Adventure"
+        },
+        {
+          "category": "Cast",
+          "name": "Timothée Chalamet",
+          "url": "stremio:///search?search=Timoth%C3%A9e%20Chalamet"
+        },
+        {
+          "category": "Cast",
+          "name": "Rebecca Ferguson",
+          "url": "stremio:///search?search=Rebecca%20Ferguson"
+        },
+        {
+          "category": "Cast",
+          "name": "Oscar Isaac",
+          "url": "stremio:///search?search=Oscar%20Isaac"
+        },
+        {
+          "category": "Cast",
+          "name": "Jason Momoa",
+          "url": "stremio:///search?search=Jason%20Momoa"
+        },
+        {
+          "category": "Cast",
+          "name": "Stellan Skarsgård",
+          "url": "stremio:///search?search=Stellan%20Skarsg%C3%A5rd"
+        },
+        {
+          "category": "Cast",
+          "name": "Stephen McKinley Henderson",
+          "url": "stremio:///search?search=Stephen%20McKinley%20Henderson"
+        },
+        {
+          "category": "Cast",
+          "name": "Josh Brolin",
+          "url": "stremio:///search?search=Josh%20Brolin"
+        },
+        {
+          "category": "Cast",
+          "name": "Javier Bardem",
+          "url": "stremio:///search?search=Javier%20Bardem"
+        },
+        {
+          "category": "Cast",
+          "name": "Sharon Duncan-Brewster",
+          "url": "stremio:///search?search=Sharon%20Duncan-Brewster"
+        },
+        {
+          "category": "Cast",
+          "name": "Chang Chen",
+          "url": "stremio:///search?search=Chang%20Chen"
+        },
+        {
+          "category": "Cast",
+          "name": "Dave Bautista",
+          "url": "stremio:///search?search=Dave%20Bautista"
+        },
+        {
+          "category": "Cast",
+          "name": "David Dastmalchian",
+          "url": "stremio:///search?search=David%20Dastmalchian"
+        },
+        {
+          "category": "Cast",
+          "name": "Zendaya",
+          "url": "stremio:///search?search=Zendaya"
+        },
+        {
+          "category": "Cast",
+          "name": "Charlotte Rampling",
+          "url": "stremio:///search?search=Charlotte%20Rampling"
+        },
+        {
+          "category": "Cast",
+          "name": "Babs Olusanmokun",
+          "url": "stremio:///search?search=Babs%20Olusanmokun"
+        },
+        {
+          "category": "Cast",
+          "name": "Benjamin Clementine",
+          "url": "stremio:///search?search=Benjamin%20Clementine"
+        },
+        {
+          "category": "Cast",
+          "name": "Souad Faress",
+          "url": "stremio:///search?search=Souad%20Faress"
+        },
+        {
+          "category": "Cast",
+          "name": "Golda Rosheuvel",
+          "url": "stremio:///search?search=Golda%20Rosheuvel"
+        },
+        {
+          "category": "Cast",
+          "name": "Roger Yuan",
+          "url": "stremio:///search?search=Roger%20Yuan"
+        },
+        {
+          "category": "Cast",
+          "name": "Seun Shote",
+          "url": "stremio:///search?search=Seun%20Shote"
+        },
+        {
+          "category": "Cast",
+          "name": "Neil Bell",
+          "url": "stremio:///search?search=Neil%20Bell"
+        },
+        {
+          "category": "Cast",
+          "name": "Oliver Ryan",
+          "url": "stremio:///search?search=Oliver%20Ryan"
+        },
+        {
+          "category": "Cast",
+          "name": "Stephen Collins",
+          "url": "stremio:///search?search=Stephen%20Collins"
+        },
+        {
+          "category": "Cast",
+          "name": "Charlie Rawes",
+          "url": "stremio:///search?search=Charlie%20Rawes"
+        },
+        {
+          "category": "Cast",
+          "name": "Richard Carter",
+          "url": "stremio:///search?search=Richard%20Carter"
+        },
+        {
+          "category": "Cast",
+          "name": "Benjamin Dilloway",
+          "url": "stremio:///search?search=Benjamin%20Dilloway"
+        },
+        {
+          "category": "Cast",
+          "name": "Elmi Rashid Elmi",
+          "url": "stremio:///search?search=Elmi%20Rashid%20Elmi"
+        },
+        {
+          "category": "Cast",
+          "name": "Tachia Newall",
+          "url": "stremio:///search?search=Tachia%20Newall"
+        },
+        {
+          "category": "Cast",
+          "name": "Gloria Obianyo",
+          "url": "stremio:///search?search=Gloria%20Obianyo"
+        },
+        {
+          "category": "Cast",
+          "name": "Fehinti Balogun",
+          "url": "stremio:///search?search=Fehinti%20Balogun"
+        },
+        {
+          "category": "Cast",
+          "name": "Dora Kápolnai-Schvab",
+          "url": "stremio:///search?search=Dora%20K%C3%A1polnai-Schvab"
+        },
+        {
+          "category": "Cast",
+          "name": "Joelle",
+          "url": "stremio:///search?search=Joelle"
+        },
+        {
+          "category": "Cast",
+          "name": "Jimmy Walker",
+          "url": "stremio:///search?search=Jimmy%20Walker"
+        },
+        {
+          "category": "Cast",
+          "name": "Paul Bullion",
+          "url": "stremio:///search?search=Paul%20Bullion"
+        },
+        {
+          "category": "Cast",
+          "name": "Milena Sidorova",
+          "url": "stremio:///search?search=Milena%20Sidorova"
+        },
+        {
+          "category": "Cast",
+          "name": "János Timkó",
+          "url": "stremio:///search?search=J%C3%A1nos%20Timk%C3%B3"
+        },
+        {
+          "category": "Cast",
+          "name": "Jean Gilpin",
+          "url": "stremio:///search?search=Jean%20Gilpin"
+        },
+        {
+          "category": "Cast",
+          "name": "Marianne Faithfull",
+          "url": "stremio:///search?search=Marianne%20Faithfull"
+        },
+        {
+          "category": "Cast",
+          "name": "Ellen Dubin",
+          "url": "stremio:///search?search=Ellen%20Dubin"
+        },
+        {
+          "category": "Directors",
+          "name": "Denis Villeneuve",
+          "url": "stremio:///search?search=Denis%20Villeneuve"
+        },
+        {
+          "category": "Dune Collection",
+          "name": "Dune: Part Two",
+          "url": "stremio:///detail/movie/tmdb:693134"
+        },
+        {
+          "category": "Dune Collection",
+          "name": "Dune: Part Three",
+          "url": "stremio:///detail/movie/tmdb:1170608"
+        }
+      ],
+      "logo": "https://image.tmdb.org/t/p/original/2gk0HwLIAyQcwyUBI7oddJYOxpN.png",
+      "name": "Dune",
+      "poster": "https://image.tmdb.org/t/p/w500/v1tRXZ4JtD2Iv6fjkPvT4GiwslV.jpg",
+      "releaseInfo": "2021",
+      "released": "2021-09-15T00:00:00.000Z",
+      "runtime": "2h35min",
+      "slug": "movie/dune-1160419",
+      "tmdb_id": 438631,
+      "trailerStreams": [
+        {
+          "title": "Final Trailer",
+          "ytId": "w0HgHet0sxg"
+        },
+        {
+          "title": "Official Main Trailer",
+          "ytId": "8g18jFHCLXk"
+        },
+        {
+          "title": "Official Trailer",
+          "ytId": "n9xhJrPXop4"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "w0HgHet0sxg",
+          "type": "Trailer"
+        },
+        {
+          "source": "8g18jFHCLXk",
+          "type": "Trailer"
+        },
+        {
+          "source": "n9xhJrPXop4",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [],
+      "year": "2021"
+    },
+    {
+      "ageRating": null,
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Paul Atreides",
+            "name": "Timothée Chalamet",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/dFxpwRpmzpVfP1zjluH68DeQhyj.jpg"
+          },
+          {
+            "character": "Chani",
+            "name": "Zendaya",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/qGkBlyn1AwQpuFnRARMRwj0iHZp.jpg"
+          },
+          {
+            "character": "Jessica",
+            "name": "Rebecca Ferguson",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ra53cM1aNmdH0aFhj8yBqPOj2fb.jpg"
+          },
+          {
+            "character": "Stilgar",
+            "name": "Javier Bardem",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/zfRID0jx8DKBluPGU9xtk9sZWUt.jpg"
+          },
+          {
+            "character": "Gurney Halleck",
+            "name": "Josh Brolin",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/sX2etBbIkxRaCsATyw5ZpOVMPTD.jpg"
+          },
+          {
+            "character": "Feyd-Rautha",
+            "name": "Austin Butler",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/atdAs4pFGjUQ4m2W8kJYly7N6cC.jpg"
+          },
+          {
+            "character": "Princess Irulan",
+            "name": "Florence Pugh",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/2URrZb95t3kY6pLroKny3Enmabp.jpg"
+          },
+          {
+            "character": "Beast Rabban",
+            "name": "Dave Bautista",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/snk6JiXOOoRjPtHU5VMoy6qbd32.jpg"
+          },
+          {
+            "character": "Emperor",
+            "name": "Christopher Walken",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ApgDL7nudR9T2GpjCG4vESgymO2.jpg"
+          },
+          {
+            "character": "Lady Margot Fenring",
+            "name": "Léa Seydoux",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/4q6xqqWLLleQrFjeqeYYV8B0fwE.jpg"
+          },
+          {
+            "character": "Baron Harkonnen",
+            "name": "Stellan Skarsgård",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mW7xmtGV4y79kQGn0zkKVGDMAmw.jpg"
+          },
+          {
+            "character": "Reverend Mother Mohiam",
+            "name": "Charlotte Rampling",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/Htvl9mN6mlf2a18RAFzNXF3RiG.jpg"
+          },
+          {
+            "character": "Shishakli",
+            "name": "Souheila Yacoub",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/A233BHgXw0dzbeOpvHfJwL9gLy1.jpg"
+          },
+          {
+            "character": "Lanville",
+            "name": "Roger Yuan",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/jHdxbT6n3ToYKw0DVFIUkva86SO.jpg"
+          },
+          {
+            "character": "Jamis",
+            "name": "Babs Olusanmokun",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/bqycmpUrpISeLzQniiYwAZ5X1RN.jpg"
+          },
+          {
+            "character": "Maker Keeper",
+            "name": "Alison Halstead",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/zeMEPKMCDyVXvxGr6LeBLeZ9PdZ.jpg"
+          },
+          {
+            "character": "Reverend Mother Ramallo",
+            "name": "Giusi Merli",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/90lHFn3PUJdoHHzcYRS2Ky1gbyi.jpg"
+          },
+          {
+            "character": "Bene Gesserit Sister",
+            "name": "Kait Tenison",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/1FwuNqLpXntCNPaxmWr48BnphdB.jpg"
+          },
+          {
+            "character": "Bene Gesserit Sister",
+            "name": "Tara Breathnach",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/Ats6HnzudW0GehRntVvAVxPCcRO.jpg"
+          },
+          {
+            "character": "Bene Gesserit Sister",
+            "name": "Akiko Hitomi",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/3TMlP0tBoTjfls2UIPfj22zFtLI.jpg"
+          },
+          {
+            "character": "Watermaster",
+            "name": "Imola Gáspár",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ezCLIB3QdzxbAXjBM41DwqcPCV5.jpg"
+          },
+          {
+            "character": "Young Fremen Patrol",
+            "name": "Alison Adnet",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/jVXfD9nhCDm8tZrEPk5qwDYAJ1h.jpg"
+          },
+          {
+            "character": "Young Fremen Patrol",
+            "name": "Hamza Baissa",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/u6AYgG3gu7VpejhvroniRee7e07.jpg"
+          },
+          {
+            "character": "Young Fremen Patrol",
+            "name": "Hassan Najib",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/fWzMV4Xa9tJqkfII6jYU9qFfENe.jpg"
+          },
+          {
+            "character": "Young Fremen Patrol",
+            "name": "Jasper Ryan-Cater",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/fWUnpcn1sgkHwmX5eO4y2LGYLap.jpg"
+          },
+          {
+            "character": "Young Fremen Patrol",
+            "name": "Omar Elbooz",
+            "photo": null
+          },
+          {
+            "character": "Young Fremen Patrol",
+            "name": "Abdelkarim Hussein Seli Mohamed Hassanin",
+            "photo": null
+          },
+          {
+            "character": "Fedaykin Leader",
+            "name": "Joseph Beddelem",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/3huFmzh7t8mQvDte7GK3s5Aiuiv.jpg"
+          },
+          {
+            "character": "Fedaykin",
+            "name": "Xavier Alba Royo",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/fSsgu5dUOppKaqi2Jq7NX56VvZU.jpg"
+          },
+          {
+            "character": "Fedaykin",
+            "name": "Rachid Abbad",
+            "photo": null
+          },
+          {
+            "character": "Fedaykin",
+            "name": "Affif Ben Badra",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/6NSxwKLkBk6Hf0MU6NAUgc60qS9.jpg"
+          },
+          {
+            "character": "Fedaykin",
+            "name": "Botond Bóta",
+            "photo": null
+          },
+          {
+            "character": "Fedaykin",
+            "name": "Abdelaziz Boumane",
+            "photo": null
+          },
+          {
+            "character": "Fedaykin",
+            "name": "Abdellah Echahbi",
+            "photo": null
+          },
+          {
+            "character": "Fedaykin",
+            "name": "Zouhair Elakkari",
+            "photo": null
+          },
+          {
+            "character": "Fedaykin",
+            "name": "Noureddine Hajoujou",
+            "photo": null
+          },
+          {
+            "character": "Fedaykin",
+            "name": "Mohamed Mouraoui",
+            "photo": null
+          },
+          {
+            "character": "Fedaykin",
+            "name": "Adil Achraf Sayd",
+            "photo": null
+          },
+          {
+            "character": "Fedaykin",
+            "name": "Hamza Sayd",
+            "photo": null
+          },
+          {
+            "character": "Fremen Nun",
+            "name": "Hopi Grace",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/vd7MrgNM5zgTN98CHHxeWSCIRvw.jpg"
+          },
+          {
+            "character": "Fremen Nun",
+            "name": "Havin Fathi",
+            "photo": null
+          },
+          {
+            "character": "Fremen Nun",
+            "name": "Kincsö Pethö",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/caikYs5IgdiKyxgT8XJbOeGlCWp.jpg"
+          },
+          {
+            "character": "Young Nun",
+            "name": "Cat Simmons",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/xlZL4D6zzQutUZTa4i1JcyKAvfP.jpg"
+          },
+          {
+            "character": "Devotee",
+            "name": "Burt Caesar",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/kPlOgIX09HO4JximMMxxoJSjbfw.jpg"
+          },
+          {
+            "character": "Devotee",
+            "name": "Remi Fadare",
+            "photo": null
+          },
+          {
+            "character": "Huge Fighter",
+            "name": "Amer El-Erwadi",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/h7ph8lhpL9TqJUHjDlpvXJtPdhZ.jpg"
+          },
+          {
+            "character": "Fremen Onlooker",
+            "name": "Tedroy Newell",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/vTMl3WZ3z0W5S7pqlHyW5wvxKwW.jpg"
+          },
+          {
+            "character": "Fremen Onlooker",
+            "name": "Oxa Hazel",
+            "photo": null
+          },
+          {
+            "character": "Fremen Onlooker",
+            "name": "Hajiyeva Pakiza",
+            "photo": null
+          },
+          {
+            "character": "Oldest Elder",
+            "name": "Leon Herbert",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/z1Ap0OjXrO8mwcTqCZt3ycZcfTm.jpg"
+          },
+          {
+            "character": "Female Elder",
+            "name": "Sima Rostami",
+            "photo": null
+          },
+          {
+            "character": "Elder",
+            "name": "Yvonne Campbell",
+            "photo": null
+          },
+          {
+            "character": "Elder",
+            "name": "Joseph Charles",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/geoMrcflc2qfTb3680GwmN9zpBv.jpg"
+          },
+          {
+            "character": "Elder",
+            "name": "Vic Zander",
+            "photo": null
+          },
+          {
+            "character": "Harkonnen Translator",
+            "name": "Dylan Baldwin",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/jdHxbYZ6rbDsL6OdLVbCwkbwE5F.jpg"
+          },
+          {
+            "character": "Old Wounded Woman",
+            "name": "Marcia Tucker",
+            "photo": null
+          },
+          {
+            "character": "Wounded Fremen",
+            "name": "Nicola Brome",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/nCZuHIPRrdImGjcD4CHzDBTMMk8.jpg"
+          },
+          {
+            "character": "Wounded Fremen",
+            "name": "Kathy Owen",
+            "photo": null
+          },
+          {
+            "character": "Fundamentalist Fighter",
+            "name": "Huw Novelli",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mm3mkwjaAoEeP2pJ23fm1syWf1j.jpg"
+          },
+          {
+            "character": "Fundamentalist Fighter",
+            "name": "Moe Bar-El",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/3P24nebiTXbfy9WCfc4p4VRtpu0.jpg"
+          },
+          {
+            "character": "Fundamentalist Fighter",
+            "name": "Serhat Metin",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/iTAxqP85XYt9MxcNhYvHVWMwOJy.jpg"
+          },
+          {
+            "character": "Fundamentalist Fighter",
+            "name": "Amra Mallassi",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/kZGOAcIk59ERmgJZbAeiPBmDpPv.jpg"
+          },
+          {
+            "character": "Fundamentalist Fighter",
+            "name": "Adam Bloom",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ixMnSmoduRjt75BglvYnxTnmoe8.jpg"
+          },
+          {
+            "character": "Sentinel Leader",
+            "name": "Luis Alkmim",
+            "photo": null
+          },
+          {
+            "character": "Smuggler Driver",
+            "name": "Jordan Long",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ew39mDa4vhhylYnRg5nC8USOwTf.jpg"
+          },
+          {
+            "character": "Wounded Smuggler",
+            "name": "Omar A.K.",
+            "photo": null
+          },
+          {
+            "character": "Arena Gladiator",
+            "name": "Zdeněk Dvořáček",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/7jUq2nf3dk1Qgc2N1rBUmYgteWx.jpg"
+          },
+          {
+            "character": "Arena Gladiator",
+            "name": "Billy Clements",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/nipJ22DXJBsdM1teQodwop42U6S.jpg"
+          },
+          {
+            "character": "Harkonnen Commander",
+            "name": "Anton Valensi",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/hU2IY4iXYwibgbZXSk0u8p1VfBF.jpg"
+          },
+          {
+            "character": "Harkonnen Commander",
+            "name": "Lex Daniel",
+            "photo": null
+          },
+          {
+            "character": "Harkonnen Commander",
+            "name": "Dominic McHale",
+            "photo": null
+          },
+          {
+            "character": "Harkonnen Commander",
+            "name": "Paul Boyle",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/jPZjg6L6dJw4GvMY2jBNKdCwNtd.jpg"
+          },
+          {
+            "character": "Ornithopter Military Pilot",
+            "name": "Niall White",
+            "photo": null
+          },
+          {
+            "character": "Harkonnen Scanner Operator",
+            "name": "Tony Cook",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/7F6BWp311YTed9xJ42GpgAckHEE.jpg"
+          },
+          {
+            "character": "Harkonnen Officer",
+            "name": "Gábor Szemán",
+            "photo": null
+          },
+          {
+            "character": "Game Supervisor",
+            "name": "Jonathan Gunning",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/zAhGDV1kLUXIf21XWpNPSySLlKT.jpg"
+          },
+          {
+            "character": "Slave Master",
+            "name": "Will Irvine",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/pdHxsV2y3Bhcs6gt3FWWNUyHwWa.jpg"
+          },
+          {
+            "character": "Weapon Master",
+            "name": "Alan Mehdizadeh",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/cIlAUPyKLHANtdUCs1t79KKe1Ik.jpg"
+          },
+          {
+            "character": "Harpy",
+            "name": "Rex Adams",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/pLjqYCCoGA2BCKNR5JAiZuP4iiq.jpg"
+          },
+          {
+            "character": "Harpy",
+            "name": "Molly Mcowan",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mZcrGFTKtPDghCob8h8WoDgZW6s.jpg"
+          },
+          {
+            "character": "Harpy",
+            "name": "Ana Cilas",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/tU8KAVsIPEjeGz426DW3S9eKqT2.jpg"
+          },
+          {
+            "character": "Feyd-Rautha's Attendant",
+            "name": "Kajsa Mohammar",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/2wtbhHbCF6UdrMLyRfbepS8aViQ.jpg"
+          },
+          {
+            "character": "Feyd-Rautha's Attendant",
+            "name": "Sára Bácsfalvi",
+            "photo": null
+          },
+          {
+            "character": "Feyd-Rautha's Attendant",
+            "name": "Zsófia Kocsis",
+            "photo": null
+          },
+          {
+            "character": "Spice Steward",
+            "name": "Matthew Sim",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/9mh51GgmHIv7dflaE7e9y46eXDP.jpg"
+          },
+          {
+            "character": "Bashar",
+            "name": "Steve Wall",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/tEXsLuN0w1aaosb4kzf5DwT7rok.jpg"
+          },
+          {
+            "character": "Imperial Council",
+            "name": "Italo Amerighi",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/vL8aze1LE0Kv3swSHHF4BtbUlwv.jpg"
+          },
+          {
+            "character": "Imperial Council",
+            "name": "Tim Hilborne",
+            "photo": null
+          },
+          {
+            "character": "Imperial Council",
+            "name": "Cecile Sinclair",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/bqEUR4PVEFInk9C9GkBX0FlkrAF.jpg"
+          },
+          {
+            "character": "Imperial Servant",
+            "name": "Tracy Coogan",
+            "photo": null
+          },
+          {
+            "character": "Baby Jessica",
+            "name": "Zoe Kata Kaska",
+            "photo": null
+          },
+          {
+            "character": "Baron Proxy",
+            "name": "Jimmy Walker",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/veFEysBjID6MpxNb4gCDXKQmm0e.jpg"
+          },
+          {
+            "character": "Female Fremen Fighter",
+            "name": "Rand Faris",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ob8PA9RzzFQwH2QWmpWDabg0K6w.jpg"
+          },
+          {
+            "character": "Male Fremen Fighter",
+            "name": "Fouad Humaidan",
+            "photo": null
+          },
+          {
+            "character": "Male Fremen Fighter",
+            "name": "Manaf Irani",
+            "photo": null
+          },
+          {
+            "character": "Baron Servant",
+            "name": "Dora Kápolnai-Schvab",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/dFohxzfYViaBsklakLceIuZKrfw.jpg"
+          },
+          {
+            "character": "Baron Servant",
+            "name": "Joelle",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/rqmxqILAmCqIXCedRBtgh6NLaw2.jpg"
+          },
+          {
+            "character": "Alia Atreides (uncredited)",
+            "name": "Anya Taylor-Joy",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/yZpghhtKM2VZHDx6JGAZqAVU4PL.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/original/eZ239CUp1d6OryZEBPnO2n87gMG.jpg",
+      "behaviorHints": {
+        "defaultVideoId": "tt15239678",
+        "hasScheduledVideos": false
+      },
+      "country": "United States of America",
+      "description": "Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, Paul endeavors to prevent a terrible future only he can foresee.",
+      "director": [
+        "Denis Villeneuve"
+      ],
+      "genre": [
+        "Science Fiction",
+        "Adventure"
+      ],
+      "genres": [
+        "Science Fiction",
+        "Adventure"
+      ],
+      "id": "tmdb:693134",
+      "imdbRating": "8.4",
+      "imdb_id": "tt15239678",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.4",
+          "url": "https://imdb.com/title/tt15239678"
+        },
+        {
+          "category": "share",
+          "name": "Dune: Part Two",
+          "url": "https://www.strem.io/s/movie/dune:-part-two-15239678"
+        },
+        {
+          "category": "Genres",
+          "name": "Science Fiction",
+          "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/movie/tmdb.top?genre=Science%20Fiction"
+        },
+        {
+          "category": "Genres",
+          "name": "Adventure",
+          "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/movie/tmdb.top?genre=Adventure"
+        },
+        {
+          "category": "Cast",
+          "name": "Timothée Chalamet",
+          "url": "stremio:///search?search=Timoth%C3%A9e%20Chalamet"
+        },
+        {
+          "category": "Cast",
+          "name": "Zendaya",
+          "url": "stremio:///search?search=Zendaya"
+        },
+        {
+          "category": "Cast",
+          "name": "Rebecca Ferguson",
+          "url": "stremio:///search?search=Rebecca%20Ferguson"
+        },
+        {
+          "category": "Cast",
+          "name": "Javier Bardem",
+          "url": "stremio:///search?search=Javier%20Bardem"
+        },
+        {
+          "category": "Cast",
+          "name": "Josh Brolin",
+          "url": "stremio:///search?search=Josh%20Brolin"
+        },
+        {
+          "category": "Cast",
+          "name": "Austin Butler",
+          "url": "stremio:///search?search=Austin%20Butler"
+        },
+        {
+          "category": "Cast",
+          "name": "Florence Pugh",
+          "url": "stremio:///search?search=Florence%20Pugh"
+        },
+        {
+          "category": "Cast",
+          "name": "Dave Bautista",
+          "url": "stremio:///search?search=Dave%20Bautista"
+        },
+        {
+          "category": "Cast",
+          "name": "Christopher Walken",
+          "url": "stremio:///search?search=Christopher%20Walken"
+        },
+        {
+          "category": "Cast",
+          "name": "Léa Seydoux",
+          "url": "stremio:///search?search=L%C3%A9a%20Seydoux"
+        },
+        {
+          "category": "Cast",
+          "name": "Stellan Skarsgård",
+          "url": "stremio:///search?search=Stellan%20Skarsg%C3%A5rd"
+        },
+        {
+          "category": "Cast",
+          "name": "Charlotte Rampling",
+          "url": "stremio:///search?search=Charlotte%20Rampling"
+        },
+        {
+          "category": "Cast",
+          "name": "Souheila Yacoub",
+          "url": "stremio:///search?search=Souheila%20Yacoub"
+        },
+        {
+          "category": "Cast",
+          "name": "Roger Yuan",
+          "url": "stremio:///search?search=Roger%20Yuan"
+        },
+        {
+          "category": "Cast",
+          "name": "Babs Olusanmokun",
+          "url": "stremio:///search?search=Babs%20Olusanmokun"
+        },
+        {
+          "category": "Cast",
+          "name": "Alison Halstead",
+          "url": "stremio:///search?search=Alison%20Halstead"
+        },
+        {
+          "category": "Cast",
+          "name": "Giusi Merli",
+          "url": "stremio:///search?search=Giusi%20Merli"
+        },
+        {
+          "category": "Cast",
+          "name": "Kait Tenison",
+          "url": "stremio:///search?search=Kait%20Tenison"
+        },
+        {
+          "category": "Cast",
+          "name": "Tara Breathnach",
+          "url": "stremio:///search?search=Tara%20Breathnach"
+        },
+        {
+          "category": "Cast",
+          "name": "Akiko Hitomi",
+          "url": "stremio:///search?search=Akiko%20Hitomi"
+        },
+        {
+          "category": "Cast",
+          "name": "Imola Gáspár",
+          "url": "stremio:///search?search=Imola%20G%C3%A1sp%C3%A1r"
+        },
+        {
+          "category": "Cast",
+          "name": "Alison Adnet",
+          "url": "stremio:///search?search=Alison%20Adnet"
+        },
+        {
+          "category": "Cast",
+          "name": "Hamza Baissa",
+          "url": "stremio:///search?search=Hamza%20Baissa"
+        },
+        {
+          "category": "Cast",
+          "name": "Hassan Najib",
+          "url": "stremio:///search?search=Hassan%20Najib"
+        },
+        {
+          "category": "Cast",
+          "name": "Jasper Ryan-Cater",
+          "url": "stremio:///search?search=Jasper%20Ryan-Cater"
+        },
+        {
+          "category": "Cast",
+          "name": "Omar Elbooz",
+          "url": "stremio:///search?search=Omar%20Elbooz"
+        },
+        {
+          "category": "Cast",
+          "name": "Abdelkarim Hussein Seli Mohamed Hassanin",
+          "url": "stremio:///search?search=Abdelkarim%20Hussein%20Seli%20Mohamed%20Hassanin"
+        },
+        {
+          "category": "Cast",
+          "name": "Joseph Beddelem",
+          "url": "stremio:///search?search=Joseph%20Beddelem"
+        },
+        {
+          "category": "Cast",
+          "name": "Xavier Alba Royo",
+          "url": "stremio:///search?search=Xavier%20Alba%20Royo"
+        },
+        {
+          "category": "Cast",
+          "name": "Rachid Abbad",
+          "url": "stremio:///search?search=Rachid%20Abbad"
+        },
+        {
+          "category": "Cast",
+          "name": "Affif Ben Badra",
+          "url": "stremio:///search?search=Affif%20Ben%20Badra"
+        },
+        {
+          "category": "Cast",
+          "name": "Botond Bóta",
+          "url": "stremio:///search?search=Botond%20B%C3%B3ta"
+        },
+        {
+          "category": "Cast",
+          "name": "Abdelaziz Boumane",
+          "url": "stremio:///search?search=Abdelaziz%20Boumane"
+        },
+        {
+          "category": "Cast",
+          "name": "Abdellah Echahbi",
+          "url": "stremio:///search?search=Abdellah%20Echahbi"
+        },
+        {
+          "category": "Cast",
+          "name": "Zouhair Elakkari",
+          "url": "stremio:///search?search=Zouhair%20Elakkari"
+        },
+        {
+          "category": "Cast",
+          "name": "Noureddine Hajoujou",
+          "url": "stremio:///search?search=Noureddine%20Hajoujou"
+        },
+        {
+          "category": "Cast",
+          "name": "Mohamed Mouraoui",
+          "url": "stremio:///search?search=Mohamed%20Mouraoui"
+        },
+        {
+          "category": "Cast",
+          "name": "Adil Achraf Sayd",
+          "url": "stremio:///search?search=Adil%20Achraf%20Sayd"
+        },
+        {
+          "category": "Cast",
+          "name": "Hamza Sayd",
+          "url": "stremio:///search?search=Hamza%20Sayd"
+        },
+        {
+          "category": "Cast",
+          "name": "Hopi Grace",
+          "url": "stremio:///search?search=Hopi%20Grace"
+        },
+        {
+          "category": "Cast",
+          "name": "Havin Fathi",
+          "url": "stremio:///search?search=Havin%20Fathi"
+        },
+        {
+          "category": "Cast",
+          "name": "Kincsö Pethö",
+          "url": "stremio:///search?search=Kincs%C3%B6%20Peth%C3%B6"
+        },
+        {
+          "category": "Cast",
+          "name": "Cat Simmons",
+          "url": "stremio:///search?search=Cat%20Simmons"
+        },
+        {
+          "category": "Cast",
+          "name": "Burt Caesar",
+          "url": "stremio:///search?search=Burt%20Caesar"
+        },
+        {
+          "category": "Cast",
+          "name": "Remi Fadare",
+          "url": "stremio:///search?search=Remi%20Fadare"
+        },
+        {
+          "category": "Cast",
+          "name": "Amer El-Erwadi",
+          "url": "stremio:///search?search=Amer%20El-Erwadi"
+        },
+        {
+          "category": "Cast",
+          "name": "Tedroy Newell",
+          "url": "stremio:///search?search=Tedroy%20Newell"
+        },
+        {
+          "category": "Cast",
+          "name": "Oxa Hazel",
+          "url": "stremio:///search?search=Oxa%20Hazel"
+        },
+        {
+          "category": "Cast",
+          "name": "Hajiyeva Pakiza",
+          "url": "stremio:///search?search=Hajiyeva%20Pakiza"
+        },
+        {
+          "category": "Cast",
+          "name": "Leon Herbert",
+          "url": "stremio:///search?search=Leon%20Herbert"
+        },
+        {
+          "category": "Cast",
+          "name": "Sima Rostami",
+          "url": "stremio:///search?search=Sima%20Rostami"
+        },
+        {
+          "category": "Cast",
+          "name": "Yvonne Campbell",
+          "url": "stremio:///search?search=Yvonne%20Campbell"
+        },
+        {
+          "category": "Cast",
+          "name": "Joseph Charles",
+          "url": "stremio:///search?search=Joseph%20Charles"
+        },
+        {
+          "category": "Cast",
+          "name": "Vic Zander",
+          "url": "stremio:///search?search=Vic%20Zander"
+        },
+        {
+          "category": "Cast",
+          "name": "Dylan Baldwin",
+          "url": "stremio:///search?search=Dylan%20Baldwin"
+        },
+        {
+          "category": "Cast",
+          "name": "Marcia Tucker",
+          "url": "stremio:///search?search=Marcia%20Tucker"
+        },
+        {
+          "category": "Cast",
+          "name": "Nicola Brome",
+          "url": "stremio:///search?search=Nicola%20Brome"
+        },
+        {
+          "category": "Cast",
+          "name": "Kathy Owen",
+          "url": "stremio:///search?search=Kathy%20Owen"
+        },
+        {
+          "category": "Cast",
+          "name": "Huw Novelli",
+          "url": "stremio:///search?search=Huw%20Novelli"
+        },
+        {
+          "category": "Cast",
+          "name": "Moe Bar-El",
+          "url": "stremio:///search?search=Moe%20Bar-El"
+        },
+        {
+          "category": "Cast",
+          "name": "Serhat Metin",
+          "url": "stremio:///search?search=Serhat%20Metin"
+        },
+        {
+          "category": "Cast",
+          "name": "Amra Mallassi",
+          "url": "stremio:///search?search=Amra%20Mallassi"
+        },
+        {
+          "category": "Cast",
+          "name": "Adam Bloom",
+          "url": "stremio:///search?search=Adam%20Bloom"
+        },
+        {
+          "category": "Cast",
+          "name": "Luis Alkmim",
+          "url": "stremio:///search?search=Luis%20Alkmim"
+        },
+        {
+          "category": "Cast",
+          "name": "Jordan Long",
+          "url": "stremio:///search?search=Jordan%20Long"
+        },
+        {
+          "category": "Cast",
+          "name": "Omar A.K.",
+          "url": "stremio:///search?search=Omar%20A.K."
+        },
+        {
+          "category": "Cast",
+          "name": "Zdeněk Dvořáček",
+          "url": "stremio:///search?search=Zden%C4%9Bk%20Dvo%C5%99%C3%A1%C4%8Dek"
+        },
+        {
+          "category": "Cast",
+          "name": "Billy Clements",
+          "url": "stremio:///search?search=Billy%20Clements"
+        },
+        {
+          "category": "Cast",
+          "name": "Anton Valensi",
+          "url": "stremio:///search?search=Anton%20Valensi"
+        },
+        {
+          "category": "Cast",
+          "name": "Lex Daniel",
+          "url": "stremio:///search?search=Lex%20Daniel"
+        },
+        {
+          "category": "Cast",
+          "name": "Dominic McHale",
+          "url": "stremio:///search?search=Dominic%20McHale"
+        },
+        {
+          "category": "Cast",
+          "name": "Paul Boyle",
+          "url": "stremio:///search?search=Paul%20Boyle"
+        },
+        {
+          "category": "Cast",
+          "name": "Niall White",
+          "url": "stremio:///search?search=Niall%20White"
+        },
+        {
+          "category": "Cast",
+          "name": "Tony Cook",
+          "url": "stremio:///search?search=Tony%20Cook"
+        },
+        {
+          "category": "Cast",
+          "name": "Gábor Szemán",
+          "url": "stremio:///search?search=G%C3%A1bor%20Szem%C3%A1n"
+        },
+        {
+          "category": "Cast",
+          "name": "Jonathan Gunning",
+          "url": "stremio:///search?search=Jonathan%20Gunning"
+        },
+        {
+          "category": "Cast",
+          "name": "Will Irvine",
+          "url": "stremio:///search?search=Will%20Irvine"
+        },
+        {
+          "category": "Cast",
+          "name": "Alan Mehdizadeh",
+          "url": "stremio:///search?search=Alan%20Mehdizadeh"
+        },
+        {
+          "category": "Cast",
+          "name": "Rex Adams",
+          "url": "stremio:///search?search=Rex%20Adams"
+        },
+        {
+          "category": "Cast",
+          "name": "Molly Mcowan",
+          "url": "stremio:///search?search=Molly%20Mcowan"
+        },
+        {
+          "category": "Cast",
+          "name": "Ana Cilas",
+          "url": "stremio:///search?search=Ana%20Cilas"
+        },
+        {
+          "category": "Cast",
+          "name": "Kajsa Mohammar",
+          "url": "stremio:///search?search=Kajsa%20Mohammar"
+        },
+        {
+          "category": "Cast",
+          "name": "Sára Bácsfalvi",
+          "url": "stremio:///search?search=S%C3%A1ra%20B%C3%A1csfalvi"
+        },
+        {
+          "category": "Cast",
+          "name": "Zsófia Kocsis",
+          "url": "stremio:///search?search=Zs%C3%B3fia%20Kocsis"
+        },
+        {
+          "category": "Cast",
+          "name": "Matthew Sim",
+          "url": "stremio:///search?search=Matthew%20Sim"
+        },
+        {
+          "category": "Cast",
+          "name": "Steve Wall",
+          "url": "stremio:///search?search=Steve%20Wall"
+        },
+        {
+          "category": "Cast",
+          "name": "Italo Amerighi",
+          "url": "stremio:///search?search=Italo%20Amerighi"
+        },
+        {
+          "category": "Cast",
+          "name": "Tim Hilborne",
+          "url": "stremio:///search?search=Tim%20Hilborne"
+        },
+        {
+          "category": "Cast",
+          "name": "Cecile Sinclair",
+          "url": "stremio:///search?search=Cecile%20Sinclair"
+        },
+        {
+          "category": "Cast",
+          "name": "Tracy Coogan",
+          "url": "stremio:///search?search=Tracy%20Coogan"
+        },
+        {
+          "category": "Cast",
+          "name": "Zoe Kata Kaska",
+          "url": "stremio:///search?search=Zoe%20Kata%20Kaska"
+        },
+        {
+          "category": "Cast",
+          "name": "Jimmy Walker",
+          "url": "stremio:///search?search=Jimmy%20Walker"
+        },
+        {
+          "category": "Cast",
+          "name": "Rand Faris",
+          "url": "stremio:///search?search=Rand%20Faris"
+        },
+        {
+          "category": "Cast",
+          "name": "Fouad Humaidan",
+          "url": "stremio:///search?search=Fouad%20Humaidan"
+        },
+        {
+          "category": "Cast",
+          "name": "Manaf Irani",
+          "url": "stremio:///search?search=Manaf%20Irani"
+        },
+        {
+          "category": "Cast",
+          "name": "Dora Kápolnai-Schvab",
+          "url": "stremio:///search?search=Dora%20K%C3%A1polnai-Schvab"
+        },
+        {
+          "category": "Cast",
+          "name": "Joelle",
+          "url": "stremio:///search?search=Joelle"
+        },
+        {
+          "category": "Cast",
+          "name": "Anya Taylor-Joy",
+          "url": "stremio:///search?search=Anya%20Taylor-Joy"
+        },
+        {
+          "category": "Directors",
+          "name": "Denis Villeneuve",
+          "url": "stremio:///search?search=Denis%20Villeneuve"
+        },
+        {
+          "category": "Dune Collection",
+          "name": "Dune",
+          "url": "stremio:///detail/movie/tmdb:438631"
+        },
+        {
+          "category": "Dune Collection",
+          "name": "Dune: Part Three",
+          "url": "stremio:///detail/movie/tmdb:1170608"
+        }
+      ],
+      "logo": "https://image.tmdb.org/t/p/original/eYvF1LhPKuoBxOAmWjFTAK7EPWl.png",
+      "name": "Dune: Part Two",
+      "poster": "https://image.tmdb.org/t/p/w500/6izwz7rsy95ARzTR3poZ8H6c5pp.jpg",
+      "releaseInfo": "2024",
+      "released": "2024-02-27T00:00:00.000Z",
+      "runtime": "2h47min",
+      "slug": "movie/dune:-part-two-15239678",
+      "tmdb_id": 693134,
+      "trailerStreams": [
+        {
+          "title": "Official Trailer 3",
+          "ytId": "U2Qp5pL3ovA"
+        },
+        {
+          "title": "Official Trailer 2",
+          "ytId": "_YUzQa_1RCE"
+        },
+        {
+          "title": "Official Trailer",
+          "ytId": "Way9Dexny3w"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "U2Qp5pL3ovA",
+          "type": "Trailer"
+        },
+        {
+          "source": "_YUzQa_1RCE",
+          "type": "Trailer"
+        },
+        {
+          "source": "Way9Dexny3w",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [],
+      "year": "2024"
+    },
+    {
+      "ageRating": null,
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Paul Atreides",
+            "name": "Kyle MacLachlan",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/7gNyx8fYAUdOp2jpCEH3dyFbeV.jpg"
+          },
+          {
+            "character": "Lady Jessica",
+            "name": "Francesca Annis",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/rtbYkuenkq8Kfc5LwzWYtVD3eNH.jpg"
+          },
+          {
+            "character": "Gurney Halleck",
+            "name": "Patrick Stewart",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ufqtnLh3JJjPbEgxEag3MM5nZyv.jpg"
+          },
+          {
+            "character": "Shadout Mapes",
+            "name": "Linda Hunt",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/leiVNArKBQTmE5ROovNJWiW9kfk.jpg"
+          },
+          {
+            "character": "Padisha Emperor Shaddam IV",
+            "name": "José Ferrer",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mMOxqZz7Te7SHTd7AGqpjyyykb7.jpg"
+          },
+          {
+            "character": "Thufir Hawat",
+            "name": "Freddie Jones",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mWozC9kZFNhxoRSCBvmykROmMGB.jpg"
+          },
+          {
+            "character": "Piter De Vries",
+            "name": "Brad Dourif",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ex7AmuHM3owhUetYZAyOmN1ehWS.jpg"
+          },
+          {
+            "character": "Duncan Idaho",
+            "name": "Richard Jordan",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/qrrpdZYy6cLLBUrrA6AqyWJKa0w.jpg"
+          },
+          {
+            "character": "Princess Irulan",
+            "name": "Virginia Madsen",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/2u72BF7i189nAcX1kEJLjGMsb0c.jpg"
+          },
+          {
+            "character": "Reverend Mother Ramallo",
+            "name": "Silvana Mangano",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/6BaomIelsdXJkqfByoB25ZOp09b.jpg"
+          },
+          {
+            "character": "Stilgar",
+            "name": "Everett McGill",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/nc3IMwRItjFzScYdJWR7MT9p5cW.jpg"
+          },
+          {
+            "character": "Feyd Rautha",
+            "name": "Sting",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/zKlFqVNMDwiGL95r1UUw3I1sK08.jpg"
+          },
+          {
+            "character": "Baron Vladimir Harkonnen",
+            "name": "Kenneth McMillan",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/iGRcxZOLPMCsgg06kYW1aVfxGqi.jpg"
+          },
+          {
+            "character": "Nefud",
+            "name": "Jack Nance",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/uYZ2D1gb7lO779L5nDn8XarZSvf.jpg"
+          },
+          {
+            "character": "Reverend Mother Gaius Helen Mohiam",
+            "name": "Siân Phillips",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/k2OIQZUWLTlZYfHjpS5X8csYbSY.jpg"
+          },
+          {
+            "character": "Duke Leto Atreides",
+            "name": "Jürgen Prochnow",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/77rzBItlHX1SG4zTe39cBlEgwSL.jpg"
+          },
+          {
+            "character": "The Baron's Doctor",
+            "name": "Leonardo Cimino",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/5SOh1zLMevY2O1AW3HiV1Mf4t2h.jpg"
+          },
+          {
+            "character": "The Beast Rabban",
+            "name": "Paul L. Smith",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/1Jxi6QSNn5CEuzDQzGGPgN1kxKq.jpg"
+          },
+          {
+            "character": "Doctor Wellington Yueh",
+            "name": "Dean Stockwell",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/gdHo8LNElMf1XxoRYgi0UUzbJuB.jpg"
+          },
+          {
+            "character": "Doctor Kynes",
+            "name": "Max von Sydow",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/u16BsGyT6v9yuO7wWAF62NayDth.jpg"
+          },
+          {
+            "character": "Alia",
+            "name": "Alicia Witt",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/vQ2McAjHjY3A7oDrPMx6aLSsvkW.jpg"
+          },
+          {
+            "character": "Chani",
+            "name": "Sean Young",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/yfJADYt6xYPpg1g7Z7TTW0bcL2s.jpg"
+          },
+          {
+            "character": "Orlop",
+            "name": "Danny Corkill",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/n5nKI4T55LDGVoqS5RG1Ru6ZUET.jpg"
+          },
+          {
+            "character": "Otheym",
+            "name": "Honorato Magaloni",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/9kJBJOJOHFYd6iSISEPLhAGjO0v.jpg"
+          },
+          {
+            "character": "Jamis",
+            "name": "Judd Omen",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/6ZL0ztbCS2WmN4aVRdegl0Gq16I.jpg"
+          },
+          {
+            "character": "Harah",
+            "name": "Molly Wryn",
+            "photo": null
+          },
+          {
+            "character": "Bene Gesserit Sister (uncredited)",
+            "name": "Angélica Aragón",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ejduK7b15cBN2Gr5FRIQOdoNrXS.jpg"
+          },
+          {
+            "character": "House Atreides Guard (uncredited)",
+            "name": "Thomas Ebert",
+            "photo": null
+          },
+          {
+            "character": "Czigo (uncredited)",
+            "name": "Humberto Elizondo",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/b8L2O9hBk3IToS96HTai5AQS08H.jpg"
+          },
+          {
+            "character": "(uncredited)",
+            "name": "Ricardo Hill",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/l9keUQrkWkjWDLn4AvPGk2i20z9.jpg"
+          },
+          {
+            "character": "Harkonnen's Victim (uncredited)",
+            "name": "Ernesto Laguardia",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/1OgxQEYGys4wBq5TQzR8v2hUyMp.jpg"
+          },
+          {
+            "character": "Spice Miner (uncredited)",
+            "name": "David Lynch",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/wwBzRDoIW6Ld64h6OkQ6ImCZKsR.jpg"
+          },
+          {
+            "character": "Kinet (uncredited)",
+            "name": "Ramón Menéndez",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/yf10k7RfYHoHO2eiPupaM8R1i9Y.jpg"
+          },
+          {
+            "character": "Palace Maid (uncredited)",
+            "name": "Ana Ofelia Murguía",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/rjlxNNR3t2BXDm1yjXLHx5489cV.jpg"
+          },
+          {
+            "character": "Fremen Girl (uncredited)",
+            "name": "Claudia Ramírez",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/iW0jQYqIJ2D0rPXaM2ovA1zMNds.jpg"
+          },
+          {
+            "character": "Fedaykin Fighter (uncredited)",
+            "name": "John Sabol",
+            "photo": null
+          },
+          {
+            "character": "Lady Jessica's Maid (uncredited)",
+            "name": "Margarita Sanz",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/uXCWSZYttxx4Pbcn30Wgfo8UItL.jpg"
+          },
+          {
+            "character": "(uncredited)",
+            "name": "Jacqueline Voltaire",
+            "photo": null
+          },
+          {
+            "character": "(uncredited)",
+            "name": "José Luis García Mainou",
+            "photo": null
+          },
+          {
+            "character": "Palace Maid (uncredited)",
+            "name": "Julieta Rosen",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/c5XyaVtqz5UhCFrsNblQgjFP3IH.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/original/5wJ2tckpvwcxGCAgZiccodwEJpf.jpg",
+      "behaviorHints": {
+        "defaultVideoId": "tt0087182",
+        "hasScheduledVideos": false
+      },
+      "country": "United States of America",
+      "description": "In the year 10,191, the most precious substance in the universe is the spice Melange. The spice extends life. The spice expands consciousness. The spice is vital to space travel.  The spice exists on only one planet in the entire universe, the vast desert planet Arrakis, also known as Dune.  Its native inhabitants, the Fremen, have long held a prophecy that a man would come, a messiah who would lead them to true freedom.",
+      "director": [
+        "David Lynch"
+      ],
+      "genre": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "id": "tmdb:841",
+      "imdbRating": "6.3",
+      "imdb_id": "tt0087182",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.3",
+          "url": "https://imdb.com/title/tt0087182"
+        },
+        {
+          "category": "share",
+          "name": "Dune",
+          "url": "https://www.strem.io/s/movie/dune-0087182"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/movie/tmdb.top?genre=Action"
+        },
+        {
+          "category": "Genres",
+          "name": "Science Fiction",
+          "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/movie/tmdb.top?genre=Science%20Fiction"
+        },
+        {
+          "category": "Genres",
+          "name": "Adventure",
+          "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/movie/tmdb.top?genre=Adventure"
+        },
+        {
+          "category": "Cast",
+          "name": "Kyle MacLachlan",
+          "url": "stremio:///search?search=Kyle%20MacLachlan"
+        },
+        {
+          "category": "Cast",
+          "name": "Francesca Annis",
+          "url": "stremio:///search?search=Francesca%20Annis"
+        },
+        {
+          "category": "Cast",
+          "name": "Patrick Stewart",
+          "url": "stremio:///search?search=Patrick%20Stewart"
+        },
+        {
+          "category": "Cast",
+          "name": "Linda Hunt",
+          "url": "stremio:///search?search=Linda%20Hunt"
+        },
+        {
+          "category": "Cast",
+          "name": "José Ferrer",
+          "url": "stremio:///search?search=Jos%C3%A9%20Ferrer"
+        },
+        {
+          "category": "Cast",
+          "name": "Freddie Jones",
+          "url": "stremio:///search?search=Freddie%20Jones"
+        },
+        {
+          "category": "Cast",
+          "name": "Brad Dourif",
+          "url": "stremio:///search?search=Brad%20Dourif"
+        },
+        {
+          "category": "Cast",
+          "name": "Richard Jordan",
+          "url": "stremio:///search?search=Richard%20Jordan"
+        },
+        {
+          "category": "Cast",
+          "name": "Virginia Madsen",
+          "url": "stremio:///search?search=Virginia%20Madsen"
+        },
+        {
+          "category": "Cast",
+          "name": "Silvana Mangano",
+          "url": "stremio:///search?search=Silvana%20Mangano"
+        },
+        {
+          "category": "Cast",
+          "name": "Everett McGill",
+          "url": "stremio:///search?search=Everett%20McGill"
+        },
+        {
+          "category": "Cast",
+          "name": "Sting",
+          "url": "stremio:///search?search=Sting"
+        },
+        {
+          "category": "Cast",
+          "name": "Kenneth McMillan",
+          "url": "stremio:///search?search=Kenneth%20McMillan"
+        },
+        {
+          "category": "Cast",
+          "name": "Jack Nance",
+          "url": "stremio:///search?search=Jack%20Nance"
+        },
+        {
+          "category": "Cast",
+          "name": "Siân Phillips",
+          "url": "stremio:///search?search=Si%C3%A2n%20Phillips"
+        },
+        {
+          "category": "Cast",
+          "name": "Jürgen Prochnow",
+          "url": "stremio:///search?search=J%C3%BCrgen%20Prochnow"
+        },
+        {
+          "category": "Cast",
+          "name": "Leonardo Cimino",
+          "url": "stremio:///search?search=Leonardo%20Cimino"
+        },
+        {
+          "category": "Cast",
+          "name": "Paul L. Smith",
+          "url": "stremio:///search?search=Paul%20L.%20Smith"
+        },
+        {
+          "category": "Cast",
+          "name": "Dean Stockwell",
+          "url": "stremio:///search?search=Dean%20Stockwell"
+        },
+        {
+          "category": "Cast",
+          "name": "Max von Sydow",
+          "url": "stremio:///search?search=Max%20von%20Sydow"
+        },
+        {
+          "category": "Cast",
+          "name": "Alicia Witt",
+          "url": "stremio:///search?search=Alicia%20Witt"
+        },
+        {
+          "category": "Cast",
+          "name": "Sean Young",
+          "url": "stremio:///search?search=Sean%20Young"
+        },
+        {
+          "category": "Cast",
+          "name": "Danny Corkill",
+          "url": "stremio:///search?search=Danny%20Corkill"
+        },
+        {
+          "category": "Cast",
+          "name": "Honorato Magaloni",
+          "url": "stremio:///search?search=Honorato%20Magaloni"
+        },
+        {
+          "category": "Cast",
+          "name": "Judd Omen",
+          "url": "stremio:///search?search=Judd%20Omen"
+        },
+        {
+          "category": "Cast",
+          "name": "Molly Wryn",
+          "url": "stremio:///search?search=Molly%20Wryn"
+        },
+        {
+          "category": "Cast",
+          "name": "Angélica Aragón",
+          "url": "stremio:///search?search=Ang%C3%A9lica%20Arag%C3%B3n"
+        },
+        {
+          "category": "Cast",
+          "name": "Thomas Ebert",
+          "url": "stremio:///search?search=Thomas%20Ebert"
+        },
+        {
+          "category": "Cast",
+          "name": "Humberto Elizondo",
+          "url": "stremio:///search?search=Humberto%20Elizondo"
+        },
+        {
+          "category": "Cast",
+          "name": "Ricardo Hill",
+          "url": "stremio:///search?search=Ricardo%20Hill"
+        },
+        {
+          "category": "Cast",
+          "name": "Ernesto Laguardia",
+          "url": "stremio:///search?search=Ernesto%20Laguardia"
+        },
+        {
+          "category": "Cast",
+          "name": "David Lynch",
+          "url": "stremio:///search?search=David%20Lynch"
+        },
+        {
+          "category": "Cast",
+          "name": "Ramón Menéndez",
+          "url": "stremio:///search?search=Ram%C3%B3n%20Men%C3%A9ndez"
+        },
+        {
+          "category": "Cast",
+          "name": "Ana Ofelia Murguía",
+          "url": "stremio:///search?search=Ana%20Ofelia%20Murgu%C3%ADa"
+        },
+        {
+          "category": "Cast",
+          "name": "Claudia Ramírez",
+          "url": "stremio:///search?search=Claudia%20Ram%C3%ADrez"
+        },
+        {
+          "category": "Cast",
+          "name": "John Sabol",
+          "url": "stremio:///search?search=John%20Sabol"
+        },
+        {
+          "category": "Cast",
+          "name": "Margarita Sanz",
+          "url": "stremio:///search?search=Margarita%20Sanz"
+        },
+        {
+          "category": "Cast",
+          "name": "Jacqueline Voltaire",
+          "url": "stremio:///search?search=Jacqueline%20Voltaire"
+        },
+        {
+          "category": "Cast",
+          "name": "José Luis García Mainou",
+          "url": "stremio:///search?search=Jos%C3%A9%20Luis%20Garc%C3%ADa%20Mainou"
+        },
+        {
+          "category": "Cast",
+          "name": "Julieta Rosen",
+          "url": "stremio:///search?search=Julieta%20Rosen"
+        },
+        {
+          "category": "Directors",
+          "name": "David Lynch",
+          "url": "stremio:///search?search=David%20Lynch"
+        }
+      ],
+      "logo": "https://image.tmdb.org/t/p/original/hP6YQiAWlRv6lY5duQEtYicVh0L.png",
+      "name": "Dune",
+      "poster": "https://image.tmdb.org/t/p/w500/4kJmUCE7mkVJjXa7A0g2rY4IGTm.jpg",
+      "releaseInfo": "1984",
+      "released": "1984-12-14T00:00:00.000Z",
+      "runtime": "2h16min",
+      "slug": "movie/dune-0087182",
+      "tmdb_id": 841,
+      "trailerStreams": [
+        {
+          "title": "DUNE, 1984, David LYNCH - Official Trailer",
+          "ytId": "hjRG8kvMFw0"
+        },
+        {
+          "title": "Dune (1984) - HD Trailer 2 [1080p]",
+          "ytId": "vH0MLTRLcOw"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "hjRG8kvMFw0",
+          "type": "Trailer"
+        },
+        {
+          "source": "vH0MLTRLcOw",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [],
+      "year": "1984"
+    },
+    {
+      "ageRating": null,
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Paul Atreides",
+            "name": "Timothée Chalamet",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/dFxpwRpmzpVfP1zjluH68DeQhyj.jpg"
+          },
+          {
+            "character": "Chani",
+            "name": "Zendaya",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/qGkBlyn1AwQpuFnRARMRwj0iHZp.jpg"
+          },
+          {
+            "character": "Hayt",
+            "name": "Jason Momoa",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/3troAR6QbSb6nUFMDu61YCCWLKa.jpg"
+          },
+          {
+            "character": "Princess Irulan",
+            "name": "Florence Pugh",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/2URrZb95t3kY6pLroKny3Enmabp.jpg"
+          },
+          {
+            "character": "Lady Jessica",
+            "name": "Rebecca Ferguson",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ra53cM1aNmdH0aFhj8yBqPOj2fb.jpg"
+          },
+          {
+            "character": "Farok",
+            "name": "Isaach de Bankolé",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/aGjABQBgTA3tduuh54hzWx0aQ44.jpg"
+          },
+          {
+            "character": "Reverend Mother Mohiam",
+            "name": "Charlotte Rampling",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/Htvl9mN6mlf2a18RAFzNXF3RiG.jpg"
+          },
+          {
+            "character": "Alia Atreides",
+            "name": "Anya Taylor-Joy",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/yZpghhtKM2VZHDx6JGAZqAVU4PL.jpg"
+          },
+          {
+            "character": "Scytale",
+            "name": "Robert Pattinson",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/3qZ09UE7lN6AtorfXFRYpEtSY93.jpg"
+          },
+          {
+            "character": "Stilgar",
+            "name": "Javier Bardem",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/zfRID0jx8DKBluPGU9xtk9sZWUt.jpg"
+          },
+          {
+            "character": "Leto II",
+            "name": "Nakoa-Wolf Momoa",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/y5dhw5L3M0ZVgaJm7qA67cQGOsJ.jpg"
+          },
+          {
+            "character": "Ghanima",
+            "name": "Ida Brooke",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/e9kGzuYnYRMvRcPo0tBmIV2Phhy.jpg"
+          },
+          {
+            "character": "Gurney Halleck",
+            "name": "Josh Brolin",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/sX2etBbIkxRaCsATyw5ZpOVMPTD.jpg"
+          },
+          {
+            "character": "Lady Margot Fenring",
+            "name": "Léa Seydoux",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/4q6xqqWLLleQrFjeqeYYV8B0fwE.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/original/i5E9H7Ik0u61ylDDTbmUpTL3Yw.jpg",
+      "behaviorHints": {
+        "defaultVideoId": "tt31378509",
+        "hasScheduledVideos": false
+      },
+      "country": "United States of America, United Arab Emirates",
+      "description": "Nearly two decades after he seized control of the Imperium, Paul Atreides is now a ruthless Emperor, and must face the consequences of his reign as old allies return, terrifying new threats emerge, and betrayal lurks in every shadow. Haunted by visions of Imperial collapse and the reappearance of his long-lost love, Paul is drawn into a sweeping conspiracy, with Chani at the heart of its unfolding mystery. As enemies close in, Paul must confront the true cost of power and the fate of those he loves the most.",
+      "director": [
+        "Denis Villeneuve"
+      ],
+      "genre": [
+        "Science Fiction",
+        "Adventure"
+      ],
+      "genres": [
+        "Science Fiction",
+        "Adventure"
+      ],
+      "id": "tmdb:1170608",
+      "imdbRating": "0.0",
+      "imdb_id": "tt31378509",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "0.0",
+          "url": "https://imdb.com/title/tt31378509"
+        },
+        {
+          "category": "share",
+          "name": "Dune: Part Three",
+          "url": "https://www.strem.io/s/movie/dune:-part-three-31378509"
+        },
+        {
+          "category": "Genres",
+          "name": "Science Fiction",
+          "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/movie/tmdb.top?genre=Science%20Fiction"
+        },
+        {
+          "category": "Genres",
+          "name": "Adventure",
+          "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/movie/tmdb.top?genre=Adventure"
+        },
+        {
+          "category": "Cast",
+          "name": "Timothée Chalamet",
+          "url": "stremio:///search?search=Timoth%C3%A9e%20Chalamet"
+        },
+        {
+          "category": "Cast",
+          "name": "Zendaya",
+          "url": "stremio:///search?search=Zendaya"
+        },
+        {
+          "category": "Cast",
+          "name": "Jason Momoa",
+          "url": "stremio:///search?search=Jason%20Momoa"
+        },
+        {
+          "category": "Cast",
+          "name": "Florence Pugh",
+          "url": "stremio:///search?search=Florence%20Pugh"
+        },
+        {
+          "category": "Cast",
+          "name": "Rebecca Ferguson",
+          "url": "stremio:///search?search=Rebecca%20Ferguson"
+        },
+        {
+          "category": "Cast",
+          "name": "Isaach de Bankolé",
+          "url": "stremio:///search?search=Isaach%20de%20Bankol%C3%A9"
+        },
+        {
+          "category": "Cast",
+          "name": "Charlotte Rampling",
+          "url": "stremio:///search?search=Charlotte%20Rampling"
+        },
+        {
+          "category": "Cast",
+          "name": "Anya Taylor-Joy",
+          "url": "stremio:///search?search=Anya%20Taylor-Joy"
+        },
+        {
+          "category": "Cast",
+          "name": "Robert Pattinson",
+          "url": "stremio:///search?search=Robert%20Pattinson"
+        },
+        {
+          "category": "Cast",
+          "name": "Javier Bardem",
+          "url": "stremio:///search?search=Javier%20Bardem"
+        },
+        {
+          "category": "Cast",
+          "name": "Nakoa-Wolf Momoa",
+          "url": "stremio:///search?search=Nakoa-Wolf%20Momoa"
+        },
+        {
+          "category": "Cast",
+          "name": "Ida Brooke",
+          "url": "stremio:///search?search=Ida%20Brooke"
+        },
+        {
+          "category": "Cast",
+          "name": "Josh Brolin",
+          "url": "stremio:///search?search=Josh%20Brolin"
+        },
+        {
+          "category": "Cast",
+          "name": "Léa Seydoux",
+          "url": "stremio:///search?search=L%C3%A9a%20Seydoux"
+        },
+        {
+          "category": "Directors",
+          "name": "Denis Villeneuve",
+          "url": "stremio:///search?search=Denis%20Villeneuve"
+        },
+        {
+          "category": "Dune Collection",
+          "name": "Dune",
+          "url": "stremio:///detail/movie/tmdb:438631"
+        },
+        {
+          "category": "Dune Collection",
+          "name": "Dune: Part Two",
+          "url": "stremio:///detail/movie/tmdb:693134"
+        },
+        {
+          "category": "Dune Collection",
+          "name": "Dune: Part Three",
+          "url": "stremio:///detail/movie/tmdb:1170608"
+        }
+      ],
+      "logo": "https://image.tmdb.org/t/p/original/ev0g69q8FMn24NLZoSv7e54mLFV.png",
+      "name": "Dune: Part Three",
+      "poster": "https://image.tmdb.org/t/p/w500/d43fvHQsIMa4kpyhKXw0haEJIvI.jpg",
+      "releaseInfo": "2026",
+      "released": "2026-12-15T00:00:00.000Z",
+      "runtime": "2h20min",
+      "slug": "movie/dune:-part-three-31378509",
+      "tmdb_id": 1170608,
+      "trailerStreams": [
+        {
+          "title": "Official Trailer",
+          "ytId": "NdvqHc56lE0"
+        },
+        {
+          "title": "Official Teaser Trailer",
+          "ytId": "3_9vCamtuPY"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "NdvqHc56lE0",
+          "type": "Trailer"
+        },
+        {
+          "source": "3_9vCamtuPY",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [],
+      "year": "2026"
+    },
+    {
+      "ageRating": null,
+      "app_extras": {
+        "cast": []
+      },
+      "background": "https://image.tmdb.org/t/p/originalnull",
+      "behaviorHints": {
+        "defaultVideoId": "tt12451788",
+        "hasScheduledVideos": false
+      },
+      "country": "Hungary",
+      "description": "Sounds as witnesses. They blurr into memories, half-dreams, it is undecided if they are real or not. A fluctuation between imagination and reality.",
+      "director": [
+        "Gábor Ulrich"
+      ],
+      "genre": [
+        "Animation",
+        "Mystery",
+        "Thriller"
+      ],
+      "genres": [
+        "Animation",
+        "Mystery",
+        "Thriller"
+      ],
+      "id": "tmdb:697620",
+      "imdbRating": "7.7",
+      "imdb_id": "tt12451788",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.7",
+          "url": "https://imdb.com/title/tt12451788"
+        },
+        {
+          "category": "share",
+          "name": "Dune",
+          "url": "https://www.strem.io/s/movie/dune-12451788"
+        },
+        {
+          "category": "Genres",
+          "name": "Animation",
+          "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/movie/tmdb.top?genre=Animation"
+        },
+        {
+          "category": "Genres",
+          "name": "Mystery",
+          "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/movie/tmdb.top?genre=Mystery"
+        },
+        {
+          "category": "Genres",
+          "name": "Thriller",
+          "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/movie/tmdb.top?genre=Thriller"
+        },
+        {
+          "category": "Directors",
+          "name": "Gábor Ulrich",
+          "url": "stremio:///search?search=G%C3%A1bor%20Ulrich"
+        },
+        {
+          "category": "Writers",
+          "name": "Gábor Ulrich",
+          "url": "stremio:///search?search=G%C3%A1bor%20Ulrich"
+        }
+      ],
+      "logo": null,
+      "name": "Dune",
+      "poster": "https://image.tmdb.org/t/p/w500/CecUPdnnP22wV1NoRFQaG231zj.jpg",
+      "releaseInfo": "2020",
+      "released": "2020-06-15T00:00:00.000Z",
+      "runtime": "4min",
+      "slug": "movie/dune-12451788",
+      "tmdb_id": 697620,
+      "trailerStreams": [],
+      "trailers": [],
+      "type": "movie",
+      "writer": [
+        "Gábor Ulrich"
+      ],
+      "year": "2020"
+    },
+    {
+      "ageRating": null,
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Sandra Voyter",
+            "name": "Sandra Hüller",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/jQfKXVCPTH9KEnzHHU4QemCnlMe.jpg"
+          },
+          {
+            "character": "Maître Vincent Renzi",
+            "name": "Swann Arlaud",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/38iX2NHO7pMdQH1ygoGEJ8E82WV.jpg"
+          },
+          {
+            "character": "Daniel",
+            "name": "Milo Machado-Graner",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/wdpeIXaFvSSAJq88dv6Ofzgscd7.jpg"
+          },
+          {
+            "character": "Advocate General",
+            "name": "Antoine Reinartz",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/OHGtRqIim2cEHOYKPlbgNOV6Cb.jpg"
+          },
+          {
+            "character": "Samuel Maleski",
+            "name": "Samuel Theis",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/5sPD9wpbh4h4iwzlg4XzYrmYxTN.jpg"
+          },
+          {
+            "character": "Marge Berger",
+            "name": "Jehnny Beth",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/lMSMHufDKEtTsKYuxDKcMZDtDb7.jpg"
+          },
+          {
+            "character": "Maître Nour Boudaoud",
+            "name": "Saadia Bentaïeb",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/tQXSCqgjJdAC9eXrnjZ4BFJWSr7.jpg"
+          },
+          {
+            "character": "Zoé Solidor",
+            "name": "Camille Rutherford",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/8Iq8Gi1YsGNQ3gnxaVptXj68zVY.jpg"
+          },
+          {
+            "character": "President of the Court",
+            "name": "Anne Rotger",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/9WBVqqyR1k85HOtFIUpJ8ziAqhq.jpg"
+          },
+          {
+            "character": "Monica",
+            "name": "Sophie Fillières",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/wciUbD5aqoQQhmd2mxtlkq6tL34.jpg"
+          },
+          {
+            "character": "Forensic Pathologist",
+            "name": "Julien Comte",
+            "photo": null
+          },
+          {
+            "character": "Judge Janvier",
+            "name": "Pierre-François Garel",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/t7LKGGI7JofWwMXybblDNMNnPik.jpg"
+          },
+          {
+            "character": "Constable / Sandra",
+            "name": "Savannah Rol",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/x7sP44sHpFJELPQuIZAYTAlVx3K.jpg"
+          },
+          {
+            "character": "Constable / Samuel",
+            "name": "Iliès Kadri",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ulihI4lsvtiGF93SGhgX9XvgfAr.jpg"
+          },
+          {
+            "character": "Prosecutor",
+            "name": "Vincent Courcelle-Labrousse",
+            "photo": null
+          },
+          {
+            "character": "Judge Bollène",
+            "name": "Cécile Brunet-Ludet",
+            "photo": null
+          },
+          {
+            "character": "BFM Journalist",
+            "name": "Nesrine Slaoui",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/xp8oKyUFSloxoJ5Qyv4JCaRdpH9.jpg"
+          },
+          {
+            "character": "Expert Balard",
+            "name": "Antoine Bueno",
+            "photo": null
+          },
+          {
+            "character": "Experte Bogaert",
+            "name": "Anne-Lise Heimburger",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/tiACLgeJ0omEWIbk6aiR4ScF7la.jpg"
+          },
+          {
+            "character": "Psy Jammal",
+            "name": "Wajdi Mouawad",
+            "photo": null
+          },
+          {
+            "character": "Head of Investigation",
+            "name": "Sacha Wolff",
+            "photo": null
+          },
+          {
+            "character": "TV Presenter",
+            "name": "Kareen Guiock",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/rJJFX9ywc8AFb4eunAnFhQTdI9B.jpg"
+          },
+          {
+            "character": "Literary Critic",
+            "name": "Arthur Harari",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/7UK3QYeWql7lPyU8aqY204g2WV5.jpg"
+          },
+          {
+            "character": "Journalist",
+            "name": "Marie Brette",
+            "photo": null
+          },
+          {
+            "character": "Journalist",
+            "name": "Christophe Devaux",
+            "photo": null
+          },
+          {
+            "character": "Journalist",
+            "name": "Jefferson Desport",
+            "photo": null
+          },
+          {
+            "character": "Associate Lawyer",
+            "name": "Nola Jolly",
+            "photo": null
+          },
+          {
+            "character": "Court Translator",
+            "name": "Emmanuelle Jourdan",
+            "photo": null
+          },
+          {
+            "character": "The Tribunal",
+            "name": "Isaac Abballah",
+            "photo": null
+          },
+          {
+            "character": "The Tribunal",
+            "name": "Judicaël Ajorque",
+            "photo": null
+          },
+          {
+            "character": "The Tribunal",
+            "name": "Nicholas Angelo",
+            "photo": null
+          },
+          {
+            "character": "The Tribunal",
+            "name": "Marie-Laure Aumis",
+            "photo": null
+          },
+          {
+            "character": "The Tribunal",
+            "name": "Laura Balasuriya",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/5UDYHdSZQdSR3PxGxefG7CL2WlN.jpg"
+          },
+          {
+            "character": "The Tribunal",
+            "name": "Alexandre Bertrand",
+            "photo": null
+          },
+          {
+            "character": "The Tribunal",
+            "name": "Jean-Pierre Bertrand",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/neyfSnhSpPxzjYCRb0RFYyy2CGp.jpg"
+          },
+          {
+            "character": "The Tribunal",
+            "name": "Cécilia Bongiovanni-Lefebvre",
+            "photo": null
+          },
+          {
+            "character": "The Tribunal",
+            "name": "Jean-Claude Calbet",
+            "photo": null
+          },
+          {
+            "character": "The Tribunal",
+            "name": "Florent Chasseloup",
+            "photo": null
+          },
+          {
+            "character": "The Tribunal",
+            "name": "Sandrine Chastagnol",
+            "photo": null
+          },
+          {
+            "character": "The Tribunal",
+            "name": "Betty Desmier",
+            "photo": null
+          },
+          {
+            "character": "The Tribunal",
+            "name": "Justine Dulary",
+            "photo": null
+          },
+          {
+            "character": "The Tribunal",
+            "name": "Philippe Jubien",
+            "photo": null
+          },
+          {
+            "character": "The Tribunal",
+            "name": "Cyril Karenine",
+            "photo": null
+          },
+          {
+            "character": "The Tribunal",
+            "name": "Maud Martin",
+            "photo": null
+          },
+          {
+            "character": "The Tribunal",
+            "name": "Romaric Maucoeur",
+            "photo": null
+          },
+          {
+            "character": "The Tribunal",
+            "name": "Fabien Perrot",
+            "photo": null
+          },
+          {
+            "character": "The Tribunal",
+            "name": "Christophe Léon Schelstraete",
+            "photo": null
+          },
+          {
+            "character": "The Tribunal",
+            "name": "Rose Thibault",
+            "photo": null
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/original/lDVl2jf6VB8ODl1olZ6FLvOV1gX.jpg",
+      "behaviorHints": {
+        "defaultVideoId": "tt17009710",
+        "hasScheduledVideos": false
+      },
+      "country": "France",
+      "description": "A woman is suspected of her husband's murder, and their blind son faces a moral dilemma as the sole witness.",
+      "director": [
+        "Justine Triet"
+      ],
+      "genre": [
+        "Thriller",
+        "Mystery",
+        "Crime"
+      ],
+      "genres": [
+        "Thriller",
+        "Mystery",
+        "Crime"
+      ],
+      "id": "tmdb:915935",
+      "imdbRating": "7.6",
+      "imdb_id": "tt17009710",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.6",
+          "url": "https://imdb.com/title/tt17009710"
+        },
+        {
+          "category": "share",
+          "name": "Anatomy of a Fall",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Thriller",
+          "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/movie/tmdb.top?genre=Thriller"
+        },
+        {
+          "category": "Genres",
+          "name": "Mystery",
+          "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/movie/tmdb.top?genre=Mystery"
+        },
+        {
+          "category": "Genres",
+          "name": "Crime",
+          "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/movie/tmdb.top?genre=Crime"
+        },
+        {
+          "category": "Cast",
+          "name": "Sandra Hüller",
+          "url": "stremio:///search?search=Sandra%20H%C3%BCller"
+        },
+        {
+          "category": "Cast",
+          "name": "Swann Arlaud",
+          "url": "stremio:///search?search=Swann%20Arlaud"
+        },
+        {
+          "category": "Cast",
+          "name": "Milo Machado-Graner",
+          "url": "stremio:///search?search=Milo%20Machado-Graner"
+        },
+        {
+          "category": "Cast",
+          "name": "Antoine Reinartz",
+          "url": "stremio:///search?search=Antoine%20Reinartz"
+        },
+        {
+          "category": "Cast",
+          "name": "Samuel Theis",
+          "url": "stremio:///search?search=Samuel%20Theis"
+        },
+        {
+          "category": "Cast",
+          "name": "Jehnny Beth",
+          "url": "stremio:///search?search=Jehnny%20Beth"
+        },
+        {
+          "category": "Cast",
+          "name": "Saadia Bentaïeb",
+          "url": "stremio:///search?search=Saadia%20Benta%C3%AFeb"
+        },
+        {
+          "category": "Cast",
+          "name": "Camille Rutherford",
+          "url": "stremio:///search?search=Camille%20Rutherford"
+        },
+        {
+          "category": "Cast",
+          "name": "Anne Rotger",
+          "url": "stremio:///search?search=Anne%20Rotger"
+        },
+        {
+          "category": "Cast",
+          "name": "Sophie Fillières",
+          "url": "stremio:///search?search=Sophie%20Filli%C3%A8res"
+        },
+        {
+          "category": "Cast",
+          "name": "Julien Comte",
+          "url": "stremio:///search?search=Julien%20Comte"
+        },
+        {
+          "category": "Cast",
+          "name": "Pierre-François Garel",
+          "url": "stremio:///search?search=Pierre-Fran%C3%A7ois%20Garel"
+        },
+        {
+          "category": "Cast",
+          "name": "Savannah Rol",
+          "url": "stremio:///search?search=Savannah%20Rol"
+        },
+        {
+          "category": "Cast",
+          "name": "Iliès Kadri",
+          "url": "stremio:///search?search=Ili%C3%A8s%20Kadri"
+        },
+        {
+          "category": "Cast",
+          "name": "Vincent Courcelle-Labrousse",
+          "url": "stremio:///search?search=Vincent%20Courcelle-Labrousse"
+        },
+        {
+          "category": "Cast",
+          "name": "Cécile Brunet-Ludet",
+          "url": "stremio:///search?search=C%C3%A9cile%20Brunet-Ludet"
+        },
+        {
+          "category": "Cast",
+          "name": "Nesrine Slaoui",
+          "url": "stremio:///search?search=Nesrine%20Slaoui"
+        },
+        {
+          "category": "Cast",
+          "name": "Antoine Bueno",
+          "url": "stremio:///search?search=Antoine%20Bueno"
+        },
+        {
+          "category": "Cast",
+          "name": "Anne-Lise Heimburger",
+          "url": "stremio:///search?search=Anne-Lise%20Heimburger"
+        },
+        {
+          "category": "Cast",
+          "name": "Wajdi Mouawad",
+          "url": "stremio:///search?search=Wajdi%20Mouawad"
+        },
+        {
+          "category": "Cast",
+          "name": "Sacha Wolff",
+          "url": "stremio:///search?search=Sacha%20Wolff"
+        },
+        {
+          "category": "Cast",
+          "name": "Kareen Guiock",
+          "url": "stremio:///search?search=Kareen%20Guiock"
+        },
+        {
+          "category": "Cast",
+          "name": "Arthur Harari",
+          "url": "stremio:///search?search=Arthur%20Harari"
+        },
+        {
+          "category": "Cast",
+          "name": "Marie Brette",
+          "url": "stremio:///search?search=Marie%20Brette"
+        },
+        {
+          "category": "Cast",
+          "name": "Christophe Devaux",
+          "url": "stremio:///search?search=Christophe%20Devaux"
+        },
+        {
+          "category": "Cast",
+          "name": "Jefferson Desport",
+          "url": "stremio:///search?search=Jefferson%20Desport"
+        },
+        {
+          "category": "Cast",
+          "name": "Nola Jolly",
+          "url": "stremio:///search?search=Nola%20Jolly"
+        },
+        {
+          "category": "Cast",
+          "name": "Emmanuelle Jourdan",
+          "url": "stremio:///search?search=Emmanuelle%20Jourdan"
+        },
+        {
+          "category": "Cast",
+          "name": "Isaac Abballah",
+          "url": "stremio:///search?search=Isaac%20Abballah"
+        },
+        {
+          "category": "Cast",
+          "name": "Judicaël Ajorque",
+          "url": "stremio:///search?search=Judica%C3%ABl%20Ajorque"
+        },
+        {
+          "category": "Cast",
+          "name": "Nicholas Angelo",
+          "url": "stremio:///search?search=Nicholas%20Angelo"
+        },
+        {
+          "category": "Cast",
+          "name": "Marie-Laure Aumis",
+          "url": "stremio:///search?search=Marie-Laure%20Aumis"
+        },
+        {
+          "category": "Cast",
+          "name": "Laura Balasuriya",
+          "url": "stremio:///search?search=Laura%20Balasuriya"
+        },
+        {
+          "category": "Cast",
+          "name": "Alexandre Bertrand",
+          "url": "stremio:///search?search=Alexandre%20Bertrand"
+        },
+        {
+          "category": "Cast",
+          "name": "Jean-Pierre Bertrand",
+          "url": "stremio:///search?search=Jean-Pierre%20Bertrand"
+        },
+        {
+          "category": "Cast",
+          "name": "Cécilia Bongiovanni-Lefebvre",
+          "url": "stremio:///search?search=C%C3%A9cilia%20Bongiovanni-Lefebvre"
+        },
+        {
+          "category": "Cast",
+          "name": "Jean-Claude Calbet",
+          "url": "stremio:///search?search=Jean-Claude%20Calbet"
+        },
+        {
+          "category": "Cast",
+          "name": "Florent Chasseloup",
+          "url": "stremio:///search?search=Florent%20Chasseloup"
+        },
+        {
+          "category": "Cast",
+          "name": "Sandrine Chastagnol",
+          "url": "stremio:///search?search=Sandrine%20Chastagnol"
+        },
+        {
+          "category": "Cast",
+          "name": "Betty Desmier",
+          "url": "stremio:///search?search=Betty%20Desmier"
+        },
+        {
+          "category": "Cast",
+          "name": "Justine Dulary",
+          "url": "stremio:///search?search=Justine%20Dulary"
+        },
+        {
+          "category": "Cast",
+          "name": "Philippe Jubien",
+          "url": "stremio:///search?search=Philippe%20Jubien"
+        },
+        {
+          "category": "Cast",
+          "name": "Cyril Karenine",
+          "url": "stremio:///search?search=Cyril%20Karenine"
+        },
+        {
+          "category": "Cast",
+          "name": "Maud Martin",
+          "url": "stremio:///search?search=Maud%20Martin"
+        },
+        {
+          "category": "Cast",
+          "name": "Romaric Maucoeur",
+          "url": "stremio:///search?search=Romaric%20Maucoeur"
+        },
+        {
+          "category": "Cast",
+          "name": "Fabien Perrot",
+          "url": "stremio:///search?search=Fabien%20Perrot"
+        },
+        {
+          "category": "Cast",
+          "name": "Christophe Léon Schelstraete",
+          "url": "stremio:///search?search=Christophe%20L%C3%A9on%20Schelstraete"
+        },
+        {
+          "category": "Cast",
+          "name": "Rose Thibault",
+          "url": "stremio:///search?search=Rose%20Thibault"
+        },
+        {
+          "category": "Directors",
+          "name": "Justine Triet",
+          "url": "stremio:///search?search=Justine%20Triet"
+        }
+      ],
+      "logo": "https://image.tmdb.org/t/p/original/fDgEeNkyUPBGzovS98t899SIdhN.png",
+      "name": "Anatomy of a Fall",
+      "poster": "https://image.tmdb.org/t/p/w500/1ho0d4LNZw3Y0voeKmSvPSgJOJ2.jpg",
+      "releaseInfo": "2023",
+      "released": "2023-08-23T00:00:00.000Z",
+      "runtime": "2h31min",
+      "slug": "movie/anatomy-of-a-fall-17009710",
+      "tmdb_id": 915935,
+      "trailerStreams": [
+        {
+          "title": "Official UK Trailer",
+          "ytId": "_MdTMA0PetA"
+        },
+        {
+          "title": "Official US Trailer",
+          "ytId": "FUXawkH-ONM"
+        },
+        {
+          "title": "Official Trailer [Subtitled]",
+          "ytId": "fTrsp5BMloA"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "_MdTMA0PetA",
+          "type": "Trailer"
+        },
+        {
+          "source": "FUXawkH-ONM",
+          "type": "Trailer"
+        },
+        {
+          "source": "fTrsp5BMloA",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [],
+      "year": "2023"
+    },
+    {
+      "ageRating": null,
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Ruben",
+            "name": "Niels Arestrup",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/cGBSXuGCgXNMdXJAQhhLCf4hxAn.jpg"
+          },
+          {
+            "character": "Hanoch",
+            "name": "Lior Ashkenazi",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/c2IJJuYiqZNHoZVikp6HgCgbGkK.jpg"
+          },
+          {
+            "character": "Paolo",
+            "name": "Guy Marchand",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/vJDEpSMpM99FEWODB54YDJNjbot.jpg"
+          },
+          {
+            "character": "Fabienne",
+            "name": "Emma de Caunes",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/4SGij5jBQNznmVxBHDBtc8gUD2v.jpg"
+          },
+          {
+            "character": "Fogel",
+            "name": "Moni Moshonov",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/9JigKYNNFDr0fx2k4toOY0J3mZq.jpg"
+          },
+          {
+            "character": "Audiberti",
+            "name": "Jean-Quentin Châtelain",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/6jyeuXKr6uK0E11fLDBlnWZAH9j.jpg"
+          },
+          {
+            "character": "Yaël",
+            "name": "Dana Adini",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/pon6afzBeYgCsaYcAQBIhAff25P.jpg"
+          },
+          {
+            "character": "Moreau",
+            "name": "Mathieu Amalric",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/fMhfoTbjlXQy2Iojp7oYx49hLQl.jpg"
+          },
+          {
+            "character": "The bicycle seller",
+            "name": "Emmanuel de Chauvigny",
+            "photo": null
+          },
+          {
+            "character": "Patroness of the Café Parisien",
+            "name": "Joanna Grudzinska",
+            "photo": null
+          },
+          {
+            "character": "Rigodot",
+            "name": "Jean-Paul Larriau",
+            "photo": null
+          },
+          {
+            "character": "Reggiani",
+            "name": "Lorenzo Santos",
+            "photo": null
+          },
+          {
+            "character": "Mrs. Bertier",
+            "name": "Raymonde Bronstein",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/raboOf6WbgvWF6Halv2XiS6ziBE.jpg"
+          },
+          {
+            "character": "The owner of the apartment",
+            "name": "Claudine Acs",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/qUvddL5rsEp402qpwthV75NGBFl.jpg"
+          },
+          {
+            "character": "Ferral",
+            "name": "Christian Ameri",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/2IDikXWaovMwLIqUJSmWiPMNMDI.jpg"
+          },
+          {
+            "character": "Eustache",
+            "name": "Julien Villa",
+            "photo": null
+          },
+          {
+            "character": "Yona",
+            "name": "Tami Meiri Eitan",
+            "photo": null
+          },
+          {
+            "character": "Laetitia",
+            "name": "Hortense Pol",
+            "photo": null
+          },
+          {
+            "character": "Nurse",
+            "name": "Marie Demaison",
+            "photo": null
+          },
+          {
+            "character": "The veterinarian",
+            "name": "Emmanuel Finkiel",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/7IniGmUpQpHF4BT342LUJEyhFuz.jpg"
+          },
+          {
+            "character": "Reuven's deputy",
+            "name": "François Pascaud",
+            "photo": null
+          },
+          {
+            "character": "Reuven's neighbor",
+            "name": "Colette Pelletan",
+            "photo": null
+          },
+          {
+            "character": "Boy on bike",
+            "name": "Ilay Aviram",
+            "photo": null
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/original/3HpMbtAvtxn2CWlKHWi5lM8jVGC.jpg",
+      "behaviorHints": {
+        "defaultVideoId": "tt2251648",
+        "hasScheduledVideos": false
+      },
+      "country": "France, Israel",
+      "description": "Through the course of several accidents and chance encounters, Hanoch and Ruben will meet and each of them will have to face a page of his personal history, a page that they both need to turn for good.",
+      "director": [
+        "Yossi Aviram"
+      ],
+      "genre": [
+        "Drama"
+      ],
+      "genres": [
+        "Drama"
+      ],
+      "id": "tmdb:271683",
+      "imdbRating": "6.8",
+      "imdb_id": "tt2251648",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.8",
+          "url": "https://imdb.com/title/tt2251648"
+        },
+        {
+          "category": "share",
+          "name": "The Dune",
+          "url": "https://www.strem.io/s/movie/the-dune-2251648"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/movie/tmdb.top?genre=Drama"
+        },
+        {
+          "category": "Cast",
+          "name": "Niels Arestrup",
+          "url": "stremio:///search?search=Niels%20Arestrup"
+        },
+        {
+          "category": "Cast",
+          "name": "Lior Ashkenazi",
+          "url": "stremio:///search?search=Lior%20Ashkenazi"
+        },
+        {
+          "category": "Cast",
+          "name": "Guy Marchand",
+          "url": "stremio:///search?search=Guy%20Marchand"
+        },
+        {
+          "category": "Cast",
+          "name": "Emma de Caunes",
+          "url": "stremio:///search?search=Emma%20de%20Caunes"
+        },
+        {
+          "category": "Cast",
+          "name": "Moni Moshonov",
+          "url": "stremio:///search?search=Moni%20Moshonov"
+        },
+        {
+          "category": "Cast",
+          "name": "Jean-Quentin Châtelain",
+          "url": "stremio:///search?search=Jean-Quentin%20Ch%C3%A2telain"
+        },
+        {
+          "category": "Cast",
+          "name": "Dana Adini",
+          "url": "stremio:///search?search=Dana%20Adini"
+        },
+        {
+          "category": "Cast",
+          "name": "Mathieu Amalric",
+          "url": "stremio:///search?search=Mathieu%20Amalric"
+        },
+        {
+          "category": "Cast",
+          "name": "Emmanuel de Chauvigny",
+          "url": "stremio:///search?search=Emmanuel%20de%20Chauvigny"
+        },
+        {
+          "category": "Cast",
+          "name": "Joanna Grudzinska",
+          "url": "stremio:///search?search=Joanna%20Grudzinska"
+        },
+        {
+          "category": "Cast",
+          "name": "Jean-Paul Larriau",
+          "url": "stremio:///search?search=Jean-Paul%20Larriau"
+        },
+        {
+          "category": "Cast",
+          "name": "Lorenzo Santos",
+          "url": "stremio:///search?search=Lorenzo%20Santos"
+        },
+        {
+          "category": "Cast",
+          "name": "Raymonde Bronstein",
+          "url": "stremio:///search?search=Raymonde%20Bronstein"
+        },
+        {
+          "category": "Cast",
+          "name": "Claudine Acs",
+          "url": "stremio:///search?search=Claudine%20Acs"
+        },
+        {
+          "category": "Cast",
+          "name": "Christian Ameri",
+          "url": "stremio:///search?search=Christian%20Ameri"
+        },
+        {
+          "category": "Cast",
+          "name": "Julien Villa",
+          "url": "stremio:///search?search=Julien%20Villa"
+        },
+        {
+          "category": "Cast",
+          "name": "Tami Meiri Eitan",
+          "url": "stremio:///search?search=Tami%20Meiri%20Eitan"
+        },
+        {
+          "category": "Cast",
+          "name": "Hortense Pol",
+          "url": "stremio:///search?search=Hortense%20Pol"
+        },
+        {
+          "category": "Cast",
+          "name": "Marie Demaison",
+          "url": "stremio:///search?search=Marie%20Demaison"
+        },
+        {
+          "category": "Cast",
+          "name": "Emmanuel Finkiel",
+          "url": "stremio:///search?search=Emmanuel%20Finkiel"
+        },
+        {
+          "category": "Cast",
+          "name": "François Pascaud",
+          "url": "stremio:///search?search=Fran%C3%A7ois%20Pascaud"
+        },
+        {
+          "category": "Cast",
+          "name": "Colette Pelletan",
+          "url": "stremio:///search?search=Colette%20Pelletan"
+        },
+        {
+          "category": "Cast",
+          "name": "Ilay Aviram",
+          "url": "stremio:///search?search=Ilay%20Aviram"
+        },
+        {
+          "category": "Directors",
+          "name": "Yossi Aviram",
+          "url": "stremio:///search?search=Yossi%20Aviram"
+        },
+        {
+          "category": "Writers",
+          "name": "Yossi Aviram",
+          "url": "stremio:///search?search=Yossi%20Aviram"
+        }
+      ],
+      "logo": null,
+      "name": "The Dune",
+      "poster": "https://image.tmdb.org/t/p/w500/qNnFzvRyXk0FkHOGuxS4jWqj1vO.jpg",
+      "releaseInfo": "2014",
+      "released": "2014-08-13T00:00:00.000Z",
+      "runtime": "1h26min",
+      "slug": "movie/the-dune-2251648",
+      "tmdb_id": 271683,
+      "trailerStreams": [
+        {
+          "title": "La Dune / The Dune (Trailer)",
+          "ytId": "0SIJqwkLuKw"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "0SIJqwkLuKw",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Yossi Aviram"
+      ],
+      "year": "2014"
+    },
+    {
+      "ageRating": null,
+      "app_extras": {
+        "cast": [
+          {
+            "character": "",
+            "name": "Marina Starykh",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/4Wk7cvQRm028t0y11zML94f6asz.jpg"
+          },
+          {
+            "character": "",
+            "name": "Valeri Ryzhakov",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/xsEpXJTWAmvc7qzBCxa7koiYxj1.jpg"
+          },
+          {
+            "character": "",
+            "name": "Boris Tokarev",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/3tLr6mQnVyKx0QjuZkeTCVgXQEF.jpg"
+          },
+          {
+            "character": "",
+            "name": "Vladimir Treshchalov",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/gXku3snFe5x2opbABwDKoU7kBdh.jpg"
+          },
+          {
+            "character": "",
+            "name": "Rano Kubaeva",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/2pEPrRocEmuTGkzUexJDmLdKKDD.jpg"
+          },
+          {
+            "character": "",
+            "name": "Danuta Stolyarskaya",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/sYQkJne1aamLfp488lDnyHP4MWO.jpg"
+          },
+          {
+            "character": "",
+            "name": "Mikhail Gluzskiy",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/8MtvhQiBMxv7qoHeucmffnmiwEX.jpg"
+          },
+          {
+            "character": "",
+            "name": "Vsevolod Abdulov",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/jHqehyRpGctzjGQMjfD4jADfkzt.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/originalnull",
+      "behaviorHints": {
+        "defaultVideoId": "tt0309338",
+        "hasScheduledVideos": false
+      },
+      "country": "Soviet Union",
+      "description": "A completely prosperous couple on their own brand new Volga got lost in the desert. And when they joyfully rushed towards the truck, counting on help, it turned out that there were two recidivists in the cab who had just escaped from the colony ...",
+      "director": [
+        "Sanjar Babaev"
+      ],
+      "genre": [
+        "Drama",
+        "Crime"
+      ],
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "id": "tmdb:627150",
+      "imdbRating": "5.8",
+      "imdb_id": "tt0309338",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "5.8",
+          "url": "https://imdb.com/title/tt0309338"
+        },
+        {
+          "category": "share",
+          "name": "Dune",
+          "url": "https://www.strem.io/s/movie/dune-0309338"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/movie/tmdb.top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Crime",
+          "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/movie/tmdb.top?genre=Crime"
+        },
+        {
+          "category": "Cast",
+          "name": "Marina Starykh",
+          "url": "stremio:///search?search=Marina%20Starykh"
+        },
+        {
+          "category": "Cast",
+          "name": "Valeri Ryzhakov",
+          "url": "stremio:///search?search=Valeri%20Ryzhakov"
+        },
+        {
+          "category": "Cast",
+          "name": "Boris Tokarev",
+          "url": "stremio:///search?search=Boris%20Tokarev"
+        },
+        {
+          "category": "Cast",
+          "name": "Vladimir Treshchalov",
+          "url": "stremio:///search?search=Vladimir%20Treshchalov"
+        },
+        {
+          "category": "Cast",
+          "name": "Rano Kubaeva",
+          "url": "stremio:///search?search=Rano%20Kubaeva"
+        },
+        {
+          "category": "Cast",
+          "name": "Danuta Stolyarskaya",
+          "url": "stremio:///search?search=Danuta%20Stolyarskaya"
+        },
+        {
+          "category": "Cast",
+          "name": "Mikhail Gluzskiy",
+          "url": "stremio:///search?search=Mikhail%20Gluzskiy"
+        },
+        {
+          "category": "Cast",
+          "name": "Vsevolod Abdulov",
+          "url": "stremio:///search?search=Vsevolod%20Abdulov"
+        },
+        {
+          "category": "Directors",
+          "name": "Sanjar Babaev",
+          "url": "stremio:///search?search=Sanjar%20Babaev"
+        },
+        {
+          "category": "Writers",
+          "name": "Vladimir Sokolov",
+          "url": "stremio:///search?search=Vladimir%20Sokolov"
+        }
+      ],
+      "logo": null,
+      "name": "Dune",
+      "poster": "https://image.tmdb.org/t/p/w500/f1G59dEnJ6NNE0kibsKJcJBMeta.jpg",
+      "releaseInfo": "1989",
+      "released": "1989-04-19T00:00:00.000Z",
+      "runtime": "1h21min",
+      "slug": "movie/dune-0309338",
+      "tmdb_id": 627150,
+      "trailerStreams": [],
+      "trailers": [],
+      "type": "movie",
+      "writer": [
+        "Vladimir Sokolov"
+      ],
+      "year": "1989"
+    },
+    {
+      "ageRating": null,
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Chase",
+            "name": "Sean Young",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/yfJADYt6xYPpg1g7Z7TTW0bcL2s.jpg"
+          },
+          {
+            "character": "Astrid",
+            "name": "Emily Killian",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/kvCP8KYtym6XhICL4k18LYqLhto.jpg"
+          },
+          {
+            "character": "Marilyn",
+            "name": "Sienna Farall",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/zjANCvuphArVaEkQE3rAuVVYe6n.jpg"
+          },
+          {
+            "character": "Hawkins",
+            "name": "Clark Moore",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/xhjFpYm51s9on9IRMiEMGdWEjfs.jpg"
+          },
+          {
+            "character": "Space Force Control",
+            "name": "Sharon Desiree",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/uuUH2wZgc1Wfl84NK9MVmSC3QA7.jpg"
+          },
+          {
+            "character": "Harley",
+            "name": "Ramiro Leal",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/yZeRoBlLrQs9QvrYOUtHWK6lh9N.jpg"
+          },
+          {
+            "character": "A.I.",
+            "name": "Tammy Klein",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/rpdP6Jr4YfQSySHH0AJcFfz5lou.jpg"
+          },
+          {
+            "character": "Ronnie",
+            "name": "Anna Telfer",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/QjVaQlyAJi9YyDWLwbaT4GKOW2.jpg"
+          },
+          {
+            "character": "Bryant",
+            "name": "Grant Terzakis",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/thgnI1lln8JM4u0Tja3MJBSMKJZ.jpg"
+          },
+          {
+            "character": "Dave",
+            "name": "Mo Smead",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/sxIhO8nxo1Cym8qWytF0DX6A6Aq.jpg"
+          },
+          {
+            "character": "Rebecca",
+            "name": "Cherish Holland",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/l7yNPON4KX7enfplZfLAyefGIG7.jpg"
+          },
+          {
+            "character": "Bridge Assistant",
+            "name": "Ashley Reign",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/vzXwzhrQgnkAdEORMfuYK29z9SF.jpg"
+          },
+          {
+            "character": "Brad",
+            "name": "Manny Zaldivar",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/7RfkDJ3Fznsbozat3AUqejIbHhI.jpg"
+          },
+          {
+            "character": "Space Station Officer",
+            "name": "Christopher William Johnson",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/xl1teifeYVhEL0jm6EQzGcujYjO.jpg"
+          },
+          {
+            "character": "Vasily",
+            "name": "Anton Kas",
+            "photo": null
+          },
+          {
+            "character": "Space Force Control (voice)",
+            "name": "Scot Derwingson-Peacock",
+            "photo": null
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/original/3BBwgGaZmM8KqEdCqovoTwLQHBY.jpg",
+      "behaviorHints": {
+        "defaultVideoId": "tt15331462",
+        "hasScheduledVideos": false
+      },
+      "country": "United States of America",
+      "description": "A crew on a mission to rescue a marooned base on a desert planet turns deadly when the crew finds themselves hunted and attacked by the planet’s apex predators: giant sand worms.",
+      "director": [
+        "Glenn Campbell",
+        "Tammy Klein"
+      ],
+      "genre": [
+        "Science Fiction",
+        "Horror",
+        "Adventure"
+      ],
+      "genres": [
+        "Science Fiction",
+        "Horror",
+        "Adventure"
+      ],
+      "id": "tmdb:881460",
+      "imdbRating": "2.4",
+      "imdb_id": "tt15331462",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "2.4",
+          "url": "https://imdb.com/title/tt15331462"
+        },
+        {
+          "category": "share",
+          "name": "Planet Dune",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Science Fiction",
+          "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/movie/tmdb.top?genre=Science%20Fiction"
+        },
+        {
+          "category": "Genres",
+          "name": "Horror",
+          "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/movie/tmdb.top?genre=Horror"
+        },
+        {
+          "category": "Genres",
+          "name": "Adventure",
+          "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/movie/tmdb.top?genre=Adventure"
+        },
+        {
+          "category": "Cast",
+          "name": "Sean Young",
+          "url": "stremio:///search?search=Sean%20Young"
+        },
+        {
+          "category": "Cast",
+          "name": "Emily Killian",
+          "url": "stremio:///search?search=Emily%20Killian"
+        },
+        {
+          "category": "Cast",
+          "name": "Sienna Farall",
+          "url": "stremio:///search?search=Sienna%20Farall"
+        },
+        {
+          "category": "Cast",
+          "name": "Clark Moore",
+          "url": "stremio:///search?search=Clark%20Moore"
+        },
+        {
+          "category": "Cast",
+          "name": "Sharon Desiree",
+          "url": "stremio:///search?search=Sharon%20Desiree"
+        },
+        {
+          "category": "Cast",
+          "name": "Ramiro Leal",
+          "url": "stremio:///search?search=Ramiro%20Leal"
+        },
+        {
+          "category": "Cast",
+          "name": "Tammy Klein",
+          "url": "stremio:///search?search=Tammy%20Klein"
+        },
+        {
+          "category": "Cast",
+          "name": "Anna Telfer",
+          "url": "stremio:///search?search=Anna%20Telfer"
+        },
+        {
+          "category": "Cast",
+          "name": "Grant Terzakis",
+          "url": "stremio:///search?search=Grant%20Terzakis"
+        },
+        {
+          "category": "Cast",
+          "name": "Mo Smead",
+          "url": "stremio:///search?search=Mo%20Smead"
+        },
+        {
+          "category": "Cast",
+          "name": "Cherish Holland",
+          "url": "stremio:///search?search=Cherish%20Holland"
+        },
+        {
+          "category": "Cast",
+          "name": "Ashley Reign",
+          "url": "stremio:///search?search=Ashley%20Reign"
+        },
+        {
+          "category": "Cast",
+          "name": "Manny Zaldivar",
+          "url": "stremio:///search?search=Manny%20Zaldivar"
+        },
+        {
+          "category": "Cast",
+          "name": "Christopher William Johnson",
+          "url": "stremio:///search?search=Christopher%20William%20Johnson"
+        },
+        {
+          "category": "Cast",
+          "name": "Anton Kas",
+          "url": "stremio:///search?search=Anton%20Kas"
+        },
+        {
+          "category": "Cast",
+          "name": "Scot Derwingson-Peacock",
+          "url": "stremio:///search?search=Scot%20Derwingson-Peacock"
+        },
+        {
+          "category": "Directors",
+          "name": "Glenn Campbell",
+          "url": "stremio:///search?search=Glenn%20Campbell"
+        },
+        {
+          "category": "Directors",
+          "name": "Tammy Klein",
+          "url": "stremio:///search?search=Tammy%20Klein"
+        }
+      ],
+      "logo": "https://image.tmdb.org/t/p/original/7YZjYDoAZzMptAerMw7dDzCb0jq.png",
+      "name": "Planet Dune",
+      "poster": "https://image.tmdb.org/t/p/w500/cPSPghn6tr6fGY6hTi78SrxBcqY.jpg",
+      "releaseInfo": "2021",
+      "released": "2021-10-29T00:00:00.000Z",
+      "runtime": "1h26min",
+      "slug": "movie/planet-dune-15331462",
+      "tmdb_id": 881460,
+      "trailerStreams": [
+        {
+          "title": "Planet Dune - Official Trailer",
+          "ytId": "ZwVZ-2WuJo4"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "ZwVZ-2WuJo4",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [],
+      "year": "2021"
+    },
+    {
+      "ageRating": null,
+      "app_extras": {
+        "cast": [
+          {
+            "character": "",
+            "name": "Alyona Dolgolenko",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/uCIJObduzApw0uQSvbAtjwI4Tj9.jpg"
+          },
+          {
+            "character": "",
+            "name": "Maxim Fesenko",
+            "photo": null
+          },
+          {
+            "character": "",
+            "name": "Gleb Bulgakov",
+            "photo": null
+          },
+          {
+            "character": "",
+            "name": "Michael Bats",
+            "photo": null
+          },
+          {
+            "character": "",
+            "name": "Igor Shalimov",
+            "photo": null
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/originalnull",
+      "behaviorHints": {
+        "defaultVideoId": "tmdb:633787",
+        "hasScheduledVideos": false
+      },
+      "country": "Russia",
+      "description": "A fascinating story about three teenagers who found an ancient medallion of the Teutonic Order in the basements of a former German hospital in Kaliningrad (formerly Konigsberg). A story that gradually develops into a dangerous and mystical adventure, with chases, struggle, constant risk. The children will have to solve the mystery of the amber medallion, find the treasure, save the girl and make their choice. And, of course, this is a film about the first youthful love.",
+      "director": [
+        "Stanislav Lebedev"
+      ],
+      "genre": [
+        "Adventure"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "id": "tmdb:633787",
+      "imdbRating": "4.8",
+      "imdb_id": null,
+      "links": [
+        {
+          "category": "imdb",
+          "name": "4.8",
+          "url": "https://imdb.com/title/null"
+        },
+        {
+          "category": "share",
+          "name": "Golden Dune",
+          "url": "https://www.strem.io/s/movie/golden-dune-"
+        },
+        {
+          "category": "Genres",
+          "name": "Adventure",
+          "url": "stremio:///discover/https%3A%2F%2Ftmdb.elfhosted.com%2Fen-US%2Fmanifest.json/movie/tmdb.top?genre=Adventure"
+        },
+        {
+          "category": "Cast",
+          "name": "Alyona Dolgolenko",
+          "url": "stremio:///search?search=Alyona%20Dolgolenko"
+        },
+        {
+          "category": "Cast",
+          "name": "Maxim Fesenko",
+          "url": "stremio:///search?search=Maxim%20Fesenko"
+        },
+        {
+          "category": "Cast",
+          "name": "Gleb Bulgakov",
+          "url": "stremio:///search?search=Gleb%20Bulgakov"
+        },
+        {
+          "category": "Cast",
+          "name": "Michael Bats",
+          "url": "stremio:///search?search=Michael%20Bats"
+        },
+        {
+          "category": "Cast",
+          "name": "Igor Shalimov",
+          "url": "stremio:///search?search=Igor%20Shalimov"
+        },
+        {
+          "category": "Directors",
+          "name": "Stanislav Lebedev",
+          "url": "stremio:///search?search=Stanislav%20Lebedev"
+        }
+      ],
+      "logo": null,
+      "name": "Golden Dune",
+      "poster": "https://image.tmdb.org/t/p/w500/piX74vNjTslY2aUdJXvocZSlVjv.jpg",
+      "releaseInfo": "2021",
+      "released": "2021-08-28T00:00:00.000Z",
+      "runtime": "1h30min",
+      "slug": "movie/golden-dune-",
+      "tmdb_id": 633787,
+      "trailerStreams": [],
+      "trailers": [],
+      "type": "movie",
+      "writer": [],
+      "year": "2021"
+    }
+  ],
+  "query": "dune"
+}

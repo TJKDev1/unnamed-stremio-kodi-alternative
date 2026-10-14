@@ -1,0 +1,194 @@
+{
+  "cacheMaxAge": 3600,
+  "staleError": 604800,
+  "staleRevalidate": 14400,
+  "streams": [
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|Title",
+        "filename": "S01E01 - Title Title (Title).mkv"
+      },
+      "fileIdx": 0,
+      "infoHash": "0000000000000000000000000000000000000001",
+      "name": "Torrentio\n1440p",
+      "sources": [
+        "tracker:udp://tracker.opentrackr.org:1337/announce",
+        "tracker:udp://open.stealth.si:80/announce",
+        "tracker:udp://tracker.torrent.eu.org:451/announce",
+        "tracker:udp://open.demonii.com:1337/announce",
+        "tracker:udp://exodus.desync.com:6969/announce",
+        "tracker:udp://tracker.skynetcloud.site:6969/announce",
+        "tracker:udp://tracker.qu.ax:6969/announce",
+        "tracker:udp://tracker.ducks.party:1984/announce",
+        "tracker:udp://tracker.nyaa.vc:6969/announce",
+        "tracker:udp://explodie.org:6969/announce",
+        "tracker:udp://tracker-udp.gbitt.info:80/announce",
+        "tracker:udp://tracker.corpscorp.online:80/announce",
+        "tracker:udp://retracker01-msk-virt.corbina.net:80/announce",
+        "tracker:udp://tracker.bittor.pw:1337/announce",
+        "tracker:udp://tracker.gmi.gd:6969/announce",
+        "tracker:http://tracker.dler.org:6969/announce",
+        "tracker:http://tracker.dler.com:6969/announce",
+        "tracker:udp://tracker2.dler.org:80/announce",
+        "tracker:http://tracker.renfei.net:8080/announce",
+        "tracker:udp://tracker.farted.net:6969/announce",
+        "tracker:http://nyaa.tracker.wf:7777/announce",
+        "tracker:http://anidex.moe:6969/announce",
+        "tracker:http://tracker.anirena.com:80/announce",
+        "tracker:udp://tracker.uw0.xyz:6969/announce",
+        "tracker:http://share.camoe.cn:8080/announce",
+        "tracker:http://t.nyaatracker.com:80/announce",
+        "dht:0000000000000000000000000000000000000002"
+      ],
+      "title": "[Title] Title Title 1440p - (AUDIO ENG - Title - JPN) (Title DUB) Title\nS01E01 - Title Title (Title).mkv\n👤 18 💾 1.69 GB ⚙️ Title\nDubbed / 🇬🇧 / 🇲🇽"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|1080p|Title",
+        "filename": "[Title] Title【Title】Title - 01 [1080P][Title][WEB-DL][AAC AVC][Title].mp4"
+      },
+      "fileIdx": 0,
+      "infoHash": "0000000000000000000000000000000000000003",
+      "name": "Torrentio\n1080p",
+      "title": "[Title] Title【Title】Title - 01 [1080P][Title][WEB-DL][AAC AVC][Title]…\n👤 1023 💾 435.48 MB ⚙️ Title\n🇨🇳"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|1080p|Title",
+        "filename": "[Title] Title Title - 01 [1080P][Title][WEB-DL][AAC AVC][Title].mp4"
+      },
+      "fileIdx": 0,
+      "infoHash": "0000000000000000000000000000000000000004",
+      "name": "Torrentio\n1080p",
+      "title": "[Title] Title Title - 01 [1080P][Title][Title…\n👤 389 💾 338.29 MB ⚙️ Title\n🇨🇳"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|Title",
+        "filename": "[Title] Title Title - S01E01 (BD 1080p AV1 Multi Opus 5.1).mkv"
+      },
+      "fileIdx": 0,
+      "infoHash": "0000000000000000000000000000000000000005",
+      "name": "Torrentio\n1080p",
+      "sources": [
+        "tracker:udp://tracker.opentrackr.org:1337/announce",
+        "tracker:udp://open.stealth.si:80/announce",
+        "tracker:udp://tracker.torrent.eu.org:451/announce",
+        "tracker:udp://open.demonii.com:1337/announce",
+        "tracker:udp://exodus.desync.com:6969/announce",
+        "tracker:udp://tracker.skynetcloud.site:6969/announce",
+        "tracker:udp://tracker.qu.ax:6969/announce",
+        "tracker:udp://tracker.ducks.party:1984/announce",
+        "tracker:udp://tracker.nyaa.vc:6969/announce",
+        "tracker:udp://explodie.org:6969/announce",
+        "tracker:udp://tracker-udp.gbitt.info:80/announce",
+        "tracker:udp://tracker.corpscorp.online:80/announce",
+        "tracker:udp://retracker01-msk-virt.corbina.net:80/announce",
+        "tracker:udp://tracker.bittor.pw:1337/announce",
+        "tracker:udp://tracker.gmi.gd:6969/announce",
+        "tracker:http://tracker.dler.org:6969/announce",
+        "tracker:http://tracker.dler.com:6969/announce",
+        "tracker:udp://tracker2.dler.org:80/announce",
+        "tracker:http://tracker.renfei.net:8080/announce",
+        "tracker:udp://tracker.farted.net:6969/announce",
+        "tracker:http://nyaa.tracker.wf:7777/announce",
+        "tracker:http://anidex.moe:6969/announce",
+        "tracker:http://tracker.anirena.com:80/announce",
+        "tracker:udp://tracker.uw0.xyz:6969/announce",
+        "tracker:http://share.camoe.cn:8080/announce",
+        "tracker:http://t.nyaatracker.com:80/announce",
+        "dht:0000000000000000000000000000000000000006"
+      ],
+      "title": "[Title] Title Title S01 (BD 1080p AV1 Multi Opus 5.1)\n[Title] Title Title - S01E01 (BD 1080p AV1 Multi Opus 5.1).mkv\n👤 290 💾 1.06 GB ⚙️ Title\nDubbed / Multi Audio / 🇬🇧"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|Title",
+        "filename": "[Title] Title Title - 01 [BD 1080p 10bit][x265 HEVC][Dual Audio 5.1].mkv"
+      },
+      "fileIdx": 15,
+      "infoHash": "0000000000000000000000000000000000000007",
+      "name": "Torrentio\n1080p",
+      "sources": [
+        "tracker:udp://tracker.opentrackr.org:1337/announce",
+        "tracker:udp://open.stealth.si:80/announce",
+        "tracker:udp://tracker.torrent.eu.org:451/announce",
+        "tracker:udp://open.demonii.com:1337/announce",
+        "tracker:udp://exodus.desync.com:6969/announce",
+        "tracker:udp://tracker.skynetcloud.site:6969/announce",
+        "tracker:udp://tracker.qu.ax:6969/announce",
+        "tracker:udp://tracker.ducks.party:1984/announce",
+        "tracker:udp://tracker.nyaa.vc:6969/announce",
+        "tracker:udp://explodie.org:6969/announce",
+        "tracker:udp://tracker-udp.gbitt.info:80/announce",
+        "tracker:udp://tracker.corpscorp.online:80/announce",
+        "tracker:udp://retracker01-msk-virt.corbina.net:80/announce",
+        "tracker:udp://tracker.bittor.pw:1337/announce",
+        "tracker:udp://tracker.gmi.gd:6969/announce",
+        "tracker:http://tracker.dler.org:6969/announce",
+        "tracker:http://tracker.dler.com:6969/announce",
+        "tracker:udp://tracker2.dler.org:80/announce",
+        "tracker:http://tracker.renfei.net:8080/announce",
+        "tracker:udp://tracker.farted.net:6969/announce",
+        "tracker:http://nyaa.tracker.wf:7777/announce",
+        "tracker:http://anidex.moe:6969/announce",
+        "tracker:http://tracker.anirena.com:80/announce",
+        "tracker:udp://tracker.uw0.xyz:6969/announce",
+        "tracker:http://share.camoe.cn:8080/announce",
+        "tracker:http://t.nyaatracker.com:80/announce",
+        "dht:0000000000000000000000000000000000000008"
+      ],
+      "title": "[Title] Title Title - 01 ~ 26 + Movie [BD 1080p 10bit][x265 HEVC][Dual Audio 5.1]\n[Title] Title Title - 01 [BD 1080p 10bit][x265 HEVC][Dual Audio 5.1].mkv\n👤 285 💾 352.31 MB ⚙️ Title\nDubbed / Dual Audio"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|1080p|Title",
+        "filename": "[Title] Title．Title Title - 01 [1080P][Title][WEB-DL][AAC AVC][Title].mp4"
+      },
+      "fileIdx": 0,
+      "infoHash": "0000000000000000000000000000000000000009",
+      "name": "Torrentio\n1080p",
+      "title": "[Title] Title．Title Title - 01 [1080P][Title][WEB-DL][AAC AVC][Title][MP4]\n👤 269 💾 443.92 MB ⚙️ Title\n🇨🇳"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|1080p|Title",
+        "filename": "[Title] Title。 - 01 [1080P][Title][WEB-DL][AAC AVC][Title].mp4"
+      },
+      "fileIdx": 0,
+      "infoHash": "000000000000000000000000000000000000000a",
+      "name": "Torrentio\n1080p",
+      "title": "[Title] Title。 - 01 [1080P][Title][WEB-DL][AAC Title…\n👤 268 💾 353.97 MB ⚙️ Title\n🇨🇳"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|1080p|Title",
+        "filename": "[Title] Title - 01 [1080P][Title][WEB-DL][AAC AVC][Title].mp4"
+      },
+      "fileIdx": 0,
+      "infoHash": "000000000000000000000000000000000000000b",
+      "name": "Torrentio\n1080p",
+      "title": "[Title] Title - 01 [1080P][Title][WEB-DL][AAC AVC][Title][MP4]\n👤 189 💾 414.44 MB ⚙️ Title\n🇨🇳"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|Title",
+        "filename": "Title.Title.S01E01-Title.Title.1080p.BRRIP.x265.OPUS51.DUAL-Title.mkv"
+      },
+      "fileIdx": 2,
+      "infoHash": "000000000000000000000000000000000000000c",
+      "name": "Torrentio\n1080p",
+      "title": "Title.Title.S01.1080p.BRRIP.x265.OPUS51.DUAL-Title\nTitle.Title.S01E01-Title.Title.1080p.BRRIP.x265.OPUS51.DUAL-Title.mkv\n👤 185 💾 232.02 MB ⚙️ Title\nDubbed / Dual Audio / 🇬🇧"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|Title",
+        "filename": "Title Title (1998) - S01E01 - Title Title (1080p BluRay x265 Title).mkv"
+      },
+      "fileIdx": 0,
+      "infoHash": "000000000000000000000000000000000000000d",
+      "name": "Torrentio\n1080p",
+      "title": "Title Title (1998) Season 1 S01 (1080p BluRay x265 HEVC 10bit AAC 5.1 English Japanese Title) [Title]\nTitle Title (1998) - S01E01 - Title Title (1080p BluRay x265 Title).mkv\n👤 163 💾 797.6 MB ⚙️ Title"
+    }
+  ]
+}

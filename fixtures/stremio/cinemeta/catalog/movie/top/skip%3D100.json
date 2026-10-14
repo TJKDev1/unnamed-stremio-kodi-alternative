@@ -1,0 +1,1310 @@
+{
+  "cacheMaxAge": 14400,
+  "hasMore": true,
+  "metas": [
+    {
+      "awards": "Won 2 BAFTA Awards. 6 wins & 34 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt31514146/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt31514146",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Robert Aramayo",
+        "Maxine Peake",
+        "Somerled Campbell"
+      ],
+      "country": "United Kingdom",
+      "description": "John Davidson: diagnosed with Tourette's syndrome at a young age which alienated him from his peers, he struggled with a condition few people had witnessed.",
+      "director": [
+        "Kirk Jones"
+      ],
+      "genre": [
+        "Biography",
+        "Drama"
+      ],
+      "genres": [
+        "Biography",
+        "Drama"
+      ],
+      "id": "tt31514146",
+      "imdbRating": "8.3",
+      "imdb_id": "tt31514146",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.3",
+          "url": "https://imdb.com/title/tt31514146"
+        },
+        {
+          "category": "share",
+          "name": "I Swear",
+          "url": "https://www.strem.io/s/movie/i-swear-31514146"
+        },
+        {
+          "category": "Genres",
+          "name": "Biography",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Biography"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Drama"
+        },
+        {
+          "category": "Cast",
+          "name": "Robert Aramayo",
+          "url": "stremio:///search?search=Robert%20Aramayo"
+        },
+        {
+          "category": "Cast",
+          "name": "Maxine Peake",
+          "url": "stremio:///search?search=Maxine%20Peake"
+        },
+        {
+          "category": "Cast",
+          "name": "Somerled Campbell",
+          "url": "stremio:///search?search=Somerled%20Campbell"
+        },
+        {
+          "category": "Writers",
+          "name": "Kirk Jones",
+          "url": "stremio:///search?search=Kirk%20Jones"
+        },
+        {
+          "category": "Directors",
+          "name": "Kirk Jones",
+          "url": "stremio:///search?search=Kirk%20Jones"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt31514146/img",
+      "moviedb_id": 1317149,
+      "name": "I Swear",
+      "popularities": {
+        "moviedb": 21.7773,
+        "stremio": 0.72591,
+        "stremio_lib": 0,
+        "trakt": 58
+      },
+      "popularity": 0.72591,
+      "poster": "https://images.metahub.space/poster/small/tt31514146/img",
+      "releaseInfo": "2026",
+      "released": "2026-04-24T00:00:00.000Z",
+      "runtime": "121 min",
+      "slug": "movie/i-swear-31514146",
+      "trailerStreams": [
+        {
+          "title": "I Swear",
+          "ytId": "10ynpduiRpM"
+        },
+        {
+          "title": "I Swear",
+          "ytId": "7vwC2GKi3iA"
+        },
+        {
+          "title": "I Swear",
+          "ytId": "oeWqQN3snCU"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "10ynpduiRpM",
+          "type": "Trailer"
+        },
+        {
+          "source": "7vwC2GKi3iA",
+          "type": "Trailer"
+        },
+        {
+          "source": "oeWqQN3snCU",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Kirk Jones"
+      ],
+      "year": "2026"
+    },
+    {
+      "awards": "Nominated for 1 Oscar. 10 wins & 38 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt1392214/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt1392214",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Hugh Jackman",
+        "Jake Gyllenhaal",
+        "Viola Davis"
+      ],
+      "country": "United States",
+      "description": "A desperate father takes the law into his own hands after police fail to find two kidnapped girls.",
+      "director": [
+        "Denis Villeneuve"
+      ],
+      "dvdRelease": "2015-05-10T00:00:00.000Z",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "id": "tt1392214",
+      "imdbRating": "8.2",
+      "imdb_id": "tt1392214",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.2",
+          "url": "https://imdb.com/title/tt1392214"
+        },
+        {
+          "category": "share",
+          "name": "Prisoners",
+          "url": "https://www.strem.io/s/movie/prisoners-1392214"
+        },
+        {
+          "category": "Genres",
+          "name": "Crime",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Crime"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Mystery",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Mystery"
+        },
+        {
+          "category": "Cast",
+          "name": "Hugh Jackman",
+          "url": "stremio:///search?search=Hugh%20Jackman"
+        },
+        {
+          "category": "Cast",
+          "name": "Jake Gyllenhaal",
+          "url": "stremio:///search?search=Jake%20Gyllenhaal"
+        },
+        {
+          "category": "Cast",
+          "name": "Viola Davis",
+          "url": "stremio:///search?search=Viola%20Davis"
+        },
+        {
+          "category": "Writers",
+          "name": "Aaron Guzikowski",
+          "url": "stremio:///search?search=Aaron%20Guzikowski"
+        },
+        {
+          "category": "Directors",
+          "name": "Denis Villeneuve",
+          "url": "stremio:///search?search=Denis%20Villeneuve"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt1392214/img",
+      "moviedb_id": 146233,
+      "name": "Prisoners",
+      "popularities": {
+        "moviedb": 20.9549,
+        "stremio": 0.6984966666666667,
+        "stremio_lib": 0,
+        "trakt": 50
+      },
+      "popularity": 0.6984966666666667,
+      "poster": "https://images.metahub.space/poster/small/tt1392214/img",
+      "releaseInfo": "2013",
+      "released": "2013-09-20T00:00:00.000Z",
+      "runtime": "153 min",
+      "slug": "movie/prisoners-1392214",
+      "trailerStreams": [
+        {
+          "title": "Prisoners",
+          "ytId": "yszyHq-S9W8"
+        },
+        {
+          "title": "Prisoners",
+          "ytId": "doPNgss-ntc"
+        },
+        {
+          "title": "Prisoners",
+          "ytId": "2SupordEUpw"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "yszyHq-S9W8",
+          "type": "Trailer"
+        },
+        {
+          "source": "doPNgss-ntc",
+          "type": "Trailer"
+        },
+        {
+          "source": "2SupordEUpw",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Aaron Guzikowski"
+      ],
+      "year": "2013"
+    },
+    {
+      "awards": "Nominated for 1 Oscar. 12 wins & 38 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt0137523/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt0137523",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Brad Pitt",
+        "Edward Norton",
+        "Meat Loaf"
+      ],
+      "country": "United States, Germany",
+      "description": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
+      "director": [
+        "David Fincher"
+      ],
+      "dvdRelease": "2014-11-19T00:00:00.000Z",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "id": "tt0137523",
+      "imdbRating": "8.8",
+      "imdb_id": "tt0137523",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.8",
+          "url": "https://imdb.com/title/tt0137523"
+        },
+        {
+          "category": "share",
+          "name": "Fight Club",
+          "url": "https://www.strem.io/s/movie/fight-club-0137523"
+        },
+        {
+          "category": "Genres",
+          "name": "Crime",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Crime"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Thriller",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Thriller"
+        },
+        {
+          "category": "Cast",
+          "name": "Brad Pitt",
+          "url": "stremio:///search?search=Brad%20Pitt"
+        },
+        {
+          "category": "Cast",
+          "name": "Edward Norton",
+          "url": "stremio:///search?search=Edward%20Norton"
+        },
+        {
+          "category": "Cast",
+          "name": "Meat Loaf",
+          "url": "stremio:///search?search=Meat%20Loaf"
+        },
+        {
+          "category": "Writers",
+          "name": "Chuck Palahniuk",
+          "url": "stremio:///search?search=Chuck%20Palahniuk"
+        },
+        {
+          "category": "Writers",
+          "name": "Jim Uhls",
+          "url": "stremio:///search?search=Jim%20Uhls"
+        },
+        {
+          "category": "Directors",
+          "name": "David Fincher",
+          "url": "stremio:///search?search=David%20Fincher"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt0137523/img",
+      "moviedb_id": 550,
+      "name": "Fight Club",
+      "popularities": {
+        "moviedb": 41.7618,
+        "stremio": 1.39206,
+        "stremio_lib": 0,
+        "trakt": 55
+      },
+      "popularity": 1.39206,
+      "poster": "https://images.metahub.space/poster/small/tt0137523/img",
+      "releaseInfo": "1999",
+      "released": "1999-10-15T00:00:00.000Z",
+      "runtime": "139 min",
+      "slug": "movie/fight-club-0137523",
+      "trailerStreams": [
+        {
+          "title": "Fight Club",
+          "ytId": "dfeUzm6KF4g"
+        },
+        {
+          "title": "Fight Club",
+          "ytId": "6JnN1DmbqoU"
+        },
+        {
+          "title": "Fight Club",
+          "ytId": "BdJKm16Co6M"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "dfeUzm6KF4g",
+          "type": "Trailer"
+        },
+        {
+          "source": "6JnN1DmbqoU",
+          "type": "Trailer"
+        },
+        {
+          "source": "BdJKm16Co6M",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "videos": [],
+      "writer": [
+        "Chuck Palahniuk",
+        "Jim Uhls"
+      ],
+      "year": "1999"
+    },
+    {
+      "awards": "3 wins & 20 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt12299608/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt12299608",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Robert Pattinson",
+        "Steven Yeun",
+        "Michael Monroe"
+      ],
+      "country": "United States, South Korea, United Kingdom",
+      "description": "During a human expedition to colonize space, Mickey 17, a so-called \"expendable\" employee, is sent to explore an ice planet.",
+      "director": [
+        "Bong Joon Ho"
+      ],
+      "genre": [
+        "Adventure",
+        "Comedy",
+        "Fantasy"
+      ],
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Fantasy"
+      ],
+      "id": "tt12299608",
+      "imdbRating": "6.7",
+      "imdb_id": "tt12299608",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.7",
+          "url": "https://imdb.com/title/tt12299608"
+        },
+        {
+          "category": "share",
+          "name": "Mickey 17",
+          "url": "https://www.strem.io/s/movie/mickey-17-12299608"
+        },
+        {
+          "category": "Genres",
+          "name": "Adventure",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Adventure"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Comedy"
+        },
+        {
+          "category": "Genres",
+          "name": "Fantasy",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Fantasy"
+        },
+        {
+          "category": "Cast",
+          "name": "Robert Pattinson",
+          "url": "stremio:///search?search=Robert%20Pattinson"
+        },
+        {
+          "category": "Cast",
+          "name": "Steven Yeun",
+          "url": "stremio:///search?search=Steven%20Yeun"
+        },
+        {
+          "category": "Cast",
+          "name": "Michael Monroe",
+          "url": "stremio:///search?search=Michael%20Monroe"
+        },
+        {
+          "category": "Writers",
+          "name": "Bong Joon Ho",
+          "url": "stremio:///search?search=Bong%20Joon%20Ho"
+        },
+        {
+          "category": "Writers",
+          "name": "Edward Ashton",
+          "url": "stremio:///search?search=Edward%20Ashton"
+        },
+        {
+          "category": "Directors",
+          "name": "Bong Joon Ho",
+          "url": "stremio:///search?search=Bong%20Joon%20Ho"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt12299608/img",
+      "moviedb_id": 696506,
+      "name": "Mickey 17",
+      "popularities": {
+        "moviedb": 23.7838,
+        "stremio": 0.7927933333333333,
+        "stremio_lib": 0,
+        "trakt": 56
+      },
+      "popularity": 0.7927933333333333,
+      "poster": "https://images.metahub.space/poster/small/tt12299608/img",
+      "releaseInfo": "2025",
+      "released": "2025-03-07T00:00:00.000Z",
+      "runtime": "137 min",
+      "slug": "movie/mickey-17-12299608",
+      "trailerStreams": [
+        {
+          "title": "Mickey 17",
+          "ytId": "tA1s65o_kYM"
+        },
+        {
+          "title": "Mickey 17",
+          "ytId": "osYpGSz_0i4"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "tA1s65o_kYM",
+          "type": "Trailer"
+        },
+        {
+          "source": "osYpGSz_0i4",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Bong Joon Ho",
+        "Edward Ashton"
+      ],
+      "year": "2025"
+    },
+    {
+      "awards": "7 wins & 8 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt0087800/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt0087800",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Heather Langenkamp",
+        "Johnny Depp",
+        "Robert Englund"
+      ],
+      "country": "United States",
+      "description": "Teenager Nancy Thompson must uncover the dark truth concealed by her parents after she and her friends become targets of the spirit of a serial killer with a bladed glove in their dreams, in which if they die, it kills them in rea...",
+      "director": [
+        "Wes Craven"
+      ],
+      "dvdRelease": "2014-07-24T00:00:00.000Z",
+      "genre": [
+        "Horror"
+      ],
+      "genres": [
+        "Horror"
+      ],
+      "id": "tt0087800",
+      "imdbRating": "7.4",
+      "imdb_id": "tt0087800",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.4",
+          "url": "https://imdb.com/title/tt0087800"
+        },
+        {
+          "category": "share",
+          "name": "A Nightmare on Elm Street",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Horror",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Horror"
+        },
+        {
+          "category": "Cast",
+          "name": "Heather Langenkamp",
+          "url": "stremio:///search?search=Heather%20Langenkamp"
+        },
+        {
+          "category": "Cast",
+          "name": "Johnny Depp",
+          "url": "stremio:///search?search=Johnny%20Depp"
+        },
+        {
+          "category": "Cast",
+          "name": "Robert Englund",
+          "url": "stremio:///search?search=Robert%20Englund"
+        },
+        {
+          "category": "Writers",
+          "name": "Wes Craven",
+          "url": "stremio:///search?search=Wes%20Craven"
+        },
+        {
+          "category": "Directors",
+          "name": "Wes Craven",
+          "url": "stremio:///search?search=Wes%20Craven"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt0087800/img",
+      "moviedb_id": 377,
+      "name": "A Nightmare on Elm Street",
+      "popularities": {
+        "moviedb": 24.8715,
+        "stremio": 0.8290500000000001,
+        "stremio_lib": 0,
+        "trakt": 57
+      },
+      "popularity": 0.8290500000000001,
+      "poster": "https://images.metahub.space/poster/small/tt0087800/img",
+      "releaseInfo": "1984",
+      "released": "1984-11-16T00:00:00.000Z",
+      "runtime": "91 min",
+      "slug": "movie/a-nightmare-on-elm-street-0087800",
+      "trailerStreams": [
+        {
+          "title": "A Nightmare on Elm Street",
+          "ytId": "CBcVZcornjI"
+        },
+        {
+          "title": "A Nightmare on Elm Street",
+          "ytId": "kPpmJ7azGSY"
+        },
+        {
+          "title": "A Nightmare on Elm Street",
+          "ytId": "-kQegK3bCiQ"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "CBcVZcornjI",
+          "type": "Trailer"
+        },
+        {
+          "source": "kPpmJ7azGSY",
+          "type": "Trailer"
+        },
+        {
+          "source": "-kQegK3bCiQ",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "videos": [],
+      "writer": [
+        "Wes Craven"
+      ],
+      "year": "1984"
+    },
+    {
+      "awards": "Won 6 Oscars. 177 wins & 299 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt1160419/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt1160419",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Timothée Chalamet",
+        "Rebecca Ferguson",
+        "Zendaya"
+      ],
+      "country": "Canada, United States",
+      "description": "Paul Atreides arrives on Arrakis after his father accepts the stewardship of the dangerous planet. However, chaos ensues after a betrayal as forces clash to control melange, a precious resource.",
+      "director": [
+        "Denis Villeneuve"
+      ],
+      "dvdRelease": "2021-10-22T00:00:00.000Z",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "id": "tt1160419",
+      "imdbRating": "8.0",
+      "imdb_id": "tt1160419",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.0",
+          "url": "https://imdb.com/title/tt1160419"
+        },
+        {
+          "category": "share",
+          "name": "Dune",
+          "url": "https://www.strem.io/s/movie/dune-1160419"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Action"
+        },
+        {
+          "category": "Genres",
+          "name": "Adventure",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Adventure"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Drama"
+        },
+        {
+          "category": "Cast",
+          "name": "Timothée Chalamet",
+          "url": "stremio:///search?search=Timoth%C3%A9e%20Chalamet"
+        },
+        {
+          "category": "Cast",
+          "name": "Rebecca Ferguson",
+          "url": "stremio:///search?search=Rebecca%20Ferguson"
+        },
+        {
+          "category": "Cast",
+          "name": "Zendaya",
+          "url": "stremio:///search?search=Zendaya"
+        },
+        {
+          "category": "Writers",
+          "name": "Jon Spaihts",
+          "url": "stremio:///search?search=Jon%20Spaihts"
+        },
+        {
+          "category": "Writers",
+          "name": "Denis Villeneuve",
+          "url": "stremio:///search?search=Denis%20Villeneuve"
+        },
+        {
+          "category": "Writers",
+          "name": "Eric Roth",
+          "url": "stremio:///search?search=Eric%20Roth"
+        },
+        {
+          "category": "Directors",
+          "name": "Denis Villeneuve",
+          "url": "stremio:///search?search=Denis%20Villeneuve"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt1160419/img",
+      "moviedb_id": 438631,
+      "name": "Dune",
+      "popularities": {
+        "moviedb": 37.2559,
+        "stremio": 1.241863333333333,
+        "stremio_lib": 0,
+        "trakt": 75
+      },
+      "popularity": 1.241863333333333,
+      "poster": "https://images.metahub.space/poster/small/tt1160419/img",
+      "releaseInfo": "2021",
+      "released": "2021-10-22T00:00:00.000Z",
+      "runtime": "155 min",
+      "slug": "movie/dune-1160419",
+      "trailerStreams": [
+        {
+          "title": "Dune",
+          "ytId": "w0HgHet0sxg"
+        },
+        {
+          "title": "Dune",
+          "ytId": "8g18jFHCLXk"
+        },
+        {
+          "title": "Dune",
+          "ytId": "n9xhJrPXop4"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "w0HgHet0sxg",
+          "type": "Trailer"
+        },
+        {
+          "source": "8g18jFHCLXk",
+          "type": "Trailer"
+        },
+        {
+          "source": "n9xhJrPXop4",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Jon Spaihts",
+        "Denis Villeneuve",
+        "Eric Roth"
+      ],
+      "year": "2021"
+    },
+    {
+      "affiliates": {
+        "fandango_embed": "<p><a href=\"http://www.qksrv.net/click-7949808-10576760?url=http%3a%2f%2fwww.fandango.com%2fparasite2019_219062%2fmovieoverview%3fwssaffid%3d11840%26wssac%3d123\"><img src=\"https://images.fandango.com/r1.0.765/ImageRenderer/111/168/images/no_image_111x168.jpg/219062/images/masterrepository/fandango/219062/parasite2019.jpg\" alt=\"Parasite (2019)\" title=\"Parasite (2019)\" border=\"0\" /></a> Now Playing</p><p><a href=\"http://www.qksrv.net/click-7949808-10576760?url=http%3a%2f%2fwww.fandango.com%2fparasite2019_219062%2fmovieoverview%3fwssaffid%3d11840%26wssac%3d123\">Movie Details</a> <a href=\"http://www.qksrv.net/click-7949808-10576760?url=http%3a%2f%2fwww.fandango.com%2fmovie-trailer%2fparasite2019-trailer%2f219062%3fwssaffid%3d11840%26wssac%3d123\">Play Trailers</a></p><p><a href=\"http://www.qksrv.net/click-7949808-10576760?url=http%3a%2f%2fwww.fandango.com%2fparasite2019_219062%2fmovietimes%3fwssaffid%3d11840%26wssac%3d123\"><img src=\"https://images.fandango.com/r1.0.765//images/global/buy_tickets.gif\" alt=\"Buy Tickets\" title=\"Click here to see showtimes and buy tickets!\" border=\"0\" /></a></p>",
+        "fandango_link": "http://www.qksrv.net/REDACTED?url=http%3a%2f%2fwww.fandango.com%2fparasite2019_219062%2fmovieoverview%3fwssaffid%3d11840%26wssac%3d123"
+      },
+      "awards": "Won 4 Oscars. 309 wins & 261 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt6751668/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt6751668",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Song Kang-ho",
+        "Lee Sun-kyun",
+        "Cho Yeo-jeong"
+      ],
+      "country": "South Korea",
+      "description": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+      "director": [
+        "Bong Joon Ho"
+      ],
+      "dvdRelease": "2019-10-11T00:00:00.000Z",
+      "genre": [
+        "Drama",
+        "Thriller"
+      ],
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "id": "tt6751668",
+      "imdbRating": "8.5",
+      "imdb_id": "tt6751668",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.5",
+          "url": "https://imdb.com/title/tt6751668"
+        },
+        {
+          "category": "share",
+          "name": "Parasite",
+          "url": "https://www.strem.io/s/movie/parasite-6751668"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Thriller",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Thriller"
+        },
+        {
+          "category": "Cast",
+          "name": "Song Kang-ho",
+          "url": "stremio:///search?search=Song%20Kang-ho"
+        },
+        {
+          "category": "Cast",
+          "name": "Lee Sun-kyun",
+          "url": "stremio:///search?search=Lee%20Sun-kyun"
+        },
+        {
+          "category": "Cast",
+          "name": "Cho Yeo-jeong",
+          "url": "stremio:///search?search=Cho%20Yeo-jeong"
+        },
+        {
+          "category": "Writers",
+          "name": "Bong Joon Ho",
+          "url": "stremio:///search?search=Bong%20Joon%20Ho"
+        },
+        {
+          "category": "Writers",
+          "name": "Han Jin-won",
+          "url": "stremio:///search?search=Han%20Jin-won"
+        },
+        {
+          "category": "Directors",
+          "name": "Bong Joon Ho",
+          "url": "stremio:///search?search=Bong%20Joon%20Ho"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt6751668/img",
+      "moviedb_id": 496243,
+      "name": "Parasite",
+      "popularities": {
+        "moviedb": 36.2127,
+        "stremio": 1.20709,
+        "stremio_lib": 0,
+        "trakt": 53
+      },
+      "popularity": 1.20709,
+      "poster": "https://images.metahub.space/poster/small/tt6751668/img",
+      "releaseInfo": "2019",
+      "released": "2019-11-08T00:00:00.000Z",
+      "runtime": "133 min",
+      "slug": "movie/parasite-6751668",
+      "trailerStreams": [
+        {
+          "title": "Parasite",
+          "ytId": "bM9QabAojCg"
+        },
+        {
+          "title": "Parasite",
+          "ytId": "PhPROyE0OaM"
+        },
+        {
+          "title": "Parasite",
+          "ytId": "isOGD_7hNIY"
+        },
+        {
+          "title": "Parasite",
+          "ytId": "SEUXfv87Wpk"
+        },
+        {
+          "title": "Parasite",
+          "ytId": "hb1iOVvkykY"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "bM9QabAojCg",
+          "type": "Trailer"
+        },
+        {
+          "source": "PhPROyE0OaM",
+          "type": "Trailer"
+        },
+        {
+          "source": "isOGD_7hNIY",
+          "type": "Trailer"
+        },
+        {
+          "source": "SEUXfv87Wpk",
+          "type": "Trailer"
+        },
+        {
+          "source": "hb1iOVvkykY",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Bong Joon Ho",
+        "Han Jin-won"
+      ],
+      "year": "2019"
+    },
+    {
+      "affiliates": {
+        "fandango_embed": "<p><a href=\"http://www.qksrv.net/click-7949808-10576761?url=http%3a%2f%2fwww.fandango.com%2fmidsommar_217742%2fmovieoverview%3fwssaffid%3d11839%26wssac%3d123\"><img src=\"https://images.fandango.com/r1.0.695/ImageRenderer/111/168/images/no_image_111x168.jpg/217742/images/masterrepository/fandango/217742/midsommar2019.jpg\" alt=\"Midsommar\" title=\"Midsommar\" border=\"0\" /></a> Opens Wednesday, Jul 3, 2019</p><p></p><p><a href=\"http://www.qksrv.net/click-7949808-10576761?url=http%3a%2f%2fwww.fandango.com%2fmidsommar_217742%2fmovieoverview%3fwssaffid%3d11839%26wssac%3d123\">Movie Details</a> <a href=\"http://www.qksrv.net/click-7949808-10576761?url=http%3a%2f%2fwww.fandango.com%2fmovie-trailer%2fmidsommar-trailer%2f217742%3fwssaffid%3d11839%26wssac%3d123\">Play Trailers</a></p><p><a href=\"http://www.qksrv.net/click-7949808-10576761?url=http%3a%2f%2fwww.fandango.com%2fmidsommar_217742%2fmovietimes%3fwssaffid%3d11839%26wssac%3d123\"><img src=\"https://images.fandango.com/r1.0.695//images/global/buy_tickets.gif\" alt=\"Buy Tickets\" title=\"Click here to see showtimes and buy tickets!\" border=\"0\" /></a></p>",
+        "fandango_link": "http://www.qksrv.net/REDACTED?url=http%3a%2f%2fwww.fandango.com%2fmidsommar_217742%2fmovieoverview%3fwssaffid%3d11839%26wssac%3d123"
+      },
+      "awards": "27 wins & 74 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt8772262/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt8772262",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Florence Pugh",
+        "Jack Reynor",
+        "Vilhelm Blomgren"
+      ],
+      "country": "United States, Sweden",
+      "description": "A couple travels to Northern Europe to visit a rural hometown's fabled Swedish mid-summer festival. What begins as an idyllic retreat quickly devolves into an increasingly violent and bizarre competition at the hands of a pagan cult.",
+      "director": [
+        "Ari Aster"
+      ],
+      "dvdRelease": "2019-09-24T00:00:00.000Z",
+      "genre": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "id": "tt8772262",
+      "imdbRating": "7.1",
+      "imdb_id": "tt8772262",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.1",
+          "url": "https://imdb.com/title/tt8772262"
+        },
+        {
+          "category": "share",
+          "name": "Midsommar",
+          "url": "https://www.strem.io/s/movie/midsommar-8772262"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Horror",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Horror"
+        },
+        {
+          "category": "Genres",
+          "name": "Mystery",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Mystery"
+        },
+        {
+          "category": "Cast",
+          "name": "Florence Pugh",
+          "url": "stremio:///search?search=Florence%20Pugh"
+        },
+        {
+          "category": "Cast",
+          "name": "Jack Reynor",
+          "url": "stremio:///search?search=Jack%20Reynor"
+        },
+        {
+          "category": "Cast",
+          "name": "Vilhelm Blomgren",
+          "url": "stremio:///search?search=Vilhelm%20Blomgren"
+        },
+        {
+          "category": "Writers",
+          "name": "Ari Aster",
+          "url": "stremio:///search?search=Ari%20Aster"
+        },
+        {
+          "category": "Directors",
+          "name": "Ari Aster",
+          "url": "stremio:///search?search=Ari%20Aster"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt8772262/img",
+      "moviedb_id": 530385,
+      "name": "Midsommar",
+      "popularities": {
+        "moviedb": 23.9366,
+        "stremio": 0.7978866666666666,
+        "stremio_lib": 0,
+        "trakt": 58
+      },
+      "popularity": 0.7978866666666666,
+      "poster": "https://images.metahub.space/poster/small/tt8772262/img",
+      "releaseInfo": "2019",
+      "released": "2019-07-03T00:00:00.000Z",
+      "runtime": "147 min",
+      "slug": "movie/midsommar-8772262",
+      "trailerStreams": [
+        {
+          "title": "Midsommar",
+          "ytId": "1Vnghdsjmd0"
+        },
+        {
+          "title": "Midsommar",
+          "ytId": "I0UWIya-O0s"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "1Vnghdsjmd0",
+          "type": "Trailer"
+        },
+        {
+          "source": "I0UWIya-O0s",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Ari Aster"
+      ],
+      "year": "2019"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt10375624/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt10375624",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Zoey Deutch",
+        "Nick Robinson",
+        "Harry Shum Jr."
+      ],
+      "country": "United States",
+      "description": "Jill leaves voice messages to her deceased sister telling her about her chaotic life in San Francisco. Unwittingly, a mysterious Austin TX real estate agent begins to receive their confessions..",
+      "director": [
+        "Leah McKendrick"
+      ],
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "id": "tt10375624",
+      "imdbRating": "7.3",
+      "imdb_id": "tt10375624",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.3",
+          "url": "https://imdb.com/title/tt10375624"
+        },
+        {
+          "category": "share",
+          "name": "Voicemails for Isabelle",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Comedy"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Romance",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Romance"
+        },
+        {
+          "category": "Cast",
+          "name": "Zoey Deutch",
+          "url": "stremio:///search?search=Zoey%20Deutch"
+        },
+        {
+          "category": "Cast",
+          "name": "Nick Robinson",
+          "url": "stremio:///search?search=Nick%20Robinson"
+        },
+        {
+          "category": "Cast",
+          "name": "Harry Shum Jr.",
+          "url": "stremio:///search?search=Harry%20Shum%20Jr."
+        },
+        {
+          "category": "Writers",
+          "name": "Leah McKendrick",
+          "url": "stremio:///search?search=Leah%20McKendrick"
+        },
+        {
+          "category": "Directors",
+          "name": "Leah McKendrick",
+          "url": "stremio:///search?search=Leah%20McKendrick"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt10375624/img",
+      "moviedb_id": 614945,
+      "name": "Voicemails for Isabelle",
+      "popularities": {
+        "moviedb": 18.3444,
+        "stremio": 0.61148,
+        "stremio_lib": 0,
+        "trakt": 57
+      },
+      "popularity": 0.61148,
+      "poster": "https://images.metahub.space/poster/small/tt10375624/img",
+      "releaseInfo": "2026",
+      "released": "2026-06-19T00:00:00.000Z",
+      "runtime": "119 min",
+      "slug": "movie/voicemails-for-isabelle-10375624",
+      "trailerStreams": [
+        {
+          "title": "Voicemails for Isabelle",
+          "ytId": "9mi3YVYm3ZU"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "9mi3YVYm3ZU",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Leah McKendrick"
+      ],
+      "year": "2026"
+    },
+    {
+      "awards": "2 wins & 8 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt32897959/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt32897959",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Margot Robbie",
+        "Jacob Elordi",
+        "Hong Chau"
+      ],
+      "country": "United Kingdom, United States",
+      "description": "A passionate and tumultuous love story set against the backdrop of the Yorkshire moors, exploring the intense and destructive relationship between Heathcliff and Catherine Earnshaw.",
+      "director": [
+        "Emerald Fennell"
+      ],
+      "genre": [
+        "Drama",
+        "Romance"
+      ],
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "id": "tt32897959",
+      "imdbRating": "6.1",
+      "imdb_id": "tt32897959",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.1",
+          "url": "https://imdb.com/title/tt32897959"
+        },
+        {
+          "category": "share",
+          "name": "Wuthering Heights",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Romance",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Romance"
+        },
+        {
+          "category": "Cast",
+          "name": "Margot Robbie",
+          "url": "stremio:///search?search=Margot%20Robbie"
+        },
+        {
+          "category": "Cast",
+          "name": "Jacob Elordi",
+          "url": "stremio:///search?search=Jacob%20Elordi"
+        },
+        {
+          "category": "Cast",
+          "name": "Hong Chau",
+          "url": "stremio:///search?search=Hong%20Chau"
+        },
+        {
+          "category": "Writers",
+          "name": "Emily Brontë",
+          "url": "stremio:///search?search=Emily%20Bront%C3%AB"
+        },
+        {
+          "category": "Writers",
+          "name": "Emerald Fennell",
+          "url": "stremio:///search?search=Emerald%20Fennell"
+        },
+        {
+          "category": "Directors",
+          "name": "Emerald Fennell",
+          "url": "stremio:///search?search=Emerald%20Fennell"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt32897959/img",
+      "moviedb_id": 1316092,
+      "name": "Wuthering Heights",
+      "popularities": {
+        "moviedb": 23.8803,
+        "stremio": 0.79601,
+        "stremio_lib": 0,
+        "trakt": 51
+      },
+      "popularity": 0.79601,
+      "poster": "https://images.metahub.space/poster/small/tt32897959/img",
+      "releaseInfo": "2026",
+      "released": "2026-02-13T00:00:00.000Z",
+      "runtime": "136 min",
+      "slug": "movie/wuthering-heights-32897959",
+      "trailerStreams": [
+        {
+          "title": "Wuthering Heights",
+          "ytId": "HWFdeoeBNV0"
+        },
+        {
+          "title": "Wuthering Heights",
+          "ytId": "3fLCdIYShEQ"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "HWFdeoeBNV0",
+          "type": "Trailer"
+        },
+        {
+          "source": "3fLCdIYShEQ",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Emily Brontë",
+        "Emerald Fennell"
+      ],
+      "year": "2026"
+    }
+  ],
+  "staleError": 3600,
+  "staleRevalidate": 3600
+}

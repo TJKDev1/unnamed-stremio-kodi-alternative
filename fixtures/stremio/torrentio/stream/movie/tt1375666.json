@@ -1,0 +1,137 @@
+{
+  "cacheMaxAge": 3600,
+  "staleError": 604800,
+  "staleRevalidate": 14400,
+  "streams": [
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay|10bit|HDR",
+        "filename": "Title.2010.PROPER.Bluray.2160p.AV1.HDR10.OPUS.5.1-Title.mkv"
+      },
+      "fileIdx": 0,
+      "infoHash": "0000000000000000000000000000000000000001",
+      "name": "Torrentio\n4k HDR",
+      "title": "Title 2010 PROPER Bluray 2160p AV1 HDR10 EN/ITA/FR/ES/DE OPUS 5.1-Title [Title]\n👤 293 💾 8.91 GB ⚙️ Title\n🇬🇧 / 🇮🇹 / 🇪🇸 / 🇫🇷 / 🇩🇪"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay|hevc|10bit|DV|HDR",
+        "filename": "Title (2010).mkv"
+      },
+      "fileIdx": 0,
+      "infoHash": "0000000000000000000000000000000000000002",
+      "name": "Torrentio\n4k DV | HDR",
+      "title": "Title 2010 UHD BluRay 2160p HDR10 DV HEVC DTS-HD MA 5.1 x265-E\n👤 48 💾 25.23 GB ⚙️ Title"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay|hevc|10bit|HDR",
+        "filename": "Title (2010) (2160p x265 10bit HDR Title).mkv"
+      },
+      "fileIdx": 0,
+      "infoHash": "0000000000000000000000000000000000000003",
+      "name": "Torrentio\n4k HDR",
+      "title": "Title (2010) (2160p BluRay x265 HEVC 10bit HDR AAC 5.1 Title) [Title]\n👤 42 💾 17.23 GB ⚙️ Title"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|WEB-DL|h265|DV|HDR",
+        "filename": "Title.2010.2160p.MA.WEB-DL.DTS-HD.MA.5.1.DV.HDR.Title.265-Title.mkv"
+      },
+      "fileIdx": 0,
+      "infoHash": "0000000000000000000000000000000000000004",
+      "name": "Torrentio\n4k DV | HDR",
+      "title": "Title.2010.2160p.MA.WEB-DL.DTS-HD.MA.5.1.DV.HDR.Title.265-Title\n👤 40 💾 29.35 GB ⚙️ Title\n🇬🇧 / 🇯🇵 / 🇷🇺 / 🇵🇹 / 🇪🇸 / 🇰🇷 / 🇨🇳 / 🇫🇷 / 🇩🇪 / 🇳🇱 / 🇵🇱 / 🇨🇿 / 🇭🇺 / 🇧🇬 / 🇺🇦 / 🇩🇰 / 🇸🇪 / 🇳🇴 / 🇹🇷 / 🇸🇦 / 🇮🇩 / 🇲🇾 / 🇹🇭"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay REMUX|hevc|DV",
+        "filename": "Title.2010.UHD.BluRay.2160p.DTS-HD.MA.5.1.DV.HEVC.Title.REMUX-Title.mkv"
+      },
+      "fileIdx": 0,
+      "infoHash": "0000000000000000000000000000000000000005",
+      "name": "Torrentio\n4k DV",
+      "title": "Title 2010 UHD BluRay 2160p DTS-HD MA 5 1 DV HEVC Title REMUX-Title\n👤 40 💾 66.25 GB ⚙️ Title"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|hevc|DV|HDR",
+        "filename": "Title (2010) Title Title en.mkv"
+      },
+      "fileIdx": 0,
+      "infoHash": "0000000000000000000000000000000000000006",
+      "name": "Torrentio\n4k DV | HDR",
+      "title": "Title / Title (2010)(Title/EN)[2160p][HDR/DV][HEVC]\n👤 29 💾 6.39 GB ⚙️ Title\n🇬🇧 / 🇨🇿"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|h265|10bit|HDR",
+        "filename": "Title (2010) AC3 5.1 ITA.ENG 2160p H265 HDR10 sub Title.eng Title-Title.mkv"
+      },
+      "fileIdx": 0,
+      "infoHash": "0000000000000000000000000000000000000007",
+      "name": "Torrentio\n4k HDR",
+      "title": "Title (2010) AC3 5.1 ITA.ENG 2160p H265 HDR10 sub Title.eng Title Title\n👤 27 💾 3.77 GB ⚙️ Title\n🇬🇧 / 🇮🇹"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay REMUX|x265|DV|HDR",
+        "filename": "Title.2010.4K.HDR.DV.2160p.BDRemux Ita Eng x265-Title.mkv"
+      },
+      "fileIdx": 2,
+      "infoHash": "0000000000000000000000000000000000000008",
+      "name": "Torrentio\n4k DV | HDR",
+      "title": "Title.2010.4K.HDR.DV.2160p.BDRemux Ita Eng x265-Title\n👤 14 💾 62.59 GB ⚙️ Title\n🇬🇧 / 🇮🇹"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay REMUX|DV|HDR",
+        "filename": "Title.2010.2160p.UHD.BDRemux.DTS-HD.MA.5.1.Title.DoVi.Title.Title.Title.mkv"
+      },
+      "fileIdx": 0,
+      "infoHash": "0000000000000000000000000000000000000009",
+      "name": "Torrentio\n4k DV | HDR",
+      "sources": [
+        "tracker:udp://opentor.net:6969",
+        "tracker:udp://opentor.org:2710",
+        "tracker:http://retracker.local/announce",
+        "dht:000000000000000000000000000000000000000a",
+        "tracker:udp://tracker.opentrackr.org:1337/announce",
+        "tracker:udp://open.stealth.si:80/announce",
+        "tracker:udp://tracker.torrent.eu.org:451/announce",
+        "tracker:udp://open.demonii.com:1337/announce",
+        "tracker:udp://exodus.desync.com:6969/announce",
+        "tracker:udp://tracker.skynetcloud.site:6969/announce",
+        "tracker:udp://tracker.qu.ax:6969/announce",
+        "tracker:udp://tracker.ducks.party:1984/announce",
+        "tracker:udp://tracker.nyaa.vc:6969/announce",
+        "tracker:udp://explodie.org:6969/announce",
+        "tracker:udp://tracker-udp.gbitt.info:80/announce",
+        "tracker:udp://tracker.corpscorp.online:80/announce",
+        "tracker:udp://retracker01-msk-virt.corbina.net:80/announce",
+        "tracker:udp://tracker.bittor.pw:1337/announce",
+        "tracker:udp://tracker.gmi.gd:6969/announce",
+        "tracker:http://tracker.dler.org:6969/announce",
+        "tracker:http://tracker.dler.com:6969/announce",
+        "tracker:udp://tracker2.dler.org:80/announce",
+        "tracker:http://tracker.renfei.net:8080/announce",
+        "tracker:udp://tracker.farted.net:6969/announce",
+        "tracker:http://bt.t-ru.org/ann?magnet",
+        "tracker:http://bt2.t-ru.org/ann?magnet",
+        "tracker:http://bt3.t-ru.org/ann?magnet",
+        "tracker:http://bt4.t-ru.org/ann?magnet"
+      ],
+      "title": "Title / Title (2010) UHD BDRemux 2160p | 4K | HDR | Dolby Vision Title 8 | Title Title Title | Title\n👤 13 💾 86.15 GB ⚙️ Title\n🇬🇧 / 🇷🇺 / 🇺🇦"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay|x265|10bit|HDR",
+        "filename": "Title.2010.2160p.uhd.bluray.x265-Title.mkv"
+      },
+      "fileIdx": 2,
+      "infoHash": "000000000000000000000000000000000000000b",
+      "name": "Torrentio\n4k HDR",
+      "title": "Title.2010.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.5.1-Title\n👤 11 💾 23.97 GB ⚙️ Title"
+    }
+  ]
+}

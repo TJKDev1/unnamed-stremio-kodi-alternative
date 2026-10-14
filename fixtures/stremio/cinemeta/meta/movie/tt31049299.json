@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "background": "https://images.metahub.space/background/medium/tt31049299/img",
+    "behaviorHints": {
+      "defaultVideoId": "tt31049299",
+      "hasScheduledVideos": false
+    },
+    "cast": [
+      "Gillian Anderson",
+      "Ben Affleck",
+      "Steven Yeun"
+    ],
+    "country": "United States",
+    "description": "Desperate to pay their son's ransom, a mayoral candidate and his wife resort to extreme measures, revealing dark secrets they never intended to bring to light.",
+    "director": [
+      "Ben Affleck"
+    ],
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "id": "tt31049299",
+    "imdbRating": "",
+    "imdb_id": "tt31049299",
+    "links": [
+      {
+        "category": "share",
+        "name": "Animals",
+        "url": "https://www.strem.io/s/movie/animals-31049299"
+      },
+      {
+        "category": "Genres",
+        "name": "Action",
+        "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Action"
+      },
+      {
+        "category": "Genres",
+        "name": "Crime",
+        "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Crime"
+      },
+      {
+        "category": "Genres",
+        "name": "Drama",
+        "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Drama"
+      },
+      {
+        "category": "Cast",
+        "name": "Gillian Anderson",
+        "url": "stremio:///search?search=Gillian%20Anderson"
+      },
+      {
+        "category": "Cast",
+        "name": "Ben Affleck",
+        "url": "stremio:///search?search=Ben%20Affleck"
+      },
+      {
+        "category": "Cast",
+        "name": "Steven Yeun",
+        "url": "stremio:///search?search=Steven%20Yeun"
+      },
+      {
+        "category": "Writers",
+        "name": "Connor O. McIntyre",
+        "url": "stremio:///search?search=Connor%20O.%20McIntyre"
+      },
+      {
+        "category": "Writers",
+        "name": "Billy Ray",
+        "url": "stremio:///search?search=Billy%20Ray"
+      },
+      {
+        "category": "Writers",
+        "name": "Ben Affleck",
+        "url": "stremio:///search?search=Ben%20Affleck"
+      },
+      {
+        "category": "Directors",
+        "name": "Ben Affleck",
+        "url": "stremio:///search?search=Ben%20Affleck"
+      }
+    ],
+    "logo": "https://images.metahub.space/logo/medium/tt31049299/img",
+    "moviedb_id": 1236045,
+    "name": "Animals",
+    "popularities": {
+      "moviedb": 8.6916,
+      "stremio": 0.28972,
+      "stremio_lib": 0,
+      "trakt": 1068
+    },
+    "popularity": 0.28972,
+    "poster": "https://images.metahub.space/poster/small/tt31049299/img",
+    "releaseInfo": "2026",
+    "released": "2026-10-09T00:00:00.000Z",
+    "runtime": "109 min",
+    "slug": "movie/animals-31049299",
+    "trailerStreams": [
+      {
+        "title": "Animals",
+        "ytId": "ZkN2M4ODdys"
+      },
+      {
+        "title": "Animals",
+        "ytId": "mlBfQJ8oxB0"
+      }
+    ],
+    "trailers": [
+      {
+        "source": "ZkN2M4ODdys",
+        "type": "Trailer"
+      },
+      {
+        "source": "mlBfQJ8oxB0",
+        "type": "Trailer"
+      }
+    ],
+    "type": "movie",
+    "writer": [
+      "Connor O. McIntyre",
+      "Billy Ray",
+      "Ben Affleck"
+    ],
+    "year": "2026"
+  }
+}

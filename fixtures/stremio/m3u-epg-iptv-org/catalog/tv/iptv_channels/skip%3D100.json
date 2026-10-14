@@ -1,0 +1,114 @@
+{
+  "metas": [
+    {
+      "description": "📡 Live Channel",
+      "genres": [
+        "News"
+      ],
+      "id": "iptv_0c65b2101b372c0e",
+      "name": "13 Siam Thai (1080p)",
+      "poster": "https://i.imgur.com/FvEp1S2.png",
+      "runtime": "Live",
+      "type": "tv"
+    },
+    {
+      "description": "📡 Live Channel",
+      "genres": [
+        "Series"
+      ],
+      "id": "iptv_4aeb6b2ab8e6f05a",
+      "name": "13T (720p)",
+      "poster": "https://i.imgur.com/csBNi2L.png",
+      "runtime": "Live",
+      "type": "tv"
+    },
+    {
+      "description": "📡 Live Channel",
+      "genres": [
+        "Entertainment"
+      ],
+      "id": "iptv_13f342713374e4f6",
+      "name": "13 Ulica (1080p)",
+      "poster": "https://i.imgur.com/0gCNnLq.png",
+      "runtime": "Live",
+      "type": "tv"
+    },
+    {
+      "description": "📡 Live Channel",
+      "genres": [
+        "Music"
+      ],
+      "id": "iptv_36b3758a35afb203",
+      "name": "15+ Music (1080p)",
+      "poster": "https://i.imgur.com/kj21hwd.png",
+      "runtime": "Live",
+      "type": "tv"
+    },
+    {
+      "description": "📡 Live Channel",
+      "genres": [
+        "General"
+      ],
+      "id": "iptv_5fd4a60014492059",
+      "name": "15TV",
+      "poster": "https://i.imgur.com/CZ8LKmA.png",
+      "runtime": "Live",
+      "type": "tv"
+    },
+    {
+      "description": "📡 Live Channel",
+      "genres": [
+        "Religious"
+      ],
+      "id": "iptv_e55056789e34a3a8",
+      "name": "15.1 BPB (720p)",
+      "poster": "https://i.imgur.com/hyxkJYV.png",
+      "runtime": "Live",
+      "type": "tv"
+    },
+    {
+      "description": "📡 Live Channel",
+      "genres": [
+        "Entertainment"
+      ],
+      "id": "iptv_56909ef47a43092a",
+      "name": "16 Anni e Incinta",
+      "poster": "https://images.pluto.tv/channels/REDACTED/colorLogoPNG.png",
+      "runtime": "Live",
+      "type": "tv"
+    },
+    {
+      "description": "📡 Live Channel",
+      "genres": [
+        "General"
+      ],
+      "id": "iptv_5bcf7ba9f10d8693",
+      "name": "16tv Budapest (360p)",
+      "poster": "https://i.imgur.com/04fCzHl.png",
+      "runtime": "Live",
+      "type": "tv"
+    },
+    {
+      "description": "📡 Live Channel",
+      "genres": [
+        "Entertainment"
+      ],
+      "id": "iptv_c384623dc6001b36",
+      "name": "20 [Geo-blocked]",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/20_Mediaset_2018.svg/960px-20_Mediaset_2018.svg.png",
+      "runtime": "Live",
+      "type": "tv"
+    },
+    {
+      "description": "📡 Live Channel",
+      "genres": [
+        "General"
+      ],
+      "id": "iptv_9bbe483ff4be12d8",
+      "name": "20 Minutes TV (1080p)",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/20_Minutes_TV_IDF_logo_%282023%29.png/960px-20_Minutes_TV_IDF_logo_%282023%29.png",
+      "runtime": "Live",
+      "type": "tv"
+    }
+  ]
+}

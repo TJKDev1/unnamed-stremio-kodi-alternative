@@ -1,0 +1,164 @@
+{
+  "cacheMaxAge": 3600,
+  "staleError": 604800,
+  "staleRevalidate": 14400,
+  "streams": [
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|Title",
+        "filename": "Title Title.S01E01.WEB-DL.2160p.mkv"
+      },
+      "fileIdx": 0,
+      "infoHash": "0000000000000000000000000000000000000001",
+      "name": "Torrentio\n4k DV | HDR",
+      "sources": [
+        "tracker:http://bt3.t-ru.org/ann?magnet",
+        "dht:0000000000000000000000000000000000000002",
+        "tracker:udp://tracker.opentrackr.org:1337/announce",
+        "tracker:udp://open.stealth.si:80/announce",
+        "tracker:udp://tracker.torrent.eu.org:451/announce",
+        "tracker:udp://open.demonii.com:1337/announce",
+        "tracker:udp://exodus.desync.com:6969/announce",
+        "tracker:udp://tracker.skynetcloud.site:6969/announce",
+        "tracker:udp://tracker.qu.ax:6969/announce",
+        "tracker:udp://tracker.ducks.party:1984/announce",
+        "tracker:udp://tracker.nyaa.vc:6969/announce",
+        "tracker:udp://explodie.org:6969/announce",
+        "tracker:udp://tracker-udp.gbitt.info:80/announce",
+        "tracker:udp://tracker.corpscorp.online:80/announce",
+        "tracker:udp://retracker01-msk-virt.corbina.net:80/announce",
+        "tracker:udp://tracker.bittor.pw:1337/announce",
+        "tracker:udp://tracker.gmi.gd:6969/announce",
+        "tracker:http://tracker.dler.org:6969/announce",
+        "tracker:http://tracker.dler.com:6969/announce",
+        "tracker:udp://tracker2.dler.org:80/announce",
+        "tracker:http://tracker.renfei.net:8080/announce",
+        "tracker:udp://tracker.farted.net:6969/announce",
+        "tracker:udp://opentor.net:6969",
+        "tracker:http://bt.t-ru.org/ann?magnet",
+        "tracker:http://bt2.t-ru.org/ann?magnet",
+        "tracker:http://bt4.t-ru.org/ann?magnet"
+      ],
+      "title": "Title Title / Title Title Title / Title: 1 / Title: 1-10 Title 10 [2011 HEVC HDR10 Dolby Vision WEB-DL 2160p 4k] [Title] Dub + Title (Eng)+ Sub (Rus Eng)\nTitle Title.S01E01.WEB-DL.2160p.mkv\n👤 153 💾 9.52 GB ⚙️ Title\n🇬🇧 / 🇷🇺"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|DV|HDR|Title",
+        "filename": "Title Title Title S01E01 Title Title Title REPACK 2160p MAX WEB-DL TrueHD 7 1 Atmos DV HDR Title 265-Title.mkv"
+      },
+      "fileIdx": 0,
+      "infoHash": "0000000000000000000000000000000000000003",
+      "name": "Torrentio\n4k DV | HDR",
+      "title": "Title Title Title S01E01 Title Title Title REPACK 2160p MAX WEB-DL TrueHD 7 1 \n👤 65 💾 11.63 GB ⚙️ Title"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|Title",
+        "filename": "S01E01 - Title Title Title.mkv"
+      },
+      "fileIdx": 7,
+      "infoHash": "0000000000000000000000000000000000000004",
+      "name": "Torrentio\n4k HDR",
+      "title": "Title Title Title (2011) S01 (2160p x265 10bit HDR UHD BD Atmos) [Title]\nS01E01 - Title Title Title.mkv\n👤 22 💾 15.68 GB ⚙️ Title"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|Title",
+        "filename": "Title Title Title S01E01 MULTi Title 2160p 10bit Title HDR BluRay TrueHD Atmos 7.1 x265-Title.mkv"
+      },
+      "fileIdx": 0,
+      "infoHash": "0000000000000000000000000000000000000005",
+      "name": "Torrentio\n4k HDR",
+      "title": "Title Title Title - Title MULTI HDTV 2160p x265 2011-2019\nTitle Title Title S01 (2011) MULTi Title 2160p 10bit Title HDR BluRay TrueHD Atmos 7.1 x265-Title/Title Title Title S01E01 MULTi Title 2160p 10bit Title HDR BluRay TrueHD Atmos 7.1 x265-Title.mkv\n👤 17 💾 4.78 GB ⚙️ Title\nMulti Audio / 🇫🇷"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|Title",
+        "filename": "Title.Title.Title.S01E01.2160p.DoVi.HDR.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-Title.mkv"
+      },
+      "fileIdx": 0,
+      "infoHash": "0000000000000000000000000000000000000006",
+      "name": "Torrentio\n4k DV | HDR",
+      "title": "Title.Title.Title.S01.2160p.DoVi.HDR.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-Title\nTitle.Title.Title.S01E01.2160p.DoVi.HDR.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-Title.mkv\n👤 7 💾 31.9 GB ⚙️ Title"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|Title",
+        "filename": "Title.Title.Title.Title.01.UHD.BluRay.REMUX.2160p.TrueHD.mkv"
+      },
+      "fileIdx": 72,
+      "infoHash": "0000000000000000000000000000000000000007",
+      "name": "Torrentio\n4k HDR",
+      "sources": [
+        "tracker:udp://opentor.net:6969",
+        "tracker:http://retracker.local/announce",
+        "dht:0000000000000000000000000000000000000008",
+        "tracker:udp://tracker.opentrackr.org:1337/announce",
+        "tracker:udp://open.stealth.si:80/announce",
+        "tracker:udp://tracker.torrent.eu.org:451/announce",
+        "tracker:udp://open.demonii.com:1337/announce",
+        "tracker:udp://exodus.desync.com:6969/announce",
+        "tracker:udp://tracker.skynetcloud.site:6969/announce",
+        "tracker:udp://tracker.qu.ax:6969/announce",
+        "tracker:udp://tracker.ducks.party:1984/announce",
+        "tracker:udp://tracker.nyaa.vc:6969/announce",
+        "tracker:udp://explodie.org:6969/announce",
+        "tracker:udp://tracker-udp.gbitt.info:80/announce",
+        "tracker:udp://tracker.corpscorp.online:80/announce",
+        "tracker:udp://retracker01-msk-virt.corbina.net:80/announce",
+        "tracker:udp://tracker.bittor.pw:1337/announce",
+        "tracker:udp://tracker.gmi.gd:6969/announce",
+        "tracker:http://tracker.dler.org:6969/announce",
+        "tracker:http://tracker.dler.com:6969/announce",
+        "tracker:udp://tracker2.dler.org:80/announce",
+        "tracker:http://tracker.renfei.net:8080/announce",
+        "tracker:udp://tracker.farted.net:6969/announce",
+        "tracker:http://bt.t-ru.org/ann?magnet",
+        "tracker:http://bt2.t-ru.org/ann?magnet",
+        "tracker:http://bt3.t-ru.org/ann?magnet",
+        "tracker:http://bt4.t-ru.org/ann?magnet"
+      ],
+      "title": "Title Title / Title Title Title [S01-08] (2011-2019) UHD BDRemux 2160p | 4K | HDR | Title\nSeason_01/Title.Title.Title.Title.01.UHD.BluRay.REMUX.2160p.TrueHD.mkv\n👤 7 💾 29.3 GB ⚙️ Title\nMulti Audio"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|Title",
+        "filename": "Title Title Title S01E01 Title Title Title.mkv"
+      },
+      "fileIdx": 0,
+      "infoHash": "0000000000000000000000000000000000000009",
+      "name": "Torrentio\n4k HDR",
+      "title": "Title Title Title Season 1 (S01) 2160p HDR 5.1 x265 10bit Title Title\nTitle Title Title S01E01 Title Title Title.mkv\n👤 6 💾 2.35 GB ⚙️ Title"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|Title",
+        "filename": "Title.Title.Title.S01E01.2160p.UHD.BluRay.x265-Title.mkv"
+      },
+      "fileIdx": 0,
+      "infoHash": "000000000000000000000000000000000000000a",
+      "name": "Torrentio\n4k",
+      "title": "Title.Title.Title.S01.2160p.UHD.BluRay.x265-Title\nTitle.Title.Title.S01E01.2160p.UHD.BluRay.x265-Title.mkv\n👤 69 💾 11.74 GB ⚙️ Title"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|Title",
+        "filename": "Title.Title.Title.S01E01.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-Title.mkv"
+      },
+      "fileIdx": 0,
+      "infoHash": "000000000000000000000000000000000000000b",
+      "name": "Torrentio\n4k",
+      "title": "Title.Title.Title.S01.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-Title\nTitle.Title.Title.S01E01.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-Title.mkv\n👤 45 💾 31.07 GB ⚙️ Title"
+    },
+    {
+      "behaviorHints": {
+        "bingeGroup": "torrentio|Title",
+        "filename": "Title.Title.Title.S01E01.BluRay.4K.UHD.H265.mkv"
+      },
+      "fileIdx": 29,
+      "infoHash": "000000000000000000000000000000000000000c",
+      "name": "Torrentio\n4k",
+      "title": "Title.Title.Title.S01-S04.BluRay.4K.UHD.H265\nTitle.Title.Title.S01E01.BluRay.4K.UHD.H265.mkv\n👤 39 💾 29.48 GB ⚙️ Title"
+    }
+  ]
+}

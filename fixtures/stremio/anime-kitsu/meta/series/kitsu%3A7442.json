@@ -1,0 +1,225 @@
+{
+  "cacheMaxAge": 43200,
+  "meta": {
+    "aliases": [
+      "Attack on Titan",
+      "Shingeki no Kyojin",
+      "AoT"
+    ],
+    "animeType": "TV",
+    "background": "https://images.metahub.space/background/medium/tt2560140/img",
+    "description": "Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called titans, forcing humans to hide in fear behind enormous concentric walls. What makes these giants truly terrifying is that their taste for human flesh is not born out of hunger but what appears to be out of pleasure. To ensure their survival, the remnants of humanity began living within defensive barriers, resulting in one hundred years without a single titan encounter. However, that fragile calm is soon shattered when a colossal titan manages to breach the supposedly impregnable outer wall, reigniting the fight for survival against the man-eating abominations.\n\nAfter witnessing a horrific personal loss at the hands of the invading creatures, Eren Yeager dedicates his life to their eradication by enlisting into the Survey Corps, an elite military unit that combats the merciless humanoids outside the protection of the walls. Based on Hajime Isayama's award-winning manga, Shingeki no Kyojin follows Eren, along with his adopted sister Mikasa Ackerman and his childhood friend Armin Arlert, as they join the brutal war against the titans and race to discover a way of defeating them before the last walls are breached.",
+    "genres": [
+      "Mystery",
+      "Super Power",
+      "Military",
+      "Fantasy",
+      "Drama",
+      "Action"
+    ],
+    "id": "kitsu:7442",
+    "imdbRating": "8.4",
+    "imdb_id": "tt2560140",
+    "kitsu_id": "7442",
+    "links": [
+      {
+        "category": "imdb",
+        "name": "8.4",
+        "url": "https://kitsu.io/anime/attack-on-titan"
+      },
+      {
+        "category": "Franchise",
+        "name": "Sequel: Attack on Titan Season 2",
+        "url": "stremio:///detail/series/kitsu:8671"
+      },
+      {
+        "category": "Genres",
+        "name": "Mystery",
+        "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Mystery"
+      },
+      {
+        "category": "Genres",
+        "name": "Super Power",
+        "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Super Power"
+      },
+      {
+        "category": "Genres",
+        "name": "Military",
+        "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Military"
+      },
+      {
+        "category": "Genres",
+        "name": "Fantasy",
+        "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Fantasy"
+      },
+      {
+        "category": "Genres",
+        "name": "Drama",
+        "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Drama"
+      },
+      {
+        "category": "Genres",
+        "name": "Action",
+        "url": "stremio:///discover/https%3A%2F%2Fanime-kitsu.strem.fun%2Fmanifest.json/anime/kitsu-anime-popular?genre=Action"
+      }
+    ],
+    "logo": "https://images.metahub.space/logo/medium/tt2560140/img",
+    "name": "Attack on Titan",
+    "poster": "https://media.kitsu.app/anime/poster_images/7442/medium.jpg",
+    "releaseInfo": "2013",
+    "runtime": "24 min",
+    "slug": "attack-on-titan",
+    "status": "finished",
+    "trailers": [
+      {
+        "source": "LHtdKWJdif4",
+        "type": "Trailer"
+      }
+    ],
+    "type": "series",
+    "userCount": 617391,
+    "videos": [
+      {
+        "absoluteEpisode": 1,
+        "episode": 1,
+        "id": "kitsu:7442:1",
+        "imdbEpisode": 1,
+        "imdbSeason": 1,
+        "imdb_id": "tt2560140",
+        "overview": "The Fall of Shiganshina, Part 1.\nAfter one hundred years of peace, humanity is suddenly reminded of the terror of being at the Titans' mercy.",
+        "released": "2013-04-06T15:30:00.000Z",
+        "runtime": "24 min",
+        "season": 1,
+        "thumbnail": "https://media.kitsu.app/episodes/thumbnails/104938/original.jpg",
+        "title": "To You Two Thousand Years Later"
+      },
+      {
+        "absoluteEpisode": 2,
+        "episode": 2,
+        "id": "kitsu:7442:2",
+        "imdbEpisode": 2,
+        "imdbSeason": 1,
+        "imdb_id": "tt2560140",
+        "overview": "The Fall of Shiganshina, Part 2.\nAfter the Titans break through the wall, the citizens of Shiganshina must run for their lives. However, those that do make it to safety find a harsh life waiting for them.",
+        "released": "2013-04-13T15:30:00.000Z",
+        "runtime": "24 min",
+        "season": 1,
+        "thumbnail": "https://media.kitsu.app/episodes/thumbnails/104939/original.jpg",
+        "title": "That Day"
+      },
+      {
+        "absoluteEpisode": 3,
+        "episode": 3,
+        "id": "kitsu:7442:3",
+        "imdbEpisode": 3,
+        "imdbSeason": 1,
+        "imdb_id": "tt2560140",
+        "overview": "Eren begins his training with the Cadet Corps, but questions about his painful past overwhelm him. When he struggles with a maneuvering exercise, Berholt and Reiner offer kindly advice.",
+        "released": "2013-04-20T15:30:00.000Z",
+        "runtime": "24 min",
+        "season": 1,
+        "thumbnail": "https://media.kitsu.app/episodes/thumbnails/104940/original.jpeg",
+        "title": "Shining Dimly in the Midst of Despair"
+      },
+      {
+        "absoluteEpisode": 4,
+        "episode": 4,
+        "id": "kitsu:7442:4",
+        "imdbEpisode": 4,
+        "imdbSeason": 1,
+        "imdb_id": "tt2560140",
+        "overview": "Annie proves her skill in a sparring session, Jan dreams of serving alongside the King, and graduation day brings shocking revelations - along with a sudden outbreak of violence!",
+        "released": "2013-04-27T15:30:00.000Z",
+        "runtime": "24 min",
+        "season": 1,
+        "thumbnail": "https://media.kitsu.app/episodes/thumbnails/104941/original.jpeg",
+        "title": "Night of the Disbanding"
+      },
+      {
+        "absoluteEpisode": 5,
+        "episode": 5,
+        "id": "kitsu:7442:5",
+        "imdbEpisode": 5,
+        "imdbSeason": 1,
+        "imdb_id": "tt2560140",
+        "overview": "Eren faces off against the Colossal Titan after it appears out of nowhere and knocks a strategic hole in the Rose Wall gate. As Titans swarm the city, the newly graduated Cadets are called in to fight in brutal battle that won't be without casualties.",
+        "released": "2013-05-04T15:30:00.000Z",
+        "runtime": "24 min",
+        "season": 1,
+        "thumbnail": "https://media.kitsu.app/episodes/thumbnails/104942/original.jpeg",
+        "title": "First Battle"
+      },
+      {
+        "absoluteEpisode": 6,
+        "episode": 6,
+        "id": "kitsu:7442:6",
+        "imdbEpisode": 6,
+        "imdbSeason": 1,
+        "imdb_id": "tt2560140",
+        "overview": "Armin tries to cope with the loss of his friends and allies after Titans massacre his squad. Elsewhere in the city, Mikasa manages to take out several of the monsters, which brings back tragic memories of her past and the first time she met Eren.",
+        "released": "2013-05-11T15:30:00.000Z",
+        "runtime": "24 min",
+        "season": 1,
+        "thumbnail": "https://media.kitsu.app/episodes/thumbnails/104943/original.jpeg",
+        "title": "The World She Saw"
+      },
+      {
+        "absoluteEpisode": 7,
+        "episode": 7,
+        "id": "kitsu:7442:7",
+        "imdbEpisode": 7,
+        "imdbSeason": 1,
+        "imdb_id": "tt2560140",
+        "overview": "After the retreat bell sounds, many cadets find themselves without enough fuel to scale the wall back to safety. Mikasa begins to lose hope once she hears of the deaths in Armin's squad, but the appearance of a new type of Titan stokes her will to fight.",
+        "released": "2013-05-18T15:30:00.000Z",
+        "runtime": "24 min",
+        "season": 1,
+        "thumbnail": "https://media.kitsu.app/episodes/thumbnails/104944/original.jpeg",
+        "title": "The Small Blade"
+      },
+      {
+        "absoluteEpisode": 8,
+        "episode": 8,
+        "id": "kitsu:7442:8",
+        "imdbEpisode": 8,
+        "imdbSeason": 1,
+        "imdb_id": "tt2560140",
+        "overview": "Armin comes up with a risky plan that pits Titan against Titan as the abandoned Cadets attempt to take back their headquarters. Getting into the building might be possible, but getting out alive and refueled will mean facing more of the giants.",
+        "released": "2013-05-25T15:30:00.000Z",
+        "runtime": "24 min",
+        "season": 1,
+        "thumbnail": "https://media.kitsu.app/episodes/thumbnails/104945/original.jpeg",
+        "title": "Hearing the Heartbeat"
+      },
+      {
+        "absoluteEpisode": 9,
+        "episode": 9,
+        "id": "kitsu:7442:9",
+        "imdbEpisode": 9,
+        "imdbSeason": 1,
+        "imdb_id": "tt2560140",
+        "overview": "A miraculous return is met with anger and fear. Cannons are fixed on Eren as he struggles to remember what happened to him inside the belly of a monster and how he ended up humankind's enemy. One question is all that matters: is Eren human or Titan?",
+        "released": "2013-06-01T15:30:00.000Z",
+        "runtime": "24 min",
+        "season": 1,
+        "thumbnail": "https://media.kitsu.app/episodes/thumbnails/104946/original.jpeg",
+        "title": "The Left Arm's Trace"
+      },
+      {
+        "absoluteEpisode": 10,
+        "episode": 10,
+        "id": "kitsu:7442:10",
+        "imdbEpisode": 10,
+        "imdbSeason": 1,
+        "imdb_id": "tt2560140",
+        "overview": "Cadets respond to Eren's terrifying transformation with doubt and fear as he struggles to understand it himself. If Armin can't talk the commander into using Eren's newfound powers for the good of humankind, all hope of stopping the Titans might be lost.",
+        "released": "2013-06-08T15:30:00.000Z",
+        "runtime": "24 min",
+        "season": 1,
+        "thumbnail": "https://media.kitsu.app/episodes/thumbnails/104947/original.jpeg",
+        "title": "Answer"
+      }
+    ],
+    "year": "2013"
+  }
+}

@@ -1,0 +1,1020 @@
+{
+  "metas": [
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Carrie White",
+            "name": "Summer H. Howell",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/9l9D6DhugB4FBIZecuMyZ4Uulyr.jpg"
+          },
+          {
+            "character": "Margaret White",
+            "name": "Samantha Sloyan",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/iI6mYgxrQSwphBJdfwYN3vB6oS2.jpg"
+          },
+          {
+            "character": "Sue Snell",
+            "name": "Siena Agudong",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/nCVWiVrIVqw0LnpyhYsckOMQJHS.jpg"
+          },
+          {
+            "character": "Chris Hargensen",
+            "name": "Alison Thornton",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/hDCMe5RLABbSBA04BIUxJnBmol6.jpg"
+          },
+          {
+            "character": "Tommy Ross",
+            "name": "Joel Oulette",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/qmzQBjq1hLpU37HtsKw5MszgRKa.jpg"
+          },
+          {
+            "character": "Tina Blake",
+            "name": "Josie Totah",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/125iM9BTPVDfRjKGVSqmvgeGsai.jpg"
+          },
+          {
+            "character": "Billy Nolan",
+            "name": "Arthur Conti",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/pnO8qBwvLJfN54UaKsy0QQlAc8u.jpg"
+          },
+          {
+            "character": "Emaline West",
+            "name": "Thalia Dudek",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/lmpaF8Yi0SfojtEwlY1CkEjzGU7.jpg"
+          },
+          {
+            "character": "Miss Desjardin",
+            "name": "Amber Midthunder",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/f8VWGyaIS38NkDIzQ2hapXKt0N5.jpg"
+          },
+          {
+            "character": "Principal Grayle",
+            "name": "Matthew Lillard",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mIEKAfe0iC41RDXibbTy48LtNOi.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/9yCJtipMeDe8uAdSJKvw8BnYfRz.jpg",
+      "description": "After her father's sudden, untimely death thrusts her into the unforgiving ecosystem of public high school, Carrie is forced to navigate a viral bullying scandal that tears through her community, the relentless pressure and casual cruelty of the social‑media age, and the awakening of mysterious telekinetic powers that rise alongside her adolescence.",
+      "genre": [
+        "Mystery",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "id": "tmdb:288673",
+      "imdbRating": "8.5",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.5",
+          "url": "https://imdb.com/title/tt11540908"
+        },
+        {
+          "category": "Cast",
+          "name": "Summer H. Howell",
+          "url": "stremio:///search?search=Summer%20H.%20Howell"
+        },
+        {
+          "category": "Cast",
+          "name": "Samantha Sloyan",
+          "url": "stremio:///search?search=Samantha%20Sloyan"
+        },
+        {
+          "category": "Cast",
+          "name": "Siena Agudong",
+          "url": "stremio:///search?search=Siena%20Agudong"
+        },
+        {
+          "category": "Cast",
+          "name": "Alison Thornton",
+          "url": "stremio:///search?search=Alison%20Thornton"
+        },
+        {
+          "category": "Cast",
+          "name": "Joel Oulette",
+          "url": "stremio:///search?search=Joel%20Oulette"
+        },
+        {
+          "category": "Cast",
+          "name": "Josie Totah",
+          "url": "stremio:///search?search=Josie%20Totah"
+        },
+        {
+          "category": "Cast",
+          "name": "Arthur Conti",
+          "url": "stremio:///search?search=Arthur%20Conti"
+        },
+        {
+          "category": "Cast",
+          "name": "Thalia Dudek",
+          "url": "stremio:///search?search=Thalia%20Dudek"
+        },
+        {
+          "category": "Cast",
+          "name": "Amber Midthunder",
+          "url": "stremio:///search?search=Amber%20Midthunder"
+        },
+        {
+          "category": "Cast",
+          "name": "Matthew Lillard",
+          "url": "stremio:///search?search=Matthew%20Lillard"
+        }
+      ],
+      "name": "Carrie",
+      "poster": "https://image.tmdb.org/t/p/w342/6mUMquPQBFJGqTACS3Azkwwrx8d.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026-2026",
+      "runtime": "49min",
+      "type": "series",
+      "writer": [
+        "Mike Flanagan"
+      ],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Hal Jordan / Halogram",
+            "name": "Kyle Chandler",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/66n7XNj1dyYkzCBWR3Lq8Vz4PJ1.jpg"
+          },
+          {
+            "character": "John Stewart",
+            "name": "Aaron Pierre",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/hNwZWdT2KxKj1YLbipvtUhNjfAp.jpg"
+          },
+          {
+            "character": "Sheriff Kerry Kane",
+            "name": "Kelly Macdonald",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/k0yVocTnTMWlNdaeOO7YRViCdhO.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/6gqezQJ2mkm4jreWwLyOZy2Vf6i.jpg",
+      "description": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
+      "genre": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "id": "tmdb:95350",
+      "imdbRating": "8.3",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.3",
+          "url": "https://imdb.com/title/tt26545992"
+        },
+        {
+          "category": "Cast",
+          "name": "Kyle Chandler",
+          "url": "stremio:///search?search=Kyle%20Chandler"
+        },
+        {
+          "category": "Cast",
+          "name": "Aaron Pierre",
+          "url": "stremio:///search?search=Aaron%20Pierre"
+        },
+        {
+          "category": "Cast",
+          "name": "Kelly Macdonald",
+          "url": "stremio:///search?search=Kelly%20Macdonald"
+        }
+      ],
+      "name": "Lanterns",
+      "poster": "https://image.tmdb.org/t/p/w342/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026-",
+      "runtime": "57min",
+      "type": "series",
+      "writer": [
+        "Damon Lindelof",
+        "Chris Mundy",
+        "Tom King"
+      ],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Calvin Penney",
+            "name": "Josh Hartnett",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/5eMo8D7h1XrSu6ZN4UXhPcS6YNG.jpg"
+          },
+          {
+            "character": "Dr. Fonda Howander",
+            "name": "Mackenzie Davis",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ekQbEIKh26jbz17P0wwLbo6uNs9.jpg"
+          },
+          {
+            "character": "Wade Penney",
+            "name": "Charlie Heaton",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/lTFj22o0odUj9MfzjLvBtjfGyOT.jpg"
+          },
+          {
+            "character": "Mary Penney",
+            "name": "Ruby Stokes",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/82itS42KR0RisdZNRemnGuKowIe.jpg"
+          },
+          {
+            "character": "Noah Townsend",
+            "name": "Kaleb Horn",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/e8Dw4RNTmmbn5p7pYNP92wO3cA9.jpg"
+          },
+          {
+            "character": "Jay Penney",
+            "name": "Rohan Campbell",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/r1PDcoPF1NDvvxwqkOJTrFaT1za.jpg"
+          },
+          {
+            "character": "Ruth Penney",
+            "name": "Willow Kean",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/7p7LEKqI5Kn353wKLpbQdD5V3JP.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
+      "description": "When a mysterious sea creature terrorizes a small Newfoundland town, a hard-bitten fisherman and his family fight to protect their close-knit community.",
+      "genre": [
+        "Drama",
+        "Mystery"
+      ],
+      "id": "tmdb:285322",
+      "imdbRating": "7.3",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.3",
+          "url": "https://imdb.com/title/tt35934755"
+        },
+        {
+          "category": "Cast",
+          "name": "Josh Hartnett",
+          "url": "stremio:///search?search=Josh%20Hartnett"
+        },
+        {
+          "category": "Cast",
+          "name": "Mackenzie Davis",
+          "url": "stremio:///search?search=Mackenzie%20Davis"
+        },
+        {
+          "category": "Cast",
+          "name": "Charlie Heaton",
+          "url": "stremio:///search?search=Charlie%20Heaton"
+        },
+        {
+          "category": "Cast",
+          "name": "Ruby Stokes",
+          "url": "stremio:///search?search=Ruby%20Stokes"
+        },
+        {
+          "category": "Cast",
+          "name": "Kaleb Horn",
+          "url": "stremio:///search?search=Kaleb%20Horn"
+        },
+        {
+          "category": "Cast",
+          "name": "Rohan Campbell",
+          "url": "stremio:///search?search=Rohan%20Campbell"
+        },
+        {
+          "category": "Cast",
+          "name": "Willow Kean",
+          "url": "stremio:///search?search=Willow%20Kean"
+        }
+      ],
+      "name": "Below",
+      "poster": "https://image.tmdb.org/t/p/w342/vgLqqhMUbljp585qPp1EFCyJtcz.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026-2026",
+      "runtime": "37min",
+      "type": "series",
+      "writer": [
+        "Jesse McKeown"
+      ],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Pavi (voice)",
+            "name": "Saheli Khan",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/v7KEBCh275MWmT0j5fxm4fslosD.jpg"
+          },
+          {
+            "character": "Nisha (voice)",
+            "name": "Aishwarya 'Aishu' Devan",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/eRDnTa8yKo0G79j7Z48jeNODRuj.jpg"
+          },
+          {
+            "character": "Jae (voice)",
+            "name": "Major Curda",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/oHkyajLazp64ttgStLcJTY4wTvU.jpg"
+          },
+          {
+            "character": "Karthik (voice)",
+            "name": "Akshay Khanna",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/L2JWyOTwPRLHBLV7xUmDOcRHU3.jpg"
+          },
+          {
+            "character": "Agam (voice)",
+            "name": "Sakina Jaffrey",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/9U6vixMcwkj8aEffy64UqsklHd.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/t2KFGH07Al4XuIZLHRlF1Hj9IJB.jpg",
+      "description": "In a world shattered by a devastating cataclysm, a young Earthbender discovers she's the new Avatar after Korra. But in this dangerous era, that title marks her as humanity's destroyer, not its savior. Hunted by both human and spirit enemies, she and her long-lost twin must uncover their mysterious origins and save the Seven Havens before civilization's last strongholds collapse.",
+      "genre": [
+        "Animation",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy",
+        "Family"
+      ],
+      "id": "tmdb:284833",
+      "imdbRating": "8.7",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.7",
+          "url": "https://imdb.com/title/tt35854736"
+        },
+        {
+          "category": "Cast",
+          "name": "Saheli Khan",
+          "url": "stremio:///search?search=Saheli%20Khan"
+        },
+        {
+          "category": "Cast",
+          "name": "Aishwarya 'Aishu' Devan",
+          "url": "stremio:///search?search=Aishwarya%20'Aishu'%20Devan"
+        },
+        {
+          "category": "Cast",
+          "name": "Major Curda",
+          "url": "stremio:///search?search=Major%20Curda"
+        },
+        {
+          "category": "Cast",
+          "name": "Akshay Khanna",
+          "url": "stremio:///search?search=Akshay%20Khanna"
+        },
+        {
+          "category": "Cast",
+          "name": "Sakina Jaffrey",
+          "url": "stremio:///search?search=Sakina%20Jaffrey"
+        }
+      ],
+      "name": "Avatar: Seven Havens",
+      "poster": "https://image.tmdb.org/t/p/w342/u62d0BPqsdv2TUDifcMmoePbHPL.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026-",
+      "runtime": "23min",
+      "type": "series",
+      "writer": [
+        "Michael Dante DiMartino",
+        "Bryan Konietzko"
+      ],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Lady Cho",
+            "name": "Son Ye-jin",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/i6fASFvO3mUceZJvipn4RiLHA44.jpg"
+          },
+          {
+            "character": "Cho Won",
+            "name": "Ji Chang-wook",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/sBmHrO5Tn27Ot5hy0yAKniROmNb.jpg"
+          },
+          {
+            "character": "Ahn Hui-yeon",
+            "name": "Nana",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/zEjVBD734pLcNQrZESkKTNhKl6z.jpg"
+          },
+          {
+            "character": "So-ok's Mom",
+            "name": "Han Seon-hwa",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/daP8g9eByOuJnnKUROrKwAGU1Yp.jpg"
+          },
+          {
+            "character": "Lee So-ok",
+            "name": "Shin Youn-ha",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/9F8XXBvdziId1BwW1EwZbY8hOiB.jpg"
+          },
+          {
+            "character": "Lady Jeonggyeong",
+            "name": "Kang Ji-eun",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/2godIG1dfY3T1akTDsstvStYPh4.jpg"
+          },
+          {
+            "character": "Chil-seong",
+            "name": "Kwon Do-kyun",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/glk5bE5fOixuInd8mgAl2jlojg5.jpg"
+          },
+          {
+            "character": "Kwon In-ho",
+            "name": "Kang Chan-hee",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/2vBAQc9BKRAePO0NQcSp90KHMpk.jpg"
+          },
+          {
+            "character": "Commander of the royal guard",
+            "name": "Kang Myung-soo",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/nB9agTqlkI4e4eyAnznfGPQzYLS.jpg"
+          },
+          {
+            "character": "Left State Councillor",
+            "name": "Jeong Gi-seop",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/h9ihe6xJL45lECEQ2i38Xl932vf.jpg"
+          },
+          {
+            "character": "Mi-ok",
+            "name": "Chae Seo-jin",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/tsNJXifO5xKwvfyRkpbSGJC1PHR.jpg"
+          },
+          {
+            "character": "Cho Yoon [Young]",
+            "name": "Shin So-hyeon",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/9vPE4zx2hmaJEplLH6j9mrSdc70.jpg"
+          },
+          {
+            "character": "Cho Won [Young]",
+            "name": "Jung Hyeon-jun",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/vZadA6ip6V2kh0VZW9RwnLcYFgW.jpg"
+          },
+          {
+            "character": "Eun-sil",
+            "name": "Kim Ji-an",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/pG6EWOuSkQPIg1LguOLeso1tWjB.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/uc1p1PEbEMpdIHqnU9TESNC6Jhp.jpg",
+      "description": "In Joseon, a secret proposal ignites hidden desires in a gifted noblewoman, a famed lover and an unsuspecting lady caught in their dangerous game.",
+      "genre": [
+        "Drama"
+      ],
+      "id": "tmdb:275102",
+      "imdbRating": "6.8",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.8",
+          "url": "https://imdb.com/title/tt36347588"
+        },
+        {
+          "category": "Cast",
+          "name": "Son Ye-jin",
+          "url": "stremio:///search?search=Son%20Ye-jin"
+        },
+        {
+          "category": "Cast",
+          "name": "Ji Chang-wook",
+          "url": "stremio:///search?search=Ji%20Chang-wook"
+        },
+        {
+          "category": "Cast",
+          "name": "Nana",
+          "url": "stremio:///search?search=Nana"
+        },
+        {
+          "category": "Cast",
+          "name": "Han Seon-hwa",
+          "url": "stremio:///search?search=Han%20Seon-hwa"
+        },
+        {
+          "category": "Cast",
+          "name": "Shin Youn-ha",
+          "url": "stremio:///search?search=Shin%20Youn-ha"
+        },
+        {
+          "category": "Cast",
+          "name": "Kang Ji-eun",
+          "url": "stremio:///search?search=Kang%20Ji-eun"
+        },
+        {
+          "category": "Cast",
+          "name": "Kwon Do-kyun",
+          "url": "stremio:///search?search=Kwon%20Do-kyun"
+        },
+        {
+          "category": "Cast",
+          "name": "Kang Chan-hee",
+          "url": "stremio:///search?search=Kang%20Chan-hee"
+        },
+        {
+          "category": "Cast",
+          "name": "Kang Myung-soo",
+          "url": "stremio:///search?search=Kang%20Myung-soo"
+        },
+        {
+          "category": "Cast",
+          "name": "Jeong Gi-seop",
+          "url": "stremio:///search?search=Jeong%20Gi-seop"
+        },
+        {
+          "category": "Cast",
+          "name": "Chae Seo-jin",
+          "url": "stremio:///search?search=Chae%20Seo-jin"
+        },
+        {
+          "category": "Cast",
+          "name": "Shin So-hyeon",
+          "url": "stremio:///search?search=Shin%20So-hyeon"
+        },
+        {
+          "category": "Cast",
+          "name": "Jung Hyeon-jun",
+          "url": "stremio:///search?search=Jung%20Hyeon-jun"
+        },
+        {
+          "category": "Cast",
+          "name": "Kim Ji-an",
+          "url": "stremio:///search?search=Kim%20Ji-an"
+        },
+        {
+          "category": "Directors",
+          "name": "Jung Ji-woo",
+          "url": "stremio:///search?search=Jung%20Ji-woo"
+        },
+        {
+          "category": "Writers",
+          "name": "Ahn Hye-song",
+          "url": "stremio:///search?search=Ahn%20Hye-song"
+        },
+        {
+          "category": "Writers",
+          "name": "Lee Seung-yeong",
+          "url": "stremio:///search?search=Lee%20Seung-yeong"
+        }
+      ],
+      "name": "The Scandal",
+      "poster": "https://image.tmdb.org/t/p/w342/4TU0PcHBIl0wPW5B6aVRGExOnHE.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026-2026",
+      "runtime": "1h20min",
+      "type": "series",
+      "writer": [
+        "Jung Ji-woo"
+      ],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Baek Ho-rang",
+            "name": "Kim Young-kwang",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/z7tQSbWHEfXeWMYHNNDGXW9Idfl.jpg"
+          },
+          {
+            "character": "Na Bo-bae",
+            "name": "Chae Soo-bin",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/uHVJPhxn9b9tHK30KTxQpdGIs9K.jpg"
+          },
+          {
+            "character": "Ji Eun-ho",
+            "name": "Cha Woo-min",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/z8Lz0Opnl4i7Aj8b7jC4qYP01xJ.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/rN9xHDp83kZ3cOr82JR1b4rFIFk.jpg",
+      "description": "A corporate heir with an artificial heart meets a woman who's literally electric. They strike a deal that makes his heart beat — in more ways than one.",
+      "genre": [
+        "Sci-Fi & Fantasy",
+        "Comedy"
+      ],
+      "id": "tmdb:289423",
+      "imdbRating": "8.3",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.3",
+          "url": "https://imdb.com/title/tt37737331"
+        },
+        {
+          "category": "Cast",
+          "name": "Kim Young-kwang",
+          "url": "stremio:///search?search=Kim%20Young-kwang"
+        },
+        {
+          "category": "Cast",
+          "name": "Chae Soo-bin",
+          "url": "stremio:///search?search=Chae%20Soo-bin"
+        },
+        {
+          "category": "Cast",
+          "name": "Cha Woo-min",
+          "url": "stremio:///search?search=Cha%20Woo-min"
+        }
+      ],
+      "name": "Take Charge of My Heart",
+      "poster": "https://image.tmdb.org/t/p/w342/ecRrKGXfflZmDZBD4irdkybClT.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026-2026",
+      "runtime": "1h2min",
+      "type": "series",
+      "writer": [
+        "Song You-chae",
+        "Park Soo-won"
+      ],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Kayce Dutton",
+            "name": "Luke Grimes",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/c547Xiwf9feeDbGfQchfJCkC111.jpg"
+          },
+          {
+            "character": "Pete Calvin",
+            "name": "Logan Marshall-Green",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/vOV76X3Dd8LsBxrTLdHybFLU8w8.jpg"
+          },
+          {
+            "character": "Belle Skinner",
+            "name": "Arielle Kebbel",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/c98cwlydVsihduXnq6VLW4fQFC.jpg"
+          },
+          {
+            "character": "Andrea Cruz",
+            "name": "Ash Santos",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/uT0GGLGN2mAZcc0dlVrtP7cpy6t.jpg"
+          },
+          {
+            "character": "Miles Kittle",
+            "name": "Tatanka Means",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/Aq7VrwQeUeDNn0y74m7bxDBOAGj.jpg"
+          },
+          {
+            "character": "Tate Dutton",
+            "name": "Brecken Merrill",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/j2cJIrlfMSVWCq491ZMnguhGjXP.jpg"
+          },
+          {
+            "character": "Mo",
+            "name": "Mo Brings Plenty",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/2CxofuWPRZf3G0kYJytblYiHXIy.jpg"
+          },
+          {
+            "character": "Thomas Rainwater",
+            "name": "Gil Birmingham",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/bWYOwtq0zUgpbEhTyiJHo2TmVju.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/yGJGwt7DdIWTUXuahLfhcH1gi7G.jpg",
+      "description": "With the Yellowstone Ranch behind him, Kayce Dutton joins an elite unit of U.S. Marshals, combining his skills as a cowboy and Navy SEAL to bring range justice to Montana, where he and his teammates must balance family, duty and the high psychological cost that comes with serving as the last line of defense in the region's war on violence.",
+      "genre": [
+        "Drama",
+        "Crime",
+        "Action & Adventure"
+      ],
+      "id": "tmdb:290856",
+      "imdbRating": "7.9",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.9",
+          "url": "https://imdb.com/title/tt36849871"
+        },
+        {
+          "category": "Cast",
+          "name": "Luke Grimes",
+          "url": "stremio:///search?search=Luke%20Grimes"
+        },
+        {
+          "category": "Cast",
+          "name": "Logan Marshall-Green",
+          "url": "stremio:///search?search=Logan%20Marshall-Green"
+        },
+        {
+          "category": "Cast",
+          "name": "Arielle Kebbel",
+          "url": "stremio:///search?search=Arielle%20Kebbel"
+        },
+        {
+          "category": "Cast",
+          "name": "Ash Santos",
+          "url": "stremio:///search?search=Ash%20Santos"
+        },
+        {
+          "category": "Cast",
+          "name": "Tatanka Means",
+          "url": "stremio:///search?search=Tatanka%20Means"
+        },
+        {
+          "category": "Cast",
+          "name": "Brecken Merrill",
+          "url": "stremio:///search?search=Brecken%20Merrill"
+        },
+        {
+          "category": "Cast",
+          "name": "Mo Brings Plenty",
+          "url": "stremio:///search?search=Mo%20Brings%20Plenty"
+        },
+        {
+          "category": "Cast",
+          "name": "Gil Birmingham",
+          "url": "stremio:///search?search=Gil%20Birmingham"
+        }
+      ],
+      "name": "Marshals",
+      "poster": "https://image.tmdb.org/t/p/w342/zV1MRb6eqx6Uj3NSXquZFfz75pa.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026-",
+      "runtime": "43min",
+      "type": "series",
+      "writer": [
+        "Spencer Hudnut"
+      ],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Seong Hui-ju",
+            "name": "IU",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/uNhKOO9lIAFXF11LM6gjCrX2CJz.jpg"
+          },
+          {
+            "character": "Grand Prince I-an",
+            "name": "Byeon Woo-seok",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/iACGQCFJZUMsy4ywEzNiPokXFB9.jpg"
+          },
+          {
+            "character": "Min Jeong-u",
+            "name": "Steve Sanghyun Noh",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/wdevvu2YLIvAPVEkScjO9JGbioq.jpg"
+          },
+          {
+            "character": "Yun I-rang",
+            "name": "Gong Seung-yeon",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/yHZsZH9AHJbaRiHSWiKQamIeHWa.jpg"
+          },
+          {
+            "character": "Choi Hyeon",
+            "name": "Yoo Su-bin",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/vulO1ngz0s3jUBXQbW2ADuyK3Fa.jpg"
+          },
+          {
+            "character": "Do Hye-jeong",
+            "name": "Lee Yeon",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/uTZMewSjjx4MxDYAaZrhbl1fAGX.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/6ekykPwvAywJRjFEnUoCFWTO9O3.jpg",
+      "description": "In 21st-century Korea under a constitutional monarchy, a chaebol heiress with everything but status tries to take control of her future after crossing paths with a lonely prince with nothing but his title. Together, bound by a contract marriage, they begin a class-defying romance to rewrite destiny.",
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "id": "tmdb:278573",
+      "imdbRating": "9.0",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "9.0",
+          "url": "https://imdb.com/title/tt39333617"
+        },
+        {
+          "category": "Cast",
+          "name": "IU",
+          "url": "stremio:///search?search=IU"
+        },
+        {
+          "category": "Cast",
+          "name": "Byeon Woo-seok",
+          "url": "stremio:///search?search=Byeon%20Woo-seok"
+        },
+        {
+          "category": "Cast",
+          "name": "Steve Sanghyun Noh",
+          "url": "stremio:///search?search=Steve%20Sanghyun%20Noh"
+        },
+        {
+          "category": "Cast",
+          "name": "Gong Seung-yeon",
+          "url": "stremio:///search?search=Gong%20Seung-yeon"
+        },
+        {
+          "category": "Cast",
+          "name": "Yoo Su-bin",
+          "url": "stremio:///search?search=Yoo%20Su-bin"
+        },
+        {
+          "category": "Cast",
+          "name": "Lee Yeon",
+          "url": "stremio:///search?search=Lee%20Yeon"
+        },
+        {
+          "category": "Directors",
+          "name": "Park Joon-hwa",
+          "url": "stremio:///search?search=Park%20Joon-hwa"
+        },
+        {
+          "category": "Directors",
+          "name": "Bae Hee-young",
+          "url": "stremio:///search?search=Bae%20Hee-young"
+        },
+        {
+          "category": "Writers",
+          "name": "Yoo A-in",
+          "url": "stremio:///search?search=Yoo%20A-in"
+        }
+      ],
+      "name": "Perfect Crown",
+      "poster": "https://image.tmdb.org/t/p/w342/ocXkHSslrSWMz2ZJGl5MjF6dQr3.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026-2026",
+      "runtime": "1h13min",
+      "type": "series",
+      "writer": [
+        "Yoo A-in"
+      ],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Son Goku / Son Goten (voice)",
+            "name": "Masako Nozawa",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/jxbXdejmPoiKnNoQz7Dkb80qC26.jpg"
+          },
+          {
+            "character": "Vegeta (voice)",
+            "name": "Ryo Horikawa",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/vZ69WQJfR5D2xow5FkddduRjq6c.jpg"
+          },
+          {
+            "character": "Chichi (voice)",
+            "name": "Naoko Watanabe",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/wgX2xT2y21Tv0eKIMSyMXf6CC0U.jpg"
+          },
+          {
+            "character": "Mr. Satan (voice)",
+            "name": "Unsho Ishizuka",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/nmj1vTrJc0zvuUYqxSyWXmIGBlP.jpg"
+          },
+          {
+            "character": "Beerus (voice)",
+            "name": "Koichi Yamadera",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/biov5jENp2XYfehkcdnRvi796Wi.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg",
+      "description": "When Beerus, the God of Destruction, awakens in search of a worthy rival, Goku and his friends face an epic battle to stop him from destroying Earth.\n\nRemastered and re-edited version of Dragon Ball Super.",
+      "genre": [
+        "Animation",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "id": "tmdb:312359",
+      "imdbRating": "9.8",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "9.8",
+          "url": "https://imdb.com/title/tt39395275"
+        },
+        {
+          "category": "Cast",
+          "name": "Masako Nozawa",
+          "url": "stremio:///search?search=Masako%20Nozawa"
+        },
+        {
+          "category": "Cast",
+          "name": "Ryo Horikawa",
+          "url": "stremio:///search?search=Ryo%20Horikawa"
+        },
+        {
+          "category": "Cast",
+          "name": "Naoko Watanabe",
+          "url": "stremio:///search?search=Naoko%20Watanabe"
+        },
+        {
+          "category": "Cast",
+          "name": "Unsho Ishizuka",
+          "url": "stremio:///search?search=Unsho%20Ishizuka"
+        },
+        {
+          "category": "Cast",
+          "name": "Koichi Yamadera",
+          "url": "stremio:///search?search=Koichi%20Yamadera"
+        }
+      ],
+      "name": "Dragon Ball Super: Beerus",
+      "poster": "https://image.tmdb.org/t/p/w342/AojgldgsOlzZV8ahyOzaiAjJWvV.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026-",
+      "runtime": "24min",
+      "type": "series",
+      "writer": [],
+      "year": "2026"
+    },
+    {
+      "app_extras": {
+        "cast": [
+          {
+            "character": "Cathy Ames",
+            "name": "Florence Pugh",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/2URrZb95t3kY6pLroKny3Enmabp.jpg"
+          },
+          {
+            "character": "Adam Trask",
+            "name": "Christopher Abbott",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/bE7zzh60RXydH3p632ZZSmsTlcn.jpg"
+          },
+          {
+            "character": "Charles Trask",
+            "name": "Mike Faist",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/xRl1Pa8a80L3QUT7LrTtlTZv1l4.jpg"
+          },
+          {
+            "character": "Lee",
+            "name": "Hoon Lee",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/3Ux4nTEfPySyZg6yBlu1uXR1TyT.jpg"
+          },
+          {
+            "character": "Samuel Hamilton",
+            "name": "Ciarán Hinds",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/d8wLIX9VYgwXRGSp1gmUdUxmApv.jpg"
+          },
+          {
+            "character": "Caleb \"Cal\" Trask",
+            "name": "Joseph Zada",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/8RnNxrgffoNOu7ZHPSGvYnfjtdI.jpg"
+          }
+        ]
+      },
+      "background": "https://image.tmdb.org/t/p/w1280/70RZX7kNjA0Qjn6HigB1oMvFJ8R.jpg",
+      "description": "In the early 1900s, a fiercely independent woman drives a rift between two brothers, igniting a saga that unfolds across two generations.",
+      "genre": [
+        "Drama"
+      ],
+      "id": "tmdb:258165",
+      "imdbRating": "8.1",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.1",
+          "url": "https://imdb.com/title/tt21097264"
+        },
+        {
+          "category": "Cast",
+          "name": "Florence Pugh",
+          "url": "stremio:///search?search=Florence%20Pugh"
+        },
+        {
+          "category": "Cast",
+          "name": "Christopher Abbott",
+          "url": "stremio:///search?search=Christopher%20Abbott"
+        },
+        {
+          "category": "Cast",
+          "name": "Mike Faist",
+          "url": "stremio:///search?search=Mike%20Faist"
+        },
+        {
+          "category": "Cast",
+          "name": "Hoon Lee",
+          "url": "stremio:///search?search=Hoon%20Lee"
+        },
+        {
+          "category": "Cast",
+          "name": "Ciarán Hinds",
+          "url": "stremio:///search?search=Ciar%C3%A1n%20Hinds"
+        },
+        {
+          "category": "Cast",
+          "name": "Joseph Zada",
+          "url": "stremio:///search?search=Joseph%20Zada"
+        }
+      ],
+      "name": "East of Eden",
+      "poster": "https://image.tmdb.org/t/p/w342/axdUor6gLMTrrB1UF4Qfy0TTSyX.jpg",
+      "posterShape": "regular",
+      "releaseInfo": "2026-2026",
+      "runtime": "1h8min",
+      "type": "series",
+      "writer": [
+        "Zoe Kazan"
+      ],
+      "year": "2026"
+    }
+  ]
+}

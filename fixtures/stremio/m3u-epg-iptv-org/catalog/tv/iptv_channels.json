@@ -1,0 +1,114 @@
+{
+  "metas": [
+    {
+      "description": "📡 Live Channel",
+      "genres": [
+        "General"
+      ],
+      "id": "iptv_2c594428bd2ecc63",
+      "name": "1+1 International",
+      "poster": "https://i.imgur.com/LOY0rtp.png",
+      "runtime": "Live",
+      "type": "tv"
+    },
+    {
+      "description": "📡 Live Channel",
+      "genres": [
+        "General"
+      ],
+      "id": "iptv_98cfd5fcfc67e5cf",
+      "name": "1+1 International HD (720p)",
+      "poster": "https://i.imgur.com/LOY0rtp.png",
+      "runtime": "Live",
+      "type": "tv"
+    },
+    {
+      "description": "📡 Live Channel",
+      "genres": [
+        "General"
+      ],
+      "id": "iptv_14cf45f6705304f7",
+      "name": "1+1 Marafon (1080p)",
+      "poster": "https://i.imgur.com/smQKa2G.png",
+      "runtime": "Live",
+      "type": "tv"
+    },
+    {
+      "description": "📡 Live Channel",
+      "genres": [
+        "General"
+      ],
+      "id": "iptv_53b4cbbff6748686",
+      "name": "1+1 Ukraina (1080p)",
+      "poster": "https://i.imgur.com/FlG7npq.png",
+      "runtime": "Live",
+      "type": "tv"
+    },
+    {
+      "description": "📡 Live Channel",
+      "genres": [
+        "Shop"
+      ],
+      "id": "iptv_e7daf564b1e3d975",
+      "name": "1-2-3.tv (270p)",
+      "poster": "https://i.imgur.com/slSUDNX.png",
+      "runtime": "Live",
+      "type": "tv"
+    },
+    {
+      "description": "📡 Live Channel",
+      "genres": [
+        "General"
+      ],
+      "id": "iptv_e4f4ae106e93d0d0",
+      "name": "1AlmereTV (720p)",
+      "poster": "https://i.imgur.com/XfkbTrU.png",
+      "runtime": "Live",
+      "type": "tv"
+    },
+    {
+      "description": "📡 Live Channel",
+      "genres": [
+        "Music"
+      ],
+      "id": "iptv_ff22ce02b8d7c854",
+      "name": "1HD Music Television (1080p)",
+      "poster": "https://i.imgur.com/4Ww7CsR.png",
+      "runtime": "Live",
+      "type": "tv"
+    },
+    {
+      "description": "📡 Live Channel",
+      "genres": [
+        "Entertainment;Family;General"
+      ],
+      "id": "iptv_76ec1db2a5b14cee",
+      "name": "1KZN TV (576p)",
+      "poster": "https://admango.cdn.mangomolo.com/analytics/uploads/188/6544bebaae.jpg",
+      "runtime": "Live",
+      "type": "tv"
+    },
+    {
+      "description": "📡 Live Channel",
+      "genres": [
+        "General"
+      ],
+      "id": "iptv_80553c8209199792",
+      "name": "1TV (720p)",
+      "poster": "https://i.imgur.com/FSkYLPK.png",
+      "runtime": "Live",
+      "type": "tv"
+    },
+    {
+      "description": "📡 Live Channel",
+      "genres": [
+        "General"
+      ],
+      "id": "iptv_f8f5a6b7ae6661ed",
+      "name": "1Twente TV (1080p)",
+      "poster": "https://i.imgur.com/ftiuNK3.png",
+      "runtime": "Live",
+      "type": "tv"
+    }
+  ]
+}

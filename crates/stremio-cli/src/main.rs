@@ -6,13 +6,20 @@
 //! stremio-cli meta      ADDON... -- TYPE ID
 //! stremio-cli streams   ADDON... -- TYPE ID
 //! stremio-cli subtitles ADDON... -- TYPE ID
+//! stremio-cli record --name NAME ADDON [-- RESOURCE/TYPE/ID[/NAME=VALUE&...]...]
 //! ```
+//!
+//! `record` saves scrubbed, anonymized responses to `fixtures/stremio/NAME/` (see [`record`]);
+//! without explicit paths it picks catalogs, metas and streams from the manifest.
 //!
 //! `ADDON` is a manifest URL. Addon URLs often hold secrets, so they can also come from
 //! `--addons FILE` (one URL per line) or the `STREMIO_ADDONS` environment variable
 //! (newline-separated), and the CLI never prints them: addons are shown by name.
 //! Results print per addon **as each one answers**.
 
+mod record;
+
+use std::path::PathBuf;
 use std::process::ExitCode;
 use std::time::{Duration, Instant};
 
@@ -29,11 +36,16 @@ const USAGE: &str = "usage:
   stremio-cli meta      ADDON... -- TYPE ID
   stremio-cli streams   ADDON... -- TYPE ID
   stremio-cli subtitles ADDON... -- TYPE ID
+  stremio-cli record --name NAME ADDON [-- RESOURCE/TYPE/ID[/NAME=VALUE&...]...]
 
 options:
   --addons FILE    read addon URLs from FILE, one per line
   --timeout SECS   per-request timeout (default 15)
   --limit N        items to print per addon (default 5, 0 = all)
+  --name NAME      record: fixture folder name (fixtures/stremio/NAME)
+  --out DIR        record: parent folder (default fixtures/stremio)
+
+record also reads FIXTURE_SECRETS (comma- or newline-separated) like app-fixtures scrub.
 
 Addon URLs are also read from STREMIO_ADDONS (newline-separated). URLs are never printed.";
 
@@ -43,6 +55,8 @@ struct Args {
     target: Vec<String>,
     timeout: Duration,
     limit: usize,
+    name: Option<String>,
+    out: PathBuf,
 }
 
 fn parse_args() -> Result<Args, String> {
@@ -54,6 +68,8 @@ fn parse_args() -> Result<Args, String> {
         target: Vec::new(),
         timeout: Duration::from_secs(15),
         limit: 5,
+        name: None,
+        out: PathBuf::from("fixtures/stremio"),
     };
     if let Ok(env) = std::env::var("STREMIO_ADDONS") {
         args.addons.extend(urls_from_lines(&env));
@@ -82,6 +98,8 @@ fn parse_args() -> Result<Args, String> {
                     args.limit = usize::MAX;
                 }
             }
+            "--name" => args.name = Some(value("--name")?),
+            "--out" => args.out = PathBuf::from(value("--out")?),
             _ if arg.starts_with("--") => return Err(format!("unknown option {arg}")),
             _ => args.addons.push(arg),
         }
@@ -119,6 +137,9 @@ async fn main() -> ExitCode {
 
 async fn run(args: Args) -> Result<(), String> {
     let transport = ReqwestTransport::new(args.timeout).map_err(|e| e.to_string())?;
+    if args.command == "record" {
+        return record(&transport, args).await;
+    }
     let start = Instant::now();
     let addons = load_addons(&transport, &args.addons, start).await;
     if args.command == "manifest" {
@@ -160,6 +181,26 @@ async fn run(args: Args) -> Result<(), String> {
         print_result(&addons, &planned, result, started, args.limit);
     }
     Ok(())
+}
+
+async fn record(transport: &ReqwestTransport, args: Args) -> Result<(), String> {
+    let name = args.name.ok_or("record needs --name")?;
+    if name.is_empty() || !name.chars().all(|c| c.is_ascii_alphanumeric() || c == '-') {
+        return Err("--name must be letters, digits and dashes".into());
+    }
+    let [url] = args.addons.as_slice() else {
+        return Err("record takes exactly one addon".into());
+    };
+    let paths = args
+        .target
+        .iter()
+        .map(|p| record::parse_path(p))
+        .collect::<Result<Vec<_>, _>>()?;
+    let dir = args.out.join(&name);
+    if dir.exists() {
+        std::fs::remove_dir_all(&dir).map_err(|e| format!("{}: {e}", dir.display()))?;
+    }
+    record::Recorder::new(transport, url, dir)?.run(paths).await
 }
 
 /// Fetches every manifest at once; prints each as it loads. Keeps the given order.
@@ -240,11 +281,11 @@ fn print_result(
                 )];
                 lines.extend(m.videos.iter().map(|v| {
                     format!(
-                        "video {} S{:?}E{:?} {}",
+                        "video {} S{}E{} {}",
                         v.id,
                         v.season.unwrap_or_default(),
-                        v.episode.unwrap_or_default(),
-                        v.title.as_deref().unwrap_or("")
+                        v.episode_number().unwrap_or_default(),
+                        v.display_title().unwrap_or("")
                     )
                 }));
                 lines

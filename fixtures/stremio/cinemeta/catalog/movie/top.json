@@ -1,0 +1,1227 @@
+{
+  "cacheMaxAge": 14400,
+  "hasMore": true,
+  "metas": [
+    {
+      "awards": "1 nomination total",
+      "background": "https://images.metahub.space/background/medium/tt22084616/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt22084616",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Tom Holland",
+        "Zendaya",
+        "Mark Ruffalo"
+      ],
+      "country": "United States, Canada, United Kingdom, Germany",
+      "description": "A forgotten Peter Parker lives alone as a full-time Spider-Man until mounting pressure triggers a dangerous change and a powerful new enemy emerges.",
+      "director": [
+        "Destin Daniel Cretton"
+      ],
+      "genre": [
+        "Action",
+        "Adventure"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "id": "tt22084616",
+      "imdbRating": "8.0",
+      "imdb_id": "tt22084616",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "8.0",
+          "url": "https://imdb.com/title/tt22084616"
+        },
+        {
+          "category": "share",
+          "name": "Spider-Man: Brand New Day",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Action"
+        },
+        {
+          "category": "Genres",
+          "name": "Adventure",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Adventure"
+        },
+        {
+          "category": "Cast",
+          "name": "Tom Holland",
+          "url": "stremio:///search?search=Tom%20Holland"
+        },
+        {
+          "category": "Cast",
+          "name": "Zendaya",
+          "url": "stremio:///search?search=Zendaya"
+        },
+        {
+          "category": "Cast",
+          "name": "Mark Ruffalo",
+          "url": "stremio:///search?search=Mark%20Ruffalo"
+        },
+        {
+          "category": "Writers",
+          "name": "Chris McKenna",
+          "url": "stremio:///search?search=Chris%20McKenna"
+        },
+        {
+          "category": "Writers",
+          "name": "Erik Sommers",
+          "url": "stremio:///search?search=Erik%20Sommers"
+        },
+        {
+          "category": "Writers",
+          "name": "Stan Lee",
+          "url": "stremio:///search?search=Stan%20Lee"
+        },
+        {
+          "category": "Directors",
+          "name": "Destin Daniel Cretton",
+          "url": "stremio:///search?search=Destin%20Daniel%20Cretton"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt22084616/img",
+      "moviedb_id": 969681,
+      "name": "Spider-Man: Brand New Day",
+      "popularities": {
+        "moviedb": 942.3201,
+        "stremio": 31.41067,
+        "stremio_lib": 0,
+        "trakt": 2021
+      },
+      "popularity": 31.41067,
+      "poster": "https://images.metahub.space/poster/small/tt22084616/img",
+      "releaseInfo": "2026",
+      "released": "2026-07-31T00:00:00.000Z",
+      "runtime": "145 min",
+      "slug": "movie/spider-man-brand-new-day-22084616",
+      "trailerStreams": [
+        {
+          "title": "Spider-Man: Brand New Day",
+          "ytId": "P3uI5sLosKU"
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "ytId": "62bIsvRcPv0"
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "ytId": "8TZMtslA3UY"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "P3uI5sLosKU",
+          "type": "Trailer"
+        },
+        {
+          "source": "62bIsvRcPv0",
+          "type": "Trailer"
+        },
+        {
+          "source": "8TZMtslA3UY",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Chris McKenna",
+        "Erik Sommers",
+        "Stan Lee"
+      ],
+      "year": "2026"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt6933238/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt6933238",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Russell Crowe",
+        "Shailene Woodley",
+        "Jacob Tremblay"
+      ],
+      "country": "United States",
+      "description": "A Harvard student becomes the Unabomber after psychological experiments. Years later, an FBI agent's pursuit reveals how his past shaped his deadly campaign that killed 3 and injured 23 from 1978-1995.",
+      "director": [
+        "Janus Metz"
+      ],
+      "genre": [
+        "Biography",
+        "Crime",
+        "Drama"
+      ],
+      "genres": [
+        "Biography",
+        "Crime",
+        "Drama"
+      ],
+      "id": "tt6933238",
+      "imdbRating": "6.2",
+      "imdb_id": "tt6933238",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.2",
+          "url": "https://imdb.com/title/tt6933238"
+        },
+        {
+          "category": "share",
+          "name": "Unabomber",
+          "url": "https://www.strem.io/s/movie/unabomber-6933238"
+        },
+        {
+          "category": "Genres",
+          "name": "Biography",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Biography"
+        },
+        {
+          "category": "Genres",
+          "name": "Crime",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Crime"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Drama"
+        },
+        {
+          "category": "Cast",
+          "name": "Russell Crowe",
+          "url": "stremio:///search?search=Russell%20Crowe"
+        },
+        {
+          "category": "Cast",
+          "name": "Shailene Woodley",
+          "url": "stremio:///search?search=Shailene%20Woodley"
+        },
+        {
+          "category": "Cast",
+          "name": "Jacob Tremblay",
+          "url": "stremio:///search?search=Jacob%20Tremblay"
+        },
+        {
+          "category": "Writers",
+          "name": "Sam Chalsen",
+          "url": "stremio:///search?search=Sam%20Chalsen"
+        },
+        {
+          "category": "Writers",
+          "name": "Nelson Greaves",
+          "url": "stremio:///search?search=Nelson%20Greaves"
+        },
+        {
+          "category": "Directors",
+          "name": "Janus Metz",
+          "url": "stremio:///search?search=Janus%20Metz"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt6933238/img",
+      "moviedb_id": 1492640,
+      "name": "Unabomber",
+      "popularities": {
+        "moviedb": 70.6957,
+        "stremio": 2.3565233333333335,
+        "stremio_lib": 0,
+        "trakt": 278
+      },
+      "popularity": 2.3565233333333335,
+      "poster": "https://images.metahub.space/poster/small/tt6933238/img",
+      "releaseInfo": "2026",
+      "released": "2026-09-25T00:00:00.000Z",
+      "runtime": "101 min",
+      "slug": "movie/unabomber-6933238",
+      "trailerStreams": [
+        {
+          "title": "Unabomber",
+          "ytId": "B3tR6qQjbgI"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "B3tR6qQjbgI",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Sam Chalsen",
+        "Nelson Greaves"
+      ],
+      "year": "2026"
+    },
+    {
+      "awards": "3 wins & 7 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt15047880/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt15047880",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Emily Blunt",
+        "Josh O&apos;Connor",
+        "Colin Firth"
+      ],
+      "country": "United States, Canada, New Zealand, Japan",
+      "description": "If you found out we weren't alone, if someone showed you, proved it to you, would that frighten you?",
+      "director": [
+        "Steven Spielberg"
+      ],
+      "genre": [
+        "Action",
+        "Mystery",
+        "Sci-Fi"
+      ],
+      "genres": [
+        "Action",
+        "Mystery",
+        "Sci-Fi"
+      ],
+      "id": "tt15047880",
+      "imdbRating": "6.4",
+      "imdb_id": "tt15047880",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.4",
+          "url": "https://imdb.com/title/tt15047880"
+        },
+        {
+          "category": "share",
+          "name": "Disclosure Day",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Action"
+        },
+        {
+          "category": "Genres",
+          "name": "Mystery",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Mystery"
+        },
+        {
+          "category": "Genres",
+          "name": "Sci-Fi",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Sci-Fi"
+        },
+        {
+          "category": "Cast",
+          "name": "Emily Blunt",
+          "url": "stremio:///search?search=Emily%20Blunt"
+        },
+        {
+          "category": "Cast",
+          "name": "Josh O&apos;Connor",
+          "url": "stremio:///search?search=Josh%20O%26apos%3BConnor"
+        },
+        {
+          "category": "Cast",
+          "name": "Colin Firth",
+          "url": "stremio:///search?search=Colin%20Firth"
+        },
+        {
+          "category": "Writers",
+          "name": "David Koepp",
+          "url": "stremio:///search?search=David%20Koepp"
+        },
+        {
+          "category": "Writers",
+          "name": "Steven Spielberg",
+          "url": "stremio:///search?search=Steven%20Spielberg"
+        },
+        {
+          "category": "Directors",
+          "name": "Steven Spielberg",
+          "url": "stremio:///search?search=Steven%20Spielberg"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt15047880/img",
+      "moviedb_id": 1275779,
+      "name": "Disclosure Day",
+      "popularities": {
+        "moviedb": 82.6835,
+        "stremio": 2.7561166666666663,
+        "stremio_lib": 0,
+        "trakt": 246
+      },
+      "popularity": 2.7561166666666663,
+      "poster": "https://images.metahub.space/poster/small/tt15047880/img",
+      "releaseInfo": "2026",
+      "released": "2026-06-12T00:00:00.000Z",
+      "runtime": "146 min",
+      "slug": "movie/disclosure-day-15047880",
+      "trailerStreams": [
+        {
+          "title": "Disclosure Day",
+          "ytId": "icDuEHSxE-w"
+        },
+        {
+          "title": "Disclosure Day",
+          "ytId": "SCYT8vb2siQ"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "icDuEHSxE-w",
+          "type": "Trailer"
+        },
+        {
+          "source": "SCYT8vb2siQ",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "David Koepp",
+        "Steven Spielberg"
+      ],
+      "year": "2026"
+    },
+    {
+      "awards": "10 wins & 13 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt37287335/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt37287335",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Michael Johnston",
+        "Inde Navarrette",
+        "Cooper Tomlinson"
+      ],
+      "country": "United States",
+      "description": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
+      "director": [
+        "Curry Barker"
+      ],
+      "genre": [
+        "Horror",
+        "Thriller"
+      ],
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "id": "tt37287335",
+      "imdbRating": "7.8",
+      "imdb_id": "tt37287335",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.8",
+          "url": "https://imdb.com/title/tt37287335"
+        },
+        {
+          "category": "share",
+          "name": "Obsession",
+          "url": "https://www.strem.io/s/movie/obsession-37287335"
+        },
+        {
+          "category": "Genres",
+          "name": "Horror",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Horror"
+        },
+        {
+          "category": "Genres",
+          "name": "Thriller",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Thriller"
+        },
+        {
+          "category": "Cast",
+          "name": "Michael Johnston",
+          "url": "stremio:///search?search=Michael%20Johnston"
+        },
+        {
+          "category": "Cast",
+          "name": "Inde Navarrette",
+          "url": "stremio:///search?search=Inde%20Navarrette"
+        },
+        {
+          "category": "Cast",
+          "name": "Cooper Tomlinson",
+          "url": "stremio:///search?search=Cooper%20Tomlinson"
+        },
+        {
+          "category": "Writers",
+          "name": "Curry Barker",
+          "url": "stremio:///search?search=Curry%20Barker"
+        },
+        {
+          "category": "Directors",
+          "name": "Curry Barker",
+          "url": "stremio:///search?search=Curry%20Barker"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt37287335/img",
+      "moviedb_id": 1339713,
+      "name": "Obsession",
+      "popularities": {
+        "moviedb": 133.5542,
+        "stremio": 4.451806666666667,
+        "stremio_lib": 0,
+        "trakt": 251
+      },
+      "popularity": 4.451806666666667,
+      "poster": "https://images.metahub.space/poster/small/tt37287335/img",
+      "releaseInfo": "2026",
+      "released": "2026-05-15T00:00:00.000Z",
+      "runtime": "109 min",
+      "slug": "movie/obsession-37287335",
+      "trailerStreams": [
+        {
+          "title": "Obsession",
+          "ytId": "gMC8kkwbIQQ"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "gMC8kkwbIQQ",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Curry Barker"
+      ],
+      "year": "2026"
+    },
+    {
+      "awards": "16 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt26657236/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt26657236",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Chiwetel Ejiofor",
+        "Renate Reinsve",
+        "Mark Duplass"
+      ],
+      "country": "United States, Canada",
+      "description": "Clark, an angry architect, chases the source of impossible power failures when a glowing gap opens in his basement, but the yellow maze beyond it threatens his sanity, his friends, and Mary.",
+      "director": [
+        "Kane Parsons"
+      ],
+      "genre": [
+        "Horror",
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "genres": [
+        "Horror",
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "id": "tt26657236",
+      "imdbRating": "6.7",
+      "imdb_id": "tt26657236",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.7",
+          "url": "https://imdb.com/title/tt26657236"
+        },
+        {
+          "category": "share",
+          "name": "Backrooms",
+          "url": "https://www.strem.io/s/movie/backrooms-26657236"
+        },
+        {
+          "category": "Genres",
+          "name": "Horror",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Horror"
+        },
+        {
+          "category": "Genres",
+          "name": "Sci-Fi",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Sci-Fi"
+        },
+        {
+          "category": "Genres",
+          "name": "Thriller",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Thriller"
+        },
+        {
+          "category": "Cast",
+          "name": "Chiwetel Ejiofor",
+          "url": "stremio:///search?search=Chiwetel%20Ejiofor"
+        },
+        {
+          "category": "Cast",
+          "name": "Renate Reinsve",
+          "url": "stremio:///search?search=Renate%20Reinsve"
+        },
+        {
+          "category": "Cast",
+          "name": "Mark Duplass",
+          "url": "stremio:///search?search=Mark%20Duplass"
+        },
+        {
+          "category": "Writers",
+          "name": "Will Soodik",
+          "url": "stremio:///search?search=Will%20Soodik"
+        },
+        {
+          "category": "Writers",
+          "name": "Kane Parsons",
+          "url": "stremio:///search?search=Kane%20Parsons"
+        },
+        {
+          "category": "Directors",
+          "name": "Kane Parsons",
+          "url": "stremio:///search?search=Kane%20Parsons"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt26657236/img",
+      "moviedb_id": 1083381,
+      "name": "Backrooms",
+      "popularities": {
+        "moviedb": 86.7032,
+        "stremio": 2.8901066666666666,
+        "stremio_lib": 0,
+        "trakt": 190
+      },
+      "popularity": 2.8901066666666666,
+      "poster": "https://images.metahub.space/poster/small/tt26657236/img",
+      "releaseInfo": "2026",
+      "released": "2026-05-29T00:00:00.000Z",
+      "runtime": "111 min",
+      "slug": "movie/backrooms-26657236",
+      "trailerStreams": [
+        {
+          "title": "Backrooms",
+          "ytId": "0HjdiohVOik"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "0HjdiohVOik",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Will Soodik",
+        "Kane Parsons"
+      ],
+      "year": "2026"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt36983905/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt36983905",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Andrew Garfield",
+        "Jamie Bell",
+        "Stephen Dillane"
+      ],
+      "country": "United Kingdom, Germany, United States",
+      "description": "Based on the true story of the uprising that inspired the legend of Robin Hood, Andrew Garfield stars as the leader of a rebellion against the tyranny of King Richard II in a fight for justice.",
+      "director": [
+        "Paul Greengrass"
+      ],
+      "genre": [
+        "Action",
+        "Drama",
+        "History"
+      ],
+      "genres": [
+        "Action",
+        "Drama",
+        "History"
+      ],
+      "id": "tt36983905",
+      "imdbRating": "",
+      "imdb_id": "tt36983905",
+      "links": [
+        {
+          "category": "share",
+          "name": "The Uprising",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Action",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Action"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "History",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=History"
+        },
+        {
+          "category": "Cast",
+          "name": "Andrew Garfield",
+          "url": "stremio:///search?search=Andrew%20Garfield"
+        },
+        {
+          "category": "Cast",
+          "name": "Jamie Bell",
+          "url": "stremio:///search?search=Jamie%20Bell"
+        },
+        {
+          "category": "Cast",
+          "name": "Stephen Dillane",
+          "url": "stremio:///search?search=Stephen%20Dillane"
+        },
+        {
+          "category": "Writers",
+          "name": "Paul Greengrass",
+          "url": "stremio:///search?search=Paul%20Greengrass"
+        },
+        {
+          "category": "Directors",
+          "name": "Paul Greengrass",
+          "url": "stremio:///search?search=Paul%20Greengrass"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt36983905/img",
+      "moviedb_id": 977942,
+      "name": "The Uprising",
+      "popularities": {
+        "moviedb": 119.8056,
+        "stremio": 3.99352,
+        "stremio_lib": 0,
+        "trakt": 329
+      },
+      "popularity": 3.99352,
+      "poster": "https://images.metahub.space/poster/small/tt36983905/img",
+      "releaseInfo": "2026",
+      "released": "2026-09-11T00:00:00.000Z",
+      "runtime": "128 min",
+      "slug": "movie/the-uprising-36983905",
+      "trailerStreams": [
+        {
+          "title": "The Uprising",
+          "ytId": "lyhCxZN4Ro8"
+        },
+        {
+          "title": "The Uprising",
+          "ytId": "ZVkrhHebz1Q"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "lyhCxZN4Ro8",
+          "type": "Trailer"
+        },
+        {
+          "source": "ZVkrhHebz1Q",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Paul Greengrass"
+      ],
+      "year": "2026"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt32393988/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt32393988",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Amelia Eve",
+        "Island Austin",
+        "Lin Shaye"
+      ],
+      "country": "Australia, United States",
+      "description": "Gemma, a young mother raising her daughter in the house she grew up in, discovers she can travel into The Further, where she possesses an ability to bring what lives there back to the real world.",
+      "director": [
+        "Jacob Chase"
+      ],
+      "genre": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "id": "tt32393988",
+      "imdbRating": "6.2",
+      "imdb_id": "tt32393988",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.2",
+          "url": "https://imdb.com/title/tt32393988"
+        },
+        {
+          "category": "share",
+          "name": "Insidious: Out of the Further",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Horror",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Horror"
+        },
+        {
+          "category": "Genres",
+          "name": "Mystery",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Mystery"
+        },
+        {
+          "category": "Genres",
+          "name": "Thriller",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Thriller"
+        },
+        {
+          "category": "Cast",
+          "name": "Amelia Eve",
+          "url": "stremio:///search?search=Amelia%20Eve"
+        },
+        {
+          "category": "Cast",
+          "name": "Island Austin",
+          "url": "stremio:///search?search=Island%20Austin"
+        },
+        {
+          "category": "Cast",
+          "name": "Lin Shaye",
+          "url": "stremio:///search?search=Lin%20Shaye"
+        },
+        {
+          "category": "Writers",
+          "name": "Jacob Chase",
+          "url": "stremio:///search?search=Jacob%20Chase"
+        },
+        {
+          "category": "Writers",
+          "name": "David Leslie Johnson-McGoldrick",
+          "url": "stremio:///search?search=David%20Leslie%20Johnson-McGoldrick"
+        },
+        {
+          "category": "Writers",
+          "name": "Leigh Whannell",
+          "url": "stremio:///search?search=Leigh%20Whannell"
+        },
+        {
+          "category": "Directors",
+          "name": "Jacob Chase",
+          "url": "stremio:///search?search=Jacob%20Chase"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt32393988/img",
+      "moviedb_id": 1291595,
+      "name": "Insidious: Out of the Further",
+      "popularities": {
+        "moviedb": 533.378,
+        "stremio": 9.563573333333332,
+        "stremio_lib": 0,
+        "trakt": 468
+      },
+      "popularity": 9.563573333333332,
+      "poster": "https://images.metahub.space/poster/small/tt32393988/img",
+      "releaseInfo": "2026",
+      "released": "2026-08-21T00:00:00.000Z",
+      "runtime": "106 min",
+      "slug": "movie/insidious-out-of-the-further-32393988",
+      "trailerStreams": [
+        {
+          "title": "Insidious: Out of the Further",
+          "ytId": "gXjurDkYnEM"
+        },
+        {
+          "title": "Insidious: Out of the Further",
+          "ytId": "jxU8FU3o75A"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "gXjurDkYnEM",
+          "type": "Trailer"
+        },
+        {
+          "source": "jxU8FU3o75A",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Jacob Chase",
+        "David Leslie Johnson-McGoldrick",
+        "Leigh Whannell"
+      ],
+      "year": "2026"
+    },
+    {
+      "background": "https://images.metahub.space/background/medium/tt22526100/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt22526100",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Lili Reinhart",
+        "Tom Bateman",
+        "Rachel Marsh"
+      ],
+      "country": "United States",
+      "description": "After an impulsive kiss, two scientists end up in a fake relationship, testing their theories about love and each other.",
+      "director": [
+        "Claire Scanlon"
+      ],
+      "genre": [
+        "Comedy",
+        "Romance"
+      ],
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "id": "tt22526100",
+      "imdbRating": "",
+      "imdb_id": "tt22526100",
+      "links": [
+        {
+          "category": "share",
+          "name": "The Love Hypothesis",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Comedy",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Comedy"
+        },
+        {
+          "category": "Genres",
+          "name": "Romance",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Romance"
+        },
+        {
+          "category": "Cast",
+          "name": "Lili Reinhart",
+          "url": "stremio:///search?search=Lili%20Reinhart"
+        },
+        {
+          "category": "Cast",
+          "name": "Tom Bateman",
+          "url": "stremio:///search?search=Tom%20Bateman"
+        },
+        {
+          "category": "Cast",
+          "name": "Rachel Marsh",
+          "url": "stremio:///search?search=Rachel%20Marsh"
+        },
+        {
+          "category": "Writers",
+          "name": "Ali Hazelwood",
+          "url": "stremio:///search?search=Ali%20Hazelwood"
+        },
+        {
+          "category": "Writers",
+          "name": "Sarah Rothschild",
+          "url": "stremio:///search?search=Sarah%20Rothschild"
+        },
+        {
+          "category": "Directors",
+          "name": "Claire Scanlon",
+          "url": "stremio:///search?search=Claire%20Scanlon"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt22526100/img",
+      "moviedb_id": 1032863,
+      "name": "The Love Hypothesis",
+      "popularities": {
+        "moviedb": 106.6841,
+        "stremio": 3.5561366666666667,
+        "stremio_lib": 0,
+        "trakt": 306
+      },
+      "popularity": 3.5561366666666667,
+      "poster": "https://images.metahub.space/poster/small/tt22526100/img",
+      "releaseInfo": "2026",
+      "released": "2026-09-23T00:00:00.000Z",
+      "runtime": "112 min",
+      "slug": "movie/the-love-hypothesis-22526100",
+      "trailerStreams": [
+        {
+          "title": "The Love Hypothesis",
+          "ytId": "xwdamnfS6IM"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "xwdamnfS6IM",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Ali Hazelwood",
+        "Sarah Rothschild"
+      ],
+      "year": "2026"
+    },
+    {
+      "awards": "1 win & 11 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt27543632/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt27543632",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Sydney Sweeney",
+        "Amanda Seyfried",
+        "Brandon Sklenar"
+      ],
+      "country": "United States, Canada",
+      "description": "Millie a struggling young woman becomes live-in maid for a wealthy couple Nina and Andrew. She enters a mansion of secrets, manipulation, and escalating psychological games that pull her into a dangerous relationship dynamic.",
+      "director": [
+        "Paul Feig"
+      ],
+      "genre": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "id": "tt27543632",
+      "imdbRating": "6.7",
+      "imdb_id": "tt27543632",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "6.7",
+          "url": "https://imdb.com/title/tt27543632"
+        },
+        {
+          "category": "share",
+          "name": "The Housemaid",
+          "url": "https://www.strem.io/s/movie/REDACTED"
+        },
+        {
+          "category": "Genres",
+          "name": "Drama",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Drama"
+        },
+        {
+          "category": "Genres",
+          "name": "Mystery",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Mystery"
+        },
+        {
+          "category": "Genres",
+          "name": "Thriller",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Thriller"
+        },
+        {
+          "category": "Cast",
+          "name": "Sydney Sweeney",
+          "url": "stremio:///search?search=Sydney%20Sweeney"
+        },
+        {
+          "category": "Cast",
+          "name": "Amanda Seyfried",
+          "url": "stremio:///search?search=Amanda%20Seyfried"
+        },
+        {
+          "category": "Cast",
+          "name": "Brandon Sklenar",
+          "url": "stremio:///search?search=Brandon%20Sklenar"
+        },
+        {
+          "category": "Writers",
+          "name": "Rebecca Sonnenshine",
+          "url": "stremio:///search?search=Rebecca%20Sonnenshine"
+        },
+        {
+          "category": "Writers",
+          "name": "Freida McFadden",
+          "url": "stremio:///search?search=Freida%20McFadden"
+        },
+        {
+          "category": "Directors",
+          "name": "Paul Feig",
+          "url": "stremio:///search?search=Paul%20Feig"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt27543632/img",
+      "moviedb_id": 1368166,
+      "name": "The Housemaid",
+      "popularities": {
+        "moviedb": 50.2203,
+        "stremio": 1.67401,
+        "stremio_lib": 0,
+        "trakt": 117
+      },
+      "popularity": 1.67401,
+      "poster": "https://images.metahub.space/poster/small/tt27543632/img",
+      "releaseInfo": "2025",
+      "released": "2025-12-19T00:00:00.000Z",
+      "runtime": "131 min",
+      "slug": "movie/the-housemaid-27543632",
+      "trailerStreams": [
+        {
+          "title": "The Housemaid",
+          "ytId": "BqWH0KDqm3U"
+        },
+        {
+          "title": "The Housemaid",
+          "ytId": "ZvFmElCcKVg"
+        },
+        {
+          "title": "The Housemaid",
+          "ytId": "48CtX6OgU3s"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "BqWH0KDqm3U",
+          "type": "Trailer"
+        },
+        {
+          "source": "ZvFmElCcKVg",
+          "type": "Trailer"
+        },
+        {
+          "source": "48CtX6OgU3s",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "writer": [
+        "Rebecca Sonnenshine",
+        "Freida McFadden"
+      ],
+      "year": "2025"
+    },
+    {
+      "awards": "Nominated for 2 Oscars. 6 wins & 9 nominations total",
+      "background": "https://images.metahub.space/background/medium/tt0074285/img",
+      "behaviorHints": {
+        "defaultVideoId": "tt0074285",
+        "hasScheduledVideos": false
+      },
+      "cast": [
+        "Sissy Spacek",
+        "Piper Laurie",
+        "Amy Irving"
+      ],
+      "country": "United States",
+      "description": "A social misfit with psychic powers turns prom night into Hell on Earth.",
+      "director": [
+        "Brian De Palma"
+      ],
+      "dvdRelease": "2015-08-27T00:00:00.000Z",
+      "genre": [
+        "Horror"
+      ],
+      "genres": [
+        "Horror"
+      ],
+      "id": "tt0074285",
+      "imdbRating": "7.4",
+      "imdb_id": "tt0074285",
+      "links": [
+        {
+          "category": "imdb",
+          "name": "7.4",
+          "url": "https://imdb.com/title/tt0074285"
+        },
+        {
+          "category": "share",
+          "name": "Carrie",
+          "url": "https://www.strem.io/s/movie/carrie-0074285"
+        },
+        {
+          "category": "Genres",
+          "name": "Horror",
+          "url": "stremio:///discover/https%3A%2F%2Fv3-cinemeta.strem.io%2Fmanifest.json/movie/top?genre=Horror"
+        },
+        {
+          "category": "Cast",
+          "name": "Sissy Spacek",
+          "url": "stremio:///search?search=Sissy%20Spacek"
+        },
+        {
+          "category": "Cast",
+          "name": "Piper Laurie",
+          "url": "stremio:///search?search=Piper%20Laurie"
+        },
+        {
+          "category": "Cast",
+          "name": "Amy Irving",
+          "url": "stremio:///search?search=Amy%20Irving"
+        },
+        {
+          "category": "Writers",
+          "name": "Stephen King",
+          "url": "stremio:///search?search=Stephen%20King"
+        },
+        {
+          "category": "Writers",
+          "name": "Lawrence D. Cohen",
+          "url": "stremio:///search?search=Lawrence%20D.%20Cohen"
+        },
+        {
+          "category": "Directors",
+          "name": "Brian De Palma",
+          "url": "stremio:///search?search=Brian%20De%20Palma"
+        }
+      ],
+      "logo": "https://images.metahub.space/logo/medium/tt0074285/img",
+      "moviedb_id": 7340,
+      "name": "Carrie",
+      "popularities": {
+        "moviedb": 29.6863,
+        "stremio": 0.9895433333333332,
+        "stremio_lib": 0,
+        "trakt": 97
+      },
+      "popularity": 0.9895433333333332,
+      "poster": "https://images.metahub.space/poster/small/tt0074285/img",
+      "releaseInfo": "1976",
+      "released": "1976-11-16T00:00:00.000Z",
+      "runtime": "98 min",
+      "slug": "movie/carrie-0074285",
+      "trailerStreams": [
+        {
+          "title": "Carrie",
+          "ytId": "zbdIXI1s3aU"
+        }
+      ],
+      "trailers": [
+        {
+          "source": "zbdIXI1s3aU",
+          "type": "Trailer"
+        }
+      ],
+      "type": "movie",
+      "videos": [],
+      "writer": [
+        "Stephen King",
+        "Lawrence D. Cohen"
+      ],
+      "year": "1976"
+    }
+  ],
+  "staleError": 3600,
+  "staleRevalidate": 3600
+}

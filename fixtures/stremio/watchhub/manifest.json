@@ -1,0 +1,18 @@
+{
+  "catalogs": [],
+  "description": "Find where to stream your favorite movies and shows amongst Netflix, iTunes, Hulu, Amazon, HBO GO and many others. Supports many countries.",
+  "id": "org.stremio.watchhub",
+  "idPrefixes": [
+    "tt"
+  ],
+  "logo": "https://www.strem.io/images/watchhub-logo.png",
+  "name": "WatchHub",
+  "resources": [
+    "stream"
+  ],
+  "types": [
+    "movie",
+    "series"
+  ],
+  "version": "1.15.0"
+}
