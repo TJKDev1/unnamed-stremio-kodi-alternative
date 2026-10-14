@@ -87,6 +87,8 @@ Scope (D64): Windows is tested end to end on the owner's PC. macOS and Linux pro
 - Same patches work over Tauri IPC and over WebSocket (remote core).
 - Verdict logged as a D#: patch format and encoding (MessagePack vs postcard vs other).
 
+Scope (D69): measured in WebView2 on the owner's PC and in headless Chromium 94 in CI (the C3 number comes from S2). Generic and typed diffs, each with JSON, MessagePack and postcard. Spike code lives in `spikes/s4-ipc/` (D65).
+
 **Tasks**
 - [ ] T0.S4.1 Define a toy view-model (home: rows of cards) and intent set in Rust.
 - [ ] T0.S4.2 Structural diff → patch list, batched per frame.
