@@ -1,0 +1,98 @@
+{
+  "addonCatalogs": [],
+  "behaviorHints": {
+    "configurable": true,
+    "configurationRequired": false
+  },
+  "catalogs": [
+    {
+      "extra": [
+        {
+          "name": "skip"
+        },
+        {
+          "name": "search"
+        },
+        {
+          "isRequired": false,
+          "name": "genre",
+          "options": [
+            "Date Added ↓",
+            "Date Added ↑",
+            "Title A-Z",
+            "Title Z-A",
+            "Actions"
+          ]
+        }
+      ],
+      "id": "0000000.aiostreams::library.torbox",
+      "name": "TorBox",
+      "type": "library"
+    }
+  ],
+  "description": "Custom AIOStreams powered by Tamtaro SEL Setup v2.6.1. Features advanced filtering with Stream Expression Language and smart sorting with Vidhin's Regex Patterns. Your personal all-in-one setup for the perfect Stremio experience.",
+  "id": "aiostreams-nightly.viren070.com.REDACTED",
+  "logo": "https://raw.githubusercontent.com/Tam-Taro/SEL-Filtering-and-Sorting/refs/heads/main/logo/aios.png",
+  "name": "AIOStreams",
+  "resources": [
+    {
+      "idPrefixes": [
+        "tt",
+        "imdb",
+        "mal",
+        "tvdb",
+        "tmdb",
+        "kitsu",
+        "aiostreams::library.torbox",
+        "meteor:",
+        "anilist",
+        "anidb"
+      ],
+      "name": "stream",
+      "types": [
+        "movie",
+        "series",
+        "anime",
+        "library",
+        "other"
+      ]
+    },
+    {
+      "name": "catalog",
+      "types": [
+        "library"
+      ]
+    },
+    {
+      "idPrefixes": [
+        "aiostreams::library.torbox",
+        "aiostreamserror"
+      ],
+      "name": "meta",
+      "types": [
+        "library"
+      ]
+    },
+    {
+      "idPrefixes": [
+        "tt",
+        "kitsu"
+      ],
+      "name": "subtitles",
+      "types": [
+        "movie",
+        "series",
+        "subtitles"
+      ]
+    }
+  ],
+  "types": [
+    "movie",
+    "series",
+    "anime",
+    "library",
+    "other",
+    "subtitles"
+  ],
+  "version": "2.36.0"
+}
