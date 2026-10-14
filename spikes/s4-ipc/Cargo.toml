@@ -1,0 +1,13 @@
+# Spike S4: core <-> UI IPC. Throwaway code (D65): its own workspace, outside the main one.
+[workspace]
+resolver = "3"
+members = ["core", "shell"]
+
+[workspace.package]
+version = "0.0.0"
+edition = "2024"
+license = "GPL-3.0-or-later"
+publish = false
+
+[profile.release]
+debug = 1

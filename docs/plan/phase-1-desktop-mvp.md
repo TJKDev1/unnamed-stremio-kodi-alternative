@@ -42,7 +42,7 @@ After M1.3 the order of M1.4–M1.12 is flexible; pick whatever hurts most in da
 
 **Tasks**
 - [ ] T1.1.1 Write the [kernel-and-modules](../specs/kernel-and-modules.md) and [slots](../specs/slots.md) specs (stub → draft).
-- [ ] T1.1.2 `sdk-schema`: IDL → Rust traits + TS types (pick the tool: e.g. JSON Schema + typify/ts generation).
+- [ ] T1.1.2 `sdk-schema`: IDL → Rust traits + TS types (pick the tool: e.g. JSON Schema + typify/ts generation). Also generates each view-model's typed diff (Rust), op types and apply (TS) (D70).
 - [ ] T1.1.3 Kernel: module manifest, lifecycle, dependency resolution, lazy start, "disabled = never initialised".
 - [ ] T1.1.4 Slot registry: single / multi / pipeline slots; required slots must keep a provider.
 - [ ] T1.1.5 Event bus ("tell") and slot calls ("ask"); no module-to-module calls.

@@ -1,0 +1,15 @@
+[package]
+name = "s4-shell"
+description = "Spike S4: Tauri v2 shell running the IPC benchmark over Tauri IPC and WebSocket. Throwaway code (D65)."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+s4-core = { path = "../core" }
+tauri = { version = "2", features = [] }
+serde_json = "1"

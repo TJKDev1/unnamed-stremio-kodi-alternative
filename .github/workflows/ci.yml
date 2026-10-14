@@ -98,3 +98,71 @@ jobs:
         with:
           workspaces: spikes/s1-shell
       - run: cargo build --locked
+
+  spike-s4:
+    name: Spike S4 IPC (${{ matrix.os }})
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, macos-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        working-directory: spikes/s4-ipc
+    steps:
+      - uses: actions/checkout@v7
+      - run: rustup show active-toolchain || rustup toolchain install
+      - if: runner.os == 'Linux'
+        run: sudo apt-get update && sudo apt-get install -y libwebkit2gtk-4.1-dev libxdo-dev libssl-dev librsvg2-dev
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: spikes/s4-ipc
+      # The shell embeds the built page (Tauri's generate_context! needs web/dist).
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .node-version
+          cache: pnpm
+          cache-dependency-path: spikes/s4-ipc/web/pnpm-lock.yaml
+      - run: pnpm install --frozen-lockfile && pnpm build
+        working-directory: spikes/s4-ipc/web
+      - run: cargo build --locked
+      - run: cargo test --locked -p s4-core
+
+  # The IPC benchmark in a real Chromium 94 (D14, D69): every scenario × diff × encoding over
+  # WebSocket, plus decode + apply alone. Fails only if a run's final view-model differs from
+  # the core's; the timings go to the job summary (CI runners are too noisy to gate on).
+  spike-s4-chromium94:
+    name: Spike S4 bench (Chromium 94)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - run: rustup show active-toolchain || rustup toolchain install
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: spikes/s4-ipc
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .node-version
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - uses: actions/cache@v6
+        with:
+          path: .cache/browsers
+          key: chromium94-911494-${{ runner.os }}
+      - run: pnpm chromium94:install
+      - run: pnpm install --frozen-lockfile && pnpm build
+        working-directory: spikes/s4-ipc/web
+      - run: >
+          cargo run --locked --release -p s4-core --bin serve --
+          --browser "$GITHUB_WORKSPACE/.cache/browsers/chromium/linux-911494/chrome-linux/chrome"
+          --results "$GITHUB_WORKSPACE/.cache/s4-results/chromium94.json"
+          | tee -a "$GITHUB_STEP_SUMMARY"
+        working-directory: spikes/s4-ipc
+      - if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: s4-chromium94-results
+          path: .cache/s4-results/
+          if-no-files-found: ignore

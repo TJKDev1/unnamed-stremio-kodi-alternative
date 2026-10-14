@@ -8,7 +8,7 @@
 │   default skin · user skins · themes (tokens) · sandboxed UI mods    │
 │   focus engine · input mapper                                        │
 └──────────────▲───────────────────────────────────┬───────────────────┘
-               │ view-model patches (binary IPC)   │ actions / intents
+               │ view-model patches (IPC, D70-72)  │ actions / intents
 ┌──────────────┴───────────────────────────────────▼───────────────────┐
 │  CORE (Rust kernel + built-in modules) — native or WASM              │
 │  ┌────────────┐ ┌─────────────┐ ┌──────────────┐ ┌────────────────┐  │
@@ -105,7 +105,7 @@ You're right that "web" brings bottlenecks. The plan is to keep the webview doin
 | Big DOM trees | Virtualized rows and grids with **DOM node recycling**. A row of 100 posters keeps about 12 nodes alive. |
 | Layout thrash and jank | Animate only `transform`/`opacity`. Use `contain: layout paint` on cards and rows. No layout reads in animation frames. |
 | Image decode stalls | The core's image service **resizes posters to the exact card size**, caches them on disk, serves WebP/AVIF, and pre-warms the next row. The UI uses `decoding="async"` with fixed aspect boxes. |
-| IPC overhead between core and UI | Patches are batched per frame (structural diffs of view-models, encoded with MessagePack or postcard). No JSON round-trip per item. |
+| IPC overhead between core and UI | One patch per frame: typed ops generated from the view-model schema (keyed list edits + per-field sets), JSON-encoded (D70, D71). Measured in S4: 1.4–1.8 ms p95 end to end over Tauri IPC at typical load. |
 | Startup time | Render the last-known home screen from a snapshot immediately, then hydrate. |
 | Old Chromium on TVs | Baseline is **Chromium 94** (LG C3 / webOS 23; see the webOS section below). Build targets cover it, no bleeding-edge CSS in the default skin, and skins declare a minimum engine. |
 | Mods slowing everything down | Mod code runs in a Worker or WASM, never on the main thread. Mods render via declarative templates, and each has a CPU/time budget ([05](05-theming-and-modding.md)). |
