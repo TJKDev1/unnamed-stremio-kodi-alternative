@@ -22,6 +22,15 @@ jobs:
       - run: rustup show active-toolchain || rustup toolchain install
       - run: cargo fmt --all --check
 
+  licenses:
+    name: License policy (D37, D59)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - run: rustup show active-toolchain || rustup toolchain install
+      - uses: Swatinem/rust-cache@v2
+      - run: cargo xtask check-licenses
+
   rust:
     name: Rust (${{ matrix.os }})
     strategy:
