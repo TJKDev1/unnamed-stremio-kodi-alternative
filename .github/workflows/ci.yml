@@ -117,6 +117,15 @@ jobs:
       - uses: Swatinem/rust-cache@v2
         with:
           workspaces: spikes/s4-ipc
+      # The shell embeds the built page (Tauri's generate_context! needs web/dist).
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .node-version
+          cache: pnpm
+          cache-dependency-path: spikes/s4-ipc/web/pnpm-lock.yaml
+      - run: pnpm install --frozen-lockfile && pnpm build
+        working-directory: spikes/s4-ipc/web
       - run: cargo build --locked
       - run: cargo test --locked -p s4-core
 
